@@ -1,0 +1,25 @@
+{
+  "version": 1,
+  "skills": {
+    "summarize": {
+      "version": "1.0.0",
+      "installedAt": 1774367502431
+    },
+    "github": {
+      "version": "1.0.0",
+      "installedAt": 1774368144692
+    },
+    "gog": {
+      "version": "1.0.0",
+      "installedAt": 1775147657300
+    },
+    "session-logs": {
+      "version": "1.0.0",
+      "installedAt": 1774368206913
+    },
+    "proactive-agent": {
+      "version": "3.1.0",
+      "installedAt": 1775147660162
+    }
+  }
+}

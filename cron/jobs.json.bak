@@ -1,0 +1,70 @@
+{
+  "version": 1,
+  "jobs": [
+    {
+      "id": "1c3a7bd5-d835-41d8-a14a-d2970f13d503",
+      "name": "daily-backup",
+      "enabled": true,
+      "createdAtMs": 1774507489594,
+      "updatedAtMs": 1775001708841,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 0 * * *",
+        "staggerMs": 0
+      },
+      "sessionTarget": "isolated",
+      "wakeMode": "now",
+      "payload": {
+        "kind": "agentTurn",
+        "message": "执行备份：cd ~/.openclaw && git add -A && git commit -m \"auto backup $(date +\\%Y-\\%m-\\%d)\" && git push && echo \"备份完成\""
+      },
+      "delivery": {
+        "mode": "inline"
+      },
+      "state": {
+        "nextRunAtMs": 1775088000000,
+        "lastRunAtMs": 1775001600005,
+        "lastRunStatus": "error",
+        "lastStatus": "error",
+        "lastDurationMs": 108836,
+        "lastDeliveryStatus": "unknown",
+        "consecutiveErrors": 3,
+        "lastError": "Channel is required when multiple channels are configured: feishu, openclaw-weixin Set delivery.channel explicitly or use a main session with a previous channel."
+      }
+    },
+    {
+      "id": "config-backup-8am",
+      "name": "config-backup-8am",
+      "enabled": true,
+      "createdAtMs": 1774843680000,
+      "updatedAtMs": 1775030506993,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 8 * * *",
+        "staggerMs": 0
+      },
+      "sessionTarget": "isolated",
+      "wakeMode": "now",
+      "payload": {
+        "kind": "agentTurn",
+        "message": "备份 openclaw.json：cp ~/.openclaw/openclaw.json ~/.openclaw/openclaw.json.backup-$(date +%Y%m%d) && echo \"openclaw.json 备份完成 $(date)\""
+      },
+      "delivery": {
+        "mode": "announce",
+        "channel": "feishu",
+        "to": "user:ou_cb5c7afa7e77cafdeaeae1620a2a383a",
+        "accountId": "lucus"
+      },
+      "state": {
+        "nextRunAtMs": 1775116800000,
+        "lastRunAtMs": 1775030400003,
+        "lastRunStatus": "ok",
+        "lastStatus": "ok",
+        "lastDurationMs": 106990,
+        "lastDeliveryStatus": "delivered",
+        "consecutiveErrors": 0,
+        "lastDelivered": true
+      }
+    }
+  ]
+}

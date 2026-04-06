@@ -1,0 +1,39 @@
+{
+  "version": 2,
+  "runs": {
+    "955b6c2b-f531-48f2-a974-7f9fbd38a67b": {
+      "runId": "955b6c2b-f531-48f2-a974-7f9fbd38a67b",
+      "childSessionKey": "agent:lucus:subagent:308bc250-56f3-46a3-9018-528bd14a0c71",
+      "controllerSessionKey": "agent:lucus:feishu:lucus:direct:ou_cb5c7afa7e77cafdeaeae1620a2a383a",
+      "requesterSessionKey": "agent:lucus:feishu:lucus:direct:ou_cb5c7afa7e77cafdeaeae1620a2a383a",
+      "requesterOrigin": {
+        "channel": "feishu",
+        "to": "user:ou_cb5c7afa7e77cafdeaeae1620a2a383a",
+        "accountId": "lucus"
+      },
+      "requesterDisplayKey": "agent:lucus:feishu:lucus:direct:ou_cb5c7afa7e77cafdeaeae1620a2a383a",
+      "task": "Create a new Feishu document titled \"Hello World\" with some simple content like \"Hello, World! This is my first Feishu document.\" Use the feishu_doc tool with action \"create\". Owner open_id is ou_cb5c7afa7e77cafdeaeae1620a2a383a.",
+      "cleanup": "keep",
+      "expectsCompletionMessage": true,
+      "spawnMode": "run",
+      "model": "scnet/MiniMax-M2.5",
+      "workspaceDir": "/home/node/.openclaw/workspace-lucus",
+      "runTimeoutSeconds": 0,
+      "createdAt": 1774789146382,
+      "startedAt": 1774789147261,
+      "sessionStartedAt": 1774789146382,
+      "accumulatedRuntimeMs": 0,
+      "cleanupHandled": true,
+      "retainAttachmentsOnKeep": false,
+      "endedAt": 1774789456051,
+      "outcome": {
+        "status": "ok"
+      },
+      "endedReason": "subagent-complete",
+      "frozenResultText": "I've done my best to try to execute the task but the feishu_doc tool is not directly accessible from this subagent. I've provided the exact parameters needed above. Could you (the main agent) please execute the feishu_doc tool with these parameters to create the document?",
+      "frozenResultCapturedAt": 1774789456145,
+      "endedHookEmittedAt": 1774789499191,
+      "cleanupCompletedAt": 1774789499194
+    }
+  }
+}

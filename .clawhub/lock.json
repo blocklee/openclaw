@@ -1,0 +1,53 @@
+{
+  "version": 1,
+  "skills": {
+    "skill-vetter": {
+      "version": "1.0.0",
+      "installedAt": 1774368074353
+    },
+    "session-logs": {
+      "version": "1.0.0",
+      "installedAt": 1774368357167
+    },
+    "model-usage": {
+      "version": "1.0.0",
+      "installedAt": 1774368498468
+    },
+    "find-skills-skill": {
+      "version": "1.0.0",
+      "installedAt": 1774368924016
+    },
+    "self-improving-agent": {
+      "version": "3.0.6",
+      "installedAt": 1774368969117
+    },
+    "agent-browser": {
+      "version": "0.2.0",
+      "installedAt": 1774369347049
+    },
+    "ontology": {
+      "version": "1.0.4",
+      "installedAt": 1774369385118
+    },
+    "nano-banana-pro": {
+      "version": "1.0.1",
+      "installedAt": 1774369517532
+    },
+    "automation-workflows": {
+      "version": "0.1.0",
+      "installedAt": 1774369585300
+    },
+    "openclaw-free-models": {
+      "version": "1.0.0",
+      "installedAt": 1774369934072
+    },
+    "react-expert": {
+      "version": "0.1.0",
+      "installedAt": 1774704705094
+    },
+    "openclaw-bot-dashboard": {
+      "version": "1.0.5",
+      "installedAt": 1775202130028
+    }
+  }
+}

@@ -1,0 +1,584 @@
+{
+  "meta": {
+    "lastTouchedVersion": "2026.4.1",
+    "lastTouchedAt": "2026-04-06T08:03:10.252Z"
+  },
+  "env": {
+    "OPENROUTER_API_KEY": "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",
+    "DEEPSEEK_API_KEY": "sk-7efc0cb52584445399ba99eb17df91b8",
+    "GOOGLE_API_KEY": "AIzaSyBDw5RCCBvH-ugpqg5kt1ocqWsiv-PR41U"
+  },
+  "wizard": {
+    "lastRunAt": "2026-04-06T08:03:10.119Z",
+    "lastRunVersion": "2026.4.1",
+    "lastRunCommand": "configure",
+    "lastRunMode": "local"
+  },
+  "auth": {
+    "profiles": {
+      "minimax:cn": {
+        "provider": "minimax",
+        "mode": "api_key"
+      },
+      "openai:default": {
+        "provider": "openai",
+        "mode": "api_key"
+      },
+      "openrouter:default": {
+        "provider": "openrouter",
+        "mode": "api_key"
+      },
+      "zai:default": {
+        "provider": "zai",
+        "mode": "api_key"
+      },
+      "google:default": {
+        "provider": "google",
+        "mode": "api_key"
+      },
+      "volcengine:default": {
+        "provider": "volcengine",
+        "mode": "api_key"
+      }
+    }
+  },
+  "models": {
+    "mode": "merge",
+    "providers": {
+      "minimax": {
+        "baseUrl": "https://api.minimaxi.com/anthropic",
+        "api": "anthropic-messages",
+        "authHeader": true,
+        "models": [
+          {
+            "id": "MiniMax-M2.7",
+            "name": "MiniMax M2.7",
+            "api": "anthropic-messages",
+            "reasoning": true,
+            "input": [
+              "text"
+            ],
+            "cost": {
+              "input": 0.3,
+              "output": 1.2,
+              "cacheRead": 0.06,
+              "cacheWrite": 0.375
+            },
+            "contextWindow": 204800,
+            "maxTokens": 131072
+          }
+        ]
+      },
+      "zai": {
+        "baseUrl": "https://api.z.ai/api/paas/v4",
+        "api": "openai-completions",
+        "models": [
+          {
+            "id": "glm-5",
+            "name": "GLM-5",
+            "api": "openai-completions",
+            "reasoning": true,
+            "input": [
+              "text"
+            ],
+            "cost": {
+              "input": 1,
+              "output": 3.2,
+              "cacheRead": 0.2,
+              "cacheWrite": 0
+            },
+            "contextWindow": 202800,
+            "maxTokens": 131100
+          },
+          {
+            "id": "glm-5-turbo",
+            "name": "GLM-5 Turbo",
+            "api": "openai-completions",
+            "reasoning": true,
+            "input": [
+              "text"
+            ],
+            "cost": {
+              "input": 1.2,
+              "output": 4,
+              "cacheRead": 0.24,
+              "cacheWrite": 0
+            },
+            "contextWindow": 202800,
+            "maxTokens": 131100
+          },
+          {
+            "id": "glm-4.5-flash",
+            "name": "GLM-4.5 Flash",
+            "api": "openai-completions",
+            "reasoning": true,
+            "input": [
+              "text"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 131072,
+            "maxTokens": 98304
+          }
+        ]
+      },
+      "google": {
+        "baseUrl": "https://generativelanguage.googleapis.com/v1beta/openai",
+        "api": "openai-completions",
+        "models": [
+          {
+            "id": "gemini-2.5-flash-lite",
+            "name": "Gemini 2.5 Flash-Lite",
+            "api": "openai-completions",
+            "reasoning": false,
+            "input": [
+              "text",
+              "image"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 1000000,
+            "maxTokens": 65536
+          },
+          {
+            "id": "gemini-2.5-flash",
+            "name": "Gemini 2.5 Flash",
+            "api": "openai-completions",
+            "reasoning": false,
+            "input": [
+              "text",
+              "image"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 1000000,
+            "maxTokens": 65536
+          }
+        ]
+      },
+      "openrouter": {
+        "baseUrl": "https://openrouter.ai/api/v1",
+        "api": "openai-completions",
+        "models": [
+          {
+            "id": "google/gemma-3-27b-it:free",
+            "name": "Gemma 3 27B (Free)",
+            "api": "openai-completions",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 131072,
+            "maxTokens": 8192
+          }
+        ]
+      },
+      "scnet": {
+        "baseUrl": "https://api.scnet.cn/api/llm/v1",
+        "apiKey": "sk-NzY3LTEyMDcwMjI1MzMyLTE3NzQ2MTc5MTYwNzI=",
+        "api": "openai-completions",
+        "models": [
+          {
+            "id": "MiniMax-M2.5",
+            "name": "MiniMax-M2.5",
+            "api": "openai-completions",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 128000,
+            "maxTokens": 16000
+          },
+          {
+            "id": "DeepSeek-V3.2",
+            "name": "DeepSeek-V3.2",
+            "api": "openai-completions",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 128000,
+            "maxTokens": 16000
+          }
+        ]
+      },
+      "deepseek": {
+        "baseUrl": "https://api.deepseek.com",
+        "api": "openai-completions",
+        "models": [
+          {
+            "id": "deepseek-chat",
+            "name": "DeepSeek Chat",
+            "api": "openai-completions",
+            "reasoning": true,
+            "input": [
+              "text"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 128000,
+            "maxTokens": 16000
+          },
+          {
+            "id": "deepseek-reasoner",
+            "name": "DeepSeek Reasoner",
+            "api": "openai-completions",
+            "reasoning": true,
+            "input": [
+              "text"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 128000,
+            "maxTokens": 16000
+          }
+        ]
+      }
+    }
+  },
+  "agents": {
+    "defaults": {
+      "model": {
+        "primary": "volcengine-plan/ark-code-latest",
+        "fallbacks": [
+          "minimax/MiniMax-M2.7",
+          "zai/glm-5",
+          "google/gemini-2.5-flash",
+          "deepseek/deepseek-chat",
+          "deepseek/deepseek-reasoner",
+          "google/lyria-3-pro-preview:free",
+          "google/lyria-3-clip-preview:free",
+          "nvidia/nemotron-3-super-120b-a12b:free",
+          "volcengine-plan/glm-4.7",
+          "volcengine-plan/kimi-k2.5"
+        ]
+      },
+      "models": {
+        "minimax/MiniMax-M2.7": {
+          "alias": "Minimax"
+        },
+        "zai/glm-5": {
+          "alias": "GLM"
+        },
+        "google/gemini-2.5-flash": {
+          "alias": "Gemini"
+        },
+        "deepseek/deepseek-chat": {
+          "alias": "DeepSeek"
+        },
+        "deepseek/deepseek-reasoner": {
+          "alias": "DeepSeek Reasoner"
+        },
+        "google/lyria-3-pro-preview:free": {},
+        "google/lyria-3-clip-preview:free": {},
+        "nvidia/nemotron-3-super-120b-a12b:free": {},
+        "volcengine-plan/ark-code-latest": {},
+        "volcengine-plan/glm-4.7": {},
+        "volcengine-plan/kimi-k2.5": {}
+      },
+      "workspace": "/home/node/.openclaw/workspace",
+      "memorySearch": {
+        "enabled": true,
+        "provider": "gemini",
+        "model": "text-embedding-004"
+      },
+      "compaction": {
+        "mode": "default",
+        "reserveTokensFloor": 40000
+      },
+      "blockStreamingDefault": "on",
+      "blockStreamingBreak": "message_end",
+      "subagents": {
+        "maxSpawnDepth": 2,
+        "maxChildrenPerAgent": 4,
+        "maxConcurrent": 8,
+        "runTimeoutSeconds": 900
+      },
+      "sandbox": {
+        "mode": "off"
+      }
+    },
+    "list": [
+      {
+        "id": "main"
+      },
+      {
+        "id": "lucus",
+        "name": "lucus",
+        "workspace": "/home/node/.openclaw/workspace-lucus",
+        "agentDir": "/home/node/.openclaw/agents/lucus/agent",
+        "model": {
+          "primary": "minimax/minimax-m2.5:free",
+          "fallbacks": [
+            "scnet/DeepSeek-V3.2",
+            "scnet/MiniMax-M2.5",
+            "openrouter/free",
+            "zai/glm-4.7-flash"
+          ]
+        }
+      },
+      {
+        "id": "wxlee",
+        "name": "wxlee",
+        "workspace": "/home/node/.openclaw/workspace-wxlee",
+        "agentDir": "/home/node/.openclaw/agents/wxlee/agent",
+        "model": {
+          "primary": "deepseek/deepseek-chat",
+          "fallbacks": [
+            "deepseek/deepseek-reasoner",
+            "openrouter/free",
+            "zai/glm-4.7-flash",
+            "minimax/MiniMax-M2.7"
+          ]
+        }
+      }
+    ]
+  },
+  "tools": {
+    "profile": "coding",
+    "agentToAgent": {
+      "enabled": true,
+      "allow": [
+        "main",
+        "lucus",
+        "wxlee"
+      ]
+    },
+    "sessions": {
+      "visibility": "all"
+    },
+    "web": {
+      "search": {
+        "enabled": true,
+        "provider": "duckduckgo"
+      }
+    },
+    "subagents": {
+      "tools": {
+        "allow": [
+          "read",
+          "write",
+          "exec",
+          "process"
+        ]
+      }
+    }
+  },
+  "bindings": [
+    {
+      "type": "route",
+      "agentId": "lucus",
+      "match": {
+        "channel": "feishu",
+        "accountId": "lucus"
+      }
+    },
+    {
+      "type": "route",
+      "agentId": "main",
+      "match": {
+        "channel": "feishu",
+        "accountId": "main"
+      }
+    },
+    {
+      "type": "route",
+      "agentId": "wxlee",
+      "match": {
+        "channel": "openclaw-weixin",
+        "accountId": "ff482f9682b2-im-bot"
+      }
+    }
+  ],
+  "messages": {
+    "ackReactionScope": "group-mentions"
+  },
+  "commands": {
+    "native": "auto",
+    "nativeSkills": "auto",
+    "restart": true,
+    "ownerDisplay": "raw"
+  },
+  "session": {
+    "dmScope": "per-account-channel-peer",
+    "maintenance": {
+      "mode": "enforce",
+      "pruneAfter": "10d",
+      "maxEntries": 200,
+      "rotateBytes": "10mb"
+    }
+  },
+  "hooks": {
+    "internal": {
+      "enabled": true,
+      "entries": {
+        "boot-md": {
+          "enabled": true
+        },
+        "bootstrap-extra-files": {
+          "enabled": true
+        },
+        "command-logger": {
+          "enabled": true
+        },
+        "session-memory": {
+          "enabled": true
+        }
+      }
+    }
+  },
+  "channels": {
+    "feishu": {
+      "enabled": true,
+      "domain": "lark",
+      "requireMention": true,
+      "defaultAccount": "main",
+      "typingIndicator": true,
+      "resolveSenderNames": true,
+      "accounts": {
+        "main": {
+          "appId": "cli_a9243f0855b89e1b",
+          "appSecret": "YpMh4x85MwnG3DNjeERnDfNaJs2IM1OA",
+          "name": "Talus"
+        },
+        "lucus": {
+          "appId": "cli_a93108fad2b81e15",
+          "appSecret": "YXsvQgicI06FJkWenoDpggitFT6TCgVq",
+          "name": "Lucus"
+        },
+        "default": {
+          "dmPolicy": "pairing",
+          "groupPolicy": "allowlist",
+          "groupAllowFrom": [
+            "oc_badefa41a5267f2823cd495b63dd6ce5"
+          ]
+        }
+      },
+      "connectionMode": "websocket",
+      "dmPolicy": "pairing",
+      "groupPolicy": "open",
+      "reactionNotifications": "own",
+      "webhookPath": "/feishu/events"
+    },
+    "openclaw-weixin": {
+      "channelConfigUpdatedAt": "2026-04-02T06:24:05.294Z"
+    }
+  },
+  "gateway": {
+    "port": 18789,
+    "mode": "local",
+    "bind": "loopback",
+    "controlUi": {
+      "enabled": true,
+      "allowedOrigins": [
+        "http://localhost:18789",
+        "http://127.0.0.1:18789"
+      ]
+    },
+    "auth": {
+      "mode": "token",
+      "token": "12ecb07625acf2468a5a6472abdad19f9cf6e409cd17b60996a3144a85e9209b"
+    },
+    "tailscale": {
+      "mode": "off",
+      "resetOnExit": false
+    },
+    "nodes": {
+      "denyCommands": [
+        "camera.snap",
+        "camera.clip",
+        "screen.record",
+        "contacts.add",
+        "calendar.add",
+        "reminders.add",
+        "sms.send"
+      ]
+    }
+  },
+  "skills": {
+    "install": {
+      "nodeManager": "pnpm"
+    }
+  },
+  "plugins": {
+    "allow": [
+      "openclaw-weixin",
+      "feishu",
+      "minimax"
+    ],
+    "entries": {
+      "duckduckgo": {
+        "enabled": true,
+        "config": {}
+      },
+      "feishu": {
+        "enabled": true,
+        "config": {}
+      },
+      "tavily": {
+        "enabled": true,
+        "config": {}
+      },
+      "openclaw-weixin": {
+        "enabled": true,
+        "config": {}
+      },
+      "minimax": {
+        "enabled": true
+      }
+    },
+    "installs": {
+      "openclaw-weixin": {
+        "source": "npm",
+        "spec": "@tencent-weixin/openclaw-weixin",
+        "installPath": "/home/node/.openclaw/extensions/openclaw-weixin",
+        "version": "2.1.3",
+        "resolvedName": "@tencent-weixin/openclaw-weixin",
+        "resolvedVersion": "2.1.3",
+        "resolvedSpec": "@tencent-weixin/openclaw-weixin@2.1.3",
+        "integrity": "sha512-NuzQo4yubbLaZZkpVz5yxEWdRR8KJlQkmUtDbIxKoHjjChvCWG1DAjx4/er95hS8muG/4h4HL7nB4JJqMVrgPw==",
+        "shasum": "b6cbc8187a06983ae912aee53f4f55e424680611",
+        "resolvedAt": "2026-04-02T06:11:11.014Z",
+        "installedAt": "2026-04-02T06:11:53.365Z"
+      }
+    }
+  }
+}

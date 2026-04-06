@@ -1,0 +1,41 @@
+# Ignore outputs directory
+outputs/
+dist/
+build/
+.next/
+out/
+
+# Backup directories
+.git-backup/
+
+# 敏感/本地信息
+credentials/
+cache/
+logs/
+devices/
+
+# Node.js
+node_modules/
+**/node_modules/
+ 
+# Ignore temporary/lock files
+*.lock
+*.node
+.freeride-cache.json
+*.cache
+*.tmp
+*.log
+
+# ============= 环境变量 =============
+.env
+.env.local
+.env.*.local
+
+# Ignore session locks
+.jsonl.lock
+
+# IDE
+.vscode/
+.idea/
+
+

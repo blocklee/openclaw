@@ -1,0 +1,40 @@
+{
+  "version": 1,
+  "profiles": {
+    "minimax:cn": {
+      "type": "api_key",
+      "provider": "minimax",
+      "key": "sk-cp-uKm-iGKR1m2kwIRD_ZMlC409yFAkIoppChb9ZYWsNFqdPiPzyqv2na608GsCDcF1vtGGvBVs04B1xzspkBvgZhLHshC5bQw6aRSzn9zLS6lAycWQO5ICXgE"
+    },
+    "openrouter:default": {
+      "type": "api_key",
+      "provider": "openrouter",
+      "key": "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"
+    },
+    "google:default": {
+      "type": "api_key",
+      "provider": "google",
+      "key": "AIzaSyBDw5RCCBvH-ugpqg5kt1ocqWsiv-PR41U"
+    }
+  },
+  "lastGood": {
+    "minimax": "minimax:cn",
+    "google": "google:default",
+    "openrouter": "openrouter:default"
+  },
+  "usageStats": {
+    "minimax:cn": {
+      "errorCount": 0,
+      "lastUsed": 1775479241338
+    },
+    "google:default": {
+      "errorCount": 0,
+      "lastFailureAt": 1774773742653,
+      "lastUsed": 1774773743884
+    },
+    "openrouter:default": {
+      "errorCount": 0,
+      "lastUsed": 1775390511236
+    }
+  }
+}

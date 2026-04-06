@@ -1,0 +1,937 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EchoNexus - AI Agent 能力资产化协议</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#4f46e5',
+                        secondary: '#7c3aed',
+                        dark: '#1e1b4b',
+                        light: '#f5f3ff',
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'system-ui', 'sans-serif'],
+                    },
+                }
+            }
+        }
+    </script>
+    <style type="text/tailwindcss">
+        @layer utilities {
+            .text-gradient {
+                background-clip: text;
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+            }
+            .code-block {
+                background-color: #1e1b4b;
+                color: #e0e7ff;
+                border-radius: 0.5rem;
+                padding: 1rem;
+                overflow-x: auto;
+                font-family: 'Fira Code', monospace;
+                font-size: 0.9rem;
+                line-height: 1.6;
+            }
+        }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800 font-sans">
+    <!-- Header -->
+    <header class="sticky top-0 z-50 bg-white/90 backdrop-blur-md shadow-sm border-b border-gray-200">
+        <div class="container mx-auto px-4 py-4 flex justify-between items-center">
+            <div class="flex items-center gap-2">
+                <div class="w-10 h-10 rounded-lg bg-gradient-to-br from-primary to-secondary flex items-center justify-center text-white font-bold text-xl">E</div>
+                <h1 class="text-xl md:text-2xl font-bold bg-gradient-to-r from-primary to-secondary text-gradient">EchoNexus</h1>
+            </div>
+            <nav class="hidden md:flex gap-6">
+                <a href="#overview" class="text-gray-600 hover:text-primary transition-colors">概述</a>
+                <a href="#architecture" class="text-gray-600 hover:text-primary transition-colors">架构</a>
+                <a href="#features" class="text-gray-600 hover:text-primary transition-colors">核心功能</a>
+                <a href="#usecases" class="text-gray-600 hover:text-primary transition-colors">用例</a>
+                <a href="#economic" class="text-gray-600 hover:text-primary transition-colors">经济模型</a>
+                <a href="#roadmap" class="text-gray-600 hover:text-primary transition-colors">路线图</a>
+            </nav>
+            <div class="flex gap-3">
+                <a href="https://pubial7bv6tj.space.minimaxi.com" target="_blank" class="hidden md:block px-4 py-2 bg-primary hover:bg-primary/90 text-white rounded-lg transition-colors">
+                    在线 Demo
+                </a>
+                <button id="menu-toggle" class="md:hidden text-gray-600">
+                    <i class="fa fa-bars text-xl"></i>
+                </button>
+            </div>
+        </div>
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="hidden md:hidden bg-white border-t border-gray-200">
+            <div class="container mx-auto px-4 py-3 flex flex-col gap-3">
+                <a href="#overview" class="py-2 text-gray-600 hover:text-primary">概述</a>
+                <a href="#architecture" class="py-2 text-gray-600 hover:text-primary">架构</a>
+                <a href="#features" class="py-2 text-gray-600 hover:text-primary">核心功能</a>
+                <a href="#usecases" class="py-2 text-gray-600 hover:text-primary">用例</a>
+                <a href="#economic" class="py-2 text-gray-600 hover:text-primary">经济模型</a>
+                <a href="#roadmap" class="py-2 text-gray-600 hover:text-primary">路线图</a>
+                <a href="https://pubial7bv6tj.space.minimaxi.com" target="_blank" class="py-2 text-primary font-medium">在线 Demo</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="bg-gradient-to-br from-indigo-50 to-purple-50 py-16 md:py-24">
+        <div class="container mx-auto px-4 text-center">
+            <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold bg-gradient-to-r from-primary to-secondary text-gradient mb-6">
+                EchoNexus
+            </h1>
+            <p class="text-xl md:text-2xl text-gray-600 mb-8 max-w-3xl mx-auto">
+                AI Agent 能力资产化协议
+            </p>
+            <p class="text-lg text-gray-500 mb-10 max-w-2xl mx-auto">
+                将 AI Agent 的 Skills/Knowledge 转化为可交易的链上资产，实现<br>"能力即资产，调用即分润"的原生 AI 经济体系。
+            </p>
+            <div class="flex flex-wrap justify-center gap-4">
+                <a href="#overview" class="px-6 py-3 bg-primary hover:bg-primary/90 text-white rounded-lg font-medium transition-all transform hover:-translate-y-1 shadow-lg shadow-primary/20">
+                    了解更多
+                </a>
+                <a href="https://pubial7bv6tj.space.minimaxi.com" target="_blank" class="px-6 py-3 bg-white border border-gray-300 hover:border-primary hover:text-primary rounded-lg font-medium transition-all transform hover:-translate-y-1 shadow-md">
+                    体验 Demo <i class="fa fa-external-link ml-1"></i>
+                </a>
+            </div>
+            <div class="mt-10 inline-flex items-center gap-3 bg-white/80 backdrop-blur px-4 py-2 rounded-full border border-gray-200 shadow-sm">
+                <span class="flex items-center gap-1 text-green-600">
+                    <i class="fa fa-check-circle"></i> v2.0 实现版
+                </span>
+                <span class="w-1 h-1 rounded-full bg-gray-300"></span>
+                <span class="text-gray-500">更新日期: 2026-04-03</span>
+                <span class="w-1 h-1 rounded-full bg-gray-300"></span>
+                <span class="flex items-center gap-1 text-blue-600">
+                    <i class="fa fa-code"></i> React Demo 已部署
+                </span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Overview Section -->
+    <section id="overview" class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="max-w-3xl mx-auto mb-12 text-center">
+                <h2 class="text-3xl md:text-4xl font-bold mb-4">核心定位</h2>
+                <p class="text-lg text-gray-600">
+                    <strong class="text-primary">EchoNexus = ECHO 协议 × OpenClaw 执行引擎</strong>
+                </p>
+            </div>
+            <div class="grid md:grid-cols-2 gap-10 max-w-5xl mx-auto">
+                <div class="bg-light rounded-xl p-6 shadow-sm border border-indigo-100">
+                    <h3 class="text-xl font-semibold mb-4 flex items-center gap-2">
+                        <i class="fa fa-lightbulb-o text-primary"></i> 愿景
+                    </h3>
+                    <p class="text-gray-700 leading-relaxed">
+                        打破传统 AI Agent 能力静态绑定的限制，构建一个开放、透明、可交易的 AI 能力市场。创作者可以将自己的技能和知识资产化，用户可以按需付费调用，整个过程通过智能合约自动完成，无需第三方中介。
+                    </p>
+                </div>
+                <div class="bg-light rounded-xl p-6 shadow-sm border border-indigo-100">
+                    <h3 class="text-xl font-semibold mb-4 flex items-center gap-2">
+                        <i class="fa fa-exchange text-primary"></i> 模式对比
+                    </h3>
+                    <div class="overflow-x-auto">
+                        <table class="w-full text-sm">
+                            <thead>
+                                <tr class="border-b border-gray-200">
+                                    <th class="text-left py-2 px-3 font-medium text-gray-600">维度</th>
+                                    <th class="text-left py-2 px-3 font-medium text-gray-600">传统模式</th>
+                                    <th class="text-left py-2 px-3 font-medium text-primary">EchoNexus 模式</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr class="border-b border-gray-100">
+                                    <td class="py-2 px-3 font-medium">Agent 能力</td>
+                                    <td class="py-2 px-3">静态绑定</td>
+                                    <td class="py-2 px-3 text-primary">动态资产化</td>
+                                </tr>
+                                <tr class="border-b border-gray-100">
+                                    <td class="py-2 px-3 font-medium">使用授权</td>
+                                    <td class="py-2 px-3">手动审批</td>
+                                    <td class="py-2 px-3 text-primary">智能合约自动</td>
+                                </tr>
+                                <tr class="border-b border-gray-100">
+                                    <td class="py-2 px-3 font-medium">分润结算</td>
+                                    <td class="py-2 px-3">中心化清分</td>
+                                    <td class="py-2 px-3 text-primary">链上自动分润</td>
+                                </tr>
+                                <tr>
+                                    <td class="py-2 px-3 font-medium">能力发现</td>
+                                    <td class="py-2 px-3">目录检索</td>
+                                    <td class="py-2 px-3 text-primary">资产市场交易</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <div class="mt-16 max-w-4xl mx-auto">
+                <h3 class="text-2xl font-bold mb-6 text-center">四权映射</h3>
+                <div class="code-block">
+<pre>ECHO 协议四权          EchoNexus Agent 能力
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+所有权 (Ownership)     → Agent/Skill 创作者的完整控制权
+使用权 (Usage)         → 按次/按时长付费调用 Agent 能力
+衍生权 (Derivative)    → 基于已有 Skill 构建组合 Skill
+扩展权 (Extension)     → 跨平台/场景授权使用能力</pre>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Architecture Section -->
+    <section id="architecture" class="py-16 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <div class="max-w-3xl mx-auto mb-12 text-center">
+                <h2 class="text-3xl md:text-4xl font-bold mb-4">架构设计</h2>
+                <p class="text-lg text-gray-600">
+                    三层架构设计：Hub 调度层 + 合约层 + 执行层
+                </p>
+            </div>
+            <div class="max-w-5xl mx-auto mb-12">
+                <div class="code-block text-xs md:text-sm">
+<pre>┌─────────────────────────────────────────────────────────────────┐
+│                         EchoNexus 生态                          │
+├─────────────────────────────────────────────────────────────────┤
+│                                                                 │
+│  ┌──────────────┐    ┌──────────────┐    ┌──────────────┐     │
+│  │   能力创建者   │    │   能力运营者   │    │   能力消费者   │     │
+│  │ Creator      │    │   Operator   │    │   Consumer   │     │
+│  └──────┬───────┘    └──────┬───────┘    └──────┬───────┘     │
+│         │                   │                   │              │
+│         ▼                   ▼                   ▼              │
+│  ┌─────────────────────────────────────────────────────────┐   │
+│  │                    EchoNexus Hub                        │   │
+│  │  ┌─────────────┐ ┌─────────────┐ ┌─────────────────┐  │   │
+│  │  │  能力路由    │ │  权限裁决    │ │   计费结算       │  │   │
+│  │  │  Router     │ │  Arbiter    │ │   Settlement    │  │   │
+│  │  └─────────────┘ └─────────────┘ └─────────────────┘  │   │
+│  │  ┌─────────────┐ ┌─────────────┐ ┌─────────────────┐  │   │
+│  │  │  能力注册    │ │  使用追踪    │ │   分润引擎      │  │   │
+│  │  │  Registry   │ │  Tracker    │ │   Distributor   │  │   │
+│  │  └─────────────┘ └─────────────┘ └─────────────────┘  │   │
+│  └─────────────────────────────────────────────────────────┘   │
+│                              │                                 │
+│         ┌────────────────────┼────────────────────┐            │
+│         ▼                    ▼                    ▼            │
+│  ┌──────────────┐    ┌──────────────┐    ┌──────────────┐     │
+│  │   ECHO       │    │  OpenClaw    │    │   外部       │     │
+│  │   合约层     │    │   执行层      │    │   市场       │     │
+│  └──────────────┘    └──────────────┘    └──────────────┘     │
+│                                                                 │
+└─────────────────────────────────────────────────────────────────┘</pre>
+                </div>
+            </div>
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6 max-w-6xl mx-auto">
+                <div class="bg-white rounded-xl p-6 shadow-sm border border-gray-200 hover:border-primary/50 transition-colors">
+                    <div class="w-12 h-12 rounded-lg bg-indigo-100 flex items-center justify-center text-primary mb-4">
+                        <i class="fa fa-road text-xl"></i>
+                    </div>
+                    <h3 class="text-lg font-semibold mb-2">能力路由</h3>
+                    <p class="text-gray-600 text-sm">
+                        智能匹配用户请求和最合适的 Agent 能力，支持多维度评分和优先级排序。
+                    </p>
+                </div>
+                <div class="bg-white rounded-xl p-6 shadow-sm border border-gray-200 hover:border-primary/50 transition-colors">
+                    <div class="w-12 h-12 rounded-lg bg-indigo-100 flex items-center justify-center text-primary mb-4">
+                        <i class="fa fa-gavel text-xl"></i>
+                    </div>
+                    <h3 class="text-lg font-semibold mb-2">权限裁决</h3>
+                    <p class="text-gray-600 text-sm">
+                        基于四权模型的自动化权限校验，支持条件审批和多级授权机制。
+                    </p>
+                </div>
+                <div class="bg-white rounded-xl p-6 shadow-sm border border-gray-200 hover:border-primary/50 transition-colors">
+                    <div class="w-12 h-12 rounded-lg bg-indigo-100 flex items-center justify-center text-primary mb-4">
+                        <i class="fa fa-credit-card text-xl"></i>
+                    </div>
+                    <h3 class="text-lg font-semibold mb-2">计费结算</h3>
+                    <p class="text-gray-600 text-sm">
+                        实时计费，链上自动分润，支持多种定价模型和分润规则。
+                    </p>
+                </div>
+                <div class="bg-white rounded-xl p-6 shadow-sm border border-gray-200 hover:border-primary/50 transition-colors">
+                    <div class="w-12 h-12 rounded-lg bg-indigo-100 flex items-center justify-center text-primary mb-4">
+                        <i class="fa fa-book text-xl"></i>
+                    </div>
+                    <h3 class="text-lg font-semibold mb-2">能力注册</h3>
+                    <p class="text-gray-600 text-sm">
+                        标准化的能力注册流程，支持元数据管理和版本控制。
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="max-w-3xl mx-auto mb-12 text-center">
+                <h2 class="text-3xl md:text-4xl font-bold mb-4">核心功能</h2>
+                <p class="text-lg text-gray-600">
+                    完整的能力资产化全流程支持
+                </p>
+            </div>
+            <div class="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+                <div class="bg-white rounded-xl p-6 shadow-sm border border-gray-200">
+                    <h3 class="text-xl font-semibold mb-4 text-primary">ECHO 合约层</h3>
+                    <ul class="space-y-3 text-gray-700">
+                        <li class="flex items-start gap-2">
+                            <i class="fa fa-check-circle text-green-500 mt-1"></i>
+                            <span>资产创建与管理：mint/rent/derivative 全生命周期</span>
+                        </li>
+                        <li class="flex items-start gap-2">
+                            <i class="fa fa-check-circle text-green-500 mt-1"></i>
+                            <span>四权分离模型：所有权/使用权/衍生权/扩展权</span>
+                        </li>
+                        <li class="flex items-start gap-2">
+                            <i class="fa fa-check-circle text-green-500 mt-1"></i>
+                            <span>自动分润机制：按比例实时分配收益</span>
+                        </li>
+                        <li class="flex items-start gap-2">
+                            <i class="fa fa-check-circle text-green-500 mt-1"></i>
+                            <span>权限管理：授权/吊销/申请流程自动化</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="bg-white rounded-xl p-6 shadow-sm border border-gray-200">
+                    <h3 class="text-xl font-semibold mb-4 text-primary">执行引擎层</h3>
+                    <ul class="space-y-3 text-gray-700">
+                        <li class="flex items-start gap-2">
+                            <i class="fa fa-check-circle text-green-500 mt-1"></i>
+                            <span>智能路由：NLP 解析 + 相似度匹配</span>
+                        </li>
+                        <li class="flex items-start gap-2">
+                            <i class="fa fa-check-circle text-green-500 mt-1"></i>
+                            <span>执行调度：支持并行/串行/条件执行</span>
+                        </li>
+                        <li class="flex items-start gap-2">
+                            <i class="fa fa-check-circle text-green-500 mt-1"></i>
+                            <span>状态追踪：完整的执行日志和审计记录</span>
+                        </li>
+                        <li class="flex items-start gap-2">
+                            <i class="fa fa-check-circle text-green-500 mt-1"></i>
+                            <span>错误处理：自动重试和降级机制</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="bg-white rounded-xl p-6 shadow-sm border border-gray-200">
+                    <h3 class="text-xl font-semibold mb-4 text-primary">平台功能</h3>
+                    <ul class="space-y-3 text-gray-700">
+                        <li class="flex items-start gap-2">
+                            <i class="fa fa-check-circle text-green-500 mt-1"></i>
+                            <span>资产市场：搜索、筛选、排名、推荐</span>
+                        </li>
+                        <li class="flex items-start gap-2">
+                            <i class="fa fa-check-circle text-green-500 mt-1"></i>
+                            <span>开发者工具：SDK/CLI/低代码编辑器</span>
+                        </li>
+                        <li class="flex items-start gap-2">
+                            <i class="fa fa-check-circle text-green-500 mt-1"></i>
+                            <span>数据分析：使用统计、收益报表、用户画像</span>
+                        </li>
+                        <li class="flex items-start gap-2">
+                            <i class="fa fa-check-circle text-green-500 mt-1"></i>
+                            <span>治理机制：社区投票和参数调整</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="mt-16 max-w-5xl mx-auto">
+                <h3 class="text-2xl font-bold mb-6 text-center">裁决决策树</h3>
+                <div class="code-block">
+<pre>                    ┌─────────────────┐
+                    │  权限裁决请求    │
+                    └────────┬────────┘
+                             │
+                    ┌────────▼────────┐
+                    │   所有权检查     │
+                    └────────┬────────┘
+                             │
+              ┌──────────────┴──────────────┐
+              │                              │
+     ┌────────▼────────┐            ┌─────────▼────────┐
+     │  用户=所有者?   │            │    继续检查       │
+     └────────┬────────┘            └─────────┬────────┘
+              │                              │
+       ┌──────▼──────┐               ┌───────▼───────┐
+       │ APPROVED ✓  │               │  使用权检查    │
+       └─────────────┘               └───────┬───────┘
+                                             │
+                              ┌──────────────┴──────────────┐
+                              │                              │
+                     ┌─────────▼─────────┐        ┌─────────▼─────────┐
+                     │   已租赁?          │        │   扩展权可用?     │
+                     └─────────┬─────────┘        └─────────┬─────────┘
+                               │                              │
+                    ┌──────────▼──────────┐         ┌─────────▼─────────┐
+                    │ APPROVED (租赁) ✓  │         │  授权的地址?      │
+                    └────────────────────┘         └─────────┬─────────┘
+                                                              │
+                                                     ┌─────────▼─────────┐
+                                                     │ CONDITIONAL (付费)│
+                                                     └───────────────────┘</pre>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Use Cases Section -->
+    <section id="usecases" class="py-16 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <div class="max-w-3xl mx-auto mb-12 text-center">
+                <h2 class="text-3xl md:text-4xl font-bold mb-4">用例场景</h2>
+                <p class="text-lg text-gray-600">
+                    覆盖个人、企业、平台等多场景应用
+                </p>
+            </div>
+            <div class="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+                <div class="bg-white rounded-xl overflow-hidden shadow-sm border border-gray-200">
+                    <div class="h-40 bg-gradient-to-r from-blue-500 to-indigo-600 flex items-center justify-center text-white">
+                        <i class="fa fa-balance-scale text-5xl"></i>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold mb-3">专业领域顾问 Agent</h3>
+                        <div class="space-y-3 text-gray-700 text-sm">
+                            <div>
+                                <p class="font-medium text-gray-900 mb-1">创作者 A (律师)</p>
+                                <ul class="list-disc list-inside pl-2 space-y-1">
+                                    <li>将法律咨询能力打包为 Skill</li>
+                                    <li>设定定价：$0.5/次咨询</li>
+                                    <li>设置衍生条款：允许衍生但需支付 20% 版税</li>
+                                </ul>
+                            </div>
+                            <div>
+                                <p class="font-medium text-gray-900 mb-1">用户 B (需要法律建议)</p>
+                                <ul class="list-disc list-inside pl-2 space-y-1">
+                                    <li>搜索法律类 Skill</li>
+                                    <li>租用或按次付费</li>
+                                    <li>获取 AI 法律建议</li>
+                                    <li>费用自动分润给 A</li>
+                                </ul>
+                            </div>
+                            <div>
+                                <p class="font-medium text-gray-900 mb-1">开发者 C (构建衍生产品)</p>
+                                <ul class="list-disc list-inside pl-2 space-y-1">
+                                    <li>基于 A 的 Skill 创建"合同审查 Agent"</li>
+                                    <li>支付一次性衍生费 $100</li>
+                                    <li>每次使用时 A 获得 20% 版税</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-white rounded-xl overflow-hidden shadow-sm border border-gray-200">
+                    <div class="h-40 bg-gradient-to-r from-green-500 to-teal-600 flex items-center justify-center text-white">
+                        <i class="fa fa-building text-5xl"></i>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold mb-3">企业知识库 Agent</h3>
+                        <div class="space-y-3 text-gray-700 text-sm">
+                            <div>
+                                <p class="font-medium text-gray-900 mb-1">企业 D</p>
+                                <ul class="list-disc list-inside pl-2 space-y-1">
+                                    <li>将内部培训资料创建为 Skill 资产</li>
+                                    <li>设定仅限内部使用的扩展权</li>
+                                    <li>员工通过 OpenClaw 访问</li>
+                                </ul>
+                            </div>
+                            <div>
+                                <p class="font-medium text-gray-900 mb-1">员工 E</p>
+                                <ul class="list-disc list-inside pl-2 space-y-1">
+                                    <li>通过企业账号访问</li>
+                                    <li>使用内部知识库 Agent</li>
+                                    <li>使用记录自动记录供审计</li>
+                                </ul>
+                            </div>
+                            <div class="mt-4 p-3 bg-green-50 rounded-lg border border-green-100">
+                                <p class="text-green-800 text-sm">
+                                    <i class="fa fa-info-circle mr-1"></i>
+                                    特别适合内部知识沉淀和合规审计场景，确保知识资产的安全可控和可追溯。
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-white rounded-xl overflow-hidden shadow-sm border border-gray-200">
+                    <div class="h-40 bg-gradient-to-r from-purple-500 to-pink-600 flex items-center justify-center text-white">
+                        <i class="fa fa-pencil-square-o text-5xl"></i>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold mb-3">跨平台 AI 助手</h3>
+                        <div class="space-y-3 text-gray-700 text-sm">
+                            <div>
+                                <p class="font-medium text-gray-900 mb-1">开发者 F</p>
+                                <ul class="list-disc list-inside pl-2 space-y-1">
+                                    <li>创建 AI 写作 Skill</li>
+                                    <li>通过 ECHO 扩展权授权给多个平台</li>
+                                </ul>
+                            </div>
+                            <div>
+                                <p class="font-medium text-gray-900 mb-1">平台 G (Telegram Bot)</p>
+                                <ul class="list-disc list-inside pl-2 space-y-1">
+                                    <li>申请扩展权</li>
+                                    <li>获得授权后在 Telegram 提供服务</li>
+                                    <li>每次使用向 F 分润</li>
+                                </ul>
+                            </div>
+                            <div>
+                                <p class="font-medium text-gray-900 mb-1">用户 H</p>
+                                <ul class="list-disc list-inside pl-2 space-y-1">
+                                    <li>在 Telegram 使用 AI 写作</li>
+                                    <li>费用自动分润给 F 和平台 G</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Economic Model Section -->
+    <section id="economic" class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="max-w-3xl mx-auto mb-12 text-center">
+                <h2 class="text-3xl md:text-4xl font-bold mb-4">经济模型</h2>
+                <p class="text-lg text-gray-600">
+                    公平、透明、可持续的收益分配机制
+                </p>
+            </div>
+            <div class="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto mb-12">
+                <div class="bg-gradient-to-br from-indigo-50 to-indigo-100 rounded-xl p-6 border border-indigo-200">
+                    <h3 class="text-xl font-semibold mb-4 text-primary">使用权收益分配</h3>
+                    <p class="text-gray-600 mb-4 text-sm">每次调用的收益分配比例</p>
+                    <div class="space-y-3">
+                        <div class="flex justify-between items-center">
+                            <span class="font-medium">创作者/所有者</span>
+                            <span class="text-xl font-bold text-primary">80%</span>
+                        </div>
+                        <div class="w-full bg-gray-200 rounded-full h-3">
+                            <div class="bg-primary h-3 rounded-full" style="width: 80%"></div>
+                        </div>
+                        <div class="flex justify-between items-center">
+                            <span class="font-medium">协议层</span>
+                            <span class="text-xl font-bold text-primary">15%</span>
+                        </div>
+                        <div class="w-full bg-gray-200 rounded-full h-3">
+                            <div class="bg-primary h-3 rounded-full" style="width: 15%"></div>
+                        </div>
+                        <div class="flex justify-between items-center">
+                            <span class="font-medium">生态基金</span>
+                            <span class="text-xl font-bold text-primary">5%</span>
+                        </div>
+                        <div class="w-full bg-gray-200 rounded-full h-3">
+                            <div class="bg-primary h-3 rounded-full" style="width: 5%"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-gradient-to-br from-purple-50 to-purple-100 rounded-xl p-6 border border-purple-200">
+                    <h3 class="text-xl font-semibold mb-4 text-secondary">衍生权收益分配</h3>
+                    <p class="text-gray-600 mb-4 text-sm">一次性衍生费 + 使用版税</p>
+                    <div class="space-y-4">
+                        <div>
+                            <p class="font-medium mb-2">一次性衍生费</p>
+                            <ul class="space-y-1 text-sm">
+                                <li class="flex justify-between">
+                                    <span>亲代创作者</span>
+                                    <span class="font-semibold">70%</span>
+                                </li>
+                                <li class="flex justify-between">
+                                    <span>亲代生态</span>
+                                    <span class="font-semibold">20%</span>
+                                </li>
+                                <li class="flex justify-between">
+                                    <span>协议层</span>
+                                    <span class="font-semibold">10%</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div>
+                            <p class="font-medium mb-2">衍生使用版税 (每次调用)</p>
+                            <ul class="space-y-1 text-sm">
+                                <li class="flex justify-between">
+                                    <span>衍生品所有者</span>
+                                    <span class="font-semibold">60%</span>
+                                </li>
+                                <li class="flex justify-between">
+                                    <span>亲代 (n代)</span>
+                                    <span class="font-semibold">累计 30%</span>
+                                </li>
+                                <li class="flex justify-between">
+                                    <span>协议层</span>
+                                    <span class="font-semibold">10%</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-gradient-to-br from-blue-50 to-blue-100 rounded-xl p-6 border border-blue-200">
+                    <h3 class="text-xl font-semibold mb-4 text-blue-700">扩展权收益分配</h3>
+                    <p class="text-gray-600 mb-4 text-sm">场景使用费分配</p>
+                    <div class="space-y-3">
+                        <div class="flex justify-between items-center">
+                            <span class="font-medium">资产所有者</span>
+                            <span class="text-xl font-bold text-blue-700">75%</span>
+                        </div>
+                        <div class="w-full bg-gray-200 rounded-full h-3">
+                            <div class="bg-blue-600 h-3 rounded-full" style="width: 75%"></div>
+                        </div>
+                        <div class="flex justify-between items-center">
+                            <span class="font-medium">场景受益人</span>
+                            <span class="text-xl font-bold text-blue-700">15%</span>
+                        </div>
+                        <div class="w-full bg-gray-200 rounded-full h-3">
+                            <div class="bg-blue-600 h-3 rounded-full" style="width: 15%"></div>
+                        </div>
+                        <div class="flex justify-between items-center">
+                            <span class="font-medium">协议层</span>
+                            <span class="text-xl font-bold text-blue-700">10%</span>
+                        </div>
+                        <div class="w-full bg-gray-200 rounded-full h-3">
+                            <div class="bg-blue-600 h-3 rounded-full" style="width: 10%"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="max-w-3xl mx-auto">
+                <h3 class="text-2xl font-bold mb-6 text-center">定价模型</h3>
+                <div class="code-block">
+<pre>type PricingModel =
+  | { type: 'TimesBased'; pricePerUse: bigint }                // 按次付费
+  | { type: 'DurationBased'; pricePerMinute: bigint; minMinutes: number }  // 按时长付费
+  | { type: 'Subscription'; pricePerMonth: bigint; features: string[] }    // 订阅制
+  | { type: 'Freemium'; freeUses: number; pricePerUseAfter: bigint }      // 免费+超出付费
+  | { type: 'Hybrid'; base: bigint; usage: bigint; maxMonthly: bigint }   // 混合模式</pre>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Roadmap Section -->
+    <section id="roadmap" class="py-16 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <div class="max-w-3xl mx-auto mb-12 text-center">
+                <h2 class="text-3xl md:text-4xl font-bold mb-4">技术实现路径</h2>
+                <p class="text-lg text-gray-600">
+                    分三阶段逐步完善平台功能
+                </p>
+            </div>
+            <div class="max-w-4xl mx-auto">
+                <div class="relative">
+                    <!-- Timeline Line -->
+                    <div class="absolute left-4 md:left-1/2 top-0 bottom-0 w-1 bg-indigo-200 transform md:-translate-x-1/2"></div>
+                    
+                    <!-- Stage 1 -->
+                    <div class="relative z-10 mb-12">
+                        <div class="flex flex-col md:flex-row items-start">
+                            <div class="flex md:w-1/2 md:justify-end md:pr-8 mb-4 md:mb-0 md:text-right">
+                                <div>
+                                    <div class="inline-flex items-center gap-2 px-4 py-2 bg-green-100 text-green-800 rounded-full text-sm font-medium mb-3">
+                                        <i class="fa fa-check"></i> 第一阶段：基础框架 ✅
+                                    </div>
+                                    <h3 class="text-xl font-semibold mb-2">已完成</h3>
+                                    <ul class="space-y-2 text-gray-700">
+                                        <li class="flex items-center gap-1 md:justify-end">
+                                            <span>EchoAgentFactory 合约设计</span>
+                                            <i class="fa fa-check text-green-500"></i>
+                                        </li>
+                                        <li class="flex items-center gap-1 md:justify-end">
+                                            <span>EchoAgentRegistry 合约设计</span>
+                                            <i class="fa fa-check text-green-500"></i>
+                                        </li>
+                                        <li class="flex items-center gap-1 md:justify-end">
+                                            <span>ECHO Protocol TypeScript SDK</span>
+                                            <i class="fa fa-check text-green-500"></i>
+                                        </li>
+                                        <li class="flex items-center gap-1 md:justify-end">
+                                            <span>简单的能力注册和执行</span>
+                                            <i class="fa fa-check text-green-500"></i>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="absolute left-0 md:left-1/2 w-8 h-8 rounded-full bg-green-500 border-4 border-white shadow transform md:-translate-x-1/2 flex items-center justify-center text-white">
+                                <i class="fa fa-check"></i>
+                            </div>
+                            <div class="md:w-1/2 md:pl-8">
+                                <!-- Empty for right side -->
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Stage 2 -->
+                    <div class="relative z-10 mb-12">
+                        <div class="flex flex-col md:flex-row items-start">
+                            <div class="md:w-1/2 md:justify-end md:pr-8 mb-4 md:mb-0 hidden md:block">
+                                <!-- Empty for left side -->
+                            </div>
+                            <div class="absolute left-0 md:left-1/2 w-8 h-8 rounded-full bg-green-500 border-4 border-white shadow transform md:-translate-x-1/2 flex items-center justify-center text-white">
+                                <i class="fa fa-check"></i>
+                            </div>
+                            <div class="md:w-1/2 md:pl-8">
+                                <div>
+                                    <div class="inline-flex items-center gap-2 px-4 py-2 bg-green-100 text-green-800 rounded-full text-sm font-medium mb-3">
+                                        <i class="fa fa-check"></i> 第二阶段：核心功能 ✅
+                                    </div>
+                                    <h3 class="text-xl font-semibold mb-2">已完成</h3>
+                                    <ul class="space-y-2 text-gray-700">
+                                        <li class="flex items-center gap-1">
+                                            <i class="fa fa-check text-green-500"></i>
+                                            <span>完整权限裁决引擎</span>
+                                        </li>
+                                        <li class="flex items-center gap-1">
+                                            <i class="fa fa-check text-green-500"></i>
+                                            <span>计费结算系统</span>
+                                        </li>
+                                        <li class="flex items-center gap-1">
+                                            <i class="fa fa-check text-green-500"></i>
+                                            <span>衍生权管理</span>
+                                        </li>
+                                        <li class="flex items-center gap-1">
+                                            <i class="fa fa-check text-green-500"></i>
+                                            <span>扩展权管理</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Stage 3 -->
+                    <div class="relative z-10">
+                        <div class="flex flex-col md:flex-row items-start">
+                            <div class="flex md:w-1/2 md:justify-end md:pr-8 mb-4 md:mb-0 md:text-right">
+                                <div>
+                                    <div class="inline-flex items-center gap-2 px-4 py-2 bg-yellow-100 text-yellow-800 rounded-full text-sm font-medium mb-3">
+                                        <i class="fa fa-clock-o"></i> 第三阶段：生态完善 ⏳
+                                    </div>
+                                    <h3 class="text-xl font-semibold mb-2">进行中</h3>
+                                    <ul class="space-y-2 text-gray-700">
+                                        <li class="flex items-center gap-1 md:justify-end">
+                                            <span>市场前端界面 (React Demo)</span>
+                                            <i class="fa fa-check text-green-500"></i>
+                                        </li>
+                                        <li class="flex items-center gap-1 md:justify-end">
+                                            <span>开发者 SDK</span>
+                                            <i class="fa fa-check text-green-500"></i>
+                                        </li>
+                                        <li class="flex items-center gap-1 md:justify-end">
+                                            <span>监控和数据分析</span>
+                                            <i class="fa fa-spinner text-yellow-500"></i>
+                                        </li>
+                                        <li class="flex items-center gap-1 md:justify-end">
+                                            <span>安全审计</span>
+                                            <i class="fa fa-spinner text-yellow-500"></i>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="absolute left-0 md:left-1/2 w-8 h-8 rounded-full bg-yellow-500 border-4 border-white shadow transform md:-translate-x-1/2 flex items-center justify-center text-white">
+                                <i class="fa fa-clock-o"></i>
+                            </div>
+                            <div class="md:w-1/2 md:pl-8">
+                                <!-- Empty for right side -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Deployment Section -->
+    <section class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="max-w-3xl mx-auto mb-12 text-center">
+                <h2 class="text-3xl md:text-4xl font-bold mb-4">部署信息</h2>
+            </div>
+            <div class="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
+                <div class="bg-light rounded-xl p-6 shadow-sm border border-indigo-100">
+                    <h3 class="text-xl font-semibold mb-4 flex items-center gap-2">
+                        <i class="fa fa-globe text-primary"></i> 在线 Demo
+                    </h3>
+                    <ul class="space-y-3 text-gray-700">
+                        <li class="flex items-center gap-2">
+                            <i class="fa fa-link text-primary"></i>
+                            <span>URL: <a href="https://pubial7bv6tj.space.minimaxi.com" target="_blank" class="text-primary hover:underline">https://pubial7bv6tj.space.minimaxi.com</a></span>
+                        </li>
+                        <li class="flex items-center gap-2">
+                            <i class="fa fa-tag text-primary"></i>
+                            <span>版本: v2.0</span>
+                        </li>
+                        <li class="flex items-center gap-2">
+                            <i class="fa fa-check-circle text-green-500"></i>
+                            <span>状态: 生产就绪</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="bg-light rounded-xl p-6 shadow-sm border border-indigo-100">
+                    <h3 class="text-xl font-semibold mb-4 flex items-center gap-2">
+                        <i class="fa fa-code text-primary"></i> 技术栈
+                    </h3>
+                    <table class="w-full text-sm">
+                        <tbody>
+                            <tr class="border-b border-gray-200">
+                                <td class="py-2 px-3 font-medium">前端框架</td>
+                                <td class="py-2 px-3">React 18 + TypeScript</td>
+                            </tr>
+                            <tr class="border-b border-gray-200">
+                                <td class="py-2 px-3 font-medium">UI 库</td>
+                                <td class="py-2 px-3">Tailwind CSS</td>
+                            </tr>
+                            <tr class="border-b border-gray-200">
+                                <td class="py-2 px-3 font-medium">图表</td>
+                                <td class="py-2 px-3">Recharts</td>
+                            </tr>
+                            <tr class="border-b border-gray-200">
+                                <td class="py-2 px-3 font-medium">Web3</td>
+                                <td class="py-2 px-3">ethers.js v6</td>
+                            </tr>
+                            <tr>
+                                <td class="py-2 px-3 font-medium">图标</td>
+                                <td class="py-2 px-3">Lucide React</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div class="mt-12 max-w-4xl mx-auto bg-gray-50 rounded-xl p-6 border border-gray-200">
+                <h3 class="text-xl font-semibold mb-4 flex items-center gap-2">
+                    <i class="fa fa-terminal text-primary"></i> 本地运行
+                </h3>
+                <div class="code-block">
+<pre>cd /workspace/echonexus-demo
+pnpm install
+pnpm run dev</pre>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Risk Section -->
+    <section class="py-16 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <div class="max-w-3xl mx-auto mb-12 text-center">
+                <h2 class="text-3xl md:text-4xl font-bold mb-4">风险与挑战</h2>
+            </div>
+            <div class="grid md:grid-cols-2 lg:grid-cols-5 gap-6 max-w-6xl mx-auto">
+                <div class="bg-white rounded-xl p-6 shadow-sm border border-gray-200">
+                    <div class="w-12 h-12 rounded-full bg-red-100 flex items-center justify-center text-red-600 mb-4">
+                        <i class="fa fa-shield text-xl"></i>
+                    </div>
+                    <h3 class="text-lg font-semibold mb-2">合约安全</h3>
+                    <p class="text-gray-600 text-sm">
+                        完整安全审计，多签控制
+                    </p>
+                </div>
+                <div class="bg-white rounded-xl p-6 shadow-sm border border-gray-200">
+                    <div class="w-12 h-12 rounded-full bg-orange-100 flex items-center justify-center text-orange-600 mb-4">
+                        <i class="fa fa-line-chart text-xl"></i>
+                    </div>
+                    <h3 class="text-lg font-semibold mb-2">定价操纵</h3>
+                    <p class="text-gray-600 text-sm">
+                        建议价机制，争议解决
+                    </p>
+                </div>
+                <div class="bg-white rounded-xl p-6 shadow-sm border border-gray-200">
+                    <div class="w-12 h-12 rounded-full bg-blue-100 flex items-center justify-center text-blue-600 mb-4">
+                        <i class="fa fa-copyright text-xl"></i>
+                    </div>
+                    <h3 class="text-lg font-semibold mb-2">版权争议</h3>
+                    <p class="text-gray-600 text-sm">
+                        链上存证，仲裁机制
+                    </p>
+                </div>
+                <div class="bg-white rounded-xl p-6 shadow-sm border border-gray-200">
+                    <div class="w-12 h-12 rounded-full bg-purple-100 flex items-center justify-center text-purple-600 mb-4">
+                        <i class="fa fa-code text-xl"></i>
+                    </div>
+                    <h3 class="text-lg font-semibold mb-2">技术门槛</h3>
+                    <p class="text-gray-600 text-sm">
+                        提供低代码工具，SDK
+                    </p>
+                </div>
+                <div class="bg-white rounded-xl p-6 shadow-sm border border-gray-200">
+                    <div class="w-12 h-12 rounded-full bg-green-100 flex items-center justify-center text-green-600 mb-4">
+                        <i class="fa fa-balance-scale text-xl"></i>
+                    </div>
+                    <h3 class="text-lg font-semibold mb-2">监管合规</h3>
+                    <p class="text-gray-600 text-sm">
+                        KYC/AML 集成，地区限制
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-12">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-col md:flex-row justify-between items-center mb-8">
+                <div class="flex items-center gap-2 mb-6 md:mb-0">
+                    <div class="w-10 h-10 rounded-lg bg-white flex items-center justify-center text-primary font-bold text-xl">E</div>
+                    <h2 class="text-2xl font-bold">EchoNexus</h2>
+                </div>
+                <div class="flex gap-6">
+                    <a href="#" class="text-gray-400 hover:text-white transition-colors">
+                        <i class="fa fa-github text-2xl"></i>
+                    </a>
+                    <a href="#" class="text-gray-400 hover:text-white transition-colors">
+                        <i class="fa fa-twitter text-2xl"></i>
+                    </a>
+                    <a href="#" class="text-gray-400 hover:text-white transition-colors">
+                        <i class="fa fa-discord text-2xl"></i>
+                    </a>
+                    <a href="https://pubial7bv6tj.space.minimaxi.com" target="_blank" class="text-gray-400 hover:text-white transition-colors">
+                        <i class="fa fa-globe text-2xl"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="border-t border-gray-700 pt-8 text-center text-gray-400 text-sm">
+                <p>© 2026 EchoNexus. 能力即资产，调用即分润。</p>
+                <p class="mt-2">
+                    <a href="https://pubial7bv6tj.space.minimaxi.com" target="_blank" class="text-primary hover:underline">在线 Demo</a> | 
+                    <a href="#" class="text-primary hover:underline">文档</a> | 
+                    <a href="#" class="text-primary hover:underline">GitHub</a>
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile menu toggle
+        document.getElementById('menu-toggle').addEventListener('click', function() {
+            const mobileMenu = document.getElementById('mobile-menu');
+            mobileMenu.classList.toggle('hidden');
+        });
+
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const targetId = this.getAttribute('href');
+                if (targetId === '#') return;
+                
+                const targetElement = document.querySelector(targetId);
+                if (targetElement) {
+                    window.scrollTo({
+                        top: targetElement.offsetTop - 80,
+                        behavior: 'smooth'
+                    });
+                    // Close mobile menu if open
+                    document.getElementById('mobile-menu').classList.add('hidden');
+                }
+            });
+        });
+    </script>
+</body>
+</html>

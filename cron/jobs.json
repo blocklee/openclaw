@@ -1,0 +1,104 @@
+{
+  "version": 1,
+  "jobs": [
+    {
+      "id": "1c3a7bd5-d835-41d8-a14a-d2970f13d503",
+      "name": "daily-backup",
+      "enabled": true,
+      "createdAtMs": 1774507489594,
+      "updatedAtMs": 1775459170733,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 0 * * *",
+        "staggerMs": 0
+      },
+      "sessionTarget": "isolated",
+      "wakeMode": "now",
+      "payload": {
+        "kind": "agentTurn",
+        "message": "执行备份：cd ~/.openclaw && git add -A && git commit -m \"auto backup $(date +\\%Y-\\%m-\\%d)\" && git push && echo \"备份完成\""
+      },
+      "delivery": {
+        "mode": "inline"
+      },
+      "state": {
+        "nextRunAtMs": 1775520000000,
+        "lastRunAtMs": 1775459144503,
+        "lastRunStatus": "error",
+        "lastStatus": "error",
+        "lastDurationMs": 26230,
+        "lastDeliveryStatus": "unknown",
+        "consecutiveErrors": 1,
+        "lastError": "Channel is required when multiple channels are configured: feishu, openclaw-weixin Set delivery.channel explicitly or use a main session with a previous channel."
+      }
+    },
+    {
+      "id": "config-backup-8am",
+      "name": "config-backup-8am",
+      "enabled": true,
+      "createdAtMs": 1774843680000,
+      "updatedAtMs": 1775462505334,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 8 * * *",
+        "staggerMs": 0
+      },
+      "sessionTarget": "isolated",
+      "wakeMode": "now",
+      "payload": {
+        "kind": "agentTurn",
+        "message": "备份 openclaw.json：cp ~/.openclaw/openclaw.json ~/.openclaw/openclaw.json.backup-$(date +%Y%m%d) && echo \"openclaw.json 备份完成 $(date)\""
+      },
+      "delivery": {
+        "mode": "announce",
+        "channel": "feishu",
+        "to": "user:ou_cb5c7afa7e77cafdeaeae1620a2a383a",
+        "accountId": "lucus"
+      },
+      "state": {
+        "nextRunAtMs": 1775548800000,
+        "lastRunAtMs": 1775462400003,
+        "lastRunStatus": "ok",
+        "lastStatus": "ok",
+        "lastDurationMs": 105331,
+        "lastDeliveryStatus": "delivered",
+        "consecutiveErrors": 0,
+        "lastDelivered": true
+      }
+    },
+    {
+      "id": "bf9ffc79-da24-4f25-a67a-983a85dd6dea",
+      "name": "节点监控",
+      "enabled": true,
+      "createdAtMs": 1775032791807,
+      "updatedAtMs": 1775491374742,
+      "schedule": {
+        "kind": "every",
+        "everyMs": 7200000,
+        "anchorMs": 1775032791807
+      },
+      "sessionTarget": "isolated",
+      "wakeMode": "now",
+      "payload": {
+        "kind": "agentTurn",
+        "message": "请运行节点监控脚本 /home/node/.openclaw/workspace-lucus/scripts/node-monitor.js 并报告结果。如果有异常节点请详细说明。",
+        "timeoutSeconds": 60
+      },
+      "delivery": {
+        "mode": "announce",
+        "channel": "feishu",
+        "accountId": "lucus"
+      },
+      "state": {
+        "nextRunAtMs": 1775498555769,
+        "lastRunAtMs": 1775491355769,
+        "lastRunStatus": "error",
+        "lastStatus": "error",
+        "lastDurationMs": 18973,
+        "lastDeliveryStatus": "unknown",
+        "consecutiveErrors": 33,
+        "lastError": "Delivering to Feishu requires target <chatId|user:openId|chat:chatId>"
+      }
+    }
+  ]
+}

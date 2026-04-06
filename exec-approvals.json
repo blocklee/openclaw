@@ -1,0 +1,57 @@
+{
+  "version": 1,
+  "socket": {
+    "path": "/home/node/.openclaw/exec-approvals.sock",
+    "token": "4hOcZzRGlURuvZlHl5qHn2oLVsYbyDnl"
+  },
+  "defaults": {
+    "security": "full",
+    "ask": "off"
+  },
+  "agents": {
+    "main": {
+      "allowlist": [
+        {
+          "id": "d1980b84-8e2c-40e9-b690-c9e62441abca",
+          "pattern": "/usr/bin/mkdir",
+          "source": "allow-always",
+          "lastUsedAt": 1775474747595,
+          "lastUsedCommand": "mkdir -p /home/node/.openclaw/workspace/echonexus-demo/src/{components/{hub,common},services,hooks,contracts,types}",
+          "lastResolvedPath": "/usr/bin/mkdir"
+        }
+      ]
+    },
+    "lucus": {
+      "allowlist": [
+        {
+          "id": "9cd94fec-0237-47e5-8131-c97bcad6790c",
+          "pattern": "=command:a097a8be74a895c9",
+          "source": "allow-always",
+          "lastUsedAt": 1775187653798
+        },
+        {
+          "id": "6577b6fb-91a7-42bb-8628-dfcf00069586",
+          "pattern": "=command:4cca0a071546add5",
+          "source": "allow-always",
+          "lastUsedAt": 1775187713539
+        },
+        {
+          "id": "323dc9bc-e6de-4b5d-9a70-635fa3b287e5",
+          "pattern": "=command:f9c9264bf2b3f7f9",
+          "source": "allow-always",
+          "lastUsedAt": 1775190089649
+        }
+      ]
+    },
+    "wxlee": {
+      "allowlist": [
+        {
+          "id": "38507aa3-88a0-41ef-9fb1-c62d85558ce9",
+          "pattern": "=command:f98133df79434269",
+          "source": "allow-always",
+          "lastUsedAt": 1775200091640
+        }
+      ]
+    }
+  }
+}

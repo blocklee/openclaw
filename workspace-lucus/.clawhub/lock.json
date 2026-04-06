@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "skills": {
+    "free-ride-1-0-5": {
+      "version": "1.0.0",
+      "installedAt": 1774370617382
+    },
+    "env-guard": {
+      "version": "1.0.2",
+      "installedAt": 1774810097534
+    }
+  }
+}
