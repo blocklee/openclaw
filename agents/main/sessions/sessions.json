@@ -2390,7 +2390,7 @@
   },
   "agent:main:cron:1c3a7bd5-d835-41d8-a14a-d2970f13d503": {
     "sessionId": "98330cd0-998d-4738-b49c-2587eee51872",
-    "updatedAt": 1775554235294,
+    "updatedAt": 1775554319454,
     "systemSent": true,
     "label": "Cron: daily-backup",
     "skillsSnapshot": {
@@ -2927,6 +2927,17 @@
     "status": "running",
     "startedAt": 1775554235266,
     "abortedLastRun": false,
+    "chatType": "direct",
+    "deliveryContext": {
+      "to": "heartbeat"
+    },
+    "lastTo": "heartbeat",
+    "origin": {
+      "label": "heartbeat",
+      "provider": "heartbeat",
+      "from": "heartbeat",
+      "to": "heartbeat"
+    },
     "authProfileOverride": "volcengine:default",
     "authProfileOverrideSource": "auto",
     "authProfileOverrideCompactionCount": 0
