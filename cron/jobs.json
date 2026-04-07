@@ -29,7 +29,7 @@
         "lastDurationMs": 26230,
         "lastDeliveryStatus": "unknown",
         "consecutiveErrors": 1,
-        "lastError": "Channel is required when multiple channels are configured: feishu, openclaw-weixin Set delivery.channel explicitly or use a main session with a previous channel."
+        "runningAtMs": 1775520000001
       }
     },
     {
@@ -71,7 +71,7 @@
       "name": "节点监控",
       "enabled": true,
       "createdAtMs": 1775032791807,
-      "updatedAtMs": 1775491374742,
+      "updatedAtMs": 1775512984259,
       "schedule": {
         "kind": "every",
         "everyMs": 7200000,
@@ -90,13 +90,13 @@
         "accountId": "lucus"
       },
       "state": {
-        "nextRunAtMs": 1775498555769,
-        "lastRunAtMs": 1775491355769,
+        "nextRunAtMs": 1775520155789,
+        "lastRunAtMs": 1775512955789,
         "lastRunStatus": "error",
         "lastStatus": "error",
-        "lastDurationMs": 18973,
+        "lastDurationMs": 28470,
         "lastDeliveryStatus": "unknown",
-        "consecutiveErrors": 33,
+        "consecutiveErrors": 36,
         "lastError": "Delivering to Feishu requires target <chatId|user:openId|chat:chatId>"
       }
     }
