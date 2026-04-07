@@ -1,12 +1,9 @@
 {
   "agent:wxlee:openclaw-weixin:ff482f9682b2-im-bot:direct:o9cq802uvmveggp0xkfm4o7acdrg@im.wechat": {
     "sessionId": "de5f6764-2ff6-493b-87c5-ba1246fb4b90",
-    "updatedAt": 1775466489249,
+    "updatedAt": 1775533294982,
     "systemSent": true,
     "abortedLastRun": false,
-    "authProfileOverride": "volcengine:default",
-    "authProfileOverrideSource": "auto",
-    "authProfileOverrideCompactionCount": 0,
     "chatType": "direct",
     "deliveryContext": {
       "channel": "openclaw-weixin",
@@ -434,15 +431,13 @@
       "version": 0
     },
     "status": "done",
-    "startedAt": 1775466448492,
-    "endedAt": 1775466489237,
-    "runtimeMs": 40745,
+    "startedAt": 1775533239076,
     "modelProvider": "volcengine-plan",
     "model": "deepseek-v3.2",
     "contextTokens": 128000,
     "systemPromptReport": {
       "source": "run",
-      "generatedAt": 1775466448480,
+      "generatedAt": 1775533239069,
       "sessionId": "de5f6764-2ff6-493b-87c5-ba1246fb4b90",
       "sessionKey": "agent:wxlee:openclaw-weixin:ff482f9682b2-im-bot:direct:o9cq802uvmveggp0xkfm4o7acdrg@im.wechat",
       "provider": "volcengine-plan",
@@ -462,9 +457,9 @@
         "sandboxed": false
       },
       "systemPrompt": {
-        "chars": 32718,
+        "chars": 32635,
         "projectContextChars": 13655,
-        "nonProjectContextChars": 19063
+        "nonProjectContextChars": 18980
       },
       "injectedWorkspaceFiles": [
         {
@@ -732,10 +727,15 @@
         ]
       }
     },
-    "totalTokensFresh": false
+    "totalTokensFresh": false,
+    "authProfileOverride": "volcengine:default",
+    "authProfileOverrideSource": "auto",
+    "authProfileOverrideCompactionCount": 0,
+    "endedAt": 1775533294968,
+    "runtimeMs": 55892
   },
   "agent:wxlee:main": {
-    "updatedAt": 1775466445788,
+    "updatedAt": 1775533238751,
     "sessionId": "aba60e28-1d34-4cc4-b524-39873546523d"
   }
 }
