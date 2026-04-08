@@ -6,7 +6,7 @@
       "name": "daily-backup",
       "enabled": true,
       "createdAtMs": 1774507489594,
-      "updatedAtMs": 1775520222676,
+      "updatedAtMs": 1775554339655,
       "schedule": {
         "kind": "cron",
         "expr": "0 0 * * *",
@@ -19,17 +19,20 @@
         "message": "执行备份：cd ~/.openclaw && git add -A && git commit -m \"auto backup $(date +\\%Y-\\%m-\\%d)\" && git push && echo \"备份完成\""
       },
       "delivery": {
-        "mode": "inline"
+        "mode": "announce",
+        "channel": "feishu",
+        "to": "user:ou_cb5c7afa7e77cafdeaeae1620a2a383a",
+        "accountId": "lucus"
       },
       "state": {
         "nextRunAtMs": 1775606400000,
-        "lastRunAtMs": 1775520000006,
-        "lastRunStatus": "error",
-        "lastStatus": "error",
-        "lastDurationMs": 222670,
-        "lastDeliveryStatus": "unknown",
-        "consecutiveErrors": 2,
-        "lastError": "Channel is required when multiple channels are configured: feishu, openclaw-weixin Set delivery.channel explicitly or use a main session with a previous channel."
+        "lastRunAtMs": 1775554231479,
+        "lastRunStatus": "ok",
+        "lastStatus": "ok",
+        "lastDurationMs": 108176,
+        "lastDeliveryStatus": "delivered",
+        "consecutiveErrors": 0,
+        "lastDelivered": true
       }
     },
     {
@@ -71,17 +74,16 @@
       "name": "节点监控",
       "enabled": true,
       "createdAtMs": 1775032791807,
-      "updatedAtMs": 1775554164441,
+      "updatedAtMs": 1775556507245,
       "schedule": {
-        "kind": "every",
-        "everyMs": 7200000,
-        "anchorMs": 1775032791807
+        "kind": "cron",
+        "expr": "0 10,22 * * *"
       },
       "sessionTarget": "isolated",
       "wakeMode": "now",
       "payload": {
         "kind": "agentTurn",
-        "message": "请运行节点监控脚本 /home/node/.openclaw/workspace-lucus/scripts/node-monitor.js 并报告结果。如果有异常节点请详细说明。",
+        "message": "运行节点监控脚本 /home/node/.openclaw/workspace-lucus/scripts/node-monitor.js，生成简洁的每日节点状态汇报。",
         "timeoutSeconds": 60
       },
       "delivery": {
@@ -91,14 +93,14 @@
         "accountId": "lucus"
       },
       "state": {
-        "nextRunAtMs": 1775556224779,
-        "lastRunAtMs": 1775549024779,
-        "lastRunStatus": "error",
-        "lastStatus": "error",
-        "lastDurationMs": 12514,
-        "lastDeliveryStatus": "unknown",
-        "consecutiveErrors": 41,
-        "lastError": "Delivering to Feishu requires target <chatId|user:openId|chat:chatId>"
+        "nextRunAtMs": 1775599200000,
+        "lastRunAtMs": 1775556224783,
+        "lastRunStatus": "ok",
+        "lastStatus": "ok",
+        "lastDurationMs": 14385,
+        "lastDeliveryStatus": "delivered",
+        "consecutiveErrors": 0,
+        "lastDelivered": true
       }
     }
   ]

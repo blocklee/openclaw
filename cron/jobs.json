@@ -6,7 +6,7 @@
       "name": "daily-backup",
       "enabled": true,
       "createdAtMs": 1774507489594,
-      "updatedAtMs": 1775554164521,
+      "updatedAtMs": 1775554339655,
       "schedule": {
         "kind": "cron",
         "expr": "0 0 * * *",
@@ -26,13 +26,14 @@
       },
       "state": {
         "nextRunAtMs": 1775606400000,
-        "lastRunAtMs": 1775520000006,
-        "lastRunStatus": "error",
-        "lastStatus": "error",
-        "lastDurationMs": 222670,
-        "lastDeliveryStatus": "unknown",
-        "consecutiveErrors": 2,
-        "runningAtMs": 1775554231479
+        "lastRunAtMs": 1775554231479,
+        "lastRunStatus": "ok",
+        "lastStatus": "ok",
+        "lastDurationMs": 108176,
+        "lastDeliveryStatus": "delivered",
+        "consecutiveErrors": 0,
+        "lastDelivered": true,
+        "runningAtMs": 1775606400001
       }
     },
     {
@@ -74,17 +75,16 @@
       "name": "节点监控",
       "enabled": true,
       "createdAtMs": 1775032791807,
-      "updatedAtMs": 1775554189764,
+      "updatedAtMs": 1775599249638,
       "schedule": {
-        "kind": "every",
-        "everyMs": 7200000,
-        "anchorMs": 1775032791807
+        "kind": "cron",
+        "expr": "0 10,22 * * *"
       },
       "sessionTarget": "isolated",
       "wakeMode": "now",
       "payload": {
         "kind": "agentTurn",
-        "message": "请运行节点监控脚本 /home/node/.openclaw/workspace-lucus/scripts/node-monitor.js 并报告结果。如果有异常节点请详细说明。",
+        "message": "运行节点监控脚本 /home/node/.openclaw/workspace-lucus/scripts/node-monitor.js，生成简洁的每日节点状态汇报。",
         "timeoutSeconds": 60
       },
       "delivery": {
@@ -94,14 +94,49 @@
         "accountId": "lucus"
       },
       "state": {
-        "nextRunAtMs": 1775556224779,
-        "lastRunAtMs": 1775554174470,
+        "nextRunAtMs": 1775642400000,
+        "lastRunAtMs": 1775599200038,
         "lastRunStatus": "ok",
         "lastStatus": "ok",
-        "lastDurationMs": 15294,
+        "lastDurationMs": 49600,
         "lastDeliveryStatus": "delivered",
         "consecutiveErrors": 0,
         "lastDelivered": true
+      }
+    },
+    {
+      "id": "2af4bbbc-7d03-40b5-87a3-03e3be36acb7",
+      "name": "节点异常检测",
+      "enabled": true,
+      "createdAtMs": 1775556661709,
+      "updatedAtMs": 1775599876478,
+      "schedule": {
+        "kind": "every",
+        "everyMs": 7200000,
+        "anchorMs": 1775556661709
+      },
+      "sessionTarget": "isolated",
+      "wakeMode": "now",
+      "payload": {
+        "kind": "agentTurn",
+        "message": "运行节点监控脚本 /home/node/.openclaw/workspace-lucus/scripts/node-monitor.js。如果检测到任何异常（ Valid=false 或 高度落后 >10 块），立即输出完整报告。如果所有节点正常，输出\"✅ 所有节点正常，无异常\"，然后静默。",
+        "timeoutSeconds": 30
+      },
+      "delivery": {
+        "mode": "announce",
+        "channel": "feishu",
+        "to": "user:ou_cb5c7afa7e77cafdeaeae1620a2a383a",
+        "accountId": "lucus"
+      },
+      "state": {
+        "nextRunAtMs": 1775607061742,
+        "lastRunAtMs": 1775599861742,
+        "lastRunStatus": "ok",
+        "lastStatus": "ok",
+        "lastDurationMs": 14736,
+        "lastDelivered": true,
+        "lastDeliveryStatus": "delivered",
+        "consecutiveErrors": 0
       }
     }
   ]

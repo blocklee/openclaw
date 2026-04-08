@@ -572,7 +572,7 @@
   },
   "agent:lucus:feishu:lucus:direct:ou_cb5c7afa7e77cafdeaeae1620a2a383a": {
     "sessionId": "e5278a48-9ecd-491b-af2a-9004d0081949",
-    "updatedAt": 1775554316593,
+    "updatedAt": 1775582126905,
     "systemSent": true,
     "abortedLastRun": false,
     "chatType": "direct",
@@ -1003,22 +1003,17 @@
       "version": 0
     },
     "status": "done",
-    "startedAt": 1775554025003,
-    "endedAt": 1775554312828,
-    "runtimeMs": 287825,
-    "fallbackNoticeSelectedModel": "volcengine-plan/kimi-k2.5",
-    "fallbackNoticeActiveModel": "minimax/MiniMax-M2.7",
-    "fallbackNoticeReason": "unknown",
-    "modelProvider": "minimax",
-    "model": "MiniMax-M2.7",
-    "contextTokens": 204800,
+    "startedAt": 1775582104130,
+    "modelProvider": "volcengine-plan",
+    "model": "kimi-k2.5",
+    "contextTokens": 256000,
     "systemPromptReport": {
       "source": "run",
-      "generatedAt": 1775554024998,
+      "generatedAt": 1775582104112,
       "sessionId": "e5278a48-9ecd-491b-af2a-9004d0081949",
       "sessionKey": "agent:lucus:feishu:lucus:direct:ou_cb5c7afa7e77cafdeaeae1620a2a383a",
-      "provider": "minimax",
-      "model": "MiniMax-M2.7",
+      "provider": "volcengine-plan",
+      "model": "kimi-k2.5",
       "workspaceDir": "/home/node/.openclaw/workspace-lucus",
       "bootstrapMaxChars": 20000,
       "bootstrapTotalMaxChars": 150000,
@@ -1034,9 +1029,9 @@
         "sandboxed": false
       },
       "systemPrompt": {
-        "chars": 33394,
+        "chars": 32918,
         "projectContextChars": 13962,
-        "nonProjectContextChars": 19432
+        "nonProjectContextChars": 18956
       },
       "injectedWorkspaceFiles": [
         {
@@ -1285,7 +1280,7 @@
           },
           {
             "name": "image",
-            "summaryChars": 201,
+            "summaryChars": 260,
             "schemaChars": 342,
             "propertiesCount": 6
           },
@@ -1304,13 +1299,17 @@
         ]
       }
     },
-    "inputTokens": 208963,
-    "outputTokens": 4885,
+    "inputTokens": 109243,
+    "outputTokens": 1984,
     "cacheRead": 11768,
     "cacheWrite": 0,
-    "estimatedCostUsd": 0.090290445,
-    "totalTokens": 25753,
-    "totalTokensFresh": true
+    "estimatedCostUsd": 0.167508495,
+    "totalTokensFresh": false,
+    "authProfileOverride": "volcengine:default",
+    "authProfileOverrideSource": "auto",
+    "authProfileOverrideCompactionCount": 0,
+    "endedAt": 1775582126873,
+    "runtimeMs": 22743
   },
   "agent:lucus:subagent:308bc250-56f3-46a3-9018-528bd14a0c71": {
     "sessionId": "078248e4-5f2d-4aa4-bfa8-b1771a4bb024",

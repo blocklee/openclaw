@@ -6,24 +6,24 @@
     {
       "id": "model_unavailable",
       "name": "Model Unavailable",
-      "enabled": false
+      "enabled": true
     },
     {
       "id": "bot_no_response",
       "name": "Bot Long Time No Response",
-      "enabled": false,
+      "enabled": true,
       "threshold": 300
     },
     {
       "id": "message_failure_rate",
       "name": "Message Failure Rate High",
-      "enabled": false,
+      "enabled": true,
       "threshold": 50
     },
     {
       "id": "cron连续_failure",
       "name": "Cron Continuous Failure",
-      "enabled": false,
+      "enabled": true,
       "threshold": 3
     }
   ],
