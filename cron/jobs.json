@@ -40,7 +40,7 @@
       "name": "config-backup-8am",
       "enabled": true,
       "createdAtMs": 1774843680000,
-      "updatedAtMs": 1775548814508,
+      "updatedAtMs": 1775635217742,
       "schedule": {
         "kind": "cron",
         "expr": "0 8 * * *",
@@ -59,11 +59,11 @@
         "accountId": "lucus"
       },
       "state": {
-        "nextRunAtMs": 1775635200000,
-        "lastRunAtMs": 1775548800005,
+        "nextRunAtMs": 1775721600000,
+        "lastRunAtMs": 1775635200003,
         "lastRunStatus": "ok",
         "lastStatus": "ok",
-        "lastDurationMs": 14503,
+        "lastDurationMs": 17739,
         "lastDeliveryStatus": "delivered",
         "consecutiveErrors": 0,
         "lastDelivered": true
@@ -74,7 +74,7 @@
       "name": "节点监控",
       "enabled": true,
       "createdAtMs": 1775032791807,
-      "updatedAtMs": 1775599249638,
+      "updatedAtMs": 1775642431596,
       "schedule": {
         "kind": "cron",
         "expr": "0 10,22 * * *"
@@ -93,11 +93,11 @@
         "accountId": "lucus"
       },
       "state": {
-        "nextRunAtMs": 1775642400000,
-        "lastRunAtMs": 1775599200038,
+        "nextRunAtMs": 1775685600000,
+        "lastRunAtMs": 1775642400009,
         "lastRunStatus": "ok",
         "lastStatus": "ok",
-        "lastDurationMs": 49600,
+        "lastDurationMs": 31587,
         "lastDeliveryStatus": "delivered",
         "consecutiveErrors": 0,
         "lastDelivered": true
@@ -108,7 +108,7 @@
       "name": "节点异常检测",
       "enabled": true,
       "createdAtMs": 1775556661709,
-      "updatedAtMs": 1775614277476,
+      "updatedAtMs": 1775657476091,
       "schedule": {
         "kind": "every",
         "everyMs": 7200000,
@@ -128,11 +128,11 @@
         "accountId": "lucus"
       },
       "state": {
-        "nextRunAtMs": 1775621461751,
-        "lastRunAtMs": 1775614261751,
+        "nextRunAtMs": 1775664661768,
+        "lastRunAtMs": 1775657461768,
         "lastRunStatus": "ok",
         "lastStatus": "ok",
-        "lastDurationMs": 15725,
+        "lastDurationMs": 14323,
         "lastDelivered": true,
         "lastDeliveryStatus": "delivered",
         "consecutiveErrors": 0

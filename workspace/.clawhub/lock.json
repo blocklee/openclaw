@@ -20,6 +20,42 @@
     "proactive-agent": {
       "version": "3.1.0",
       "installedAt": 1775147660162
+    },
+    "security-audit-toolkit": {
+      "version": "1.0.0",
+      "installedAt": 1775627341207
+    },
+    "nodejs-security-audit": {
+      "version": "1.0.0",
+      "installedAt": 1775627342874
+    },
+    "web3-docs": {
+      "version": "1.0.1",
+      "installedAt": 1775627944062
+    },
+    "solidity": {
+      "version": "1.0.0",
+      "installedAt": 1775628015181
+    },
+    "javascript": {
+      "version": "1.0.3",
+      "installedAt": 1775628256020
+    },
+    "explain-code": {
+      "version": "1.0.0",
+      "installedAt": 1775628363342
+    },
+    "docker-essentials": {
+      "version": "1.0.0",
+      "installedAt": 1775642220883
+    },
+    "vitest-testing": {
+      "version": "1.1.0",
+      "installedAt": 1775642223088
+    },
+    "blockchain": {
+      "version": "1.0.0",
+      "installedAt": 1775642223248
     }
   }
 }

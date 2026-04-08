@@ -27,5 +27,11 @@
       "threshold": 3
     }
   ],
-  "lastAlerts": {}
+  "lastAlerts": {
+    "bot_no_response_main": 1775661410731,
+    "bot_no_response_wxlee": 1775661410901,
+    "cron连续_failure": 1775661410912,
+    "bot_no_response_lucus": 1775628213490,
+    "bot_no_response_codus": 1775661410622
+  }
 }
