@@ -1,7 +1,7 @@
 {
   "meta": {
     "lastTouchedVersion": "2026.4.1",
-    "lastTouchedAt": "2026-04-02T12:45:04.731Z"
+    "lastTouchedAt": "2026-04-02T12:48:31.896Z"
   },
   "env": {
     "OPENROUTER_API_KEY": "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",
@@ -9,8 +9,8 @@
     "GOOGLE_API_KEY": "AIzaSyBDw5RCCBvH-ugpqg5kt1ocqWsiv-PR41U"
   },
   "wizard": {
-    "lastRunAt": "2026-03-31T16:22:36.403Z",
-    "lastRunVersion": "2026.3.28",
+    "lastRunAt": "2026-04-02T12:48:31.861Z",
+    "lastRunVersion": "2026.4.1",
     "lastRunCommand": "doctor",
     "lastRunMode": "local"
   },
@@ -275,7 +275,8 @@
       "model": {
         "primary": "minimax/MiniMax-M2.7",
         "fallbacks": [
-          "openrouter/free",
+          "minimax/MiniMax-M2.7",
+	  "openrouter/free",
           "qwen/qwen3.6-plus-preview:free",
           "google/lyria-3-pro-preview:free",
           "google/lyria-3-clip-preview:free",
@@ -329,9 +330,9 @@
       "blockStreamingDefault": "on",
       "blockStreamingBreak": "message_end",
       "subagents": {
-        "maxConcurrent": 8,
         "maxSpawnDepth": 2,
         "maxChildrenPerAgent": 4,
+	"maxConcurrent": 8,
         "runTimeoutSeconds": 900
       },
       "sandbox": {
@@ -352,7 +353,7 @@
           "fallbacks": [
             "scnet/DeepSeek-V3.2",
             "scnet/MiniMax-M2.5",
-            "openrouter/openrouter/free",
+            "openrouter/free",
             "zai/glm-4.7-flash"
           ]
         }
@@ -363,13 +364,26 @@
         "workspace": "/home/node/.openclaw/workspace-wxlee",
         "agentDir": "/home/node/.openclaw/agents/wxlee/agent",
         "model": {
-          "primary": "deepseek/deepseek-chat"
+          "primary": "deepseek/deepseek-chat",
+	  "fallbacks": [
+	    "deepseek/deepseek-reasoner",
+	    "openrouter/free",
+	    "zai/glm-4.7-flash",
+	    "minimax/MiniMax-M2.7"
+	  ]
         }
       }
     ]
   },
   "tools": {
     "profile": "coding",
+    "agentToAgent": {
+      "enabled": true,
+      "allow": ["main", "lucus", "wxlee"]
+    },
+    "sessions": {
+      "visibility": "all"
+    },
     "web": {
       "search": {
         "enabled": true,

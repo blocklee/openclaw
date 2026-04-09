@@ -56,6 +56,10 @@
     "blockchain": {
       "version": "1.0.0",
       "installedAt": 1775642223248
+    },
+    "binance-hunter": {
+      "version": "1.0.0",
+      "installedAt": 1775671023190
     }
   }
 }

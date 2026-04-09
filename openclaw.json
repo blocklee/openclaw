@@ -1,7 +1,7 @@
 {
   "meta": {
-    "lastTouchedVersion": "2026.4.1",
-    "lastTouchedAt": "2026-04-08T04:53:31.182Z"
+    "lastTouchedVersion": "2026.4.5",
+    "lastTouchedAt": "2026-04-08T16:23:04.340Z"
   },
   "env": {
     "OPENROUTER_API_KEY": "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",
@@ -398,13 +398,13 @@
         "name": "codus",
         "workspace": "/home/node/.openclaw/workspace-codus",
         "agentDir": "/home/node/.openclaw/agents/codus/agent",
-	"model":  {
+        "model": {
           "primary": "minimax/MiniMax-M2.7",
           "fallbacks": [
-	    "volcengine-plan/doubao-seed-code",
-	    "volcengine-plan/glm-4.7"
-	  ]
-	}
+            "volcengine-plan/doubao-seed-code",
+            "volcengine-plan/glm-4.7"
+          ]
+        }
       }
     ]
   },
@@ -415,7 +415,7 @@
       "allow": [
         "main",
         "lucus",
-	"codus",
+        "codus",
         "wxlee"
       ]
     },
@@ -529,7 +529,7 @@
           "appSecret": "YXsvQgicI06FJkWenoDpggitFT6TCgVq",
           "name": "Lucus"
         },
-	"codus": {
+        "codus": {
           "appId": "cli_a9417983f678de17",
           "appSecret": "6FMGvf9k9eUGxQ9c32QRp3e8nTacmB6r",
           "name": "Codus"
@@ -592,7 +592,11 @@
     "allow": [
       "openclaw-weixin",
       "feishu",
-      "minimax"
+      "minimax",
+      "volcengine",
+      "zai",
+      "google",
+      "nvidia"
     ],
     "entries": {
       "duckduckgo": {
@@ -612,6 +616,18 @@
         "config": {}
       },
       "minimax": {
+        "enabled": true
+      },
+      "volcengine": {
+        "enabled": true
+      },
+      "zai": {
+        "enabled": true
+      },
+      "google": {
+        "enabled": true
+      },
+      "nvidia": {
         "enabled": true
       }
     },

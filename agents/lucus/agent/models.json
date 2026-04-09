@@ -337,92 +337,250 @@
         {
           "id": "ark-code-latest",
           "name": "ark-code-latest",
-          "contextWindow": 256000,
-          "maxTokens": 32000,
           "input": [
             "text",
             "image"
-          ]
+          ],
+          "contextWindow": 256000,
+          "maxTokens": 32000,
+          "reasoning": false,
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "api": "openai-completions"
         },
         {
           "id": "doubao-seed-code",
           "name": "doubao-seed-code",
-          "contextWindow": 256000,
-          "maxTokens": 32000,
           "input": [
             "text",
             "image"
-          ]
+          ],
+          "contextWindow": 256000,
+          "maxTokens": 32000,
+          "reasoning": false,
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "api": "openai-completions"
         },
         {
           "id": "glm-4.7",
           "name": "glm-4.7",
-          "contextWindow": 200000,
-          "maxTokens": 128000,
           "input": [
             "text"
-          ]
+          ],
+          "contextWindow": 200000,
+          "maxTokens": 128000,
+          "reasoning": false,
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "api": "openai-completions"
         },
         {
           "id": "deepseek-v3.2",
           "name": "deepseek-v3.2",
-          "contextWindow": 128000,
-          "maxTokens": 32000,
           "input": [
             "text"
-          ]
+          ],
+          "contextWindow": 128000,
+          "maxTokens": 32000,
+          "reasoning": false,
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "api": "openai-completions"
         },
         {
           "id": "doubao-seed-2.0-code",
           "name": "doubao-seed-2.0-code",
-          "contextWindow": 256000,
-          "maxTokens": 128000,
           "input": [
             "text",
             "image"
-          ]
+          ],
+          "contextWindow": 256000,
+          "maxTokens": 128000,
+          "reasoning": false,
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "api": "openai-completions"
         },
         {
           "id": "doubao-seed-2.0-pro",
           "name": "doubao-seed-2.0-pro",
-          "contextWindow": 256000,
-          "maxTokens": 128000,
           "input": [
             "text",
             "image"
-          ]
+          ],
+          "contextWindow": 256000,
+          "maxTokens": 128000,
+          "reasoning": false,
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "api": "openai-completions"
         },
         {
           "id": "doubao-seed-2.0-lite",
           "name": "doubao-seed-2.0-lite",
-          "contextWindow": 256000,
-          "maxTokens": 128000,
           "input": [
             "text",
             "image"
-          ]
+          ],
+          "contextWindow": 256000,
+          "maxTokens": 128000,
+          "reasoning": false,
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "api": "openai-completions"
         },
         {
           "id": "minimax-m2.5",
           "name": "minimax-m2.5",
-          "contextWindow": 200000,
-          "maxTokens": 128000,
           "input": [
             "text"
-          ]
+          ],
+          "contextWindow": 200000,
+          "maxTokens": 128000,
+          "reasoning": false,
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "api": "openai-completions"
         },
         {
           "id": "kimi-k2.5",
           "name": "kimi-k2.5",
-          "contextWindow": 256000,
-          "maxTokens": 32000,
           "input": [
             "text",
             "image"
-          ]
+          ],
+          "contextWindow": 256000,
+          "maxTokens": 32000,
+          "reasoning": false,
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "api": "openai-completions"
         }
       ],
       "apiKey": "ca89d2f0-5be7-4df4-a437-b14d6540e495"
+    },
+    "minimax-cn": {
+      "baseUrl": "https://api.minimaxi.com/anthropic",
+      "api": "anthropic-messages",
+      "authHeader": true,
+      "models": [
+        {
+          "id": "MiniMax-M2.7",
+          "name": "MiniMax M2.7",
+          "api": "anthropic-messages",
+          "reasoning": true,
+          "input": [
+            "text"
+          ],
+          "cost": {
+            "input": 0.3,
+            "output": 1.2,
+            "cacheRead": 0.06,
+            "cacheWrite": 0.375
+          },
+          "contextWindow": 204800,
+          "maxTokens": 131072
+        }
+      ],
+      "apiKey": "sk-cp-uKm-iGKR1m2kwIRD_ZMlC409yFAkIoppChb9ZYWsNFqdPiPzyqv2na608GsCDcF1vtGGvBVs04B1xzspkBvgZhLHshC5bQw6aRSzn9zLS6lAycWQO5ICXgE"
+    },
+    "arcee": {
+      "baseUrl": "https://openrouter.ai/api/v1",
+      "api": "openai-completions",
+      "models": [
+        {
+          "id": "arcee/trinity-mini",
+          "name": "Trinity Mini 26B",
+          "api": "openai-completions",
+          "reasoning": false,
+          "input": [
+            "text"
+          ],
+          "cost": {
+            "input": 0.045,
+            "output": 0.15,
+            "cacheRead": 0.045,
+            "cacheWrite": 0.045
+          },
+          "contextWindow": 131072,
+          "maxTokens": 80000
+        },
+        {
+          "id": "arcee/trinity-large-preview",
+          "name": "Trinity Large Preview",
+          "api": "openai-completions",
+          "reasoning": false,
+          "input": [
+            "text"
+          ],
+          "cost": {
+            "input": 0.25,
+            "output": 1,
+            "cacheRead": 0.25,
+            "cacheWrite": 0.25
+          },
+          "contextWindow": 131072,
+          "maxTokens": 16384
+        },
+        {
+          "id": "arcee/trinity-large-thinking",
+          "name": "Trinity Large Thinking",
+          "api": "openai-completions",
+          "reasoning": true,
+          "input": [
+            "text"
+          ],
+          "cost": {
+            "input": 0.25,
+            "output": 0.9,
+            "cacheRead": 0.25,
+            "cacheWrite": 0.25
+          },
+          "contextWindow": 262144,
+          "maxTokens": 80000,
+          "compat": {
+            "supportsReasoningEffort": false
+          }
+        }
+      ],
+      "apiKey": "OPENROUTER_API_KEY"
     }
   }
 }

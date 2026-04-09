@@ -1,7 +1,7 @@
 {
   "meta": {
     "lastTouchedVersion": "2026.4.1",
-    "lastTouchedAt": "2026-04-06T08:05:17.317Z"
+    "lastTouchedAt": "2026-04-08T04:53:31.182Z"
   },
   "env": {
     "OPENROUTER_API_KEY": "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",
@@ -310,11 +310,11 @@
       },
       "imageGenerationModel": {
         "primary": "volcengine-plan/doubao-seed-2.0-pro",
-	"fallbacks": [
-	  "volcengine-plan/kimi-k2.5",
-	  "volcengine-plan/doubao-seed-2.0-code",
-	  "volcengine-plan/doubao-seed-code"
-	]
+        "fallbacks": [
+          "volcengine-plan/kimi-k2.5",
+          "volcengine-plan/doubao-seed-2.0-code",
+          "volcengine-plan/doubao-seed-code"
+        ]
       },
       "models": {
         "minimax/MiniMax-M2.7": {
@@ -375,7 +375,7 @@
           "fallbacks": [
             "minimax/MiniMax-M2.7",
             "zai/glm-4.7-flash",
-	    "minimax/minimax-m2.5:free"
+            "minimax/minimax-m2.5:free"
           ]
         }
       },
@@ -392,6 +392,19 @@
             "minimax/MiniMax-M2.7"
           ]
         }
+      },
+      {
+        "id": "codus",
+        "name": "codus",
+        "workspace": "/home/node/.openclaw/workspace-codus",
+        "agentDir": "/home/node/.openclaw/agents/codus/agent",
+	"model":  {
+          "primary": "minimax/MiniMax-M2.7",
+          "fallbacks": [
+	    "volcengine-plan/doubao-seed-code",
+	    "volcengine-plan/glm-4.7"
+	  ]
+	}
       }
     ]
   },
@@ -402,6 +415,7 @@
       "allow": [
         "main",
         "lucus",
+	"codus",
         "wxlee"
       ]
     },
@@ -426,6 +440,14 @@
     }
   },
   "bindings": [
+    {
+      "type": "route",
+      "agentId": "codus",
+      "match": {
+        "channel": "feishu",
+        "accountId": "codus"
+      }
+    },
     {
       "type": "route",
       "agentId": "lucus",
@@ -506,6 +528,11 @@
           "appId": "cli_a93108fad2b81e15",
           "appSecret": "YXsvQgicI06FJkWenoDpggitFT6TCgVq",
           "name": "Lucus"
+        },
+	"codus": {
+          "appId": "cli_a9417983f678de17",
+          "appSecret": "6FMGvf9k9eUGxQ9c32QRp3e8nTacmB6r",
+          "name": "Codus"
         },
         "default": {
           "dmPolicy": "pairing",
