@@ -6,7 +6,7 @@
       "name": "daily-backup",
       "enabled": true,
       "createdAtMs": 1774507489594,
-      "updatedAtMs": 1775606439115,
+      "updatedAtMs": 1775692855849,
       "schedule": {
         "kind": "cron",
         "expr": "0 0 * * *",
@@ -25,15 +25,15 @@
         "accountId": "lucus"
       },
       "state": {
-        "nextRunAtMs": 1775692800000,
-        "lastRunAtMs": 1775606400005,
+        "nextRunAtMs": 1775779200000,
+        "lastRunAtMs": 1775692800003,
         "lastRunStatus": "ok",
         "lastStatus": "ok",
-        "lastDurationMs": 39110,
+        "lastDurationMs": 55846,
         "lastDeliveryStatus": "delivered",
         "consecutiveErrors": 0,
         "lastDelivered": true,
-        "runningAtMs": 1775692800001
+        "runningAtMs": 1775838154204
       }
     },
     {
@@ -41,7 +41,7 @@
       "name": "config-backup-8am",
       "enabled": true,
       "createdAtMs": 1774843680000,
-      "updatedAtMs": 1775635217742,
+      "updatedAtMs": 1775721631275,
       "schedule": {
         "kind": "cron",
         "expr": "0 8 * * *",
@@ -60,14 +60,15 @@
         "accountId": "lucus"
       },
       "state": {
-        "nextRunAtMs": 1775721600000,
-        "lastRunAtMs": 1775635200003,
+        "nextRunAtMs": 1775808000000,
+        "lastRunAtMs": 1775721600002,
         "lastRunStatus": "ok",
         "lastStatus": "ok",
-        "lastDurationMs": 17739,
+        "lastDurationMs": 31273,
         "lastDeliveryStatus": "delivered",
         "consecutiveErrors": 0,
-        "lastDelivered": true
+        "lastDelivered": true,
+        "runningAtMs": 1775838154204
       }
     },
     {
@@ -75,7 +76,7 @@
       "name": "节点监控",
       "enabled": true,
       "createdAtMs": 1775032791807,
-      "updatedAtMs": 1775685652337,
+      "updatedAtMs": 1775728843070,
       "schedule": {
         "kind": "cron",
         "expr": "0 10,22 * * *"
@@ -94,14 +95,15 @@
         "accountId": "lucus"
       },
       "state": {
-        "nextRunAtMs": 1775728800000,
-        "lastRunAtMs": 1775685600002,
+        "nextRunAtMs": 1775772000000,
+        "lastRunAtMs": 1775728800003,
         "lastRunStatus": "ok",
         "lastStatus": "ok",
-        "lastDurationMs": 52335,
+        "lastDurationMs": 43067,
         "lastDeliveryStatus": "delivered",
         "consecutiveErrors": 0,
-        "lastDelivered": true
+        "lastDelivered": true,
+        "runningAtMs": 1775838154204
       }
     },
     {
@@ -109,7 +111,7 @@
       "name": "节点异常检测",
       "enabled": true,
       "createdAtMs": 1775556661709,
-      "updatedAtMs": 1775686288976,
+      "updatedAtMs": 1775751095136,
       "schedule": {
         "kind": "every",
         "everyMs": 7200000,
@@ -120,7 +122,7 @@
       "payload": {
         "kind": "agentTurn",
         "message": "运行节点监控脚本 /home/node/.openclaw/workspace-lucus/scripts/node-monitor.js。如果检测到任何异常（Valid=false 或 高度落后 >10 块），立即输出完整报告并发送汇报。如果所有节点正常，直接静默，不发送任何消息。",
-        "timeoutSeconds": 30
+        "timeoutSeconds": 60
       },
       "delivery": {
         "mode": "announce",
@@ -129,14 +131,15 @@
         "accountId": "lucus"
       },
       "state": {
-        "nextRunAtMs": 1775693461779,
-        "lastRunAtMs": 1775686261779,
+        "nextRunAtMs": 1775758261804,
+        "lastRunAtMs": 1775751061804,
         "lastRunStatus": "ok",
         "lastStatus": "ok",
-        "lastDurationMs": 27197,
+        "lastDurationMs": 33332,
         "lastDeliveryStatus": "delivered",
         "consecutiveErrors": 0,
-        "lastDelivered": true
+        "lastDelivered": true,
+        "runningAtMs": 1775838154204
       }
     }
   ]

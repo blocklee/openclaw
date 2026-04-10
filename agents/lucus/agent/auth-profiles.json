@@ -16,25 +16,5 @@
       "provider": "google",
       "key": "AIzaSyBDw5RCCBvH-ugpqg5kt1ocqWsiv-PR41U"
     }
-  },
-  "lastGood": {
-    "minimax": "minimax:cn",
-    "google": "google:default",
-    "openrouter": "openrouter:default"
-  },
-  "usageStats": {
-    "minimax:cn": {
-      "errorCount": 0,
-      "lastUsed": 1775667601243
-    },
-    "google:default": {
-      "errorCount": 0,
-      "lastFailureAt": 1774773742653,
-      "lastUsed": 1774773743884
-    },
-    "openrouter:default": {
-      "errorCount": 0,
-      "lastUsed": 1775390511236
-    }
   }
 }
