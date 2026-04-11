@@ -1,12 +1,9 @@
 {
   "agent:wxlee:openclaw-weixin:ff482f9682b2-im-bot:direct:o9cq802uvmveggp0xkfm4o7acdrg@im.wechat": {
     "sessionId": "88ba758b-76e8-4d8e-8ed3-db90b93cf458",
-    "updatedAt": 1775838263635,
+    "updatedAt": 1775840189466,
     "systemSent": true,
     "abortedLastRun": false,
-    "authProfileOverride": "volcengine:default",
-    "authProfileOverrideSource": "auto",
-    "authProfileOverrideCompactionCount": 0,
     "chatType": "direct",
     "deliveryContext": {
       "channel": "openclaw-weixin",
@@ -398,15 +395,13 @@
       "version": 0
     },
     "status": "done",
-    "startedAt": 1775838256835,
-    "endedAt": 1775838263471,
-    "runtimeMs": 6636,
+    "startedAt": 1775839995673,
     "modelProvider": "volcengine-plan",
     "model": "deepseek-v3.2",
     "contextTokens": 128000,
     "systemPromptReport": {
       "source": "run",
-      "generatedAt": 1775838256785,
+      "generatedAt": 1775839995639,
       "sessionId": "88ba758b-76e8-4d8e-8ed3-db90b93cf458",
       "sessionKey": "agent:wxlee:openclaw-weixin:ff482f9682b2-im-bot:direct:o9cq802uvmveggp0xkfm4o7acdrg@im.wechat",
       "provider": "volcengine-plan",
@@ -700,10 +695,15 @@
         ]
       }
     },
-    "totalTokensFresh": false
+    "totalTokensFresh": false,
+    "authProfileOverride": "volcengine:default",
+    "authProfileOverrideSource": "auto",
+    "authProfileOverrideCompactionCount": 0,
+    "endedAt": 1775840189005,
+    "runtimeMs": 193332
   },
   "agent:wxlee:main": {
-    "updatedAt": 1775838225547,
+    "updatedAt": 1775839992074,
     "sessionId": "aba60e28-1d34-4cc4-b524-39873546523d"
   }
 }

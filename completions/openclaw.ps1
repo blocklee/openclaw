@@ -1677,7 +1677,7 @@ Register-ArgumentCompleter -Native -CommandName openclaw -ScriptBlock {
             }
 
             if ($commandPath -eq 'qa') {
-                $completions = @('run','suite','manual','ui','docker-scaffold','docker-build-image','up','mock-openai')
+                $completions = @('run','suite','character-eval','manual','ui','docker-scaffold','docker-build-image','up','mock-openai')
                 $completions | Where-Object { $_ -like "$wordToComplete*" } | ForEach-Object {
                     [System.Management.Automation.CompletionResult]::new($_, $_, 'ParameterName', $_)
                 }
@@ -1692,6 +1692,13 @@ Register-ArgumentCompleter -Native -CommandName openclaw -ScriptBlock {
 
             if ($commandPath -eq 'qa suite') {
                 $completions = @('--repo-root','--output-dir','--provider-mode','--model','--alt-model','--scenario','--fast')
+                $completions | Where-Object { $_ -like "$wordToComplete*" } | ForEach-Object {
+                    [System.Management.Automation.CompletionResult]::new($_, $_, 'ParameterName', $_)
+                }
+            }
+
+            if ($commandPath -eq 'qa character-eval') {
+                $completions = @('--repo-root','--output-dir','--model','--scenario','--fast','--thinking','--model-thinking','--judge-model','--judge-timeout-ms','--blind-judge-models','--concurrency','--judge-concurrency')
                 $completions | Where-Object { $_ -like "$wordToComplete*" } | ForEach-Object {
                     [System.Management.Automation.CompletionResult]::new($_, $_, 'ParameterName', $_)
                 }
@@ -1831,7 +1838,7 @@ Register-ArgumentCompleter -Native -CommandName openclaw -ScriptBlock {
             }
 
             if ($commandPath -eq 'memory') {
-                $completions = @('status','index','search','promote','promote-explain','rem-harness')
+                $completions = @('status','index','search','promote','promote-explain','rem-harness','rem-backfill')
                 $completions | Where-Object { $_ -like "$wordToComplete*" } | ForEach-Object {
                     [System.Management.Automation.CompletionResult]::new($_, $_, 'ParameterName', $_)
                 }
@@ -1873,7 +1880,14 @@ Register-ArgumentCompleter -Native -CommandName openclaw -ScriptBlock {
             }
 
             if ($commandPath -eq 'memory rem-harness') {
-                $completions = @('--agent','--include-promoted','--json')
+                $completions = @('--agent','--path','--grounded','--include-promoted','--json')
+                $completions | Where-Object { $_ -like "$wordToComplete*" } | ForEach-Object {
+                    [System.Management.Automation.CompletionResult]::new($_, $_, 'ParameterName', $_)
+                }
+            }
+
+            if ($commandPath -eq 'memory rem-backfill') {
+                $completions = @('--agent','--path','--rollback','--stage-short-term','--rollback-short-term','--json')
                 $completions | Where-Object { $_ -like "$wordToComplete*" } | ForEach-Object {
                     [System.Management.Automation.CompletionResult]::new($_, $_, 'ParameterName', $_)
                 }

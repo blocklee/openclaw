@@ -180,7 +180,7 @@ _openclaw_completion() {
         return 0
         ;;
       qa)
-        opts="run suite manual ui docker-scaffold docker-build-image up mock-openai "
+        opts="run suite character-eval manual ui docker-scaffold docker-build-image up mock-openai "
         COMPREPLY=( $(compgen -W "${opts}" -- ${cur}) )
         return 0
         ;;
@@ -205,7 +205,7 @@ _openclaw_completion() {
         return 0
         ;;
       memory)
-        opts="status index search promote promote-explain rem-harness "
+        opts="status index search promote promote-explain rem-harness rem-backfill "
         COMPREPLY=( $(compgen -W "${opts}" -- ${cur}) )
         return 0
         ;;

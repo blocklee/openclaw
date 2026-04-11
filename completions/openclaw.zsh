@@ -3201,6 +3201,22 @@ _openclaw_qa_suite() {
     "--fast[Enable provider fast mode where supported]"
 }
 
+_openclaw_qa_character_eval() {
+  _arguments -C \
+    "--repo-root[Repository root to target when running from a neutral cwd]" \
+    "--output-dir[Character eval artifact directory]" \
+    "--model[Provider/model ref to evaluate; options: thinking=<level>, fast, no-fast, fast=<bool>]" \
+    "--scenario[Character scenario id]" \
+    "--fast[Enable provider fast mode for all candidate runs]" \
+    "--thinking[Candidate thinking default: off|minimal|low|medium|high|xhigh|adaptive]" \
+    "--model-thinking[Deprecated: candidate thinking override for one model ref (repeatable)]" \
+    "--judge-model[Judge provider/model ref; options: thinking=<level>, fast, no-fast, fast=<bool> (repeatable)]" \
+    "--judge-timeout-ms[Override judge wait timeout]" \
+    "--blind-judge-models[Hide candidate model refs from judge prompts; reports still map rankings back to real refs]" \
+    "--concurrency[Candidate model run concurrency]" \
+    "--judge-concurrency[Judge model run concurrency]"
+}
+
 _openclaw_qa_manual() {
   _arguments -C \
     "--message[Prompt to send to the QA agent]" \
@@ -3271,7 +3287,7 @@ _openclaw_qa() {
   
   _arguments -C \
      \
-    "1: :_values 'command' 'run[Run the bundled QA self-check and write a Markdown report]' 'suite[Run repo-backed QA scenarios against the QA gateway lane]' 'manual[Run a one-off QA agent prompt against the selected provider/model lane]' 'ui[Start the private QA debugger UI and local QA bus]' 'docker-scaffold[Write a prebaked Docker scaffold for the QA dashboard + gateway lane]' 'docker-build-image[Build the prebaked QA Docker image with qa-channel + qa-lab bundled]' 'up[Build the QA site, start the Docker-backed QA stack, and print the QA Lab URL]' 'mock-openai[Run the local mock OpenAI Responses API server for QA]'" \
+    "1: :_values 'command' 'run[Run the bundled QA self-check and write a Markdown report]' 'suite[Run repo-backed QA scenarios against the QA gateway lane]' 'character-eval[Run the character QA scenario across live models and write a judged report]' 'manual[Run a one-off QA agent prompt against the selected provider/model lane]' 'ui[Start the private QA debugger UI and local QA bus]' 'docker-scaffold[Write a prebaked Docker scaffold for the QA dashboard + gateway lane]' 'docker-build-image[Build the prebaked QA Docker image with qa-channel + qa-lab bundled]' 'up[Build the QA site, start the Docker-backed QA stack, and print the QA Lab URL]' 'mock-openai[Run the local mock OpenAI Responses API server for QA]'" \
     "*::arg:->args"
 
   case $state in
@@ -3279,6 +3295,7 @@ _openclaw_qa() {
       case $line[1] in
         (run) _openclaw_qa_run ;;
         (suite) _openclaw_qa_suite ;;
+        (character-eval) _openclaw_qa_character_eval ;;
         (manual) _openclaw_qa_manual ;;
         (ui) _openclaw_qa_ui ;;
         (docker-scaffold) _openclaw_qa_docker_scaffold ;;
@@ -3523,7 +3540,19 @@ _openclaw_memory_promote_explain() {
 _openclaw_memory_rem_harness() {
   _arguments -C \
     "--agent[Agent id (default: default agent)]" \
+    "--path[Seed the harness from historical daily memory file(s)]" \
+    "--grounded[Also render a grounded day-level REM preview]" \
     "--include-promoted[Include already promoted deep candidates]" \
+    "--json[Print JSON]"
+}
+
+_openclaw_memory_rem_backfill() {
+  _arguments -C \
+    "--agent[Agent id (default: default agent)]" \
+    "--path[Historical daily memory file(s) or directory]" \
+    "--rollback[Remove previously written grounded REM backfill entries]" \
+    "--stage-short-term[Also seed grounded durable candidates into the short-term promotion store]" \
+    "--rollback-short-term[Remove previously seeded grounded short-term candidates]" \
     "--json[Print JSON]"
 }
 
@@ -3533,7 +3562,7 @@ _openclaw_memory() {
   
   _arguments -C \
      \
-    "1: :_values 'command' 'status[Show memory search index status]' 'index[Reindex memory files]' 'search[Search memory files]' 'promote[Rank short-term recalls and optionally append top entries to MEMORY.md]' 'promote-explain[Explain a specific promotion candidate and its score breakdown]' 'rem-harness[Preview REM reflections, candidate truths, and deep promotions without writing]'" \
+    "1: :_values 'command' 'status[Show memory search index status]' 'index[Reindex memory files]' 'search[Search memory files]' 'promote[Rank short-term recalls and optionally append top entries to MEMORY.md]' 'promote-explain[Explain a specific promotion candidate and its score breakdown]' 'rem-harness[Preview REM reflections, candidate truths, and deep promotions without writing]' 'rem-backfill[Write grounded historical REM summaries into DREAMS.md for UI review]'" \
     "*::arg:->args"
 
   case $state in
@@ -3545,6 +3574,7 @@ _openclaw_memory() {
         (promote) _openclaw_memory_promote ;;
         (promote-explain) _openclaw_memory_promote_explain ;;
         (rem-harness) _openclaw_memory_rem_harness ;;
+        (rem-backfill) _openclaw_memory_rem_backfill ;;
       esac
       ;;
   esac
