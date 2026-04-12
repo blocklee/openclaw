@@ -1,7 +1,8 @@
 {
   "version": 1,
   "lastGood": {
-    "minimax": "minimax:cn"
+    "minimax": "minimax:cn",
+    "volcengine": "volcengine:default"
   },
   "usageStats": {
     "minimax:cn": {
@@ -20,7 +21,7 @@
     },
     "volcengine:default": {
       "errorCount": 0,
-      "lastUsed": 1775671989778
+      "lastUsed": 1775887449058
     }
   }
 }

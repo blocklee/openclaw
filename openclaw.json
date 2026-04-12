@@ -295,23 +295,22 @@
   "agents": {
     "defaults": {
       "model": {
-        "primary": "volcengine-plan/ark-code-latest",
+        "primary": "volcengine-plan/glm-4.7",
         "fallbacks": [
           "volcengine-plan/doubao-seed-2.0-pro",
           "volcengine-plan/doubao-seed-2.0-code",
           "volcengine-plan/doubao-seed-2.0-lite",
           "volcengine-plan/doubao-seed-code",
-          "volcengine-plan/glm-4.7",
           "volcengine-plan/deepseek-v3.2",
           "volcengine-plan/minimax-m2.5",
           "volcengine-plan/kimi-k2.5",
+	  "volcengine-plan/ark-code-latest",
           "minimax/MiniMax-M2.7"
         ]
       },
       "imageGenerationModel": {
         "primary": "volcengine-plan/doubao-seed-2.0-pro",
         "fallbacks": [
-          "volcengine-plan/kimi-k2.5",
           "volcengine-plan/doubao-seed-2.0-code",
           "volcengine-plan/doubao-seed-code"
         ]
@@ -371,7 +370,7 @@
         "workspace": "/home/node/.openclaw/workspace-lucus",
         "agentDir": "/home/node/.openclaw/agents/lucus/agent",
         "model": {
-          "primary": "volcengine-plan/kimi-k2.5",
+          "primary": "volcengine-plan/doubao-seed-2.0-pro",
           "fallbacks": [
             "minimax/MiniMax-M2.7",
             "zai/glm-4.7-flash",
@@ -401,8 +400,9 @@
         "model": {
           "primary": "minimax/MiniMax-M2.7",
           "fallbacks": [
-            "volcengine-plan/doubao-seed-code",
-            "volcengine-plan/glm-4.7"
+            "volcengine-plan/doubao-seed-2.0-code",
+            "volcengine-plan/glm-4.7",
+	    "volcengine-plan/minimax-2.5"
           ]
         }
       }
@@ -603,6 +603,15 @@
         "enabled": true,
         "config": {}
       },
+      "memory-core": {
+      	"config": {
+	  "dreaming": {
+	    "enabled": true, 
+	    "timezone": "Asia/Shanghai",
+	    "frequency": "0 3 * * *"
+	  }
+	}
+      },
       "feishu": {
         "enabled": true,
         "config": {}
@@ -619,7 +628,8 @@
         "enabled": true
       },
       "volcengine": {
-        "enabled": true
+        "enabled": true,
+        "config": {}
       },
       "zai": {
         "enabled": true

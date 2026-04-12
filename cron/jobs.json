@@ -6,7 +6,7 @@
       "name": "daily-backup",
       "enabled": true,
       "createdAtMs": 1774507489594,
-      "updatedAtMs": 1775838298373,
+      "updatedAtMs": 1775865678110,
       "schedule": {
         "kind": "cron",
         "expr": "0 0 * * *",
@@ -25,15 +25,15 @@
         "accountId": "lucus"
       },
       "state": {
-        "nextRunAtMs": 1775865600000,
-        "lastRunAtMs": 1775838262394,
+        "nextRunAtMs": 1775952000000,
+        "lastRunAtMs": 1775865600003,
         "lastRunStatus": "ok",
         "lastStatus": "ok",
-        "lastDurationMs": 35979,
-        "lastDeliveryStatus": "not-delivered",
+        "lastDurationMs": 78107,
+        "lastDeliveryStatus": "delivered",
         "consecutiveErrors": 0,
-        "lastDelivered": false,
-        "runningAtMs": 1775865600002
+        "lastDelivered": true,
+        "runningAtMs": 1775952000000
       }
     },
     {
@@ -41,7 +41,7 @@
       "name": "config-backup-8am",
       "enabled": true,
       "createdAtMs": 1774843680000,
-      "updatedAtMs": 1775838325286,
+      "updatedAtMs": 1775894438025,
       "schedule": {
         "kind": "cron",
         "expr": "0 8 * * *",
@@ -60,14 +60,14 @@
         "accountId": "lucus"
       },
       "state": {
-        "nextRunAtMs": 1775894400000,
-        "lastRunAtMs": 1775838298373,
+        "nextRunAtMs": 1775980800000,
+        "lastRunAtMs": 1775894400003,
         "lastRunStatus": "ok",
         "lastStatus": "ok",
-        "lastDurationMs": 26913,
-        "lastDeliveryStatus": "not-delivered",
+        "lastDurationMs": 38022,
+        "lastDeliveryStatus": "delivered",
         "consecutiveErrors": 0,
-        "lastDelivered": false
+        "lastDelivered": true
       }
     },
     {
@@ -75,7 +75,7 @@
       "name": "节点监控",
       "enabled": true,
       "createdAtMs": 1775032791807,
-      "updatedAtMs": 1775858460014,
+      "updatedAtMs": 1775944860017,
       "schedule": {
         "kind": "cron",
         "expr": "0 10,22 * * *"
@@ -94,15 +94,15 @@
         "accountId": "lucus"
       },
       "state": {
-        "nextRunAtMs": 1775901600000,
-        "lastRunAtMs": 1775858400002,
+        "nextRunAtMs": 1775988000000,
+        "lastRunAtMs": 1775944800003,
         "lastRunStatus": "error",
         "lastStatus": "error",
-        "lastDurationMs": 60012,
+        "lastDurationMs": 60014,
         "lastDeliveryStatus": "unknown",
-        "consecutiveErrors": 1,
-        "lastError": "cron: job execution timed out",
-        "lastErrorReason": "timeout"
+        "consecutiveErrors": 3,
+        "lastErrorReason": "timeout",
+        "lastError": "cron: job execution timed out"
       }
     },
     {
@@ -110,7 +110,7 @@
       "name": "节点异常检测",
       "enabled": true,
       "createdAtMs": 1775556661709,
-      "updatedAtMs": 1775859768437,
+      "updatedAtMs": 1775946197185,
       "schedule": {
         "kind": "every",
         "everyMs": 7200000,
@@ -130,11 +130,11 @@
         "accountId": "lucus"
       },
       "state": {
-        "nextRunAtMs": 1775866954427,
-        "lastRunAtMs": 1775859754427,
+        "nextRunAtMs": 1775953354459,
+        "lastRunAtMs": 1775946154459,
         "lastRunStatus": "ok",
         "lastStatus": "ok",
-        "lastDurationMs": 14010,
+        "lastDurationMs": 42726,
         "lastDeliveryStatus": "delivered",
         "consecutiveErrors": 0,
         "lastDelivered": true

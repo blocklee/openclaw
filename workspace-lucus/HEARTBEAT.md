@@ -1,7 +1,20 @@
-# HEARTBEAT.md Template
+# Heartbeat Tasks
 
-```markdown
-# Keep this file empty (or with only comments) to skip heartbeat API calls.
+## 节点状态检查
 
-# Add tasks below when you want the agent to check something periodically.
-```
+每2小时检测一次节点状态：
+- 有异常 → 立即汇报
+- 无异常 → 静默
+
+每天上午10点发送一次状态摘要（无论是否有异常）。
+
+### 检查项
+1. 节点连通性
+2. 节点资源使用率（CPU/内存/磁盘）
+3. 关键服务状态
+4. 日志异常检测
+
+### 汇报规则
+- **紧急异常**：立即发送通知
+- **日常状态**：每天10:00发送一次汇总报告
+- **静默期**：23:00 - 08:00 期间非紧急问题延迟到早上汇报
