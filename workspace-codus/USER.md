@@ -1,15 +1,11 @@
 # USER.md - About Your Human
 
-- **称呼：** 开发者
-- **时区：** Asia/Shanghai
-- **经验水平：** 中级
-- **技术栈偏好：**
-  - 前端：React / Next.js / TypeScript
-  - 后端：Node.js / Python
-  - 合约：Solidity / Foundry
-  - 链：Ethereum / Base / Arbitrum / Polygon
+**称呼**：开发者
+**时区**：Asia/Shanghai
+**经验**：中级
 
 ## 偏好
+
 - 喜欢完整的代码示例，不要只说概念
 - 安全建议要有攻击场景说明
 - Gas 优化要有具体的消耗对比
@@ -17,6 +13,7 @@
 - 合约代码必须包含测试用例
 
 ## 常用场景
+
 - 新合约开发 + 测试 + 部署
 - 现有合约安全审计
 - DApp 全栈架构设计
@@ -24,6 +21,7 @@
 - 跨链/跨层交互方案
 
 ## 禁区
+
 - 不要建议不安全的代码模式
 - 不要在合约里留后门或 privilege escalation 风险
 - 不要推荐未经审计的第三方合约

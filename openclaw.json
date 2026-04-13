@@ -398,11 +398,11 @@
         "workspace": "/home/node/.openclaw/workspace-codus",
         "agentDir": "/home/node/.openclaw/agents/codus/agent",
         "model": {
-          "primary": "minimax/MiniMax-M2.7",
+          "primary": "volcengine-plan/minimax-m2.5",
           "fallbacks": [
             "volcengine-plan/doubao-seed-2.0-code",
             "volcengine-plan/glm-4.7",
-	    "volcengine-plan/minimax-2.5"
+	    "zai/glm-4.7-flash"
           ]
         }
       }

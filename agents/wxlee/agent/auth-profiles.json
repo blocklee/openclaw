@@ -16,24 +16,5 @@
       "provider": "openai",
       "key": "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"
     }
-  },
-  "lastGood": {
-    "minimax": "minimax:cn"
-  },
-  "usageStats": {
-    "minimax:cn": {
-      "errorCount": 0,
-      "lastUsed": 1775149252338
-    },
-    "openai:default": {
-      "errorCount": 2,
-      "failureCounts": {
-        "rate_limit": 2
-      },
-      "lastFailureAt": 1775057058632,
-      "cooldownUntil": 1775057062853,
-      "cooldownReason": "rate_limit",
-      "cooldownModel": "gpt-5.4"
-    }
   }
 }

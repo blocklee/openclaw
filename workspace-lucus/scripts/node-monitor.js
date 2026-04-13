@@ -7,6 +7,7 @@ const path = require('path');
 const API_URL = 'node.meerfans.club';
 const API_PATH = '/api/status';
 const LOG_FILE = path.join(__dirname, '../logs/node-monitor.log');
+const TIMEOUT = 30000; // 增加超时时间到30秒
 
 const log = (msg) => {
   const timestamp = new Date().toISOString();
@@ -21,7 +22,7 @@ const checkNodes = () => {
       hostname: API_URL,
       path: API_PATH,
       method: 'GET',
-      timeout: 10000
+      timeout: TIMEOUT
     };
 
     const req = https.request(options, (res) => {
