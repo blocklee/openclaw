@@ -6,7 +6,7 @@
       "name": "daily-backup",
       "enabled": true,
       "createdAtMs": 1774507489594,
-      "updatedAtMs": 1775952074587,
+      "updatedAtMs": 1776038617544,
       "schedule": {
         "kind": "cron",
         "expr": "0 0 * * *",
@@ -25,15 +25,15 @@
         "accountId": "lucus"
       },
       "state": {
-        "nextRunAtMs": 1776038400000,
-        "lastRunAtMs": 1775952000002,
+        "nextRunAtMs": 1776124800000,
+        "lastRunAtMs": 1776038400003,
         "lastRunStatus": "ok",
         "lastStatus": "ok",
-        "lastDurationMs": 74585,
+        "lastDurationMs": 217541,
         "lastDeliveryStatus": "delivered",
         "consecutiveErrors": 0,
         "lastDelivered": true,
-        "runningAtMs": 1776038400001
+        "runningAtMs": 1776124800001
       }
     },
     {
@@ -41,7 +41,7 @@
       "name": "config-backup-8am",
       "enabled": true,
       "createdAtMs": 1774843680000,
-      "updatedAtMs": 1775981302584,
+      "updatedAtMs": 1776067262608,
       "schedule": {
         "kind": "cron",
         "expr": "0 8 * * *",
@@ -60,85 +60,42 @@
         "accountId": "lucus"
       },
       "state": {
-        "nextRunAtMs": 1776067200000,
-        "lastRunAtMs": 1775980800003,
-        "lastRunStatus": "error",
-        "lastStatus": "error",
-        "lastDurationMs": 502581,
-        "lastDeliveryStatus": "unknown",
-        "consecutiveErrors": 1,
-        "lastError": "FallbackSummaryError: All models failed (10): volcengine-plan/glm-4.7: ⚠️ You have exceeded the 5-hour usage quota. It will reset at 2026-04-12 17:33:06 +0800 CST. We recommend upgrading your plan for more quota, or waiting for the reset. Request id: 0217759808503526fdba12e18648ff4577e64dddd76d2e74e6f04 (rate_limit) | volcengine-plan/doubao-seed-2.0-pro: ⚠️ You have exceeded the 5-hour usage quota. It will reset at 2026-04-12 17:33:06 +0800 CST. We recommend upgrading your plan for more quota, or waiting for the reset. Request id: 0217759808995206fdba12e18648ff4577e64dddd76d2e726a05b (rate_limit) | volcengine-plan/doubao-seed-2.0-code: ⚠️ You have exceeded the 5-hour usage quota. It will reset at 2026-04-12 17:33:06 +0800 CST. We recommend upgrading your plan for more quota, or waiting for the reset. Request id: 0217759809517136fdba12e18648ff4577e64dddd76d2e7f09f00 (rate_limit) | volcengine-plan/doubao-seed-2.0-lite: ⚠️ You have exceeded the 5-hour usage quota. It will reset at 2026-04-12 17:33:06 +0800 CST. We recommend upgrading your plan for more quota, or waiting for the reset. Request id: 0217759810047976fdba12e18648ff4577e64dddd76d2e77ddb55 (rate_limit) | volcengine-plan/doubao-seed-code: ⚠️ You have exceeded the 5-hour usage quota. It will reset at 2026-04-12 17:33:06 +0800 CST. We recommend upgrading your plan for more quota, or waiting for the reset. Request id: 0217759810552626fdba12e18648ff4577e64dddd76d2e74a3d50 (rate_limit) | volcengine-plan/deepseek-v3.2: ⚠️ You have exceeded the 5-hour usage quota. It will reset at 2026-04-12 17:33:06 +0800 CST. We recommend upgrading your plan for more quota, or waiting for the reset. Request id: 0217759811032116fdba12e18648ff4577e64dddd76d2e7deb07e (rate_limit) | volcengine-plan/minimax-m2.5: ⚠️ You have exceeded the 5-hour usage quota. It will reset at 2026-04-12 17:33:06 +0800 CST. We recommend upgrading your plan for more quota, or waiting for the reset. Request id: 0217759811541036fdba12e18648ff4577e64dddd76d2e7b27cda (rate_limit) | volcengine-plan/kimi-k2.5: ⚠️ You have exceeded the 5-hour usage quota. It will reset at 2026-04-12 17:33:06 +0800 CST. We recommend upgrading your plan for more quota, or waiting for the reset. Request id: 0217759812044166fdba12e18648ff4577e64dddd76d2e78d8c5f (rate_limit) | volcengine-plan/ark-code-latest: ⚠️ You have exceeded the 5-hour usage quota. It will reset at 2026-04-12 17:33:06 +0800 CST. We recommend upgrading your plan for more quota, or waiting for the reset. Request id: 0217759812570006fdba12e18648ff4577e64dddd76d2e7a40f2b (rate_limit) | minimax/MiniMax-M2.7: HTTP 500 api_error: your current token plan not support model, MiniMax-M2.7 (2061) (timeout)",
-        "lastErrorReason": "rate_limit"
-      }
-    },
-    {
-      "id": "bf9ffc79-da24-4f25-a67a-983a85dd6dea",
-      "name": "节点监控",
-      "enabled": true,
-      "createdAtMs": 1775032791807,
-      "updatedAtMs": 1776031260020,
-      "schedule": {
-        "kind": "cron",
-        "expr": "0 10,22 * * *"
-      },
-      "sessionTarget": "isolated",
-      "wakeMode": "now",
-      "payload": {
-        "kind": "agentTurn",
-        "message": "运行节点监控脚本 /home/node/.openclaw/workspace-lucus/scripts/node-monitor.js，生成简洁的每日节点状态汇报。",
-        "timeoutSeconds": 60
-      },
-      "delivery": {
-        "mode": "announce",
-        "channel": "feishu",
-        "to": "user:ou_cb5c7afa7e77cafdeaeae1620a2a383a",
-        "accountId": "lucus"
-      },
-      "state": {
-        "nextRunAtMs": 1776074400000,
-        "lastRunAtMs": 1776031200003,
-        "lastRunStatus": "error",
-        "lastStatus": "error",
-        "lastDurationMs": 60017,
-        "lastDeliveryStatus": "unknown",
-        "consecutiveErrors": 5,
-        "lastErrorReason": "timeout",
-        "lastError": "cron: job execution timed out"
-      }
-    },
-    {
-      "id": "2af4bbbc-7d03-40b5-87a3-03e3be36acb7",
-      "name": "节点异常检测",
-      "enabled": true,
-      "createdAtMs": 1775556661709,
-      "updatedAtMs": 1776032674920,
-      "schedule": {
-        "kind": "every",
-        "everyMs": 7200000,
-        "anchorMs": 1775556661709
-      },
-      "sessionTarget": "isolated",
-      "wakeMode": "now",
-      "payload": {
-        "kind": "agentTurn",
-        "message": "运行节点监控脚本 /home/node/.openclaw/workspace-lucus/scripts/node-monitor.js。如果检测到任何异常（Valid=false 或 高度落后 >10 块），立即输出完整报告并发送汇报。如果所有节点正常，直接静默，不发送任何消息。",
-        "timeoutSeconds": 60
-      },
-      "delivery": {
-        "mode": "announce",
-        "channel": "feishu",
-        "to": "user:ou_cb5c7afa7e77cafdeaeae1620a2a383a",
-        "accountId": "lucus"
-      },
-      "state": {
-        "nextRunAtMs": 1776039845644,
-        "lastRunAtMs": 1776032645644,
+        "nextRunAtMs": 1776153600000,
+        "lastRunAtMs": 1776067200004,
         "lastRunStatus": "ok",
         "lastStatus": "ok",
-        "lastDurationMs": 29276,
-        "lastDeliveryStatus": "not-delivered",
+        "lastDurationMs": 62604,
+        "lastDeliveryStatus": "delivered",
         "consecutiveErrors": 0,
-        "lastDelivered": false
+        "lastDelivered": true
+      }
+    },
+    {
+      "id": "8f62feb4-aed8-47fd-8093-29d8f97f4b71",
+      "name": "Memory Dreaming Promotion",
+      "description": "[managed-by=memory-core.short-term-promotion] Promote weighted short-term recalls into MEMORY.md (limit=10, minScore=0.800, minRecallCount=3, minUniqueQueries=3, recencyHalfLifeDays=14, maxAgeDays=30).",
+      "enabled": true,
+      "createdAtMs": 1776096382076,
+      "updatedAtMs": 1776107117299,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 3 * * *",
+        "tz": "Asia/Shanghai"
+      },
+      "sessionTarget": "main",
+      "wakeMode": "now",
+      "payload": {
+        "kind": "systemEvent",
+        "text": "__openclaw_memory_core_short_term_promotion_dream__"
+      },
+      "state": {
+        "nextRunAtMs": 1776193200000,
+        "lastRunAtMs": 1776106800004,
+        "lastRunStatus": "ok",
+        "lastStatus": "ok",
+        "lastDurationMs": 317295,
+        "lastDeliveryStatus": "not-requested",
+        "consecutiveErrors": 0
       }
     }
   ]

@@ -1,7 +1,7 @@
 {
   "meta": {
-    "lastTouchedVersion": "2026.4.5",
-    "lastTouchedAt": "2026-04-08T16:23:04.340Z"
+    "lastTouchedVersion": "2026.4.12",
+    "lastTouchedAt": "2026-04-13T16:04:16.344Z"
   },
   "env": {
     "OPENROUTER_API_KEY": "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",
@@ -304,7 +304,7 @@
           "volcengine-plan/deepseek-v3.2",
           "volcengine-plan/minimax-m2.5",
           "volcengine-plan/kimi-k2.5",
-	  "volcengine-plan/ark-code-latest",
+          "volcengine-plan/ark-code-latest",
           "minimax/MiniMax-M2.7"
         ]
       },
@@ -346,7 +346,7 @@
       },
       "compaction": {
         "mode": "default",
-        "reserveTokensFloor": 40000
+        "reserveTokensFloor": 30000
       },
       "blockStreamingDefault": "on",
       "blockStreamingBreak": "message_end",
@@ -373,7 +373,7 @@
           "primary": "volcengine-plan/doubao-seed-2.0-pro",
           "fallbacks": [
             "minimax/MiniMax-M2.7",
-            "zai/glm-4.7-flash",
+            "volcengine-plan/glm-4.7",
             "minimax/minimax-m2.5:free"
           ]
         }
@@ -402,7 +402,7 @@
           "fallbacks": [
             "volcengine-plan/doubao-seed-2.0-code",
             "volcengine-plan/glm-4.7",
-	    "zai/glm-4.7-flash"
+            "zai/glm-4.7-flash"
           ]
         }
       }
@@ -596,7 +596,10 @@
       "volcengine",
       "zai",
       "google",
-      "nvidia"
+      "nvidia",
+      "duckduckgo",
+      "memory-core",
+      "tavily"
     ],
     "entries": {
       "duckduckgo": {
@@ -604,13 +607,13 @@
         "config": {}
       },
       "memory-core": {
-      	"config": {
-	  "dreaming": {
-	    "enabled": true, 
-	    "timezone": "Asia/Shanghai",
-	    "frequency": "0 3 * * *"
-	  }
-	}
+        "config": {
+          "dreaming": {
+            "enabled": true,
+            "timezone": "Asia/Shanghai",
+            "frequency": "0 3 * * *"
+          }
+        }
       },
       "feishu": {
         "enabled": true,

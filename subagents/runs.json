@@ -1,39 +1,4 @@
 {
   "version": 2,
-  "runs": {
-    "ef4acea4-c43c-42cf-a865-e561842f0c16": {
-      "runId": "ef4acea4-c43c-42cf-a865-e561842f0c16",
-      "childSessionKey": "agent:codus:subagent:9578a50d-6243-40f2-b571-857c146a9823",
-      "controllerSessionKey": "agent:codus:feishu:codus:direct:ou_13190b75af6c015cd2975d6de047a6f1",
-      "requesterSessionKey": "agent:codus:feishu:codus:direct:ou_13190b75af6c015cd2975d6de047a6f1",
-      "requesterOrigin": {
-        "channel": "feishu",
-        "to": "user:ou_13190b75af6c015cd2975d6de047a6f1",
-        "accountId": "codus"
-      },
-      "requesterDisplayKey": "agent:codus:feishu:codus:direct:ou_13190b75af6c015cd2975d6de047a6f1",
-      "task": "使用 Agent Browser 工具访问 EchoNexus 参考 Demo 页面，获取页面的完整功能和界面设计信息",
-      "cleanup": "keep",
-      "expectsCompletionMessage": true,
-      "spawnMode": "session",
-      "label": "访问 EchoNexus 参考 Demo",
-      "model": "minimax/MiniMax-M2.7",
-      "workspaceDir": "/home/node/.openclaw/workspace-codus",
-      "runTimeoutSeconds": 900,
-      "createdAt": 1775973038607,
-      "startedAt": 1775973127388,
-      "sessionStartedAt": 1775973038607,
-      "accumulatedRuntimeMs": 0,
-      "cleanupHandled": true,
-      "retainAttachmentsOnKeep": false,
-      "endedAt": 1775973382648,
-      "outcome": {
-        "status": "ok"
-      },
-      "endedReason": "subagent-complete",
-      "frozenResultText": null,
-      "frozenResultCapturedAt": 1775973103696,
-      "cleanupCompletedAt": 1775973660498
-    }
-  }
+  "runs": {}
 }

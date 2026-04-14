@@ -12,7 +12,7 @@ _openclaw_root_completion() {
     "--profile[Use a named profile (isolates OPENCLAW_STATE_DIR/OPENCLAW_CONFIG_PATH under ~/.openclaw-<name>)]" \
     "--log-level[Global log level override for file + console (silent|fatal|error|warn|info|debug|trace)]" \
     "--no-color[Disable ANSI colors]" \
-    "1: :_values 'command' 'completion[Generate shell completion script]' 'setup[Initialize the active OpenClaw config and agent workspace]' 'onboard[Interactive onboarding for the gateway, workspace, and skills]' 'configure[Interactive configuration for credentials, channels, gateway, and agent defaults]' 'config[Non-interactive config helpers (get/set/unset/file/schema/validate). Run without subcommand for guided setup.]' 'backup[Create and verify local backup archives for OpenClaw state]' 'doctor[Health checks + quick fixes for the gateway and channels]' 'dashboard[Open the Control UI with your current token]' 'reset[Reset local config/state (keeps the CLI installed)]' 'uninstall[Uninstall the gateway service + local data (CLI remains)]' 'message[Send, read, and manage messages and channel actions]' 'mcp[Manage OpenClaw MCP config and channel bridge]' 'agent[Run an agent turn via the Gateway (use --local for embedded)]' 'agents[Manage isolated agents (workspaces + auth + routing)]' 'status[Show channel health and recent session recipients]' 'health[Fetch health from the running gateway]' 'sessions[List stored conversation sessions]' 'tasks[Inspect durable background tasks and TaskFlow state]' 'acp[Run an ACP bridge backed by the Gateway]' 'gateway[Run, inspect, and query the WebSocket Gateway]' 'daemon[Manage the Gateway service (launchd/systemd/schtasks)]' 'logs[Tail gateway file logs via RPC]' 'system[System tools (events, heartbeat, presence)]' 'models[Model discovery, scanning, and configuration]' 'infer[Run provider-backed inference commands through a stable CLI surface]' 'approvals[Manage exec approvals (gateway or node host)]' 'nodes[Manage gateway-owned nodes (pairing, status, invoke, and media)]' 'devices[Device pairing and auth tokens]' 'node[Run and manage the headless node host service]' 'sandbox[Manage sandbox containers (Docker-based agent isolation)]' 'tui[Open a terminal UI connected to the Gateway]' 'cron[Manage cron jobs (via Gateway)]' 'dns[DNS helpers for wide-area discovery (Tailscale + CoreDNS)]' 'docs[Search the live OpenClaw docs]' 'qa[Run private QA automation flows and launch the QA debugger]' 'hooks[Manage internal agent hooks]' 'webhooks[Webhook helpers and integrations]' 'qr[Generate a mobile pairing QR code and setup code]' 'clawbot[Legacy clawbot command aliases]' 'memory[Search, inspect, and reindex memory files]' 'pairing[Secure DM pairing (approve inbound requests)]' 'plugins[Manage OpenClaw plugins and extensions]' 'channels[Manage connected chat channels and accounts]' 'directory[Lookup contact and group IDs (self, peers, groups) for supported chat channels]' 'security[Audit local config and state for common security foot-guns]' 'secrets[Secrets runtime controls]' 'skills[List and inspect available skills]' 'update[Update OpenClaw and inspect update channel status]'" \
+    "1: :_values 'command' 'completion[Generate shell completion script]' 'setup[Initialize the active OpenClaw config and agent workspace]' 'onboard[Interactive onboarding for the gateway, workspace, and skills]' 'configure[Interactive configuration for credentials, channels, gateway, and agent defaults]' 'config[Non-interactive config helpers (get/set/unset/file/schema/validate). Run without subcommand for guided setup.]' 'backup[Create and verify local backup archives for OpenClaw state]' 'doctor[Health checks + quick fixes for the gateway and channels]' 'dashboard[Open the Control UI with your current token]' 'reset[Reset local config/state (keeps the CLI installed)]' 'uninstall[Uninstall the gateway service + local data (CLI remains)]' 'message[Send, read, and manage messages and channel actions]' 'mcp[Manage OpenClaw MCP config and channel bridge]' 'agent[Run an agent turn via the Gateway (use --local for embedded)]' 'agents[Manage isolated agents (workspaces + auth + routing)]' 'status[Show channel health and recent session recipients]' 'health[Fetch health from the running gateway]' 'sessions[List stored conversation sessions]' 'tasks[Inspect durable background tasks and TaskFlow state]' 'acp[Run an ACP bridge backed by the Gateway]' 'gateway[Run, inspect, and query the WebSocket Gateway]' 'daemon[Manage the Gateway service (launchd/systemd/schtasks)]' 'logs[Tail gateway file logs via RPC]' 'system[System tools (events, heartbeat, presence)]' 'models[Model discovery, scanning, and configuration]' 'infer[Run provider-backed inference commands through a stable CLI surface]' 'approvals[Manage exec approvals (gateway or node host)]' 'exec-policy[Show or synchronize requested exec policy with host approvals]' 'nodes[Manage gateway-owned nodes (pairing, status, invoke, and media)]' 'devices[Device pairing and auth tokens]' 'node[Run and manage the headless node host service]' 'sandbox[Manage sandbox containers (Docker-based agent isolation)]' 'tui[Open a terminal UI connected to the Gateway]' 'cron[Manage cron jobs (via Gateway)]' 'dns[DNS helpers for wide-area discovery (Tailscale + CoreDNS)]' 'docs[Search the live OpenClaw docs]' 'qa[Run private QA automation flows and launch the QA debugger]' 'proxy[Run the OpenClaw debug proxy and inspect captured traffic]' 'hooks[Manage internal agent hooks]' 'webhooks[Webhook helpers and integrations]' 'qr[Generate a mobile pairing QR code and setup code]' 'clawbot[Legacy clawbot command aliases]' 'memory[Search, inspect, and reindex memory files]' 'pairing[Secure DM pairing (approve inbound requests)]' 'plugins[Manage OpenClaw plugins and extensions]' 'channels[Manage connected chat channels and accounts]' 'directory[Lookup contact and group IDs (self, peers, groups) for supported chat channels]' 'security[Audit local config and state for common security foot-guns]' 'secrets[Secrets runtime controls]' 'skills[List and inspect available skills]' 'update[Update OpenClaw and inspect update channel status]'" \
     "*::arg:->args"
 
   case $state in
@@ -44,6 +44,7 @@ _openclaw_root_completion() {
         (models) _openclaw_models ;;
         (infer) _openclaw_infer ;;
         (approvals) _openclaw_approvals ;;
+        (exec-policy) _openclaw_exec_policy ;;
         (nodes) _openclaw_nodes ;;
         (devices) _openclaw_devices ;;
         (node) _openclaw_node ;;
@@ -53,6 +54,7 @@ _openclaw_root_completion() {
         (dns) _openclaw_dns ;;
         (docs) _openclaw_docs ;;
         (qa) _openclaw_qa ;;
+        (proxy) _openclaw_proxy ;;
         (hooks) _openclaw_hooks ;;
         (webhooks) _openclaw_webhooks ;;
         (qr) _openclaw_qr ;;
@@ -99,7 +101,7 @@ _openclaw_onboard() {
     "--accept-risk[Acknowledge that agents are powerful and full system access is risky (required for --non-interactive)]" \
     "--flow[Onboard flow: quickstart|advanced|manual]" \
     "--mode[Onboard mode: local|remote]" \
-    "--auth-choice[Auth: custom-api-key|skip|claude-cli|codex-cli|apiKey|anthropic-cli|setup-token|arceeai-api-key|byteplus-api-key|chutes|chutes-api-key|cloudflare-ai-gateway-api-key|zai-cn|qwen-api-key-cn|qwen-api-key|zai-coding-cn|zai-coding-global|copilot-proxy|deepseek-api-key|fireworks-api-key|google-gemini-cli|github-copilot|zai-global|gemini-api-key|huggingface-api-key|kilocode-api-key|moonshot-api-key|moonshot-api-key-cn|kimi-code-api-key|litellm-api-key|microsoft-foundry-apikey|microsoft-foundry-entra|minimax-cn-api|minimax-global-api|minimax-cn-oauth|minimax-global-oauth|mistral-api-key|ollama|openai-api-key|openai-codex|opencode-go|opencode-zen|arceeai-openrouter|openrouter-api-key|qianfan-api-key|sglang|qwen-standard-api-key-cn|qwen-standard-api-key|stepfun-standard-api-key-cn|stepfun-standard-api-key-intl|stepfun-plan-api-key-cn|stepfun-plan-api-key-intl|synthetic-api-key|together-api-key|venice-api-key|ai-gateway-api-key|vllm|volcengine-api-key|xai-api-key|xiaomi-api-key|zai-api-key]" \
+    "--auth-choice[Auth: custom-api-key|skip|claude-cli|codex-cli|apiKey|anthropic-cli|setup-token|arceeai-api-key|byteplus-api-key|chutes|chutes-api-key|cloudflare-ai-gateway-api-key|zai-cn|qwen-api-key-cn|qwen-api-key|zai-coding-cn|zai-coding-global|copilot-proxy|deepseek-api-key|fireworks-api-key|google-gemini-cli|github-copilot|zai-global|gemini-api-key|huggingface-api-key|kilocode-api-key|moonshot-api-key|moonshot-api-key-cn|kimi-code-api-key|litellm-api-key|lmstudio|microsoft-foundry-apikey|microsoft-foundry-entra|minimax-cn-api|minimax-global-api|minimax-cn-oauth|minimax-global-oauth|mistral-api-key|ollama|openai-api-key|openai-codex|opencode-go|opencode-zen|arceeai-openrouter|openrouter-api-key|qianfan-api-key|sglang|qwen-standard-api-key-cn|qwen-standard-api-key|stepfun-standard-api-key-cn|stepfun-standard-api-key-intl|stepfun-plan-api-key-cn|stepfun-plan-api-key-intl|synthetic-api-key|together-api-key|venice-api-key|ai-gateway-api-key|vllm|volcengine-api-key|xai-api-key|xiaomi-api-key|zai-api-key]" \
     "--token-provider[Token provider id (non-interactive; used with --auth-choice token)]" \
     "--token[Token value (non-interactive; used with --auth-choice token)]" \
     "--token-profile-id[Auth profile id (non-interactive; default: <provider>:manual)]" \
@@ -122,6 +124,7 @@ _openclaw_onboard() {
     "--kilocode-api-key[Kilo Gateway API key]" \
     "--kimi-code-api-key[Kimi Code API key (subscription)]" \
     "--litellm-api-key[LiteLLM API key]" \
+    "--lmstudio-api-key[LM Studio API key]" \
     "--minimax-api-key[MiniMax API key]" \
     "--mistral-api-key[Mistral API key]" \
     "--moonshot-api-key[Moonshot API key]" \
@@ -470,7 +473,8 @@ _openclaw_message_unpin() {
     "--json[Output result as JSON]" \
     "--dry-run[Print payload and skip sending]" \
     "--verbose[Verbose logging]" \
-    "--message-id[Message id]"
+    "--message-id[Message id (or pinned message resource id for MSTeams)]" \
+    "--pinned-message-id[Pinned message resource id (MSTeams: from pin or list-pins, not the chat message id)]"
 }
 
 _openclaw_message_pins() {
@@ -2382,6 +2386,45 @@ _openclaw_approvals() {
   esac
 }
 
+_openclaw_exec_policy_show() {
+  _arguments -C \
+    "--json[Output as JSON]"
+}
+
+_openclaw_exec_policy_preset() {
+  _arguments -C \
+    "--json[Output as JSON]"
+}
+
+_openclaw_exec_policy_set() {
+  _arguments -C \
+    "--host[Exec host target: auto|sandbox|gateway|node]" \
+    "--security[Exec security: deny|allowlist|full]" \
+    "--ask[Exec ask mode: off|on-miss|always]" \
+    "--ask-fallback[Host approvals fallback: deny|allowlist|full]" \
+    "--json[Output as JSON]"
+}
+
+_openclaw_exec_policy() {
+  local -a commands
+  local -a options
+  
+  _arguments -C \
+     \
+    "1: :_values 'command' 'show[Show the local config policy, host approvals, and effective merge]' 'preset[Apply a synchronized preset: "yolo", "cautious", or "deny-all"]' 'set[Synchronize local config and host approvals using explicit values]'" \
+    "*::arg:->args"
+
+  case $state in
+    (args)
+      case $line[1] in
+        (show) _openclaw_exec_policy_show ;;
+        (preset) _openclaw_exec_policy_preset ;;
+        (set) _openclaw_exec_policy_set ;;
+      esac
+      ;;
+  esac
+}
+
 _openclaw_nodes_status() {
   _arguments -C \
     "--connected[Only show connected nodes]" \
@@ -2792,7 +2835,7 @@ _openclaw_devices_clear() {
 
 _openclaw_devices_approve() {
   _arguments -C \
-    "--latest[Approve the most recent pending request]" \
+    "--latest[Show the most recent pending request to approve explicitly]" \
     "--url[Gateway WebSocket URL (defaults to gateway.remote.url when configured)]" \
     "--token[Gateway token (if required)]" \
     "--password[Gateway password (password auth)]" \
@@ -3194,11 +3237,58 @@ _openclaw_qa_suite() {
   _arguments -C \
     "--repo-root[Repository root to target when running from a neutral cwd]" \
     "--output-dir[Suite artifact directory]" \
+    "--runner[Execution runner: host or multipass]" \
+    "--transport[QA transport id]" \
     "--provider-mode[Provider mode: mock-openai or live-frontier (legacy live-openai still works)]" \
     "--model[Primary provider/model ref]" \
     "--alt-model[Alternate provider/model ref]" \
+    "--cli-auth-mode[CLI backend auth mode for live Claude CLI runs: auto, api-key, or subscription]" \
+    "--parity-pack[Preset scenario pack; currently only \"agentic\" is supported]" \
     "--scenario[Run only the named QA scenario (repeatable)]" \
-    "--fast[Enable provider fast mode where supported]"
+    "--concurrency[Scenario worker concurrency]" \
+    "--fast[Enable provider fast mode where supported]" \
+    "--image[Multipass image alias]" \
+    "--cpus[Multipass vCPU count]" \
+    "--memory[Multipass memory size]" \
+    "--disk[Multipass disk size]"
+}
+
+_openclaw_qa_parity_report() {
+  _arguments -C \
+    "--candidate-summary[Candidate qa-suite-summary.json path]" \
+    "--baseline-summary[Baseline qa-suite-summary.json path]" \
+    "--repo-root[Repository root to target when running from a neutral cwd]" \
+    "--candidate-label[Candidate display label]" \
+    "--baseline-label[Baseline display label]" \
+    "--output-dir[Artifact directory for the parity report]"
+}
+
+_openclaw_qa_telegram() {
+  _arguments -C \
+    "--repo-root[Repository root to target when running from a neutral cwd]" \
+    "--output-dir[Telegram QA artifact directory]" \
+    "--provider-mode[Provider mode: mock-openai or live-frontier (legacy live-openai still works)]" \
+    "--model[Primary provider/model ref]" \
+    "--alt-model[Alternate provider/model ref]" \
+    "--scenario[Run only the named Telegram QA scenario (repeatable)]" \
+    "--fast[Enable provider fast mode where supported]" \
+    "--sut-account[Temporary Telegram account id inside the QA gateway config]" \
+    "--credential-source[Credential source for live lanes: env or convex (default: env)]" \
+    "--credential-role[Credential role for convex auth: maintainer or ci (default: maintainer)]"
+}
+
+_openclaw_qa_matrix() {
+  _arguments -C \
+    "--repo-root[Repository root to target when running from a neutral cwd]" \
+    "--output-dir[Matrix QA artifact directory]" \
+    "--provider-mode[Provider mode: mock-openai or live-frontier (legacy live-openai still works)]" \
+    "--model[Primary provider/model ref]" \
+    "--alt-model[Alternate provider/model ref]" \
+    "--scenario[Run only the named Matrix QA scenario (repeatable)]" \
+    "--fast[Enable provider fast mode where supported]" \
+    "--sut-account[Temporary Matrix account id inside the QA gateway config]" \
+    "--credential-source[Credential source for live lanes: env or convex (default: env)]" \
+    "--credential-role[Credential role for convex auth: maintainer or ci (default: maintainer)]"
 }
 
 _openclaw_qa_character_eval() {
@@ -3221,11 +3311,65 @@ _openclaw_qa_manual() {
   _arguments -C \
     "--message[Prompt to send to the QA agent]" \
     "--repo-root[Repository root to target when running from a neutral cwd]" \
+    "--transport[QA transport id]" \
     "--provider-mode[Provider mode: mock-openai or live-frontier (legacy live-openai still works)]" \
     "--model[Primary provider/model ref (defaults by provider mode)]" \
     "--alt-model[Alternate provider/model ref]" \
     "--fast[Enable provider fast mode where supported]" \
     "--timeout-ms[Override agent.wait timeout]"
+}
+
+_openclaw_qa_credentials_add() {
+  _arguments -C \
+    "--kind[Credential kind (for Telegram v1, use telegram)]" \
+    "--payload-file[JSON object file containing the credential payload]" \
+    "--repo-root[Repository root for resolving relative payload-file paths]" \
+    "--note[Optional note stored with this credential row]" \
+    "--site-url[Override OPENCLAW_QA_CONVEX_SITE_URL]" \
+    "--endpoint-prefix[Override OPENCLAW_QA_CONVEX_ENDPOINT_PREFIX]" \
+    "--actor-id[Optional admin actor id to include in broker audit events]" \
+    "--json[Emit machine-readable JSON output]"
+}
+
+_openclaw_qa_credentials_remove() {
+  _arguments -C \
+    "--credential-id[Credential row id from the Convex pool]" \
+    "--site-url[Override OPENCLAW_QA_CONVEX_SITE_URL]" \
+    "--endpoint-prefix[Override OPENCLAW_QA_CONVEX_ENDPOINT_PREFIX]" \
+    "--actor-id[Optional admin actor id to include in broker audit events]" \
+    "--json[Emit machine-readable JSON output]"
+}
+
+_openclaw_qa_credentials_list() {
+  _arguments -C \
+    "--kind[Filter by credential kind]" \
+    "--status[Filter by row status: \"active\", \"disabled\", or \"all\"]" \
+    "--limit[Max rows to return]" \
+    "--show-secrets[Include credential payload JSON in output]" \
+    "--site-url[Override OPENCLAW_QA_CONVEX_SITE_URL]" \
+    "--endpoint-prefix[Override OPENCLAW_QA_CONVEX_ENDPOINT_PREFIX]" \
+    "--actor-id[Optional admin actor id to include in broker audit events]" \
+    "--json[Emit machine-readable JSON output]"
+}
+
+_openclaw_qa_credentials() {
+  local -a commands
+  local -a options
+  
+  _arguments -C \
+     \
+    "1: :_values 'command' 'add[Add one credential payload to the shared pool]' 'remove[Remove one credential from active use by disabling it]' 'list[List credential rows in the shared Convex pool]'" \
+    "*::arg:->args"
+
+  case $state in
+    (args)
+      case $line[1] in
+        (add) _openclaw_qa_credentials_add ;;
+        (remove) _openclaw_qa_credentials_remove ;;
+        (list) _openclaw_qa_credentials_list ;;
+      esac
+      ;;
+  esac
 }
 
 _openclaw_qa_ui() {
@@ -3287,7 +3431,7 @@ _openclaw_qa() {
   
   _arguments -C \
      \
-    "1: :_values 'command' 'run[Run the bundled QA self-check and write a Markdown report]' 'suite[Run repo-backed QA scenarios against the QA gateway lane]' 'character-eval[Run the character QA scenario across live models and write a judged report]' 'manual[Run a one-off QA agent prompt against the selected provider/model lane]' 'ui[Start the private QA debugger UI and local QA bus]' 'docker-scaffold[Write a prebaked Docker scaffold for the QA dashboard + gateway lane]' 'docker-build-image[Build the prebaked QA Docker image with qa-channel + qa-lab bundled]' 'up[Build the QA site, start the Docker-backed QA stack, and print the QA Lab URL]' 'mock-openai[Run the local mock OpenAI Responses API server for QA]'" \
+    "1: :_values 'command' 'run[Run the bundled QA self-check and write a Markdown report]' 'suite[Run repo-backed QA scenarios against the QA gateway lane]' 'parity-report[Compare two QA suite summaries and write an agentic parity gate report]' 'telegram[Run the manual Telegram live QA lane against a private bot-to-bot group harness]' 'matrix[Run the Docker-backed Matrix live QA lane against a disposable homeserver]' 'character-eval[Run the character QA scenario across live models and write a judged report]' 'manual[Run a one-off QA agent prompt against the selected provider/model lane]' 'credentials[Manage pooled Convex live credentials used by QA lanes]' 'ui[Start the private QA debugger UI and local QA bus]' 'docker-scaffold[Write a prebaked Docker scaffold for the QA dashboard + gateway lane]' 'docker-build-image[Build the prebaked QA Docker image with qa-channel + qa-lab bundled]' 'up[Build the QA site, start the Docker-backed QA stack, and print the QA Lab URL]' 'mock-openai[Run the local mock OpenAI Responses API server for QA]'" \
     "*::arg:->args"
 
   case $state in
@@ -3295,13 +3439,79 @@ _openclaw_qa() {
       case $line[1] in
         (run) _openclaw_qa_run ;;
         (suite) _openclaw_qa_suite ;;
+        (parity-report) _openclaw_qa_parity_report ;;
+        (telegram) _openclaw_qa_telegram ;;
+        (matrix) _openclaw_qa_matrix ;;
         (character-eval) _openclaw_qa_character_eval ;;
         (manual) _openclaw_qa_manual ;;
+        (credentials) _openclaw_qa_credentials ;;
         (ui) _openclaw_qa_ui ;;
         (docker-scaffold) _openclaw_qa_docker_scaffold ;;
         (docker-build-image) _openclaw_qa_docker_build_image ;;
         (up) _openclaw_qa_up ;;
         (mock-openai) _openclaw_qa_mock_openai ;;
+      esac
+      ;;
+  esac
+}
+
+_openclaw_proxy_start() {
+  _arguments -C \
+    "--host[Bind host]" \
+    "--port[Bind port]"
+}
+
+_openclaw_proxy_run() {
+  _arguments -C \
+    "--host[Bind host]" \
+    "--port[Bind port]"
+}
+
+_openclaw_proxy_coverage() {
+  _arguments -C \
+    
+}
+
+_openclaw_proxy_sessions() {
+  _arguments -C \
+    "--limit[Maximum sessions to show]"
+}
+
+_openclaw_proxy_query() {
+  _arguments -C \
+    "--preset[Query preset: double-sends, retry-storms, cache-busting, ws-duplicate-frames, missing-ack, error-bursts]" \
+    "--session[Restrict to a capture session id]"
+}
+
+_openclaw_proxy_blob() {
+  _arguments -C \
+    "--id[Blob id]"
+}
+
+_openclaw_proxy_purge() {
+  _arguments -C \
+    
+}
+
+_openclaw_proxy() {
+  local -a commands
+  local -a options
+  
+  _arguments -C \
+     \
+    "1: :_values 'command' 'start[Start the local explicit debug proxy]' 'run[Run a child command with OpenClaw debug proxy capture enabled]' 'coverage[Report current debug proxy transport coverage and remaining gaps]' 'sessions[List recent capture sessions]' 'query[Run a built-in query preset against captured traffic]' 'blob[Read a captured payload blob by id]' 'purge[Delete all captured traffic metadata and blobs]'" \
+    "*::arg:->args"
+
+  case $state in
+    (args)
+      case $line[1] in
+        (start) _openclaw_proxy_start ;;
+        (run) _openclaw_proxy_run ;;
+        (coverage) _openclaw_proxy_coverage ;;
+        (sessions) _openclaw_proxy_sessions ;;
+        (query) _openclaw_proxy_query ;;
+        (blob) _openclaw_proxy_blob ;;
+        (purge) _openclaw_proxy_purge ;;
       esac
       ;;
   esac

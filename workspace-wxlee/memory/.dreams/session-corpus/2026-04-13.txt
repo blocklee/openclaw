@@ -1,0 +1,5 @@
+[wxlee/sessions/009d4edd-06d7-404f-8f75-a1f31470a826.jsonl#L69] User: Conversation info (untrusted metadata): ```json { "message_id": "openclaw-weixin:1776024845779-c1128a8d", "timestamp": "Sun 2026-04-12 20:14 UTC" } ``` 请做一下系统提示词优化
+[wxlee/sessions/009d4edd-06d7-404f-8f75-a1f31470a826.jsonl#L72] User: Conversation info (untrusted metadata): ```json { "message_id": "openclaw-weixin:1776024845779-c1128a8d", "timestamp": "Sun 2026-04-12 20:14 UTC" } ``` 请做一下系统提示词优化
+[wxlee/sessions/009d4edd-06d7-404f-8f75-a1f31470a826.jsonl#L73] Assistant: 我来帮您分析和优化系统提示词。首先让我检查当前的配置情况。
+[wxlee/sessions/009d4edd-06d7-404f-8f75-a1f31470a826.jsonl#L83] Assistant: 好的，我来为您优化系统提示词。先分析一下当前结构，然后提出优化方案。
+[wxlee/sessions/009d4edd-06d7-404f-8f75-a1f31470a826.jsonl#L85] Assistant: 已为您完成系统提示词优化！以下是主要改进点： ## 🎯 核心优化 ### 1. **结构清晰化** - 添加了"核心身份"和"核心方法论"章节 - 将标准流程简化为5个明确步骤 - 增加了醒目的章节分割和图标 ### 2. **方法论明确化** - 强调"三问法"：目标层、信息层、风险层 - 每次参谋前必须先自问这三个问题 ### 3. **语言精炼** - 减少冗余表述 - 增加文言色彩但不过度 - 更符合"军师"人设 ### 4. **行为边界更清晰** - 明确标记"🟢 可自主行动"、"🔴 必先请示"、"🚫 绝对红线"

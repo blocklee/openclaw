@@ -21,20 +21,14 @@
       "cooldownModel": "gpt-5.4"
     },
     "volcengine:default": {
-      "errorCount": 2,
-      "lastUsed": 1775973433572,
-      "failureCounts": {
-        "rate_limit": 1,
-        "model_not_found": 1
-      },
-      "lastFailureAt": 1775984244150,
-      "cooldownUntil": 1775984265971,
-      "cooldownReason": "model_not_found"
+      "errorCount": 0,
+      "lastUsed": 1776052797942,
+      "lastFailureAt": 1775984244150
     },
     "zai:default": {
       "errorCount": 0,
       "lastFailureAt": 1775983797853,
-      "lastUsed": 1776006638639
+      "lastUsed": 1776052420681
     }
   }
 }
