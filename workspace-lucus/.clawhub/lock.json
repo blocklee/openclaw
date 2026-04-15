@@ -8,6 +8,10 @@
     "env-guard": {
       "version": "1.0.2",
       "installedAt": 1774810097534
+    },
+    "gog": {
+      "version": "1.0.0",
+      "installedAt": 1776150242677
     }
   }
 }
