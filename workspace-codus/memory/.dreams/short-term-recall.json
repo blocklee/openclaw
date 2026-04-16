@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-04-14T19:05:19.711Z",
+  "updatedAt": "2026-04-15T19:05:19.428Z",
   "entries": {
     "memory:memory/.dreams/session-corpus/2026-04-11.txt:1:1": {
       "key": "memory:memory/.dreams/session-corpus/2026-04-11.txt:1:1",
@@ -4597,6 +4597,192 @@
         "codex",
         "什么",
         "开发"
+      ]
+    },
+    "memory:memory/2026-04-15.md:328:331": {
+      "key": "memory:memory/2026-04-15.md:328:331",
+      "path": "memory/2026-04-15.md",
+      "startLine": 328,
+      "endLine": 331,
+      "source": "memory",
+      "snippet": "Reflections: Theme: `assistant` kept surfacing across 77 memories.; confidence: 1.00; evidence: memory/.dreams/session-corpus/2026-04-11.txt:3-3, memory/.dreams/session-corpus/2026-04-11.txt:5-5, memory/.dreams/session-corpus/2026-04-12.txt:8-8; note: reflection",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-04-15T19:05:19.428Z",
+      "lastRecalledAt": "2026-04-15T19:05:19.428Z",
+      "queryHashes": [
+        "4c4c0cb04efa"
+      ],
+      "recallDays": [
+        "2026-04-15"
+      ],
+      "conceptTags": [
+        "1.00",
+        "3-3",
+        "5-5",
+        "8-8",
+        "reflections",
+        "theme",
+        "assistant",
+        "kept"
+      ]
+    },
+    "memory:memory/2026-04-15.md:332:335": {
+      "key": "memory:memory/2026-04-15.md:332:335",
+      "path": "memory/2026-04-15.md",
+      "startLine": 332,
+      "endLine": 335,
+      "source": "memory",
+      "snippet": "Reflections: Theme: `user` kept surfacing across 62 memories.; confidence: 0.85; evidence: memory/.dreams/session-corpus/2026-04-11.txt:1-1, memory/.dreams/session-corpus/2026-04-11.txt:2-2, memory/.dreams/session-corpus/2026-04-11.txt:4-4; note: reflection",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-04-15T19:05:19.428Z",
+      "lastRecalledAt": "2026-04-15T19:05:19.428Z",
+      "queryHashes": [
+        "4c4c0cb04efa"
+      ],
+      "recallDays": [
+        "2026-04-15"
+      ],
+      "conceptTags": [
+        "0.85",
+        "1-1",
+        "2-2",
+        "4-4",
+        "reflections",
+        "theme",
+        "user",
+        "kept"
+      ]
+    },
+    "memory:memory/2026-04-15.md:338:340": {
+      "key": "memory:memory/2026-04-15.md:338:340",
+      "path": "memory/2026-04-15.md",
+      "startLine": 338,
+      "endLine": 340,
+      "source": "memory",
+      "snippet": "Possible Lasting Truths: Assistant: Okay, we can't use sudo to install system dependencies. Let's try a different approach: first, let's see if we can fetch the page HTML using curl (this won't execute JS but will give us static content). Then we can look for other options. [conf",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-04-15T19:05:19.428Z",
+      "lastRecalledAt": "2026-04-15T19:05:19.428Z",
+      "queryHashes": [
+        "4c4c0cb04efa"
+      ],
+      "recallDays": [
+        "2026-04-15"
+      ],
+      "conceptTags": [
+        "possible",
+        "lasting",
+        "truths",
+        "assistant",
+        "okay",
+        "can't",
+        "use",
+        "sudo"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-15.txt:1:1": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-15.txt:1:1",
+      "path": "memory/.dreams/session-corpus/2026-04-15.txt",
+      "startLine": 1,
+      "endLine": 1,
+      "source": "memory",
+      "snippet": "User: Conversation info (untrusted metadata): ```json { \"message_id\": \"om_x100b52ce9561cca4ee853e3592466aa\", \"sender_id\": \"ou_13190b75af6c015cd2975d6de047a6f1\", \"sender\": \"听风\", \"timestamp\": \"Wed 2026-04-15 15:24 UTC\" } ``` Sender (untrusted metadata): ```json { \"label\": \"听风 (ou_1",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-15T19:05:19.428Z",
+      "lastRecalledAt": "2026-04-15T19:05:19.428Z",
+      "queryHashes": [
+        "06e18920b74b"
+      ],
+      "recallDays": [
+        "2026-04-15"
+      ],
+      "conceptTags": [
+        "message-id",
+        "sender-id",
+        "ou-1",
+        "user",
+        "conversation",
+        "info",
+        "untrusted",
+        "metadata"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-15.txt:2:2": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-15.txt:2:2",
+      "path": "memory/.dreams/session-corpus/2026-04-15.txt",
+      "startLine": 2,
+      "endLine": 2,
+      "source": "memory",
+      "snippet": "Assistant: 我来搜索一下记忆，看看是否有关于 CLIProxyAPI 的信息。",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-15T19:05:19.428Z",
+      "lastRecalledAt": "2026-04-15T19:05:19.428Z",
+      "queryHashes": [
+        "06e18920b74b"
+      ],
+      "recallDays": [
+        "2026-04-15"
+      ],
+      "conceptTags": [
+        "assistant",
+        "我来",
+        "搜索",
+        "一下",
+        "记忆",
+        "看看",
+        "是否",
+        "关于"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-15.txt:3:3": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-15.txt:3:3",
+      "path": "memory/.dreams/session-corpus/2026-04-15.txt",
+      "startLine": 3,
+      "endLine": 3,
+      "source": "memory",
+      "snippet": "Assistant: 根据搜索结果，**CLIProxyAPI** 是一个 AI API 代理网关工具，主要作用如下： ## 🟢 建议 - CLIProxyAPI 简介 ### 核心功能 | 功能 | 说明 | |------|------| | **统一代理** | 将多个 AI 提供商的 API 统一为 OpenAI 兼容格式 | | **OAuth 认证** | 支持 Codex、Claude、Gemini、Qwen 等的 OAuth 登录，无需 API Key | | **多账号管理** | 支持多账号管理、配额查看、负载均衡 | | **故障",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-15T19:05:19.428Z",
+      "lastRecalledAt": "2026-04-15T19:05:19.428Z",
+      "queryHashes": [
+        "06e18920b74b"
+      ],
+      "recallDays": [
+        "2026-04-15"
+      ],
+      "conceptTags": [
+        "openai",
+        "网关",
+        "assistant",
+        "根据",
+        "搜索",
+        "结果",
+        "cliproxyapi",
+        "一个"
       ]
     }
   }

@@ -8,7 +8,7 @@
       "lineCount": 18,
       "lastContentLine": 18
     },
-    "wxlee:sessions/009d4edd-06d7-404f-8f75-a1f31470a826.jsonl": {
+    "wxlee:sessions/009d4edd-06d7-404f-8f75-a1f31470a826.jsonl.reset.2026-04-15T17-06-41.383Z": {
       "mtimeMs": 1776025071749,
       "size": 235212,
       "contentHash": "1ab945df563979361e817c4382bd06feb421a495fd60ec5df1d150c5bed5ceb9",
@@ -21,13 +21,6 @@
       "contentHash": "a041cdf3496383b469c60cdf94adbb50015e286e7ff50879d60e998a6ed2b23b",
       "lineCount": 40,
       "lastContentLine": 40
-    },
-    "wxlee:sessions/6874d02f-ddc9-44dd-b172-fd4f24979c2f.jsonl.reset.2026-04-04T09-10-55.195Z": {
-      "mtimeMs": 1775260913645,
-      "size": 61164,
-      "contentHash": "da2e6b2ad5dd414cf761c9fe9bbcf16212df89ac2ef868d1c6cca3a203667817",
-      "lineCount": 35,
-      "lastContentLine": 35
     },
     "wxlee:sessions/7b295281-bcf8-43cc-8db0-a7078efea604.jsonl.reset.2026-04-06T09-07-26.341Z": {
       "mtimeMs": 1775403534783,
@@ -64,19 +57,12 @@
       "lineCount": 5,
       "lastContentLine": 5
     },
-    "wxlee:sessions/b3727915-7de8-48c0-b1c7-ac75ea56c0cb.jsonl.reset.2026-04-05T15-38-24.152Z": {
-      "mtimeMs": 1775320599026,
-      "size": 106499,
-      "contentHash": "cf90d8111d7a6faa7ef9a80e40530b874be77b78a133e7102d5f006eb930b5ee",
-      "lineCount": 29,
-      "lastContentLine": 29
-    },
-    "wxlee:sessions/c9ffad0f-7e64-408a-8f2c-a4e4cfe30036.jsonl.reset.2026-04-03T07-05-41.672Z": {
-      "mtimeMs": 1775149252325,
-      "size": 1442417,
-      "contentHash": "a4ed5454bdd02fdd609b1d6416590439e1f82a8b777c754e61b1bb76a7c7dcaf",
-      "lineCount": 1767,
-      "lastContentLine": 1767
+    "wxlee:sessions/c2b969ad-09a1-4e91-8d38-7699eebf4ed2.jsonl": {
+      "mtimeMs": 1776272863332,
+      "size": 5480,
+      "contentHash": "ab936cd060de1947bd5ec19472649ce621cc06a0ae1f65c8b5ff1c666cc3d782",
+      "lineCount": 2,
+      "lastContentLine": 2
     },
     "wxlee:sessions/de5f6764-2ff6-493b-87c5-ba1246fb4b90.jsonl.reset.2026-04-08T17-49-05.798Z": {
       "mtimeMs": 1775533294963,
@@ -155,6 +141,10 @@
       "79fbcb35194ab70601032f6039143ed597e031db",
       "f0b2c39efde60c8a02e8551d2e6d27ae7d912d52",
       "4f0a2401c1085005f242305542739db59494ce00"
+    ],
+    "wxlee:c2b969ad-09a1-4e91-8d38-7699eebf4ed2": [
+      "2c67b91470adbda1fc8c1d9800e6933196082fe9",
+      "69e5f57aba17c979e71ebb169f043f19edc50b68"
     ]
   }
 }

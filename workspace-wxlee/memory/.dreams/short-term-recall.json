@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-04-14T19:02:38.915Z",
+  "updatedAt": "2026-04-15T19:05:19.401Z",
   "entries": {
     "memory:memory/2026-04-12.md:6:6": {
       "key": "memory:memory/2026-04-12.md:6:6",
@@ -15,13 +15,14 @@
       "totalScore": 0.62,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-13T19:02:47.420Z",
-      "lastRecalledAt": "2026-04-13T19:02:47.420Z",
+      "lastRecalledAt": "2026-04-15T19:03:39.938Z",
       "queryHashes": [
         "01679c334ef2"
       ],
       "recallDays": [
         "2026-04-12",
-        "2026-04-13"
+        "2026-04-13",
+        "2026-04-15"
       ],
       "conceptTags": [
         "事件",
@@ -47,13 +48,14 @@
       "totalScore": 0.62,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-13T19:02:47.420Z",
-      "lastRecalledAt": "2026-04-13T19:02:47.420Z",
+      "lastRecalledAt": "2026-04-15T19:03:39.938Z",
       "queryHashes": [
         "01679c334ef2"
       ],
       "recallDays": [
         "2026-04-12",
-        "2026-04-13"
+        "2026-04-13",
+        "2026-04-15"
       ],
       "conceptTags": [
         "事件",
@@ -79,13 +81,14 @@
       "totalScore": 0.62,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-13T19:02:47.420Z",
-      "lastRecalledAt": "2026-04-13T19:02:47.420Z",
+      "lastRecalledAt": "2026-04-15T19:03:39.938Z",
       "queryHashes": [
         "01679c334ef2"
       ],
       "recallDays": [
         "2026-04-12",
-        "2026-04-13"
+        "2026-04-13",
+        "2026-04-15"
       ],
       "conceptTags": [
         "根因",
@@ -110,13 +113,14 @@
       "totalScore": 0.62,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-13T19:02:47.420Z",
-      "lastRecalledAt": "2026-04-13T19:02:47.420Z",
+      "lastRecalledAt": "2026-04-15T19:03:39.938Z",
       "queryHashes": [
         "01679c334ef2"
       ],
       "recallDays": [
         "2026-04-12",
-        "2026-04-13"
+        "2026-04-13",
+        "2026-04-15"
       ],
       "conceptTags": [
         "5-hour",
@@ -142,13 +146,14 @@
       "totalScore": 0.62,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-13T19:02:47.420Z",
-      "lastRecalledAt": "2026-04-13T19:02:47.420Z",
+      "lastRecalledAt": "2026-04-15T19:03:39.938Z",
       "queryHashes": [
         "01679c334ef2"
       ],
       "recallDays": [
         "2026-04-12",
-        "2026-04-13"
+        "2026-04-13",
+        "2026-04-15"
       ],
       "conceptTags": [
         "doubao-seed-2.0-code",
@@ -174,13 +179,14 @@
       "totalScore": 0.62,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-13T19:02:47.420Z",
-      "lastRecalledAt": "2026-04-13T19:02:47.420Z",
+      "lastRecalledAt": "2026-04-15T19:03:39.938Z",
       "queryHashes": [
         "01679c334ef2"
       ],
       "recallDays": [
         "2026-04-12",
-        "2026-04-13"
+        "2026-04-13",
+        "2026-04-15"
       ],
       "conceptTags": [
         "影响",
@@ -206,13 +212,14 @@
       "totalScore": 0.62,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-13T19:02:47.420Z",
-      "lastRecalledAt": "2026-04-13T19:02:47.420Z",
+      "lastRecalledAt": "2026-04-15T19:03:39.938Z",
       "queryHashes": [
         "01679c334ef2"
       ],
       "recallDays": [
         "2026-04-12",
-        "2026-04-13"
+        "2026-04-13",
+        "2026-04-15"
       ],
       "conceptTags": [
         "解决",
@@ -237,13 +244,14 @@
       "totalScore": 0.62,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-13T19:02:47.420Z",
-      "lastRecalledAt": "2026-04-13T19:02:47.420Z",
+      "lastRecalledAt": "2026-04-15T19:03:39.938Z",
       "queryHashes": [
         "01679c334ef2"
       ],
       "recallDays": [
         "2026-04-12",
-        "2026-04-13"
+        "2026-04-13",
+        "2026-04-15"
       ],
       "conceptTags": [
         "解决",
@@ -269,13 +277,14 @@
       "totalScore": 0.62,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-13T19:02:47.420Z",
-      "lastRecalledAt": "2026-04-13T19:02:47.420Z",
+      "lastRecalledAt": "2026-04-15T19:03:39.938Z",
       "queryHashes": [
         "01679c334ef2"
       ],
       "recallDays": [
         "2026-04-12",
-        "2026-04-13"
+        "2026-04-13",
+        "2026-04-15"
       ],
       "conceptTags": [
         "解决",
@@ -301,13 +310,14 @@
       "totalScore": 0.62,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-13T19:02:47.420Z",
-      "lastRecalledAt": "2026-04-13T19:02:47.420Z",
+      "lastRecalledAt": "2026-04-15T19:03:39.938Z",
       "queryHashes": [
         "01679c334ef2"
       ],
       "recallDays": [
         "2026-04-12",
-        "2026-04-13"
+        "2026-04-13",
+        "2026-04-15"
       ],
       "conceptTags": [
         "经验",
@@ -2193,6 +2203,132 @@
         "strong",
         "candidate",
         "surfaced"
+      ]
+    },
+    "memory:memory/2026-04-15.md:223:226": {
+      "key": "memory:memory/2026-04-15.md:223:226",
+      "path": "memory/2026-04-15.md",
+      "startLine": 223,
+      "endLine": 226,
+      "source": "memory",
+      "snippet": "Reflections: Theme: `assistant` kept surfacing across 36 memories.; confidence: 1.00; evidence: memory/.dreams/session-corpus/2026-04-11.txt:2-2, memory/.dreams/session-corpus/2026-04-11.txt:4-4, memory/.dreams/session-corpus/2026-04-11.txt:5-5; note: reflection",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-04-15T19:03:39.938Z",
+      "lastRecalledAt": "2026-04-15T19:03:39.938Z",
+      "queryHashes": [
+        "4c4c0cb04efa"
+      ],
+      "recallDays": [
+        "2026-04-15"
+      ],
+      "conceptTags": [
+        "1.00",
+        "2-2",
+        "4-4",
+        "5-5",
+        "reflections",
+        "theme",
+        "assistant",
+        "kept"
+      ]
+    },
+    "memory:memory/2026-04-15.md:229:231": {
+      "key": "memory:memory/2026-04-15.md:229:231",
+      "path": "memory/2026-04-15.md",
+      "startLine": 229,
+      "endLine": 231,
+      "source": "memory",
+      "snippet": "Possible Lasting Truths: 事件: ⚠️ Something went wrong while processing your request. Please try again, or use /new to start a fresh session. [confidence=0.51 evidence=memory/2026-04-12.md:8-9]; 事件: Codus Agent 在执行 React Demo 构建任务时频繁出现通用错误提示： [confidence=0.51 evidence=memory/2026-0",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-04-15T19:03:39.938Z",
+      "lastRecalledAt": "2026-04-15T19:03:39.938Z",
+      "queryHashes": [
+        "4c4c0cb04efa"
+      ],
+      "recallDays": [
+        "2026-04-15"
+      ],
+      "conceptTags": [
+        "0.51",
+        "memory/2026-04-12.md",
+        "8-9",
+        "memory/2026-0",
+        "possible",
+        "lasting",
+        "truths",
+        "事件"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-16.txt:1:1": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-16.txt:1:1",
+      "path": "memory/.dreams/session-corpus/2026-04-16.txt",
+      "startLine": 1,
+      "endLine": 1,
+      "source": "memory",
+      "snippet": "User: Conversation info (untrusted metadata): ```json { \"message_id\": \"openclaw-weixin:1776272801311-b51156b3\", \"timestamp\": \"Wed 2026-04-15 17:06 UTC\" } ``` Windows电脑如何换linux，linux系统适合桌面系统么",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-15T19:03:39.938Z",
+      "lastRecalledAt": "2026-04-15T19:03:39.938Z",
+      "queryHashes": [
+        "33f679d35d02"
+      ],
+      "recallDays": [
+        "2026-04-16",
+        "2026-04-15"
+      ],
+      "conceptTags": [
+        "message-id",
+        "openclaw-weixin",
+        "1776272801311-b51156b3",
+        "user",
+        "conversation",
+        "info",
+        "untrusted",
+        "metadata"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-16.txt:2:2": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-16.txt:2:2",
+      "path": "memory/.dreams/session-corpus/2026-04-16.txt",
+      "startLine": 2,
+      "endLine": 2,
+      "source": "memory",
+      "snippet": "Assistant: 主公问及Windows换Linux及Linux桌面系统适用性，此乃技术战略决策，容军师为君推演。 ## 核心建议 **若以开发、学习、服务器为主，Linux桌面是上佳之选；若重度依赖Windows专属软件（如Office、Adobe、游戏），则需谨慎。** ## 三问法推演 ### 1. 目标层 - **最终目标**：提升开发效率、学习Linux、减少系统开销，还是追求自由定制？ - **时间节点**：是立即切换，还是逐步过渡？ ### 2. 信息层 **缺的关键情报**： - 主公当前主要用途（办公/开发/娱乐）？ - 必须使用的",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-15T19:03:39.938Z",
+      "lastRecalledAt": "2026-04-15T19:03:39.938Z",
+      "queryHashes": [
+        "33f679d35d02"
+      ],
+      "recallDays": [
+        "2026-04-16",
+        "2026-04-15"
+      ],
+      "conceptTags": [
+        "办公/开发/娱乐",
+        "assistant",
+        "主公",
+        "windows",
+        "linux",
+        "桌面",
+        "系统",
+        "适用"
       ]
     }
   }
