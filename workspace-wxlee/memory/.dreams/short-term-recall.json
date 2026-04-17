@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-04-15T19:05:19.401Z",
+  "updatedAt": "2026-04-16T19:04:27.429Z",
   "entries": {
     "memory:memory/2026-04-12.md:6:6": {
       "key": "memory:memory/2026-04-12.md:6:6",
@@ -15,14 +15,15 @@
       "totalScore": 0.62,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-13T19:02:47.420Z",
-      "lastRecalledAt": "2026-04-15T19:03:39.938Z",
+      "lastRecalledAt": "2026-04-16T19:03:07.724Z",
       "queryHashes": [
         "01679c334ef2"
       ],
       "recallDays": [
         "2026-04-12",
         "2026-04-13",
-        "2026-04-15"
+        "2026-04-15",
+        "2026-04-16"
       ],
       "conceptTags": [
         "事件",
@@ -48,14 +49,15 @@
       "totalScore": 0.62,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-13T19:02:47.420Z",
-      "lastRecalledAt": "2026-04-15T19:03:39.938Z",
+      "lastRecalledAt": "2026-04-16T19:03:07.724Z",
       "queryHashes": [
         "01679c334ef2"
       ],
       "recallDays": [
         "2026-04-12",
         "2026-04-13",
-        "2026-04-15"
+        "2026-04-15",
+        "2026-04-16"
       ],
       "conceptTags": [
         "事件",
@@ -81,14 +83,15 @@
       "totalScore": 0.62,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-13T19:02:47.420Z",
-      "lastRecalledAt": "2026-04-15T19:03:39.938Z",
+      "lastRecalledAt": "2026-04-16T19:03:07.724Z",
       "queryHashes": [
         "01679c334ef2"
       ],
       "recallDays": [
         "2026-04-12",
         "2026-04-13",
-        "2026-04-15"
+        "2026-04-15",
+        "2026-04-16"
       ],
       "conceptTags": [
         "根因",
@@ -113,14 +116,15 @@
       "totalScore": 0.62,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-13T19:02:47.420Z",
-      "lastRecalledAt": "2026-04-15T19:03:39.938Z",
+      "lastRecalledAt": "2026-04-16T19:03:07.724Z",
       "queryHashes": [
         "01679c334ef2"
       ],
       "recallDays": [
         "2026-04-12",
         "2026-04-13",
-        "2026-04-15"
+        "2026-04-15",
+        "2026-04-16"
       ],
       "conceptTags": [
         "5-hour",
@@ -146,14 +150,15 @@
       "totalScore": 0.62,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-13T19:02:47.420Z",
-      "lastRecalledAt": "2026-04-15T19:03:39.938Z",
+      "lastRecalledAt": "2026-04-16T19:03:07.724Z",
       "queryHashes": [
         "01679c334ef2"
       ],
       "recallDays": [
         "2026-04-12",
         "2026-04-13",
-        "2026-04-15"
+        "2026-04-15",
+        "2026-04-16"
       ],
       "conceptTags": [
         "doubao-seed-2.0-code",
@@ -179,14 +184,15 @@
       "totalScore": 0.62,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-13T19:02:47.420Z",
-      "lastRecalledAt": "2026-04-15T19:03:39.938Z",
+      "lastRecalledAt": "2026-04-16T19:03:07.724Z",
       "queryHashes": [
         "01679c334ef2"
       ],
       "recallDays": [
         "2026-04-12",
         "2026-04-13",
-        "2026-04-15"
+        "2026-04-15",
+        "2026-04-16"
       ],
       "conceptTags": [
         "影响",
@@ -212,14 +218,15 @@
       "totalScore": 0.62,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-13T19:02:47.420Z",
-      "lastRecalledAt": "2026-04-15T19:03:39.938Z",
+      "lastRecalledAt": "2026-04-16T19:03:07.724Z",
       "queryHashes": [
         "01679c334ef2"
       ],
       "recallDays": [
         "2026-04-12",
         "2026-04-13",
-        "2026-04-15"
+        "2026-04-15",
+        "2026-04-16"
       ],
       "conceptTags": [
         "解决",
@@ -244,14 +251,15 @@
       "totalScore": 0.62,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-13T19:02:47.420Z",
-      "lastRecalledAt": "2026-04-15T19:03:39.938Z",
+      "lastRecalledAt": "2026-04-16T19:03:07.724Z",
       "queryHashes": [
         "01679c334ef2"
       ],
       "recallDays": [
         "2026-04-12",
         "2026-04-13",
-        "2026-04-15"
+        "2026-04-15",
+        "2026-04-16"
       ],
       "conceptTags": [
         "解决",
@@ -2329,6 +2337,68 @@
         "桌面",
         "系统",
         "适用"
+      ]
+    },
+    "memory:memory/2026-04-16.md:243:246": {
+      "key": "memory:memory/2026-04-16.md:243:246",
+      "path": "memory/2026-04-16.md",
+      "startLine": 243,
+      "endLine": 246,
+      "source": "memory",
+      "snippet": "Reflections: Theme: `assistant` kept surfacing across 38 memories.; confidence: 1.00; evidence: memory/.dreams/session-corpus/2026-04-11.txt:2-2, memory/.dreams/session-corpus/2026-04-11.txt:4-4, memory/.dreams/session-corpus/2026-04-11.txt:5-5; note: reflection",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-04-16T19:03:07.724Z",
+      "lastRecalledAt": "2026-04-16T19:03:07.724Z",
+      "queryHashes": [
+        "b628913e3912"
+      ],
+      "recallDays": [
+        "2026-04-16"
+      ],
+      "conceptTags": [
+        "1.00",
+        "2-2",
+        "4-4",
+        "5-5",
+        "reflections",
+        "theme",
+        "assistant",
+        "kept"
+      ]
+    },
+    "memory:memory/2026-04-16.md:249:251": {
+      "key": "memory:memory/2026-04-16.md:249:251",
+      "path": "memory/2026-04-16.md",
+      "startLine": 249,
+      "endLine": 251,
+      "source": "memory",
+      "snippet": "Possible Lasting Truths: 事件: ⚠️ Something went wrong while processing your request. Please try again, or use /new to start a fresh session. [confidence=0.51 evidence=memory/2026-04-12.md:8-9]; 事件: Codus Agent 在执行 React Demo 构建任务时频繁出现通用错误提示： [confidence=0.51 evidence=memory/2026-0",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-04-16T19:03:07.724Z",
+      "lastRecalledAt": "2026-04-16T19:03:07.724Z",
+      "queryHashes": [
+        "b628913e3912"
+      ],
+      "recallDays": [
+        "2026-04-16"
+      ],
+      "conceptTags": [
+        "0.51",
+        "memory/2026-04-12.md",
+        "8-9",
+        "memory/2026-0",
+        "possible",
+        "lasting",
+        "truths",
+        "事件"
       ]
     }
   }

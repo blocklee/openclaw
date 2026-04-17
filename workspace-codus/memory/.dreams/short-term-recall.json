@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-04-15T19:05:19.428Z",
+  "updatedAt": "2026-04-16T19:05:53.961Z",
   "entries": {
     "memory:memory/.dreams/session-corpus/2026-04-11.txt:1:1": {
       "key": "memory:memory/.dreams/session-corpus/2026-04-11.txt:1:1",
@@ -4783,6 +4783,163 @@
         "结果",
         "cliproxyapi",
         "一个"
+      ]
+    },
+    "memory:memory/2026-04-16.md:353:356": {
+      "key": "memory:memory/2026-04-16.md:353:356",
+      "path": "memory/2026-04-16.md",
+      "startLine": 353,
+      "endLine": 356,
+      "source": "memory",
+      "snippet": "Reflections: Theme: `assistant` kept surfacing across 81 memories.; confidence: 1.00; evidence: memory/.dreams/session-corpus/2026-04-11.txt:3-3, memory/.dreams/session-corpus/2026-04-11.txt:5-5, memory/.dreams/session-corpus/2026-04-12.txt:8-8; note: reflection",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-04-16T19:04:27.452Z",
+      "lastRecalledAt": "2026-04-16T19:04:27.452Z",
+      "queryHashes": [
+        "b628913e3912"
+      ],
+      "recallDays": [
+        "2026-04-16"
+      ],
+      "conceptTags": [
+        "1.00",
+        "3-3",
+        "5-5",
+        "8-8",
+        "reflections",
+        "theme",
+        "assistant",
+        "kept"
+      ]
+    },
+    "memory:memory/2026-04-16.md:357:360": {
+      "key": "memory:memory/2026-04-16.md:357:360",
+      "path": "memory/2026-04-16.md",
+      "startLine": 357,
+      "endLine": 360,
+      "source": "memory",
+      "snippet": "Reflections: Theme: `user` kept surfacing across 64 memories.; confidence: 0.84; evidence: memory/.dreams/session-corpus/2026-04-11.txt:1-1, memory/.dreams/session-corpus/2026-04-11.txt:2-2, memory/.dreams/session-corpus/2026-04-11.txt:4-4; note: reflection",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-04-16T19:04:27.452Z",
+      "lastRecalledAt": "2026-04-16T19:04:27.452Z",
+      "queryHashes": [
+        "b628913e3912"
+      ],
+      "recallDays": [
+        "2026-04-16"
+      ],
+      "conceptTags": [
+        "0.84",
+        "1-1",
+        "2-2",
+        "4-4",
+        "reflections",
+        "theme",
+        "user",
+        "kept"
+      ]
+    },
+    "memory:memory/2026-04-16.md:363:365": {
+      "key": "memory:memory/2026-04-16.md:363:365",
+      "path": "memory/2026-04-16.md",
+      "startLine": 363,
+      "endLine": 365,
+      "source": "memory",
+      "snippet": "Possible Lasting Truths: Assistant: Okay, we can't use sudo to install system dependencies. Let's try a different approach: first, let's see if we can fetch the page HTML using curl (this won't execute JS but will give us static content). Then we can look for other options. [conf",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-04-16T19:04:27.452Z",
+      "lastRecalledAt": "2026-04-16T19:04:27.452Z",
+      "queryHashes": [
+        "b628913e3912"
+      ],
+      "recallDays": [
+        "2026-04-16"
+      ],
+      "conceptTags": [
+        "possible",
+        "lasting",
+        "truths",
+        "assistant",
+        "okay",
+        "can't",
+        "use",
+        "sudo"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-17.txt:1:1": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-17.txt:1:1",
+      "path": "memory/.dreams/session-corpus/2026-04-17.txt",
+      "startLine": 1,
+      "endLine": 1,
+      "source": "memory",
+      "snippet": "User: Conversation info (untrusted metadata): ```json { \"message_id\": \"om_x100b5124b87f88a0eeade697780d2a8\", \"sender_id\": \"ou_13190b75af6c015cd2975d6de047a6f1\", \"conversation_label\": \"oc_badefa41a5267f2823cd495b63dd6ce5\", \"sender\": \"听风\", \"timestamp\": \"Thu 2026-04-16 16:33 UTC\", \"",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-16T19:04:27.452Z",
+      "lastRecalledAt": "2026-04-16T19:04:27.452Z",
+      "queryHashes": [
+        "d5bd631cdecb"
+      ],
+      "recallDays": [
+        "2026-04-17",
+        "2026-04-16"
+      ],
+      "conceptTags": [
+        "message-id",
+        "sender-id",
+        "conversation-label",
+        "user",
+        "conversation",
+        "info",
+        "untrusted",
+        "metadata"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-17.txt:2:2": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-17.txt:2:2",
+      "path": "memory/.dreams/session-corpus/2026-04-17.txt",
+      "startLine": 2,
+      "endLine": 2,
+      "source": "memory",
+      "snippet": "Assistant: @Lucus 这是一个关于 **ECHO 势(Shi) 技术架构**的文档，总结如下： ## 核心概念 **「势」**是一个三维编织的动态系统，用时间、空间、关系三个维度配合64卦约束来管理数字资产。 ## 核心理念 - **实际生效配置** = 创作者意图 ∩ 物理法则范围 - **约束不是限制，而是生态的免疫系统** - 代码即法律，约束即保护，分叉即自由 ## 三维编织 | 维度 | 含义 | 档位 | |------|------|------| | 时间 | 活跃程度 | 0-3（沉寂→爆发） | | 空间 | 平台分布",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-16T19:04:27.452Z",
+      "lastRecalledAt": "2026-04-16T19:04:27.452Z",
+      "queryHashes": [
+        "d5bd631cdecb"
+      ],
+      "recallDays": [
+        "2026-04-17",
+        "2026-04-16"
+      ],
+      "conceptTags": [
+        "0-3",
+        "assistant",
+        "lucus",
+        "一个",
+        "关于",
+        "echo",
+        "shi",
+        "技术"
       ]
     }
   }

@@ -1,0 +1,1638 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ECHO 势(Shi) 技术架构 - 三维编织与64卦约束</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@300;400;500;600;700&family=JetBrains+Mono:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <style type="text/tailwindcss">
+        @layer base {
+            body {
+                font-family: 'Noto Serif SC', serif;
+                background: #050508;
+                color: #e5e5e5;
+                overflow-x: hidden;
+            }
+            .font-mono {
+                font-family: 'JetBrains Mono', monospace;
+            }
+        }
+        @layer components {
+            .gradient-text {
+                background: linear-gradient(135deg, #4A7C6F 0%, #8B9D83 30%, #C4A77D 60%, #8B7EB8 100%);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                background-clip: text;
+            }
+            .glow-border {
+                box-shadow: 0 0 30px rgba(74, 124, 111, 0.2), inset 0 0 30px rgba(74, 124, 111, 0.05);
+            }
+            .glow-text {
+                text-shadow: 0 0 20px rgba(74, 124, 111, 0.5);
+            }
+            .hexagram-grid {
+                display: grid;
+                grid-template-columns: repeat(4, 1fr);
+                gap: 6px;
+            }
+            /* Enhanced Slider Styles */
+            .slider-container {
+                position: relative;
+                padding: 20px 0 30px;
+            }
+            .slider-track {
+                position: relative;
+                height: 4px;
+                background: linear-gradient(90deg, #1a1a2e 0%, #2d2d44 50%, #1a1a2e 100%);
+                border-radius: 2px;
+            }
+            .slider-marks {
+                position: absolute;
+                top: -6px;
+                left: 0;
+                right: 0;
+                height: 16px;
+                display: flex;
+                justify-content: space-between;
+                padding: 0 8px;
+            }
+            .slider-mark {
+                width: 2px;
+                height: 8px;
+                background: #6a6a7e;
+                border-radius: 1px;
+            }
+            .slider-mark.active {
+                background: #4A7C6F;
+                height: 12px;
+            }
+            .dimension-slider {
+                -webkit-appearance: none;
+                width: 100%;
+                height: 4px;
+                background: transparent;
+                outline: none;
+                position: absolute;
+                top: 0;
+                left: 0;
+                margin: 0;
+            }
+            .dimension-slider::-webkit-slider-thumb {
+                -webkit-appearance: none;
+                appearance: none;
+                width: 24px;
+                height: 24px;
+                border-radius: 50%;
+                background: linear-gradient(135deg, #4A7C6F, #5B8A7A);
+                cursor: pointer;
+                box-shadow: 0 0 20px rgba(74, 124, 111, 0.6), inset 0 0 0 3px #050508;
+                border: 2px solid #4A7C6F;
+                transition: all 0.2s ease;
+                margin-top: -10px;
+            }
+            .dimension-slider::-webkit-slider-thumb:hover {
+                transform: scale(1.15);
+                box-shadow: 0 0 30px rgba(74, 124, 111, 0.8), inset 0 0 0 3px #050508;
+            }
+            .dimension-slider::-webkit-slider-runnable-track {
+                height: 4px;
+                background: transparent;
+            }
+            .slider-labels {
+                display: flex;
+                justify-content: space-between;
+                margin-top: 12px;
+                padding: 0 4px;
+            }
+            .slider-label {
+                font-size: 11px;
+                color: #9a9aae;
+                text-align: center;
+                flex: 1;
+                transition: color 0.3s;
+            }
+            .slider-label.active {
+                color: #4A7C6F;
+                font-weight: 500;
+            }
+            .yao-line {
+                height: 5px;
+                margin: 10px 0;
+                border-radius: 3px;
+                transition: all 0.4s ease;
+            }
+            .yao-yang {
+                background: linear-gradient(90deg, #4A7C6F, #8B9D83, #4A7C6F);
+                background-size: 200% 100%;
+                animation: shimmer 3s infinite;
+                width: 100%;
+            }
+            .yao-yin {
+                background: transparent;
+                width: 100%;
+                position: relative;
+            }
+            .yao-yin::before,
+            .yao-yin::after {
+                content: '';
+                position: absolute;
+                height: 100%;
+                width: 42%;
+                background: linear-gradient(90deg, #3a3a4e, #4a4a5e);
+                border-radius: 3px;
+            }
+            .yao-yin::after {
+                right: 0;
+            }
+            @keyframes shimmer {
+                0% { background-position: -200% 0; }
+                100% { background-position: 200% 0; }
+            }
+            .code-block {
+                background: linear-gradient(135deg, #0a0a12, #12121a);
+                border: 1px solid #1f1f2e;
+                border-radius: 12px;
+                padding: 1.5rem;
+                overflow-x: auto;
+            }
+            .nav-item {
+                transition: all 0.3s ease;
+                position: relative;
+            }
+            .nav-item::before {
+                content: '';
+                position: absolute;
+                left: 0;
+                top: 0;
+                bottom: 0;
+                width: 3px;
+                background: linear-gradient(180deg, #4A7C6F, #8B7EB8);
+                opacity: 0;
+                transition: opacity 0.3s;
+            }
+            .nav-item:hover {
+                background: rgba(74, 124, 111, 0.1);
+            }
+            .nav-item:hover::before {
+                opacity: 1;
+            }
+            .nav-item.active {
+                background: rgba(74, 124, 111, 0.15);
+            }
+            .nav-item.active::before {
+                opacity: 1;
+            }
+            .tensor-cell {
+                aspect-ratio: 1;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                font-size: 0.7rem;
+                border-radius: 6px;
+                cursor: pointer;
+                transition: all 0.3s ease;
+                border: 1px solid #2a2a3e;
+            }
+            .tensor-cell:hover {
+                transform: scale(1.15);
+                z-index: 10;
+                box-shadow: 0 0 20px rgba(74, 124, 111, 0.4);
+            }
+            .flow-line {
+                position: relative;
+            }
+            .flow-line::after {
+                content: '';
+                position: absolute;
+                top: 50%;
+                right: -30px;
+                width: 24px;
+                height: 2px;
+                background: linear-gradient(90deg, #4A7C6F, transparent);
+            }
+            .section-divider {
+                height: 1px;
+                background: linear-gradient(90deg, transparent, #4A7C6F, #8B7EB8, transparent);
+                margin: 4rem 0;
+            }
+            .glass-card {
+                background: rgba(20, 20, 30, 0.6);
+                backdrop-filter: blur(10px);
+                border: 1px solid rgba(74, 124, 111, 0.2);
+            }
+            .highlight-box {
+                background: linear-gradient(135deg, rgba(74, 124, 111, 0.15), rgba(139, 126, 184, 0.1));
+                border-left: 4px solid #4A7C6F;
+            }
+            /* Philosophy Quote Style */
+            .philosophy-quote {
+                position: relative;
+                padding: 2rem 2.5rem;
+                background: linear-gradient(135deg, rgba(74, 124, 111, 0.08), rgba(139, 126, 184, 0.05));
+                border-radius: 16px;
+                border: 1px solid rgba(74, 124, 111, 0.15);
+            }
+            .philosophy-quote::before {
+                content: '"';
+                position: absolute;
+                top: 10px;
+                left: 20px;
+                font-size: 4rem;
+                color: rgba(74, 124, 111, 0.3);
+                font-family: Georgia, serif;
+                line-height: 1;
+            }
+        }
+    </style>
+</head>
+<body class="min-h-screen">
+    <!-- Background Elements -->
+    <div class="fixed inset-0 pointer-events-none">
+        <div class="absolute top-0 left-1/4 w-96 h-96 bg-green-900/10 rounded-full blur-3xl"></div>
+        <div class="absolute bottom-1/4 right-1/4 w-96 h-96 bg-purple-900/10 rounded-full blur-3xl"></div>
+        <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[800px] bg-gradient-radial from-green-900/5 to-transparent rounded-full"></div>
+    </div>
+
+    <!-- Header -->
+    <header class="fixed top-0 left-0 right-0 z-50 bg-black/80 backdrop-blur-xl border-b border-white/5">
+        <div class="max-w-[1800px] mx-auto px-8 py-5 flex items-center justify-between">
+            <div class="flex items-center gap-5">
+                <div class="w-12 h-12 rounded-xl bg-gradient-to-br from-green-700 via-green-800 to-green-900 flex items-center justify-center text-white font-bold text-xl shadow-lg shadow-green-900/30">势</div>
+                <div>
+                    <h1 class="text-2xl font-bold gradient-text tracking-wide">ECHO Shi 技术架构</h1>
+                    <p class="text-sm text-gray-400 tracking-wider">三维编织 · 64卦约束 · 势位跃迁</p>
+                </div>
+            </div>
+            <div class="flex items-center gap-6 text-sm">
+                <span class="text-gray-400">Version 1.4</span>
+                <span class="px-4 py-1.5 rounded-full bg-green-900/30 text-green-400 border border-green-800/50 font-medium">Protocol Layer</span>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Layout -->
+    <div class="pt-24 flex relative z-10">
+        <!-- Sidebar Navigation -->
+        <nav class="fixed left-0 top-24 bottom-0 w-72 bg-gradient-to-b from-black/50 to-transparent border-r border-white/5 overflow-y-auto">
+            <div class="p-6 space-y-1">
+                <div class="text-xs font-semibold text-gray-400 uppercase tracking-widest mb-4 px-4">核心理念</div>
+                <a href="#what-is-shi" class="nav-item block px-4 py-3 rounded-lg text-sm text-gray-400 hover:text-white">什么是「势」</a>
+                <a href="#philosophy" class="nav-item block px-4 py-3 rounded-lg text-sm text-gray-400 hover:text-white">设计哲学</a>
+                <a href="#why-constraints" class="nav-item block px-4 py-3 rounded-lg text-sm text-gray-400 hover:text-white">为什么需要约束</a>
+                <a href="#decentralization" class="nav-item block px-4 py-3 rounded-lg text-sm text-gray-400 hover:text-white">与去中心化的关系</a>
+                
+                <div class="text-xs font-semibold text-gray-400 uppercase tracking-widest mt-6 mb-4 px-4">架构概览</div>
+                <a href="#overview" class="nav-item block px-4 py-3 rounded-lg text-sm text-gray-400 hover:text-white">整体架构</a>
+                <a href="#three-layers" class="nav-item block px-4 py-3 rounded-lg text-sm text-gray-400 hover:text-white">三层架构</a>
+                <a href="#four-powers" class="nav-item block px-4 py-3 rounded-lg text-sm text-gray-400 hover:text-white">四权配置</a>
+                
+                <div class="text-xs font-semibold text-gray-400 uppercase tracking-widest mt-6 mb-4 px-4">核心机制</div>
+                <a href="#shishu" class="nav-item block px-4 py-3 rounded-lg text-sm text-gray-400 hover:text-white">势枢 (ShiShu)</a>
+                <a href="#shichang" class="nav-item block px-4 py-3 rounded-lg text-sm text-gray-400 hover:text-white">势场 (ShiChang)</a>
+                <a href="#shiwei" class="nav-item block px-4 py-3 rounded-lg text-sm text-gray-400 hover:text-white">势位 (ShiWei)</a>
+                
+                <div class="text-xs font-semibold text-gray-400 uppercase tracking-widest mt-6 mb-4 px-4">可视化</div>
+                <a href="#tensor-visual" class="nav-item block px-4 py-3 rounded-lg text-sm text-gray-400 hover:text-white">三维张量</a>
+                <a href="#hexagram-constraints" class="nav-item block px-4 py-3 rounded-lg text-sm text-gray-400 hover:text-white">64卦约束表</a>
+                <a href="#transition-sim" class="nav-item block px-4 py-3 rounded-lg text-sm text-gray-400 hover:text-white">势位跃迁模拟</a>
+                
+                <div class="text-xs font-semibold text-gray-400 uppercase tracking-widest mt-6 mb-4 px-4">机制详解</div>
+                <a href="#ba-mode" class="nav-item block px-4 py-3 rounded-lg text-sm text-gray-400 hover:text-white">BA最佳尝试模式</a>
+                <a href="#hibernation" class="nav-item block px-4 py-3 rounded-lg text-sm text-gray-400 hover:text-white">休眠机制</a>
+                <a href="#forking" class="nav-item block px-4 py-3 rounded-lg text-sm text-gray-400 hover:text-white">分叉自由</a>
+                
+                <div class="text-xs font-semibold text-gray-400 uppercase tracking-widest mt-6 mb-4 px-4">技术实现</div>
+                <a href="#constraints-engine" class="nav-item block px-4 py-3 rounded-lg text-sm text-gray-400 hover:text-white">约束引擎</a>
+                <a href="#smart-contracts" class="nav-item block px-4 py-3 rounded-lg text-sm text-gray-400 hover:text-white">智能合约</a>
+                <a href="#api-design" class="nav-item block px-4 py-3 rounded-lg text-sm text-gray-400 hover:text-white">API 设计</a>
+            </div>
+        </nav>
+
+        <!-- Main Content - Increased width -->
+        <main class="ml-72 mr-8 flex-1 min-w-0 max-w-[calc(100vw-320px)] p-8 space-y-20">
+            
+            <!-- Hero Section -->
+            <section id="hero" class="relative py-16">
+                <div class="text-center space-y-8">
+                    <div class="inline-block px-6 py-2 rounded-full border border-green-800/50 bg-green-900/20 text-green-400 text-sm tracking-widest mb-4">
+                        ECHO PROTOCOL V1.4
+                    </div>
+                    <h2 class="text-5xl font-light gradient-text glow-text tracking-wider">万物有灵，皆可生长</h2>
+                    <p class="text-xl text-gray-400 max-w-4xl mx-auto leading-relaxed">
+                        ECHO 的「势」是一个三维编织的动态系统。通过时间、空间、关系三个维度的交织，
+                        配合 64 卦协议层约束，在保护创作者主权的同时维护生态健康。
+                        <span class="text-green-400">代码即法律，约束即保护。</span>
+                    </p>
+                </div>
+
+                <!-- Core Formula Card -->
+                <div class="mt-12 glass-card rounded-2xl p-10 glow-border">
+                    <h3 class="text-xl font-semibold text-green-400 mb-8 flex items-center gap-3">
+                        <span class="w-10 h-10 rounded-lg bg-green-900/50 flex items-center justify-center">核</span>
+                        核心公式
+                    </h3>
+                    <div class="code-block font-mono text-2xl text-center py-8">
+                        <span class="text-gray-400">实际生效配置</span> 
+                        <span class="text-green-400 mx-4">=</span> 
+                        <span class="text-blue-400">创作者意图</span> 
+                        <span class="text-yellow-400 mx-4">∩</span> 
+                        <span class="text-purple-400">物理法则范围</span>
+                    </div>
+                    <div class="mt-8 grid grid-cols-3 gap-6">
+                        <div class="bg-black/30 p-6 rounded-xl border border-white/5 hover:border-blue-500/30 transition-colors">
+                            <div class="text-blue-400 font-semibold mb-3 text-lg">创作者意图</div>
+                            <div class="text-gray-400 text-sm leading-relaxed">通过四权配置（用/衍/扩/益）表达的创作主权，是创作者对资产的规则设定</div>
+                        </div>
+                        <div class="bg-black/30 p-6 rounded-xl border border-white/5 hover:border-purple-500/30 transition-colors">
+                            <div class="text-purple-400 font-semibold mb-3 text-lg">物理法则</div>
+                            <div class="text-gray-400 text-sm leading-relaxed">由 64 卦定义的协议层约束，防止短视行为破坏生态，保护所有参与者</div>
+                        </div>
+                        <div class="bg-black/30 p-6 rounded-xl border border-white/5 hover:border-green-500/30 transition-colors">
+                            <div class="text-green-400 font-semibold mb-3 text-lg">实际配置</div>
+                            <div class="text-gray-400 text-sm leading-relaxed">两者的交集。既尊重创作者主权，又保护已进入生态的所有参与者</div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <div class="section-divider"></div>
+
+            <!-- What is Shi Section - NEW -->
+            <section id="what-is-shi" class="space-y-12">
+                <div class="text-center mb-12">
+                    <h2 class="text-4xl font-bold gradient-text mb-4">什么是「势」</h2>
+                    <p class="text-gray-400 text-lg">Shi —— 东方智慧中的生长动力学</p>
+                </div>
+
+                <div class="grid grid-cols-2 gap-8">
+                    <div class="philosophy-quote">
+                        <h3 class="text-xl font-semibold text-green-400 mb-4 pl-4">源于易经</h3>
+                        <p class="text-gray-300 leading-relaxed pl-4">
+                            「势」不是静态的位置，而是<span class="text-yellow-400">动态的流动</span>。
+                            就像河流中的水，每一刻都在变化，但又有其内在的规律。
+                            64卦不是分类标签，而是描述事物在不同阶段的<span class="text-green-400">能量状态</span>。
+                        </p>
+                        <div class="mt-6 pl-4 text-sm text-gray-400">
+                            —— 从潜藏（坤）到爆发（乾），是势能积累与释放的完整周期
+                        </div>
+                    </div>
+                    <div class="philosophy-quote">
+                        <h3 class="text-xl font-semibold text-blue-400 mb-4 pl-4">三维编织</h3>
+                        <p class="text-gray-300 leading-relaxed pl-4">
+                            传统系统用一维指标（如热度、排名）衡量资产。
+                            「势」用<span class="text-blue-400">三维张量</span>：时间（活跃程度）、
+                            空间（平台分布）、关系（引用网络）。
+                            只有这三个维度的交织，才能完整描述一个资产的<span class="text-purple-400">生命状态</span>。
+                        </p>
+                        <div class="mt-6 pl-4 text-sm text-gray-400">
+                            —— 单一维度的成功往往是片面的，三维编织呈现全貌
+                        </div>
+                    </div>
+                </div>
+
+                <div class="glass-card rounded-2xl p-8">
+                    <h3 class="text-xl font-semibold text-center text-gray-300 mb-8">为什么用 64 卦？</h3>
+                    <div class="grid grid-cols-4 gap-6">
+                        <div class="text-center">
+                            <div class="w-16 h-16 mx-auto mb-4 rounded-2xl bg-gradient-to-br from-green-900/50 to-green-800/30 flex items-center justify-center text-2xl border border-green-700/30">64</div>
+                            <h4 class="text-green-400 font-semibold mb-2">足够精细</h4>
+                            <p class="text-sm text-gray-400">4×4×4=64，三个维度各4档，足够描述资产的微妙状态变化</p>
+                        </div>
+                        <div class="text-center">
+                            <div class="w-16 h-16 mx-auto mb-4 rounded-2xl bg-gradient-to-br from-yellow-900/50 to-yellow-800/30 flex items-center justify-center text-2xl border border-yellow-700/30">⚖️</div>
+                            <h4 class="text-yellow-400 font-semibold mb-2">文化共识</h4>
+                            <p class="text-sm text-gray-400">64卦是东方文化的元语言，跨越千年的智慧沉淀，易于理解</p>
+                        </div>
+                        <div class="text-center">
+                            <div class="w-16 h-16 mx-auto mb-4 rounded-2xl bg-gradient-to-br from-blue-900/50 to-blue-800/30 flex items-center justify-center text-2xl border border-blue-700/30">🔗</div>
+                            <h4 class="text-blue-400 font-semibold mb-2">数学完备</h4>
+                            <p class="text-sm text-gray-400">6位二进制可编码64种状态，天然适配计算机系统</p>
+                        </div>
+                        <div class="text-center">
+                            <div class="w-16 h-16 mx-auto mb-4 rounded-2xl bg-gradient-to-br from-purple-900/50 to-purple-800/30 flex items-center justify-center text-2xl border border-purple-700/30">🌊</div>
+                            <h4 class="text-purple-400 font-semibold mb-2">动态生长</h4>
+                            <p class="text-sm text-gray-400">卦象变化描述事物演化，从潜藏到爆发，每个阶段都有意义</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="highlight-box rounded-xl p-8">
+                    <h3 class="text-xl font-semibold text-green-400 mb-4">「势」的三重含义</h3>
+                    <div class="grid grid-cols-3 gap-8">
+                        <div>
+                            <h4 class="text-yellow-400 font-semibold mb-2">1. 势能（Potential）</h4>
+                            <p class="text-gray-400 text-sm">资产蕴含的生长可能性。不是现在的价值，而是<span class="text-yellow-400">未来的潜力</span>。</p>
+                        </div>
+                        <div>
+                            <h4 class="text-blue-400 font-semibold mb-2">2. 势位（Position）</h4>
+                            <p class="text-gray-400 text-sm">资产在三维空间中的坐标。时间、空间、关系的交汇点，定义了<span class="text-blue-400">当前状态</span>。</p>
+                        </div>
+                        <div>
+                            <h4 class="text-purple-400 font-semibold mb-2">3. 势场（Field）</h4>
+                            <p class="text-gray-400 text-sm">影响资产生长的环境力量。边界自适应，阈值动态调整，形成<span class="text-purple-400">生态张力</span>。</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Philosophy Section -->
+            <section id="philosophy" class="space-y-12">
+                <div class="text-center mb-12">
+                    <h2 class="text-4xl font-bold gradient-text mb-4">设计哲学</h2>
+                    <p class="text-gray-400 text-lg">约束不是限制，而是生态的免疫系统</p>
+                </div>
+
+                <div class="grid grid-cols-2 gap-8">
+                    <div class="glass-card rounded-xl p-8">
+                        <h3 class="text-xl font-semibold text-green-400 mb-4">🌱 为什么需要约束？</h3>
+                        <div class="space-y-4 text-gray-300">
+                            <p>假设没有约束，创作者可以：</p>
+                            <ul class="space-y-2 text-sm">
+                                <li class="flex items-start gap-3">
+                                    <span class="text-red-400">×</span>
+                                    <span>大成期资产设 <code class="bg-red-900/30 px-2 py-0.5 rounded text-red-300">衍=0</code>（禁止衍生）— 生态已形成，突然切断关系链</span>
+                                </li>
+                                <li class="flex items-start gap-3">
+                                    <span class="text-red-400">×</span>
+                                    <span>成熟期设 <code class="bg-red-900/30 px-2 py-0.5 rounded text-red-300">益=0</code>（锁定收益）— 投资者无法退出</span>
+                                </li>
+                                <li class="flex items-start gap-3">
+                                    <span class="text-red-400">×</span>
+                                    <span>热门资产随意提高价格10倍 — 用户流失，生态萎缩</span>
+                                </li>
+                                <li class="flex items-start gap-3">
+                                    <span class="text-red-400">×</span>
+                                    <span>频繁软分叉收割用户 — 信任机制瓦解</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="glass-card rounded-xl p-8">
+                        <h3 class="text-xl font-semibold text-green-400 mb-4">✅ 约束保护的是谁？</h3>
+                        <div class="code-block font-mono text-sm mb-4">
+                            <div class="text-gray-400"><span class="text-gray-400">// 约束 ≠ 剥夺创作者主权</span></div>
+                            <div class="text-gray-400"><span class="text-gray-400">// 约束 = 保护已进入生态的所有参与者</span></div>
+                            <div class="mt-2">
+                                <div class="text-blue-400">创作者 ──→ 资产 ──→ 用户/衍生者/投资者</div>
+                                <div class="text-gray-400">   │          │            │</div>
+                                <div class="text-gray-400">   └──────────┴────────────┘</div>
+                                <div class="text-green-400 mt-1">        ↑ 约束保护这层关系</div>
+                            </div>
+                        </div>
+                        <p class="text-gray-300 text-sm">创作者的"绝对自由"会导致<strong class="text-yellow-400">公地悲剧</strong>——个体理性决策导致集体非理性结果。</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Decentralization Section -->
+            <section id="decentralization" class="space-y-8">
+                <h2 class="text-3xl font-bold gradient-text">约束 ≠ 中心化</h2>
+                
+                <div class="glass-card rounded-xl p-8">
+                    <p class="text-gray-300 mb-6 text-lg">这是最关键的澄清。ECHO的约束设计<strong class="text-green-400">不是平台控制</strong>，而是<strong class="text-green-400">协议规则</strong>。</p>
+                    
+                    <div class="grid grid-cols-2 gap-8">
+                        <div class="space-y-4">
+                            <h3 class="text-red-400 font-semibold text-lg mb-4">❌ 中心化平台（如抖音）</h3>
+                            <ul class="space-y-3 text-gray-400 text-sm">
+                                <li class="flex items-center gap-3"><span class="w-2 h-2 rounded-full bg-red-500/50"></span>规则制定：单一实体</li>
+                                <li class="flex items-center gap-3"><span class="w-2 h-2 rounded-full bg-red-500/50"></span>规则修改：单方面</li>
+                                <li class="flex items-center gap-3"><span class="w-2 h-2 rounded-full bg-red-500/50"></span>执行：中心化服务器</li>
+                                <li class="flex items-center gap-3"><span class="w-2 h-2 rounded-full bg-red-500/50"></span>退出：无法选择</li>
+                            </ul>
+                        </div>
+                        <div class="space-y-4">
+                            <h3 class="text-green-400 font-semibold text-lg mb-4">✅ ECHO协议</h3>
+                            <ul class="space-y-3 text-gray-400 text-sm">
+                                <li class="flex items-center gap-3"><span class="w-2 h-2 rounded-full bg-green-500/50"></span>规则制定：开源代码</li>
+                                <li class="flex items-center gap-3"><span class="w-2 h-2 rounded-full bg-green-500/50"></span>规则修改：社区投票</li>
+                                <li class="flex items-center gap-3"><span class="w-2 h-2 rounded-full bg-green-500/50"></span>执行：分布式节点</li>
+                                <li class="flex items-center gap-3"><span class="w-2 h-2 rounded-full bg-green-500/50"></span>退出：可分叉迁移</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="highlight-box rounded-lg p-6 mt-8">
+                        <p class="text-lg"><strong class="text-green-400">64卦约束的本质：</strong><span class="text-gray-300">代码即法律，不是平台政策。它是生态的免疫系统——既保持去中心化，又保护生态健康。</span></p>
+                    </div>
+                </div>
+            </section>
+
+            <div class="section-divider"></div>
+
+            <!-- Three Layers Section -->
+            <section id="three-layers" class="space-y-12">
+                <div class="text-center mb-12">
+                    <h2 class="text-4xl font-bold gradient-text mb-4">三层架构</h2>
+                    <p class="text-xl text-gray-400">势枢生势场，势场藏势位，势位定生长</p>
+                </div>
+                
+                <div class="grid grid-cols-3 gap-8">
+                    <!-- ShiShu -->
+                    <div class="glass-card rounded-2xl p-8 hover:border-green-500/50 transition-all duration-500 group">
+                        <div class="flex items-center gap-4 mb-6">
+                            <div class="w-16 h-16 rounded-2xl bg-gradient-to-br from-green-900/50 to-green-800/30 flex items-center justify-center text-3xl group-hover:scale-110 transition-transform border border-green-700/30">枢</div>
+                            <div>
+                                <h3 class="text-2xl font-bold text-green-400">势枢</h3>
+                                <p class="text-sm text-gray-400 font-mono">ShiShu</p>
+                            </div>
+                        </div>
+                        <p class="text-gray-300 mb-6 leading-relaxed">三维编织的元结构，生成势场的源头。时间、空间、关系三个维度交织，构成64个单元格的完整张量空间。</p>
+                        <div class="code-block text-sm">
+                            <div class="text-gray-400"><span class="text-gray-400">// 三维张量</span></div>
+                            <div class="text-green-400 font-semibold">T[时间][空间][关系]</div>
+                            <div class="mt-2 text-gray-400"><span class="text-gray-400">// 每个维度 4 档</span></div>
+                            <div class="text-blue-400">0-3 共 64 个单元格</div>
+                        </div>
+                    </div>
+
+                    <!-- ShiChang -->
+                    <div class="glass-card rounded-2xl p-8 hover:border-yellow-500/50 transition-all duration-500 group">
+                        <div class="flex items-center gap-4 mb-6">
+                            <div class="w-16 h-16 rounded-2xl bg-gradient-to-br from-yellow-900/50 to-yellow-800/30 flex items-center justify-center text-3xl group-hover:scale-110 transition-transform border border-yellow-700/30">场</div>
+                            <div>
+                                <h3 class="text-2xl font-bold text-yellow-400">势场</h3>
+                                <p class="text-sm text-gray-400 font-mono">ShiChang</p>
+                            </div>
+                        </div>
+                        <p class="text-gray-300 mb-6 leading-relaxed">64 种涌现场域模式，自适应的物理边界。每周重新测绘边界，基于75%分位数的动态阈值调整。</p>
+                        <div class="code-block text-sm">
+                            <div class="text-gray-400"><span class="text-gray-400">// 每周重新测绘</span></div>
+                            <div class="text-yellow-400 font-semibold">B_t = percentile(D_{t-1}, 75%)</div>
+                            <div class="mt-2 text-gray-400"><span class="text-gray-400">// 边界自适应</span></div>
+                            <div class="text-blue-400">动态阈值调整</div>
+                        </div>
+                    </div>
+
+                    <!-- ShiWei -->
+                    <div class="glass-card rounded-2xl p-8 hover:border-purple-500/50 transition-all duration-500 group">
+                        <div class="flex items-center gap-4 mb-6">
+                            <div class="w-16 h-16 rounded-2xl bg-gradient-to-br from-purple-900/50 to-purple-800/30 flex items-center justify-center text-3xl group-hover:scale-110 transition-transform border border-purple-700/30">位</div>
+                            <div>
+                                <h3 class="text-2xl font-bold text-purple-400">势位</h3>
+                                <p class="text-sm text-gray-400 font-mono">ShiWei</p>
+                            </div>
+                        </div>
+                        <p class="text-gray-300 mb-6 leading-relaxed">资产在势场中的位置-能量状态。六爻坐标定位横向状态，势能度量评估生长潜力。</p>
+                        <div class="code-block text-sm">
+                            <div class="text-gray-400"><span class="text-gray-400">// 六爻坐标</span></div>
+                            <div class="text-purple-400 font-semibold">初九 → 上九 (0-5)</div>
+                            <div class="mt-2 text-gray-400"><span class="text-gray-400">// 势能计算</span></div>
+                            <div class="text-blue-400">E = f(势位, 梯度, 动量)</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Relationship Flow -->
+                <div class="glass-card rounded-2xl p-10">
+                    <h3 class="text-xl font-semibold mb-8 text-center text-gray-300">层级关系</h3>
+                    <div class="flex items-center justify-center gap-4 text-center flex-wrap">
+                        <div class="px-8 py-5 bg-gradient-to-b from-green-900/40 to-green-900/20 border border-green-700/50 rounded-xl">
+                            <div class="text-green-400 font-bold text-xl">势枢</div>
+                            <div class="text-xs text-gray-400 mt-1">三维编织</div>
+                        </div>
+                        <div class="flex flex-col items-center">
+                            <div class="text-xs text-green-600/60 mb-1">生</div>
+                            <div class="w-12 h-0.5 bg-gradient-to-r from-green-600/50 to-yellow-600/50"></div>
+                        </div>
+                        <div class="px-8 py-5 bg-gradient-to-b from-yellow-900/40 to-yellow-900/20 border border-yellow-700/50 rounded-xl">
+                            <div class="text-yellow-400 font-bold text-xl">势场</div>
+                            <div class="text-xs text-gray-400 mt-1">64卦模式</div>
+                        </div>
+                        <div class="flex flex-col items-center">
+                            <div class="text-xs text-yellow-600/60 mb-1">藏</div>
+                            <div class="w-12 h-0.5 bg-gradient-to-r from-yellow-600/50 to-purple-600/50"></div>
+                        </div>
+                        <div class="px-8 py-5 bg-gradient-to-b from-purple-900/40 to-purple-900/20 border border-purple-700/50 rounded-xl">
+                            <div class="text-purple-400 font-bold text-xl">势位</div>
+                            <div class="text-xs text-gray-400 mt-1">六爻坐标</div>
+                        </div>
+                        <div class="flex flex-col items-center">
+                            <div class="text-xs text-purple-600/60 mb-1">定</div>
+                            <div class="w-12 h-0.5 bg-gradient-to-r from-purple-600/50 to-blue-600/50"></div>
+                        </div>
+                        <div class="px-8 py-5 bg-gradient-to-b from-blue-900/40 to-blue-900/20 border border-blue-700/50 rounded-xl">
+                            <div class="text-blue-400 font-bold text-xl">生长</div>
+                            <div class="text-xs text-gray-400 mt-1">资产演化</div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Four Powers Section -->
+            <section id="four-powers" class="space-y-8">
+                <div class="text-center mb-12">
+                    <h2 class="text-4xl font-bold gradient-text mb-4">四权配置</h2>
+                    <p class="text-xl text-gray-400">创作者的四大主权维度</p>
+                </div>
+
+                <div class="grid grid-cols-2 gap-6">
+                    <div class="glass-card rounded-xl p-8 border-l-4 border-green-500">
+                        <div class="flex items-center gap-4 mb-4">
+                            <div class="text-4xl">◈</div>
+                            <div>
+                                <h3 class="text-2xl font-bold text-green-400">用权</h3>
+                                <p class="text-sm text-gray-400 font-mono">使用权</p>
+                            </div>
+                        </div>
+                        <p class="text-gray-300 mb-4">控制资产被访问和使用的开放程度。</p>
+                        <div class="space-y-2 text-sm">
+                            <div class="flex justify-between"><span class="text-gray-400">0</span><span class="text-gray-400">完全私密</span></div>
+                            <div class="flex justify-between"><span class="text-gray-400">1-2</span><span class="text-gray-400">受限访问</span></div>
+                            <div class="flex justify-between"><span class="text-gray-400">3-4</span><span class="text-gray-400">开放使用</span></div>
+                            <div class="flex justify-between"><span class="text-gray-400">5</span><span class="text-green-400">完全开放</span></div>
+                        </div>
+                    </div>
+
+                    <div class="glass-card rounded-xl p-8 border-l-4 border-yellow-500">
+                        <div class="flex items-center gap-4 mb-4">
+                            <div class="text-4xl">✦</div>
+                            <div>
+                                <h3 class="text-2xl font-bold text-yellow-400">衍权</h3>
+                                <p class="text-sm text-gray-400 font-mono">衍生权</p>
+                            </div>
+                        </div>
+                        <p class="text-gray-300 mb-4">控制他人基于该资产创作衍生作品的能力。</p>
+                        <div class="space-y-2 text-sm">
+                            <div class="flex justify-between"><span class="text-gray-400">0</span><span class="text-gray-400">禁止衍生</span></div>
+                            <div class="flex justify-between"><span class="text-gray-400">1-2</span><span class="text-gray-400">受限衍生</span></div>
+                            <div class="flex justify-between"><span class="text-gray-400">3-4</span><span class="text-yellow-400">鼓励衍生</span></div>
+                            <div class="flex justify-between"><span class="text-gray-400">5</span><span class="text-yellow-400">完全开放</span></div>
+                        </div>
+                    </div>
+
+                    <div class="glass-card rounded-xl p-8 border-l-4 border-blue-500">
+                        <div class="flex items-center gap-4 mb-4">
+                            <div class="text-4xl">◎</div>
+                            <div>
+                                <h3 class="text-2xl font-bold text-blue-400">扩权</h3>
+                                <p class="text-sm text-gray-400 font-mono">扩展权</p>
+                            </div>
+                        </div>
+                        <p class="text-gray-300 mb-4">控制资产在不同平台和媒介上的传播范围。</p>
+                        <div class="space-y-2 text-sm">
+                            <div class="flex justify-between"><span class="text-gray-400">0</span><span class="text-gray-400">单一平台</span></div>
+                            <div class="flex justify-between"><span class="text-gray-400">1-2</span><span class="text-gray-400">有限平台</span></div>
+                            <div class="flex justify-between"><span class="text-gray-400">3-4</span><span class="text-blue-400">多平台</span></div>
+                            <div class="flex justify-between"><span class="text-gray-400">5</span><span class="text-blue-400">跨域传播</span></div>
+                        </div>
+                    </div>
+
+                    <div class="glass-card rounded-xl p-8 border-l-4 border-purple-500">
+                        <div class="flex items-center gap-4 mb-4">
+                            <div class="text-4xl">◉</div>
+                            <div>
+                                <h3 class="text-2xl font-bold text-purple-400">益权</h3>
+                                <p class="text-sm text-gray-400 font-mono">收益权</p>
+                            </div>
+                        </div>
+                        <p class="text-gray-300 mb-4">控制资产产生的经济收益的分配方式。</p>
+                        <div class="space-y-2 text-sm">
+                            <div class="flex justify-between"><span class="text-gray-400">0</span><span class="text-gray-400">免费</span></div>
+                            <div class="flex justify-between"><span class="text-gray-400">1-2</span><span class="text-gray-400">限量收益</span></div>
+                            <div class="flex justify-between"><span class="text-gray-400">3-4</span><span class="text-purple-400">收益共享</span></div>
+                            <div class="flex justify-between"><span class="text-gray-400">5</span><span class="text-purple-400">最大化收益</span></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <div class="section-divider"></div>
+
+            <!-- ShiShu Detail -->
+            <section id="shishu" class="space-y-8">
+                <h2 class="text-3xl font-bold gradient-text">势枢 (ShiShu) — 三维编织</h2>
+                <p class="text-gray-400 text-lg">三个维度的元结构，所有「势」产生的源头</p>
+
+                <div class="grid grid-cols-3 gap-6">
+                    <!-- Time Dimension -->
+                    <div class="glass-card rounded-xl p-6">
+                        <div class="flex items-center gap-3 mb-6">
+                            <div class="w-12 h-12 rounded-xl bg-gradient-to-br from-green-900/50 to-green-800/30 flex items-center justify-center text-xl font-bold text-green-400 border border-green-700/30">时</div>
+                            <h3 class="text-xl font-bold text-green-400">时间维度</h3>
+                        </div>
+                        <p class="text-gray-400 text-sm mb-4">基于使用频率的动态评估</p>
+                        <div class="space-y-3">
+                            <div class="flex items-center justify-between p-3 bg-black/30 rounded-lg">
+                                <span class="text-gray-400 font-mono">0 沉寂</span>
+                                <span class="text-xs text-gray-400">7天内使用 &lt; 3次</span>
+                            </div>
+                            <div class="flex items-center justify-between p-3 bg-black/30 rounded-lg">
+                                <span class="text-gray-400 font-mono">1 稳定</span>
+                                <span class="text-xs text-gray-400">7天内使用 3-10次</span>
+                            </div>
+                            <div class="flex items-center justify-between p-3 bg-green-900/20 rounded-lg border border-green-800/30">
+                                <span class="text-green-400 font-mono">2 活跃</span>
+                                <span class="text-xs text-green-600/70">7天内使用 10-50次</span>
+                            </div>
+                            <div class="flex items-center justify-between p-3 bg-yellow-900/20 rounded-lg border border-yellow-800/30">
+                                <span class="text-yellow-400 font-mono">3 爆发</span>
+                                <span class="text-xs text-yellow-600/70">7天内使用 ≥ 50次</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Space Dimension -->
+                    <div class="glass-card rounded-xl p-6">
+                        <div class="flex items-center gap-3 mb-6">
+                            <div class="w-12 h-12 rounded-xl bg-gradient-to-br from-blue-900/50 to-blue-800/30 flex items-center justify-center text-xl font-bold text-blue-400 border border-blue-700/30">空</div>
+                            <h3 class="text-xl font-bold text-blue-400">空间维度</h3>
+                        </div>
+                        <p class="text-gray-400 text-sm mb-4">基于平台分布的空间评估</p>
+                        <div class="space-y-3">
+                            <div class="flex items-center justify-between p-3 bg-black/30 rounded-lg">
+                                <span class="text-gray-400 font-mono">0 单平台</span>
+                                <span class="text-xs text-gray-400">仅1个平台</span>
+                            </div>
+                            <div class="flex items-center justify-between p-3 bg-black/30 rounded-lg">
+                                <span class="text-gray-400 font-mono">1 少平台</span>
+                                <span class="text-xs text-gray-400">2-3个平台</span>
+                            </div>
+                            <div class="flex items-center justify-between p-3 bg-blue-900/20 rounded-lg border border-blue-800/30">
+                                <span class="text-blue-400 font-mono">2 多平台</span>
+                                <span class="text-xs text-blue-600/70">4-7个平台</span>
+                            </div>
+                            <div class="flex items-center justify-between p-3 bg-yellow-900/20 rounded-lg border border-yellow-800/30">
+                                <span class="text-yellow-400 font-mono">3 跨域</span>
+                                <span class="text-xs text-yellow-600/70">8+平台或线上线下</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Relation Dimension -->
+                    <div class="glass-card rounded-xl p-6">
+                        <div class="flex items-center gap-3 mb-6">
+                            <div class="w-12 h-12 rounded-xl bg-gradient-to-br from-purple-900/50 to-purple-800/30 flex items-center justify-center text-xl font-bold text-purple-400 border border-purple-700/30">关</div>
+                            <h3 class="text-xl font-bold text-purple-400">关系维度</h3>
+                        </div>
+                        <p class="text-gray-400 text-sm mb-4">基于引用关系的网络评估</p>
+                        <div class="space-y-3">
+                            <div class="flex items-center justify-between p-3 bg-black/30 rounded-lg">
+                                <span class="text-gray-400 font-mono">0 孤立</span>
+                                <span class="text-xs text-gray-400">0次引用</span>
+                            </div>
+                            <div class="flex items-center justify-between p-3 bg-black/30 rounded-lg">
+                                <span class="text-gray-400 font-mono">1 初连</span>
+                                <span class="text-xs text-gray-400">1-5次引用</span>
+                            </div>
+                            <div class="flex items-center justify-between p-3 bg-purple-900/20 rounded-lg border border-purple-800/30">
+                                <span class="text-purple-400 font-mono">2 网络</span>
+                                <span class="text-xs text-purple-600/70">6-20次引用</span>
+                            </div>
+                            <div class="flex items-center justify-between p-3 bg-yellow-900/20 rounded-lg border border-yellow-800/30">
+                                <span class="text-yellow-400 font-mono">3 生态</span>
+                                <span class="text-xs text-yellow-600/70">20+次引用</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- 3D Tensor Visualization -->
+            <section id="tensor-visual" class="space-y-8">
+                <div class="text-center mb-8">
+                    <h2 class="text-4xl font-bold gradient-text mb-4">三维张量可视化</h2>
+                    <p class="text-gray-400">T[时间][空间][关系] = 64个单元格，每个对应一个卦象</p>
+                </div>
+
+                <div class="glass-card rounded-2xl p-8">
+                    <!-- Enhanced Sliders with Marks -->
+                    <div class="grid grid-cols-3 gap-10 mb-10">
+                        <div class="slider-container">
+                            <label class="block text-sm text-gray-400 mb-4 flex items-center gap-2">
+                                <span class="w-2 h-2 rounded-full bg-green-500"></span>
+                                时间维度 (T)
+                            </label>
+                            <div class="slider-track">
+                                <div class="slider-marks">
+                                    <div class="slider-mark" id="mark-t0"></div>
+                                    <div class="slider-mark" id="mark-t1"></div>
+                                    <div class="slider-mark" id="mark-t2"></div>
+                                    <div class="slider-mark" id="mark-t3"></div>
+                                </div>
+                                <input type="range" min="0" max="3" value="2" class="dimension-slider" id="timeSlider">
+                            </div>
+                            <div class="slider-labels">
+                                <span class="slider-label" id="label-t0">沉寂</span>
+                                <span class="slider-label" id="label-t1">稳定</span>
+                                <span class="slider-label" id="label-t2">活跃</span>
+                                <span class="slider-label" id="label-t3">爆发</span>
+                            </div>
+                        </div>
+                        <div class="slider-container">
+                            <label class="block text-sm text-gray-400 mb-4 flex items-center gap-2">
+                                <span class="w-2 h-2 rounded-full bg-blue-500"></span>
+                                空间维度 (S)
+                            </label>
+                            <div class="slider-track">
+                                <div class="slider-marks">
+                                    <div class="slider-mark" id="mark-s0"></div>
+                                    <div class="slider-mark" id="mark-s1"></div>
+                                    <div class="slider-mark" id="mark-s2"></div>
+                                    <div class="slider-mark" id="mark-s3"></div>
+                                </div>
+                                <input type="range" min="0" max="3" value="2" class="dimension-slider" id="spaceSlider">
+                            </div>
+                            <div class="slider-labels">
+                                <span class="slider-label" id="label-s0">单平台</span>
+                                <span class="slider-label" id="label-s1">少平台</span>
+                                <span class="slider-label" id="label-s2">多平台</span>
+                                <span class="slider-label" id="label-s3">跨域</span>
+                            </div>
+                        </div>
+                        <div class="slider-container">
+                            <label class="block text-sm text-gray-400 mb-4 flex items-center gap-2">
+                                <span class="w-2 h-2 rounded-full bg-purple-500"></span>
+                                关系维度 (R)
+                            </label>
+                            <div class="slider-track">
+                                <div class="slider-marks">
+                                    <div class="slider-mark" id="mark-r0"></div>
+                                    <div class="slider-mark" id="mark-r1"></div>
+                                    <div class="slider-mark" id="mark-r2"></div>
+                                    <div class="slider-mark" id="mark-r3"></div>
+                                </div>
+                                <input type="range" min="0" max="3" value="3" class="dimension-slider" id="relationSlider">
+                            </div>
+                            <div class="slider-labels">
+                                <span class="slider-label" id="label-r0">孤立</span>
+                                <span class="slider-label" id="label-r1">初连</span>
+                                <span class="slider-label" id="label-r2">网络</span>
+                                <span class="slider-label" id="label-r3">生态</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="grid grid-cols-4 gap-6">
+                        <div class="space-y-3">
+                            <div class="text-center text-sm text-gray-400 font-medium">T=0 · 沉寂</div>
+                            <div id="slice-t0" class="hexagram-grid"></div>
+                        </div>
+                        <div class="space-y-3">
+                            <div class="text-center text-sm text-gray-400 font-medium">T=1 · 稳定</div>
+                            <div id="slice-t1" class="hexagram-grid"></div>
+                        </div>
+                        <div class="space-y-3">
+                            <div class="text-center text-sm text-green-400 font-medium">T=2 · 活跃</div>
+                            <div id="slice-t2" class="hexagram-grid"></div>
+                        </div>
+                        <div class="space-y-3">
+                            <div class="text-center text-sm text-yellow-400 font-medium">T=3 · 爆发</div>
+                            <div id="slice-t3" class="hexagram-grid"></div>
+                        </div>
+                    </div>
+
+                    <div class="mt-8 p-6 bg-gradient-to-r from-black/50 to-black/30 rounded-xl border border-white/5">
+                        <div class="flex items-center justify-between">
+                            <div>
+                                <div class="text-sm text-gray-400 mb-1">当前坐标</div>
+                                <div class="text-3xl font-mono font-bold text-green-400" id="currentCoord">T[2][2][3]</div>
+                            </div>
+                            <div class="text-center">
+                                <div class="text-sm text-gray-400 mb-1">对应卦象</div>
+                                <div class="text-3xl font-bold text-yellow-400" id="currentHexagram">泽山咸</div>
+                            </div>
+                            <div class="text-right">
+                                <div class="text-sm text-gray-400 mb-1">生命阶段</div>
+                                <div class="text-2xl font-bold text-purple-400" id="currentStage">大成期</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Hexagram Constraints Table -->
+            <section id="hexagram-constraints" class="space-y-8">
+                <div class="text-center mb-8">
+                    <h2 class="text-4xl font-bold gradient-text mb-4">64卦约束表</h2>
+                    <p class="text-gray-400">协议层物理法则，每个卦象定义四权配置的安全范围</p>
+                </div>
+
+                <div class="glass-card rounded-2xl overflow-hidden">
+                    <div class="overflow-x-auto">
+                        <table class="w-full text-sm">
+                            <thead class="bg-white/5 text-gray-300">
+                                <tr>
+                                    <th class="px-4 py-4 text-left font-semibold">卦象</th>
+                                    <th class="px-4 py-4 text-left font-semibold">坐标</th>
+                                    <th class="px-4 py-4 text-left font-semibold">阶段</th>
+                                    <th class="px-4 py-4 text-center font-semibold">◈ 用</th>
+                                    <th class="px-4 py-4 text-center font-semibold">✦ 衍</th>
+                                    <th class="px-4 py-4 text-center font-semibold">◎ 扩</th>
+                                    <th class="px-4 py-4 text-center font-semibold">◉ 益</th>
+                                    <th class="px-4 py-4 text-left font-semibold">特殊约束</th>
+                                </tr>
+                            </thead>
+                            <tbody class="divide-y divide-white/5" id="constraintsTable"></tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <div class="grid grid-cols-2 gap-6">
+                    <div class="glass-card rounded-xl p-8 border border-red-500/30 bg-red-900/10">
+                        <h3 class="text-xl font-bold text-red-400 mb-4 flex items-center gap-2">
+                            <span>⚠️</span> 强制约束示例：咸卦
+                        </h3>
+                        <p class="text-gray-300 mb-6">大成期资产必须满足以下条件，否则系统将强制调整：</p>
+                        <ul class="space-y-3">
+                            <li class="flex items-center gap-3 text-red-300">
+                                <span class="w-2 h-2 rounded-full bg-red-500"></span>
+                                <span>用权 ≥ 4（必须使用开放）</span>
+                            </li>
+                            <li class="flex items-center gap-3 text-red-300">
+                                <span class="w-2 h-2 rounded-full bg-red-500"></span>
+                                <span>扩权 ≥ 3（必须扩展发现）</span>
+                            </li>
+                            <li class="flex items-center gap-3 text-red-300">
+                                <span class="w-2 h-2 rounded-full bg-red-500"></span>
+                                <span>衍权 ≥ 3（必须开放衍生）</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="glass-card rounded-xl p-8">
+                        <h3 class="text-xl font-bold text-blue-400 mb-6">三层渐进约束</h3>
+                        <div class="space-y-4">
+                            <div class="flex items-start gap-4">
+                                <span class="px-3 py-1 rounded-lg bg-blue-900/50 text-blue-400 font-mono text-sm">1</span>
+                                <div>
+                                    <div class="font-semibold text-gray-200">预警 (7天前)</div>
+                                    <div class="text-sm text-gray-400 mt-1">通知创作者即将变势，提供趋势分析和调整建议</div>
+                                </div>
+                            </div>
+                            <div class="flex items-start gap-4">
+                                <span class="px-3 py-1 rounded-lg bg-yellow-900/50 text-yellow-400 font-mono text-sm">2</span>
+                                <div>
+                                    <div class="font-semibold text-gray-200">软调整 (协商)</div>
+                                    <div class="text-sm text-gray-400 mt-1">暂停新授权，已有授权继续有效，保护既有用户</div>
+                                </div>
+                            </div>
+                            <div class="flex items-start gap-4">
+                                <span class="px-3 py-1 rounded-lg bg-red-900/50 text-red-400 font-mono text-sm">3</span>
+                                <div>
+                                    <div class="font-semibold text-gray-200">硬边界 (最后手段)</div>
+                                    <div class="text-sm text-gray-400 mt-1">严重冲突时强制调整到最低开放档位</div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Transition Simulation -->
+            <section id="transition-sim" class="space-y-8">
+                <div class="text-center mb-8">
+                    <h2 class="text-4xl font-bold gradient-text mb-4">势位跃迁模拟</h2>
+                    <p class="text-gray-400">资产从潜藏到大成的完整生命周期演示</p>
+                </div>
+
+                <div class="glass-card rounded-2xl p-8">
+                    <div class="flex items-center justify-between mb-8">
+                        <div class="flex items-center gap-4">
+                            <button onclick="resetSimulation()" class="px-6 py-3 bg-white/5 hover:bg-white/10 rounded-xl text-sm transition-colors border border-white/10">
+                                重置
+                            </button>
+                            <button onclick="nextStep()" class="px-6 py-3 bg-gradient-to-r from-green-700 to-green-600 hover:from-green-600 hover:to-green-500 rounded-xl text-sm font-semibold transition-all shadow-lg shadow-green-900/30">
+                                下一步 →
+                            </button>
+                        </div>
+                        <div class="text-gray-400">
+                            步骤: <span id="simStep" class="text-white font-mono text-xl">0</span> <span class="text-gray-400">/ 6</span>
+                        </div>
+                    </div>
+
+                    <div class="grid grid-cols-2 gap-10">
+                        <div>
+                            <h3 class="text-lg font-semibold mb-6 text-gray-300">当前状态</h3>
+                            <div id="simStatus" class="space-y-4">
+                                <div class="p-5 bg-black/30 rounded-xl border border-white/5">
+                                    <div class="text-sm text-gray-400 mb-1">卦象</div>
+                                    <div class="text-3xl font-bold text-gray-400">坤卦</div>
+                                </div>
+                                <div class="p-5 bg-black/30 rounded-xl border border-white/5">
+                                    <div class="text-sm text-gray-400 mb-1">坐标</div>
+                                    <div class="text-xl font-mono text-gray-400">T[0][0][0]</div>
+                                </div>
+                                <div class="p-5 bg-black/30 rounded-xl border border-white/5">
+                                    <div class="text-sm text-gray-400 mb-1">阶段</div>
+                                    <div class="text-xl text-gray-400">潜藏期</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div>
+                            <h3 class="text-lg font-semibold mb-6 text-gray-300">六爻可视化</h3>
+                            <div id="simYao" class="space-y-3 p-8 bg-black/20 rounded-xl">
+                                <div class="yao-line yao-yin"></div>
+                                <div class="yao-line yao-yin"></div>
+                                <div class="yao-line yao-yin"></div>
+                                <div class="yao-line yao-yin"></div>
+                                <div class="yao-line yao-yin"></div>
+                                <div class="yao-line yao-yin"></div>
+                            </div>
+                            <div class="mt-4 text-sm text-gray-400 text-center">
+                                从下往上：初九 → 上九
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="mt-8 p-6 bg-black/30 rounded-xl border border-white/5">
+                        <div class="text-sm text-gray-400 mb-3">生命周期日志</div>
+                        <div id="simLog" class="font-mono text-sm space-y-2 max-h-40 overflow-y-auto">
+                            <div class="text-gray-400">> 等待开始...</div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <div class="section-divider"></div>
+
+            <!-- BA Mode Section -->
+            <section id="ba-mode" class="space-y-8">
+                <h2 class="text-3xl font-bold gradient-text">BA最佳尝试模式</h2>
+                
+                <div class="glass-card rounded-xl p-8">
+                    <p class="text-gray-300 text-lg mb-6">Best Attempt (BA) —— 真实性优先于完美性</p>
+                    
+                    <div class="grid grid-cols-3 gap-6 mb-8">
+                        <div class="text-center p-6 bg-black/20 rounded-xl">
+                            <div class="text-3xl mb-3">📊</div>
+                            <div class="text-green-400 font-semibold mb-2">允许统计误差</div>
+                            <div class="text-sm text-gray-400">不追求100%精确，允许合理误差范围</div>
+                        </div>
+                        <div class="text-center p-6 bg-black/20 rounded-xl">
+                            <div class="text-3xl mb-3">🚫</div>
+                            <div class="text-red-400 font-semibold mb-2">禁止系统性造假</div>
+                            <div class="text-sm text-gray-400">打击刷量行为，保护生态真实性</div>
+                        </div>
+                        <div class="text-center p-6 bg-black/20 rounded-xl">
+                            <div class="text-3xl mb-3">📝</div>
+                            <div class="text-blue-400 font-semibold mb-2">类比报税系统</div>
+                            <div class="text-sm text-gray-400">自我申报+抽查验证+违规惩罚</div>
+                        </div>
+                    </div>
+
+                    <div class="highlight-box rounded-lg p-6">
+                        <h4 class="text-green-400 font-semibold mb-3">为什么采用BA模式？</h4>
+                        <p class="text-gray-300">完全精确的数据验证在分布式系统中成本极高。BA模式在<strong class="text-green-400">真实性</strong>和<strong class="text-green-400">可行性</strong>之间取得平衡：</p>
+                        <ul class="mt-4 space-y-2 text-sm text-gray-400">
+                            <li>• 正常创作者无需担心被误判（统计误差在可接受范围）</li>
+                            <li>• 刷量行为会被检测并惩罚（系统性异常）</li>
+                            <li>• 7天挑战期提供申诉机会（纠错机制）</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Hibernation Section -->
+            <section id="hibernation" class="space-y-8">
+                <h2 class="text-3xl font-bold gradient-text">休眠机制</h2>
+                
+                <div class="glass-card rounded-xl p-8">
+                    <p class="text-gray-300 mb-6">创作者的保护性权利 —— 在特殊时期暂停约束生效</p>
+                    
+                    <div class="grid grid-cols-2 gap-8">
+                        <div>
+                            <h3 class="text-lg font-semibold text-blue-400 mb-4">休眠规则</h3>
+                            <ul class="space-y-3 text-gray-300">
+                                <li class="flex items-center gap-3">
+                                    <span class="w-8 h-8 rounded-lg bg-blue-900/30 flex items-center justify-center text-blue-400 font-mono">3</span>
+                                    <span>每年最多 3 次</span>
+                                </li>
+                                <li class="flex items-center gap-3">
+                                    <span class="w-8 h-8 rounded-lg bg-blue-900/30 flex items-center justify-center text-blue-400 font-mono">90</span>
+                                    <span>每次最长 90 天</span>
+                                </li>
+                                <li class="flex items-center gap-3">
+                                    <span class="w-8 h-8 rounded-lg bg-blue-900/30 flex items-center justify-center text-blue-400">🔒</span>
+                                    <span>期间势位锁定，约束不生效</span>
+                                </li>
+                                <li class="flex items-center gap-3">
+                                    <span class="w-8 h-8 rounded-lg bg-blue-900/30 flex items-center justify-center text-blue-400">⏸️</span>
+                                    <span>已授权用户权益不受影响</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h3 class="text-lg font-semibold text-purple-400 mb-4">适用场景</h3>
+                            <ul class="space-y-3 text-gray-300">
+                                <li class="flex items-start gap-3">
+                                    <span class="text-purple-400 mt-1">•</span>
+                                    <span>创作者需要专注创作，暂时不希望管理生态</span>
+                                </li>
+                                <li class="flex items-start gap-3">
+                                    <span class="text-purple-400 mt-1">•</span>
+                                    <span>市场环境剧变，需要时间观察再调整策略</span>
+                                </li>
+                                <li class="flex items-start gap-3">
+                                    <span class="text-purple-400 mt-1">•</span>
+                                    <span>个人原因（健康、家庭等）需要暂时退出</span>
+                                </li>
+                                <li class="flex items-start gap-3">
+                                    <span class="text-purple-400 mt-1">•</span>
+                                    <span>争议期，需要时间协商解决方案</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="mt-8 p-6 bg-gradient-to-r from-blue-900/20 to-purple-900/20 rounded-xl border border-blue-800/30">
+                        <p class="text-gray-300"><strong class="text-blue-400">艮卦对应：</strong>当资产进入艮卦（止息期）或创作者主动申请休眠，系统将锁定当前配置，暂停约束计算，为创作者提供喘息空间。</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Forking Section -->
+            <section id="forking" class="space-y-8">
+                <h2 class="text-3xl font-bold gradient-text">分叉自由</h2>
+                
+                <div class="glass-card rounded-xl p-8">
+                    <p class="text-gray-300 text-lg mb-6">极端情况下的终极选择权 —— 带数据离开</p>
+                    
+                    <div class="grid grid-cols-4 gap-4 mb-8">
+                        <div class="text-center p-5 bg-black/20 rounded-xl border border-white/5">
+                            <div class="text-3xl mb-3">📦</div>
+                            <div class="text-green-400 font-semibold mb-1">导出</div>
+                            <div class="text-xs text-gray-400">完整数据导出</div>
+                        </div>
+                        <div class="text-center p-5 bg-black/20 rounded-xl border border-white/5">
+                            <div class="text-3xl mb-3">🚀</div>
+                            <div class="text-yellow-400 font-semibold mb-1">部署</div>
+                            <div class="text-xs text-gray-400">自定义协议部署</div>
+                        </div>
+                        <div class="text-center p-5 bg-black/20 rounded-xl border border-white/5">
+                            <div class="text-3xl mb-3">🔄</div>
+                            <div class="text-blue-400 font-semibold mb-1">迁移</div>
+                            <div class="text-xs text-gray-400">资产和用户迁移</div>
+                        </div>
+                        <div class="text-center p-5 bg-black/20 rounded-xl border border-white/5">
+                            <div class="text-3xl mb-3">📢</div>
+                            <div class="text-purple-400 font-semibold mb-1">通知</div>
+                            <div class="text-xs text-gray-400">生态参与者通知</div>
+                        </div>
+                    </div>
+
+                    <div class="highlight-box rounded-lg p-6">
+                        <h4 class="text-green-400 font-semibold mb-3">为什么必须允许分叉？</h4>
+                        <p class="text-gray-300">分叉是<strong class="text-green-400">去中心化协议的终极安全保障</strong>。如果创作者认为ECHO协议的约束不再符合其利益，他们可以选择：</p>
+                        <ol class="mt-4 space-y-2 text-sm text-gray-400 list-decimal list-inside">
+                            <li>导出所有资产数据和用户关系</li>
+                            <li>部署自己的协议实例（可以修改或移除约束）</li>
+                            <li>邀请原生态用户自愿迁移</li>
+                            <li>原ECHO网络上的资产标记为"已分叉"</li>
+                        </ol>
+                        <p class="mt-4 text-gray-300">这确保了<strong class="text-yellow-400">协议层约束不会变成平台层的压迫</strong>。</p>
+                    </div>
+                </div>
+            </section>
+
+            <div class="section-divider"></div>
+
+            <!-- Constraints Engine -->
+            <section id="constraints-engine" class="space-y-8">
+                <div class="text-center mb-8">
+                    <h2 class="text-4xl font-bold gradient-text mb-4">约束引擎实现</h2>
+                    <p class="text-gray-400">核心算法与技术架构</p>
+                </div>
+                
+                <div class="glass-card rounded-xl p-8">
+                    <h3 class="text-xl font-semibold text-green-400 mb-6">核心算法</h3>
+                    <div class="code-block font-mono text-sm">
+                        <div class="text-gray-400"><span class="text-gray-400">// 计算有效配置：创作者意图 ∩ 物理法则</span></div>
+                        <div class="text-purple-400">function</div> <span class="text-yellow-400">calculateEffectivePolicy</span>(
+                        <div class="pl-4"><span class="text-blue-400">blueprint</span>: Blueprint,</div>
+                        <div class="pl-4"><span class="text-blue-400">currentShi</span>: Hexagram</div>
+                        ): EffectivePolicy {
+                        <div class="pl-4 text-gray-400"><span class="text-gray-400">// 获取当前卦象的约束规则</span></div>
+                        <div class="pl-4"><span class="text-purple-400">const</span> <span class="text-blue-400">rules</span> = HEXAGRAM_RULES[currentShi];</div>
+                        <div class="pl-4 mt-2 text-gray-400"><span class="text-gray-400">// 计算交集</span></div>
+                        <div class="pl-4"><span class="text-purple-400">return</span> {</div>
+                        <div class="pl-8"><span class="text-green-400">yong</span>: <span class="text-yellow-400">intersect</span>(blueprint.yong, rules.constraints.yong),</div>
+                        <div class="pl-8"><span class="text-green-400">yan</span>: <span class="text-yellow-400">intersect</span>(blueprint.yan, rules.constraints.yan),</div>
+                        <div class="pl-8"><span class="text-green-400">kuo</span>: <span class="text-yellow-400">intersect</span>(blueprint.kuo, rules.constraints.kuo),</div>
+                        <div class="pl-8"><span class="text-green-400">yi</span>: <span class="text-yellow-400">intersect</span>(blueprint.yi, rules.constraints.yi),</div>
+                        <div class="pl-8"><span class="text-green-400">conflicts</span>: <span class="text-yellow-400">detectConflicts</span>(blueprint, rules)</div>
+                        <div class="pl-4">};</div>
+                        }
+                    </div>
+                </div>
+
+                <div class="grid grid-cols-2 gap-6">
+                    <div class="glass-card rounded-xl p-6">
+                        <h3 class="text-lg font-semibold mb-4">约束表结构</h3>
+                        <div class="code-block font-mono text-xs">
+                            <div class="text-purple-400">interface</div> <span class="text-yellow-400">HexagramConstraints</span> {
+                            <div class="pl-4"><span class="text-blue-400">hexagramId</span>: <span class="text-green-400">string</span>;</div>
+                            <div class="pl-4"><span class="text-blue-400">tensorCoord</span>: [<span class="text-green-400">number</span>, <span class="text-green-400">number</span>, <span class="text-green-400">number</span>];</div>
+                            <div class="pl-4"><span class="text-blue-400">constraints</span>: {</div>
+                            <div class="pl-8"><span class="text-green-400">yong</span>: { min: <span class="text-green-400">number</span>; max: <span class="text-green-400">number</span>; };</div>
+                            <div class="pl-8"><span class="text-green-400">yan</span>: { min: <span class="text-green-400">number</span>; max: <span class="text-green-400">number</span>; };</div>
+                            <div class="pl-8"><span class="text-green-400">kuo</span>: { min: <span class="text-green-400">number</span>; max: <span class="text-green-400">number</span>; };</div>
+                            <div class="pl-8"><span class="text-green-400">yi</span>: { min: <span class="text-green-400">number</span>; max: <span class="text-green-400">number</span>; };</div>
+                            <div class="pl-4">};</div>
+                            <div class="pl-4"><span class="text-blue-400">specialRules</span>: SpecialRule[];
+                            }
+                        </div>
+                    </div>
+                    <div class="glass-card rounded-xl p-6">
+                        <h3 class="text-lg font-semibold mb-4">冲突检测</h3>
+                        <div class="code-block font-mono text-xs">
+                            <div class="text-purple-400">enum</div> <span class="text-yellow-400">ConflictSeverity</span> {
+                            <div class="pl-4"><span class="text-green-400">WARNING</span> = <span class="text-purple-400">'warning'</span>,</div>
+                            <div class="pl-4"><span class="text-yellow-400">CRITICAL</span> = <span class="text-purple-400">'critical'</span>,</div>
+                            <div class="pl-4"><span class="text-red-400">BLOCKING</span> = <span class="text-purple-400">'blocking'</span></div>
+                            }
+                            <div class="mt-3 text-gray-400"><span class="text-gray-400">// 严重程度计算</span></div>
+                            <div>distance ≥ 2 → <span class="text-red-400">BLOCKING</span></div>
+                            <div>distance = 1 → <span class="text-yellow-400">CRITICAL</span></div>
+                            <div>distance = 0 → <span class="text-green-400">WARNING</span></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Smart Contracts -->
+            <section id="smart-contracts" class="space-y-8">
+                <h2 class="text-3xl font-bold gradient-text">智能合约接口</h2>
+                
+                <div class="glass-card rounded-xl p-8">
+                    <h3 class="text-lg font-semibold text-yellow-400 mb-6">ShiPositionRegistry.sol</h3>
+                    <div class="code-block font-mono text-sm">
+                        <div class="text-gray-400"><span class="text-gray-400">// SPDX-License-Identifier: MIT</span></div>
+                        <div class="text-purple-400">pragma solidity</div> ^0.8.0;
+                        <div class="mt-4">
+                            <div class="text-purple-400">contract</div> <span class="text-yellow-400">ShiPositionRegistry</span> {
+                            <div class="pl-4 text-gray-400"><span class="text-gray-400">// 势位结构</span></div>
+                            <div class="pl-4"><span class="text-purple-400">struct</span> <span class="text-yellow-400">ShiPosition</span> {</div>
+                            <div class="pl-8"><span class="text-blue-400">uint8</span> timeYao;</div>
+                            <div class="pl-8"><span class="text-blue-400">uint8</span> spaceYao;</div>
+                            <div class="pl-8"><span class="text-blue-400">uint8</span> relationYao;</div>
+                            <div class="pl-8"><span class="text-blue-400">uint256</span> shiEnergy;</div>
+                            <div class="pl-8"><span class="text-blue-400">uint256</span> lastUpdate;</div>
+                            <div class="pl-4">}</div>
+                            <div class="pl-4 mt-3 text-gray-400"><span class="text-gray-400">// 资产 => 当前势位</span></div>
+                            <div class="pl-4"><span class="text-purple-400">mapping</span>(<span class="text-blue-400">bytes32</span> => ShiPosition) <span class="text-purple-400">public</span> assetPosition;</div>
+                            <div class="pl-4 mt-3 text-gray-400"><span class="text-gray-400">// 更新势位（由预言机调用）</span></div>
+                            <div class="pl-4"><span class="text-purple-400">function</span> <span class="text-yellow-400">updateShiPosition</span>(</div>
+                            <div class="pl-8"><span class="text-blue-400">bytes32</span> assetId,</div>
+                            <div class="pl-8"><span class="text-blue-400">uint8</span> timePercentile,</div>
+                            <div class="pl-8"><span class="text-blue-400">uint8</span> spacePercentile,</div>
+                            <div class="pl-8"><span class="text-blue-400">uint8</span> relationPercentile,</div>
+                            <div class="pl-8"><span class="text-blue-400">bytes calldata</span> proof</div>
+                            <div class="pl-4">) <span class="text-purple-400">external</span> <span class="text-yellow-400">onlyRole</span>(ORACLE_ROLE);</div>
+                            <div class="pl-4 mt-3 text-gray-400"><span class="text-gray-400">// 检查配置是否合规</span></div>
+                            <div class="pl-4"><span class="text-purple-400">function</span> <span class="text-yellow-400">validatePolicy</span>(</div>
+                            <div class="pl-8"><span class="text-blue-400">bytes32</span> assetId,</div>
+                            <div class="pl-8">Policy memory policy</div>
+                            <div class="pl-4">) <span class="text-purple-400">external view returns</span> (ValidationResult);</div>
+                            }
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- API Design -->
+            <section id="api-design" class="space-y-8">
+                <h2 class="text-3xl font-bold gradient-text">API 设计</h2>
+                
+                <div class="space-y-4">
+                    <div class="glass-card rounded-xl p-6">
+                        <div class="flex items-center gap-4 mb-4">
+                            <span class="px-4 py-2 bg-green-900/50 text-green-400 rounded-lg text-sm font-mono font-semibold">GET</span>
+                            <span class="font-mono text-sm">/api/v1/assets/{id}/constraints</span>
+                        </div>
+                        <p class="text-gray-400 text-sm mb-4">获取资产的当前约束状态</p>
+                        <div class="code-block font-mono text-xs">
+                            <div class="text-gray-400"><span class="text-gray-400">// Response</span></div>
+                            <div>{</div>
+                            <div class="pl-4"><span class="text-green-400">"currentHexagram"</span>: <span class="text-yellow-400">"咸卦"</span>,</div>
+                            <div class="pl-4"><span class="text-green-400">"effectivePolicy"</span>: {</div>
+                            <div class="pl-8"><span class="text-green-400">"yong"</span>: 4,</div>
+                            <div class="pl-8"><span class="text-green-400">"yan"</span>: 3,</div>
+                            <div class="pl-8"><span class="text-green-400">"kuo"</span>: 3,</div>
+                            <div class="pl-8"><span class="text-green-400">"yi"</span>: 2</div>
+                            <div class="pl-4">},</div>
+                            <div class="pl-4"><span class="text-green-400">"adjusted"</span>: {</div>
+                            <div class="pl-8"><span class="text-green-400">"yong"</span>: <span class="text-purple-400">true</span>,</div>
+                            <div class="pl-8"><span class="text-green-400">"yan"</span>: <span class="text-purple-400">false</span></div>
+                            <div class="pl-4">},</div>
+                            <div class="pl-4"><span class="text-green-400">"conflicts"</span>: []</div>
+                            <div>}</n                        </div>
+                    </div>
+
+                    <div class="glass-card rounded-xl p-6">
+                        <div class="flex items-center gap-4 mb-4">
+                            <span class="px-4 py-2 bg-yellow-900/50 text-yellow-400 rounded-lg text-sm font-mono font-semibold">POST</span>
+                            <span class="font-mono text-sm">/api/v1/alerts/respond</span>
+                        </div>
+                        <p class="text-gray-400 text-sm mb-4">响应预警</p>
+                        <div class="code-block font-mono text-xs">
+                            <div class="text-gray-400"><span class="text-gray-400">// Request</span></div>
+                            <div>{</div>
+                            <div class="pl-4"><span class="text-green-400">"alertId"</span>: <span class="text-yellow-400">"alert_xxx"</span>,</div>
+                            <div class="pl-4"><span class="text-green-400">"action"</span>: <span class="text-yellow-400">"manual_adjust"</span>,</div>
+                            <div class="pl-4"><span class="text-green-400">"adjustments"</span>: {</div>
+                            <div class="pl-8"><span class="text-green-400">"yan"</span>: 3</div>
+                            <div class="pl-4">}</div>
+                            <div>}</div>
+                            <div class="mt-2 text-gray-400"><span class="text-gray-400">// action: accept | manual_adjust | hibernate | dismiss</span></div>
+                        </div>
+                    </div>
+
+                    <div class="glass-card rounded-xl p-6">
+                        <div class="flex items-center gap-4 mb-4">
+                            <span class="px-4 py-2 bg-blue-900/50 text-blue-400 rounded-lg text-sm font-mono font-semibold">POST</span>
+                            <span class="font-mono text-sm">/api/v1/assets/{id}/hibernate</span>
+                        </div>
+                        <p class="text-gray-400 text-sm mb-4">申请休眠</p>
+                        <div class="code-block font-mono text-xs">
+                            <div class="text-gray-400"><span class="text-gray-400">// Request</span></div>
+                            <div>{</div>
+                            <div class="pl-4"><span class="text-green-400">"duration"</span>: 90, <span class="text-gray-400"><span class="text-gray-400">// 天数，最大90</span></span></div>
+                            <div class="pl-4"><span class="text-green-400">"reason"</span>: <span class="text-yellow-400">"专注创作"</span>,</div>
+                            <div class="pl-4"><span class="text-green-400">"signature"</span>: <span class="text-yellow-400">"0x..."</span></div>
+                            <div>}</n                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Summary Section -->
+            <section id="summary" class="space-y-8">
+                <div class="text-center mb-12">
+                    <h2 class="text-4xl font-bold gradient-text mb-4">核心理念总结</h2>
+                </div>
+
+                <div class="glass-card rounded-2xl p-10 text-center">
+                    <div class="max-w-4xl mx-auto space-y-6">
+                        <p class="text-2xl text-gray-300 leading-relaxed">
+                            「势」不是束缚，而是<span class="text-green-400">生长的轨道</span>。
+                        </p>
+                        <p class="text-xl text-gray-400 leading-relaxed">
+                            64卦约束保护的是<span class="text-yellow-400">已进入生态的所有参与者</span>，
+                            让创作者的主权与生态的健康在代码层面达成和解。
+                        </p>
+                        <p class="text-lg text-gray-400">
+                            代码即法律，约束即保护，分叉即自由。
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Footer -->
+            <footer class="py-16 text-center border-t border-white/5">
+                <div class="inline-block px-8 py-4 rounded-2xl bg-gradient-to-r from-green-900/20 via-yellow-900/20 to-purple-900/20 border border-white/10 mb-6">
+                    <p class="text-2xl font-bold gradient-text">万物有灵 · 皆可生长</p>
+                </div>
+                <p class="text-gray-400 mb-2">ECHO Protocol V1.4 — Shi (势) Technical Architecture</p>
+                <p class="text-sm text-gray-400">势在流动，位在变化，生态在生长</p>
+            </footer>
+        </main>
+    </div>
+
+    <script>
+        // Hexagram data
+        const HEXAGRAM_DATA = [
+            { name: '坤卦', coord: [0,0,0], stage: '潜藏', constraints: { yong: [0,2], yan: [0,1], kuo: [0,1], yi: [0,1] }, special: '-' },
+            { name: '屯卦', coord: [1,0,0], stage: '萌芽', constraints: { yong: [0,3], yan: [0,2], kuo: [0,2], yi: [0,1] }, special: '-' },
+            { name: '蒙卦', coord: [0,1,0], stage: '学习', constraints: { yong: [0,2], yan: [1,3], kuo: [0,2], yi: [0,1] }, special: '衍≥1' },
+            { name: '需卦', coord: [1,1,0], stage: '等待', constraints: { yong: [1,3], yan: [0,3], kuo: [1,3], yi: [0,2] }, special: '-' },
+            { name: '讼卦', coord: [0,0,1], stage: '争议', constraints: { yong: [0,2], yan: [0,2], kuo: [0,2], yi: [0,1] }, special: '益不可变更' },
+            { name: '师卦', coord: [1,0,1], stage: '竞争', constraints: { yong: [2,4], yan: [0,2], kuo: [1,3], yi: [0,2] }, special: '用≥2' },
+            { name: '比卦', coord: [0,1,1], stage: '合作', constraints: { yong: [1,3], yan: [1,3], kuo: [2,4], yi: [0,2] }, special: '扩≥2, 衍≥1' },
+            { name: '小畜', coord: [1,1,1], stage: '积累', constraints: { yong: [1,3], yan: [0,3], kuo: [1,3], yi: [0,1] }, special: '益≤1' },
+            { name: '履卦', coord: [2,0,0], stage: '实践', constraints: { yong: [2,4], yan: [0,3], kuo: [1,3], yi: [0,2] }, special: '-' },
+            { name: '泰卦', coord: [2,1,0], stage: '通畅', constraints: { yong: [2,4], yan: [1,3], kuo: [2,4], yi: [0,2] }, special: '扩≥2' },
+            { name: '否卦', coord: [2,0,1], stage: '阻塞', constraints: { yong: [0,2], yan: [0,2], kuo: [1,3], yi: [0,2] }, special: '用≤2' },
+            { name: '同人', coord: [2,1,1], stage: '共识', constraints: { yong: [2,4], yan: [2,4], kuo: [2,4], yi: [0,2] }, special: '衍≥2' },
+            { name: '大有', coord: [2,2,0], stage: '收获', constraints: { yong: [2,5], yan: [1,4], kuo: [2,4], yi: [1,3] }, special: '益≥1' },
+            { name: '谦卦', coord: [2,0,2], stage: '低调', constraints: { yong: [1,3], yan: [0,2], kuo: [0,2], yi: [0,2] }, special: '扩≤2' },
+            { name: '豫卦', coord: [2,2,1], stage: '预备', constraints: { yong: [2,4], yan: [1,3], kuo: [2,4], yi: [0,2] }, special: '-' },
+            { name: '随卦', coord: [2,1,2], stage: '跟随', constraints: { yong: [2,4], yan: [1,4], kuo: [1,3], yi: [0,2] }, special: '衍≥1' },
+            { name: '蛊卦', coord: [2,0,3], stage: '整顿', constraints: { yong: [1,3], yan: [0,3], kuo: [1,3], yi: [0,2] }, special: '益不可变更' },
+            { name: '临卦', coord: [2,2,2], stage: '临近', constraints: { yong: [2,4], yan: [2,4], kuo: [3,4], yi: [1,3] }, special: '扩≥3' },
+            { name: '观卦', coord: [2,3,0], stage: '观望', constraints: { yong: [3,5], yan: [1,4], kuo: [2,4], yi: [0,3] }, special: '用≥3' },
+            { name: '噬嗑', coord: [2,2,3], stage: '咬合', constraints: { yong: [2,4], yan: [3,4], kuo: [3,4], yi: [1,3] }, special: '衍≥3, 扩≥3' },
+            { name: '贲卦', coord: [2,3,1], stage: '装饰', constraints: { yong: [3,5], yan: [1,4], kuo: [2,4], yi: [0,3] }, special: '-' },
+            { name: '剥卦', coord: [2,3,2], stage: '剥落', constraints: { yong: [0,2], yan: [0,3], kuo: [1,4], yi: [0,2] }, special: '用≤2' },
+            { name: '复卦', coord: [2,3,3], stage: '复苏', constraints: { yong: [2,5], yan: [2,4], kuo: [3,4], yi: [2,3] }, special: '益≥2' },
+            { name: '无妄', coord: [3,0,0], stage: '无妄', constraints: { yong: [2,4], yan: [0,3], kuo: [1,3], yi: [0,3] }, special: '-' },
+            { name: '大畜', coord: [3,1,0], stage: '大积', constraints: { yong: [2,5], yan: [1,4], kuo: [3,4], yi: [0,3] }, special: '扩≥3' },
+            { name: '颐卦', coord: [3,0,1], stage: '颐养', constraints: { yong: [1,4], yan: [0,3], kuo: [1,4], yi: [2,3] }, special: '益≥2' },
+            { name: '大过', coord: [3,1,1], stage: '大过', constraints: { yong: [2,5], yan: [3,4], kuo: [2,4], yi: [1,3] }, special: '衍≥3' },
+            { name: '咸卦', coord: [2,2,3], stage: '大成', constraints: { yong: [4,5], yan: [3,4], kuo: [3,4], yi: [2,3] }, special: '用≥4, 扩≥3, 衍≥3 ★' },
+            { name: '恒卦', coord: [3,2,2], stage: '恒久', constraints: { yong: [3,5], yan: [2,4], kuo: [2,4], yi: [1,3] }, special: '益不可变更' },
+            { name: '遁卦', coord: [3,2,3], stage: '退避', constraints: { yong: [0,3], yan: [0,4], kuo: [1,4], yi: [0,3] }, special: '用≤3' },
+            { name: '大壮', coord: [3,3,0], stage: '大壮', constraints: { yong: [3,5], yan: [2,4], kuo: [4,4], yi: [1,3] }, special: '扩≥4' },
+            { name: '晋卦', coord: [3,3,1], stage: '晋升', constraints: { yong: [3,5], yan: [2,4], kuo: [3,4], yi: [1,3] }, special: '-' },
+            { name: '明夷', coord: [3,3,2], stage: '明夷', constraints: { yong: [2,5], yan: [3,4], kuo: [3,4], yi: [1,3] }, special: '衍≥3' },
+            { name: '家人', coord: [3,2,1], stage: '家庭', constraints: { yong: [2,5], yan: [1,4], kuo: [2,4], yi: [2,3] }, special: '益≥2' },
+            { name: '睽卦', coord: [3,3,3], stage: '睽违', constraints: { yong: [2,5], yan: [2,4], kuo: [3,4], yi: [0,3] }, special: '可调整' },
+            { name: '蹇卦', coord: [3,0,3], stage: '蹇难', constraints: { yong: [0,2], yan: [0,3], kuo: [0,3], yi: [0,2] }, special: '用≤2, 扩≤2' },
+            { name: '解卦', coord: [3,1,3], stage: '解脱', constraints: { yong: [2,5], yan: [2,4], kuo: [2,4], yi: [0,3] }, special: '-' },
+            { name: '损卦', coord: [3,2,0], stage: '损减', constraints: { yong: [1,4], yan: [0,3], kuo: [1,4], yi: [0,2] }, special: '益≤2' },
+            { name: '益卦', coord: [3,3,0], stage: '增益', constraints: { yong: [3,5], yan: [2,4], kuo: [3,4], yi: [3,3] }, special: '益≥3' },
+            { name: '夬卦', coord: [3,3,1], stage: '决断', constraints: { yong: [4,5], yan: [2,4], kuo: [3,4], yi: [1,3] }, special: '用≥4' },
+            { name: '姤卦', coord: [3,3,2], stage: '相遇', constraints: { yong: [3,5], yan: [3,4], kuo: [4,4], yi: [2,3] }, special: '扩≥4' },
+            { name: '萃卦', coord: [3,3,3], stage: '萃聚', constraints: { yong: [3,5], yan: [4,4], kuo: [3,4], yi: [2,3] }, special: '衍≥4' },
+            { name: '升卦', coord: [3,2,1], stage: '上升', constraints: { yong: [2,5], yan: [1,4], kuo: [2,4], yi: [0,3] }, special: '-' },
+            { name: '困卦', coord: [3,2,2], stage: '困境', constraints: { yong: [0,3], yan: [0,4], kuo: [1,4], yi: [0,2] }, special: '用≤3' },
+            { name: '井卦', coord: [3,2,3], stage: '井养', constraints: { yong: [2,5], yan: [2,4], kuo: [2,4], yi: [2,3] }, special: '益≥2' },
+            { name: '革卦', coord: [3,3,0], stage: '革新', constraints: { yong: [2,5], yan: [2,4], kuo: [3,4], yi: [0,3] }, special: '可调整' },
+            { name: '鼎卦', coord: [3,3,1], stage: '鼎立', constraints: { yong: [3,5], yan: [3,4], kuo: [4,4], yi: [1,3] }, special: '扩≥4, 衍≥3' },
+            { name: '震卦', coord: [3,0,2], stage: '震动', constraints: { yong: [4,5], yan: [0,3], kuo: [2,4], yi: [0,3] }, special: '用≥4' },
+            { name: '艮卦', coord: [3,1,2], stage: '止息', constraints: { yong: [0,5], yan: [0,4], kuo: [0,4], yi: [0,3] }, special: '休眠: 配置锁定' },
+            { name: '渐卦', coord: [3,2,2], stage: '渐进', constraints: { yong: [2,5], yan: [1,4], kuo: [2,4], yi: [0,3] }, special: '-' },
+            { name: '归妹', coord: [3,3,2], stage: '归妹', constraints: { yong: [2,5], yan: [2,4], kuo: [3,4], yi: [2,3] }, special: '益≥2' },
+            { name: '丰卦', coord: [3,3,3], stage: '丰大', constraints: { yong: [3,5], yan: [3,4], kuo: [4,4], yi: [3,3] }, special: '最大化' },
+            { name: '旅卦', coord: [3,0,3], stage: '旅行', constraints: { yong: [0,2], yan: [0,4], kuo: [1,4], yi: [0,2] }, special: '用≤2' },
+            { name: '巽卦', coord: [3,1,3], stage: '巽顺', constraints: { yong: [2,5], yan: [2,4], kuo: [3,4], yi: [0,3] }, special: '扩≥3' },
+            { name: '兑卦', coord: [3,2,3], stage: '兑悦', constraints: { yong: [2,5], yan: [3,4], kuo: [3,4], yi: [1,3] }, special: '衍≥3' },
+            { name: '涣卦', coord: [3,3,3], stage: '涣散', constraints: { yong: [2,5], yan: [2,4], kuo: [4,4], yi: [1,3] }, special: '益不可变更' },
+            { name: '节卦', coord: [3,3,2], stage: '节令', constraints: { yong: [0,3], yan: [0,4], kuo: [0,3], yi: [0,3] }, special: '用≤3, 扩≤3' },
+            { name: '中孚', coord: [3,3,1], stage: '中孚', constraints: { yong: [2,5], yan: [2,4], kuo: [3,4], yi: [3,3] }, special: '益≥3' },
+            { name: '小过', coord: [3,3,0], stage: '小过', constraints: { yong: [1,4], yan: [1,3], kuo: [2,4], yi: [0,2] }, special: '-' },
+            { name: '既济', coord: [3,3,3], stage: '既济', constraints: { yong: [3,5], yan: [2,4], kuo: [3,4], yi: [2,3] }, special: '稳定' },
+            { name: '未济', coord: [0,0,0], stage: '未济', constraints: { yong: [0,2], yan: [0,1], kuo: [0,1], yi: [0,1] }, special: '回归初始' }
+        ];
+
+        // Initialize tensor grid
+        function initTensorGrid() {
+            for (let t = 0; t < 4; t++) {
+                const container = document.getElementById(`slice-t${t}`);
+                for (let s = 0; s < 4; s++) {
+                    for (let r = 0; r < 4; r++) {
+                        const cell = document.createElement('div');
+                        cell.className = 'tensor-cell bg-gray-800/50 hover:bg-green-900/30';
+                        cell.dataset.coord = `${t},${s},${r}`;
+                        
+                        const hex = HEXAGRAM_DATA.find(h => 
+                            h.coord[0] === t && h.coord[1] === s && h.coord[2] === r
+                        );
+                        cell.textContent = hex ? hex.name.slice(0, 1) : '';
+                        cell.title = hex ? `${hex.name} [${t}][${s}][${r}]` : `[${t}][${s}][${r}]`;
+                        
+                        container.appendChild(cell);
+                    }
+                }
+            }
+        }
+
+        // Update slider visuals
+        function updateSliderVisuals() {
+            const t = parseInt(document.getElementById('timeSlider').value);
+            const s = parseInt(document.getElementById('spaceSlider').value);
+            const r = parseInt(document.getElementById('relationSlider').value);
+            
+            // Update marks
+            for (let i = 0; i < 4; i++) {
+                document.getElementById(`mark-t${i}`).classList.toggle('active', i === t);
+                document.getElementById(`mark-s${i}`).classList.toggle('active', i === s);
+                document.getElementById(`mark-r${i}`).classList.toggle('active', i === r);
+                
+                document.getElementById(`label-t${i}`).classList.toggle('active', i === t);
+                document.getElementById(`label-s${i}`).classList.toggle('active', i === s);
+                document.getElementById(`label-r${i}`).classList.toggle('active', i === r);
+            }
+        }
+
+        // Update tensor visualization
+        function updateTensor() {
+            const t = parseInt(document.getElementById('timeSlider').value);
+            const s = parseInt(document.getElementById('spaceSlider').value);
+            const r = parseInt(document.getElementById('relationSlider').value);
+            
+            document.getElementById('currentCoord').textContent = `T[${t}][${s}][${r}]`;
+            
+            const hex = HEXAGRAM_DATA.find(h => 
+                h.coord[0] === t && h.coord[1] === s && h.coord[2] === r
+            );
+            
+            if (hex) {
+                document.getElementById('currentHexagram').textContent = hex.name;
+                document.getElementById('currentStage').textContent = hex.stage + '期';
+            }
+            
+            // Highlight cells
+            document.querySelectorAll('.tensor-cell').forEach(cell => {
+                cell.classList.remove('bg-green-600', 'border-green-400', 'text-white');
+                const [ct, cs, cr] = cell.dataset.coord.split(',').map(Number);
+                if (ct === t && cs === s && cr === r) {
+                    cell.classList.add('bg-green-600', 'border-green-400', 'text-white');
+                }
+            });
+            
+            updateSliderVisuals();
+        }
+
+        // Populate constraints table
+        function initConstraintsTable() {
+            const tbody = document.getElementById('constraintsTable');
+            const keyHexagrams = ['坤卦', '屯卦', '蒙卦', '需卦', '师卦', '比卦', '泰卦', '同人', '大有', '谦卦', '随卦', '临卦', '观卦', '噬嗑', '复卦', '无妄', '大畜', '颐卦', '大过', '咸卦', '恒卦', '遁卦', '大壮', '晋卦', '明夷', '家人', '睽卦', '损卦', '益卦', '夬卦', '姤卦', '萃卦', '困卦', '井卦', '革卦', '鼎卦', '震卦', '艮卦', '渐卦', '归妹', '丰卦', '旅卦', '巽卦', '兑卦', '涣卦', '节卦', '中孚', '小过', '既济', '未济'];
+            
+            keyHexagrams.forEach(name => {
+                const hex = HEXAGRAM_DATA.find(h => h.name === name);
+                if (!hex) return;
+                
+                const row = document.createElement('tr');
+                row.className = 'hover:bg-white/5 transition-colors';
+                if (hex.name === '咸卦') row.className += ' bg-yellow-900/20';
+                if (hex.name === '艮卦') row.className += ' bg-blue-900/20';
+                
+                row.innerHTML = `
+                    <td class="px-4 py-3 font-bold ${hex.name === '咸卦' ? 'text-yellow-400' : 'text-gray-300'}">${hex.name}</td>
+                    <td class="px-4 py-3 font-mono text-sm text-gray-400">[${hex.coord.join('][')}]</td>
+                    <td class="px-4 py-3 text-gray-400">${hex.stage}</td>
+                    <td class="px-4 py-3 text-center font-mono text-sm">${hex.constraints.yong[0]}-${hex.constraints.yong[1]}</td>
+                    <td class="px-4 py-3 text-center font-mono text-sm">${hex.constraints.yan[0]}-${hex.constraints.yan[1]}</td>
+                    <td class="px-4 py-3 text-center font-mono text-sm">${hex.constraints.kuo[0]}-${hex.constraints.kuo[1]}</td>
+                    <td class="px-4 py-3 text-center font-mono text-sm">${hex.constraints.yi[0]}-${hex.constraints.yi[1]}</td>
+                    <td class="px-4 py-3 text-sm ${hex.special.includes('★') ? 'text-yellow-400 font-bold' : 'text-gray-400'}">${hex.special}</td>
+                `;
+                tbody.appendChild(row);
+            });
+        }
+
+        // Simulation steps
+        const SIMULATION_STEPS = [
+            { name: '坤卦', coord: [0,0,0], stage: '潜藏', yao: [0,0,0,0,0,0], log: '资产创建，处于潜藏期。完全私密，无外部依赖。' },
+            { name: '屯卦', coord: [1,0,0], stage: '萌芽', yao: [1,0,0,0,0,0], log: '开始被使用，进入萌芽期。可以逐步开放使用权限。' },
+            { name: '蒙卦', coord: [0,1,0], stage: '学习', yao: [0,1,0,0,0,0], log: '扩展到多个平台，开始被引用学习。' },
+            { name: '需卦', coord: [1,1,0], stage: '等待', yao: [1,1,0,0,0,0], log: '成长期准备，等待突破临界点。' },
+            { name: '师卦', coord: [1,0,1], stage: '竞争', yao: [1,0,1,0,0,0], log: '进入竞争期，需要更多使用证明。' },
+            { name: '比卦', coord: [0,1,1], stage: '合作', yao: [0,1,1,0,0,0], log: '开始形成关系网络，被其他资产引用。' },
+            { name: '咸卦', coord: [2,2,3], stage: '大成', yao: [1,1,1,1,0,0], log: '⚠️ 进入大成期！系统强制约束：用≥4, 扩≥3, 衍≥3。生态已形成，无法封闭。' }
+        ];
+
+        let currentStep = 0;
+
+        function resetSimulation() {
+            currentStep = 0;
+            document.getElementById('simLog').innerHTML = '<div class="text-gray-400">> 等待开始...</div>';
+            updateSimDisplay();
+        }
+
+        function nextStep() {
+            if (currentStep < SIMULATION_STEPS.length - 1) {
+                currentStep++;
+                updateSimDisplay();
+            }
+        }
+
+        function updateSimDisplay() {
+            const step = SIMULATION_STEPS[currentStep];
+            document.getElementById('simStep').textContent = currentStep;
+            
+            // Update status
+            const statusHtml = `
+                <div class="p-5 bg-black/30 rounded-xl border border-white/5">
+                    <div class="text-sm text-gray-400 mb-1">卦象</div>
+                    <div class="text-3xl font-bold ${step.name === '咸卦' ? 'text-yellow-400' : 'text-green-400'}">${step.name}</div>
+                </div>
+                <div class="p-5 bg-black/30 rounded-xl border border-white/5">
+                    <div class="text-sm text-gray-400 mb-1">坐标</div>
+                    <div class="text-xl font-mono text-gray-300">T[${step.coord.join('][')}]</div>
+                </div>
+                <div class="p-5 bg-black/30 rounded-xl border border-white/5">
+                    <div class="text-sm text-gray-400 mb-1">阶段</div>
+                    <div class="text-xl ${step.name === '咸卦' ? 'text-yellow-400' : 'text-gray-300'}">${step.stage}期</div>
+                </div>
+            `;
+            document.getElementById('simStatus').innerHTML = statusHtml;
+            
+            // Update yao lines
+            const yaoContainer = document.getElementById('simYao');
+            yaoContainer.innerHTML = step.yao.map((yao, i) => 
+                `<div class="yao-line ${yao ? 'yao-yang' : 'yao-yin'}" title="${['初九','九二','九三','九四','九五','上九'][i]}"></div>`
+            ).join('');
+            
+            // Add log
+            const logEntry = document.createElement('div');
+            logEntry.className = step.name === '咸卦' ? 'text-yellow-400' : 'text-gray-400';
+            logEntry.innerHTML = `<span class="text-gray-400">[步骤 ${currentStep}]</span> ${step.log}`;
+            document.getElementById('simLog').appendChild(logEntry);
+            document.getElementById('simLog').scrollTop = document.getElementById('simLog').scrollHeight;
+        }
+
+        // Event listeners
+        document.getElementById('timeSlider').addEventListener('input', updateTensor);
+        document.getElementById('spaceSlider').addEventListener('input', updateTensor);
+        document.getElementById('relationSlider').addEventListener('input', updateTensor);
+
+        // Navigation
+        document.querySelectorAll('.nav-item').forEach(item => {
+            item.addEventListener('click', (e) => {
+                document.querySelectorAll('.nav-item').forEach(i => i.classList.remove('active'));
+                e.target.classList.add('active');
+            });
+        });
+
+        // Initialize
+        initTensorGrid();
+        initConstraintsTable();
+        updateTensor();
+        updateSliderVisuals();
+        updateSimDisplay();
+    </script>
+</body>
+</html>
