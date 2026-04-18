@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-04-16T19:05:53.961Z",
+  "updatedAt": "2026-04-17T19:07:42.975Z",
   "entries": {
     "memory:memory/.dreams/session-corpus/2026-04-11.txt:1:1": {
       "key": "memory:memory/.dreams/session-corpus/2026-04-11.txt:1:1",
@@ -3831,12 +3831,13 @@
       "totalScore": 0.62,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-14T19:04:00.330Z",
-      "lastRecalledAt": "2026-04-14T19:04:00.330Z",
+      "lastRecalledAt": "2026-04-17T19:05:58.736Z",
       "queryHashes": [
         "11d1361acb2d"
       ],
       "recallDays": [
-        "2026-04-14"
+        "2026-04-14",
+        "2026-04-17"
       ],
       "conceptTags": [
         "1.00",
@@ -3862,12 +3863,13 @@
       "totalScore": 0.62,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-14T19:04:00.330Z",
-      "lastRecalledAt": "2026-04-14T19:04:00.330Z",
+      "lastRecalledAt": "2026-04-17T19:05:58.736Z",
       "queryHashes": [
         "11d1361acb2d"
       ],
       "recallDays": [
-        "2026-04-14"
+        "2026-04-14",
+        "2026-04-17"
       ],
       "conceptTags": [
         "0.88",
@@ -3893,12 +3895,13 @@
       "totalScore": 0.62,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-14T19:04:00.330Z",
-      "lastRecalledAt": "2026-04-14T19:04:00.330Z",
+      "lastRecalledAt": "2026-04-17T19:05:58.736Z",
       "queryHashes": [
         "11d1361acb2d"
       ],
       "recallDays": [
-        "2026-04-14"
+        "2026-04-14",
+        "2026-04-17"
       ],
       "conceptTags": [
         "possible",
@@ -4940,6 +4943,99 @@
         "echo",
         "shi",
         "技术"
+      ]
+    },
+    "memory:memory/2026-04-17.md:183:186": {
+      "key": "memory:memory/2026-04-17.md:183:186",
+      "path": "memory/2026-04-17.md",
+      "startLine": 183,
+      "endLine": 186,
+      "source": "memory",
+      "snippet": "Reflections: Theme: `assistant` kept surfacing across 84 memories.; confidence: 1.00; evidence: memory/.dreams/session-corpus/2026-04-11.txt:3-3, memory/.dreams/session-corpus/2026-04-11.txt:5-5, memory/.dreams/session-corpus/2026-04-12.txt:8-8; note: reflection",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-04-17T19:05:58.736Z",
+      "lastRecalledAt": "2026-04-17T19:05:58.736Z",
+      "queryHashes": [
+        "500c0eda9949"
+      ],
+      "recallDays": [
+        "2026-04-17"
+      ],
+      "conceptTags": [
+        "1.00",
+        "3-3",
+        "5-5",
+        "8-8",
+        "reflections",
+        "theme",
+        "assistant",
+        "kept"
+      ]
+    },
+    "memory:memory/2026-04-17.md:187:190": {
+      "key": "memory:memory/2026-04-17.md:187:190",
+      "path": "memory/2026-04-17.md",
+      "startLine": 187,
+      "endLine": 190,
+      "source": "memory",
+      "snippet": "Reflections: Theme: `user` kept surfacing across 66 memories.; confidence: 0.84; evidence: memory/.dreams/session-corpus/2026-04-11.txt:1-1, memory/.dreams/session-corpus/2026-04-11.txt:2-2, memory/.dreams/session-corpus/2026-04-11.txt:4-4; note: reflection",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-04-17T19:05:58.736Z",
+      "lastRecalledAt": "2026-04-17T19:05:58.736Z",
+      "queryHashes": [
+        "500c0eda9949"
+      ],
+      "recallDays": [
+        "2026-04-17"
+      ],
+      "conceptTags": [
+        "0.84",
+        "1-1",
+        "2-2",
+        "4-4",
+        "reflections",
+        "theme",
+        "user",
+        "kept"
+      ]
+    },
+    "memory:memory/2026-04-17.md:193:195": {
+      "key": "memory:memory/2026-04-17.md:193:195",
+      "path": "memory/2026-04-17.md",
+      "startLine": 193,
+      "endLine": 195,
+      "source": "memory",
+      "snippet": "Possible Lasting Truths: Assistant: Okay, we can't use sudo to install system dependencies. Let's try a different approach: first, let's see if we can fetch the page HTML using curl (this won't execute JS but will give us static content). Then we can look for other options. [conf",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-04-17T19:05:58.736Z",
+      "lastRecalledAt": "2026-04-17T19:05:58.736Z",
+      "queryHashes": [
+        "500c0eda9949"
+      ],
+      "recallDays": [
+        "2026-04-17"
+      ],
+      "conceptTags": [
+        "possible",
+        "lasting",
+        "truths",
+        "assistant",
+        "okay",
+        "can't",
+        "use",
+        "sudo"
       ]
     }
   }

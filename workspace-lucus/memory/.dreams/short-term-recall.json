@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-04-16T19:03:07.270Z",
+  "updatedAt": "2026-04-17T19:04:10.974Z",
   "entries": {
     "memory:memory/.dreams/session-corpus/2026-04-11.txt:1:1": {
       "key": "memory:memory/.dreams/session-corpus/2026-04-11.txt:1:1",
@@ -3787,12 +3787,13 @@
       "totalScore": 0.62,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-14T19:01:19.866Z",
-      "lastRecalledAt": "2026-04-14T19:01:19.866Z",
+      "lastRecalledAt": "2026-04-17T19:02:02.532Z",
       "queryHashes": [
         "11d1361acb2d"
       ],
       "recallDays": [
-        "2026-04-14"
+        "2026-04-14",
+        "2026-04-17"
       ],
       "conceptTags": [
         "1.00",
@@ -3818,12 +3819,13 @@
       "totalScore": 0.62,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-14T19:01:19.866Z",
-      "lastRecalledAt": "2026-04-14T19:01:19.866Z",
+      "lastRecalledAt": "2026-04-17T19:02:02.532Z",
       "queryHashes": [
         "11d1361acb2d"
       ],
       "recallDays": [
-        "2026-04-14"
+        "2026-04-14",
+        "2026-04-17"
       ],
       "conceptTags": [
         "0.82",
@@ -3849,12 +3851,13 @@
       "totalScore": 0.62,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-14T19:01:19.866Z",
-      "lastRecalledAt": "2026-04-14T19:01:19.866Z",
+      "lastRecalledAt": "2026-04-17T19:02:02.532Z",
       "queryHashes": [
         "11d1361acb2d"
       ],
       "recallDays": [
-        "2026-04-14"
+        "2026-04-14",
+        "2026-04-17"
       ],
       "conceptTags": [
         "possible",
@@ -5696,6 +5699,130 @@
         "技术",
         "架构",
         "核心"
+      ]
+    },
+    "memory:memory/2026-04-17.md:248:251": {
+      "key": "memory:memory/2026-04-17.md:248:251",
+      "path": "memory/2026-04-17.md",
+      "startLine": 248,
+      "endLine": 251,
+      "source": "memory",
+      "snippet": "Reflections: Theme: `assistant` kept surfacing across 96 memories.; confidence: 1.00; evidence: memory/.dreams/session-corpus/2026-04-11.txt:2-2, memory/.dreams/session-corpus/2026-04-11.txt:4-4, memory/.dreams/session-corpus/2026-04-11.txt:6-6; note: reflection",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-04-17T19:02:02.532Z",
+      "lastRecalledAt": "2026-04-17T19:02:02.532Z",
+      "queryHashes": [
+        "500c0eda9949"
+      ],
+      "recallDays": [
+        "2026-04-17"
+      ],
+      "conceptTags": [
+        "1.00",
+        "2-2",
+        "4-4",
+        "6-6",
+        "reflections",
+        "theme",
+        "assistant",
+        "kept"
+      ]
+    },
+    "memory:memory/2026-04-17.md:252:255": {
+      "key": "memory:memory/2026-04-17.md:252:255",
+      "path": "memory/2026-04-17.md",
+      "startLine": 252,
+      "endLine": 255,
+      "source": "memory",
+      "snippet": "Reflections: Theme: `user` kept surfacing across 81 memories.; confidence: 0.90; evidence: memory/.dreams/session-corpus/2026-04-11.txt:1-1, memory/.dreams/session-corpus/2026-04-11.txt:3-3, memory/.dreams/session-corpus/2026-04-11.txt:5-5; note: reflection",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-04-17T19:02:02.532Z",
+      "lastRecalledAt": "2026-04-17T19:02:02.532Z",
+      "queryHashes": [
+        "500c0eda9949"
+      ],
+      "recallDays": [
+        "2026-04-17"
+      ],
+      "conceptTags": [
+        "0.90",
+        "1-1",
+        "3-3",
+        "5-5",
+        "reflections",
+        "theme",
+        "user",
+        "kept"
+      ]
+    },
+    "memory:memory/2026-04-17.md:256:259": {
+      "key": "memory:memory/2026-04-17.md:256:259",
+      "path": "memory/2026-04-17.md",
+      "startLine": 256,
+      "endLine": 259,
+      "source": "memory",
+      "snippet": "Reflections: Theme: `untrusted` kept surfacing across 69 memories.; confidence: 0.77; evidence: memory/.dreams/session-corpus/2026-04-11.txt:1-1, memory/.dreams/session-corpus/2026-04-11.txt:3-3, memory/.dreams/session-corpus/2026-04-11.txt:5-5; note: reflection",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-04-17T19:02:02.532Z",
+      "lastRecalledAt": "2026-04-17T19:02:02.532Z",
+      "queryHashes": [
+        "500c0eda9949"
+      ],
+      "recallDays": [
+        "2026-04-17"
+      ],
+      "conceptTags": [
+        "0.77",
+        "1-1",
+        "3-3",
+        "5-5",
+        "reflections",
+        "theme",
+        "untrusted",
+        "kept"
+      ]
+    },
+    "memory:memory/2026-04-17.md:262:264": {
+      "key": "memory:memory/2026-04-17.md:262:264",
+      "path": "memory/2026-04-17.md",
+      "startLine": 262,
+      "endLine": 264,
+      "source": "memory",
+      "snippet": "Possible Lasting Truths: Assistant: 让我等待一下项目创建完成。 [confidence=0.56 evidence=memory/.dreams/session-corpus/2026-04-12.txt:9-9]; Assistant: ## 📊 Cron 任务运行状态检查报告 ### ✅ 数据库状态 - **数据库完整性**: ✅ 正常 - **上次修复时间**: 2026-04-10 16:22（约 15 分钟前） - **修复后运行**: ✅ 3/4 任务成功 ### 📋 任务执行情况 | 任务名称 | 状",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-04-17T19:02:02.532Z",
+      "lastRecalledAt": "2026-04-17T19:02:02.532Z",
+      "queryHashes": [
+        "500c0eda9949"
+      ],
+      "recallDays": [
+        "2026-04-17"
+      ],
+      "conceptTags": [
+        "0.56",
+        "9-9",
+        "3/4",
+        "possible",
+        "lasting",
+        "truths",
+        "assistant",
+        "等待"
       ]
     }
   }
