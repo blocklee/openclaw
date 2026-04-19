@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-04-17T19:02:02.471Z",
+  "updatedAt": "2026-04-18T19:03:58.099Z",
   "entries": {
     "memory:memory/.dreams/session-corpus/2026-04-11.txt:1:1": {
       "key": "memory:memory/.dreams/session-corpus/2026-04-11.txt:1:1",
@@ -3761,13 +3761,14 @@
       "totalScore": 0.62,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-14T19:00:00.501Z",
-      "lastRecalledAt": "2026-04-17T19:00:01.428Z",
+      "lastRecalledAt": "2026-04-18T19:00:01.203Z",
       "queryHashes": [
         "11d1361acb2d"
       ],
       "recallDays": [
         "2026-04-14",
-        "2026-04-17"
+        "2026-04-17",
+        "2026-04-18"
       ],
       "conceptTags": [
         "1.00",
@@ -3793,13 +3794,14 @@
       "totalScore": 0.62,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-14T19:00:00.501Z",
-      "lastRecalledAt": "2026-04-17T19:00:01.428Z",
+      "lastRecalledAt": "2026-04-18T19:00:01.203Z",
       "queryHashes": [
         "11d1361acb2d"
       ],
       "recallDays": [
         "2026-04-14",
-        "2026-04-17"
+        "2026-04-17",
+        "2026-04-18"
       ],
       "conceptTags": [
         "0.95",
@@ -3825,13 +3827,14 @@
       "totalScore": 0.62,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-14T19:00:00.501Z",
-      "lastRecalledAt": "2026-04-17T19:00:01.428Z",
+      "lastRecalledAt": "2026-04-18T19:00:01.203Z",
       "queryHashes": [
         "11d1361acb2d"
       ],
       "recallDays": [
         "2026-04-14",
-        "2026-04-17"
+        "2026-04-17",
+        "2026-04-18"
       ],
       "conceptTags": [
         "possible",
@@ -4674,12 +4677,13 @@
       "totalScore": 0.62,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-15T19:00:00.543Z",
-      "lastRecalledAt": "2026-04-15T19:00:00.543Z",
+      "lastRecalledAt": "2026-04-18T19:00:01.203Z",
       "queryHashes": [
         "4c4c0cb04efa"
       ],
       "recallDays": [
-        "2026-04-15"
+        "2026-04-15",
+        "2026-04-18"
       ],
       "conceptTags": [
         "1.00",
@@ -4705,12 +4709,13 @@
       "totalScore": 0.62,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-15T19:00:00.543Z",
-      "lastRecalledAt": "2026-04-15T19:00:00.543Z",
+      "lastRecalledAt": "2026-04-18T19:00:01.203Z",
       "queryHashes": [
         "4c4c0cb04efa"
       ],
       "recallDays": [
-        "2026-04-15"
+        "2026-04-15",
+        "2026-04-18"
       ],
       "conceptTags": [
         "0.95",
@@ -4736,12 +4741,13 @@
       "totalScore": 0.62,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-15T19:00:00.543Z",
-      "lastRecalledAt": "2026-04-15T19:00:00.543Z",
+      "lastRecalledAt": "2026-04-18T19:00:01.203Z",
       "queryHashes": [
         "4c4c0cb04efa"
       ],
       "recallDays": [
-        "2026-04-15"
+        "2026-04-15",
+        "2026-04-18"
       ],
       "conceptTags": [
         "reply-to-current",
@@ -6430,6 +6436,223 @@
         "成功",
         "完成",
         "复制"
+      ]
+    },
+    "memory:memory/2026-04-18.md:188:191": {
+      "key": "memory:memory/2026-04-18.md:188:191",
+      "path": "memory/2026-04-18.md",
+      "startLine": 188,
+      "endLine": 191,
+      "source": "memory",
+      "snippet": "Reflections: Theme: `user` kept surfacing across 106 memories.; confidence: 1.00; evidence: memory/.dreams/session-corpus/2026-04-11.txt:1-1, memory/.dreams/session-corpus/2026-04-11.txt:3-3, memory/.dreams/session-corpus/2026-04-11.txt:5-5; note: reflection",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-04-18T19:00:01.203Z",
+      "lastRecalledAt": "2026-04-18T19:00:01.203Z",
+      "queryHashes": [
+        "77ca9720ec15"
+      ],
+      "recallDays": [
+        "2026-04-18"
+      ],
+      "conceptTags": [
+        "1.00",
+        "1-1",
+        "3-3",
+        "5-5",
+        "reflections",
+        "theme",
+        "user",
+        "kept"
+      ]
+    },
+    "memory:memory/2026-04-18.md:192:195": {
+      "key": "memory:memory/2026-04-18.md:192:195",
+      "path": "memory/2026-04-18.md",
+      "startLine": 192,
+      "endLine": 195,
+      "source": "memory",
+      "snippet": "Reflections: Theme: `assistant` kept surfacing across 103 memories.; confidence: 0.97; evidence: memory/.dreams/session-corpus/2026-04-11.txt:2-2, memory/.dreams/session-corpus/2026-04-11.txt:4-4, memory/.dreams/session-corpus/2026-04-11.txt:6-6; note: reflection",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-04-18T19:00:01.203Z",
+      "lastRecalledAt": "2026-04-18T19:00:01.203Z",
+      "queryHashes": [
+        "77ca9720ec15"
+      ],
+      "recallDays": [
+        "2026-04-18"
+      ],
+      "conceptTags": [
+        "0.97",
+        "2-2",
+        "4-4",
+        "6-6",
+        "reflections",
+        "theme",
+        "assistant",
+        "kept"
+      ]
+    },
+    "memory:memory/2026-04-18.md:198:200": {
+      "key": "memory:memory/2026-04-18.md:198:200",
+      "path": "memory/2026-04-18.md",
+      "startLine": 198,
+      "endLine": 200,
+      "source": "memory",
+      "snippet": "Possible Lasting Truths: Assistant: HEARTBEAT_OK [confidence=0.49 evidence=memory/.dreams/session-corpus/2026-04-12.txt:20-20]; Assistant: [[reply_to_current]] ## ECHO 势体系技术文档总结 这是 **ECHO Shi Framework (势体系)** 的技术文档首页，介绍了该项目的核心组成部分： ### 核心模块 1. **势枢核心 v1.0** - 包含时间维、空间维、关系维三维编织的元",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-04-18T19:00:01.203Z",
+      "lastRecalledAt": "2026-04-18T19:00:01.203Z",
+      "queryHashes": [
+        "77ca9720ec15"
+      ],
+      "recallDays": [
+        "2026-04-18"
+      ],
+      "conceptTags": [
+        "heartbeat-ok",
+        "0.49",
+        "20-20",
+        "reply-to-current",
+        "v1.0",
+        "possible",
+        "lasting",
+        "truths"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-18.txt:1:1": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-18.txt:1:1",
+      "path": "memory/.dreams/session-corpus/2026-04-18.txt",
+      "startLine": 1,
+      "endLine": 1,
+      "source": "memory",
+      "snippet": "User: [cron:config-backup-8am config-backup-8am] 备份 openclaw.json：cp ~/.openclaw/openclaw.json ~/.openclaw/openclaw.json.backup-$(date +%Y%m%d) && echo \"openclaw.json 备份完成 $(date)\" Current time: Saturday, April 18th, 2026 - 1:47 PM (UTC) / 2026-04-18 13:47 UTC Return your summary",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-18T19:00:01.203Z",
+      "lastRecalledAt": "2026-04-18T19:00:01.203Z",
+      "queryHashes": [
+        "6ca7743b227b"
+      ],
+      "recallDays": [
+        "2026-04-18"
+      ],
+      "conceptTags": [
+        "backup",
+        "备份",
+        "config-backup-8am",
+        "openclaw.json",
+        "openclaw/openclaw.json",
+        "openclaw/openclaw.json.backup",
+        "user",
+        "cron:config"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-18.txt:2:2": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-18.txt:2:2",
+      "path": "memory/.dreams/session-corpus/2026-04-18.txt",
+      "startLine": 2,
+      "endLine": 2,
+      "source": "memory",
+      "snippet": "Assistant: 备份完成：`~/.openclaw/openclaw.json` → `~/.openclaw/openclaw.json.backup-20260418` ✓",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-18T19:00:01.203Z",
+      "lastRecalledAt": "2026-04-18T19:00:01.203Z",
+      "queryHashes": [
+        "6ca7743b227b"
+      ],
+      "recallDays": [
+        "2026-04-18"
+      ],
+      "conceptTags": [
+        "backup",
+        "备份",
+        "openclaw/openclaw.json",
+        "assistant",
+        "完成",
+        "openclaw",
+        "openclaw.json",
+        "openclaw.json.backup"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-18.txt:3:3": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-18.txt:3:3",
+      "path": "memory/.dreams/session-corpus/2026-04-18.txt",
+      "startLine": 3,
+      "endLine": 3,
+      "source": "memory",
+      "snippet": "User: [cron:1c3a7bd5-d835-41d8-a14a-d2970f13d503 daily-backup] 执行备份：cd ~/.openclaw && git add -A && git commit -m \"auto backup $(date +\\%Y-\\%m-\\%d)\" && git push && echo \"备份完成\" Current time: Saturday, April 18th, 2026 - 12:00 AM (UTC) / 2026-04-18 00:00 UTC Return your summary as",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-18T19:00:01.203Z",
+      "lastRecalledAt": "2026-04-18T19:00:01.203Z",
+      "queryHashes": [
+        "6ca7743b227b"
+      ],
+      "recallDays": [
+        "2026-04-18"
+      ],
+      "conceptTags": [
+        "backup",
+        "备份",
+        "daily-backup",
+        "user",
+        "cron",
+        "1c3a7bd5",
+        "d835",
+        "41d8"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-18.txt:4:4": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-18.txt:4:4",
+      "path": "memory/.dreams/session-corpus/2026-04-18.txt",
+      "startLine": 4,
+      "endLine": 4,
+      "source": "memory",
+      "snippet": "Assistant: ✅ 2026-04-18 每日备份已完成 - 提交哈希：325607df - 变更统计：58个文件，11630行新增、986行删除 - 已成功推送至远程仓库 github.com:blocklee/my-openclaw.git master 分支",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-18T19:00:01.203Z",
+      "lastRecalledAt": "2026-04-18T19:00:01.203Z",
+      "queryHashes": [
+        "6ca7743b227b"
+      ],
+      "recallDays": [
+        "2026-04-18"
+      ],
+      "conceptTags": [
+        "备份",
+        "github.com",
+        "blocklee/my-openclaw.git",
+        "assistant",
+        "每日",
+        "完成",
+        "提交",
+        "325607df"
       ]
     }
   }

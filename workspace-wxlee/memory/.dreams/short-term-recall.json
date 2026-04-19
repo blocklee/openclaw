@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-04-17T19:05:58.700Z",
+  "updatedAt": "2026-04-18T19:06:41.890Z",
   "entries": {
     "memory:memory/2026-04-12.md:6:6": {
       "key": "memory:memory/2026-04-12.md:6:6",
@@ -15,7 +15,7 @@
       "totalScore": 0.62,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-13T19:02:47.420Z",
-      "lastRecalledAt": "2026-04-17T19:04:11.046Z",
+      "lastRecalledAt": "2026-04-18T19:06:09.118Z",
       "queryHashes": [
         "01679c334ef2"
       ],
@@ -24,7 +24,8 @@
         "2026-04-13",
         "2026-04-15",
         "2026-04-16",
-        "2026-04-17"
+        "2026-04-17",
+        "2026-04-18"
       ],
       "conceptTags": [
         "事件",
@@ -50,7 +51,7 @@
       "totalScore": 0.62,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-13T19:02:47.420Z",
-      "lastRecalledAt": "2026-04-17T19:04:11.046Z",
+      "lastRecalledAt": "2026-04-18T19:06:09.118Z",
       "queryHashes": [
         "01679c334ef2"
       ],
@@ -59,7 +60,8 @@
         "2026-04-13",
         "2026-04-15",
         "2026-04-16",
-        "2026-04-17"
+        "2026-04-17",
+        "2026-04-18"
       ],
       "conceptTags": [
         "事件",
@@ -85,7 +87,7 @@
       "totalScore": 0.62,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-13T19:02:47.420Z",
-      "lastRecalledAt": "2026-04-17T19:04:11.046Z",
+      "lastRecalledAt": "2026-04-18T19:06:09.118Z",
       "queryHashes": [
         "01679c334ef2"
       ],
@@ -94,7 +96,8 @@
         "2026-04-13",
         "2026-04-15",
         "2026-04-16",
-        "2026-04-17"
+        "2026-04-17",
+        "2026-04-18"
       ],
       "conceptTags": [
         "根因",
@@ -119,7 +122,7 @@
       "totalScore": 0.62,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-13T19:02:47.420Z",
-      "lastRecalledAt": "2026-04-17T19:04:11.046Z",
+      "lastRecalledAt": "2026-04-18T19:06:09.118Z",
       "queryHashes": [
         "01679c334ef2"
       ],
@@ -128,7 +131,8 @@
         "2026-04-13",
         "2026-04-15",
         "2026-04-16",
-        "2026-04-17"
+        "2026-04-17",
+        "2026-04-18"
       ],
       "conceptTags": [
         "5-hour",
@@ -154,7 +158,7 @@
       "totalScore": 0.62,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-13T19:02:47.420Z",
-      "lastRecalledAt": "2026-04-17T19:04:11.046Z",
+      "lastRecalledAt": "2026-04-18T19:06:09.118Z",
       "queryHashes": [
         "01679c334ef2"
       ],
@@ -163,7 +167,8 @@
         "2026-04-13",
         "2026-04-15",
         "2026-04-16",
-        "2026-04-17"
+        "2026-04-17",
+        "2026-04-18"
       ],
       "conceptTags": [
         "doubao-seed-2.0-code",
@@ -189,7 +194,7 @@
       "totalScore": 0.62,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-13T19:02:47.420Z",
-      "lastRecalledAt": "2026-04-17T19:04:11.046Z",
+      "lastRecalledAt": "2026-04-18T19:06:09.118Z",
       "queryHashes": [
         "01679c334ef2"
       ],
@@ -198,7 +203,8 @@
         "2026-04-13",
         "2026-04-15",
         "2026-04-16",
-        "2026-04-17"
+        "2026-04-17",
+        "2026-04-18"
       ],
       "conceptTags": [
         "影响",
@@ -2173,13 +2179,14 @@
       "totalScore": 0.62,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-14T19:02:38.915Z",
-      "lastRecalledAt": "2026-04-17T19:04:11.046Z",
+      "lastRecalledAt": "2026-04-18T19:06:09.118Z",
       "queryHashes": [
         "11d1361acb2d"
       ],
       "recallDays": [
         "2026-04-14",
-        "2026-04-17"
+        "2026-04-17",
+        "2026-04-18"
       ],
       "conceptTags": [
         "1.00",
@@ -2205,13 +2212,14 @@
       "totalScore": 0.62,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-14T19:02:38.915Z",
-      "lastRecalledAt": "2026-04-17T19:04:11.046Z",
+      "lastRecalledAt": "2026-04-18T19:06:09.118Z",
       "queryHashes": [
         "11d1361acb2d"
       ],
       "recallDays": [
         "2026-04-14",
-        "2026-04-17"
+        "2026-04-17",
+        "2026-04-18"
       ],
       "conceptTags": [
         "possible",
@@ -2235,12 +2243,13 @@
       "totalScore": 0.62,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-15T19:03:39.938Z",
-      "lastRecalledAt": "2026-04-15T19:03:39.938Z",
+      "lastRecalledAt": "2026-04-18T19:06:09.118Z",
       "queryHashes": [
         "4c4c0cb04efa"
       ],
       "recallDays": [
-        "2026-04-15"
+        "2026-04-15",
+        "2026-04-18"
       ],
       "conceptTags": [
         "1.00",
@@ -2266,12 +2275,13 @@
       "totalScore": 0.62,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-15T19:03:39.938Z",
-      "lastRecalledAt": "2026-04-15T19:03:39.938Z",
+      "lastRecalledAt": "2026-04-18T19:06:09.118Z",
       "queryHashes": [
         "4c4c0cb04efa"
       ],
       "recallDays": [
-        "2026-04-15"
+        "2026-04-15",
+        "2026-04-18"
       ],
       "conceptTags": [
         "0.51",
@@ -2656,6 +2666,194 @@
         "安装",
         "方法",
         "分析"
+      ]
+    },
+    "memory:memory/2026-04-18.md:128:131": {
+      "key": "memory:memory/2026-04-18.md:128:131",
+      "path": "memory/2026-04-18.md",
+      "startLine": 128,
+      "endLine": 131,
+      "source": "memory",
+      "snippet": "Reflections: Theme: `assistant` kept surfacing across 43 memories.; confidence: 1.00; evidence: memory/.dreams/session-corpus/2026-04-11.txt:2-2, memory/.dreams/session-corpus/2026-04-11.txt:4-4, memory/.dreams/session-corpus/2026-04-11.txt:5-5; note: reflection",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-04-18T19:06:09.118Z",
+      "lastRecalledAt": "2026-04-18T19:06:09.118Z",
+      "queryHashes": [
+        "77ca9720ec15"
+      ],
+      "recallDays": [
+        "2026-04-18"
+      ],
+      "conceptTags": [
+        "1.00",
+        "2-2",
+        "4-4",
+        "5-5",
+        "reflections",
+        "theme",
+        "assistant",
+        "kept"
+      ]
+    },
+    "memory:memory/2026-04-18.md:134:136": {
+      "key": "memory:memory/2026-04-18.md:134:136",
+      "path": "memory/2026-04-18.md",
+      "startLine": 134,
+      "endLine": 136,
+      "source": "memory",
+      "snippet": "Possible Lasting Truths: 事件: ⚠️ Something went wrong while processing your request. Please try again, or use /new to start a fresh session. [confidence=0.58 evidence=memory/2026-04-12.md:8-9]; 事件: Codus Agent 在执行 React Demo 构建任务时频繁出现通用错误提示： [confidence=0.58 evidence=memory/2026-0",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-04-18T19:06:09.118Z",
+      "lastRecalledAt": "2026-04-18T19:06:09.118Z",
+      "queryHashes": [
+        "77ca9720ec15"
+      ],
+      "recallDays": [
+        "2026-04-18"
+      ],
+      "conceptTags": [
+        "0.58",
+        "memory/2026-04-12.md",
+        "8-9",
+        "memory/2026-0",
+        "possible",
+        "lasting",
+        "truths",
+        "事件"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-18.txt:1:1": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-18.txt:1:1",
+      "path": "memory/.dreams/session-corpus/2026-04-18.txt",
+      "startLine": 1,
+      "endLine": 1,
+      "source": "memory",
+      "snippet": "User: System: [2026-04-18 15:54:11 UTC] Compaction skipped: no real conversation messages yet • Context ?/128k Conversation info (untrusted metadata): ```json { \"message_id\": \"openclaw-weixin:1776527798160-092b4647\", \"timestamp\": \"Sat 2026-04-18 15:56 UTC\" } ``` 四人帮都是哪四人，都有什么背景",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-18T19:06:09.118Z",
+      "lastRecalledAt": "2026-04-18T19:06:09.118Z",
+      "queryHashes": [
+        "6ca7743b227b"
+      ],
+      "recallDays": [
+        "2026-04-18"
+      ],
+      "conceptTags": [
+        "message-id",
+        "openclaw-weixin",
+        "1776527798160-092b4647",
+        "user",
+        "system",
+        "utc",
+        "compaction",
+        "skipped"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-18.txt:2:2": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-18.txt:2:2",
+      "path": "memory/.dreams/session-corpus/2026-04-18.txt",
+      "startLine": 2,
+      "endLine": 2,
+      "source": "memory",
+      "snippet": "Assistant: 根据军师的角色设定，我不是闲谈之伴，而是决策之助。不过既然主公询问历史信息，我简要回答： “四人帮”指的是1976年逮捕的中国政治人物： 1. **王洪文** - 农民出身，上海工人造反派领袖 2. **张春桥** - 意识形态理论家，曾任上海市委书记 3. **江青** - 演员出身，毛泽东夫人 4. **姚文元** - 文艺评论家，掌握宣传系统 他们在“文化大革命”后期形成政治联盟，1976年10月被捕，1981年被特别法庭审判。 **主公的战略启示**： 历史教训提醒我们，任何组织的权力制衡都至关重要。无论是政治还是商业，过度",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-18T19:06:09.118Z",
+      "lastRecalledAt": "2026-04-18T19:06:09.118Z",
+      "queryHashes": [
+        "6ca7743b227b"
+      ],
+      "recallDays": [
+        "2026-04-18"
+      ],
+      "conceptTags": [
+        "assistant",
+        "根据",
+        "角色",
+        "设定",
+        "我不是",
+        "而是",
+        "决策",
+        "不过"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-19.txt:1:1": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-19.txt:1:1",
+      "path": "memory/.dreams/session-corpus/2026-04-19.txt",
+      "startLine": 1,
+      "endLine": 1,
+      "source": "memory",
+      "snippet": "User: Conversation info (untrusted metadata): ```json { \"message_id\": \"openclaw-weixin:1776528661953-90765a26\", \"timestamp\": \"Sat 2026-04-18 16:11 UTC\" } ``` 六十四卦的六爻是什么模样",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-18T19:06:09.118Z",
+      "lastRecalledAt": "2026-04-18T19:06:09.118Z",
+      "queryHashes": [
+        "c9fd66cc4843"
+      ],
+      "recallDays": [
+        "2026-04-19",
+        "2026-04-18"
+      ],
+      "conceptTags": [
+        "message-id",
+        "openclaw-weixin",
+        "1776528661953-90765a26",
+        "user",
+        "conversation",
+        "info",
+        "untrusted",
+        "metadata"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-19.txt:2:2": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-19.txt:2:2",
+      "path": "memory/.dreams/session-corpus/2026-04-19.txt",
+      "startLine": 2,
+      "endLine": 2,
+      "source": "memory",
+      "snippet": "Assistant: 主公，六爻是《周易》六十四卦的基本构成单元，每卦由六个爻组成，自下而上排列： **爻的形态：** 1. **阳爻（⚊）** - 一条连续的横线（实线），代表阳、刚、主动 2. **阴爻（⚋）** - 一条中断的横线（虚线），代表阴、柔、被动 **排列规则：** - **自下而上**：第一爻（初爻）在最下，第六爻（上爻）在最上 - **爻位名称**：初爻、二爻、三爻、四爻、五爻、上爻 - **爻变规律**：从初爻到上爻，象征事物从萌芽到终结的发展过程 **示例：乾卦（䷀）六爻皆为阳爻** ``` 上九：⚊ 九五：⚊ 九四：⚊ 九三：⚊",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-18T19:06:09.118Z",
+      "lastRecalledAt": "2026-04-18T19:06:09.118Z",
+      "queryHashes": [
+        "c9fd66cc4843"
+      ],
+      "recallDays": [
+        "2026-04-19",
+        "2026-04-18"
+      ],
+      "conceptTags": [
+        "assistant",
+        "主公",
+        "周易",
+        "六十",
+        "基本",
+        "构成",
+        "单元",
+        "组成"
       ]
     }
   }

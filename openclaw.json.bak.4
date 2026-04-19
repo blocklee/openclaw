@@ -1,15 +1,17 @@
 {
   "meta": {
     "lastTouchedVersion": "2026.4.1",
-    "lastTouchedAt": "2026-04-06T08:02:33.965Z"
+    "lastTouchedAt": "2026-04-08T04:53:31.182Z"
   },
   "env": {
     "OPENROUTER_API_KEY": "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",
     "DEEPSEEK_API_KEY": "sk-7efc0cb52584445399ba99eb17df91b8",
-    "GOOGLE_API_KEY": "AIzaSyBDw5RCCBvH-ugpqg5kt1ocqWsiv-PR41U"
+    "GOOGLE_API_KEY": "AIzaSyBDw5RCCBvH-ugpqg5kt1ocqWsiv-PR41U",
+    "VOLCENGINE_PLAN_API_KEY": "ca89d2f0-5be7-4df4-a437-b14d6540e495",
+    "VOLCENGINE_PLAN_default_API_KEY": "ca89d2f0-5be7-4df4-a437-b14d6540e495"
   },
   "wizard": {
-    "lastRunAt": "2026-04-06T08:02:33.854Z",
+    "lastRunAt": "2026-04-06T08:05:17.208Z",
     "lastRunVersion": "2026.4.1",
     "lastRunCommand": "configure",
     "lastRunMode": "local"
@@ -38,6 +40,10 @@
       },
       "volcengine:default": {
         "provider": "volcengine",
+        "mode": "api_key"
+      },
+      "volcengine-plan:default": {
+        "provider": "volcengine-plan",
         "mode": "api_key"
       }
     }
@@ -191,84 +197,96 @@
           }
         ]
       },
-      "scnet": {
-        "baseUrl": "https://api.scnet.cn/api/llm/v1",
-        "apiKey": "sk-NzY3LTEyMDcwMjI1MzMyLTE3NzQ2MTc5MTYwNzI=",
+      "volcengine-plan": {
+        "baseUrl": "https://ark.cn-beijing.volces.com/api/coding/v3",
         "api": "openai-completions",
         "models": [
           {
-            "id": "MiniMax-M2.5",
-            "name": "MiniMax-M2.5",
-            "api": "openai-completions",
-            "reasoning": false,
+            "id": "ark-code-latest",
+            "name": "ark-code-latest",
+            "contextWindow": 256000,
+            "maxTokens": 32000,
             "input": [
-              "text"
-            ],
-            "cost": {
-              "input": 0,
-              "output": 0,
-              "cacheRead": 0,
-              "cacheWrite": 0
-            },
-            "contextWindow": 128000,
-            "maxTokens": 16000
+              "text",
+              "image"
+            ]
           },
           {
-            "id": "DeepSeek-V3.2",
-            "name": "DeepSeek-V3.2",
-            "api": "openai-completions",
-            "reasoning": false,
+            "id": "doubao-seed-code",
+            "name": "doubao-seed-code",
+            "contextWindow": 256000,
+            "maxTokens": 32000,
             "input": [
-              "text"
-            ],
-            "cost": {
-              "input": 0,
-              "output": 0,
-              "cacheRead": 0,
-              "cacheWrite": 0
-            },
-            "contextWindow": 128000,
-            "maxTokens": 16000
-          }
-        ]
-      },
-      "deepseek": {
-        "baseUrl": "https://api.deepseek.com",
-        "api": "openai-completions",
-        "models": [
-          {
-            "id": "deepseek-chat",
-            "name": "DeepSeek Chat",
-            "api": "openai-completions",
-            "reasoning": true,
-            "input": [
-              "text"
-            ],
-            "cost": {
-              "input": 0,
-              "output": 0,
-              "cacheRead": 0,
-              "cacheWrite": 0
-            },
-            "contextWindow": 128000,
-            "maxTokens": 16000
+              "text",
+              "image"
+            ]
           },
           {
-            "id": "deepseek-reasoner",
-            "name": "DeepSeek Reasoner",
-            "api": "openai-completions",
-            "reasoning": true,
+            "id": "glm-4.7",
+            "name": "glm-4.7",
+            "contextWindow": 200000,
+            "maxTokens": 128000,
             "input": [
               "text"
-            ],
-            "cost": {
-              "input": 0,
-              "output": 0,
-              "cacheRead": 0,
-              "cacheWrite": 0
-            },
+            ]
+          },
+          {
+            "id": "deepseek-v3.2",
+            "name": "deepseek-v3.2",
             "contextWindow": 128000,
-            "maxTokens": 16000
+            "maxTokens": 32000,
+            "input": [
+              "text"
+            ]
+          },
+          {
+            "id": "doubao-seed-2.0-code",
+            "name": "doubao-seed-2.0-code",
+            "contextWindow": 256000,
+            "maxTokens": 128000,
+            "input": [
+              "text",
+              "image"
+            ]
+          },
+          {
+            "id": "doubao-seed-2.0-pro",
+            "name": "doubao-seed-2.0-pro",
+            "contextWindow": 256000,
+            "maxTokens": 128000,
+            "input": [
+              "text",
+              "image"
+            ]
+          },
+          {
+            "id": "doubao-seed-2.0-lite",
+            "name": "doubao-seed-2.0-lite",
+            "contextWindow": 256000,
+            "maxTokens": 128000,
+            "input": [
+              "text",
+              "image"
+            ]
+          },
+          {
+            "id": "minimax-m2.5",
+            "name": "minimax-m2.5",
+            "contextWindow": 200000,
+            "maxTokens": 128000,
+            "input": [
+              "text"
+            ]
+          },
+          {
+            "id": "kimi-k2.5",
+            "name": "kimi-k2.5",
+            "contextWindow": 256000,
+            "maxTokens": 32000,
+            "input": [
+              "text",
+              "image"
+            ]
           }
         ]
       }
@@ -279,16 +297,23 @@
       "model": {
         "primary": "volcengine-plan/ark-code-latest",
         "fallbacks": [
-          "minimax/MiniMax-M2.7",
-          "zai/glm-5",
-          "google/gemini-2.5-flash",
-          "deepseek/deepseek-chat",
-          "deepseek/deepseek-reasoner",
-          "google/lyria-3-pro-preview:free",
-          "google/lyria-3-clip-preview:free",
-          "nvidia/nemotron-3-super-120b-a12b:free",
+          "volcengine-plan/doubao-seed-2.0-pro",
+          "volcengine-plan/doubao-seed-2.0-code",
+          "volcengine-plan/doubao-seed-2.0-lite",
+          "volcengine-plan/doubao-seed-code",
           "volcengine-plan/glm-4.7",
-          "volcengine-plan/kimi-k2.5"
+          "volcengine-plan/deepseek-v3.2",
+          "volcengine-plan/minimax-m2.5",
+          "volcengine-plan/kimi-k2.5",
+          "minimax/MiniMax-M2.7"
+        ]
+      },
+      "imageGenerationModel": {
+        "primary": "volcengine-plan/doubao-seed-2.0-pro",
+        "fallbacks": [
+          "volcengine-plan/kimi-k2.5",
+          "volcengine-plan/doubao-seed-2.0-code",
+          "volcengine-plan/doubao-seed-code"
         ]
       },
       "models": {
@@ -301,17 +326,17 @@
         "google/gemini-2.5-flash": {
           "alias": "Gemini"
         },
-        "deepseek/deepseek-chat": {
-          "alias": "DeepSeek"
-        },
-        "deepseek/deepseek-reasoner": {
-          "alias": "DeepSeek Reasoner"
-        },
         "google/lyria-3-pro-preview:free": {},
         "google/lyria-3-clip-preview:free": {},
         "nvidia/nemotron-3-super-120b-a12b:free": {},
         "volcengine-plan/ark-code-latest": {},
+        "volcengine-plan/doubao-seed-2.0-code": {},
+        "volcengine-plan/doubao-seed-2.0-pro": {},
+        "volcengine-plan/doubao-seed-2.0-lite": {},
+        "volcengine-plan/doubao-seed-code": {},
+        "volcengine-plan/minimax-m2.5": {},
         "volcengine-plan/glm-4.7": {},
+        "volcengine-plan/deepseek-v3.2": {},
         "volcengine-plan/kimi-k2.5": {}
       },
       "workspace": "/home/node/.openclaw/workspace",
@@ -346,12 +371,11 @@
         "workspace": "/home/node/.openclaw/workspace-lucus",
         "agentDir": "/home/node/.openclaw/agents/lucus/agent",
         "model": {
-          "primary": "minimax/minimax-m2.5:free",
+          "primary": "volcengine-plan/kimi-k2.5",
           "fallbacks": [
-            "scnet/DeepSeek-V3.2",
-            "scnet/MiniMax-M2.5",
-            "openrouter/free",
-            "zai/glm-4.7-flash"
+            "minimax/MiniMax-M2.7",
+            "zai/glm-4.7-flash",
+            "minimax/minimax-m2.5:free"
           ]
         }
       },
@@ -361,14 +385,26 @@
         "workspace": "/home/node/.openclaw/workspace-wxlee",
         "agentDir": "/home/node/.openclaw/agents/wxlee/agent",
         "model": {
-          "primary": "deepseek/deepseek-chat",
+          "primary": "volcengine-plan/deepseek-v3.2",
           "fallbacks": [
-            "deepseek/deepseek-reasoner",
-            "openrouter/free",
+            "volcengine-plan/glm-4.7",
             "zai/glm-4.7-flash",
             "minimax/MiniMax-M2.7"
           ]
         }
+      },
+      {
+        "id": "codus",
+        "name": "codus",
+        "workspace": "/home/node/.openclaw/workspace-codus",
+        "agentDir": "/home/node/.openclaw/agents/codus/agent",
+	"model":  {
+          "primary": "minimax/MiniMax-M2.7",
+          "fallbacks": [
+	    "volcengine-plan/doubao-seed-code",
+	    "volcengine-plan/glm-4.7"
+	  ]
+	}
       }
     ]
   },
@@ -379,6 +415,7 @@
       "allow": [
         "main",
         "lucus",
+	"codus",
         "wxlee"
       ]
     },
@@ -403,6 +440,14 @@
     }
   },
   "bindings": [
+    {
+      "type": "route",
+      "agentId": "codus",
+      "match": {
+        "channel": "feishu",
+        "accountId": "codus"
+      }
+    },
     {
       "type": "route",
       "agentId": "lucus",
@@ -442,7 +487,7 @@
     "maintenance": {
       "mode": "enforce",
       "pruneAfter": "10d",
-      "maxEntries": 200,
+      "maxEntries": 100,
       "rotateBytes": "10mb"
     }
   },
@@ -483,6 +528,11 @@
           "appId": "cli_a93108fad2b81e15",
           "appSecret": "YXsvQgicI06FJkWenoDpggitFT6TCgVq",
           "name": "Lucus"
+        },
+	"codus": {
+          "appId": "cli_a9417983f678de17",
+          "appSecret": "6FMGvf9k9eUGxQ9c32QRp3e8nTacmB6r",
+          "name": "Codus"
         },
         "default": {
           "dmPolicy": "pairing",
@@ -535,7 +585,7 @@
   },
   "skills": {
     "install": {
-      "nodeManager": "pnpm"
+      "nodeManager": "npm"
     }
   },
   "plugins": {

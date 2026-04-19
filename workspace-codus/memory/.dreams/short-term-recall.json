@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-04-17T19:07:42.975Z",
+  "updatedAt": "2026-04-18T19:08:15.789Z",
   "entries": {
     "memory:memory/.dreams/session-corpus/2026-04-11.txt:1:1": {
       "key": "memory:memory/.dreams/session-corpus/2026-04-11.txt:1:1",
@@ -3831,13 +3831,14 @@
       "totalScore": 0.62,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-14T19:04:00.330Z",
-      "lastRecalledAt": "2026-04-17T19:05:58.736Z",
+      "lastRecalledAt": "2026-04-18T19:06:41.918Z",
       "queryHashes": [
         "11d1361acb2d"
       ],
       "recallDays": [
         "2026-04-14",
-        "2026-04-17"
+        "2026-04-17",
+        "2026-04-18"
       ],
       "conceptTags": [
         "1.00",
@@ -3863,13 +3864,14 @@
       "totalScore": 0.62,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-14T19:04:00.330Z",
-      "lastRecalledAt": "2026-04-17T19:05:58.736Z",
+      "lastRecalledAt": "2026-04-18T19:06:41.918Z",
       "queryHashes": [
         "11d1361acb2d"
       ],
       "recallDays": [
         "2026-04-14",
-        "2026-04-17"
+        "2026-04-17",
+        "2026-04-18"
       ],
       "conceptTags": [
         "0.88",
@@ -3895,13 +3897,14 @@
       "totalScore": 0.62,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-14T19:04:00.330Z",
-      "lastRecalledAt": "2026-04-17T19:05:58.736Z",
+      "lastRecalledAt": "2026-04-18T19:06:41.918Z",
       "queryHashes": [
         "11d1361acb2d"
       ],
       "recallDays": [
         "2026-04-14",
-        "2026-04-17"
+        "2026-04-17",
+        "2026-04-18"
       ],
       "conceptTags": [
         "possible",
@@ -4615,12 +4618,13 @@
       "totalScore": 0.62,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-15T19:05:19.428Z",
-      "lastRecalledAt": "2026-04-15T19:05:19.428Z",
+      "lastRecalledAt": "2026-04-18T19:06:41.918Z",
       "queryHashes": [
         "4c4c0cb04efa"
       ],
       "recallDays": [
-        "2026-04-15"
+        "2026-04-15",
+        "2026-04-18"
       ],
       "conceptTags": [
         "1.00",
@@ -4646,12 +4650,13 @@
       "totalScore": 0.62,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-15T19:05:19.428Z",
-      "lastRecalledAt": "2026-04-15T19:05:19.428Z",
+      "lastRecalledAt": "2026-04-18T19:06:41.918Z",
       "queryHashes": [
         "4c4c0cb04efa"
       ],
       "recallDays": [
-        "2026-04-15"
+        "2026-04-15",
+        "2026-04-18"
       ],
       "conceptTags": [
         "0.85",
@@ -4677,12 +4682,13 @@
       "totalScore": 0.62,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-15T19:05:19.428Z",
-      "lastRecalledAt": "2026-04-15T19:05:19.428Z",
+      "lastRecalledAt": "2026-04-18T19:06:41.918Z",
       "queryHashes": [
         "4c4c0cb04efa"
       ],
       "recallDays": [
-        "2026-04-15"
+        "2026-04-15",
+        "2026-04-18"
       ],
       "conceptTags": [
         "possible",
@@ -5036,6 +5042,99 @@
         "can't",
         "use",
         "sudo"
+      ]
+    },
+    "memory:memory/2026-04-18.md:78:81": {
+      "key": "memory:memory/2026-04-18.md:78:81",
+      "path": "memory/2026-04-18.md",
+      "startLine": 78,
+      "endLine": 81,
+      "source": "memory",
+      "snippet": "Reflections: Theme: `assistant` kept surfacing across 86 memories.; confidence: 1.00; evidence: memory/.dreams/session-corpus/2026-04-11.txt:3-3, memory/.dreams/session-corpus/2026-04-11.txt:5-5, memory/.dreams/session-corpus/2026-04-12.txt:8-8; note: reflection",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-04-18T19:06:41.918Z",
+      "lastRecalledAt": "2026-04-18T19:06:41.918Z",
+      "queryHashes": [
+        "77ca9720ec15"
+      ],
+      "recallDays": [
+        "2026-04-18"
+      ],
+      "conceptTags": [
+        "1.00",
+        "3-3",
+        "5-5",
+        "8-8",
+        "reflections",
+        "theme",
+        "assistant",
+        "kept"
+      ]
+    },
+    "memory:memory/2026-04-18.md:82:85": {
+      "key": "memory:memory/2026-04-18.md:82:85",
+      "path": "memory/2026-04-18.md",
+      "startLine": 82,
+      "endLine": 85,
+      "source": "memory",
+      "snippet": "Reflections: Theme: `user` kept surfacing across 67 memories.; confidence: 0.84; evidence: memory/.dreams/session-corpus/2026-04-11.txt:1-1, memory/.dreams/session-corpus/2026-04-11.txt:2-2, memory/.dreams/session-corpus/2026-04-11.txt:4-4; note: reflection",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-04-18T19:06:41.918Z",
+      "lastRecalledAt": "2026-04-18T19:06:41.918Z",
+      "queryHashes": [
+        "77ca9720ec15"
+      ],
+      "recallDays": [
+        "2026-04-18"
+      ],
+      "conceptTags": [
+        "0.84",
+        "1-1",
+        "2-2",
+        "4-4",
+        "reflections",
+        "theme",
+        "user",
+        "kept"
+      ]
+    },
+    "memory:memory/2026-04-18.md:88:90": {
+      "key": "memory:memory/2026-04-18.md:88:90",
+      "path": "memory/2026-04-18.md",
+      "startLine": 88,
+      "endLine": 90,
+      "source": "memory",
+      "snippet": "Possible Lasting Truths: Assistant: @Lucus 这是一个关于 **ECHO 势(Shi) 技术架构**的文档，总结如下： ## 核心概念 **「势」**是一个三维编织的动态系统，用时间、空间、关系三个维度配合64卦约束来管理数字资产。 ## 核心理念 - **实际生效配置** = 创作者意图 ∩ 物理法则范围 - **约束不是限制，而是生态的免疫系统** - 代码即法律，约束即保护，分叉即自由 ## 三维编织 | 维度 | 含义 | 档位 | |------|------|------| | 时间 | 活跃程度 |",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-04-18T19:06:41.918Z",
+      "lastRecalledAt": "2026-04-18T19:06:41.918Z",
+      "queryHashes": [
+        "77ca9720ec15"
+      ],
+      "recallDays": [
+        "2026-04-18"
+      ],
+      "conceptTags": [
+        "possible",
+        "lasting",
+        "truths",
+        "assistant",
+        "lucus",
+        "一个",
+        "关于",
+        "echo"
       ]
     }
   }

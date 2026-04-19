@@ -1,7 +1,7 @@
 {
   "meta": {
-    "lastTouchedVersion": "2026.4.5",
-    "lastTouchedAt": "2026-04-08T16:23:04.340Z"
+    "lastTouchedVersion": "2026.4.12",
+    "lastTouchedAt": "2026-04-18T05:38:51.038Z"
   },
   "env": {
     "OPENROUTER_API_KEY": "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",
@@ -295,7 +295,7 @@
   "agents": {
     "defaults": {
       "model": {
-        "primary": "volcengine-plan/glm-4.7",
+        "primary": "nvidia/minimaxai/minimax-m2.7",
         "fallbacks": [
           "volcengine-plan/doubao-seed-2.0-pro",
           "volcengine-plan/doubao-seed-2.0-code",
@@ -304,7 +304,7 @@
           "volcengine-plan/deepseek-v3.2",
           "volcengine-plan/minimax-m2.5",
           "volcengine-plan/kimi-k2.5",
-	  "volcengine-plan/ark-code-latest",
+          "volcengine-plan/ark-code-latest",
           "minimax/MiniMax-M2.7"
         ]
       },
@@ -336,7 +336,8 @@
         "volcengine-plan/minimax-m2.5": {},
         "volcengine-plan/glm-4.7": {},
         "volcengine-plan/deepseek-v3.2": {},
-        "volcengine-plan/kimi-k2.5": {}
+        "volcengine-plan/kimi-k2.5": {},
+        "nvidia/minimaxai/minimax-m2.7": {}
       },
       "workspace": "/home/node/.openclaw/workspace",
       "memorySearch": {
@@ -402,7 +403,7 @@
           "fallbacks": [
             "volcengine-plan/doubao-seed-2.0-code",
             "volcengine-plan/glm-4.7",
-	    "zai/glm-4.7-flash"
+            "zai/glm-4.7-flash"
           ]
         }
       }
@@ -561,7 +562,8 @@
       "allowedOrigins": [
         "http://localhost:18789",
         "http://127.0.0.1:18789"
-      ]
+      ],
+      "allowInsecureAuth": true
     },
     "auth": {
       "mode": "token",
@@ -596,7 +598,10 @@
       "volcengine",
       "zai",
       "google",
-      "nvidia"
+      "nvidia",
+      "duckduckgo",
+      "memory-core",
+      "tavily"
     ],
     "entries": {
       "duckduckgo": {
@@ -604,13 +609,13 @@
         "config": {}
       },
       "memory-core": {
-      	"config": {
-	  "dreaming": {
-	    "enabled": true, 
-	    "timezone": "Asia/Shanghai",
-	    "frequency": "0 3 * * *"
-	  }
-	}
+        "config": {
+          "dreaming": {
+            "enabled": true,
+            "timezone": "Asia/Shanghai",
+            "frequency": "0 3 * * *"
+          }
+        }
       },
       "feishu": {
         "enabled": true,

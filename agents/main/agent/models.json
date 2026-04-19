@@ -582,6 +582,34 @@
           }
         }
       ]
+    },
+    "nvidia": {
+      "baseUrl": "https://integrate.api.nvidia.com/v1",
+      "api": "openai-completions",
+      "models": [
+        {
+          "id": "minimaxai/minimax-m2.7",
+          "name": "MiniMax M2.7",
+          "reasoning": true,
+          "input": [
+            "text"
+          ],
+          "contextWindow": 200000,
+          "maxTokens": 8192
+        },
+        {
+          "id": "google/gemma-3n-e4b-it",
+          "name": "Google Gemma 3N E4B IT",
+          "reasoning": true,
+          "input": [
+            "text",
+            "image"
+          ],
+          "contextWindow": 32768,
+          "maxTokens": 32768
+        }
+      ],
+      "apiKey": "NVIDIA_API_KEY"
     }
   }
 }

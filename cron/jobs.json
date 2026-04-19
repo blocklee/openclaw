@@ -6,7 +6,7 @@
       "name": "daily-backup",
       "enabled": true,
       "createdAtMs": 1774507489594,
-      "updatedAtMs": 1776384188994,
+      "updatedAtMs": 1776470590796,
       "schedule": {
         "kind": "cron",
         "expr": "0 0 * * *",
@@ -25,15 +25,15 @@
         "accountId": "lucus"
       },
       "state": {
-        "nextRunAtMs": 1776470400000,
-        "lastRunAtMs": 1776384000002,
+        "nextRunAtMs": 1776556800000,
+        "lastRunAtMs": 1776470400006,
         "lastRunStatus": "ok",
         "lastStatus": "ok",
-        "lastDurationMs": 188992,
+        "lastDurationMs": 190790,
         "lastDeliveryStatus": "delivered",
         "consecutiveErrors": 0,
         "lastDelivered": true,
-        "runningAtMs": 1776470400002
+        "runningAtMs": 1776556800002
       }
     },
     {
@@ -41,7 +41,7 @@
       "name": "config-backup-8am",
       "enabled": true,
       "createdAtMs": 1774843680000,
-      "updatedAtMs": 1776412838908,
+      "updatedAtMs": 1776520234377,
       "schedule": {
         "kind": "cron",
         "expr": "0 8 * * *",
@@ -60,14 +60,14 @@
         "accountId": "lucus"
       },
       "state": {
-        "nextRunAtMs": 1776499200000,
-        "lastRunAtMs": 1776412800007,
+        "nextRunAtMs": 1776585600000,
+        "lastRunAtMs": 1776520069306,
         "lastRunStatus": "ok",
         "lastStatus": "ok",
-        "lastDurationMs": 38901,
-        "lastDeliveryStatus": "delivered",
+        "lastDurationMs": 165071,
+        "lastDeliveryStatus": "not-delivered",
         "consecutiveErrors": 0,
-        "lastDelivered": true
+        "lastDelivered": false
       }
     },
     {
@@ -76,7 +76,7 @@
       "description": "[managed-by=memory-core.short-term-promotion] Promote weighted short-term recalls into MEMORY.md (limit=10, minScore=0.800, minRecallCount=3, minUniqueQueries=3, recencyHalfLifeDays=14, maxAgeDays=30).",
       "enabled": true,
       "createdAtMs": 1776096382076,
-      "updatedAtMs": 1776452863034,
+      "updatedAtMs": 1776539295838,
       "schedule": {
         "kind": "cron",
         "expr": "0 3 * * *",
@@ -89,11 +89,11 @@
         "text": "__openclaw_memory_core_short_term_promotion_dream__"
       },
       "state": {
-        "nextRunAtMs": 1776538800000,
-        "lastRunAtMs": 1776452400005,
+        "nextRunAtMs": 1776625200000,
+        "lastRunAtMs": 1776538800003,
         "lastRunStatus": "ok",
         "lastStatus": "ok",
-        "lastDurationMs": 463029,
+        "lastDurationMs": 495835,
         "lastDeliveryStatus": "not-requested",
         "consecutiveErrors": 0
       }
