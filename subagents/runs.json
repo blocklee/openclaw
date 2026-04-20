@@ -1,4 +1,39 @@
 {
   "version": 2,
-  "runs": {}
+  "runs": {
+    "e2e5e0fe-6a24-4911-be48-228f816623e9": {
+      "runId": "e2e5e0fe-6a24-4911-be48-228f816623e9",
+      "childSessionKey": "agent:codus:subagent:1da5fe60-b1a1-4cf2-b404-8a993e394276",
+      "controllerSessionKey": "agent:codus:feishu:codus:direct:ou_13190b75af6c015cd2975d6de047a6f1",
+      "requesterSessionKey": "agent:codus:feishu:codus:direct:ou_13190b75af6c015cd2975d6de047a6f1",
+      "requesterOrigin": {
+        "channel": "feishu",
+        "to": "user:ou_13190b75af6c015cd2975d6de047a6f1",
+        "accountId": "codus"
+      },
+      "requesterDisplayKey": "agent:codus:feishu:codus:direct:ou_13190b75af6c015cd2975d6de047a6f1",
+      "task": "我需要写入一个很长的文档到飞书 Wiki，内容是关于 TEE + 加密执行的详细实现方案。这个文档有几万字，包含大量代码示例和表格。请先调用 feishu_wiki action=get 获取 token=ONSdwrR2uipOXhkY9SQjWTq2pHb 的 obj_token，然后用 feishu_doc action=write 把内容写入。我会先提供完整的 Markdown 内容给你。",
+      "cleanup": "keep",
+      "expectsCompletionMessage": true,
+      "spawnMode": "run",
+      "label": "飞书文档写入",
+      "model": "volcengine-plan/minimax-m2.5",
+      "workspaceDir": "/home/node/.openclaw/workspace-codus",
+      "runTimeoutSeconds": 900,
+      "createdAt": 1776611889577,
+      "startedAt": 1776612824731,
+      "sessionStartedAt": 1776611889577,
+      "accumulatedRuntimeMs": 0,
+      "cleanupHandled": false,
+      "completionAnnouncedAt": 1776613300029,
+      "retainAttachmentsOnKeep": false,
+      "endedAt": 1776612855873,
+      "outcome": {
+        "status": "ok"
+      },
+      "endedReason": "subagent-complete",
+      "frozenResultText": "CLI 工具似乎有问题。让我尝试一个不同的方法——直接通过 gateway WebSocket 调用：",
+      "frozenResultCapturedAt": 1776612790603
+    }
+  }
 }

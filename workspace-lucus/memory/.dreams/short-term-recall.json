@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-04-18T19:06:09.059Z",
+  "updatedAt": "2026-04-19T19:02:52.576Z",
   "entries": {
     "memory:memory/.dreams/session-corpus/2026-04-11.txt:1:1": {
       "key": "memory:memory/.dreams/session-corpus/2026-04-11.txt:1:1",
@@ -3787,14 +3787,15 @@
       "totalScore": 0.62,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-14T19:01:19.866Z",
-      "lastRecalledAt": "2026-04-18T19:03:58.186Z",
+      "lastRecalledAt": "2026-04-19T19:01:32.273Z",
       "queryHashes": [
         "11d1361acb2d"
       ],
       "recallDays": [
         "2026-04-14",
         "2026-04-17",
-        "2026-04-18"
+        "2026-04-18",
+        "2026-04-19"
       ],
       "conceptTags": [
         "1.00",
@@ -3820,14 +3821,15 @@
       "totalScore": 0.62,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-14T19:01:19.866Z",
-      "lastRecalledAt": "2026-04-18T19:03:58.186Z",
+      "lastRecalledAt": "2026-04-19T19:01:32.273Z",
       "queryHashes": [
         "11d1361acb2d"
       ],
       "recallDays": [
         "2026-04-14",
         "2026-04-17",
-        "2026-04-18"
+        "2026-04-18",
+        "2026-04-19"
       ],
       "conceptTags": [
         "0.82",
@@ -3853,14 +3855,15 @@
       "totalScore": 0.62,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-14T19:01:19.866Z",
-      "lastRecalledAt": "2026-04-18T19:03:58.186Z",
+      "lastRecalledAt": "2026-04-19T19:01:32.273Z",
       "queryHashes": [
         "11d1361acb2d"
       ],
       "recallDays": [
         "2026-04-14",
         "2026-04-17",
-        "2026-04-18"
+        "2026-04-18",
+        "2026-04-19"
       ],
       "conceptTags": [
         "possible",
@@ -4897,13 +4900,14 @@
       "totalScore": 0.62,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-15T19:01:44.387Z",
-      "lastRecalledAt": "2026-04-18T19:03:58.186Z",
+      "lastRecalledAt": "2026-04-19T19:01:32.273Z",
       "queryHashes": [
         "4c4c0cb04efa"
       ],
       "recallDays": [
         "2026-04-15",
-        "2026-04-18"
+        "2026-04-18",
+        "2026-04-19"
       ],
       "conceptTags": [
         "1.00",
@@ -4929,13 +4933,14 @@
       "totalScore": 0.62,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-15T19:01:44.387Z",
-      "lastRecalledAt": "2026-04-18T19:03:58.186Z",
+      "lastRecalledAt": "2026-04-19T19:01:32.273Z",
       "queryHashes": [
         "4c4c0cb04efa"
       ],
       "recallDays": [
         "2026-04-15",
-        "2026-04-18"
+        "2026-04-18",
+        "2026-04-19"
       ],
       "conceptTags": [
         "0.90",
@@ -4961,13 +4966,14 @@
       "totalScore": 0.62,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-15T19:01:44.387Z",
-      "lastRecalledAt": "2026-04-18T19:03:58.186Z",
+      "lastRecalledAt": "2026-04-19T19:01:32.273Z",
       "queryHashes": [
         "4c4c0cb04efa"
       ],
       "recallDays": [
         "2026-04-15",
-        "2026-04-18"
+        "2026-04-18",
+        "2026-04-19"
       ],
       "conceptTags": [
         "0.75",
@@ -4993,13 +4999,14 @@
       "totalScore": 0.62,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-15T19:01:44.387Z",
-      "lastRecalledAt": "2026-04-18T19:03:58.186Z",
+      "lastRecalledAt": "2026-04-19T19:01:32.273Z",
       "queryHashes": [
         "4c4c0cb04efa"
       ],
       "recallDays": [
         "2026-04-15",
-        "2026-04-18"
+        "2026-04-18",
+        "2026-04-19"
       ],
       "conceptTags": [
         "backup",
@@ -5533,12 +5540,13 @@
       "totalScore": 0.62,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-16T19:01:39.552Z",
-      "lastRecalledAt": "2026-04-16T19:01:39.552Z",
+      "lastRecalledAt": "2026-04-19T19:01:32.273Z",
       "queryHashes": [
         "b628913e3912"
       ],
       "recallDays": [
-        "2026-04-16"
+        "2026-04-16",
+        "2026-04-19"
       ],
       "conceptTags": [
         "1.00",
@@ -5564,12 +5572,13 @@
       "totalScore": 0.62,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-16T19:01:39.552Z",
-      "lastRecalledAt": "2026-04-16T19:01:39.552Z",
+      "lastRecalledAt": "2026-04-19T19:01:32.273Z",
       "queryHashes": [
         "b628913e3912"
       ],
       "recallDays": [
-        "2026-04-16"
+        "2026-04-16",
+        "2026-04-19"
       ],
       "conceptTags": [
         "0.91",
@@ -5595,12 +5604,13 @@
       "totalScore": 0.62,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-16T19:01:39.552Z",
-      "lastRecalledAt": "2026-04-16T19:01:39.552Z",
+      "lastRecalledAt": "2026-04-19T19:01:32.273Z",
       "queryHashes": [
         "b628913e3912"
       ],
       "recallDays": [
-        "2026-04-16"
+        "2026-04-16",
+        "2026-04-19"
       ],
       "conceptTags": [
         "0.77",
@@ -5626,12 +5636,13 @@
       "totalScore": 0.62,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-16T19:01:39.552Z",
-      "lastRecalledAt": "2026-04-16T19:01:39.552Z",
+      "lastRecalledAt": "2026-04-19T19:01:32.273Z",
       "queryHashes": [
         "b628913e3912"
       ],
       "recallDays": [
-        "2026-04-16"
+        "2026-04-16",
+        "2026-04-19"
       ],
       "conceptTags": [
         "0.56",
@@ -6697,6 +6708,473 @@
         "看起来",
         "正常",
         "默认"
+      ]
+    },
+    "memory:memory/2026-04-19.md:143:146": {
+      "key": "memory:memory/2026-04-19.md:143:146",
+      "path": "memory/2026-04-19.md",
+      "startLine": 143,
+      "endLine": 146,
+      "source": "memory",
+      "snippet": "Reflections: Theme: `assistant` kept surfacing across 114 memories.; confidence: 1.00; evidence: memory/.dreams/session-corpus/2026-04-11.txt:2-2, memory/.dreams/session-corpus/2026-04-11.txt:4-4, memory/.dreams/session-corpus/2026-04-11.txt:6-6; note: reflection",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-04-19T19:01:32.273Z",
+      "lastRecalledAt": "2026-04-19T19:01:32.273Z",
+      "queryHashes": [
+        "21faa0df9302"
+      ],
+      "recallDays": [
+        "2026-04-19"
+      ],
+      "conceptTags": [
+        "1.00",
+        "2-2",
+        "4-4",
+        "6-6",
+        "reflections",
+        "theme",
+        "assistant",
+        "kept"
+      ]
+    },
+    "memory:memory/2026-04-19.md:147:150": {
+      "key": "memory:memory/2026-04-19.md:147:150",
+      "path": "memory/2026-04-19.md",
+      "startLine": 147,
+      "endLine": 150,
+      "source": "memory",
+      "snippet": "Reflections: Theme: `user` kept surfacing across 93 memories.; confidence: 0.88; evidence: memory/.dreams/session-corpus/2026-04-11.txt:1-1, memory/.dreams/session-corpus/2026-04-11.txt:3-3, memory/.dreams/session-corpus/2026-04-11.txt:5-5; note: reflection",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-04-19T19:01:32.273Z",
+      "lastRecalledAt": "2026-04-19T19:01:32.273Z",
+      "queryHashes": [
+        "21faa0df9302"
+      ],
+      "recallDays": [
+        "2026-04-19"
+      ],
+      "conceptTags": [
+        "0.88",
+        "1-1",
+        "3-3",
+        "5-5",
+        "reflections",
+        "theme",
+        "user",
+        "kept"
+      ]
+    },
+    "memory:memory/2026-04-19.md:153:155": {
+      "key": "memory:memory/2026-04-19.md:153:155",
+      "path": "memory/2026-04-19.md",
+      "startLine": 153,
+      "endLine": 155,
+      "source": "memory",
+      "snippet": "Possible Lasting Truths: Assistant: 让我等待一下项目创建完成。 [confidence=0.56 evidence=memory/.dreams/session-corpus/2026-04-12.txt:9-9]; Possible Lasting Truths: No strong candidate truths surfaced. [confidence=0.51 evidence=memory/2026-04-14.md:268-268]; Reflections: Theme: `assistant` ke",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-04-19T19:01:32.273Z",
+      "lastRecalledAt": "2026-04-19T19:01:32.273Z",
+      "queryHashes": [
+        "21faa0df9302"
+      ],
+      "recallDays": [
+        "2026-04-19"
+      ],
+      "conceptTags": [
+        "0.56",
+        "9-9",
+        "0.51",
+        "memory/2026-04-14.md",
+        "268-268",
+        "possible",
+        "lasting",
+        "truths"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-18.txt:25:25": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-18.txt:25:25",
+      "path": "memory/.dreams/session-corpus/2026-04-18.txt",
+      "startLine": 25,
+      "endLine": 25,
+      "source": "memory",
+      "snippet": "User: System (untrusted): [2026-04-18 15:11:59 UTC] Exec completed (lucky-gu, code 0) :: │ @openclaw/ │ nvidia │ openclaw │ loaded │ stock:nvidia/index.js │ 2026.4.12 │ │ nvidia- │ │ │ │ OpenClaw NVIDIA provider plugin │ │ System (untrusted): [2026-04-18 15:13:41 UTC] Exec comple",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-19T19:01:32.273Z",
+      "lastRecalledAt": "2026-04-19T19:01:32.273Z",
+      "queryHashes": [
+        "6ca7743b227b"
+      ],
+      "recallDays": [
+        "2026-04-18",
+        "2026-04-19"
+      ],
+      "conceptTags": [
+        "lucky-gu",
+        "nvidia/index.js",
+        "2026.4.12",
+        "user",
+        "system",
+        "untrusted",
+        "utc",
+        "exec"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-18.txt:26:26": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-18.txt:26:26",
+      "path": "memory/.dreams/session-corpus/2026-04-18.txt",
+      "startLine": 26,
+      "endLine": 26,
+      "source": "memory",
+      "snippet": "Assistant: 当前使用的模型： - **主模型**: `nvidia/minimaxai/minimax-m2.7` - **API密钥来源**: 环境变量 `NVIDIA_API_KEY` - **备用模型**: `minimax/MiniMax-M2.7` → `volcengine-plan/glm-4.7` → `minimax/minimax-m2.5:free` 配置已经生效了 ✅",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-19T19:01:32.273Z",
+      "lastRecalledAt": "2026-04-19T19:01:32.273Z",
+      "queryHashes": [
+        "6ca7743b227b"
+      ],
+      "recallDays": [
+        "2026-04-18",
+        "2026-04-19"
+      ],
+      "conceptTags": [
+        "nvidia/minimaxai/minimax-m2.7",
+        "nvidia-api-key",
+        "minimax/minimax-m2.7",
+        "volcengine-plan/glm-4.7",
+        "minimax/minimax-m2.5",
+        "assistant",
+        "当前",
+        "使用"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-19.txt:1:1": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-19.txt:1:1",
+      "path": "memory/.dreams/session-corpus/2026-04-19.txt",
+      "startLine": 1,
+      "endLine": 1,
+      "source": "memory",
+      "snippet": "User: Conversation info (untrusted metadata): ```json { \"message_id\": \"om_x100b517173d01ca8ee8629611fb4d84\", \"sender_id\": \"ou_cb5c7afa7e77cafdeaeae1620a2a383a\", \"sender\": \"ou_cb5c7afa7e77cafdeaeae1620a2a383a\", \"timestamp\": \"Sun 2026-04-19 04:02 UTC\" } ``` Sender (untrusted metada",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-19T19:01:32.273Z",
+      "lastRecalledAt": "2026-04-19T19:01:32.273Z",
+      "queryHashes": [
+        "c9fd66cc4843"
+      ],
+      "recallDays": [
+        "2026-04-19"
+      ],
+      "conceptTags": [
+        "message-id",
+        "sender-id",
+        "user",
+        "conversation",
+        "info",
+        "untrusted",
+        "metadata",
+        "sender"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-19.txt:2:2": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-19.txt:2:2",
+      "path": "memory/.dreams/session-corpus/2026-04-19.txt",
+      "startLine": 2,
+      "endLine": 2,
+      "source": "memory",
+      "snippet": "Assistant: # ECHO 势(Shi) 技术架构 v1.4 分析报告 ## 一、技术可行性评估 ✅ 整体高度可行 ### 1. 核心架构可落地性 - 三维张量设计（时间/空间/关系各4档，共64状态）数学逻辑清晰，可直接实现为3维数组/映射结构，编码成本极低 - 64卦与二进制天然适配（6位二进制即可编码全部状态），完全兼容计算机系统的存储和计算逻辑 ### 2. 核心模块实现难度低 - **约束引擎**：`calculateEffectivePolicy` 规则明确，仅需做策略取值范围的交集计算，冲突检测基于距离差的分级规则简单可实现 - *",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-19T19:01:32.273Z",
+      "lastRecalledAt": "2026-04-19T19:01:32.273Z",
+      "queryHashes": [
+        "c9fd66cc4843"
+      ],
+      "recallDays": [
+        "2026-04-19"
+      ],
+      "conceptTags": [
+        "v1.4",
+        "时间/空间/关系各4档",
+        "可直接实现为3维数组/映射结构",
+        "assistant",
+        "echo",
+        "shi",
+        "技术",
+        "架构"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-19.txt:3:3": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-19.txt:3:3",
+      "path": "memory/.dreams/session-corpus/2026-04-19.txt",
+      "startLine": 3,
+      "endLine": 3,
+      "source": "memory",
+      "snippet": "User: Conversation info (untrusted metadata): ```json { \"message_id\": \"om_x100b51711370a8a0ee836dd3e1dc0c8\", \"sender_id\": \"ou_cb5c7afa7e77cafdeaeae1620a2a383a\", \"sender\": \"ou_cb5c7afa7e77cafdeaeae1620a2a383a\", \"timestamp\": \"Sun 2026-04-19 04:11 UTC\" } ``` Sender (untrusted metada",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-19T19:01:32.273Z",
+      "lastRecalledAt": "2026-04-19T19:01:32.273Z",
+      "queryHashes": [
+        "c9fd66cc4843"
+      ],
+      "recallDays": [
+        "2026-04-19"
+      ],
+      "conceptTags": [
+        "message-id",
+        "sender-id",
+        "user",
+        "conversation",
+        "info",
+        "untrusted",
+        "metadata",
+        "sender"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-19.txt:4:4": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-19.txt:4:4",
+      "path": "memory/.dreams/session-corpus/2026-04-19.txt",
+      "startLine": 4,
+      "endLine": 4,
+      "source": "memory",
+      "snippet": "Assistant: # ECHO 势(Shi) 技术落地实现路径 分为三个阶段落地，从最小可行性验证到完整生态铺开，每个阶段都有明确的交付产物和风险控制： --- ## 🔴 第一阶段：MVP 核心验证（4-6周） **目标**：快速验证核心逻辑可行性，跑通「势位计算→约束生效→策略调整」的最小闭环 ### 核心任务 1. **约束引擎SDK实现** - 用 TypeScript/Go 实现 `calculateEffectivePolicy` 核心算法 - 配置基础64卦约束表（先预置10个核心生命周期卦象的规则，后续迭代补充） - 实现冲突检测、分",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-19T19:01:32.273Z",
+      "lastRecalledAt": "2026-04-19T19:01:32.273Z",
+      "queryHashes": [
+        "c9fd66cc4843"
+      ],
+      "recallDays": [
+        "2026-04-19"
+      ],
+      "conceptTags": [
+        "4-6周",
+        "typescript/go",
+        "assistant",
+        "echo",
+        "shi",
+        "技术",
+        "落地",
+        "实现"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-19.txt:5:5": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-19.txt:5:5",
+      "path": "memory/.dreams/session-corpus/2026-04-19.txt",
+      "startLine": 5,
+      "endLine": 5,
+      "source": "memory",
+      "snippet": "User: Conversation info (untrusted metadata): ```json { \"message_id\": \"om_x100b5173e8cb38a4ee75c45d4f982f4\", \"sender_id\": \"ou_cb5c7afa7e77cafdeaeae1620a2a383a\", \"sender\": \"ou_cb5c7afa7e77cafdeaeae1620a2a383a\", \"timestamp\": \"Sun 2026-04-19 06:46 UTC\" } ``` Sender (untrusted metada",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-19T19:01:32.273Z",
+      "lastRecalledAt": "2026-04-19T19:01:32.273Z",
+      "queryHashes": [
+        "c9fd66cc4843"
+      ],
+      "recallDays": [
+        "2026-04-19"
+      ],
+      "conceptTags": [
+        "message-id",
+        "sender-id",
+        "user",
+        "conversation",
+        "info",
+        "untrusted",
+        "metadata",
+        "sender"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-19.txt:6:6": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-19.txt:6:6",
+      "path": "memory/.dreams/session-corpus/2026-04-19.txt",
+      "startLine": 6,
+      "endLine": 6,
+      "source": "memory",
+      "snippet": "Assistant: ## 🚨 未报警原因排查结果 ### 根本原因：三个环节全失效 1. **监控范围缺失**：原有脚本仅配置监控本地`127.0.0.1:3000`节点，根本没有加入你提到的公网main节点`https://qng.qitmeer.io`，所以该节点异常完全无法检测 2. **本地监控服务未运行**：本地节点API返回状态码000，说明本地3000端口的监控服务本身没有启动或无法访问，原有本地监控也完全失效 3. **定时任务未配置**：系统未安装crontab服务，不存在每2小时运行一次检查脚本的定时任务，就算有异常也不会自动触发",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-19T19:01:32.273Z",
+      "lastRecalledAt": "2026-04-19T19:01:32.273Z",
+      "queryHashes": [
+        "c9fd66cc4843"
+      ],
+      "recallDays": [
+        "2026-04-19"
+      ],
+      "conceptTags": [
+        "127.0.0.1",
+        "qng.qitmeer.io",
+        "assistant",
+        "报警",
+        "原因",
+        "结果",
+        "根本",
+        "环节"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-19.txt:7:7": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-19.txt:7:7",
+      "path": "memory/.dreams/session-corpus/2026-04-19.txt",
+      "startLine": 7,
+      "endLine": 7,
+      "source": "memory",
+      "snippet": "User: Conversation info (untrusted metadata): ```json { \"message_id\": \"om_x100b5173a46340a8ee880be63d35453\", \"sender_id\": \"ou_cb5c7afa7e77cafdeaeae1620a2a383a\", \"sender\": \"ou_cb5c7afa7e77cafdeaeae1620a2a383a\", \"timestamp\": \"Sun 2026-04-19 07:05 UTC\" } ``` Sender (untrusted metada",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-19T19:01:32.273Z",
+      "lastRecalledAt": "2026-04-19T19:01:32.273Z",
+      "queryHashes": [
+        "c9fd66cc4843"
+      ],
+      "recallDays": [
+        "2026-04-19"
+      ],
+      "conceptTags": [
+        "message-id",
+        "sender-id",
+        "user",
+        "conversation",
+        "info",
+        "untrusted",
+        "metadata",
+        "sender"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-19.txt:8:8": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-19.txt:8:8",
+      "path": "memory/.dreams/session-corpus/2026-04-19.txt",
+      "startLine": 8,
+      "endLine": 8,
+      "source": "memory",
+      "snippet": "Assistant: ## ✅ 节点状态排查结果 1. **main节点现在已恢复正常**：从你提供的接口返回结果看到，`main-https://qng.qitmeer.io`节点当前`Valid=true`，块高4760919，状态完全正常，说明之前的异常已经修复 2. **当前所有监控节点都正常**：API返回的6个节点（2个测试网+4个主网节点）全部都是Valid=true，无异常 --- ### 🔧 监控脚本运行依赖问题 现在脚本无法执行是因为系统缺少`jq`（JSON解析工具，HEARTBEAT.md里明确标注过依赖），普通权限无法安装，需",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-19T19:01:32.273Z",
+      "lastRecalledAt": "2026-04-19T19:01:32.273Z",
+      "queryHashes": [
+        "c9fd66cc4843"
+      ],
+      "recallDays": [
+        "2026-04-19"
+      ],
+      "conceptTags": [
+        "main-https",
+        "qng.qitmeer.io",
+        "heartbeat.md里明确标注过依赖",
+        "assistant",
+        "节点",
+        "状态",
+        "结果",
+        "现在"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-19.txt:9:9": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-19.txt:9:9",
+      "path": "memory/.dreams/session-corpus/2026-04-19.txt",
+      "startLine": 9,
+      "endLine": 9,
+      "source": "memory",
+      "snippet": "User: Conversation info (untrusted metadata): ```json { \"message_id\": \"om_x100b517c38e6f0a0ee74c44d6133a32\", \"sender_id\": \"ou_cb5c7afa7e77cafdeaeae1620a2a383a\", \"sender\": \"ou_cb5c7afa7e77cafdeaeae1620a2a383a\", \"timestamp\": \"Sun 2026-04-19 07:42 UTC\" } ``` Sender (untrusted metada",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-19T19:01:32.273Z",
+      "lastRecalledAt": "2026-04-19T19:01:32.273Z",
+      "queryHashes": [
+        "c9fd66cc4843"
+      ],
+      "recallDays": [
+        "2026-04-19"
+      ],
+      "conceptTags": [
+        "message-id",
+        "sender-id",
+        "user",
+        "conversation",
+        "info",
+        "untrusted",
+        "metadata",
+        "sender"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-19.txt:10:10": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-19.txt:10:10",
+      "path": "memory/.dreams/session-corpus/2026-04-19.txt",
+      "startLine": 10,
+      "endLine": 10,
+      "source": "memory",
+      "snippet": "Assistant: # ECHO 势体系实施过程核心问题分析 基于当前文档索引的6个模块，结合分布式系统落地的实践经验，梳理出以下不同层级的实施挑战： --- ## 🎯 各模块专属实施问题 ### 1. 势枢核心 v1.0（最高优先级，必须先明确） #### 核心问题：维度量化标准缺失 - **定义模糊**：三个维度的判定规则没有明确定义： - 时间维的\"使用次数\"：访问、交互、交易、授权哪些算有效使用？不同类型资产（内容/NFT/DeFi）的计数标准要不要区分？ - 空间维的\"平台\"：独立域名、独立应用、独立公链、同一公司下的不同产品，哪些算不同平",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-19T19:01:32.273Z",
+      "lastRecalledAt": "2026-04-19T19:01:32.273Z",
+      "queryHashes": [
+        "c9fd66cc4843"
+      ],
+      "recallDays": [
+        "2026-04-19"
+      ],
+      "conceptTags": [
+        "v1.0",
+        "内容/nft/defi",
+        "assistant",
+        "echo",
+        "体系",
+        "实施",
+        "过程",
+        "核心"
       ]
     }
   }

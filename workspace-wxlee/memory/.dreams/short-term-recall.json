@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-04-18T19:06:41.890Z",
+  "updatedAt": "2026-04-19T19:04:13.673Z",
   "entries": {
     "memory:memory/2026-04-12.md:6:6": {
       "key": "memory:memory/2026-04-12.md:6:6",
@@ -15,7 +15,7 @@
       "totalScore": 0.62,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-13T19:02:47.420Z",
-      "lastRecalledAt": "2026-04-18T19:06:09.118Z",
+      "lastRecalledAt": "2026-04-19T19:02:52.651Z",
       "queryHashes": [
         "01679c334ef2"
       ],
@@ -25,7 +25,8 @@
         "2026-04-15",
         "2026-04-16",
         "2026-04-17",
-        "2026-04-18"
+        "2026-04-18",
+        "2026-04-19"
       ],
       "conceptTags": [
         "事件",
@@ -51,7 +52,7 @@
       "totalScore": 0.62,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-13T19:02:47.420Z",
-      "lastRecalledAt": "2026-04-18T19:06:09.118Z",
+      "lastRecalledAt": "2026-04-19T19:02:52.651Z",
       "queryHashes": [
         "01679c334ef2"
       ],
@@ -61,7 +62,8 @@
         "2026-04-15",
         "2026-04-16",
         "2026-04-17",
-        "2026-04-18"
+        "2026-04-18",
+        "2026-04-19"
       ],
       "conceptTags": [
         "事件",
@@ -87,7 +89,7 @@
       "totalScore": 0.62,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-13T19:02:47.420Z",
-      "lastRecalledAt": "2026-04-18T19:06:09.118Z",
+      "lastRecalledAt": "2026-04-19T19:02:52.651Z",
       "queryHashes": [
         "01679c334ef2"
       ],
@@ -97,7 +99,8 @@
         "2026-04-15",
         "2026-04-16",
         "2026-04-17",
-        "2026-04-18"
+        "2026-04-18",
+        "2026-04-19"
       ],
       "conceptTags": [
         "根因",
@@ -122,7 +125,7 @@
       "totalScore": 0.62,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-13T19:02:47.420Z",
-      "lastRecalledAt": "2026-04-18T19:06:09.118Z",
+      "lastRecalledAt": "2026-04-19T19:02:52.651Z",
       "queryHashes": [
         "01679c334ef2"
       ],
@@ -132,7 +135,8 @@
         "2026-04-15",
         "2026-04-16",
         "2026-04-17",
-        "2026-04-18"
+        "2026-04-18",
+        "2026-04-19"
       ],
       "conceptTags": [
         "5-hour",
@@ -158,7 +162,7 @@
       "totalScore": 0.62,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-13T19:02:47.420Z",
-      "lastRecalledAt": "2026-04-18T19:06:09.118Z",
+      "lastRecalledAt": "2026-04-19T19:02:52.651Z",
       "queryHashes": [
         "01679c334ef2"
       ],
@@ -168,7 +172,8 @@
         "2026-04-15",
         "2026-04-16",
         "2026-04-17",
-        "2026-04-18"
+        "2026-04-18",
+        "2026-04-19"
       ],
       "conceptTags": [
         "doubao-seed-2.0-code",
@@ -194,7 +199,7 @@
       "totalScore": 0.62,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-13T19:02:47.420Z",
-      "lastRecalledAt": "2026-04-18T19:06:09.118Z",
+      "lastRecalledAt": "2026-04-19T19:02:52.651Z",
       "queryHashes": [
         "01679c334ef2"
       ],
@@ -204,7 +209,8 @@
         "2026-04-15",
         "2026-04-16",
         "2026-04-17",
-        "2026-04-18"
+        "2026-04-18",
+        "2026-04-19"
       ],
       "conceptTags": [
         "影响",
@@ -2179,14 +2185,15 @@
       "totalScore": 0.62,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-14T19:02:38.915Z",
-      "lastRecalledAt": "2026-04-18T19:06:09.118Z",
+      "lastRecalledAt": "2026-04-19T19:02:52.651Z",
       "queryHashes": [
         "11d1361acb2d"
       ],
       "recallDays": [
         "2026-04-14",
         "2026-04-17",
-        "2026-04-18"
+        "2026-04-18",
+        "2026-04-19"
       ],
       "conceptTags": [
         "1.00",
@@ -2212,14 +2219,15 @@
       "totalScore": 0.62,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-14T19:02:38.915Z",
-      "lastRecalledAt": "2026-04-18T19:06:09.118Z",
+      "lastRecalledAt": "2026-04-19T19:02:52.651Z",
       "queryHashes": [
         "11d1361acb2d"
       ],
       "recallDays": [
         "2026-04-14",
         "2026-04-17",
-        "2026-04-18"
+        "2026-04-18",
+        "2026-04-19"
       ],
       "conceptTags": [
         "possible",
@@ -2243,13 +2251,14 @@
       "totalScore": 0.62,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-15T19:03:39.938Z",
-      "lastRecalledAt": "2026-04-18T19:06:09.118Z",
+      "lastRecalledAt": "2026-04-19T19:02:52.651Z",
       "queryHashes": [
         "4c4c0cb04efa"
       ],
       "recallDays": [
         "2026-04-15",
-        "2026-04-18"
+        "2026-04-18",
+        "2026-04-19"
       ],
       "conceptTags": [
         "1.00",
@@ -2275,13 +2284,14 @@
       "totalScore": 0.62,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-15T19:03:39.938Z",
-      "lastRecalledAt": "2026-04-18T19:06:09.118Z",
+      "lastRecalledAt": "2026-04-19T19:02:52.651Z",
       "queryHashes": [
         "4c4c0cb04efa"
       ],
       "recallDays": [
         "2026-04-15",
-        "2026-04-18"
+        "2026-04-18",
+        "2026-04-19"
       ],
       "conceptTags": [
         "0.51",
@@ -2371,12 +2381,13 @@
       "totalScore": 0.62,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-16T19:03:07.724Z",
-      "lastRecalledAt": "2026-04-16T19:03:07.724Z",
+      "lastRecalledAt": "2026-04-19T19:02:52.651Z",
       "queryHashes": [
         "b628913e3912"
       ],
       "recallDays": [
-        "2026-04-16"
+        "2026-04-16",
+        "2026-04-19"
       ],
       "conceptTags": [
         "1.00",
@@ -2402,12 +2413,13 @@
       "totalScore": 0.62,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-16T19:03:07.724Z",
-      "lastRecalledAt": "2026-04-16T19:03:07.724Z",
+      "lastRecalledAt": "2026-04-19T19:02:52.651Z",
       "queryHashes": [
         "b628913e3912"
       ],
       "recallDays": [
-        "2026-04-16"
+        "2026-04-16",
+        "2026-04-19"
       ],
       "conceptTags": [
         "0.51",
@@ -2854,6 +2866,68 @@
         "构成",
         "单元",
         "组成"
+      ]
+    },
+    "memory:memory/2026-04-19.md:148:151": {
+      "key": "memory:memory/2026-04-19.md:148:151",
+      "path": "memory/2026-04-19.md",
+      "startLine": 148,
+      "endLine": 151,
+      "source": "memory",
+      "snippet": "Reflections: Theme: `assistant` kept surfacing across 46 memories.; confidence: 1.00; evidence: memory/.dreams/session-corpus/2026-04-11.txt:2-2, memory/.dreams/session-corpus/2026-04-11.txt:4-4, memory/.dreams/session-corpus/2026-04-11.txt:5-5; note: reflection",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-04-19T19:02:52.651Z",
+      "lastRecalledAt": "2026-04-19T19:02:52.651Z",
+      "queryHashes": [
+        "21faa0df9302"
+      ],
+      "recallDays": [
+        "2026-04-19"
+      ],
+      "conceptTags": [
+        "1.00",
+        "2-2",
+        "4-4",
+        "5-5",
+        "reflections",
+        "theme",
+        "assistant",
+        "kept"
+      ]
+    },
+    "memory:memory/2026-04-19.md:154:156": {
+      "key": "memory:memory/2026-04-19.md:154:156",
+      "path": "memory/2026-04-19.md",
+      "startLine": 154,
+      "endLine": 156,
+      "source": "memory",
+      "snippet": "Possible Lasting Truths: 事件: ⚠️ Something went wrong while processing your request. Please try again, or use /new to start a fresh session. [confidence=0.58 evidence=memory/2026-04-12.md:8-9]; 事件: Codus Agent 在执行 React Demo 构建任务时频繁出现通用错误提示： [confidence=0.58 evidence=memory/2026-0",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-04-19T19:02:52.651Z",
+      "lastRecalledAt": "2026-04-19T19:02:52.651Z",
+      "queryHashes": [
+        "21faa0df9302"
+      ],
+      "recallDays": [
+        "2026-04-19"
+      ],
+      "conceptTags": [
+        "0.58",
+        "memory/2026-04-12.md",
+        "8-9",
+        "memory/2026-0",
+        "possible",
+        "lasting",
+        "truths",
+        "事件"
       ]
     }
   }

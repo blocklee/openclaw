@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-04-18T19:08:15.789Z",
+  "updatedAt": "2026-04-19T19:06:00.081Z",
   "entries": {
     "memory:memory/.dreams/session-corpus/2026-04-11.txt:1:1": {
       "key": "memory:memory/.dreams/session-corpus/2026-04-11.txt:1:1",
@@ -3831,14 +3831,15 @@
       "totalScore": 0.62,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-14T19:04:00.330Z",
-      "lastRecalledAt": "2026-04-18T19:06:41.918Z",
+      "lastRecalledAt": "2026-04-19T19:04:13.704Z",
       "queryHashes": [
         "11d1361acb2d"
       ],
       "recallDays": [
         "2026-04-14",
         "2026-04-17",
-        "2026-04-18"
+        "2026-04-18",
+        "2026-04-19"
       ],
       "conceptTags": [
         "1.00",
@@ -3864,14 +3865,15 @@
       "totalScore": 0.62,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-14T19:04:00.330Z",
-      "lastRecalledAt": "2026-04-18T19:06:41.918Z",
+      "lastRecalledAt": "2026-04-19T19:04:13.704Z",
       "queryHashes": [
         "11d1361acb2d"
       ],
       "recallDays": [
         "2026-04-14",
         "2026-04-17",
-        "2026-04-18"
+        "2026-04-18",
+        "2026-04-19"
       ],
       "conceptTags": [
         "0.88",
@@ -3897,14 +3899,15 @@
       "totalScore": 0.62,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-14T19:04:00.330Z",
-      "lastRecalledAt": "2026-04-18T19:06:41.918Z",
+      "lastRecalledAt": "2026-04-19T19:04:13.704Z",
       "queryHashes": [
         "11d1361acb2d"
       ],
       "recallDays": [
         "2026-04-14",
         "2026-04-17",
-        "2026-04-18"
+        "2026-04-18",
+        "2026-04-19"
       ],
       "conceptTags": [
         "possible",
@@ -4618,13 +4621,14 @@
       "totalScore": 0.62,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-15T19:05:19.428Z",
-      "lastRecalledAt": "2026-04-18T19:06:41.918Z",
+      "lastRecalledAt": "2026-04-19T19:04:13.704Z",
       "queryHashes": [
         "4c4c0cb04efa"
       ],
       "recallDays": [
         "2026-04-15",
-        "2026-04-18"
+        "2026-04-18",
+        "2026-04-19"
       ],
       "conceptTags": [
         "1.00",
@@ -4650,13 +4654,14 @@
       "totalScore": 0.62,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-15T19:05:19.428Z",
-      "lastRecalledAt": "2026-04-18T19:06:41.918Z",
+      "lastRecalledAt": "2026-04-19T19:04:13.704Z",
       "queryHashes": [
         "4c4c0cb04efa"
       ],
       "recallDays": [
         "2026-04-15",
-        "2026-04-18"
+        "2026-04-18",
+        "2026-04-19"
       ],
       "conceptTags": [
         "0.85",
@@ -4682,13 +4687,14 @@
       "totalScore": 0.62,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-15T19:05:19.428Z",
-      "lastRecalledAt": "2026-04-18T19:06:41.918Z",
+      "lastRecalledAt": "2026-04-19T19:04:13.704Z",
       "queryHashes": [
         "4c4c0cb04efa"
       ],
       "recallDays": [
         "2026-04-15",
-        "2026-04-18"
+        "2026-04-18",
+        "2026-04-19"
       ],
       "conceptTags": [
         "possible",
@@ -4807,12 +4813,13 @@
       "totalScore": 0.62,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-16T19:04:27.452Z",
-      "lastRecalledAt": "2026-04-16T19:04:27.452Z",
+      "lastRecalledAt": "2026-04-19T19:04:13.704Z",
       "queryHashes": [
         "b628913e3912"
       ],
       "recallDays": [
-        "2026-04-16"
+        "2026-04-16",
+        "2026-04-19"
       ],
       "conceptTags": [
         "1.00",
@@ -4838,12 +4845,13 @@
       "totalScore": 0.62,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-16T19:04:27.452Z",
-      "lastRecalledAt": "2026-04-16T19:04:27.452Z",
+      "lastRecalledAt": "2026-04-19T19:04:13.704Z",
       "queryHashes": [
         "b628913e3912"
       ],
       "recallDays": [
-        "2026-04-16"
+        "2026-04-16",
+        "2026-04-19"
       ],
       "conceptTags": [
         "0.84",
@@ -4869,12 +4877,13 @@
       "totalScore": 0.62,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-16T19:04:27.452Z",
-      "lastRecalledAt": "2026-04-16T19:04:27.452Z",
+      "lastRecalledAt": "2026-04-19T19:04:13.704Z",
       "queryHashes": [
         "b628913e3912"
       ],
       "recallDays": [
-        "2026-04-16"
+        "2026-04-16",
+        "2026-04-19"
       ],
       "conceptTags": [
         "possible",
@@ -5135,6 +5144,2211 @@
         "一个",
         "关于",
         "echo"
+      ]
+    },
+    "memory:memory/2026-04-19.md:78:81": {
+      "key": "memory:memory/2026-04-19.md:78:81",
+      "path": "memory/2026-04-19.md",
+      "startLine": 78,
+      "endLine": 81,
+      "source": "memory",
+      "snippet": "Reflections: Theme: `assistant` kept surfacing across 88 memories.; confidence: 1.00; evidence: memory/.dreams/session-corpus/2026-04-11.txt:3-3, memory/.dreams/session-corpus/2026-04-11.txt:5-5, memory/.dreams/session-corpus/2026-04-12.txt:8-8; note: reflection",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-04-19T19:04:13.704Z",
+      "lastRecalledAt": "2026-04-19T19:04:13.704Z",
+      "queryHashes": [
+        "21faa0df9302"
+      ],
+      "recallDays": [
+        "2026-04-19"
+      ],
+      "conceptTags": [
+        "1.00",
+        "3-3",
+        "5-5",
+        "8-8",
+        "reflections",
+        "theme",
+        "assistant",
+        "kept"
+      ]
+    },
+    "memory:memory/2026-04-19.md:82:85": {
+      "key": "memory:memory/2026-04-19.md:82:85",
+      "path": "memory/2026-04-19.md",
+      "startLine": 82,
+      "endLine": 85,
+      "source": "memory",
+      "snippet": "Reflections: Theme: `user` kept surfacing across 68 memories.; confidence: 0.83; evidence: memory/.dreams/session-corpus/2026-04-11.txt:1-1, memory/.dreams/session-corpus/2026-04-11.txt:2-2, memory/.dreams/session-corpus/2026-04-11.txt:4-4; note: reflection",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-04-19T19:04:13.704Z",
+      "lastRecalledAt": "2026-04-19T19:04:13.704Z",
+      "queryHashes": [
+        "21faa0df9302"
+      ],
+      "recallDays": [
+        "2026-04-19"
+      ],
+      "conceptTags": [
+        "0.83",
+        "1-1",
+        "2-2",
+        "4-4",
+        "reflections",
+        "theme",
+        "user",
+        "kept"
+      ]
+    },
+    "memory:memory/2026-04-19.md:88:90": {
+      "key": "memory:memory/2026-04-19.md:88:90",
+      "path": "memory/2026-04-19.md",
+      "startLine": 88,
+      "endLine": 90,
+      "source": "memory",
+      "snippet": "Possible Lasting Truths: Possible Lasting Truths: No strong candidate truths surfaced. [confidence=0.51 evidence=memory/2026-04-14.md:243-243]; Reflections: Theme: `assistant` kept surfacing across 64 memories.; confidence: 1.00; evidence: memory/.dreams/session-corpus/2026-04-11",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-04-19T19:04:13.704Z",
+      "lastRecalledAt": "2026-04-19T19:04:13.704Z",
+      "queryHashes": [
+        "21faa0df9302"
+      ],
+      "recallDays": [
+        "2026-04-19"
+      ],
+      "conceptTags": [
+        "0.51",
+        "memory/2026-04-14.md",
+        "243-243",
+        "1.00",
+        "dreams/session-corpus/2026-04-11",
+        "possible",
+        "lasting",
+        "truths"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-19.txt:1:1": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-19.txt:1:1",
+      "path": "memory/.dreams/session-corpus/2026-04-19.txt",
+      "startLine": 1,
+      "endLine": 1,
+      "source": "memory",
+      "snippet": "User: System (untrusted): [2026-04-19 08:21:53 UTC] Exec completed (amber-or, code 0) :: /app/extensions/qa-lab/src/suite.ts [Startup context loaded by runtime] Bootstrap files like SOUL.md, USER.md, and MEMORY.md are already provided separately when eligible. Recent daily memory",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-19T19:04:13.704Z",
+      "lastRecalledAt": "2026-04-19T19:04:13.704Z",
+      "queryHashes": [
+        "c9fd66cc4843"
+      ],
+      "recallDays": [
+        "2026-04-19"
+      ],
+      "conceptTags": [
+        "amber-or",
+        "soul.md",
+        "user.md",
+        "memory.md",
+        "user",
+        "system",
+        "untrusted",
+        "utc"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-19.txt:2:2": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-19.txt:2:2",
+      "path": "memory/.dreams/session-corpus/2026-04-19.txt",
+      "startLine": 2,
+      "endLine": 2,
+      "source": "memory",
+      "snippet": "Assistant: 开发者你好！我是 Codus，你的全栈开发 + 智能合约助手 🤖 🔗 专注于 React/Next.js、Node.js、Solidity + Foundry，能帮你从前端写到链上。 当前模型：volcengine-plan/minimax-m2.5 今天想搞点什么？新项目开发、合约审计、还是代码优化？",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-19T19:04:13.704Z",
+      "lastRecalledAt": "2026-04-19T19:04:13.704Z",
+      "queryHashes": [
+        "c9fd66cc4843"
+      ],
+      "recallDays": [
+        "2026-04-19"
+      ],
+      "conceptTags": [
+        "react/next.js",
+        "node.js",
+        "volcengine-plan/minimax-m2.5",
+        "assistant",
+        "开发",
+        "你好",
+        "我是",
+        "codus"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-19.txt:3:3": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-19.txt:3:3",
+      "path": "memory/.dreams/session-corpus/2026-04-19.txt",
+      "startLine": 3,
+      "endLine": 3,
+      "source": "memory",
+      "snippet": "User: Conversation info (untrusted metadata): ```json { \"message_id\": \"om_x100b517d6ad4eca0eeae7141a10ae8e\", \"sender_id\": \"ou_13190b75af6c015cd2975d6de047a6f1\", \"sender\": \"听风\", \"timestamp\": \"Sun 2026-04-19 08:28 UTC\" } ``` Sender (untrusted metadata): ```json { \"label\": \"听风 (ou_1",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-19T19:04:13.704Z",
+      "lastRecalledAt": "2026-04-19T19:04:13.704Z",
+      "queryHashes": [
+        "c9fd66cc4843"
+      ],
+      "recallDays": [
+        "2026-04-19"
+      ],
+      "conceptTags": [
+        "message-id",
+        "sender-id",
+        "ou-1",
+        "user",
+        "conversation",
+        "info",
+        "untrusted",
+        "metadata"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-19.txt:4:4": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-19.txt:4:4",
+      "path": "memory/.dreams/session-corpus/2026-04-19.txt",
+      "startLine": 4,
+      "endLine": 4,
+      "source": "memory",
+      "snippet": "Assistant: 这是一个很前沿的话题！将 Agent 能力资产化并设计使用权经济，本质上是把「知识产品化」。让我给你一个可行的架构思路： ## 核心架构：Skill-NFT + 权限合约 ``` ┌─────────────────────────────────────────────────────────────┐ │ Skill NFT (ERC-721/1155) │ ├─────────────────────────────────────────────────────────────┤ │ • metadata → Skill 定",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-19T19:04:13.704Z",
+      "lastRecalledAt": "2026-04-19T19:04:13.704Z",
+      "queryHashes": [
+        "c9fd66cc4843"
+      ],
+      "recallDays": [
+        "2026-04-19"
+      ],
+      "conceptTags": [
+        "skill-nft",
+        "erc-721/1155",
+        "assistant",
+        "一个",
+        "前沿",
+        "话题",
+        "能力",
+        "资产"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-19.txt:5:5": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-19.txt:5:5",
+      "path": "memory/.dreams/session-corpus/2026-04-19.txt",
+      "startLine": 5,
+      "endLine": 5,
+      "source": "memory",
+      "snippet": "User: Conversation info (untrusted metadata): ```json { \"message_id\": \"om_x100b517d1838d8a0eeadeafcb4235ec\", \"sender_id\": \"ou_13190b75af6c015cd2975d6de047a6f1\", \"sender\": \"听风\", \"timestamp\": \"Sun 2026-04-19 08:42 UTC\" } ``` Sender (untrusted metadata): ```json { \"label\": \"听风 (ou_1",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-19T19:04:13.704Z",
+      "lastRecalledAt": "2026-04-19T19:04:13.704Z",
+      "queryHashes": [
+        "c9fd66cc4843"
+      ],
+      "recallDays": [
+        "2026-04-19"
+      ],
+      "conceptTags": [
+        "message-id",
+        "sender-id",
+        "ou-1",
+        "user",
+        "conversation",
+        "info",
+        "untrusted",
+        "metadata"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-19.txt:6:6": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-19.txt:6:6",
+      "path": "memory/.dreams/session-corpus/2026-04-19.txt",
+      "startLine": 6,
+      "endLine": 6,
+      "source": "memory",
+      "snippet": "Assistant: 好的，来详细聊聊 TEE + 加密执行在 Skill 保护中的实现思路 🔐 ## TEE 核心原理 ``` ┌─────────────────────────────────────────────────────────────┐ │ 普通世界 (Rich OS) │ │ ┌─────────────┐ ┌─────────────┐ ┌─────────────┐ │ │ │ App A │ │ App B │ │ Agent Core │ │ │ └─────────────┘ └─────────────┘ └─────",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-19T19:04:13.704Z",
+      "lastRecalledAt": "2026-04-19T19:04:13.704Z",
+      "queryHashes": [
+        "c9fd66cc4843"
+      ],
+      "recallDays": [
+        "2026-04-19"
+      ],
+      "conceptTags": [
+        "assistant",
+        "好的",
+        "详细",
+        "聊聊",
+        "tee",
+        "加密",
+        "执行",
+        "skill"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-19.txt:7:7": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-19.txt:7:7",
+      "path": "memory/.dreams/session-corpus/2026-04-19.txt",
+      "startLine": 7,
+      "endLine": 7,
+      "source": "memory",
+      "snippet": "User: Conversation info (untrusted metadata): ```json { \"message_id\": \"om_x100b517d9753a0a8ee8cd53cb0bfa34\", \"sender_id\": \"ou_13190b75af6c015cd2975d6de047a6f1\", \"sender\": \"听风\", \"timestamp\": \"Sun 2026-04-19 09:17 UTC\" } ``` Sender (untrusted metadata): ```json { \"label\": \"听风 (ou_1",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-19T19:04:13.704Z",
+      "lastRecalledAt": "2026-04-19T19:04:13.704Z",
+      "queryHashes": [
+        "c9fd66cc4843"
+      ],
+      "recallDays": [
+        "2026-04-19"
+      ],
+      "conceptTags": [
+        "message-id",
+        "sender-id",
+        "ou-1",
+        "user",
+        "conversation",
+        "info",
+        "untrusted",
+        "metadata"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-19.txt:8:8": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-19.txt:8:8",
+      "path": "memory/.dreams/session-corpus/2026-04-19.txt",
+      "startLine": 8,
+      "endLine": 8,
+      "source": "memory",
+      "snippet": "User: Conversation info (untrusted metadata): ```json { \"message_id\": \"om_x100b517d9753a0a8ee8cd53cb0bfa34\", \"sender_id\": \"ou_13190b75af6c015cd2975d6de047a6f1\", \"sender\": \"听风\", \"timestamp\": \"Sun 2026-04-19 09:17 UTC\" } ``` Sender (untrusted metadata): ```json { \"label\": \"听风 (ou_1",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-19T19:04:13.704Z",
+      "lastRecalledAt": "2026-04-19T19:04:13.704Z",
+      "queryHashes": [
+        "c9fd66cc4843"
+      ],
+      "recallDays": [
+        "2026-04-19"
+      ],
+      "conceptTags": [
+        "message-id",
+        "sender-id",
+        "ou-1",
+        "user",
+        "conversation",
+        "info",
+        "untrusted",
+        "metadata"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-19.txt:9:9": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-19.txt:9:9",
+      "path": "memory/.dreams/session-corpus/2026-04-19.txt",
+      "startLine": 9,
+      "endLine": 9,
+      "source": "memory",
+      "snippet": "Assistant: 好的，我来给你创建一个完整的 HTML 文档，包含我们讨论的 TEE + 加密执行实现方案 📄",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-19T19:04:13.704Z",
+      "lastRecalledAt": "2026-04-19T19:04:13.704Z",
+      "queryHashes": [
+        "c9fd66cc4843"
+      ],
+      "recallDays": [
+        "2026-04-19"
+      ],
+      "conceptTags": [
+        "assistant",
+        "好的",
+        "我来",
+        "创建",
+        "一个",
+        "完整",
+        "html",
+        "包含"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-19.txt:10:10": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-19.txt:10:10",
+      "path": "memory/.dreams/session-corpus/2026-04-19.txt",
+      "startLine": 10,
+      "endLine": 10,
+      "source": "memory",
+      "snippet": "Assistant: 好的！HTML 文档已创建完成 📄 文件位置：`/home/node/.openclaw/workspace-codus/skill-tee.html` 这个文档包含了： - TEE 核心原理 - 主流方案对比 - 完整实现架构 - 工作流程 - 代码示例（TypeScript + C） - 远程证明流程 - 挑战与解决方案 你可以直接在浏览器打开这个 HTML 文件查看完整内容！",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-19T19:04:13.704Z",
+      "lastRecalledAt": "2026-04-19T19:04:13.704Z",
+      "queryHashes": [
+        "c9fd66cc4843"
+      ],
+      "recallDays": [
+        "2026-04-19"
+      ],
+      "conceptTags": [
+        "home/node",
+        "assistant",
+        "好的",
+        "html",
+        "创建",
+        "完成",
+        "文件",
+        "位置"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-19.txt:11:11": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-19.txt:11:11",
+      "path": "memory/.dreams/session-corpus/2026-04-19.txt",
+      "startLine": 11,
+      "endLine": 11,
+      "source": "memory",
+      "snippet": "User: Conversation info (untrusted metadata): ```json { \"message_id\": \"om_x100b517a3be854a4ee7e12a6472a9b4\", \"sender_id\": \"ou_13190b75af6c015cd2975d6de047a6f1\", \"sender\": \"听风\", \"timestamp\": \"Sun 2026-04-19 14:31 UTC\" } ``` Sender (untrusted metadata): ```json { \"label\": \"听风 (ou_1",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-19T19:04:13.704Z",
+      "lastRecalledAt": "2026-04-19T19:04:13.704Z",
+      "queryHashes": [
+        "c9fd66cc4843"
+      ],
+      "recallDays": [
+        "2026-04-19"
+      ],
+      "conceptTags": [
+        "message-id",
+        "sender-id",
+        "ou-1",
+        "user",
+        "conversation",
+        "info",
+        "untrusted",
+        "metadata"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-19.txt:12:12": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-19.txt:12:12",
+      "path": "memory/.dreams/session-corpus/2026-04-19.txt",
+      "startLine": 12,
+      "endLine": 12,
+      "source": "memory",
+      "snippet": "Assistant: 好的，我来给你一份更详细的 TEE + 加密执行实现方案，包括技术选型、核心机制和业务集成 🛠️",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-19T19:04:13.704Z",
+      "lastRecalledAt": "2026-04-19T19:04:13.704Z",
+      "queryHashes": [
+        "c9fd66cc4843"
+      ],
+      "recallDays": [
+        "2026-04-19"
+      ],
+      "conceptTags": [
+        "assistant",
+        "好的",
+        "我来",
+        "一份",
+        "详细",
+        "tee",
+        "加密",
+        "执行"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-19.txt:13:13": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-19.txt:13:13",
+      "path": "memory/.dreams/session-corpus/2026-04-19.txt",
+      "startLine": 13,
+      "endLine": 13,
+      "source": "memory",
+      "snippet": "Assistant: 好的！详细的 TEE + 加密执行实现方案已完成 📚 文件位置：`/home/node/.openclaw/workspace-codus/TEE_IMPLEMENTATION_DETAIL.md` ## 文档内容概览 ### 一、TEE 技术选型详解 - **推荐：Intel SGX** - 细粒度隔离、快速启动、云支持完善 - 详细对比 Intel SGX、AMD SEV、ARM TrustZone、Intel TDX - SGX + Graphene LibOS 组合（降低开发成本） ### 二、核心机制深度解析 - **内",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-19T19:04:13.704Z",
+      "lastRecalledAt": "2026-04-19T19:04:13.704Z",
+      "queryHashes": [
+        "c9fd66cc4843"
+      ],
+      "recallDays": [
+        "2026-04-19"
+      ],
+      "conceptTags": [
+        "home/node",
+        "assistant",
+        "好的",
+        "详细",
+        "tee",
+        "加密",
+        "执行",
+        "实现"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-19.txt:14:14": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-19.txt:14:14",
+      "path": "memory/.dreams/session-corpus/2026-04-19.txt",
+      "startLine": 14,
+      "endLine": 14,
+      "source": "memory",
+      "snippet": "User: Conversation info (untrusted metadata): ```json { \"message_id\": \"om_x100b517b5187a534ee7e66d04ed8738\", \"sender_id\": \"ou_13190b75af6c015cd2975d6de047a6f1\", \"sender\": \"听风\", \"timestamp\": \"Sun 2026-04-19 15:17 UTC\" } ``` Sender (untrusted metadata): ```json { \"label\": \"听风 (ou_1",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-19T19:04:13.704Z",
+      "lastRecalledAt": "2026-04-19T19:04:13.704Z",
+      "queryHashes": [
+        "c9fd66cc4843"
+      ],
+      "recallDays": [
+        "2026-04-19"
+      ],
+      "conceptTags": [
+        "message-id",
+        "sender-id",
+        "ou-1",
+        "user",
+        "conversation",
+        "info",
+        "untrusted",
+        "metadata"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-19.txt:15:15": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-19.txt:15:15",
+      "path": "memory/.dreams/session-corpus/2026-04-19.txt",
+      "startLine": 15,
+      "endLine": 15,
+      "source": "memory",
+      "snippet": "Assistant: 好的，我来帮你把 TEE 实现方案写到飞书文档里！ 首先让我查看一下飞书文档的操作技能：",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-19T19:04:13.704Z",
+      "lastRecalledAt": "2026-04-19T19:04:13.704Z",
+      "queryHashes": [
+        "c9fd66cc4843"
+      ],
+      "recallDays": [
+        "2026-04-19"
+      ],
+      "conceptTags": [
+        "assistant",
+        "好的",
+        "我来",
+        "tee",
+        "实现",
+        "方案",
+        "写到",
+        "首先"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-19.txt:16:16": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-19.txt:16:16",
+      "path": "memory/.dreams/session-corpus/2026-04-19.txt",
+      "startLine": 16,
+      "endLine": 16,
+      "source": "memory",
+      "snippet": "Assistant: 好的，我看到这个是飞书 Wiki 文档链接。让我先查看一下 Wiki 的操作技能：",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-19T19:04:13.704Z",
+      "lastRecalledAt": "2026-04-19T19:04:13.704Z",
+      "queryHashes": [
+        "c9fd66cc4843"
+      ],
+      "recallDays": [
+        "2026-04-19"
+      ],
+      "conceptTags": [
+        "assistant",
+        "好的",
+        "我看到",
+        "这个",
+        "wiki",
+        "我先",
+        "查看",
+        "一下"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-19.txt:17:17": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-19.txt:17:17",
+      "path": "memory/.dreams/session-corpus/2026-04-19.txt",
+      "startLine": 17,
+      "endLine": 17,
+      "source": "memory",
+      "snippet": "User: [Sun 2026-04-19 15:18 UTC] [Subagent Context] You are running as a subagent (depth 1/2). Results auto-announce to your requester; do not busy-poll for status. [Subagent Task]: 我需要写入一个很长的文档到飞书 Wiki，内容是关于 TEE + 加密执行的详细实现方案。这个文档有几万字，包含大量代码示例和表格。请先调用 feishu_wiki action=get 获取 t",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-19T19:04:13.704Z",
+      "lastRecalledAt": "2026-04-19T19:04:13.704Z",
+      "queryHashes": [
+        "c9fd66cc4843"
+      ],
+      "recallDays": [
+        "2026-04-19"
+      ],
+      "conceptTags": [
+        "1/2",
+        "auto-announce",
+        "busy-poll",
+        "feishu-wiki",
+        "user",
+        "sun",
+        "utc",
+        "subagent"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-19.txt:18:18": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-19.txt:18:18",
+      "path": "memory/.dreams/session-corpus/2026-04-19.txt",
+      "startLine": 18,
+      "endLine": 18,
+      "source": "memory",
+      "snippet": "Assistant: 我理解任务：先获取 Wiki 的 obj_token，然后等待你提供完整的 Markdown 内容后再写入。 让我先获取 Wiki 的 obj_token：",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-19T19:04:13.704Z",
+      "lastRecalledAt": "2026-04-19T19:04:13.704Z",
+      "queryHashes": [
+        "c9fd66cc4843"
+      ],
+      "recallDays": [
+        "2026-04-19"
+      ],
+      "conceptTags": [
+        "obj-token",
+        "assistant",
+        "理解",
+        "任务",
+        "获取",
+        "wiki",
+        "然后",
+        "等待"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-19.txt:19:19": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-19.txt:19:19",
+      "path": "memory/.dreams/session-corpus/2026-04-19.txt",
+      "startLine": 19,
+      "endLine": 19,
+      "source": "memory",
+      "snippet": "Assistant: 让我检查命令的用法：",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-19T19:04:13.704Z",
+      "lastRecalledAt": "2026-04-19T19:04:13.704Z",
+      "queryHashes": [
+        "c9fd66cc4843"
+      ],
+      "recallDays": [
+        "2026-04-19"
+      ],
+      "conceptTags": [
+        "assistant",
+        "检查",
+        "命令",
+        "用法"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-19.txt:20:20": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-19.txt:20:20",
+      "path": "memory/.dreams/session-corpus/2026-04-19.txt",
+      "startLine": 20,
+      "endLine": 20,
+      "source": "memory",
+      "snippet": "Assistant: 找到问题了！需要在配置中启用 `feishu-wiki` 插件。让我添加配置：",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-19T19:04:13.704Z",
+      "lastRecalledAt": "2026-04-19T19:04:13.704Z",
+      "queryHashes": [
+        "c9fd66cc4843"
+      ],
+      "recallDays": [
+        "2026-04-19"
+      ],
+      "conceptTags": [
+        "feishu-wiki",
+        "assistant",
+        "找到",
+        "问题",
+        "需要",
+        "配置",
+        "启用",
+        "feishu"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-19.txt:21:21": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-19.txt:21:21",
+      "path": "memory/.dreams/session-corpus/2026-04-19.txt",
+      "startLine": 21,
+      "endLine": 21,
+      "source": "memory",
+      "snippet": "Assistant: 配置文件被破坏了，让我修复：",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-19T19:04:13.704Z",
+      "lastRecalledAt": "2026-04-19T19:04:13.704Z",
+      "queryHashes": [
+        "c9fd66cc4843"
+      ],
+      "recallDays": [
+        "2026-04-19"
+      ],
+      "conceptTags": [
+        "assistant",
+        "配置",
+        "文件",
+        "破坏",
+        "修复"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-19.txt:22:22": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-19.txt:22:22",
+      "path": "memory/.dreams/session-corpus/2026-04-19.txt",
+      "startLine": 22,
+      "endLine": 22,
+      "source": "memory",
+      "snippet": "Assistant: 我现在理解了：feishu-wiki 和 feishu-doc 是作为 feishu 插件的工具注册的，不是有独立的 CLI 命令。让我尝试直接调用这些工具。 根据 SKILL.md，我需要： 1. 调用 `feishu_wiki` 工具获取 obj_token 2. 使用 `feishu_doc` 工具写入内容 让我尝试调用 feishu_wiki 工具：",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-19T19:04:13.704Z",
+      "lastRecalledAt": "2026-04-19T19:04:13.704Z",
+      "queryHashes": [
+        "c9fd66cc4843"
+      ],
+      "recallDays": [
+        "2026-04-19"
+      ],
+      "conceptTags": [
+        "feishu-wiki",
+        "feishu-doc",
+        "skill.md",
+        "obj-token",
+        "assistant",
+        "现在",
+        "理解",
+        "feishu"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-19.txt:23:23": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-19.txt:23:23",
+      "path": "memory/.dreams/session-corpus/2026-04-19.txt",
+      "startLine": 23,
+      "endLine": 23,
+      "source": "memory",
+      "snippet": "Assistant: 让我尝试一个更直接的方法 - 等待飞书通道的 gateway 响应：",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-19T19:04:13.704Z",
+      "lastRecalledAt": "2026-04-19T19:04:13.704Z",
+      "queryHashes": [
+        "c9fd66cc4843"
+      ],
+      "recallDays": [
+        "2026-04-19"
+      ],
+      "conceptTags": [
+        "gateway",
+        "assistant",
+        "尝试",
+        "一个",
+        "直接",
+        "方法",
+        "等待",
+        "通道"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-19.txt:24:24": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-19.txt:24:24",
+      "path": "memory/.dreams/session-corpus/2026-04-19.txt",
+      "startLine": 24,
+      "endLine": 24,
+      "source": "memory",
+      "snippet": "Assistant: 让我尝试在后台启动 gateway，然后等待它就绪：",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-19T19:04:13.704Z",
+      "lastRecalledAt": "2026-04-19T19:04:13.704Z",
+      "queryHashes": [
+        "c9fd66cc4843"
+      ],
+      "recallDays": [
+        "2026-04-19"
+      ],
+      "conceptTags": [
+        "gateway",
+        "assistant",
+        "尝试",
+        "后台",
+        "启动",
+        "然后",
+        "等待",
+        "就绪"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-19.txt:25:25": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-19.txt:25:25",
+      "path": "memory/.dreams/session-corpus/2026-04-19.txt",
+      "startLine": 25,
+      "endLine": 25,
+      "source": "memory",
+      "snippet": "Assistant: CLI 工具似乎有问题。让我尝试一个不同的方法——直接通过 gateway WebSocket 调用：",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-19T19:04:13.704Z",
+      "lastRecalledAt": "2026-04-19T19:04:13.704Z",
+      "queryHashes": [
+        "c9fd66cc4843"
+      ],
+      "recallDays": [
+        "2026-04-19"
+      ],
+      "conceptTags": [
+        "gateway",
+        "assistant",
+        "cli",
+        "工具",
+        "似乎",
+        "问题",
+        "尝试",
+        "一个"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-19.txt:26:26": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-19.txt:26:26",
+      "path": "memory/.dreams/session-corpus/2026-04-19.txt",
+      "startLine": 26,
+      "endLine": 26,
+      "source": "memory",
+      "snippet": "User: Continue where you left off. The previous model attempt failed or timed out.",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-19T19:04:13.704Z",
+      "lastRecalledAt": "2026-04-19T19:04:13.704Z",
+      "queryHashes": [
+        "c9fd66cc4843"
+      ],
+      "recallDays": [
+        "2026-04-19"
+      ],
+      "conceptTags": [
+        "user",
+        "continue",
+        "where",
+        "you",
+        "left",
+        "off",
+        "the",
+        "previous"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-19.txt:27:27": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-19.txt:27:27",
+      "path": "memory/.dreams/session-corpus/2026-04-19.txt",
+      "startLine": 27,
+      "endLine": 27,
+      "source": "memory",
+      "snippet": "Assistant: 我理解情况了。目前子 agent 环境中直接调用 feishu_wiki 和 feishu_doc 工具遇到了一些技术限制。 **方案一：直接提供 obj_token** 如果你已经知道 Wiki 页面对应的 obj_token（doc_token），可以直接提供给我，然后我等待你提供 Markdown 内容后就可以直接写入。 **方案二：在主会话中处理** 或者，我们可以在主 agent 会话中重新进行这个操作，那里应该有完整的 feishu_wiki 和 feishu_doc 工具可用。 请告诉我你希望采用哪种方式，或者提供 o",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-19T19:04:13.704Z",
+      "lastRecalledAt": "2026-04-19T19:04:13.704Z",
+      "queryHashes": [
+        "c9fd66cc4843"
+      ],
+      "recallDays": [
+        "2026-04-19"
+      ],
+      "conceptTags": [
+        "feishu-wiki",
+        "feishu-doc",
+        "obj-token",
+        "doc-token",
+        "assistant",
+        "理解",
+        "情况",
+        "目前"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-19.txt:28:28": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-19.txt:28:28",
+      "path": "memory/.dreams/session-corpus/2026-04-19.txt",
+      "startLine": 28,
+      "endLine": 28,
+      "source": "memory",
+      "snippet": "User: Conversation info (untrusted metadata): ```json { \"message_id\": \"om_x100b51725f3604a0eea7d697564d90f\", \"sender_id\": \"ou_13190b75af6c015cd2975d6de047a6f1\", \"sender\": \"听风\", \"timestamp\": \"Sun 2026-04-19 04:59 UTC\" } ``` Sender (untrusted metadata): ```json { \"label\": \"听风 (ou_1",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-19T19:04:13.704Z",
+      "lastRecalledAt": "2026-04-19T19:04:13.704Z",
+      "queryHashes": [
+        "c9fd66cc4843"
+      ],
+      "recallDays": [
+        "2026-04-19"
+      ],
+      "conceptTags": [
+        "message-id",
+        "sender-id",
+        "ou-1",
+        "user",
+        "conversation",
+        "info",
+        "untrusted",
+        "metadata"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-19.txt:29:29": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-19.txt:29:29",
+      "path": "memory/.dreams/session-corpus/2026-04-19.txt",
+      "startLine": 29,
+      "endLine": 29,
+      "source": "memory",
+      "snippet": "Assistant: 找到了 NVIDIA 配置！让我查看具体的模型列表：",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-19T19:04:13.704Z",
+      "lastRecalledAt": "2026-04-19T19:04:13.704Z",
+      "queryHashes": [
+        "c9fd66cc4843"
+      ],
+      "recallDays": [
+        "2026-04-19"
+      ],
+      "conceptTags": [
+        "assistant",
+        "找到",
+        "nvidia",
+        "配置",
+        "查看",
+        "具体",
+        "模型",
+        "列表"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-19.txt:30:30": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-19.txt:30:30",
+      "path": "memory/.dreams/session-corpus/2026-04-19.txt",
+      "startLine": 30,
+      "endLine": 30,
+      "source": "memory",
+      "snippet": "Assistant: 找到 2 个 NVIDIA 模型！让我测试是否可用： **已配置的 NVIDIA 模型：** 1. `nvidia/minimaxai/minimax-m2.7` - MiniMax M2.7 (200K context) 2. `nvidia/google/gemma-3n-e4b-it` - Google Gemma 3N E4B IT (32K context) 测试可用性：",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-19T19:04:13.704Z",
+      "lastRecalledAt": "2026-04-19T19:04:13.704Z",
+      "queryHashes": [
+        "c9fd66cc4843"
+      ],
+      "recallDays": [
+        "2026-04-19"
+      ],
+      "conceptTags": [
+        "nvidia/minimaxai/minimax-m2.7",
+        "m2.7",
+        "nvidia/google/gemma-3n-e4b-it",
+        "assistant",
+        "找到",
+        "nvidia",
+        "模型",
+        "测试"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-19.txt:31:31": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-19.txt:31:31",
+      "path": "memory/.dreams/session-corpus/2026-04-19.txt",
+      "startLine": 31,
+      "endLine": 31,
+      "source": "memory",
+      "snippet": "Assistant: API 连接成功！现在验证配置的模型是否可用，并测试实际调用：",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-19T19:04:13.704Z",
+      "lastRecalledAt": "2026-04-19T19:04:13.704Z",
+      "queryHashes": [
+        "c9fd66cc4843"
+      ],
+      "recallDays": [
+        "2026-04-19"
+      ],
+      "conceptTags": [
+        "assistant",
+        "api",
+        "连接",
+        "成功",
+        "现在",
+        "验证",
+        "配置",
+        "模型"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-19.txt:32:32": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-19.txt:32:32",
+      "path": "memory/.dreams/session-corpus/2026-04-19.txt",
+      "startLine": 32,
+      "endLine": 32,
+      "source": "memory",
+      "snippet": "Assistant: 🎉 **NVIDIA 模型测试结果：全部可用！** | 模型 | 状态 | Context | Reasoning | |------|------|---------|-----------| | `nvidia/minimaxai/minimax-m2.7` | ✅ 可用 | 200K | ✅ | | `nvidia/google/gemma-3n-e4b-it` | ✅ 可用 | 32K | ✅ | 另外发现 NVIDIA API 还有许多其他可用模型，如： - **Llama 系列**: llama-3.1-405b, l",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-19T19:04:13.704Z",
+      "lastRecalledAt": "2026-04-19T19:04:13.704Z",
+      "queryHashes": [
+        "c9fd66cc4843"
+      ],
+      "recallDays": [
+        "2026-04-19"
+      ],
+      "conceptTags": [
+        "nvidia/minimaxai/minimax-m2.7",
+        "nvidia/google/gemma-3n-e4b-it",
+        "llama-3.1-405b",
+        "assistant",
+        "nvidia",
+        "模型",
+        "测试",
+        "结果"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-19.txt:33:33": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-19.txt:33:33",
+      "path": "memory/.dreams/session-corpus/2026-04-19.txt",
+      "startLine": 33,
+      "endLine": 33,
+      "source": "memory",
+      "snippet": "User: System (untrusted): [2026-04-19 05:00:12 UTC] Exec failed (mellow-c, signal SIGTERM) System (untrusted): [2026-04-19 05:01:30 UTC] Exec completed (mellow-g, code 0) :: === 测试 MiniMax M2.7 === ✅ 可用 Conversation info (untrusted metadata): ```json { \"message_id\": \"om_x100b5172",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-19T19:04:13.704Z",
+      "lastRecalledAt": "2026-04-19T19:04:13.704Z",
+      "queryHashes": [
+        "c9fd66cc4843"
+      ],
+      "recallDays": [
+        "2026-04-19"
+      ],
+      "conceptTags": [
+        "mellow-c",
+        "mellow-g",
+        "m2.7",
+        "message-id",
+        "om-x100b5172",
+        "user",
+        "system",
+        "untrusted"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-19.txt:34:34": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-19.txt:34:34",
+      "path": "memory/.dreams/session-corpus/2026-04-19.txt",
+      "startLine": 34,
+      "endLine": 34,
+      "source": "memory",
+      "snippet": "Assistant: 其实刚才已经通过 API 查询到了！让我再演示一下： ```bash curl https://integrate.api.nvidia.com/v1/models \\ -H \"Authorization: Bearer <你的API_KEY>\" ``` 这个请求返回了 **98 个可用模型**的完整列表，我之前贴出的那一长串模型名就是从 API 返回结果中提取的。 你当前 `openclaw.json` 里只配置了 2 个 NVIDIA 模型（MiniMax M2.7 和 Gemma 3N），但 API 实际上支持更多。 需要我帮",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-19T19:04:13.704Z",
+      "lastRecalledAt": "2026-04-19T19:04:13.704Z",
+      "queryHashes": [
+        "c9fd66cc4843"
+      ],
+      "recallDays": [
+        "2026-04-19"
+      ],
+      "conceptTags": [
+        "你的api-key",
+        "openclaw.json",
+        "m2.7",
+        "assistant",
+        "其实",
+        "刚才",
+        "已经",
+        "通过"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-19.txt:35:35": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-19.txt:35:35",
+      "path": "memory/.dreams/session-corpus/2026-04-19.txt",
+      "startLine": 35,
+      "endLine": 35,
+      "source": "memory",
+      "snippet": "User: Conversation info (untrusted metadata): ```json { \"message_id\": \"om_x100b51726d5cdca0ee87290956e64cd\", \"sender_id\": \"ou_13190b75af6c015cd2975d6de047a6f1\", \"sender\": \"听风\", \"timestamp\": \"Sun 2026-04-19 05:03 UTC\" } ``` Sender (untrusted metadata): ```json { \"label\": \"听风 (ou_1",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-19T19:04:13.704Z",
+      "lastRecalledAt": "2026-04-19T19:04:13.704Z",
+      "queryHashes": [
+        "c9fd66cc4843"
+      ],
+      "recallDays": [
+        "2026-04-19"
+      ],
+      "conceptTags": [
+        "message-id",
+        "sender-id",
+        "ou-1",
+        "user",
+        "conversation",
+        "info",
+        "untrusted",
+        "metadata"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-19.txt:36:36": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-19.txt:36:36",
+      "path": "memory/.dreams/session-corpus/2026-04-19.txt",
+      "startLine": 36,
+      "endLine": 36,
+      "source": "memory",
+      "snippet": "Assistant: 根据搜索结果，总结这两个多模态模型的能力： --- ## 🖼️ Llama 3.2 90B Vision | 特性 | 说明 | |------|------| | **开发者** | Meta | | **参数** | 90B | | **输入** | 文本 + 图像 | | **输出** | 文本 | **核心能力：** - 📄 **文档理解** - 图表、图形、PDF 内容理解 - 🏷️ **图像 captioning** - 生成图片描述 - 🎯 **视觉定位** - 根据自然语言描述定位图像中的物体 - 🔍 **",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-19T19:04:13.704Z",
+      "lastRecalledAt": "2026-04-19T19:04:13.704Z",
+      "queryHashes": [
+        "c9fd66cc4843"
+      ],
+      "recallDays": [
+        "2026-04-19"
+      ],
+      "conceptTags": [
+        "3.2",
+        "assistant",
+        "根据",
+        "搜索",
+        "结果",
+        "总结",
+        "模型",
+        "能力"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-19.txt:37:37": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-19.txt:37:37",
+      "path": "memory/.dreams/session-corpus/2026-04-19.txt",
+      "startLine": 37,
+      "endLine": 37,
+      "source": "memory",
+      "snippet": "User: Conversation info (untrusted metadata): ```json { \"message_id\": \"om_x100b5172766074a0ee781a9d7358f08\", \"reply_to_id\": \"om_x100b51726b72e0a8ee7ce70a2d619d6\", \"sender_id\": \"ou_13190b75af6c015cd2975d6de047a6f1\", \"sender\": \"听风\", \"timestamp\": \"Sun 2026-04-19 05:09 UTC\", \"has_rep",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-19T19:04:13.704Z",
+      "lastRecalledAt": "2026-04-19T19:04:13.704Z",
+      "queryHashes": [
+        "c9fd66cc4843"
+      ],
+      "recallDays": [
+        "2026-04-19"
+      ],
+      "conceptTags": [
+        "message-id",
+        "reply-to-id",
+        "sender-id",
+        "has-rep",
+        "user",
+        "conversation",
+        "info",
+        "untrusted"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-19.txt:38:38": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-19.txt:38:38",
+      "path": "memory/.dreams/session-corpus/2026-04-19.txt",
+      "startLine": 38,
+      "endLine": 38,
+      "source": "memory",
+      "snippet": "Assistant: 基于模型列表和评测数据，我帮你挑 5 个最有特色的： --- ## 🎯 精选 5 强 | # | 模型 | 特色 | 推荐理由 | |---|------|------|----------| | 1 | **nvidia/nemotron-4-340b-instruct** | 🔥 NVIDIA 旗舰 | 340B 参数，目前最大最强，适合复杂推理 | | 2 | **meta/llama-4-maverick-17b-128e-instruct** | 🦙 Llama 4 最新 | 128 个专家的 MoE架构，效率极高",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-19T19:04:13.704Z",
+      "lastRecalledAt": "2026-04-19T19:04:13.704Z",
+      "queryHashes": [
+        "c9fd66cc4843"
+      ],
+      "recallDays": [
+        "2026-04-19"
+      ],
+      "conceptTags": [
+        "nvidia/nemotron-4-340b-instruct",
+        "assistant",
+        "基于",
+        "模型",
+        "列表",
+        "数据",
+        "最有",
+        "特色"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-19.txt:39:39": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-19.txt:39:39",
+      "path": "memory/.dreams/session-corpus/2026-04-19.txt",
+      "startLine": 39,
+      "endLine": 39,
+      "source": "memory",
+      "snippet": "User: Conversation info (untrusted metadata): ```json { \"message_id\": \"om_x100b51720bf6b4a0ee84981cbbccb23\", \"sender_id\": \"ou_13190b75af6c015cd2975d6de047a6f1\", \"sender\": \"听风\", \"timestamp\": \"Sun 2026-04-19 05:12 UTC\" } ``` Sender (untrusted metadata): ```json { \"label\": \"听风 (ou_1",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-19T19:04:13.704Z",
+      "lastRecalledAt": "2026-04-19T19:04:13.704Z",
+      "queryHashes": [
+        "c9fd66cc4843"
+      ],
+      "recallDays": [
+        "2026-04-19"
+      ],
+      "conceptTags": [
+        "message-id",
+        "sender-id",
+        "ou-1",
+        "user",
+        "conversation",
+        "info",
+        "untrusted",
+        "metadata"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-19.txt:40:40": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-19.txt:40:40",
+      "path": "memory/.dreams/session-corpus/2026-04-19.txt",
+      "startLine": 40,
+      "endLine": 40,
+      "source": "memory",
+      "snippet": "Assistant: 好问题！让我实测验证一下：",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-19T19:04:13.704Z",
+      "lastRecalledAt": "2026-04-19T19:04:13.704Z",
+      "queryHashes": [
+        "c9fd66cc4843"
+      ],
+      "recallDays": [
+        "2026-04-19"
+      ],
+      "conceptTags": [
+        "assistant",
+        "问题",
+        "验证",
+        "一下"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-19.txt:41:41": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-19.txt:41:41",
+      "path": "memory/.dreams/session-corpus/2026-04-19.txt",
+      "startLine": 41,
+      "endLine": 41,
+      "source": "memory",
+      "snippet": "Assistant: 实测结果： | 模型 | 状态 | |------|------| | MiniMax M2.7 | ✅ 已测试可用 | | Llama 4 Maverick | ✅ 可用 | | Nemotron Super 49B | ✅ 可用 | | Kimi K2 Thinking | ✅ 可用 | | Nemotron-4-340B | ❌ 不可用 (404) | --- **🎉 你当前的 API 免费可用且最有特色的 5 个模型：** | # | 模型 | 特色 | |---|------|------| | 1 | **meta/l",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-19T19:04:13.704Z",
+      "lastRecalledAt": "2026-04-19T19:04:13.704Z",
+      "queryHashes": [
+        "c9fd66cc4843"
+      ],
+      "recallDays": [
+        "2026-04-19"
+      ],
+      "conceptTags": [
+        "m2.7",
+        "nemotron-4-340b",
+        "meta/l",
+        "assistant",
+        "结果",
+        "模型",
+        "状态",
+        "minimax"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-19.txt:42:42": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-19.txt:42:42",
+      "path": "memory/.dreams/session-corpus/2026-04-19.txt",
+      "startLine": 42,
+      "endLine": 42,
+      "source": "memory",
+      "snippet": "User: System (untrusted): [2026-04-19 05:13:36 UTC] Exec completed (kind-ced, code 0) :: === 测试 Llama 4 Maverick === ✅ 可用 === 测试 Nemotron Super 49B === ✅ 可用 === 测试 Kimi K2 Thinking === ✅ 可用 Conversation info (untrusted metadata): ```json { \"message_id\": \"om_x100b51721c97a8a0eea5b",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-19T19:04:13.704Z",
+      "lastRecalledAt": "2026-04-19T19:04:13.704Z",
+      "queryHashes": [
+        "c9fd66cc4843"
+      ],
+      "recallDays": [
+        "2026-04-19"
+      ],
+      "conceptTags": [
+        "kind-ced",
+        "message-id",
+        "om-x100b51721c97a8a0eea5b",
+        "user",
+        "system",
+        "untrusted",
+        "utc",
+        "exec"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-19.txt:43:43": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-19.txt:43:43",
+      "path": "memory/.dreams/session-corpus/2026-04-19.txt",
+      "startLine": 43,
+      "endLine": 43,
+      "source": "memory",
+      "snippet": "Assistant: ✅ **已添加到 NVIDIA provider：** | # | 模型 ID | 名称 | |---|---------|------| | 1 | `meta/llama-4-maverick-17b-128e-instruct` | Llama 4 Maverick | | 2 | `nvidia/llama-3.3-nemotron-super-49b-v1.5` | Nemotron Super 49B | | 3 | `moonshotai/kimi-k2-thinking` | Kimi K2 Thinking | |",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-19T19:04:13.704Z",
+      "lastRecalledAt": "2026-04-19T19:04:13.704Z",
+      "queryHashes": [
+        "c9fd66cc4843"
+      ],
+      "recallDays": [
+        "2026-04-19"
+      ],
+      "conceptTags": [
+        "moonshotai/kimi-k2-thinking",
+        "assistant",
+        "添加",
+        "nvidia",
+        "provider",
+        "模型",
+        "名称",
+        "meta"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-19.txt:44:44": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-19.txt:44:44",
+      "path": "memory/.dreams/session-corpus/2026-04-19.txt",
+      "startLine": 44,
+      "endLine": 44,
+      "source": "memory",
+      "snippet": "Assistant: 好的！我看到这是一个飞书 Wiki 文档。让我先获取文档信息，然后把 TEE 实现方案写进去。",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-19T19:04:13.704Z",
+      "lastRecalledAt": "2026-04-19T19:04:13.704Z",
+      "queryHashes": [
+        "c9fd66cc4843"
+      ],
+      "recallDays": [
+        "2026-04-19"
+      ],
+      "conceptTags": [
+        "assistant",
+        "好的",
+        "我看到",
+        "一个",
+        "wiki",
+        "我先",
+        "获取",
+        "信息"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-19.txt:45:45": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-19.txt:45:45",
+      "path": "memory/.dreams/session-corpus/2026-04-19.txt",
+      "startLine": 45,
+      "endLine": 45,
+      "source": "memory",
+      "snippet": "Assistant: 好的，让我先读取我们刚才创建的 TEE 实现文档内容，然后写入飞书 Wiki：",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-19T19:04:13.704Z",
+      "lastRecalledAt": "2026-04-19T19:04:13.704Z",
+      "queryHashes": [
+        "c9fd66cc4843"
+      ],
+      "recallDays": [
+        "2026-04-19"
+      ],
+      "conceptTags": [
+        "assistant",
+        "好的",
+        "先读",
+        "我们",
+        "刚才",
+        "创建",
+        "tee",
+        "实现"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-19.txt:46:46": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-19.txt:46:46",
+      "path": "memory/.dreams/session-corpus/2026-04-19.txt",
+      "startLine": 46,
+      "endLine": 46,
+      "source": "memory",
+      "snippet": "Assistant: 现在让我使用飞书工具获取文档信息，然后写入内容：",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-19T19:04:13.704Z",
+      "lastRecalledAt": "2026-04-19T19:04:13.704Z",
+      "queryHashes": [
+        "c9fd66cc4843"
+      ],
+      "recallDays": [
+        "2026-04-19"
+      ],
+      "conceptTags": [
+        "assistant",
+        "现在",
+        "使用",
+        "工具",
+        "获取",
+        "信息",
+        "然后",
+        "内容"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-19.txt:47:47": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-19.txt:47:47",
+      "path": "memory/.dreams/session-corpus/2026-04-19.txt",
+      "startLine": 47,
+      "endLine": 47,
+      "source": "memory",
+      "snippet": "Assistant: 让我查看一下当前环境，了解如何正确调用飞书工具：",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-19T19:04:13.704Z",
+      "lastRecalledAt": "2026-04-19T19:04:13.704Z",
+      "queryHashes": [
+        "c9fd66cc4843"
+      ],
+      "recallDays": [
+        "2026-04-19"
+      ],
+      "conceptTags": [
+        "assistant",
+        "查看",
+        "一下",
+        "当前",
+        "环境",
+        "了解",
+        "如何",
+        "正确"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-19.txt:48:48": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-19.txt:48:48",
+      "path": "memory/.dreams/session-corpus/2026-04-19.txt",
+      "startLine": 48,
+      "endLine": 48,
+      "source": "memory",
+      "snippet": "Assistant: 让我查看一下 OpenClaw 的工具配置：",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-19T19:04:13.704Z",
+      "lastRecalledAt": "2026-04-19T19:04:13.704Z",
+      "queryHashes": [
+        "c9fd66cc4843"
+      ],
+      "recallDays": [
+        "2026-04-19"
+      ],
+      "conceptTags": [
+        "assistant",
+        "查看",
+        "一下",
+        "openclaw",
+        "工具",
+        "配置"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-19.txt:49:49": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-19.txt:49:49",
+      "path": "memory/.dreams/session-corpus/2026-04-19.txt",
+      "startLine": 49,
+      "endLine": 49,
+      "source": "memory",
+      "snippet": "Assistant: 好的，我了解了。目前我无法直接调用飞书 API 来自动写入文档。不过我已经把完整的 TEE 实现方案准备好了！ ## 📄 方案文档已准备好 **文件位置：** `/home/node/.openclaw/workspace-codus/TEE_IMPLEMENTATION_DETAIL.md` 你可以： 1. **手动复制** - 打开这个文件，全选复制，然后粘贴到飞书文档里 2. **或者使用浏览器打开** - 我也创建了 HTML 版本：`/home/node/.openclaw/workspace-codus/skill-t",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-19T19:04:13.704Z",
+      "lastRecalledAt": "2026-04-19T19:04:13.704Z",
+      "queryHashes": [
+        "c9fd66cc4843"
+      ],
+      "recallDays": [
+        "2026-04-19"
+      ],
+      "conceptTags": [
+        "home/node",
+        "openclaw/workspace-codus/skill-t",
+        "assistant",
+        "好的",
+        "了解",
+        "目前",
+        "无法",
+        "直接"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-19.txt:50:50": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-19.txt:50:50",
+      "path": "memory/.dreams/session-corpus/2026-04-19.txt",
+      "startLine": 50,
+      "endLine": 50,
+      "source": "memory",
+      "snippet": "User: Conversation info (untrusted metadata): ```json { \"message_id\": \"om_x100b517b0204dca8ee8cff17d0b68c4\", \"sender_id\": \"ou_13190b75af6c015cd2975d6de047a6f1\", \"sender\": \"听风\", \"timestamp\": \"Sun 2026-04-19 15:29 UTC\" } ``` Sender (untrusted metadata): ```json { \"label\": \"听风 (ou_1",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-19T19:04:13.704Z",
+      "lastRecalledAt": "2026-04-19T19:04:13.704Z",
+      "queryHashes": [
+        "c9fd66cc4843"
+      ],
+      "recallDays": [
+        "2026-04-19"
+      ],
+      "conceptTags": [
+        "message-id",
+        "sender-id",
+        "ou-1",
+        "user",
+        "conversation",
+        "info",
+        "untrusted",
+        "metadata"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-19.txt:51:51": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-19.txt:51:51",
+      "path": "memory/.dreams/session-corpus/2026-04-19.txt",
+      "startLine": 51,
+      "endLine": 51,
+      "source": "memory",
+      "snippet": "Assistant: 好的！我来给你一个详细的 **TEE + 加密执行原型搭建指南** 🚀 ## 原型搭建路线图 ### 阶段 1：环境准备（不依赖真实 SGX 硬件） ### 阶段 2：最小原型（仿真模式） ### 阶段 3：业务集成 ### 阶段 4：真实硬件部署 --- ## 阶段 1：环境准备 先创建一个项目结构：",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-19T19:04:13.704Z",
+      "lastRecalledAt": "2026-04-19T19:04:13.704Z",
+      "queryHashes": [
+        "c9fd66cc4843"
+      ],
+      "recallDays": [
+        "2026-04-19"
+      ],
+      "conceptTags": [
+        "assistant",
+        "好的",
+        "我来",
+        "一个",
+        "详细",
+        "tee",
+        "加密",
+        "执行"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-19.txt:52:52": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-19.txt:52:52",
+      "path": "memory/.dreams/session-corpus/2026-04-19.txt",
+      "startLine": 52,
+      "endLine": 52,
+      "source": "memory",
+      "snippet": "Assistant: 好的！现在让我为你创建一个完整的原型项目结构：",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-19T19:04:13.704Z",
+      "lastRecalledAt": "2026-04-19T19:04:13.704Z",
+      "queryHashes": [
+        "c9fd66cc4843"
+      ],
+      "recallDays": [
+        "2026-04-19"
+      ],
+      "conceptTags": [
+        "assistant",
+        "好的",
+        "现在",
+        "创建",
+        "一个",
+        "完整",
+        "原型",
+        "项目"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-19.txt:53:53": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-19.txt:53:53",
+      "path": "memory/.dreams/session-corpus/2026-04-19.txt",
+      "startLine": 53,
+      "endLine": 53,
+      "source": "memory",
+      "snippet": "Assistant: 现在让我创建仿真模式的 TEE 实现（无需真实 SGX 硬件）：",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-19T19:04:13.704Z",
+      "lastRecalledAt": "2026-04-19T19:04:13.704Z",
+      "queryHashes": [
+        "c9fd66cc4843"
+      ],
+      "recallDays": [
+        "2026-04-19"
+      ],
+      "conceptTags": [
+        "assistant",
+        "现在",
+        "创建",
+        "仿真",
+        "模式",
+        "tee",
+        "实现",
+        "真实"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-19.txt:54:54": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-19.txt:54:54",
+      "path": "memory/.dreams/session-corpus/2026-04-19.txt",
+      "startLine": 54,
+      "endLine": 54,
+      "source": "memory",
+      "snippet": "Assistant: 现在让我创建智能合约部分：",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-19T19:04:13.704Z",
+      "lastRecalledAt": "2026-04-19T19:04:13.704Z",
+      "queryHashes": [
+        "c9fd66cc4843"
+      ],
+      "recallDays": [
+        "2026-04-19"
+      ],
+      "conceptTags": [
+        "assistant",
+        "现在",
+        "创建",
+        "智能",
+        "合约",
+        "部分"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-19.txt:55:55": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-19.txt:55:55",
+      "path": "memory/.dreams/session-corpus/2026-04-19.txt",
+      "startLine": 55,
+      "endLine": 55,
+      "source": "memory",
+      "snippet": "Assistant: 现在让我创建后端服务：",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-19T19:04:13.704Z",
+      "lastRecalledAt": "2026-04-19T19:04:13.704Z",
+      "queryHashes": [
+        "c9fd66cc4843"
+      ],
+      "recallDays": [
+        "2026-04-19"
+      ],
+      "conceptTags": [
+        "assistant",
+        "现在",
+        "创建",
+        "服务"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-19.txt:56:56": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-19.txt:56:56",
+      "path": "memory/.dreams/session-corpus/2026-04-19.txt",
+      "startLine": 56,
+      "endLine": 56,
+      "source": "memory",
+      "snippet": "Assistant: 现在让我创建演示脚本和部署脚本：",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-19T19:04:13.704Z",
+      "lastRecalledAt": "2026-04-19T19:04:13.704Z",
+      "queryHashes": [
+        "c9fd66cc4843"
+      ],
+      "recallDays": [
+        "2026-04-19"
+      ],
+      "conceptTags": [
+        "assistant",
+        "现在",
+        "创建",
+        "演示",
+        "脚本",
+        "部署"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-19.txt:57:57": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-19.txt:57:57",
+      "path": "memory/.dreams/session-corpus/2026-04-19.txt",
+      "startLine": 57,
+      "endLine": 57,
+      "source": "memory",
+      "snippet": "Assistant: 现在让我创建 Foundry 配置和环境配置：",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-19T19:04:13.704Z",
+      "lastRecalledAt": "2026-04-19T19:04:13.704Z",
+      "queryHashes": [
+        "c9fd66cc4843"
+      ],
+      "recallDays": [
+        "2026-04-19"
+      ],
+      "conceptTags": [
+        "assistant",
+        "现在",
+        "创建",
+        "foundry",
+        "配置",
+        "环境"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-19.txt:58:58": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-19.txt:58:58",
+      "path": "memory/.dreams/session-corpus/2026-04-19.txt",
+      "startLine": 58,
+      "endLine": 58,
+      "source": "memory",
+      "snippet": "Assistant: 现在让我更新主 README，添加详细的快速开始指南：",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-19T19:04:13.704Z",
+      "lastRecalledAt": "2026-04-19T19:04:13.704Z",
+      "queryHashes": [
+        "c9fd66cc4843"
+      ],
+      "recallDays": [
+        "2026-04-19"
+      ],
+      "conceptTags": [
+        "assistant",
+        "现在",
+        "更新",
+        "readme",
+        "添加",
+        "详细",
+        "快速",
+        "开始"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-19.txt:59:59": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-19.txt:59:59",
+      "path": "memory/.dreams/session-corpus/2026-04-19.txt",
+      "startLine": 59,
+      "endLine": 59,
+      "source": "memory",
+      "snippet": "Assistant: 让我用正确的方式重写 README：",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-19T19:04:13.704Z",
+      "lastRecalledAt": "2026-04-19T19:04:13.704Z",
+      "queryHashes": [
+        "c9fd66cc4843"
+      ],
+      "recallDays": [
+        "2026-04-19"
+      ],
+      "conceptTags": [
+        "assistant",
+        "正确",
+        "方式",
+        "readme"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-19.txt:60:60": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-19.txt:60:60",
+      "path": "memory/.dreams/session-corpus/2026-04-19.txt",
+      "startLine": 60,
+      "endLine": 60,
+      "source": "memory",
+      "snippet": "User: Conversation info (untrusted metadata): ```json { \"message_id\": \"om_x100b517223e5dca0ee73aa046c324c1\", \"sender_id\": \"ou_13190b75af6c015cd2975d6de047a6f1\", \"sender\": \"听风\", \"timestamp\": \"Sun 2026-04-19 05:23 UTC\" } ``` Sender (untrusted metadata): ```json { \"label\": \"听风 (ou_1",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-19T19:04:13.704Z",
+      "lastRecalledAt": "2026-04-19T19:04:13.704Z",
+      "queryHashes": [
+        "c9fd66cc4843"
+      ],
+      "recallDays": [
+        "2026-04-19"
+      ],
+      "conceptTags": [
+        "message-id",
+        "sender-id",
+        "ou-1",
+        "user",
+        "conversation",
+        "info",
+        "untrusted",
+        "metadata"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-19.txt:61:61": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-19.txt:61:61",
+      "path": "memory/.dreams/session-corpus/2026-04-19.txt",
+      "startLine": 61,
+      "endLine": 61,
+      "source": "memory",
+      "snippet": "Assistant: 根据官方资料： --- ## 🔍 Google Gemma 3N E4B IT 能力 | 能力 | 支持情况 | |------|----------| | **🖼️ 图像输入** | ✅ 支持 | | **🎬 视频输入** | ✅ 支持 | | **🎵 音频输入** | ✅ 支持 | | **📝 文本输入** | ✅ 支持 | | **🖼️ 图像输出** | ❌ 不支持 | | **📝 文本输出** | ✅ 支持 | --- ## 详细说明 **输入**：可以同时接收图像、视频、音频、文本 - 分析图片内容、生成描述",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-19T19:04:13.704Z",
+      "lastRecalledAt": "2026-04-19T19:04:13.704Z",
+      "queryHashes": [
+        "c9fd66cc4843"
+      ],
+      "recallDays": [
+        "2026-04-19"
+      ],
+      "conceptTags": [
+        "assistant",
+        "根据",
+        "官方",
+        "资料",
+        "google",
+        "gemma",
+        "e4b",
+        "能力"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-19.txt:62:62": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-19.txt:62:62",
+      "path": "memory/.dreams/session-corpus/2026-04-19.txt",
+      "startLine": 62,
+      "endLine": 62,
+      "source": "memory",
+      "snippet": "User: Conversation info (untrusted metadata): ```json { \"message_id\": \"om_x100b5172a99a54a0eea0f61913238db\", \"sender_id\": \"ou_13190b75af6c015cd2975d6de047a6f1\", \"sender\": \"听风\", \"timestamp\": \"Sun 2026-04-19 05:56 UTC\" } ``` Sender (untrusted metadata): ```json { \"label\": \"听风 (ou_1",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-19T19:04:13.704Z",
+      "lastRecalledAt": "2026-04-19T19:04:13.704Z",
+      "queryHashes": [
+        "c9fd66cc4843"
+      ],
+      "recallDays": [
+        "2026-04-19"
+      ],
+      "conceptTags": [
+        "message-id",
+        "sender-id",
+        "ou-1",
+        "user",
+        "conversation",
+        "info",
+        "untrusted",
+        "metadata"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-19.txt:63:63": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-19.txt:63:63",
+      "path": "memory/.dreams/session-corpus/2026-04-19.txt",
+      "startLine": 63,
+      "endLine": 63,
+      "source": "memory",
+      "snippet": "Assistant: ✅ **Gemma 3N 图像识别测试成功！** --- ## 📄 图片内容提取 这是一份**中文文档**，看起来是某个 AI 工具/系统的功能列表： ### 一深度研究 (Deep Research) - **4-deep-research** - 多来源综合深度研究 ### 二、开发工作 (Development Work) 1. product-spec-builder - 毒蛇产品经理 2. ui-prompt-generator - UI提示词设计师 3. ui-ux-pro-max - UI/UX设计智能 4. dev",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-19T19:04:13.704Z",
+      "lastRecalledAt": "2026-04-19T19:04:13.704Z",
+      "queryHashes": [
+        "c9fd66cc4843"
+      ],
+      "recallDays": [
+        "2026-04-19"
+      ],
+      "conceptTags": [
+        "工具/系统的功能列表",
+        "4-deep-research",
+        "product-spec-builder",
+        "ui-prompt-generator",
+        "ui-ux-pro-max",
+        "ui/ux设计智能",
+        "assistant",
+        "gemma"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-19.txt:64:64": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-19.txt:64:64",
+      "path": "memory/.dreams/session-corpus/2026-04-19.txt",
+      "startLine": 64,
+      "endLine": 64,
+      "source": "memory",
+      "snippet": "User: [media attached: /home/node/.openclaw/media/inbound/bcb9f698-c483-41a8-b50a-692465ae81c0.jpg (image/jpeg) | /home/node/.openclaw/media/inbound/bcb9f698-c483-41a8-b50a-692465ae81c0.jpg] To send an image back, prefer the message tool (media/path/filePath). If you must inline,",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-19T19:04:13.704Z",
+      "lastRecalledAt": "2026-04-19T19:04:13.704Z",
+      "queryHashes": [
+        "c9fd66cc4843"
+      ],
+      "recallDays": [
+        "2026-04-19"
+      ],
+      "conceptTags": [
+        "home/node",
+        "image/jpeg",
+        "media/path/filepath",
+        "user",
+        "media",
+        "attached",
+        "home",
+        "node"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-19.txt:65:65": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-19.txt:65:65",
+      "path": "memory/.dreams/session-corpus/2026-04-19.txt",
+      "startLine": 65,
+      "endLine": 65,
+      "source": "memory",
+      "snippet": "Assistant: ✅ **Gemma 3N 图像识别成功！** --- ## 🖼️ 图片内容 这是 **OpenClaw 最热 15 个场景**的宣传海报： ### 🔥 Top 5 ⭐⭐⭐⭐⭐ 1. 在聊天软件里\"发一句就干活\" 2. 邮件收件箱清理与回复 3. 日程与会议管理 4. 定时任务自动运行 5. 跨平台通知广播 ### ⭐⭐⭐⭐ 6. 文件与本地记忆管理 7. 网页信息自动整理 8. 浏览器自动化 9. 社媒/品牌监控 10. 工程自动化 (Shell+Coding) ### ⭐⭐⭐ 11. 手机远程触发 12. 多Agent协同 1",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-19T19:04:13.704Z",
+      "lastRecalledAt": "2026-04-19T19:04:13.704Z",
+      "queryHashes": [
+        "c9fd66cc4843"
+      ],
+      "recallDays": [
+        "2026-04-19"
+      ],
+      "conceptTags": [
+        "社媒/品牌监控",
+        "assistant",
+        "gemma",
+        "图像",
+        "识别",
+        "成功",
+        "图片",
+        "内容"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-19.txt:66:66": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-19.txt:66:66",
+      "path": "memory/.dreams/session-corpus/2026-04-19.txt",
+      "startLine": 66,
+      "endLine": 66,
+      "source": "memory",
+      "snippet": "User: Conversation info (untrusted metadata): ```json { \"message_id\": \"om_x100b517cb9c43d30ee700a8ea4215ec\", \"sender_id\": \"ou_13190b75af6c015cd2975d6de047a6f1\", \"sender\": \"听风\", \"timestamp\": \"Sun 2026-04-19 08:16 UTC\" } ``` Sender (untrusted metadata): ```json { \"label\": \"听风 (ou_1",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-19T19:04:13.704Z",
+      "lastRecalledAt": "2026-04-19T19:04:13.704Z",
+      "queryHashes": [
+        "c9fd66cc4843"
+      ],
+      "recallDays": [
+        "2026-04-19"
+      ],
+      "conceptTags": [
+        "message-id",
+        "sender-id",
+        "ou-1",
+        "user",
+        "conversation",
+        "info",
+        "untrusted",
+        "metadata"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-19.txt:67:67": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-19.txt:67:67",
+      "path": "memory/.dreams/session-corpus/2026-04-19.txt",
+      "startLine": 67,
+      "endLine": 67,
+      "source": "memory",
+      "snippet": "Assistant: 抱歉，OpenClaw CLI 没有 `/clear` 命令 🦞 **可用的替代方案：** | 方法 | 说明 | |------|------| | 新建会话 | `openclaw sessions spawn` 或换个聊天窗口 | | 清除记忆 | 删除 `~/.openclaw/memory/*.sqlite` (但会影响长期记忆) | | 重启 Gateway | `openclaw gateway restart` (会中断所有会话) | --- 你现在用的 Feishu 聊天，每次发送消息会开启新会话。如果想全新对话",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-19T19:04:13.704Z",
+      "lastRecalledAt": "2026-04-19T19:04:13.704Z",
+      "queryHashes": [
+        "c9fd66cc4843"
+      ],
+      "recallDays": [
+        "2026-04-19"
+      ],
+      "conceptTags": [
+        "gateway",
+        "openclaw/memory",
+        "assistant",
+        "抱歉",
+        "openclaw",
+        "cli",
+        "没有",
+        "clear"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-19.txt:68:68": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-19.txt:68:68",
+      "path": "memory/.dreams/session-corpus/2026-04-19.txt",
+      "startLine": 68,
+      "endLine": 68,
+      "source": "memory",
+      "snippet": "User: System (untrusted): [2026-04-19 08:17:16 UTC] Exec failed (plaid-or, signal SIGTERM) System (untrusted): [2026-04-19 08:18:24 UTC] Exec failed (tender-b, signal SIGTERM) :: emory files promote Rank short-term recalls and optionally append top entries to MEMORY.md promote-ex",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-19T19:04:13.704Z",
+      "lastRecalledAt": "2026-04-19T19:04:13.704Z",
+      "queryHashes": [
+        "c9fd66cc4843"
+      ],
+      "recallDays": [
+        "2026-04-19"
+      ],
+      "conceptTags": [
+        "plaid-or",
+        "tender-b",
+        "short-term",
+        "memory.md",
+        "promote-ex",
+        "user",
+        "system",
+        "untrusted"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-19.txt:69:69": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-19.txt:69:69",
+      "path": "memory/.dreams/session-corpus/2026-04-19.txt",
+      "startLine": 69,
+      "endLine": 69,
+      "source": "memory",
+      "snippet": "Assistant: 这是 OpenClaw 官方技能系统的完整文档。让我总结核心原理： --- ## 🎯 Skill 底层原理 ### 1. Skill 是什么？ Skill 是一个**文件夹**，包含： - `SKILL.md` - 技能定义文件（YAML frontmatter + 说明） - 可选的脚本/工具 ```markdown --- name: weather description: \"Get weather forecasts\" metadata: { \"openclaw\": { \"requires\": { \"bins\": [\"cu",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-19T19:04:13.704Z",
+      "lastRecalledAt": "2026-04-19T19:04:13.704Z",
+      "queryHashes": [
+        "c9fd66cc4843"
+      ],
+      "recallDays": [
+        "2026-04-19"
+      ],
+      "conceptTags": [
+        "skill.md",
+        "可选的脚本/工具",
+        "assistant",
+        "openclaw",
+        "官方",
+        "技能",
+        "系统",
+        "完整"
       ]
     }
   }
