@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-04-19T19:06:00.081Z",
+  "updatedAt": "2026-04-20T19:11:23.058Z",
   "entries": {
     "memory:memory/.dreams/session-corpus/2026-04-11.txt:1:1": {
       "key": "memory:memory/.dreams/session-corpus/2026-04-11.txt:1:1",
@@ -3831,7 +3831,7 @@
       "totalScore": 0.62,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-14T19:04:00.330Z",
-      "lastRecalledAt": "2026-04-19T19:04:13.704Z",
+      "lastRecalledAt": "2026-04-20T19:08:50.865Z",
       "queryHashes": [
         "11d1361acb2d"
       ],
@@ -3839,7 +3839,8 @@
         "2026-04-14",
         "2026-04-17",
         "2026-04-18",
-        "2026-04-19"
+        "2026-04-19",
+        "2026-04-20"
       ],
       "conceptTags": [
         "1.00",
@@ -3865,7 +3866,7 @@
       "totalScore": 0.62,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-14T19:04:00.330Z",
-      "lastRecalledAt": "2026-04-19T19:04:13.704Z",
+      "lastRecalledAt": "2026-04-20T19:08:50.865Z",
       "queryHashes": [
         "11d1361acb2d"
       ],
@@ -3873,7 +3874,8 @@
         "2026-04-14",
         "2026-04-17",
         "2026-04-18",
-        "2026-04-19"
+        "2026-04-19",
+        "2026-04-20"
       ],
       "conceptTags": [
         "0.88",
@@ -3899,7 +3901,7 @@
       "totalScore": 0.62,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-14T19:04:00.330Z",
-      "lastRecalledAt": "2026-04-19T19:04:13.704Z",
+      "lastRecalledAt": "2026-04-20T19:08:50.865Z",
       "queryHashes": [
         "11d1361acb2d"
       ],
@@ -3907,7 +3909,8 @@
         "2026-04-14",
         "2026-04-17",
         "2026-04-18",
-        "2026-04-19"
+        "2026-04-19",
+        "2026-04-20"
       ],
       "conceptTags": [
         "possible",
@@ -4621,14 +4624,15 @@
       "totalScore": 0.62,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-15T19:05:19.428Z",
-      "lastRecalledAt": "2026-04-19T19:04:13.704Z",
+      "lastRecalledAt": "2026-04-20T19:08:50.865Z",
       "queryHashes": [
         "4c4c0cb04efa"
       ],
       "recallDays": [
         "2026-04-15",
         "2026-04-18",
-        "2026-04-19"
+        "2026-04-19",
+        "2026-04-20"
       ],
       "conceptTags": [
         "1.00",
@@ -4654,14 +4658,15 @@
       "totalScore": 0.62,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-15T19:05:19.428Z",
-      "lastRecalledAt": "2026-04-19T19:04:13.704Z",
+      "lastRecalledAt": "2026-04-20T19:08:50.865Z",
       "queryHashes": [
         "4c4c0cb04efa"
       ],
       "recallDays": [
         "2026-04-15",
         "2026-04-18",
-        "2026-04-19"
+        "2026-04-19",
+        "2026-04-20"
       ],
       "conceptTags": [
         "0.85",
@@ -4687,14 +4692,15 @@
       "totalScore": 0.62,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-15T19:05:19.428Z",
-      "lastRecalledAt": "2026-04-19T19:04:13.704Z",
+      "lastRecalledAt": "2026-04-20T19:08:50.865Z",
       "queryHashes": [
         "4c4c0cb04efa"
       ],
       "recallDays": [
         "2026-04-15",
         "2026-04-18",
-        "2026-04-19"
+        "2026-04-19",
+        "2026-04-20"
       ],
       "conceptTags": [
         "possible",
@@ -4813,13 +4819,14 @@
       "totalScore": 0.62,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-16T19:04:27.452Z",
-      "lastRecalledAt": "2026-04-19T19:04:13.704Z",
+      "lastRecalledAt": "2026-04-20T19:08:50.865Z",
       "queryHashes": [
         "b628913e3912"
       ],
       "recallDays": [
         "2026-04-16",
-        "2026-04-19"
+        "2026-04-19",
+        "2026-04-20"
       ],
       "conceptTags": [
         "1.00",
@@ -4845,13 +4852,14 @@
       "totalScore": 0.62,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-16T19:04:27.452Z",
-      "lastRecalledAt": "2026-04-19T19:04:13.704Z",
+      "lastRecalledAt": "2026-04-20T19:08:50.865Z",
       "queryHashes": [
         "b628913e3912"
       ],
       "recallDays": [
         "2026-04-16",
-        "2026-04-19"
+        "2026-04-19",
+        "2026-04-20"
       ],
       "conceptTags": [
         "0.84",
@@ -4877,13 +4885,14 @@
       "totalScore": 0.62,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-16T19:04:27.452Z",
-      "lastRecalledAt": "2026-04-19T19:04:13.704Z",
+      "lastRecalledAt": "2026-04-20T19:08:50.865Z",
       "queryHashes": [
         "b628913e3912"
       ],
       "recallDays": [
         "2026-04-16",
-        "2026-04-19"
+        "2026-04-19",
+        "2026-04-20"
       ],
       "conceptTags": [
         "possible",
@@ -4973,12 +4982,13 @@
       "totalScore": 0.62,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-17T19:05:58.736Z",
-      "lastRecalledAt": "2026-04-17T19:05:58.736Z",
+      "lastRecalledAt": "2026-04-20T19:08:50.865Z",
       "queryHashes": [
         "500c0eda9949"
       ],
       "recallDays": [
-        "2026-04-17"
+        "2026-04-17",
+        "2026-04-20"
       ],
       "conceptTags": [
         "1.00",
@@ -5004,12 +5014,13 @@
       "totalScore": 0.62,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-17T19:05:58.736Z",
-      "lastRecalledAt": "2026-04-17T19:05:58.736Z",
+      "lastRecalledAt": "2026-04-20T19:08:50.865Z",
       "queryHashes": [
         "500c0eda9949"
       ],
       "recallDays": [
-        "2026-04-17"
+        "2026-04-17",
+        "2026-04-20"
       ],
       "conceptTags": [
         "0.84",
@@ -5035,12 +5046,13 @@
       "totalScore": 0.62,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-17T19:05:58.736Z",
-      "lastRecalledAt": "2026-04-17T19:05:58.736Z",
+      "lastRecalledAt": "2026-04-20T19:08:50.865Z",
       "queryHashes": [
         "500c0eda9949"
       ],
       "recallDays": [
-        "2026-04-17"
+        "2026-04-17",
+        "2026-04-20"
       ],
       "conceptTags": [
         "possible",
@@ -7349,6 +7361,511 @@
         "技能",
         "系统",
         "完整"
+      ]
+    },
+    "memory:memory/2026-04-20.md:283:286": {
+      "key": "memory:memory/2026-04-20.md:283:286",
+      "path": "memory/2026-04-20.md",
+      "startLine": 283,
+      "endLine": 286,
+      "source": "memory",
+      "snippet": "Reflections: Theme: `assistant` kept surfacing across 137 memories.; confidence: 1.00; evidence: memory/.dreams/session-corpus/2026-04-11.txt:3-3, memory/.dreams/session-corpus/2026-04-11.txt:5-5, memory/.dreams/session-corpus/2026-04-12.txt:8-8; note: reflection",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-04-20T19:08:50.865Z",
+      "lastRecalledAt": "2026-04-20T19:08:50.865Z",
+      "queryHashes": [
+        "511fd8111b88"
+      ],
+      "recallDays": [
+        "2026-04-20"
+      ],
+      "conceptTags": [
+        "1.00",
+        "3-3",
+        "5-5",
+        "8-8",
+        "reflections",
+        "theme",
+        "assistant",
+        "kept"
+      ]
+    },
+    "memory:memory/2026-04-20.md:287:290": {
+      "key": "memory:memory/2026-04-20.md:287:290",
+      "path": "memory/2026-04-20.md",
+      "startLine": 287,
+      "endLine": 290,
+      "source": "memory",
+      "snippet": "Reflections: Theme: `user` kept surfacing across 90 memories.; confidence: 0.77; evidence: memory/.dreams/session-corpus/2026-04-11.txt:1-1, memory/.dreams/session-corpus/2026-04-11.txt:2-2, memory/.dreams/session-corpus/2026-04-11.txt:4-4; note: reflection",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-04-20T19:08:50.865Z",
+      "lastRecalledAt": "2026-04-20T19:08:50.865Z",
+      "queryHashes": [
+        "511fd8111b88"
+      ],
+      "recallDays": [
+        "2026-04-20"
+      ],
+      "conceptTags": [
+        "0.77",
+        "1-1",
+        "2-2",
+        "4-4",
+        "reflections",
+        "theme",
+        "user",
+        "kept"
+      ]
+    },
+    "memory:memory/2026-04-20.md:293:295": {
+      "key": "memory:memory/2026-04-20.md:293:295",
+      "path": "memory/2026-04-20.md",
+      "startLine": 293,
+      "endLine": 295,
+      "source": "memory",
+      "snippet": "Possible Lasting Truths: Possible Lasting Truths: No strong candidate truths surfaced. [confidence=0.58 evidence=memory/2026-04-14.md:243-243]; Reflections: Theme: `assistant` kept surfacing across 64 memories.; confidence: 1.00; evidence: memory/.dreams/session-corpus/2026-04-11",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-04-20T19:08:50.865Z",
+      "lastRecalledAt": "2026-04-20T19:08:50.865Z",
+      "queryHashes": [
+        "511fd8111b88"
+      ],
+      "recallDays": [
+        "2026-04-20"
+      ],
+      "conceptTags": [
+        "0.58",
+        "memory/2026-04-14.md",
+        "243-243",
+        "1.00",
+        "dreams/session-corpus/2026-04-11",
+        "possible",
+        "lasting",
+        "truths"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-19.txt:70:70": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-19.txt:70:70",
+      "path": "memory/.dreams/session-corpus/2026-04-19.txt",
+      "startLine": 70,
+      "endLine": 70,
+      "source": "memory",
+      "snippet": "Assistant: 现在让我创建 TypeScript 配置文件：",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-20T19:08:50.865Z",
+      "lastRecalledAt": "2026-04-20T19:08:50.865Z",
+      "queryHashes": [
+        "c9fd66cc4843"
+      ],
+      "recallDays": [
+        "2026-04-19",
+        "2026-04-20"
+      ],
+      "conceptTags": [
+        "assistant",
+        "现在",
+        "创建",
+        "typescript",
+        "配置",
+        "文件"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-19.txt:71:71": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-19.txt:71:71",
+      "path": "memory/.dreams/session-corpus/2026-04-19.txt",
+      "startLine": 71,
+      "endLine": 71,
+      "source": "memory",
+      "snippet": "Assistant: 完美！TEE + 加密执行原型已经搭建完成 🚀 ## 📦 原型已创建 **位置：** `/home/node/.openclaw/workspace-codus/skill-tee-prototype/` ### 包含的文件： | 文件 | 说明 | |------|------| | `README.md` | 快速开始指南 | | `package.json` | Node.js 依赖 | | `tsconfig.json` | TypeScript 配置 | | `foundry.toml` | Foundry 配置 |",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-20T19:08:50.865Z",
+      "lastRecalledAt": "2026-04-20T19:08:50.865Z",
+      "queryHashes": [
+        "c9fd66cc4843"
+      ],
+      "recallDays": [
+        "2026-04-19",
+        "2026-04-20"
+      ],
+      "conceptTags": [
+        "home/node",
+        "readme.md",
+        "package.json",
+        "node.js",
+        "tsconfig.json",
+        "foundry.toml",
+        "assistant",
+        "完美"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-19.txt:72:72": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-19.txt:72:72",
+      "path": "memory/.dreams/session-corpus/2026-04-19.txt",
+      "startLine": 72,
+      "endLine": 72,
+      "source": "memory",
+      "snippet": "User: [Sun 2026-04-19 15:33 UTC] <<<BEGIN_OPENCLAW_INTERNAL_CONTEXT>>> OpenClaw runtime context (internal): This context is runtime-generated, not user-authored. Keep internal details private. [Internal task completion event] source: subagent session_key: agent:…4276 session_id:",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-20T19:08:50.865Z",
+      "lastRecalledAt": "2026-04-20T19:08:50.865Z",
+      "queryHashes": [
+        "c9fd66cc4843"
+      ],
+      "recallDays": [
+        "2026-04-19",
+        "2026-04-20"
+      ],
+      "conceptTags": [
+        "begin-openclaw-internal-context",
+        "runtime-generated",
+        "user-authored",
+        "session-key",
+        "session-id",
+        "user",
+        "sun",
+        "utc"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-19.txt:73:73": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-19.txt:73:73",
+      "path": "memory/.dreams/session-corpus/2026-04-19.txt",
+      "startLine": 73,
+      "endLine": 73,
+      "source": "memory",
+      "snippet": "Assistant: 好的，飞书文档写入那边暂时遇到了点小问题。不过没关系，**TEE + 加密执行的原型已经完整搭建好了**！🎊 ## 📦 原型位置 `/home/node/.openclaw/workspace-codus/skill-tee-prototype/` ## 🚀 现在就可以开始 ```bash cd /home/node/.openclaw/workspace-codus/skill-tee-prototype npm install npx ts-node scripts/demo.ts ``` --- ## 📋 原型包含 ✅",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-20T19:08:50.865Z",
+      "lastRecalledAt": "2026-04-20T19:08:50.865Z",
+      "queryHashes": [
+        "c9fd66cc4843"
+      ],
+      "recallDays": [
+        "2026-04-19",
+        "2026-04-20"
+      ],
+      "conceptTags": [
+        "home/node",
+        "ts-node",
+        "scripts/demo.ts",
+        "assistant",
+        "好的",
+        "那边",
+        "暂时",
+        "遇到"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-19.txt:74:74": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-19.txt:74:74",
+      "path": "memory/.dreams/session-corpus/2026-04-19.txt",
+      "startLine": 74,
+      "endLine": 74,
+      "source": "memory",
+      "snippet": "User: [Sun 2026-04-19 15:40 UTC] <<<BEGIN_OPENCLAW_INTERNAL_CONTEXT>>> OpenClaw runtime context (internal): This context is runtime-generated, not user-authored. Keep internal details private. [Internal task completion event] source: subagent session_key: agent:…4276 session_id:",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-20T19:08:50.865Z",
+      "lastRecalledAt": "2026-04-20T19:08:50.865Z",
+      "queryHashes": [
+        "c9fd66cc4843"
+      ],
+      "recallDays": [
+        "2026-04-19",
+        "2026-04-20"
+      ],
+      "conceptTags": [
+        "begin-openclaw-internal-context",
+        "runtime-generated",
+        "user-authored",
+        "session-key",
+        "session-id",
+        "user",
+        "sun",
+        "utc"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-19.txt:75:75": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-19.txt:75:75",
+      "path": "memory/.dreams/session-corpus/2026-04-19.txt",
+      "startLine": 75,
+      "endLine": 75,
+      "source": "memory",
+      "snippet": "Assistant: 好的，飞书文档那边我们可以稍后再处理。 现在原型已经完整准备好了，你可以： 1. **直接运行演示** - `npx ts-node scripts/demo.ts` 2. **查看项目结构** - 我创建的文件都在 `skill-tee-prototype/` 目录下 3. **阅读代码** - 从 `enclave-sim/sgx-simulator.ts` 开始理解核心逻辑 需要我帮你做什么吗？比如运行演示、解释某个部分，或者继续完善原型？",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-20T19:08:50.865Z",
+      "lastRecalledAt": "2026-04-20T19:08:50.865Z",
+      "queryHashes": [
+        "c9fd66cc4843"
+      ],
+      "recallDays": [
+        "2026-04-19",
+        "2026-04-20"
+      ],
+      "conceptTags": [
+        "ts-node",
+        "scripts/demo.ts",
+        "skill-tee-prototype",
+        "enclave-sim/sgx-simulator.ts",
+        "assistant",
+        "好的",
+        "那边",
+        "我们"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-19.txt:76:76": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-19.txt:76:76",
+      "path": "memory/.dreams/session-corpus/2026-04-19.txt",
+      "startLine": 76,
+      "endLine": 76,
+      "source": "memory",
+      "snippet": "User: Conversation info (untrusted metadata): ```json { \"message_id\": \"om_x100b517bcdfa08a4ee87f25ad074f43\", \"sender_id\": \"ou_13190b75af6c015cd2975d6de047a6f1\", \"sender\": \"听风\", \"timestamp\": \"Sun 2026-04-19 15:43 UTC\" } ``` Sender (untrusted metadata): ```json { \"label\": \"听风 (ou_1",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-20T19:08:50.865Z",
+      "lastRecalledAt": "2026-04-20T19:08:50.865Z",
+      "queryHashes": [
+        "c9fd66cc4843"
+      ],
+      "recallDays": [
+        "2026-04-19",
+        "2026-04-20"
+      ],
+      "conceptTags": [
+        "message-id",
+        "sender-id",
+        "ou-1",
+        "user",
+        "conversation",
+        "info",
+        "untrusted",
+        "metadata"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-19.txt:77:77": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-19.txt:77:77",
+      "path": "memory/.dreams/session-corpus/2026-04-19.txt",
+      "startLine": 77,
+      "endLine": 77,
+      "source": "memory",
+      "snippet": "Assistant: 好的，我来把这些文件移动到目标目录！",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-20T19:08:50.865Z",
+      "lastRecalledAt": "2026-04-20T19:08:50.865Z",
+      "queryHashes": [
+        "c9fd66cc4843"
+      ],
+      "recallDays": [
+        "2026-04-19",
+        "2026-04-20"
+      ],
+      "conceptTags": [
+        "assistant",
+        "好的",
+        "我来",
+        "这些",
+        "文件",
+        "移动",
+        "目标",
+        "目录"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-19.txt:78:78": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-19.txt:78:78",
+      "path": "memory/.dreams/session-corpus/2026-04-19.txt",
+      "startLine": 78,
+      "endLine": 78,
+      "source": "memory",
+      "snippet": "Assistant: 好的，目标目录已存在！现在让我把文件移动过去：",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-20T19:08:50.865Z",
+      "lastRecalledAt": "2026-04-20T19:08:50.865Z",
+      "queryHashes": [
+        "c9fd66cc4843"
+      ],
+      "recallDays": [
+        "2026-04-19",
+        "2026-04-20"
+      ],
+      "conceptTags": [
+        "assistant",
+        "好的",
+        "目标",
+        "目录",
+        "存在",
+        "现在",
+        "我把",
+        "文件"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-19.txt:79:79": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-19.txt:79:79",
+      "path": "memory/.dreams/session-corpus/2026-04-19.txt",
+      "startLine": 79,
+      "endLine": 79,
+      "source": "memory",
+      "snippet": "Assistant: 完美！文件已成功移动！让我确认一下内容：",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-20T19:08:50.865Z",
+      "lastRecalledAt": "2026-04-20T19:08:50.865Z",
+      "queryHashes": [
+        "c9fd66cc4843"
+      ],
+      "recallDays": [
+        "2026-04-19",
+        "2026-04-20"
+      ],
+      "conceptTags": [
+        "assistant",
+        "完美",
+        "文件",
+        "成功",
+        "移动",
+        "确认",
+        "一下",
+        "内容"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-19.txt:80:80": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-19.txt:80:80",
+      "path": "memory/.dreams/session-corpus/2026-04-19.txt",
+      "startLine": 80,
+      "endLine": 80,
+      "source": "memory",
+      "snippet": "Assistant: ✅ **文件移动成功！** ## 📍 新位置 `~/.openclaw/outputs/codus/skill-tee-prototype/` ## 📦 包含的文件 ``` skill-tee-prototype/ ├── README.md ├── package.json ├── tsconfig.json ├── foundry.toml ├── .env.example ├── enclave-sim/ │ ├── types.ts │ └── sgx-simulator.ts ├── services/ │ └── s",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-20T19:08:50.865Z",
+      "lastRecalledAt": "2026-04-20T19:08:50.865Z",
+      "queryHashes": [
+        "c9fd66cc4843"
+      ],
+      "recallDays": [
+        "2026-04-19",
+        "2026-04-20"
+      ],
+      "conceptTags": [
+        "skill-tee-prototype",
+        "readme.md",
+        "package.json",
+        "tsconfig.json",
+        "foundry.toml",
+        "env.example",
+        "enclave-sim",
+        "types.ts"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-20.txt:1:1": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-20.txt:1:1",
+      "path": "memory/.dreams/session-corpus/2026-04-20.txt",
+      "startLine": 1,
+      "endLine": 1,
+      "source": "memory",
+      "snippet": "User: Conversation info (untrusted metadata): ```json { \"message_id\": \"om_x100b5155c96218a4ee74d27c8ae09ad\", \"sender_id\": \"ou_13190b75af6c015cd2975d6de047a6f1\", \"sender\": \"听风\", \"timestamp\": \"Mon 2026-04-20 12:13 UTC\" } ``` Sender (untrusted metadata): ```json { \"label\": \"听风 (ou_1",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-20T19:08:50.865Z",
+      "lastRecalledAt": "2026-04-20T19:08:50.865Z",
+      "queryHashes": [
+        "9bbfcb9cbaf5"
+      ],
+      "recallDays": [
+        "2026-04-20"
+      ],
+      "conceptTags": [
+        "message-id",
+        "sender-id",
+        "ou-1",
+        "user",
+        "conversation",
+        "info",
+        "untrusted",
+        "metadata"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-20.txt:2:2": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-20.txt:2:2",
+      "path": "memory/.dreams/session-corpus/2026-04-20.txt",
+      "startLine": 2,
+      "endLine": 2,
+      "source": "memory",
+      "snippet": "Assistant: 已添加到 AGENTS.md： ```markdown ## Output - All generated files, documents, and outputs → `~/.openclaw/outputs/codus/` - Keep the workspace clean; persistent数据放在 output 目录 ``` 这个表达简洁，和现有的 Red Lines、Memory 等板块风格一致。需要我调整什么吗？",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-20T19:08:50.865Z",
+      "lastRecalledAt": "2026-04-20T19:08:50.865Z",
+      "queryHashes": [
+        "9bbfcb9cbaf5"
+      ],
+      "recallDays": [
+        "2026-04-20"
+      ],
+      "conceptTags": [
+        "agents.md",
+        "openclaw/outputs/codus",
+        "assistant",
+        "添加",
+        "markdown",
+        "output",
+        "all",
+        "generated"
       ]
     }
   }

@@ -21,6 +21,11 @@
 - `trash` > `rm` (recoverable beats gone forever)
 - When in doubt, ask
 
+## Output
+
+- All generated files, documents, and outputs → `~/.openclaw/outputs/codus/`
+- Keep the workspace clean; persistent data goes to the output directory
+
 ## Group Chats
 
 In group chats, be smart about contributing:

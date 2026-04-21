@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-04-19T19:01:32.170Z",
+  "updatedAt": "2026-04-20T19:03:53.604Z",
   "entries": {
     "memory:memory/.dreams/session-corpus/2026-04-11.txt:1:1": {
       "key": "memory:memory/.dreams/session-corpus/2026-04-11.txt:1:1",
@@ -3761,7 +3761,7 @@
       "totalScore": 0.62,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-14T19:00:00.501Z",
-      "lastRecalledAt": "2026-04-19T19:00:01.545Z",
+      "lastRecalledAt": "2026-04-20T19:00:00.743Z",
       "queryHashes": [
         "11d1361acb2d"
       ],
@@ -3769,7 +3769,8 @@
         "2026-04-14",
         "2026-04-17",
         "2026-04-18",
-        "2026-04-19"
+        "2026-04-19",
+        "2026-04-20"
       ],
       "conceptTags": [
         "1.00",
@@ -3795,7 +3796,7 @@
       "totalScore": 0.62,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-14T19:00:00.501Z",
-      "lastRecalledAt": "2026-04-19T19:00:01.545Z",
+      "lastRecalledAt": "2026-04-20T19:00:00.743Z",
       "queryHashes": [
         "11d1361acb2d"
       ],
@@ -3803,7 +3804,8 @@
         "2026-04-14",
         "2026-04-17",
         "2026-04-18",
-        "2026-04-19"
+        "2026-04-19",
+        "2026-04-20"
       ],
       "conceptTags": [
         "0.95",
@@ -3829,7 +3831,7 @@
       "totalScore": 0.62,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-14T19:00:00.501Z",
-      "lastRecalledAt": "2026-04-19T19:00:01.545Z",
+      "lastRecalledAt": "2026-04-20T19:00:00.743Z",
       "queryHashes": [
         "11d1361acb2d"
       ],
@@ -3837,7 +3839,8 @@
         "2026-04-14",
         "2026-04-17",
         "2026-04-18",
-        "2026-04-19"
+        "2026-04-19",
+        "2026-04-20"
       ],
       "conceptTags": [
         "possible",
@@ -4680,14 +4683,15 @@
       "totalScore": 0.62,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-15T19:00:00.543Z",
-      "lastRecalledAt": "2026-04-19T19:00:01.545Z",
+      "lastRecalledAt": "2026-04-20T19:00:00.743Z",
       "queryHashes": [
         "4c4c0cb04efa"
       ],
       "recallDays": [
         "2026-04-15",
         "2026-04-18",
-        "2026-04-19"
+        "2026-04-19",
+        "2026-04-20"
       ],
       "conceptTags": [
         "1.00",
@@ -4713,14 +4717,15 @@
       "totalScore": 0.62,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-15T19:00:00.543Z",
-      "lastRecalledAt": "2026-04-19T19:00:01.545Z",
+      "lastRecalledAt": "2026-04-20T19:00:00.743Z",
       "queryHashes": [
         "4c4c0cb04efa"
       ],
       "recallDays": [
         "2026-04-15",
         "2026-04-18",
-        "2026-04-19"
+        "2026-04-19",
+        "2026-04-20"
       ],
       "conceptTags": [
         "0.95",
@@ -4746,14 +4751,15 @@
       "totalScore": 0.62,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-15T19:00:00.543Z",
-      "lastRecalledAt": "2026-04-19T19:00:01.545Z",
+      "lastRecalledAt": "2026-04-20T19:00:00.743Z",
       "queryHashes": [
         "4c4c0cb04efa"
       ],
       "recallDays": [
         "2026-04-15",
         "2026-04-18",
-        "2026-04-19"
+        "2026-04-19",
+        "2026-04-20"
       ],
       "conceptTags": [
         "reply-to-current",
@@ -5661,13 +5667,14 @@
       "totalScore": 0.62,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-16T19:00:00.628Z",
-      "lastRecalledAt": "2026-04-19T19:00:01.545Z",
+      "lastRecalledAt": "2026-04-20T19:00:00.743Z",
       "queryHashes": [
         "b628913e3912"
       ],
       "recallDays": [
         "2026-04-16",
-        "2026-04-19"
+        "2026-04-19",
+        "2026-04-20"
       ],
       "conceptTags": [
         "1.00",
@@ -5693,13 +5700,14 @@
       "totalScore": 0.62,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-16T19:00:00.628Z",
-      "lastRecalledAt": "2026-04-19T19:00:01.545Z",
+      "lastRecalledAt": "2026-04-20T19:00:00.743Z",
       "queryHashes": [
         "b628913e3912"
       ],
       "recallDays": [
         "2026-04-16",
-        "2026-04-19"
+        "2026-04-19",
+        "2026-04-20"
       ],
       "conceptTags": [
         "0.97",
@@ -5725,13 +5733,14 @@
       "totalScore": 0.62,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-16T19:00:00.628Z",
-      "lastRecalledAt": "2026-04-19T19:00:01.545Z",
+      "lastRecalledAt": "2026-04-20T19:00:00.743Z",
       "queryHashes": [
         "b628913e3912"
       ],
       "recallDays": [
         "2026-04-16",
-        "2026-04-19"
+        "2026-04-19",
+        "2026-04-20"
       ],
       "conceptTags": [
         "heartbeat-ok",
@@ -6243,12 +6252,13 @@
       "totalScore": 0.62,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-17T19:00:01.428Z",
-      "lastRecalledAt": "2026-04-17T19:00:01.428Z",
+      "lastRecalledAt": "2026-04-20T19:00:00.743Z",
       "queryHashes": [
         "500c0eda9949"
       ],
       "recallDays": [
-        "2026-04-17"
+        "2026-04-17",
+        "2026-04-20"
       ],
       "conceptTags": [
         "1.00",
@@ -6274,12 +6284,13 @@
       "totalScore": 0.62,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-17T19:00:01.428Z",
-      "lastRecalledAt": "2026-04-17T19:00:01.428Z",
+      "lastRecalledAt": "2026-04-20T19:00:00.743Z",
       "queryHashes": [
         "500c0eda9949"
       ],
       "recallDays": [
-        "2026-04-17"
+        "2026-04-17",
+        "2026-04-20"
       ],
       "conceptTags": [
         "0.98",
@@ -6305,12 +6316,13 @@
       "totalScore": 0.62,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-17T19:00:01.428Z",
-      "lastRecalledAt": "2026-04-17T19:00:01.428Z",
+      "lastRecalledAt": "2026-04-20T19:00:00.743Z",
       "queryHashes": [
         "500c0eda9949"
       ],
       "recallDays": [
-        "2026-04-17"
+        "2026-04-17",
+        "2026-04-20"
       ],
       "conceptTags": [
         "heartbeat-ok",
@@ -7579,6 +7591,408 @@
         "结论",
         "你的",
         "openrouter"
+      ]
+    },
+    "memory:memory/2026-04-20.md:228:231": {
+      "key": "memory:memory/2026-04-20.md:228:231",
+      "path": "memory/2026-04-20.md",
+      "startLine": 228,
+      "endLine": 231,
+      "source": "memory",
+      "snippet": "Reflections: Theme: `assistant` kept surfacing across 123 memories.; confidence: 0.99; evidence: memory/.dreams/session-corpus/2026-04-11.txt:2-2, memory/.dreams/session-corpus/2026-04-11.txt:4-4, memory/.dreams/session-corpus/2026-04-11.txt:6-6; note: reflection",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-04-20T19:00:00.743Z",
+      "lastRecalledAt": "2026-04-20T19:00:00.743Z",
+      "queryHashes": [
+        "511fd8111b88"
+      ],
+      "recallDays": [
+        "2026-04-20"
+      ],
+      "conceptTags": [
+        "0.99",
+        "2-2",
+        "4-4",
+        "6-6",
+        "reflections",
+        "theme",
+        "assistant",
+        "kept"
+      ]
+    },
+    "memory:memory/2026-04-20.md:232:235": {
+      "key": "memory:memory/2026-04-20.md:232:235",
+      "path": "memory/2026-04-20.md",
+      "startLine": 232,
+      "endLine": 235,
+      "source": "memory",
+      "snippet": "Reflections: Theme: `user` kept surfacing across 121 memories.; confidence: 0.97; evidence: memory/.dreams/session-corpus/2026-04-11.txt:1-1, memory/.dreams/session-corpus/2026-04-11.txt:3-3, memory/.dreams/session-corpus/2026-04-11.txt:5-5; note: reflection",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-04-20T19:00:00.743Z",
+      "lastRecalledAt": "2026-04-20T19:00:00.743Z",
+      "queryHashes": [
+        "511fd8111b88"
+      ],
+      "recallDays": [
+        "2026-04-20"
+      ],
+      "conceptTags": [
+        "0.97",
+        "1-1",
+        "3-3",
+        "5-5",
+        "reflections",
+        "theme",
+        "user",
+        "kept"
+      ]
+    },
+    "memory:memory/2026-04-20.md:238:240": {
+      "key": "memory:memory/2026-04-20.md:238:240",
+      "path": "memory/2026-04-20.md",
+      "startLine": 238,
+      "endLine": 240,
+      "source": "memory",
+      "snippet": "Possible Lasting Truths: Possible Lasting Truths: No strong candidate truths surfaced. [confidence=0.58 evidence=memory/2026-04-14.md:323-323]; Reflections: Theme: `assistant` kept surfacing across 58 memories.; confidence: 0.95; evidence: memory/.dreams/session-corpus/2026-04-11",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-04-20T19:00:00.743Z",
+      "lastRecalledAt": "2026-04-20T19:00:00.743Z",
+      "queryHashes": [
+        "511fd8111b88"
+      ],
+      "recallDays": [
+        "2026-04-20"
+      ],
+      "conceptTags": [
+        "0.58",
+        "memory/2026-04-14.md",
+        "323-323",
+        "0.95",
+        "dreams/session-corpus/2026-04-11",
+        "possible",
+        "lasting",
+        "truths"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-20.txt:1:1": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-20.txt:1:1",
+      "path": "memory/.dreams/session-corpus/2026-04-20.txt",
+      "startLine": 1,
+      "endLine": 1,
+      "source": "memory",
+      "snippet": "User: Conversation info (untrusted metadata): ```json { \"message_id\": \"om_x100b51685fb958a8ee8986cd2756f0f\", \"sender_id\": \"ou_8d379606db2e0a64b8dbda39b4671fa6\", \"sender\": \"听风\", \"timestamp\": \"Mon 2026-04-20 06:00 UTC\" } ``` Sender (untrusted metadata): ```json { \"label\": \"听风 (ou_8",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-20T19:00:00.743Z",
+      "lastRecalledAt": "2026-04-20T19:00:00.743Z",
+      "queryHashes": [
+        "9bbfcb9cbaf5"
+      ],
+      "recallDays": [
+        "2026-04-20"
+      ],
+      "conceptTags": [
+        "message-id",
+        "sender-id",
+        "ou-8",
+        "user",
+        "conversation",
+        "info",
+        "untrusted",
+        "metadata"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-20.txt:2:2": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-20.txt:2:2",
+      "path": "memory/.dreams/session-corpus/2026-04-20.txt",
+      "startLine": 2,
+      "endLine": 2,
+      "source": "memory",
+      "snippet": "Assistant: 这个设计挑战很有意思。让我先深入分析文档中64卦的坐标映射，然后设计这个函数。 ## 分析 ### 文档中的关键设计 **三维坐标映射：** ``` T[时间][空间][关系] → 64个单元格 时间: 沉寂(0) → 稳定(1) → 活跃(2) → 爆发(3) 空间: 单平台(0) → 少平台(1) → 多平台(2) → 跨域(3) 关系: 孤立(0) → 初连(1) → 网络(2) → 生态(3) ``` **核心思想：** - 从潜藏（坤 T[0][0][0]）到爆发（乾 T[3][3][3]）是势能积累与释放的完整周期 -",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-20T19:00:00.743Z",
+      "lastRecalledAt": "2026-04-20T19:00:00.743Z",
+      "queryHashes": [
+        "9bbfcb9cbaf5"
+      ],
+      "recallDays": [
+        "2026-04-20"
+      ],
+      "conceptTags": [
+        "网络",
+        "assistant",
+        "这个",
+        "设计",
+        "挑战",
+        "有意思",
+        "我先",
+        "深入"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-20.txt:3:3": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-20.txt:3:3",
+      "path": "memory/.dreams/session-corpus/2026-04-20.txt",
+      "startLine": 3,
+      "endLine": 3,
+      "source": "memory",
+      "snippet": "User: Conversation info (untrusted metadata): ```json { \"message_id\": \"om_x100b51682052c4a0ee8df30428244ae\", \"sender_id\": \"ou_8d379606db2e0a64b8dbda39b4671fa6\", \"sender\": \"听风\", \"timestamp\": \"Mon 2026-04-20 06:25 UTC\" } ``` Sender (untrusted metadata): ```json { \"label\": \"听风 (ou_8",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-20T19:00:00.743Z",
+      "lastRecalledAt": "2026-04-20T19:00:00.743Z",
+      "queryHashes": [
+        "9bbfcb9cbaf5"
+      ],
+      "recallDays": [
+        "2026-04-20"
+      ],
+      "conceptTags": [
+        "message-id",
+        "sender-id",
+        "ou-8",
+        "user",
+        "conversation",
+        "info",
+        "untrusted",
+        "metadata"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-20.txt:4:4": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-20.txt:4:4",
+      "path": "memory/.dreams/session-corpus/2026-04-20.txt",
+      "startLine": 4,
+      "endLine": 4,
+      "source": "memory",
+      "snippet": "Assistant: 好问题。让我把这个设计逻辑讲透。 ## 核心融合：太极轮转 × 权能经济 ### 一、太极阴阳是底层驱动逻辑 ``` 阳极生阴 ↑ ┌─────────────────────┐ │ 乾 (满) │ │ 爆发/顶峰 │ ← 物极必反 │ │ │ 兑 → 离 → 乾 │ ← 阳气上升 │ 巽 → 坎 → 艮 │ │ 坤 (空) │ │ 潜藏/沉寂 │ ← 阴气主导 └─────────────────────┘ ↑ 阴极生阳 ``` **太极轮转的三个层次：** | 层次 | 太极含义 | 在ECHO中的映射 | |------|--",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-20T19:00:00.743Z",
+      "lastRecalledAt": "2026-04-20T19:00:00.743Z",
+      "queryHashes": [
+        "9bbfcb9cbaf5"
+      ],
+      "recallDays": [
+        "2026-04-20"
+      ],
+      "conceptTags": [
+        "爆发/顶峰",
+        "潜藏/沉寂",
+        "assistant",
+        "问题",
+        "我把",
+        "这个",
+        "设计",
+        "逻辑"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-20.txt:5:5": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-20.txt:5:5",
+      "path": "memory/.dreams/session-corpus/2026-04-20.txt",
+      "startLine": 5,
+      "endLine": 5,
+      "source": "memory",
+      "snippet": "User: Conversation info (untrusted metadata): ```json { \"message_id\": \"om_x100b5168e9fa60a0ee86b85ec48fe66\", \"sender_id\": \"ou_8d379606db2e0a64b8dbda39b4671fa6\", \"sender\": \"听风\", \"timestamp\": \"Mon 2026-04-20 06:40 UTC\" } ``` Sender (untrusted metadata): ```json { \"label\": \"听风 (ou_8",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-20T19:00:00.743Z",
+      "lastRecalledAt": "2026-04-20T19:00:00.743Z",
+      "queryHashes": [
+        "9bbfcb9cbaf5"
+      ],
+      "recallDays": [
+        "2026-04-20"
+      ],
+      "conceptTags": [
+        "message-id",
+        "sender-id",
+        "ou-8",
+        "user",
+        "conversation",
+        "info",
+        "untrusted",
+        "metadata"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-20.txt:6:6": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-20.txt:6:6",
+      "path": "memory/.dreams/session-corpus/2026-04-20.txt",
+      "startLine": 6,
+      "endLine": 6,
+      "source": "memory",
+      "snippet": "Assistant: 你说得对。这是个关键修正。 ## 问题所在 我之前的设计把阴阳轮转做成了**大周期单循环**： ``` 潜藏 → 成长 → 顶峰 → 衰退 → 沉寂 → 再潜藏 ``` 但文档里三维坐标是**最近7天的动态评估**，是**当下状态**，不是累计积分。 ## 正确理解：快速起伏的阴阳波动 ```javascript // 正确模型：阴阳随时都在轮转，不是先盛后衰 // 某时刻的坐标状态 T[2][2][3] = 泽山咸(大成期) → 阳气: (2+2+3)/9 = 77.7% → 阴气: 22.3% //下一秒用户行为变化 T[2][",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-20T19:00:00.743Z",
+      "lastRecalledAt": "2026-04-20T19:00:00.743Z",
+      "queryHashes": [
+        "9bbfcb9cbaf5"
+      ],
+      "recallDays": [
+        "2026-04-20"
+      ],
+      "conceptTags": [
+        "77.7",
+        "22.3",
+        "assistant",
+        "说得",
+        "关键",
+        "修正",
+        "问题",
+        "所在"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-20.txt:7:7": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-20.txt:7:7",
+      "path": "memory/.dreams/session-corpus/2026-04-20.txt",
+      "startLine": 7,
+      "endLine": 7,
+      "source": "memory",
+      "snippet": "User: [cron:config-backup-8am config-backup-8am] 备份 openclaw.json：cp ~/.openclaw/openclaw.json ~/.openclaw/openclaw.json.backup-$(date +%Y%m%d) && echo \"openclaw.json 备份完成 $(date)\" Current time: Monday, April 20th, 2026 - 8:00 AM (UTC) / 2026-04-20 08:00 UTC Return your summary a",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-20T19:00:00.743Z",
+      "lastRecalledAt": "2026-04-20T19:00:00.743Z",
+      "queryHashes": [
+        "9bbfcb9cbaf5"
+      ],
+      "recallDays": [
+        "2026-04-20"
+      ],
+      "conceptTags": [
+        "backup",
+        "备份",
+        "config-backup-8am",
+        "openclaw.json",
+        "openclaw/openclaw.json",
+        "openclaw/openclaw.json.backup",
+        "user",
+        "cron:config"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-20.txt:8:8": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-20.txt:8:8",
+      "path": "memory/.dreams/session-corpus/2026-04-20.txt",
+      "startLine": 8,
+      "endLine": 8,
+      "source": "memory",
+      "snippet": "Assistant: openclaw.json 备份完成 Mon Apr 20 08:00:54 UTC 2026",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-20T19:00:00.743Z",
+      "lastRecalledAt": "2026-04-20T19:00:00.743Z",
+      "queryHashes": [
+        "9bbfcb9cbaf5"
+      ],
+      "recallDays": [
+        "2026-04-20"
+      ],
+      "conceptTags": [
+        "备份",
+        "openclaw.json",
+        "assistant",
+        "完成",
+        "mon",
+        "apr",
+        "utc"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-20.txt:9:9": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-20.txt:9:9",
+      "path": "memory/.dreams/session-corpus/2026-04-20.txt",
+      "startLine": 9,
+      "endLine": 9,
+      "source": "memory",
+      "snippet": "User: [cron:1c3a7bd5-d835-41d8-a14a-d2970f13d503 daily-backup] 执行备份：cd ~/.openclaw && git add -A && git commit -m \"auto backup $(date +\\%Y-\\%m-\\%d)\" && git push && echo \"备份完成\" Current time: Monday, April 20th, 2026 - 12:00 AM (UTC) / 2026-04-20 00:00 UTC Return your summary as pl",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-20T19:00:00.743Z",
+      "lastRecalledAt": "2026-04-20T19:00:00.743Z",
+      "queryHashes": [
+        "9bbfcb9cbaf5"
+      ],
+      "recallDays": [
+        "2026-04-20"
+      ],
+      "conceptTags": [
+        "backup",
+        "备份",
+        "daily-backup",
+        "user",
+        "cron",
+        "1c3a7bd5",
+        "d835",
+        "41d8"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-20.txt:10:10": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-20.txt:10:10",
+      "path": "memory/.dreams/session-corpus/2026-04-20.txt",
+      "startLine": 10,
+      "endLine": 10,
+      "source": "memory",
+      "snippet": "Assistant: ✅ 2026-04-20 每日自动备份执行完成 - 本次提交共变更89个文件：18748行新增，2451行删除 - 已成功推送至远程仓库，提交哈希：`3297e3dc` - 备份状态：正常",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-20T19:00:00.743Z",
+      "lastRecalledAt": "2026-04-20T19:00:00.743Z",
+      "queryHashes": [
+        "9bbfcb9cbaf5"
+      ],
+      "recallDays": [
+        "2026-04-20"
+      ],
+      "conceptTags": [
+        "备份",
+        "assistant",
+        "每日",
+        "自动",
+        "执行",
+        "完成",
+        "本次",
+        "提交"
       ]
     }
   }
