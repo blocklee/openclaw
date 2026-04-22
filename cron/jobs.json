@@ -6,7 +6,7 @@
       "name": "daily-backup",
       "enabled": true,
       "createdAtMs": 1774507489594,
-      "updatedAtMs": 1776643365219,
+      "updatedAtMs": 1776729742710,
       "schedule": {
         "kind": "cron",
         "expr": "0 0 * * *",
@@ -25,15 +25,15 @@
         "accountId": "lucus"
       },
       "state": {
-        "nextRunAtMs": 1776729600000,
-        "lastRunAtMs": 1776643200008,
+        "nextRunAtMs": 1776816000000,
+        "lastRunAtMs": 1776729600008,
         "lastRunStatus": "ok",
         "lastStatus": "ok",
-        "lastDurationMs": 165211,
+        "lastDurationMs": 142702,
         "lastDeliveryStatus": "delivered",
         "consecutiveErrors": 0,
         "lastDelivered": true,
-        "runningAtMs": 1776729600001
+        "runningAtMs": 1776816000001
       }
     },
     {
@@ -41,7 +41,7 @@
       "name": "config-backup-8am",
       "enabled": true,
       "createdAtMs": 1774843680000,
-      "updatedAtMs": 1776672077195,
+      "updatedAtMs": 1776758524308,
       "schedule": {
         "kind": "cron",
         "expr": "0 8 * * *",
@@ -60,11 +60,11 @@
         "accountId": "lucus"
       },
       "state": {
-        "nextRunAtMs": 1776758400000,
-        "lastRunAtMs": 1776672000009,
+        "nextRunAtMs": 1776844800000,
+        "lastRunAtMs": 1776758400011,
         "lastRunStatus": "ok",
         "lastStatus": "ok",
-        "lastDurationMs": 77186,
+        "lastDurationMs": 124297,
         "lastDeliveryStatus": "delivered",
         "consecutiveErrors": 0,
         "lastDelivered": true
@@ -76,7 +76,7 @@
       "description": "[managed-by=memory-core.short-term-promotion] Promote weighted short-term recalls into MEMORY.md (limit=10, minScore=0.800, minRecallCount=3, minUniqueQueries=3, recencyHalfLifeDays=14, maxAgeDays=30).",
       "enabled": true,
       "createdAtMs": 1776096382076,
-      "updatedAtMs": 1776712200069,
+      "updatedAtMs": 1776798419793,
       "schedule": {
         "kind": "cron",
         "expr": "0 3 * * *",
@@ -89,15 +89,13 @@
         "text": "__openclaw_memory_core_short_term_promotion_dream__"
       },
       "state": {
-        "nextRunAtMs": 1776798000000,
-        "lastRunAtMs": 1776711600010,
-        "lastRunStatus": "error",
-        "lastStatus": "error",
-        "lastDurationMs": 600059,
+        "nextRunAtMs": 1776884400000,
+        "lastRunAtMs": 1776798000010,
+        "lastRunStatus": "ok",
+        "lastStatus": "ok",
+        "lastDurationMs": 419783,
         "lastDeliveryStatus": "not-requested",
-        "consecutiveErrors": 1,
-        "lastError": "cron: job execution timed out",
-        "lastErrorReason": "timeout"
+        "consecutiveErrors": 0
       }
     }
   ]
