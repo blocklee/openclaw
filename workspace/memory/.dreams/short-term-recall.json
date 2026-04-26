@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-04-24T19:01:49.672Z",
+  "updatedAt": "2026-04-25T19:01:13.497Z",
   "entries": {
     "memory:memory/.dreams/session-corpus/2026-04-11.txt:1:1": {
       "key": "memory:memory/.dreams/session-corpus/2026-04-11.txt:1:1",
@@ -6502,7 +6502,7 @@
       "totalScore": 0.62,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-18T19:00:01.203Z",
-      "lastRecalledAt": "2026-04-24T19:00:01.620Z",
+      "lastRecalledAt": "2026-04-25T19:00:01.617Z",
       "queryHashes": [
         "77ca9720ec15"
       ],
@@ -6511,7 +6511,8 @@
         "2026-04-21",
         "2026-04-22",
         "2026-04-23",
-        "2026-04-24"
+        "2026-04-24",
+        "2026-04-25"
       ],
       "conceptTags": [
         "1.00",
@@ -6537,7 +6538,7 @@
       "totalScore": 0.62,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-18T19:00:01.203Z",
-      "lastRecalledAt": "2026-04-24T19:00:01.620Z",
+      "lastRecalledAt": "2026-04-25T19:00:01.617Z",
       "queryHashes": [
         "77ca9720ec15"
       ],
@@ -6546,7 +6547,8 @@
         "2026-04-21",
         "2026-04-22",
         "2026-04-23",
-        "2026-04-24"
+        "2026-04-24",
+        "2026-04-25"
       ],
       "conceptTags": [
         "0.97",
@@ -6572,7 +6574,7 @@
       "totalScore": 0.62,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-18T19:00:01.203Z",
-      "lastRecalledAt": "2026-04-24T19:00:01.620Z",
+      "lastRecalledAt": "2026-04-25T19:00:01.617Z",
       "queryHashes": [
         "77ca9720ec15"
       ],
@@ -6581,7 +6583,8 @@
         "2026-04-21",
         "2026-04-22",
         "2026-04-23",
-        "2026-04-24"
+        "2026-04-24",
+        "2026-04-25"
       ],
       "conceptTags": [
         "heartbeat-ok",
@@ -6731,7 +6734,7 @@
       "totalScore": 0.62,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-19T19:00:01.545Z",
-      "lastRecalledAt": "2026-04-24T19:00:01.620Z",
+      "lastRecalledAt": "2026-04-25T19:00:01.617Z",
       "queryHashes": [
         "21faa0df9302"
       ],
@@ -6739,7 +6742,8 @@
         "2026-04-19",
         "2026-04-22",
         "2026-04-23",
-        "2026-04-24"
+        "2026-04-24",
+        "2026-04-25"
       ],
       "conceptTags": [
         "1.00",
@@ -6765,7 +6769,7 @@
       "totalScore": 0.62,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-19T19:00:01.545Z",
-      "lastRecalledAt": "2026-04-24T19:00:01.620Z",
+      "lastRecalledAt": "2026-04-25T19:00:01.617Z",
       "queryHashes": [
         "21faa0df9302"
       ],
@@ -6773,7 +6777,8 @@
         "2026-04-19",
         "2026-04-22",
         "2026-04-23",
-        "2026-04-24"
+        "2026-04-24",
+        "2026-04-25"
       ],
       "conceptTags": [
         "0.97",
@@ -6799,7 +6804,7 @@
       "totalScore": 0.62,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-19T19:00:01.545Z",
-      "lastRecalledAt": "2026-04-24T19:00:01.620Z",
+      "lastRecalledAt": "2026-04-25T19:00:01.617Z",
       "queryHashes": [
         "21faa0df9302"
       ],
@@ -6807,7 +6812,8 @@
         "2026-04-19",
         "2026-04-22",
         "2026-04-23",
-        "2026-04-24"
+        "2026-04-24",
+        "2026-04-25"
       ],
       "conceptTags": [
         "0.51",
@@ -7657,14 +7663,15 @@
       "totalScore": 0.62,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-20T19:00:00.743Z",
-      "lastRecalledAt": "2026-04-24T19:00:01.620Z",
+      "lastRecalledAt": "2026-04-25T19:00:01.617Z",
       "queryHashes": [
         "511fd8111b88"
       ],
       "recallDays": [
         "2026-04-20",
         "2026-04-23",
-        "2026-04-24"
+        "2026-04-24",
+        "2026-04-25"
       ],
       "conceptTags": [
         "0.99",
@@ -7690,14 +7697,15 @@
       "totalScore": 0.62,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-20T19:00:00.743Z",
-      "lastRecalledAt": "2026-04-24T19:00:01.620Z",
+      "lastRecalledAt": "2026-04-25T19:00:01.617Z",
       "queryHashes": [
         "511fd8111b88"
       ],
       "recallDays": [
         "2026-04-20",
         "2026-04-23",
-        "2026-04-24"
+        "2026-04-24",
+        "2026-04-25"
       ],
       "conceptTags": [
         "0.97",
@@ -7723,14 +7731,15 @@
       "totalScore": 0.62,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-20T19:00:00.743Z",
-      "lastRecalledAt": "2026-04-24T19:00:01.620Z",
+      "lastRecalledAt": "2026-04-25T19:00:01.617Z",
       "queryHashes": [
         "511fd8111b88"
       ],
       "recallDays": [
         "2026-04-20",
         "2026-04-23",
-        "2026-04-24"
+        "2026-04-24",
+        "2026-04-25"
       ],
       "conceptTags": [
         "0.58",
@@ -8065,13 +8074,14 @@
       "totalScore": 0.62,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-21T19:00:01.628Z",
-      "lastRecalledAt": "2026-04-24T19:00:01.620Z",
+      "lastRecalledAt": "2026-04-25T19:00:01.617Z",
       "queryHashes": [
         "f52400c81d76"
       ],
       "recallDays": [
         "2026-04-21",
-        "2026-04-24"
+        "2026-04-24",
+        "2026-04-25"
       ],
       "conceptTags": [
         "0.98",
@@ -8097,13 +8107,14 @@
       "totalScore": 0.62,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-21T19:00:01.628Z",
-      "lastRecalledAt": "2026-04-24T19:00:01.620Z",
+      "lastRecalledAt": "2026-04-25T19:00:01.617Z",
       "queryHashes": [
         "f52400c81d76"
       ],
       "recallDays": [
         "2026-04-21",
-        "2026-04-24"
+        "2026-04-24",
+        "2026-04-25"
       ],
       "conceptTags": [
         "0.97",
@@ -8129,13 +8140,14 @@
       "totalScore": 0.62,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-21T19:00:01.628Z",
-      "lastRecalledAt": "2026-04-24T19:00:01.620Z",
+      "lastRecalledAt": "2026-04-25T19:00:01.617Z",
       "queryHashes": [
         "f52400c81d76"
       ],
       "recallDays": [
         "2026-04-21",
-        "2026-04-24"
+        "2026-04-24",
+        "2026-04-25"
       ],
       "conceptTags": [
         "reply-to-current",
@@ -8408,12 +8420,13 @@
       "totalScore": 0.62,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-22T19:00:00.919Z",
-      "lastRecalledAt": "2026-04-22T19:00:00.919Z",
+      "lastRecalledAt": "2026-04-25T19:00:01.617Z",
       "queryHashes": [
         "7b7a9134bc2c"
       ],
       "recallDays": [
-        "2026-04-22"
+        "2026-04-22",
+        "2026-04-25"
       ],
       "conceptTags": [
         "1.00",
@@ -8439,12 +8452,13 @@
       "totalScore": 0.62,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-22T19:00:00.919Z",
-      "lastRecalledAt": "2026-04-22T19:00:00.919Z",
+      "lastRecalledAt": "2026-04-25T19:00:01.617Z",
       "queryHashes": [
         "7b7a9134bc2c"
       ],
       "recallDays": [
-        "2026-04-22"
+        "2026-04-22",
+        "2026-04-25"
       ],
       "conceptTags": [
         "0.90",
@@ -8470,12 +8484,13 @@
       "totalScore": 0.62,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-22T19:00:00.919Z",
-      "lastRecalledAt": "2026-04-22T19:00:00.919Z",
+      "lastRecalledAt": "2026-04-25T19:00:01.617Z",
       "queryHashes": [
         "7b7a9134bc2c"
       ],
       "recallDays": [
-        "2026-04-22"
+        "2026-04-22",
+        "2026-04-25"
       ],
       "conceptTags": [
         "reply-to-current",
@@ -10011,6 +10026,222 @@
         "fri",
         "apr",
         "utc"
+      ]
+    },
+    "memory:memory/2026-04-25.md:348:351": {
+      "key": "memory:memory/2026-04-25.md:348:351",
+      "path": "memory/2026-04-25.md",
+      "startLine": 348,
+      "endLine": 351,
+      "source": "memory",
+      "snippet": "Reflections: Theme: `assistant` kept surfacing across 67 memories.; confidence: 0.99; evidence: memory/2026-04-14.md:317-320, memory/2026-04-15.md:282-285, memory/2026-04-15.md:288-290; note: reflection",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-04-25T19:00:01.617Z",
+      "lastRecalledAt": "2026-04-25T19:00:01.617Z",
+      "queryHashes": [
+        "90c0a0f693f1"
+      ],
+      "recallDays": [
+        "2026-04-25"
+      ],
+      "conceptTags": [
+        "0.99",
+        "memory/2026-04-14.md",
+        "317-320",
+        "memory/2026-04-15.md",
+        "282-285",
+        "288-290",
+        "reflections",
+        "theme"
+      ]
+    },
+    "memory:memory/2026-04-25.md:352:355": {
+      "key": "memory:memory/2026-04-25.md:352:355",
+      "path": "memory/2026-04-25.md",
+      "startLine": 352,
+      "endLine": 355,
+      "source": "memory",
+      "snippet": "Reflections: Theme: `user` kept surfacing across 59 memories.; confidence: 0.87; evidence: memory/2026-04-14.md:313-316, memory/2026-04-15.md:278-281, memory/2026-04-16.md:218-221; note: reflection",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-04-25T19:00:01.617Z",
+      "lastRecalledAt": "2026-04-25T19:00:01.617Z",
+      "queryHashes": [
+        "90c0a0f693f1"
+      ],
+      "recallDays": [
+        "2026-04-25"
+      ],
+      "conceptTags": [
+        "0.87",
+        "memory/2026-04-14.md",
+        "313-316",
+        "memory/2026-04-15.md",
+        "278-281",
+        "memory/2026-04-16.md",
+        "218-221",
+        "reflections"
+      ]
+    },
+    "memory:memory/2026-04-25.md:358:360": {
+      "key": "memory:memory/2026-04-25.md:358:360",
+      "path": "memory/2026-04-25.md",
+      "startLine": 358,
+      "endLine": 360,
+      "source": "memory",
+      "snippet": "Possible Lasting Truths: Possible Lasting Truths: Assistant: [[reply_to_current]] ## ECHO 势体系技术文档总结 这是 **ECHO Shi Framework (势体系)** 的技术文档首页，介绍了该项目的核心组成部分： ### 核心模块 1. **势枢核心 v1.0** - 包含时间维、空间维、关系维三维编织的元结构定义，基础架构已确认 2. **势场聚类 v1.0** - 从势枢涌现出64个势场区域，使用DBSCAN聚类算法，每周进行测绘并以文化命名，核心机制已确",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-04-25T19:00:01.617Z",
+      "lastRecalledAt": "2026-04-25T19:00:01.617Z",
+      "queryHashes": [
+        "90c0a0f693f1"
+      ],
+      "recallDays": [
+        "2026-04-25"
+      ],
+      "conceptTags": [
+        "reply-to-current",
+        "v1.0",
+        "possible",
+        "lasting",
+        "truths",
+        "assistant",
+        "echo",
+        "体系"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-25.txt:1:1": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-25.txt:1:1",
+      "path": "memory/.dreams/session-corpus/2026-04-25.txt",
+      "startLine": 1,
+      "endLine": 1,
+      "source": "memory",
+      "snippet": "User: [cron:config-backup-8am config-backup-8am] 备份 openclaw.json：cp ~/.openclaw/openclaw.json ~/.openclaw/openclaw.json.backup-$(date +%Y%m%d) && echo \"openclaw.json 备份完成 $(date)\" Current time: Saturday, April 25th, 2026 - 8:00 AM (UTC) / 2026-04-25 08:00 UTC Return your summary",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-25T19:00:01.617Z",
+      "lastRecalledAt": "2026-04-25T19:00:01.617Z",
+      "queryHashes": [
+        "0ebfd40e58af"
+      ],
+      "recallDays": [
+        "2026-04-25"
+      ],
+      "conceptTags": [
+        "backup",
+        "备份",
+        "config-backup-8am",
+        "openclaw.json",
+        "openclaw/openclaw.json",
+        "openclaw/openclaw.json.backup",
+        "user",
+        "cron:config"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-25.txt:2:2": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-25.txt:2:2",
+      "path": "memory/.dreams/session-corpus/2026-04-25.txt",
+      "startLine": 2,
+      "endLine": 2,
+      "source": "memory",
+      "snippet": "Assistant: openclaw.json 备份完成 Sat Apr 25 08:01:35 UTC 2026",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-25T19:00:01.617Z",
+      "lastRecalledAt": "2026-04-25T19:00:01.617Z",
+      "queryHashes": [
+        "0ebfd40e58af"
+      ],
+      "recallDays": [
+        "2026-04-25"
+      ],
+      "conceptTags": [
+        "备份",
+        "openclaw.json",
+        "assistant",
+        "完成",
+        "sat",
+        "apr",
+        "utc"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-25.txt:3:3": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-25.txt:3:3",
+      "path": "memory/.dreams/session-corpus/2026-04-25.txt",
+      "startLine": 3,
+      "endLine": 3,
+      "source": "memory",
+      "snippet": "User: [cron:1c3a7bd5-d835-41d8-a14a-d2970f13d503 daily-backup] 执行备份：cd ~/.openclaw && git add -A && git commit -m \"auto backup $(date +\\%Y-\\%m-\\%d)\" && git push && echo \"备份完成\" Current time: Saturday, April 25th, 2026 - 12:00 AM (UTC) / 2026-04-25 00:00 UTC Return your summary as",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-25T19:00:01.617Z",
+      "lastRecalledAt": "2026-04-25T19:00:01.617Z",
+      "queryHashes": [
+        "0ebfd40e58af"
+      ],
+      "recallDays": [
+        "2026-04-25"
+      ],
+      "conceptTags": [
+        "backup",
+        "备份",
+        "daily-backup",
+        "user",
+        "cron",
+        "1c3a7bd5",
+        "d835",
+        "41d8"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-25.txt:4:4": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-25.txt:4:4",
+      "path": "memory/.dreams/session-corpus/2026-04-25.txt",
+      "startLine": 4,
+      "endLine": 4,
+      "source": "memory",
+      "snippet": "Assistant: ✅ 每日自动备份完成（2026-04-25） - 提交哈希: 487eb03f - 变更: 65个文件更新（4383新增/1558删除） - 已推送至远程仓库: github.com:blocklee/my-openclaw.git master分支 - 内容包含: 今日会话记录、各工作区2026-04-25日常记忆文件、openclaw配置备份",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-25T19:00:01.617Z",
+      "lastRecalledAt": "2026-04-25T19:00:01.617Z",
+      "queryHashes": [
+        "0ebfd40e58af"
+      ],
+      "recallDays": [
+        "2026-04-25"
+      ],
+      "conceptTags": [
+        "备份",
+        "4383新增/1558删除",
+        "github.com",
+        "blocklee/my-openclaw.git",
+        "各工作区2026-04-25日常记忆文件",
+        "assistant",
+        "每日",
+        "自动"
       ]
     }
   }
