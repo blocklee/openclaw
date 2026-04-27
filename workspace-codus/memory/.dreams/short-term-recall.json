@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-04-25T19:04:40.241Z",
+  "updatedAt": "2026-04-26T19:06:11.902Z",
   "entries": {
     "memory:memory/.dreams/session-corpus/2026-04-11.txt:1:1": {
       "key": "memory:memory/.dreams/session-corpus/2026-04-11.txt:1:1",
@@ -5216,7 +5216,7 @@
       "totalScore": 0.62,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-19T19:04:13.704Z",
-      "lastRecalledAt": "2026-04-25T19:03:45.966Z",
+      "lastRecalledAt": "2026-04-26T19:05:38.568Z",
       "queryHashes": [
         "21faa0df9302"
       ],
@@ -5225,7 +5225,8 @@
         "2026-04-22",
         "2026-04-23",
         "2026-04-24",
-        "2026-04-25"
+        "2026-04-25",
+        "2026-04-26"
       ],
       "conceptTags": [
         "1.00",
@@ -5251,7 +5252,7 @@
       "totalScore": 0.62,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-19T19:04:13.704Z",
-      "lastRecalledAt": "2026-04-25T19:03:45.966Z",
+      "lastRecalledAt": "2026-04-26T19:05:38.568Z",
       "queryHashes": [
         "21faa0df9302"
       ],
@@ -5260,7 +5261,8 @@
         "2026-04-22",
         "2026-04-23",
         "2026-04-24",
-        "2026-04-25"
+        "2026-04-25",
+        "2026-04-26"
       ],
       "conceptTags": [
         "0.83",
@@ -5286,7 +5288,7 @@
       "totalScore": 0.62,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-19T19:04:13.704Z",
-      "lastRecalledAt": "2026-04-25T19:03:45.966Z",
+      "lastRecalledAt": "2026-04-26T19:05:38.568Z",
       "queryHashes": [
         "21faa0df9302"
       ],
@@ -5295,7 +5297,8 @@
         "2026-04-22",
         "2026-04-23",
         "2026-04-24",
-        "2026-04-25"
+        "2026-04-25",
+        "2026-04-26"
       ],
       "conceptTags": [
         "0.51",
@@ -7433,7 +7436,7 @@
       "totalScore": 0.62,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-20T19:08:50.865Z",
-      "lastRecalledAt": "2026-04-25T19:03:45.966Z",
+      "lastRecalledAt": "2026-04-26T19:05:38.568Z",
       "queryHashes": [
         "511fd8111b88"
       ],
@@ -7441,7 +7444,8 @@
         "2026-04-20",
         "2026-04-23",
         "2026-04-24",
-        "2026-04-25"
+        "2026-04-25",
+        "2026-04-26"
       ],
       "conceptTags": [
         "1.00",
@@ -7467,7 +7471,7 @@
       "totalScore": 0.62,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-20T19:08:50.865Z",
-      "lastRecalledAt": "2026-04-25T19:03:45.966Z",
+      "lastRecalledAt": "2026-04-26T19:05:38.568Z",
       "queryHashes": [
         "511fd8111b88"
       ],
@@ -7475,7 +7479,8 @@
         "2026-04-20",
         "2026-04-23",
         "2026-04-24",
-        "2026-04-25"
+        "2026-04-25",
+        "2026-04-26"
       ],
       "conceptTags": [
         "0.77",
@@ -7501,7 +7506,7 @@
       "totalScore": 0.62,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-20T19:08:50.865Z",
-      "lastRecalledAt": "2026-04-25T19:03:45.966Z",
+      "lastRecalledAt": "2026-04-26T19:05:38.568Z",
       "queryHashes": [
         "511fd8111b88"
       ],
@@ -7509,7 +7514,8 @@
         "2026-04-20",
         "2026-04-23",
         "2026-04-24",
-        "2026-04-25"
+        "2026-04-25",
+        "2026-04-26"
       ],
       "conceptTags": [
         "0.58",
@@ -7947,14 +7953,15 @@
       "totalScore": 0.62,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-21T19:05:13.278Z",
-      "lastRecalledAt": "2026-04-25T19:03:45.966Z",
+      "lastRecalledAt": "2026-04-26T19:05:38.568Z",
       "queryHashes": [
         "f52400c81d76"
       ],
       "recallDays": [
         "2026-04-21",
         "2026-04-24",
-        "2026-04-25"
+        "2026-04-25",
+        "2026-04-26"
       ],
       "conceptTags": [
         "1.00",
@@ -7980,14 +7987,15 @@
       "totalScore": 0.62,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-21T19:05:13.278Z",
-      "lastRecalledAt": "2026-04-25T19:03:45.966Z",
+      "lastRecalledAt": "2026-04-26T19:05:38.568Z",
       "queryHashes": [
         "f52400c81d76"
       ],
       "recallDays": [
         "2026-04-21",
         "2026-04-24",
-        "2026-04-25"
+        "2026-04-25",
+        "2026-04-26"
       ],
       "conceptTags": [
         "0.76",
@@ -8013,14 +8021,15 @@
       "totalScore": 0.62,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-21T19:05:13.278Z",
-      "lastRecalledAt": "2026-04-25T19:03:45.966Z",
+      "lastRecalledAt": "2026-04-26T19:05:38.568Z",
       "queryHashes": [
         "f52400c81d76"
       ],
       "recallDays": [
         "2026-04-21",
         "2026-04-24",
-        "2026-04-25"
+        "2026-04-25",
+        "2026-04-26"
       ],
       "conceptTags": [
         "possible",
@@ -8046,13 +8055,14 @@
       "totalScore": 0.62,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-22T19:04:01.896Z",
-      "lastRecalledAt": "2026-04-25T19:03:45.966Z",
+      "lastRecalledAt": "2026-04-26T19:05:38.568Z",
       "queryHashes": [
         "7b7a9134bc2c"
       ],
       "recallDays": [
         "2026-04-22",
-        "2026-04-25"
+        "2026-04-25",
+        "2026-04-26"
       ],
       "conceptTags": [
         "1.00",
@@ -8078,13 +8088,14 @@
       "totalScore": 0.62,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-22T19:04:01.896Z",
-      "lastRecalledAt": "2026-04-25T19:03:45.966Z",
+      "lastRecalledAt": "2026-04-26T19:05:38.568Z",
       "queryHashes": [
         "7b7a9134bc2c"
       ],
       "recallDays": [
         "2026-04-22",
-        "2026-04-25"
+        "2026-04-25",
+        "2026-04-26"
       ],
       "conceptTags": [
         "possible",
@@ -8110,12 +8121,13 @@
       "totalScore": 0.62,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-23T19:07:19.429Z",
-      "lastRecalledAt": "2026-04-23T19:07:19.429Z",
+      "lastRecalledAt": "2026-04-26T19:05:38.568Z",
       "queryHashes": [
         "b7fd25b71b44"
       ],
       "recallDays": [
-        "2026-04-23"
+        "2026-04-23",
+        "2026-04-26"
       ],
       "conceptTags": [
         "1.00",
@@ -8141,12 +8153,13 @@
       "totalScore": 0.62,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-23T19:07:19.429Z",
-      "lastRecalledAt": "2026-04-23T19:07:19.429Z",
+      "lastRecalledAt": "2026-04-26T19:05:38.568Z",
       "queryHashes": [
         "b7fd25b71b44"
       ],
       "recallDays": [
-        "2026-04-23"
+        "2026-04-23",
+        "2026-04-26"
       ],
       "conceptTags": [
         "possible",
@@ -8281,6 +8294,220 @@
         "一个",
         "关于",
         "echo"
+      ]
+    },
+    "memory:memory/2026-04-26.md:128:131": {
+      "key": "memory:memory/2026-04-26.md:128:131",
+      "path": "memory/2026-04-26.md",
+      "startLine": 128,
+      "endLine": 131,
+      "source": "memory",
+      "snippet": "Reflections: Theme: `assistant` kept surfacing across 74 memories.; confidence: 1.00; evidence: memory/2026-04-14.md:233-236, memory/2026-04-15.md:328-331, memory/2026-04-15.md:338-340; note: reflection",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-04-26T19:05:38.568Z",
+      "lastRecalledAt": "2026-04-26T19:05:38.568Z",
+      "queryHashes": [
+        "9b4c3d373463"
+      ],
+      "recallDays": [
+        "2026-04-26"
+      ],
+      "conceptTags": [
+        "1.00",
+        "memory/2026-04-14.md",
+        "233-236",
+        "memory/2026-04-15.md",
+        "328-331",
+        "338-340",
+        "reflections",
+        "theme"
+      ]
+    },
+    "memory:memory/2026-04-26.md:134:136": {
+      "key": "memory:memory/2026-04-26.md:134:136",
+      "path": "memory/2026-04-26.md",
+      "startLine": 134,
+      "endLine": 136,
+      "source": "memory",
+      "snippet": "Possible Lasting Truths: Possible Lasting Truths: Assistant: @Lucus 这是一个关于 **ECHO 势(Shi) 技术架构**的文档，总结如下： ## 核心概念 **「势」**是一个三维编织的动态系统，用时间、空间、关系三个维度配合64卦约束来管理数字资产。 ## 核心理念 - **实际生效配置** = 创作者意图 ∩ 物理法则范围 - **约束不是限制，而是生态的免疫系统** - 代码即法律，约束即保护，分叉即自由 ## 三维编织 | 维度 | 含义 | 档位 | |------|----",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-04-26T19:05:38.568Z",
+      "lastRecalledAt": "2026-04-26T19:05:38.568Z",
+      "queryHashes": [
+        "9b4c3d373463"
+      ],
+      "recallDays": [
+        "2026-04-26"
+      ],
+      "conceptTags": [
+        "possible",
+        "lasting",
+        "truths",
+        "assistant",
+        "lucus",
+        "一个",
+        "关于",
+        "echo"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-26.txt:1:1": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-26.txt:1:1",
+      "path": "memory/.dreams/session-corpus/2026-04-26.txt",
+      "startLine": 1,
+      "endLine": 1,
+      "source": "memory",
+      "snippet": "User: Conversation info (untrusted metadata): ```json { \"message_id\": \"om_x100b51ea501808a0eea2ec94c49f5ff\", \"sender_id\": \"ou_13190b75af6c015cd2975d6de047a6f1\", \"sender\": \"听风\", \"timestamp\": \"Sun 2026-04-26 09:59 UTC\" } ``` Sender (untrusted metadata): ```json { \"label\": \"听风 (ou_1",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-26T19:05:38.568Z",
+      "lastRecalledAt": "2026-04-26T19:05:38.568Z",
+      "queryHashes": [
+        "2f7d4f01eb0b"
+      ],
+      "recallDays": [
+        "2026-04-26"
+      ],
+      "conceptTags": [
+        "message-id",
+        "sender-id",
+        "ou-1",
+        "user",
+        "conversation",
+        "info",
+        "untrusted",
+        "metadata"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-26.txt:2:2": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-26.txt:2:2",
+      "path": "memory/.dreams/session-corpus/2026-04-26.txt",
+      "startLine": 2,
+      "endLine": 2,
+      "source": "memory",
+      "snippet": "Assistant: Let me fix that with the correct path:",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-26T19:05:38.568Z",
+      "lastRecalledAt": "2026-04-26T19:05:38.568Z",
+      "queryHashes": [
+        "2f7d4f01eb0b"
+      ],
+      "recallDays": [
+        "2026-04-26"
+      ],
+      "conceptTags": [
+        "assistant",
+        "let",
+        "fix",
+        "the",
+        "correct",
+        "path"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-26.txt:3:3": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-26.txt:3:3",
+      "path": "memory/.dreams/session-corpus/2026-04-26.txt",
+      "startLine": 3,
+      "endLine": 3,
+      "source": "memory",
+      "snippet": "Assistant: Let me write the HTML file using a different approach:",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-26T19:05:38.568Z",
+      "lastRecalledAt": "2026-04-26T19:05:38.568Z",
+      "queryHashes": [
+        "2f7d4f01eb0b"
+      ],
+      "recallDays": [
+        "2026-04-26"
+      ],
+      "conceptTags": [
+        "assistant",
+        "let",
+        "write",
+        "the",
+        "html",
+        "different",
+        "approach"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-26.txt:4:4": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-26.txt:4:4",
+      "path": "memory/.dreams/session-corpus/2026-04-26.txt",
+      "startLine": 4,
+      "endLine": 4,
+      "source": "memory",
+      "snippet": "Assistant: Let me use Python to properly convert the full markdown to HTML:",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-26T19:05:38.568Z",
+      "lastRecalledAt": "2026-04-26T19:05:38.568Z",
+      "queryHashes": [
+        "2f7d4f01eb0b"
+      ],
+      "recallDays": [
+        "2026-04-26"
+      ],
+      "conceptTags": [
+        "assistant",
+        "let",
+        "use",
+        "python",
+        "properly",
+        "convert",
+        "the",
+        "full"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-26.txt:5:5": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-26.txt:5:5",
+      "path": "memory/.dreams/session-corpus/2026-04-26.txt",
+      "startLine": 5,
+      "endLine": 5,
+      "source": "memory",
+      "snippet": "Assistant: 已完成！HTML 页面已生成： **文件位置**: `~/.openclaw/outputs/codus/TEE_IMPLEMENTATION_DETAIL.html` (54KB) **页面特性**: - 📱 响应式布局，支持移动端 - 🎨 现代蓝色主题渐变头部 - 📑 左侧两栏目录导航 - 💻 代码块深色主题 - 📊 表格样式优化 - 🔗 锚点链接跳转 你可以直接在浏览器中打开该 HTML 文件查看效果。",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-26T19:05:38.568Z",
+      "lastRecalledAt": "2026-04-26T19:05:38.568Z",
+      "queryHashes": [
+        "2f7d4f01eb0b"
+      ],
+      "recallDays": [
+        "2026-04-26"
+      ],
+      "conceptTags": [
+        "assistant",
+        "完成",
+        "html",
+        "生成",
+        "文件",
+        "位置",
+        "openclaw",
+        "outputs"
       ]
     }
   }

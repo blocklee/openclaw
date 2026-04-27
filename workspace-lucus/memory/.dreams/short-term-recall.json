@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-04-25T19:02:36.454Z",
+  "updatedAt": "2026-04-26T19:04:32.700Z",
   "entries": {
     "memory:memory/.dreams/session-corpus/2026-04-11.txt:1:1": {
       "key": "memory:memory/.dreams/session-corpus/2026-04-11.txt:1:1",
@@ -6797,7 +6797,7 @@
       "totalScore": 0.62,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-19T19:01:32.273Z",
-      "lastRecalledAt": "2026-04-25T19:01:13.586Z",
+      "lastRecalledAt": "2026-04-26T19:03:12.752Z",
       "queryHashes": [
         "21faa0df9302"
       ],
@@ -6806,7 +6806,8 @@
         "2026-04-22",
         "2026-04-23",
         "2026-04-24",
-        "2026-04-25"
+        "2026-04-25",
+        "2026-04-26"
       ],
       "conceptTags": [
         "1.00",
@@ -6832,7 +6833,7 @@
       "totalScore": 0.62,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-19T19:01:32.273Z",
-      "lastRecalledAt": "2026-04-25T19:01:13.586Z",
+      "lastRecalledAt": "2026-04-26T19:03:12.752Z",
       "queryHashes": [
         "21faa0df9302"
       ],
@@ -6841,7 +6842,8 @@
         "2026-04-22",
         "2026-04-23",
         "2026-04-24",
-        "2026-04-25"
+        "2026-04-25",
+        "2026-04-26"
       ],
       "conceptTags": [
         "0.88",
@@ -6867,7 +6869,7 @@
       "totalScore": 0.62,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-19T19:01:32.273Z",
-      "lastRecalledAt": "2026-04-25T19:01:13.586Z",
+      "lastRecalledAt": "2026-04-26T19:03:12.752Z",
       "queryHashes": [
         "21faa0df9302"
       ],
@@ -6876,7 +6878,8 @@
         "2026-04-22",
         "2026-04-23",
         "2026-04-24",
-        "2026-04-25"
+        "2026-04-25",
+        "2026-04-26"
       ],
       "conceptTags": [
         "0.56",
@@ -7276,7 +7279,7 @@
       "totalScore": 0.62,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-20T19:03:53.702Z",
-      "lastRecalledAt": "2026-04-25T19:01:13.586Z",
+      "lastRecalledAt": "2026-04-26T19:03:12.752Z",
       "queryHashes": [
         "511fd8111b88"
       ],
@@ -7284,7 +7287,8 @@
         "2026-04-20",
         "2026-04-23",
         "2026-04-24",
-        "2026-04-25"
+        "2026-04-25",
+        "2026-04-26"
       ],
       "conceptTags": [
         "1.00",
@@ -7310,7 +7314,7 @@
       "totalScore": 0.62,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-20T19:03:53.702Z",
-      "lastRecalledAt": "2026-04-25T19:01:13.586Z",
+      "lastRecalledAt": "2026-04-26T19:03:12.752Z",
       "queryHashes": [
         "511fd8111b88"
       ],
@@ -7318,7 +7322,8 @@
         "2026-04-20",
         "2026-04-23",
         "2026-04-24",
-        "2026-04-25"
+        "2026-04-25",
+        "2026-04-26"
       ],
       "conceptTags": [
         "0.88",
@@ -7344,7 +7349,7 @@
       "totalScore": 0.62,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-20T19:03:53.702Z",
-      "lastRecalledAt": "2026-04-25T19:01:13.586Z",
+      "lastRecalledAt": "2026-04-26T19:03:12.752Z",
       "queryHashes": [
         "511fd8111b88"
       ],
@@ -7352,7 +7357,8 @@
         "2026-04-20",
         "2026-04-23",
         "2026-04-24",
-        "2026-04-25"
+        "2026-04-25",
+        "2026-04-26"
       ],
       "conceptTags": [
         "0.58",
@@ -7378,14 +7384,15 @@
       "totalScore": 0.62,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-21T19:01:57.930Z",
-      "lastRecalledAt": "2026-04-25T19:01:13.586Z",
+      "lastRecalledAt": "2026-04-26T19:03:12.752Z",
       "queryHashes": [
         "f52400c81d76"
       ],
       "recallDays": [
         "2026-04-21",
         "2026-04-24",
-        "2026-04-25"
+        "2026-04-25",
+        "2026-04-26"
       ],
       "conceptTags": [
         "1.00",
@@ -7411,14 +7418,15 @@
       "totalScore": 0.62,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-21T19:01:57.930Z",
-      "lastRecalledAt": "2026-04-25T19:01:13.586Z",
+      "lastRecalledAt": "2026-04-26T19:03:12.752Z",
       "queryHashes": [
         "f52400c81d76"
       ],
       "recallDays": [
         "2026-04-21",
         "2026-04-24",
-        "2026-04-25"
+        "2026-04-25",
+        "2026-04-26"
       ],
       "conceptTags": [
         "0.88",
@@ -7444,14 +7452,15 @@
       "totalScore": 0.62,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-21T19:01:57.930Z",
-      "lastRecalledAt": "2026-04-25T19:01:13.586Z",
+      "lastRecalledAt": "2026-04-26T19:03:12.752Z",
       "queryHashes": [
         "f52400c81d76"
       ],
       "recallDays": [
         "2026-04-21",
         "2026-04-24",
-        "2026-04-25"
+        "2026-04-25",
+        "2026-04-26"
       ],
       "conceptTags": [
         "backup",
@@ -7477,13 +7486,14 @@
       "totalScore": 0.62,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-22T19:02:06.423Z",
-      "lastRecalledAt": "2026-04-25T19:01:13.586Z",
+      "lastRecalledAt": "2026-04-26T19:03:12.752Z",
       "queryHashes": [
         "7b7a9134bc2c"
       ],
       "recallDays": [
         "2026-04-22",
-        "2026-04-25"
+        "2026-04-25",
+        "2026-04-26"
       ],
       "conceptTags": [
         "0.95",
@@ -7509,13 +7519,14 @@
       "totalScore": 0.62,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-22T19:02:06.423Z",
-      "lastRecalledAt": "2026-04-25T19:01:13.586Z",
+      "lastRecalledAt": "2026-04-26T19:03:12.752Z",
       "queryHashes": [
         "7b7a9134bc2c"
       ],
       "recallDays": [
         "2026-04-22",
-        "2026-04-25"
+        "2026-04-25",
+        "2026-04-26"
       ],
       "conceptTags": [
         "0.93",
@@ -7541,13 +7552,14 @@
       "totalScore": 0.62,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-22T19:02:06.423Z",
-      "lastRecalledAt": "2026-04-25T19:01:13.586Z",
+      "lastRecalledAt": "2026-04-26T19:03:12.752Z",
       "queryHashes": [
         "7b7a9134bc2c"
       ],
       "recallDays": [
         "2026-04-22",
-        "2026-04-25"
+        "2026-04-25",
+        "2026-04-26"
       ],
       "conceptTags": [
         "0.81",
@@ -7573,13 +7585,14 @@
       "totalScore": 0.62,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-22T19:02:06.423Z",
-      "lastRecalledAt": "2026-04-25T19:01:13.586Z",
+      "lastRecalledAt": "2026-04-26T19:03:12.752Z",
       "queryHashes": [
         "7b7a9134bc2c"
       ],
       "recallDays": [
         "2026-04-22",
-        "2026-04-25"
+        "2026-04-25",
+        "2026-04-26"
       ],
       "conceptTags": [
         "message-id",
@@ -7605,13 +7618,14 @@
       "totalScore": 0.62,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-22T19:02:06.423Z",
-      "lastRecalledAt": "2026-04-25T19:01:13.586Z",
+      "lastRecalledAt": "2026-04-26T19:03:12.752Z",
       "queryHashes": [
         "7b7a9134bc2c"
       ],
       "recallDays": [
         "2026-04-22",
-        "2026-04-25"
+        "2026-04-25",
+        "2026-04-26"
       ],
       "conceptTags": [
         "backup",
@@ -7637,12 +7651,13 @@
       "totalScore": 0.62,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-23T19:02:27.581Z",
-      "lastRecalledAt": "2026-04-23T19:02:27.581Z",
+      "lastRecalledAt": "2026-04-26T19:03:12.752Z",
       "queryHashes": [
         "b7fd25b71b44"
       ],
       "recallDays": [
-        "2026-04-23"
+        "2026-04-23",
+        "2026-04-26"
       ],
       "conceptTags": [
         "0.99",
@@ -7668,12 +7683,13 @@
       "totalScore": 0.62,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-23T19:02:27.581Z",
-      "lastRecalledAt": "2026-04-23T19:02:27.581Z",
+      "lastRecalledAt": "2026-04-26T19:03:12.752Z",
       "queryHashes": [
         "b7fd25b71b44"
       ],
       "recallDays": [
-        "2026-04-23"
+        "2026-04-23",
+        "2026-04-26"
       ],
       "conceptTags": [
         "0.80",
@@ -7699,12 +7715,13 @@
       "totalScore": 0.62,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-23T19:02:27.581Z",
-      "lastRecalledAt": "2026-04-23T19:02:27.581Z",
+      "lastRecalledAt": "2026-04-26T19:03:12.752Z",
       "queryHashes": [
         "b7fd25b71b44"
       ],
       "recallDays": [
-        "2026-04-23"
+        "2026-04-23",
+        "2026-04-26"
       ],
       "conceptTags": [
         "backup",
@@ -7829,6 +7846,68 @@
       ],
       "recallDays": [
         "2026-04-25"
+      ],
+      "conceptTags": [
+        "backup",
+        "3/4",
+        "config-backup-8am",
+        "possible",
+        "lasting",
+        "truths",
+        "assistant",
+        "cron"
+      ]
+    },
+    "memory:memory/2026-04-26.md:148:151": {
+      "key": "memory:memory/2026-04-26.md:148:151",
+      "path": "memory/2026-04-26.md",
+      "startLine": 148,
+      "endLine": 151,
+      "source": "memory",
+      "snippet": "Reflections: Theme: `assistant` kept surfacing across 38 memories.; confidence: 1.00; evidence: memory/2026-04-14.md:258-261, memory/2026-04-15.md:298-301, memory/2026-04-15.md:312-314; note: reflection",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-04-26T19:03:12.752Z",
+      "lastRecalledAt": "2026-04-26T19:03:12.752Z",
+      "queryHashes": [
+        "9b4c3d373463"
+      ],
+      "recallDays": [
+        "2026-04-26"
+      ],
+      "conceptTags": [
+        "1.00",
+        "memory/2026-04-14.md",
+        "258-261",
+        "memory/2026-04-15.md",
+        "298-301",
+        "312-314",
+        "reflections",
+        "theme"
+      ]
+    },
+    "memory:memory/2026-04-26.md:154:156": {
+      "key": "memory:memory/2026-04-26.md:154:156",
+      "path": "memory/2026-04-26.md",
+      "startLine": 154,
+      "endLine": 156,
+      "source": "memory",
+      "snippet": "Possible Lasting Truths: Possible Lasting Truths: Assistant: ## 📊 Cron 任务运行状态检查报告 ### ✅ 数据库状态 - **数据库完整性**: ✅ 正常 - **上次修复时间**: 2026-04-10 16:22（约 15 分钟前） - **修复后运行**: ✅ 3/4 任务成功 ### 📋 任务执行情况 | 任务名称 | 状态 | 耗时 | 备注 | |---------|------|------|------| | config-backup-8am | ✅ succee",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-04-26T19:03:12.752Z",
+      "lastRecalledAt": "2026-04-26T19:03:12.752Z",
+      "queryHashes": [
+        "9b4c3d373463"
+      ],
+      "recallDays": [
+        "2026-04-26"
       ],
       "conceptTags": [
         "backup",
