@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-04-26T19:05:38.531Z",
+  "updatedAt": "2026-04-27T19:01:22.067Z",
   "entries": {
     "memory:memory/2026-04-12.md:6:6": {
       "key": "memory:memory/2026-04-12.md:6:6",
@@ -72,8 +72,8 @@
         "wrong",
         "while",
         "processing",
-        "your",
-        "request"
+        "request",
+        "please"
       ]
     },
     "memory:memory/2026-04-12.md:13:14": {
@@ -142,11 +142,11 @@
         "5-hour",
         "根因",
         "分析",
-        "you",
         "exceeded",
-        "the",
         "hour",
-        "usage"
+        "usage",
+        "quota",
+        "will"
       ]
     },
     "memory:memory/2026-04-12.md:19:20": {
@@ -446,11 +446,11 @@
         "message-id",
         "openclaw-weixin",
         "1775838225481-8eb213f0",
-        "user",
         "conversation",
         "info",
         "untrusted",
-        "metadata"
+        "metadata",
+        "openclaw"
       ]
     },
     "memory:memory/.dreams/session-corpus/2026-04-11.txt:2:2": {
@@ -475,14 +475,14 @@
         "2026-04-13"
       ],
       "conceptTags": [
-        "assistant",
         "上线",
         "我是",
         "你是",
         "工作",
         "文件",
         "似乎是",
-        "新的"
+        "新的",
+        "助手"
       ]
     },
     "memory:memory/.dreams/session-corpus/2026-04-11.txt:3:3": {
@@ -510,11 +510,11 @@
         "message-id",
         "openclaw-weixin",
         "1775839492783-d355e038",
-        "user",
         "conversation",
         "info",
         "untrusted",
-        "metadata"
+        "metadata",
+        "openclaw"
       ]
     },
     "memory:memory/.dreams/session-corpus/2026-04-11.txt:4:4": {
@@ -540,13 +540,13 @@
       ],
       "conceptTags": [
         "reply-to-current",
-        "assistant",
         "明白",
         "主公",
         "我是",
         "小夜",
         "私人",
-        "战略"
+        "战略",
+        "顾问"
       ]
     },
     "memory:memory/.dreams/session-corpus/2026-04-11.txt:5:5": {
@@ -572,13 +572,13 @@
       ],
       "conceptTags": [
         "我来更新user.md",
-        "assistant",
         "现在",
         "主公",
         "告诉",
         "一些",
         "基本",
-        "信息"
+        "信息",
+        "我来"
       ]
     },
     "memory:memory/.dreams/session-corpus/2026-04-11.txt:6:6": {
@@ -607,10 +607,10 @@
         "openclaw-weixin",
         "1775839585444-388a9c51",
         "短期/长期",
-        "user",
         "conversation",
         "info",
-        "untrusted"
+        "untrusted",
+        "metadata"
       ]
     },
     "memory:memory/.dreams/session-corpus/2026-04-11.txt:7:7": {
@@ -636,7 +636,6 @@
       ],
       "conceptTags": [
         "reply-to-current",
-        "assistant",
         "主公",
         "将军",
         "融入",
@@ -666,14 +665,14 @@
         "2026-04-13"
       ],
       "conceptTags": [
-        "assistant",
         "主公",
         "现在",
         "了解",
         "基本",
         "情况",
         "以便",
-        "更好"
+        "更好",
+        "参谋"
       ]
     },
     "memory:memory/.dreams/session-corpus/2026-04-11.txt:9:9": {
@@ -702,10 +701,10 @@
         "openclaw-weixin",
         "1775839913602-3c73caed",
         "我来更新user.md",
-        "user",
         "conversation",
         "info",
-        "untrusted"
+        "untrusted",
+        "metadata"
       ]
     },
     "memory:memory/.dreams/session-corpus/2026-04-11.txt:10:10": {
@@ -731,13 +730,13 @@
       ],
       "conceptTags": [
         "reply-to-current",
-        "assistant",
         "主公",
         "lucifer",
         "上海",
         "关注",
         "web3",
-        "区块"
+        "区块",
+        "智能"
       ]
     },
     "memory:memory/.dreams/session-corpus/2026-04-11.txt:11:11": {
@@ -762,7 +761,6 @@
         "2026-04-13"
       ],
       "conceptTags": [
-        "assistant",
         "现在",
         "删除",
         "引导",
@@ -793,14 +791,14 @@
         "2026-04-13"
       ],
       "conceptTags": [
-        "assistant",
         "主公",
         "初始",
         "完成",
         "小夜",
         "效劳",
         "关于",
-        "思考"
+        "思考",
+        "echo"
       ]
     },
     "memory:memory/.dreams/session-corpus/2026-04-11.txt:13:13": {
@@ -832,7 +830,7 @@
         "军师/先生/观星",
         "帮我参谋/分析/推演",
         "你怎么看/此事如何",
-        "user"
+        "conversation"
       ]
     },
     "memory:memory/.dreams/session-corpus/2026-04-11.txt:14:14": {
@@ -858,7 +856,6 @@
       ],
       "conceptTags": [
         "reply-to-current",
-        "assistant",
         "主公",
         "将军",
         "sop",
@@ -890,13 +887,13 @@
       ],
       "conceptTags": [
         "网络",
-        "assistant",
         "主公",
         "sop",
         "设定",
         "完毕",
         "现在",
-        "回到"
+        "回到",
+        "刚才"
       ]
     },
     "memory:memory/.dreams/session-corpus/2026-04-12.txt:1:1": {
@@ -924,11 +921,11 @@
         "message-id",
         "openclaw-weixin",
         "1775984121719-f2b2d5cc",
-        "user",
         "conversation",
         "info",
         "untrusted",
-        "metadata"
+        "metadata",
+        "openclaw"
       ]
     },
     "memory:memory/.dreams/session-corpus/2026-04-12.txt:2:2": {
@@ -956,11 +953,11 @@
         "message-id",
         "openclaw-weixin",
         "1775984121719-f2b2d5cc",
-        "user",
         "conversation",
         "info",
         "untrusted",
-        "metadata"
+        "metadata",
+        "openclaw"
       ]
     },
     "memory:memory/.dreams/session-corpus/2026-04-12.txt:3:3": {
@@ -988,11 +985,11 @@
         "message-id",
         "openclaw-weixin",
         "1775984121719-f2b2d5cc",
-        "user",
         "conversation",
         "info",
         "untrusted",
-        "metadata"
+        "metadata",
+        "openclaw"
       ]
     },
     "memory:memory/.dreams/session-corpus/2026-04-12.txt:4:4": {
@@ -1018,13 +1015,13 @@
       ],
       "conceptTags": [
         "会话/配置",
-        "assistant",
         "主公",
         "问题",
         "codus",
         "什么",
         "openclaw",
-        "会话"
+        "会话",
+        "配置"
       ]
     },
     "memory:memory/.dreams/session-corpus/2026-04-12.txt:5:5": {
@@ -1052,11 +1049,11 @@
         "message-id",
         "openclaw-weixin",
         "1775985429725-f30ec8fd",
-        "user",
         "conversation",
         "info",
         "untrusted",
-        "metadata"
+        "metadata",
+        "openclaw"
       ]
     },
     "memory:memory/.dreams/session-corpus/2026-04-12.txt:6:6": {
@@ -1081,14 +1078,14 @@
         "2026-04-13"
       ],
       "conceptTags": [
-        "assistant",
         "主公",
         "明白",
         "codus",
         "一个",
         "acp",
         "harness",
-        "会话"
+        "会话",
+        "现在"
       ]
     },
     "memory:memory/.dreams/session-corpus/2026-04-12.txt:7:7": {
@@ -1114,13 +1111,13 @@
       ],
       "conceptTags": [
         "doubao-seed-code",
-        "assistant",
         "找到",
         "codus",
         "关键",
         "会话",
         "信息",
-        "状态"
+        "状态",
+        "failed"
       ]
     },
     "memory:memory/.dreams/session-corpus/2026-04-12.txt:8:8": {
@@ -1147,12 +1144,12 @@
       "conceptTags": [
         "5-hour",
         "doubao-seed-2.0-code",
-        "assistant",
         "主公",
         "找到",
         "根因",
         "核心",
-        "问题"
+        "问题",
+        "codus"
       ]
     },
     "memory:memory/.dreams/session-corpus/2026-04-12.txt:9:9": {
@@ -1180,11 +1177,11 @@
         "message-id",
         "openclaw-weixin",
         "1775987290483-e1ea41a7",
-        "user",
         "conversation",
         "info",
         "untrusted",
-        "metadata"
+        "metadata",
+        "openclaw"
       ]
     },
     "memory:memory/.dreams/session-corpus/2026-04-12.txt:10:10": {
@@ -1209,7 +1206,6 @@
         "2026-04-13"
       ],
       "conceptTags": [
-        "assistant",
         "主公",
         "遵命",
         "我来",
@@ -1238,7 +1234,6 @@
         "2026-04-13"
       ],
       "conceptTags": [
-        "assistant",
         "现在"
       ]
     },
@@ -1266,7 +1261,6 @@
       "conceptTags": [
         "package.json",
         "node-modules",
-        "assistant",
         "依赖",
         "安装",
         "vite",
@@ -1296,7 +1290,6 @@
         "2026-04-13"
       ],
       "conceptTags": [
-        "assistant",
         "vite",
         "安装",
         "重新",
@@ -1325,7 +1318,6 @@
         "2026-04-13"
       ],
       "conceptTags": [
-        "assistant",
         "vite",
         "确实",
         "安装"
@@ -1354,7 +1346,6 @@
       ],
       "conceptTags": [
         "node-modules",
-        "assistant",
         "vite",
         "确实",
         "安装",
@@ -1384,14 +1375,14 @@
         "2026-04-13"
       ],
       "conceptTags": [
-        "assistant",
         "没有",
         "vite",
         "目录",
         "npm",
         "install",
         "安装",
-        "所有"
+        "所有",
+        "依赖"
       ]
     },
     "memory:memory/.dreams/session-corpus/2026-04-12.txt:17:17": {
@@ -1419,11 +1410,11 @@
         "message-id",
         "openclaw-weixin",
         "1775987290483-e1ea41a7",
-        "user",
         "conversation",
         "info",
         "untrusted",
-        "metadata"
+        "metadata",
+        "openclaw"
       ]
     },
     "memory:memory/.dreams/session-corpus/2026-04-12.txt:18:18": {
@@ -1451,11 +1442,11 @@
         "message-id",
         "openclaw-weixin",
         "1775987290483-e1ea41a7",
-        "user",
         "conversation",
         "info",
         "untrusted",
-        "metadata"
+        "metadata",
+        "openclaw"
       ]
     },
     "memory:memory/.dreams/session-corpus/2026-04-12.txt:19:19": {
@@ -1483,11 +1474,11 @@
         "message-id",
         "openclaw-weixin",
         "1775984121719-f2b2d5cc",
-        "user",
         "conversation",
         "info",
         "untrusted",
-        "metadata"
+        "metadata",
+        "openclaw"
       ]
     },
     "memory:memory/.dreams/session-corpus/2026-04-12.txt:20:20": {
@@ -1515,11 +1506,11 @@
         "message-id",
         "openclaw-weixin",
         "1775984121719-f2b2d5cc",
-        "user",
         "conversation",
         "info",
         "untrusted",
-        "metadata"
+        "metadata",
+        "openclaw"
       ]
     },
     "memory:memory/.dreams/session-corpus/2026-04-12.txt:21:21": {
@@ -1547,11 +1538,11 @@
         "message-id",
         "openclaw-weixin",
         "1775984121719-f2b2d5cc",
-        "user",
         "conversation",
         "info",
         "untrusted",
-        "metadata"
+        "metadata",
+        "openclaw"
       ]
     },
     "memory:memory/.dreams/session-corpus/2026-04-12.txt:22:22": {
@@ -1577,13 +1568,13 @@
       ],
       "conceptTags": [
         "会话/配置",
-        "assistant",
         "主公",
         "问题",
         "codus",
         "什么",
         "openclaw",
-        "会话"
+        "会话",
+        "配置"
       ]
     },
     "memory:memory/.dreams/session-corpus/2026-04-12.txt:23:23": {
@@ -1611,11 +1602,11 @@
         "message-id",
         "openclaw-weixin",
         "1775985429725-f30ec8fd",
-        "user",
         "conversation",
         "info",
         "untrusted",
-        "metadata"
+        "metadata",
+        "openclaw"
       ]
     },
     "memory:memory/.dreams/session-corpus/2026-04-12.txt:24:24": {
@@ -1640,14 +1631,14 @@
         "2026-04-13"
       ],
       "conceptTags": [
-        "assistant",
         "主公",
         "明白",
         "codus",
         "一个",
         "acp",
         "harness",
-        "会话"
+        "会话",
+        "现在"
       ]
     },
     "memory:memory/.dreams/session-corpus/2026-04-12.txt:25:25": {
@@ -1673,13 +1664,13 @@
       ],
       "conceptTags": [
         "doubao-seed-code",
-        "assistant",
         "找到",
         "codus",
         "关键",
         "会话",
         "信息",
-        "状态"
+        "状态",
+        "failed"
       ]
     },
     "memory:memory/.dreams/session-corpus/2026-04-12.txt:26:26": {
@@ -1706,12 +1697,12 @@
       "conceptTags": [
         "5-hour",
         "doubao-seed-2.0-code",
-        "assistant",
         "主公",
         "找到",
         "根因",
         "核心",
-        "问题"
+        "问题",
+        "codus"
       ]
     },
     "memory:memory/.dreams/session-corpus/2026-04-12.txt:27:27": {
@@ -1739,11 +1730,11 @@
         "message-id",
         "openclaw-weixin",
         "1775987290483-e1ea41a7",
-        "user",
         "conversation",
         "info",
         "untrusted",
-        "metadata"
+        "metadata",
+        "openclaw"
       ]
     },
     "memory:memory/.dreams/session-corpus/2026-04-12.txt:28:28": {
@@ -1768,7 +1759,6 @@
         "2026-04-13"
       ],
       "conceptTags": [
-        "assistant",
         "主公",
         "遵命",
         "我来",
@@ -1797,7 +1787,6 @@
         "2026-04-13"
       ],
       "conceptTags": [
-        "assistant",
         "现在"
       ]
     },
@@ -1825,7 +1814,6 @@
       "conceptTags": [
         "package.json",
         "node-modules",
-        "assistant",
         "依赖",
         "安装",
         "vite",
@@ -1855,7 +1843,6 @@
         "2026-04-13"
       ],
       "conceptTags": [
-        "assistant",
         "vite",
         "安装",
         "重新",
@@ -1884,7 +1871,6 @@
         "2026-04-13"
       ],
       "conceptTags": [
-        "assistant",
         "vite",
         "确实",
         "安装"
@@ -1913,7 +1899,6 @@
       ],
       "conceptTags": [
         "node-modules",
-        "assistant",
         "vite",
         "确实",
         "安装",
@@ -1943,14 +1928,14 @@
         "2026-04-13"
       ],
       "conceptTags": [
-        "assistant",
         "没有",
         "vite",
         "目录",
         "npm",
         "install",
         "安装",
-        "所有"
+        "所有",
+        "依赖"
       ]
     },
     "memory:memory/.dreams/session-corpus/2026-04-12.txt:35:35": {
@@ -1978,11 +1963,11 @@
         "message-id",
         "openclaw-weixin",
         "1775987290483-e1ea41a7",
-        "user",
         "conversation",
         "info",
         "untrusted",
-        "metadata"
+        "metadata",
+        "openclaw"
       ]
     },
     "memory:memory/.dreams/session-corpus/2026-04-12.txt:36:36": {
@@ -2010,11 +1995,11 @@
         "message-id",
         "openclaw-weixin",
         "1775987290483-e1ea41a7",
-        "user",
         "conversation",
         "info",
         "untrusted",
-        "metadata"
+        "metadata",
+        "openclaw"
       ]
     },
     "memory:memory/.dreams/session-corpus/2026-04-13.txt:1:1": {
@@ -2041,11 +2026,11 @@
         "message-id",
         "openclaw-weixin",
         "1776024845779-c1128a8d",
-        "user",
         "conversation",
         "info",
         "untrusted",
-        "metadata"
+        "metadata",
+        "openclaw"
       ]
     },
     "memory:memory/.dreams/session-corpus/2026-04-13.txt:2:2": {
@@ -2072,11 +2057,11 @@
         "message-id",
         "openclaw-weixin",
         "1776024845779-c1128a8d",
-        "user",
         "conversation",
         "info",
         "untrusted",
-        "metadata"
+        "metadata",
+        "openclaw"
       ]
     },
     "memory:memory/.dreams/session-corpus/2026-04-13.txt:3:3": {
@@ -2100,14 +2085,14 @@
         "2026-04-13"
       ],
       "conceptTags": [
-        "assistant",
         "我来",
         "分析",
         "系统",
         "提示",
         "首先",
         "检查",
-        "当前"
+        "当前",
+        "配置"
       ]
     },
     "memory:memory/.dreams/session-corpus/2026-04-13.txt:4:4": {
@@ -2131,14 +2116,14 @@
         "2026-04-13"
       ],
       "conceptTags": [
-        "assistant",
         "好的",
         "我来",
         "系统",
         "提示",
         "分析",
         "一下",
-        "当前"
+        "当前",
+        "结构"
       ]
     },
     "memory:memory/.dreams/session-corpus/2026-04-13.txt:5:5": {
@@ -2162,14 +2147,14 @@
         "2026-04-13"
       ],
       "conceptTags": [
-        "assistant",
         "完成",
         "系统",
         "提示",
         "以下",
         "主要",
         "改进",
-        "核心"
+        "核心",
+        "结构"
       ]
     },
     "memory:memory/2026-04-14.md:203:206": {
@@ -2204,8 +2189,8 @@
         "5-5",
         "reflections",
         "theme",
-        "assistant",
-        "kept"
+        "kept",
+        "surfacing"
       ]
     },
     "memory:memory/2026-04-14.md:209:209": {
@@ -2274,8 +2259,8 @@
         "5-5",
         "reflections",
         "theme",
-        "assistant",
-        "kept"
+        "kept",
+        "surfacing"
       ]
     },
     "memory:memory/2026-04-15.md:229:231": {
@@ -2339,11 +2324,11 @@
         "message-id",
         "openclaw-weixin",
         "1776272801311-b51156b3",
-        "user",
         "conversation",
         "info",
         "untrusted",
-        "metadata"
+        "metadata",
+        "openclaw"
       ]
     },
     "memory:memory/.dreams/session-corpus/2026-04-16.txt:2:2": {
@@ -2369,13 +2354,13 @@
       ],
       "conceptTags": [
         "办公/开发/娱乐",
-        "assistant",
         "主公",
         "windows",
         "linux",
         "桌面",
         "系统",
-        "适用"
+        "适用",
+        "技术"
       ]
     },
     "memory:memory/2026-04-16.md:243:246": {
@@ -2410,8 +2395,8 @@
         "5-5",
         "reflections",
         "theme",
-        "assistant",
-        "kept"
+        "kept",
+        "surfacing"
       ]
     },
     "memory:memory/2026-04-16.md:249:251": {
@@ -2482,8 +2467,8 @@
         "5-5",
         "reflections",
         "theme",
-        "assistant",
-        "kept"
+        "kept",
+        "surfacing"
       ]
     },
     "memory:memory/2026-04-17.md:104:106": {
@@ -2547,10 +2532,10 @@
         "openclaw-weixin",
         "1776380617913-d0e995b0",
         "modal.com",
-        "user",
         "conversation",
         "info",
-        "untrusted"
+        "untrusted",
+        "metadata"
       ]
     },
     "memory:memory/.dreams/session-corpus/2026-04-17.txt:2:2": {
@@ -2577,11 +2562,11 @@
         "modal.com",
         "ai/ml",
         "h100/a100",
-        "assistant",
         "主公",
         "是否",
         "推演",
-        "一番"
+        "一番",
+        "一句"
       ]
     },
     "memory:memory/.dreams/session-corpus/2026-04-17.txt:3:3": {
@@ -2608,11 +2593,11 @@
         "message-id",
         "openclaw-weixin",
         "1776381309013-ca835560",
-        "user",
         "conversation",
         "info",
         "untrusted",
-        "metadata"
+        "metadata",
+        "openclaw"
       ]
     },
     "memory:memory/.dreams/session-corpus/2026-04-17.txt:4:4": {
@@ -2638,12 +2623,12 @@
       "conceptTags": [
         "cpu/gpu",
         "您需要自己编写/部署模型代码",
-        "assistant",
         "理解",
         "主公",
         "想用",
         "modal",
-        "免费"
+        "免费",
+        "模型"
       ]
     },
     "memory:memory/.dreams/session-corpus/2026-04-17.txt:5:5": {
@@ -2671,10 +2656,10 @@
         "openclaw-weixin",
         "1776384619479-97550418",
         "如何安装.xapk应用",
-        "user",
         "conversation",
         "info",
-        "untrusted"
+        "untrusted",
+        "metadata"
       ]
     },
     "memory:memory/.dreams/session-corpus/2026-04-17.txt:6:6": {
@@ -2700,12 +2685,12 @@
       "conceptTags": [
         "base.apk",
         "config.arm64-v8a.apk",
-        "assistant",
         "主公",
         "xapk",
         "安装",
         "方法",
-        "分析"
+        "分析",
+        "推演"
       ]
     },
     "memory:memory/2026-04-18.md:128:131": {
@@ -2740,8 +2725,8 @@
         "5-5",
         "reflections",
         "theme",
-        "assistant",
-        "kept"
+        "kept",
+        "surfacing"
       ]
     },
     "memory:memory/2026-04-18.md:134:136": {
@@ -2804,11 +2789,11 @@
         "message-id",
         "openclaw-weixin",
         "1776527798160-092b4647",
-        "user",
-        "system",
         "utc",
         "compaction",
-        "skipped"
+        "skipped",
+        "real",
+        "conversation"
       ]
     },
     "memory:memory/.dreams/session-corpus/2026-04-18.txt:2:2": {
@@ -2832,14 +2817,14 @@
         "2026-04-18"
       ],
       "conceptTags": [
-        "assistant",
         "根据",
         "角色",
         "设定",
         "我不是",
         "而是",
         "决策",
-        "不过"
+        "不过",
+        "既然"
       ]
     },
     "memory:memory/.dreams/session-corpus/2026-04-19.txt:1:1": {
@@ -2867,11 +2852,11 @@
         "message-id",
         "openclaw-weixin",
         "1776528661953-90765a26",
-        "user",
         "conversation",
         "info",
         "untrusted",
-        "metadata"
+        "metadata",
+        "openclaw"
       ]
     },
     "memory:memory/.dreams/session-corpus/2026-04-19.txt:2:2": {
@@ -2896,14 +2881,14 @@
         "2026-04-18"
       ],
       "conceptTags": [
-        "assistant",
         "主公",
         "周易",
         "六十",
         "基本",
         "构成",
         "单元",
-        "组成"
+        "组成",
+        "自下而上"
       ]
     },
     "memory:memory/2026-04-19.md:148:151": {
@@ -2938,8 +2923,8 @@
         "5-5",
         "reflections",
         "theme",
-        "assistant",
-        "kept"
+        "kept",
+        "surfacing"
       ]
     },
     "memory:memory/2026-04-19.md:154:156": {
@@ -2986,12 +2971,12 @@
       "source": "memory",
       "snippet": "Reflections: Theme: `assistant` kept surfacing across 47 memories.; confidence: 1.00; evidence: memory/.dreams/session-corpus/2026-04-11.txt:2-2, memory/.dreams/session-corpus/2026-04-11.txt:4-4, memory/.dreams/session-corpus/2026-04-11.txt:5-5; note: reflection",
       "recallCount": 0,
-      "dailyCount": 1,
+      "dailyCount": 2,
       "groundedCount": 0,
-      "totalScore": 0.62,
+      "totalScore": 1.24,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-20T19:07:33.945Z",
-      "lastRecalledAt": "2026-04-26T19:04:32.762Z",
+      "lastRecalledAt": "2026-04-27T19:01:12.638Z",
       "queryHashes": [
         "511fd8111b88"
       ],
@@ -3000,7 +2985,9 @@
         "2026-04-23",
         "2026-04-24",
         "2026-04-25",
-        "2026-04-26"
+        "2026-04-26",
+        "2026-04-28",
+        "2026-04-27"
       ],
       "conceptTags": [
         "1.00",
@@ -3009,8 +2996,8 @@
         "5-5",
         "reflections",
         "theme",
-        "assistant",
-        "kept"
+        "kept",
+        "surfacing"
       ]
     },
     "memory:memory/2026-04-20.md:149:151": {
@@ -3021,12 +3008,12 @@
       "source": "memory",
       "snippet": "Possible Lasting Truths: Possible Lasting Truths: No strong candidate truths surfaced. [confidence=0.58 evidence=memory/2026-04-14.md:209-209]; Reflections: Theme: `assistant` kept surfacing across 35 memories.; confidence: 1.00; evidence: memory/.dreams/session-corpus/2026-04-11",
       "recallCount": 0,
-      "dailyCount": 1,
+      "dailyCount": 2,
       "groundedCount": 0,
-      "totalScore": 0.62,
+      "totalScore": 1.24,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-20T19:07:33.945Z",
-      "lastRecalledAt": "2026-04-26T19:04:32.762Z",
+      "lastRecalledAt": "2026-04-27T19:01:12.638Z",
       "queryHashes": [
         "511fd8111b88"
       ],
@@ -3035,7 +3022,9 @@
         "2026-04-23",
         "2026-04-24",
         "2026-04-25",
-        "2026-04-26"
+        "2026-04-26",
+        "2026-04-28",
+        "2026-04-27"
       ],
       "conceptTags": [
         "0.58",
@@ -3072,11 +3061,11 @@
         "message-id",
         "openclaw-weixin",
         "1776664035276-5f69f14f",
-        "user",
         "conversation",
         "info",
         "untrusted",
-        "metadata"
+        "metadata",
+        "openclaw"
       ]
     },
     "memory:memory/.dreams/session-corpus/2026-04-20.txt:2:2": {
@@ -3100,7 +3089,6 @@
         "2026-04-20"
       ],
       "conceptTags": [
-        "assistant",
         "主公",
         "设计",
         "剖析",
@@ -3117,12 +3105,12 @@
       "source": "memory",
       "snippet": "Reflections: Theme: `assistant` kept surfacing across 49 memories.; confidence: 1.00; evidence: memory/.dreams/session-corpus/2026-04-11.txt:2-2, memory/.dreams/session-corpus/2026-04-11.txt:4-4, memory/.dreams/session-corpus/2026-04-11.txt:5-5; note: reflection",
       "recallCount": 0,
-      "dailyCount": 1,
+      "dailyCount": 2,
       "groundedCount": 0,
-      "totalScore": 0.62,
+      "totalScore": 1.24,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-21T19:02:50.142Z",
-      "lastRecalledAt": "2026-04-26T19:04:32.762Z",
+      "lastRecalledAt": "2026-04-27T19:01:12.638Z",
       "queryHashes": [
         "f52400c81d76"
       ],
@@ -3130,7 +3118,9 @@
         "2026-04-21",
         "2026-04-24",
         "2026-04-25",
-        "2026-04-26"
+        "2026-04-26",
+        "2026-04-28",
+        "2026-04-27"
       ],
       "conceptTags": [
         "1.00",
@@ -3139,8 +3129,8 @@
         "5-5",
         "reflections",
         "theme",
-        "assistant",
-        "kept"
+        "kept",
+        "surfacing"
       ]
     },
     "memory:memory/2026-04-21.md:134:136": {
@@ -3151,12 +3141,12 @@
       "source": "memory",
       "snippet": "Possible Lasting Truths: Possible Lasting Truths: No strong candidate truths surfaced. [confidence=0.58 evidence=memory/2026-04-14.md:209-209]; Possible Lasting Truths: 事件: ⚠️ Something went wrong while processing your request. Please try again, or use /new to start a fresh sessi",
       "recallCount": 0,
-      "dailyCount": 1,
+      "dailyCount": 2,
       "groundedCount": 0,
-      "totalScore": 0.62,
+      "totalScore": 1.24,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-21T19:02:50.142Z",
-      "lastRecalledAt": "2026-04-26T19:04:32.762Z",
+      "lastRecalledAt": "2026-04-27T19:01:12.638Z",
       "queryHashes": [
         "f52400c81d76"
       ],
@@ -3164,7 +3154,9 @@
         "2026-04-21",
         "2026-04-24",
         "2026-04-25",
-        "2026-04-26"
+        "2026-04-26",
+        "2026-04-28",
+        "2026-04-27"
       ],
       "conceptTags": [
         "0.58",
@@ -3185,19 +3177,21 @@
       "source": "memory",
       "snippet": "Reflections: Theme: `assistant` kept surfacing across 15 memories.; confidence: 0.75; evidence: memory/2026-04-14.md:203-206, memory/2026-04-15.md:223-226, memory/.dreams/session-corpus/2026-04-16.txt:2-2; note: reflection",
       "recallCount": 0,
-      "dailyCount": 1,
+      "dailyCount": 2,
       "groundedCount": 0,
-      "totalScore": 0.62,
+      "totalScore": 1.24,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-22T19:03:08.833Z",
-      "lastRecalledAt": "2026-04-26T19:04:32.762Z",
+      "lastRecalledAt": "2026-04-27T19:01:12.638Z",
       "queryHashes": [
         "7b7a9134bc2c"
       ],
       "recallDays": [
         "2026-04-22",
         "2026-04-25",
-        "2026-04-26"
+        "2026-04-26",
+        "2026-04-28",
+        "2026-04-27"
       ],
       "conceptTags": [
         "0.75",
@@ -3218,19 +3212,21 @@
       "source": "memory",
       "snippet": "Possible Lasting Truths: Possible Lasting Truths: No strong candidate truths surfaced. [confidence=0.58 evidence=memory/2026-04-14.md:209-209]; Possible Lasting Truths: 事件: ⚠️ Something went wrong while processing your request. Please try again, or use /new to start a fresh sessi",
       "recallCount": 0,
-      "dailyCount": 1,
+      "dailyCount": 2,
       "groundedCount": 0,
-      "totalScore": 0.62,
+      "totalScore": 1.24,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-22T19:03:08.833Z",
-      "lastRecalledAt": "2026-04-26T19:04:32.762Z",
+      "lastRecalledAt": "2026-04-27T19:01:12.638Z",
       "queryHashes": [
         "7b7a9134bc2c"
       ],
       "recallDays": [
         "2026-04-22",
         "2026-04-25",
-        "2026-04-26"
+        "2026-04-26",
+        "2026-04-28",
+        "2026-04-27"
       ],
       "conceptTags": [
         "0.58",
@@ -3251,18 +3247,20 @@
       "source": "memory",
       "snippet": "Reflections: No strong patterns surfaced.",
       "recallCount": 0,
-      "dailyCount": 1,
+      "dailyCount": 2,
       "groundedCount": 0,
-      "totalScore": 0.62,
+      "totalScore": 1.24,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-23T19:05:15.692Z",
-      "lastRecalledAt": "2026-04-26T19:04:32.762Z",
+      "lastRecalledAt": "2026-04-27T19:01:12.638Z",
       "queryHashes": [
         "b7fd25b71b44"
       ],
       "recallDays": [
         "2026-04-23",
-        "2026-04-26"
+        "2026-04-26",
+        "2026-04-28",
+        "2026-04-27"
       ],
       "conceptTags": [
         "reflections",
@@ -3279,18 +3277,20 @@
       "source": "memory",
       "snippet": "Possible Lasting Truths: Possible Lasting Truths: No strong candidate truths surfaced. [confidence=0.58 evidence=memory/2026-04-14.md:209-209]; Possible Lasting Truths: 事件: ⚠️ Something went wrong while processing your request. Please try again, or use /new to start a fresh sessi",
       "recallCount": 0,
-      "dailyCount": 1,
+      "dailyCount": 2,
       "groundedCount": 0,
-      "totalScore": 0.62,
+      "totalScore": 1.24,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-23T19:05:15.692Z",
-      "lastRecalledAt": "2026-04-26T19:04:32.762Z",
+      "lastRecalledAt": "2026-04-27T19:01:12.638Z",
       "queryHashes": [
         "b7fd25b71b44"
       ],
       "recallDays": [
         "2026-04-23",
-        "2026-04-26"
+        "2026-04-26",
+        "2026-04-28",
+        "2026-04-27"
       ],
       "conceptTags": [
         "0.58",
@@ -3311,17 +3311,19 @@
       "source": "memory",
       "snippet": "Reflections: No strong patterns surfaced.",
       "recallCount": 0,
-      "dailyCount": 1,
+      "dailyCount": 2,
       "groundedCount": 0,
-      "totalScore": 0.62,
+      "totalScore": 1.24,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-24T19:03:16.128Z",
-      "lastRecalledAt": "2026-04-24T19:03:16.128Z",
+      "lastRecalledAt": "2026-04-27T19:01:12.638Z",
       "queryHashes": [
         "409c33906af9"
       ],
       "recallDays": [
-        "2026-04-24"
+        "2026-04-24",
+        "2026-04-28",
+        "2026-04-27"
       ],
       "conceptTags": [
         "reflections",
@@ -3338,17 +3340,19 @@
       "source": "memory",
       "snippet": "Possible Lasting Truths: Possible Lasting Truths: No strong candidate truths surfaced. [confidence=0.58 evidence=memory/2026-04-14.md:209-209]; Possible Lasting Truths: 事件: ⚠️ Something went wrong while processing your request. Please try again, or use /new to start a fresh sessi",
       "recallCount": 0,
-      "dailyCount": 1,
+      "dailyCount": 2,
       "groundedCount": 0,
-      "totalScore": 0.62,
+      "totalScore": 1.24,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-24T19:03:16.128Z",
-      "lastRecalledAt": "2026-04-24T19:03:16.128Z",
+      "lastRecalledAt": "2026-04-27T19:01:12.638Z",
       "queryHashes": [
         "409c33906af9"
       ],
       "recallDays": [
-        "2026-04-24"
+        "2026-04-24",
+        "2026-04-28",
+        "2026-04-27"
       ],
       "conceptTags": [
         "0.58",
@@ -3475,6 +3479,754 @@
         "truths",
         "strong",
         "candidate"
+      ]
+    },
+    "memory:memory/2026-04-27.md:98:98": {
+      "key": "memory:memory/2026-04-27.md:98:98",
+      "path": "memory/2026-04-27.md",
+      "startLine": 98,
+      "endLine": 98,
+      "source": "memory",
+      "snippet": "Reflections: No strong patterns surfaced.",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-04-27T19:01:12.638Z",
+      "lastRecalledAt": "2026-04-27T19:01:12.638Z",
+      "queryHashes": [
+        "6c24d11cf4d7"
+      ],
+      "recallDays": [
+        "2026-04-28",
+        "2026-04-27"
+      ],
+      "conceptTags": [
+        "reflections",
+        "strong",
+        "patterns",
+        "surfaced"
+      ]
+    },
+    "memory:memory/2026-04-27.md:101:103": {
+      "key": "memory:memory/2026-04-27.md:101:103",
+      "path": "memory/2026-04-27.md",
+      "startLine": 101,
+      "endLine": 103,
+      "source": "memory",
+      "snippet": "Possible Lasting Truths: Possible Lasting Truths: No strong candidate truths surfaced. [confidence=0.58 evidence=memory/2026-04-14.md:209-209]; Possible Lasting Truths: Possible Lasting Truths: No strong candidate truths surfaced. [confidence=0.58 evidence=memory/2026-04-14.md:20",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-04-27T19:01:12.638Z",
+      "lastRecalledAt": "2026-04-27T19:01:12.638Z",
+      "queryHashes": [
+        "6c24d11cf4d7"
+      ],
+      "recallDays": [
+        "2026-04-28",
+        "2026-04-27"
+      ],
+      "conceptTags": [
+        "0.58",
+        "memory/2026-04-14.md",
+        "209-209",
+        "possible",
+        "lasting",
+        "truths",
+        "strong",
+        "candidate"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-27.txt:1:1": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-27.txt:1:1",
+      "path": "memory/.dreams/session-corpus/2026-04-27.txt",
+      "startLine": 1,
+      "endLine": 1,
+      "source": "memory",
+      "snippet": "User: [message_id: om_x100b51c22c4f9ca4ee7c28638d1235e] ou_9e18438fb941decf11a0b88d78fe2b50: 你好，你叫什么名字，用的什么模型",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-27T19:01:12.638Z",
+      "lastRecalledAt": "2026-04-27T19:01:12.638Z",
+      "queryHashes": [
+        "e29ad1ab29b1"
+      ],
+      "recallDays": [
+        "2026-04-28",
+        "2026-04-27"
+      ],
+      "conceptTags": [
+        "message-id",
+        "你好",
+        "什么",
+        "名字",
+        "模型"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-27.txt:2:2": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-27.txt:2:2",
+      "path": "memory/.dreams/session-corpus/2026-04-27.txt",
+      "startLine": 2,
+      "endLine": 2,
+      "source": "memory",
+      "snippet": "Assistant: 主公好，我是小夜，您的战略顾问。 我当前使用的模型是 `volcengine-plan/deepseek-v3.2`（火山引擎的 DeepSeek V3.2）。 我的核心使命是助您\"谋定而后动\"，在信息不全时做最优决策。需要我为您参谋什么战略问题吗？",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-27T19:01:12.638Z",
+      "lastRecalledAt": "2026-04-27T19:01:12.638Z",
+      "queryHashes": [
+        "e29ad1ab29b1"
+      ],
+      "recallDays": [
+        "2026-04-28",
+        "2026-04-27"
+      ],
+      "conceptTags": [
+        "volcengine-plan/deepseek-v3.2",
+        "v3.2",
+        "主公",
+        "我是",
+        "小夜",
+        "战略",
+        "顾问",
+        "当前"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-28.txt:1:1": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-28.txt:1:1",
+      "path": "memory/.dreams/session-corpus/2026-04-28.txt",
+      "startLine": 1,
+      "endLine": 1,
+      "source": "memory",
+      "snippet": "User: [message_id: om_x100b51ccd062aca4ee7944ee966b13d] ou_9e18438fb941decf11a0b88d78fe2b50: 我该如何通俗的理解可信执行环境的技术原理",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-27T19:01:12.638Z",
+      "lastRecalledAt": "2026-04-27T19:01:12.638Z",
+      "queryHashes": [
+        "8a4254b47642"
+      ],
+      "recallDays": [
+        "2026-04-28",
+        "2026-04-27"
+      ],
+      "conceptTags": [
+        "message-id",
+        "如何",
+        "通俗",
+        "理解",
+        "可信",
+        "执行",
+        "环境",
+        "技术"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-28.txt:2:2": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-28.txt:2:2",
+      "path": "memory/.dreams/session-corpus/2026-04-28.txt",
+      "startLine": 2,
+      "endLine": 2,
+      "source": "memory",
+      "snippet": "Assistant: **一句话总结：可信执行环境（TEE）就像银行里的\"保险库\"，在计算机内部隔离出一个受硬件保护的\"小黑屋\"，数据在里面运算时，连操作系统和云服务商都看不到。** --- ## 通俗比喻理解 ### 1. **保险库模型** - **普通计算**：数据在\"客厅\"里处理，谁都能看到（操作系统、管理员、黑客） - **TEE计算**：数据进入\"保险库\"处理，只有授权程序能进，连\"保安\"（操作系统）都进不去 ### 2. **信封模型** - 把数据放进一个**硬件加密的信封** - 信封只能在特定CPU里拆开 - 运算完结果再装回信封送出",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-27T19:01:12.638Z",
+      "lastRecalledAt": "2026-04-27T19:01:12.638Z",
+      "queryHashes": [
+        "8a4254b47642"
+      ],
+      "recallDays": [
+        "2026-04-28",
+        "2026-04-27"
+      ],
+      "conceptTags": [
+        "一句",
+        "总结",
+        "可信",
+        "执行",
+        "环境",
+        "tee",
+        "就像",
+        "银行"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-28.txt:3:3": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-28.txt:3:3",
+      "path": "memory/.dreams/session-corpus/2026-04-28.txt",
+      "startLine": 3,
+      "endLine": 3,
+      "source": "memory",
+      "snippet": "Assistant: 场景2：数字版权保护 - **问题**：流媒体平台怕用户盗录高清视频 - **TEE方案**：解密密钥和播放器在TEE里运行 - **结果**：视频在TEE里解密→渲染→显示，用户无法截取原始数据 ### 场景3：区块链隐私交易 - **问题**：区块链交易公开透明，但有些交易需要隐私 - **TEE方案**：交易在TEE里验证和执行 - **结果**：链上只看到\"交易有效\"，看不到交易细节 --- ## 局限性（必知风险） ### ⚠️ **侧信道攻击** - 虽然看不到数据，但能**观察功耗、电磁辐射、执行时间** - 就像看不",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-27T19:01:12.638Z",
+      "lastRecalledAt": "2026-04-27T19:01:12.638Z",
+      "queryHashes": [
+        "8a4254b47642"
+      ],
+      "recallDays": [
+        "2026-04-28",
+        "2026-04-27"
+      ],
+      "conceptTags": [
+        "场景",
+        "数字",
+        "版权",
+        "保护",
+        "问题",
+        "媒体",
+        "平台",
+        "用户"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-28.txt:4:4": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-28.txt:4:4",
+      "path": "memory/.dreams/session-corpus/2026-04-28.txt",
+      "startLine": 4,
+      "endLine": 4,
+      "source": "memory",
+      "snippet": "User: [message_id: om_x100b51cc877294a0eea07f3c763d036] ou_9e18438fb941decf11a0b88d78fe2b50: 如果我要给人讲解可信执行环境+加密执行（skill资产化后加密执行）这个概念，我希望能有一个ppt可以很好的讲解给别人",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-27T19:01:12.638Z",
+      "lastRecalledAt": "2026-04-27T19:01:12.638Z",
+      "queryHashes": [
+        "8a4254b47642"
+      ],
+      "recallDays": [
+        "2026-04-28",
+        "2026-04-27"
+      ],
+      "conceptTags": [
+        "message-id",
+        "如果",
+        "我要",
+        "给人",
+        "讲解",
+        "可信",
+        "执行",
+        "环境"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-28.txt:5:5": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-28.txt:5:5",
+      "path": "memory/.dreams/session-corpus/2026-04-28.txt",
+      "startLine": 5,
+      "endLine": 5,
+      "source": "memory",
+      "snippet": "Assistant: **主公，我理解您需要制作一个讲解\"可信执行环境+加密执行（Skill资产化后加密执行）\"的PPT。** 这个需求很明确：**将技术概念转化为可传播的商业故事**。 --- ## 我的核心建议 **不要做技术PPT，要做\"价值传递\"PPT。** 目标听众不是技术专家，而是**投资者、合作伙伴、潜在用户**。他们关心的是： - 这解决了什么**痛点**？ - 创造了什么**新价值**？ - 为什么**现在**能做？ - 如何**赚钱/省钱**？ --- ## PPT结构建议（12页黄金结构） ### **第一部分：问题篇（3页）**",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-27T19:01:12.638Z",
+      "lastRecalledAt": "2026-04-27T19:01:12.638Z",
+      "queryHashes": [
+        "8a4254b47642"
+      ],
+      "recallDays": [
+        "2026-04-28",
+        "2026-04-27"
+      ],
+      "conceptTags": [
+        "赚钱/省钱",
+        "主公",
+        "理解",
+        "需要",
+        "制作",
+        "一个",
+        "讲解",
+        "可信"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-28.txt:6:6": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-28.txt:6:6",
+      "path": "memory/.dreams/session-corpus/2026-04-28.txt",
+      "startLine": 6,
+      "endLine": 6,
+      "source": "memory",
+      "snippet": "Assistant: 顶级医院训练出癌症筛查模型 - 基层医院按次付费使用，保护患者隐私 10. **场景3**：个人AI助理Skill市场 - 开发者出售\"旅行规划\"Skill - 用户购买使用权，Skill在TEE中运行 ### **第四部分：未来篇（2页）** 11. **生态愿景**：Skill资产化经济网络 - 开发者获利 - 用户按需使用 - 平台提供信任基础设施 12. **行动号召**：加入我们，共建可信AI能力交易市场 --- ## 设计要点 ### 🎨 **视觉化关键** - **\"黑盒子\"图**：贯穿整个PPT - **对比图**",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-27T19:01:12.638Z",
+      "lastRecalledAt": "2026-04-27T19:01:12.638Z",
+      "queryHashes": [
+        "8a4254b47642"
+      ],
+      "recallDays": [
+        "2026-04-28",
+        "2026-04-27"
+      ],
+      "conceptTags": [
+        "网络",
+        "医院",
+        "训练",
+        "癌症",
+        "模型",
+        "基层",
+        "使用",
+        "保护"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-28.txt:7:7": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-28.txt:7:7",
+      "path": "memory/.dreams/session-corpus/2026-04-28.txt",
+      "startLine": 7,
+      "endLine": 7,
+      "source": "memory",
+      "snippet": "User: [message_id: om_x100b51ccb3a814a0ee8f8cdb6b1988d] ou_9e18438fb941decf11a0b88d78fe2b50: 你自己进行任务拆解，然后一步步去实现，最终给我完整的ppt",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-27T19:01:12.638Z",
+      "lastRecalledAt": "2026-04-27T19:01:12.638Z",
+      "queryHashes": [
+        "8a4254b47642"
+      ],
+      "recallDays": [
+        "2026-04-28",
+        "2026-04-27"
+      ],
+      "conceptTags": [
+        "message-id",
+        "自己",
+        "进行",
+        "任务",
+        "拆解",
+        "然后",
+        "一步步",
+        "实现"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-28.txt:8:8": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-28.txt:8:8",
+      "path": "memory/.dreams/session-corpus/2026-04-28.txt",
+      "startLine": 8,
+      "endLine": 8,
+      "source": "memory",
+      "snippet": "Assistant: **主公，遵命。我将系统拆解任务并逐步执行，最终交付完整PPT。** --- ## 🎯 任务拆解 ### **阶段一：信息收集与框架搭建（1-2小时）** 1. 收集TEE技术资料（架构图、原理图） 2. 收集AI Skill资产化市场数据 3. 确定PPT整体结构（12页黄金结构） 4. 设计核心视觉元素（\"黑盒子\"图、对比图、价值流图） ### **阶段二：内容制作（3-4小时）** 5. 制作12页PPT内容 6. 设计视觉化图表 7. 编写演讲者备注 8. 统一风格与格式 ### **阶段三：优化与交付（1小时）** 9.",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-27T19:01:12.638Z",
+      "lastRecalledAt": "2026-04-27T19:01:12.638Z",
+      "queryHashes": [
+        "8a4254b47642"
+      ],
+      "recallDays": [
+        "2026-04-28",
+        "2026-04-27"
+      ],
+      "conceptTags": [
+        "1-2小时",
+        "3-4小时",
+        "主公",
+        "遵命",
+        "系统",
+        "拆解",
+        "任务",
+        "逐步"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-28.txt:9:9": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-28.txt:9:9",
+      "path": "memory/.dreams/session-corpus/2026-04-28.txt",
+      "startLine": 9,
+      "endLine": 9,
+      "source": "memory",
+      "snippet": "Assistant: 让我搜索更具体的架构图和市场数据：",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-27T19:01:12.638Z",
+      "lastRecalledAt": "2026-04-27T19:01:12.638Z",
+      "queryHashes": [
+        "8a4254b47642"
+      ],
+      "recallDays": [
+        "2026-04-28",
+        "2026-04-27"
+      ],
+      "conceptTags": [
+        "搜索",
+        "具体",
+        "架构",
+        "市场",
+        "数据"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-28.txt:10:10": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-28.txt:10:10",
+      "path": "memory/.dreams/session-corpus/2026-04-28.txt",
+      "startLine": 10,
+      "endLine": 10,
+      "source": "memory",
+      "snippet": "Assistant: 现在让我搜索TEE架构图：",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-27T19:01:12.638Z",
+      "lastRecalledAt": "2026-04-27T19:01:12.638Z",
+      "queryHashes": [
+        "8a4254b47642"
+      ],
+      "recallDays": [
+        "2026-04-28",
+        "2026-04-27"
+      ],
+      "conceptTags": [
+        "现在",
+        "搜索",
+        "tee",
+        "架构"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-28.txt:11:11": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-28.txt:11:11",
+      "path": "memory/.dreams/session-corpus/2026-04-28.txt",
+      "startLine": 11,
+      "endLine": 11,
+      "source": "memory",
+      "snippet": "Assistant: 现在让我创建一个项目文件夹并开始制作PPT：",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-27T19:01:12.638Z",
+      "lastRecalledAt": "2026-04-27T19:01:12.638Z",
+      "queryHashes": [
+        "8a4254b47642"
+      ],
+      "recallDays": [
+        "2026-04-28",
+        "2026-04-27"
+      ],
+      "conceptTags": [
+        "现在",
+        "创建",
+        "一个",
+        "项目",
+        "文件",
+        "开始",
+        "制作",
+        "ppt"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-28.txt:12:12": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-28.txt:12:12",
+      "path": "memory/.dreams/session-corpus/2026-04-28.txt",
+      "startLine": 12,
+      "endLine": 12,
+      "source": "memory",
+      "snippet": "Assistant: 现在开始制作PPT内容。我将使用Markdown格式，然后可以转换为PPT：",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-27T19:01:12.638Z",
+      "lastRecalledAt": "2026-04-27T19:01:12.638Z",
+      "queryHashes": [
+        "8a4254b47642"
+      ],
+      "recallDays": [
+        "2026-04-28",
+        "2026-04-27"
+      ],
+      "conceptTags": [
+        "现在",
+        "开始",
+        "制作",
+        "ppt",
+        "内容",
+        "使用",
+        "markdown",
+        "格式"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-28.txt:13:13": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-28.txt:13:13",
+      "path": "memory/.dreams/session-corpus/2026-04-28.txt",
+      "startLine": 13,
+      "endLine": 13,
+      "source": "memory",
+      "snippet": "Assistant: 现在让我创建一个PPT模板文件，使用Marp（Markdown Presentation）格式，这样可以直接生成PPT：",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-27T19:01:12.638Z",
+      "lastRecalledAt": "2026-04-27T19:01:12.638Z",
+      "queryHashes": [
+        "8a4254b47642"
+      ],
+      "recallDays": [
+        "2026-04-28",
+        "2026-04-27"
+      ],
+      "conceptTags": [
+        "现在",
+        "创建",
+        "一个",
+        "ppt",
+        "模板",
+        "文件",
+        "使用",
+        "marp"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-28.txt:14:14": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-28.txt:14:14",
+      "path": "memory/.dreams/session-corpus/2026-04-28.txt",
+      "startLine": 14,
+      "endLine": 14,
+      "source": "memory",
+      "snippet": "Assistant: 现在让我安装Marp CLI来生成PPT：",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-27T19:01:12.638Z",
+      "lastRecalledAt": "2026-04-27T19:01:12.638Z",
+      "queryHashes": [
+        "8a4254b47642"
+      ],
+      "recallDays": [
+        "2026-04-28",
+        "2026-04-27"
+      ],
+      "conceptTags": [
+        "现在",
+        "安装",
+        "marp",
+        "cli",
+        "生成",
+        "ppt"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-28.txt:15:15": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-28.txt:15:15",
+      "path": "memory/.dreams/session-corpus/2026-04-28.txt",
+      "startLine": 15,
+      "endLine": 15,
+      "source": "memory",
+      "snippet": "Assistant: 让我尝试使用npx来运行Marp：",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-27T19:01:12.638Z",
+      "lastRecalledAt": "2026-04-27T19:01:12.638Z",
+      "queryHashes": [
+        "8a4254b47642"
+      ],
+      "recallDays": [
+        "2026-04-28",
+        "2026-04-27"
+      ],
+      "conceptTags": [
+        "尝试",
+        "使用",
+        "npx",
+        "运行",
+        "marp"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-28.txt:16:16": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-28.txt:16:16",
+      "path": "memory/.dreams/session-corpus/2026-04-28.txt",
+      "startLine": 16,
+      "endLine": 16,
+      "source": "memory",
+      "snippet": "Assistant: 看起来npx安装Marp时出现了问题。让我尝试另一种方法，直接创建一个HTML版本的PPT：",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-27T19:01:12.638Z",
+      "lastRecalledAt": "2026-04-27T19:01:12.638Z",
+      "queryHashes": [
+        "8a4254b47642"
+      ],
+      "recallDays": [
+        "2026-04-28",
+        "2026-04-27"
+      ],
+      "conceptTags": [
+        "看起来",
+        "npx",
+        "安装",
+        "marp",
+        "出现",
+        "问题",
+        "尝试",
+        "一种"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-28.txt:17:17": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-28.txt:17:17",
+      "path": "memory/.dreams/session-corpus/2026-04-28.txt",
+      "startLine": 17,
+      "endLine": 17,
+      "source": "memory",
+      "snippet": "Assistant: 现在让我创建一个简单的README文件，说明如何查看和使用这个PPT：",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-27T19:01:12.638Z",
+      "lastRecalledAt": "2026-04-27T19:01:12.638Z",
+      "queryHashes": [
+        "8a4254b47642"
+      ],
+      "recallDays": [
+        "2026-04-28",
+        "2026-04-27"
+      ],
+      "conceptTags": [
+        "现在",
+        "创建",
+        "一个",
+        "简单",
+        "readme",
+        "文件",
+        "说明",
+        "如何"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-28.txt:18:18": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-28.txt:18:18",
+      "path": "memory/.dreams/session-corpus/2026-04-28.txt",
+      "startLine": 18,
+      "endLine": 18,
+      "source": "memory",
+      "snippet": "Assistant: 现在让我创建一个压缩包，包含所有文件：",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-27T19:01:12.638Z",
+      "lastRecalledAt": "2026-04-27T19:01:12.638Z",
+      "queryHashes": [
+        "8a4254b47642"
+      ],
+      "recallDays": [
+        "2026-04-28",
+        "2026-04-27"
+      ],
+      "conceptTags": [
+        "现在",
+        "创建",
+        "一个",
+        "压缩",
+        "包含",
+        "所有",
+        "文件"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-28.txt:19:19": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-28.txt:19:19",
+      "path": "memory/.dreams/session-corpus/2026-04-28.txt",
+      "startLine": 19,
+      "endLine": 19,
+      "source": "memory",
+      "snippet": "Assistant: 完美！现在让我总结一下完成的工作： --- ## 🎯 **任务完成总结** **主公，我已成功完成\"可信执行环境+加密执行\"PPT的完整制作。** ### 📁 **交付物概览** **核心文件：** 1. **`TEE_Presentation.html`** - 完整的HTML版本PPT（可直接在浏览器中打开） 2. **`TEE_PPT_Complete.tar.gz`** - 所有文件的压缩包 3. **`presentation.md`** - Marp格式源文件（可转换为PPTX/PDF） 4. **`ppt_cont",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-27T19:01:12.638Z",
+      "lastRecalledAt": "2026-04-27T19:01:12.638Z",
+      "queryHashes": [
+        "8a4254b47642"
+      ],
+      "recallDays": [
+        "2026-04-28",
+        "2026-04-27"
+      ],
+      "conceptTags": [
+        "tee-presentation.html",
+        "tee-ppt-complete.tar.gz",
+        "presentation.md",
+        "可转换为pptx/pdf",
+        "ppt-cont",
+        "完美",
+        "现在",
+        "总结"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-28.txt:20:20": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-28.txt:20:20",
+      "path": "memory/.dreams/session-corpus/2026-04-28.txt",
+      "startLine": 20,
+      "endLine": 20,
+      "source": "memory",
+      "snippet": "Assistant: `TEE_PPT_Complete.tar.gz` 2. 解压后直接打开 `TEE_Presentation.html` 3. 使用键盘导航（上下箭头、空格键） **专业演示建议：** - **总时长**：20-30分钟 - **每页重点**：已标注在README中 - **Q&A准备**：技术细节在附录中 ### 💡 **核心价值传递** 这个PPT不是技术文档，而是**商业故事**： 1. **问题**：当前AI能力市场的困境 2. **方案**：TEE+加密执行的创新 3. **价值**：三方共赢的经济模型 4. **机会*",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-27T19:01:12.638Z",
+      "lastRecalledAt": "2026-04-27T19:01:12.638Z",
+      "queryHashes": [
+        "8a4254b47642"
+      ],
+      "recallDays": [
+        "2026-04-28",
+        "2026-04-27"
+      ],
+      "conceptTags": [
+        "tee-ppt-complete.tar.gz",
+        "tee-presentation.html",
+        "20-30分钟",
+        "直接",
+        "打开",
+        "使用",
+        "键盘",
+        "导航"
       ]
     }
   }

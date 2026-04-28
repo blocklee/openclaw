@@ -1,0 +1,4 @@
+[main/sessions/a6565f5e-aacc-42bc-adb8-eec255b54d3c.jsonl#L5] User: 小夜你好，你用的什么模型
+[main/sessions/a6565f5e-aacc-42bc-adb8-eec255b54d3c.jsonl#L6] Assistant: 我是 Talus，目前用的是 **MiniMax M2.7** ⚡
+[main/sessions/a6565f5e-aacc-42bc-adb8-eec255b54d3c.jsonl#L9] User: 小夜你好，你用的什么模型
+[main/sessions/a6565f5e-aacc-42bc-adb8-eec255b54d3c.jsonl#L10] Assistant: 我是 Talus，用的模型是 **MiniMax M2.7** ⚡

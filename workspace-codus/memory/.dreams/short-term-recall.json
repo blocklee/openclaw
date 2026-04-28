@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-04-26T19:06:11.902Z",
+  "updatedAt": "2026-04-27T19:01:31.638Z",
   "entries": {
     "memory:memory/.dreams/session-corpus/2026-04-11.txt:1:1": {
       "key": "memory:memory/.dreams/session-corpus/2026-04-11.txt:1:1",
@@ -27,11 +27,11 @@
         "message-id",
         "sender-id",
         "ou-1",
-        "user",
         "conversation",
         "info",
         "untrusted",
-        "metadata"
+        "metadata",
+        "sender"
       ]
     },
     "memory:memory/.dreams/session-corpus/2026-04-11.txt:2:2": {
@@ -59,11 +59,11 @@
         "message-id",
         "sender-id",
         "ou-1",
-        "user",
         "conversation",
         "info",
         "untrusted",
-        "metadata"
+        "metadata",
+        "sender"
       ]
     },
     "memory:memory/.dreams/session-corpus/2026-04-11.txt:3:3": {
@@ -88,14 +88,14 @@
         "2026-04-13"
       ],
       "conceptTags": [
-        "assistant",
         "需要",
         "更多",
         "信息",
         "了解",
         "梦境",
         "系统",
-        "项目"
+        "项目",
+        "请问"
       ]
     },
     "memory:memory/.dreams/session-corpus/2026-04-11.txt:4:4": {
@@ -123,11 +123,11 @@
         "message-id",
         "sender-id",
         "ou-1",
-        "user",
         "conversation",
         "info",
         "untrusted",
-        "metadata"
+        "metadata",
+        "sender"
       ]
     },
     "memory:memory/.dreams/session-corpus/2026-04-11.txt:5:5": {
@@ -153,13 +153,13 @@
       ],
       "conceptTags": [
         "memory-core",
-        "assistant",
         "openclaw",
         "dreaming",
         "梦境",
         "系统",
         "一个",
-        "实验"
+        "实验",
+        "性的"
       ]
     },
     "memory:memory/.dreams/session-corpus/2026-04-12.txt:1:1": {
@@ -184,14 +184,14 @@
         "2026-04-13"
       ],
       "conceptTags": [
-        "user",
         "new",
         "was",
         "started",
         "via",
         "reset",
         "run",
-        "your"
+        "startup",
+        "sequence"
       ]
     },
     "memory:memory/.dreams/session-corpus/2026-04-12.txt:2:2": {
@@ -216,14 +216,14 @@
         "2026-04-13"
       ],
       "conceptTags": [
-        "user",
         "new",
         "was",
         "started",
         "via",
         "reset",
         "run",
-        "your"
+        "startup",
+        "sequence"
       ]
     },
     "memory:memory/.dreams/session-corpus/2026-04-12.txt:3:3": {
@@ -248,14 +248,14 @@
         "2026-04-13"
       ],
       "conceptTags": [
-        "user",
         "new",
         "was",
         "started",
         "via",
         "reset",
         "run",
-        "your"
+        "startup",
+        "sequence"
       ]
     },
     "memory:memory/.dreams/session-corpus/2026-04-12.txt:4:4": {
@@ -280,14 +280,14 @@
         "2026-04-13"
       ],
       "conceptTags": [
-        "user",
         "new",
         "was",
         "started",
         "via",
         "reset",
         "run",
-        "your"
+        "startup",
+        "sequence"
       ]
     },
     "memory:memory/.dreams/session-corpus/2026-04-12.txt:5:5": {
@@ -316,10 +316,10 @@
         "auto-announce",
         "busy-poll",
         "follow-up",
-        "user",
         "sun",
         "utc",
-        "subagent"
+        "context",
+        "running"
       ]
     },
     "memory:memory/.dreams/session-corpus/2026-04-12.txt:6:6": {
@@ -345,13 +345,13 @@
       ],
       "conceptTags": [
         "yasfi7qlk3r4.space.minimaxi.com",
-        "user",
         "sun",
         "utc",
         "使用",
         "browser",
         "工具",
-        "访问"
+        "访问",
+        "https"
       ]
     },
     "memory:memory/.dreams/session-corpus/2026-04-12.txt:7:7": {
@@ -376,14 +376,14 @@
         "2026-04-13"
       ],
       "conceptTags": [
-        "user",
         "continue",
         "where",
-        "you",
         "left",
         "off",
-        "the",
-        "previous"
+        "previous",
+        "model",
+        "attempt",
+        "failed"
       ]
     },
     "memory:memory/.dreams/session-corpus/2026-04-12.txt:8:8": {
@@ -408,7 +408,6 @@
         "2026-04-13"
       ],
       "conceptTags": [
-        "assistant",
         "我先",
         "查看",
         "browser",
@@ -440,13 +439,13 @@
       ],
       "conceptTags": [
         "agent-browser",
-        "assistant",
         "首先",
         "检查",
         "是否",
         "安装",
         "browser",
-        "然后"
+        "然后",
+        "访问"
       ]
     },
     "memory:memory/.dreams/session-corpus/2026-04-12.txt:10:10": {
@@ -472,7 +471,6 @@
       ],
       "conceptTags": [
         "agent-browser",
-        "assistant",
         "我们",
         "工作",
         "本地",
@@ -503,7 +501,6 @@
       ],
       "conceptTags": [
         "agent-browser",
-        "assistant",
         "现在",
         "安装",
         "browser",
@@ -533,7 +530,6 @@
         "2026-04-13"
       ],
       "conceptTags": [
-        "assistant",
         "我们",
         "等待",
         "安装",
@@ -564,7 +560,6 @@
         "2026-04-13"
       ],
       "conceptTags": [
-        "assistant",
         "现在",
         "打开",
         "目标"
@@ -592,7 +587,6 @@
         "2026-04-13"
       ],
       "conceptTags": [
-        "assistant",
         "尝试",
         "安装",
         "缺失",
@@ -622,14 +616,14 @@
         "2026-04-13"
       ],
       "conceptTags": [
-        "assistant",
         "okay",
         "can't",
         "use",
         "sudo",
         "install",
-        "system",
-        "dependencies"
+        "dependencies",
+        "let's",
+        "try"
       ]
     },
     "memory:memory/.dreams/session-corpus/2026-04-12.txt:16:16": {
@@ -654,7 +648,6 @@
         "2026-04-13"
       ],
       "conceptTags": [
-        "assistant",
         "我们",
         "先用",
         "curl",
@@ -687,13 +680,13 @@
       ],
       "conceptTags": [
         "agent-browser",
-        "assistant",
         "我们",
         "尝试",
         "使用",
         "playwright",
         "直接",
-        "访问"
+        "访问",
+        "因为"
       ]
     },
     "memory:memory/.dreams/session-corpus/2026-04-12.txt:18:18": {
@@ -718,14 +711,14 @@
         "2026-04-13"
       ],
       "conceptTags": [
-        "assistant",
         "我们",
         "尝试",
         "下载",
         "css",
         "文件",
         "分析",
-        "设计"
+        "设计",
+        "风格"
       ]
     },
     "memory:memory/.dreams/session-corpus/2026-04-12.txt:19:19": {
@@ -750,14 +743,14 @@
         "2026-04-13"
       ],
       "conceptTags": [
-        "assistant",
         "我们",
         "尝试",
         "使用",
         "服务",
         "获取",
         "screenshot",
-        "machine"
+        "machine",
+        "免费"
       ]
     },
     "memory:memory/.dreams/session-corpus/2026-04-12.txt:20:20": {
@@ -782,7 +775,6 @@
         "2026-04-13"
       ],
       "conceptTags": [
-        "assistant",
         "我们",
         "查看",
         "获取"
@@ -810,14 +802,14 @@
         "2026-04-13"
       ],
       "conceptTags": [
-        "assistant",
         "我们",
         "创建",
         "一个",
         "简单",
         "playwright",
         "脚本",
-        "尝试"
+        "尝试",
+        "访问"
       ]
     },
     "memory:memory/.dreams/session-corpus/2026-04-12.txt:22:22": {
@@ -842,7 +834,6 @@
         "2026-04-13"
       ],
       "conceptTags": [
-        "assistant",
         "现在",
         "运行",
         "playwright",
@@ -871,14 +862,14 @@
         "2026-04-13"
       ],
       "conceptTags": [
-        "assistant",
         "我们",
         "尝试",
         "下载",
         "分析",
         "javascript",
         "文件",
-        "了解"
+        "了解",
+        "功能"
       ]
     },
     "memory:memory/.dreams/session-corpus/2026-04-12.txt:24:24": {
@@ -905,12 +896,12 @@
       "conceptTags": [
         "bg-gray-950",
         "text-gray-100",
-        "assistant",
         "通过",
         "分析",
         "html",
         "css",
-        "javascript"
+        "javascript",
+        "代码"
       ]
     },
     "memory:memory/.dreams/session-corpus/2026-04-12.txt:25:25": {
@@ -935,14 +926,14 @@
         "2026-04-13"
       ],
       "conceptTags": [
-        "user",
         "continue",
         "where",
-        "you",
         "left",
         "off",
-        "the",
-        "previous"
+        "previous",
+        "model",
+        "attempt",
+        "failed"
       ]
     },
     "memory:memory/.dreams/session-corpus/2026-04-12.txt:26:26": {
@@ -970,11 +961,11 @@
         "echochart.tsx",
         "walletconnection.tsx",
         "createassetmodal.tsx",
-        "assistant",
         "我们",
         "继续",
         "完善",
-        "分析"
+        "分析",
+        "补充"
       ]
     },
     "memory:memory/.dreams/session-corpus/2026-04-12.txt:27:27": {
@@ -1127,14 +1118,14 @@
         "2026-04-13"
       ],
       "conceptTags": [
-        "user",
         "new",
         "was",
         "started",
         "via",
         "reset",
         "run",
-        "your"
+        "startup",
+        "sequence"
       ]
     },
     "memory:memory/.dreams/session-corpus/2026-04-12.txt:32:32": {
@@ -1159,14 +1150,14 @@
         "2026-04-13"
       ],
       "conceptTags": [
-        "assistant",
         "你好",
         "开发",
         "我是",
         "codus",
         "一名",
         "智能",
-        "合约"
+        "合约",
+        "专家"
       ]
     },
     "memory:memory/.dreams/session-corpus/2026-04-12.txt:33:33": {
@@ -1193,12 +1184,12 @@
       "conceptTags": [
         "home/node",
         "text/markdown",
-        "user",
         "media",
         "attached",
         "home",
         "node",
-        "openclaw"
+        "openclaw",
+        "inbound"
       ]
     },
     "memory:memory/.dreams/session-corpus/2026-04-12.txt:34:34": {
@@ -1224,13 +1215,13 @@
       ],
       "conceptTags": [
         "为能力资产化提供了清晰的法律/经济框架",
-        "assistant",
         "已经",
         "仔细",
         "阅读",
         "echonexus",
         "设计",
-        "一个"
+        "一个",
+        "非常"
       ]
     },
     "memory:memory/.dreams/session-corpus/2026-04-12.txt:35:35": {
@@ -1258,11 +1249,11 @@
         "message-id",
         "sender-id",
         "ou-1",
-        "user",
         "conversation",
         "info",
         "untrusted",
-        "metadata"
+        "metadata",
+        "sender"
       ]
     },
     "memory:memory/.dreams/session-corpus/2026-04-12.txt:36:36": {
@@ -1287,14 +1278,14 @@
         "2026-04-13"
       ],
       "conceptTags": [
-        "assistant",
         "已经",
         "仔细",
         "阅读",
         "echonexus",
         "设计",
         "一个",
-        "非常"
+        "非常",
+        "完整"
       ]
     },
     "memory:memory/.dreams/session-corpus/2026-04-12.txt:37:37": {
@@ -1322,11 +1313,11 @@
         "message-id",
         "sender-id",
         "ou-1",
-        "user",
         "conversation",
         "info",
         "untrusted",
-        "metadata"
+        "metadata",
+        "sender"
       ]
     },
     "memory:memory/.dreams/session-corpus/2026-04-12.txt:38:38": {
@@ -1351,14 +1342,14 @@
         "2026-04-13"
       ],
       "conceptTags": [
-        "assistant",
         "创建",
         "一个",
         "完整",
         "echonexus",
         "react",
         "app",
-        "demo"
+        "demo",
+        "首先"
       ]
     },
     "memory:memory/.dreams/session-corpus/2026-04-12.txt:39:39": {
@@ -1383,14 +1374,14 @@
         "2026-04-13"
       ],
       "conceptTags": [
-        "assistant",
         "由于",
         "访问",
         "参考",
         "demo",
         "直接",
         "基于",
-        "设计"
+        "设计",
+        "创建"
       ]
     },
     "memory:memory/.dreams/session-corpus/2026-04-12.txt:40:40": {
@@ -1415,14 +1406,14 @@
         "2026-04-13"
       ],
       "conceptTags": [
-        "assistant",
         "现在",
         "开始",
         "创建",
         "echonexus",
         "react",
         "app",
-        "demo"
+        "demo",
+        "基础"
       ]
     },
     "memory:memory/.dreams/session-corpus/2026-04-12.txt:41:41": {
@@ -1447,14 +1438,14 @@
         "2026-04-13"
       ],
       "conceptTags": [
-        "assistant",
         "项目",
         "初始",
         "完成",
         "现在",
         "需要",
         "创建",
-        "基础"
+        "基础",
+        "配置"
       ]
     },
     "memory:memory/.dreams/session-corpus/2026-04-12.txt:42:42": {
@@ -1479,7 +1470,6 @@
         "2026-04-13"
       ],
       "conceptTags": [
-        "assistant",
         "function"
       ]
     },
@@ -1505,7 +1495,6 @@
         "2026-04-13"
       ],
       "conceptTags": [
-        "assistant",
         "function"
       ]
     },
@@ -1531,7 +1520,6 @@
         "2026-04-13"
       ],
       "conceptTags": [
-        "assistant",
         "parameter"
       ]
     },
@@ -1562,9 +1550,9 @@
         "user-authored",
         "session-key",
         "session-id",
-        "user",
         "sun",
-        "utc"
+        "utc",
+        "openclaw"
       ]
     },
     "memory:memory/.dreams/session-corpus/2026-04-12.txt:46:46": {
@@ -1590,13 +1578,13 @@
       ],
       "conceptTags": [
         "src/app.tsx",
-        "assistant",
         "需要",
         "修复",
         "src",
         "app.tsx",
         "中的",
-        "重复"
+        "重复",
+        "声明"
       ]
     },
     "memory:memory/.dreams/session-corpus/2026-04-12.txt:47:47": {
@@ -1621,7 +1609,6 @@
         "2026-04-13"
       ],
       "conceptTags": [
-        "assistant",
         "function"
       ]
     },
@@ -1647,7 +1634,6 @@
         "2026-04-13"
       ],
       "conceptTags": [
-        "assistant",
         "parameter"
       ]
     },
@@ -1678,9 +1664,9 @@
         "user-authored",
         "session-key",
         "session-id",
-        "user",
         "sun",
-        "utc"
+        "utc",
+        "openclaw"
       ]
     },
     "memory:memory/.dreams/session-corpus/2026-04-12.txt:50:50": {
@@ -1705,14 +1691,14 @@
         "2026-04-13"
       ],
       "conceptTags": [
-        "assistant",
         "需要",
         "处理",
-        "subagent",
         "任务",
         "失败",
         "信息",
-        "我先"
+        "我先",
+        "查看",
+        "browser"
       ]
     },
     "memory:memory/.dreams/session-corpus/2026-04-12.txt:51:51": {
@@ -1740,11 +1726,11 @@
         "message-id",
         "sender-id",
         "ou-1",
-        "user",
         "conversation",
         "info",
         "untrusted",
-        "metadata"
+        "metadata",
+        "sender"
       ]
     },
     "memory:memory/.dreams/session-corpus/2026-04-12.txt:52:52": {
@@ -1769,14 +1755,14 @@
         "2026-04-13"
       ],
       "conceptTags": [
-        "assistant",
         "需要",
         "检查",
         "当前",
         "依赖",
         "安装",
         "状态",
-        "然后"
+        "然后",
+        "继续"
       ]
     },
     "memory:memory/.dreams/session-corpus/2026-04-12.txt:53:53": {
@@ -1801,14 +1787,14 @@
         "2026-04-13"
       ],
       "conceptTags": [
-        "assistant",
         "依赖",
         "安装",
         "完成",
         "现在",
         "需要",
         "简化",
-        "项目"
+        "项目",
+        "创建"
       ]
     },
     "memory:memory/.dreams/session-corpus/2026-04-12.txt:54:54": {
@@ -1833,14 +1819,14 @@
         "2026-04-13"
       ],
       "conceptTags": [
-        "assistant",
         "现在",
         "需要",
         "重新",
         "安装",
         "依赖",
         "简化",
-        "一些"
+        "一些",
+        "移除"
       ]
     },
     "memory:memory/.dreams/session-corpus/2026-04-12.txt:55:55": {
@@ -1865,14 +1851,14 @@
         "2026-04-13"
       ],
       "conceptTags": [
-        "assistant",
         "我先",
         "检查",
         "依赖",
         "安装",
         "状态",
         "然后",
-        "继续"
+        "继续",
+        "简化"
       ]
     },
     "memory:memory/.dreams/session-corpus/2026-04-12.txt:56:56": {
@@ -1898,13 +1884,13 @@
       ],
       "conceptTags": [
         "app.tsx",
-        "assistant",
         "依赖",
         "安装",
         "完成",
         "现在",
         "需要",
-        "简化"
+        "简化",
+        "创建"
       ]
     },
     "memory:memory/.dreams/session-corpus/2026-04-12.txt:57:57": {
@@ -1930,13 +1916,13 @@
       ],
       "conceptTags": [
         "app.tsx",
-        "assistant",
         "需要",
         "修复",
         "中的",
         "uselocation",
         "使用",
-        "问题"
+        "问题",
+        "简化"
       ]
     },
     "memory:memory/.dreams/session-corpus/2026-04-12.txt:58:58": {
@@ -1961,14 +1947,14 @@
         "2026-04-13"
       ],
       "conceptTags": [
-        "assistant",
         "现在",
         "需要",
         "简化",
         "各个",
         "创建",
         "一个",
-        "简单"
+        "简单",
+        "可靠"
       ]
     },
     "memory:memory/.dreams/session-corpus/2026-04-12.txt:59:59": {
@@ -1993,14 +1979,14 @@
         "2026-04-13"
       ],
       "conceptTags": [
-        "assistant",
         "现在",
         "需要",
         "继续",
         "简化",
         "其他",
         "创建",
-        "简单"
+        "简单",
+        "executor"
       ]
     },
     "memory:memory/.dreams/session-corpus/2026-04-12.txt:60:60": {
@@ -2025,14 +2011,14 @@
         "2026-04-13"
       ],
       "conceptTags": [
-        "assistant",
         "现在",
         "需要",
         "继续",
         "简化",
         "剩余",
         "创建",
-        "简单"
+        "简单",
+        "market"
       ]
     },
     "memory:memory/.dreams/session-corpus/2026-04-12.txt:61:61": {
@@ -2057,14 +2043,14 @@
         "2026-04-13"
       ],
       "conceptTags": [
-        "user",
         "new",
         "was",
         "started",
         "via",
         "reset",
         "run",
-        "your"
+        "startup",
+        "sequence"
       ]
     },
     "memory:memory/.dreams/session-corpus/2026-04-12.txt:62:62": {
@@ -2089,14 +2075,14 @@
         "2026-04-13"
       ],
       "conceptTags": [
-        "user",
         "new",
         "was",
         "started",
         "via",
         "reset",
         "run",
-        "your"
+        "startup",
+        "sequence"
       ]
     },
     "memory:memory/.dreams/session-corpus/2026-04-12.txt:63:63": {
@@ -2121,14 +2107,14 @@
         "2026-04-13"
       ],
       "conceptTags": [
-        "user",
         "new",
         "was",
         "started",
         "via",
         "reset",
         "run",
-        "your"
+        "startup",
+        "sequence"
       ]
     },
     "memory:memory/.dreams/session-corpus/2026-04-12.txt:64:64": {
@@ -2153,14 +2139,14 @@
         "2026-04-13"
       ],
       "conceptTags": [
-        "user",
         "new",
         "was",
         "started",
         "via",
         "reset",
         "run",
-        "your"
+        "startup",
+        "sequence"
       ]
     },
     "memory:memory/.dreams/session-corpus/2026-04-12.txt:65:65": {
@@ -2185,14 +2171,14 @@
         "2026-04-13"
       ],
       "conceptTags": [
-        "user",
         "new",
         "was",
         "started",
         "via",
         "reset",
         "run",
-        "your"
+        "startup",
+        "sequence"
       ]
     },
     "memory:memory/.dreams/session-corpus/2026-04-12.txt:66:66": {
@@ -2217,14 +2203,14 @@
         "2026-04-13"
       ],
       "conceptTags": [
-        "user",
         "new",
         "was",
         "started",
         "via",
         "reset",
         "run",
-        "your"
+        "startup",
+        "sequence"
       ]
     },
     "memory:memory/.dreams/session-corpus/2026-04-12.txt:67:67": {
@@ -2249,14 +2235,14 @@
         "2026-04-13"
       ],
       "conceptTags": [
-        "user",
         "new",
         "was",
         "started",
         "via",
         "reset",
         "run",
-        "your"
+        "startup",
+        "sequence"
       ]
     },
     "memory:memory/.dreams/session-corpus/2026-04-12.txt:68:68": {
@@ -2281,14 +2267,14 @@
         "2026-04-13"
       ],
       "conceptTags": [
-        "user",
         "new",
         "was",
         "started",
         "via",
         "reset",
         "run",
-        "your"
+        "startup",
+        "sequence"
       ]
     },
     "memory:memory/.dreams/session-corpus/2026-04-12.txt:69:69": {
@@ -2316,11 +2302,11 @@
         "message-id",
         "sender-id",
         "ou-1",
-        "user",
         "conversation",
         "info",
         "untrusted",
-        "metadata"
+        "metadata",
+        "sender"
       ]
     },
     "memory:memory/.dreams/session-corpus/2026-04-12.txt:70:70": {
@@ -2348,11 +2334,11 @@
         "message-id",
         "sender-id",
         "ou-1",
-        "user",
         "conversation",
         "info",
         "untrusted",
-        "metadata"
+        "metadata",
+        "sender"
       ]
     },
     "memory:memory/.dreams/session-corpus/2026-04-12.txt:71:71": {
@@ -2380,11 +2366,11 @@
         "message-id",
         "sender-id",
         "ou-1",
-        "user",
         "conversation",
         "info",
         "untrusted",
-        "metadata"
+        "metadata",
+        "sender"
       ]
     },
     "memory:memory/.dreams/session-corpus/2026-04-12.txt:72:72": {
@@ -2412,11 +2398,11 @@
         "message-id",
         "sender-id",
         "ou-1",
-        "user",
         "conversation",
         "info",
         "untrusted",
-        "metadata"
+        "metadata",
+        "sender"
       ]
     },
     "memory:memory/.dreams/session-corpus/2026-04-12.txt:73:73": {
@@ -2444,11 +2430,11 @@
         "message-id",
         "sender-id",
         "ou-1",
-        "user",
         "conversation",
         "info",
         "untrusted",
-        "metadata"
+        "metadata",
+        "sender"
       ]
     },
     "memory:memory/.dreams/session-corpus/2026-04-12.txt:74:74": {
@@ -2476,11 +2462,11 @@
         "message-id",
         "sender-id",
         "ou-1",
-        "user",
         "conversation",
         "info",
         "untrusted",
-        "metadata"
+        "metadata",
+        "sender"
       ]
     },
     "memory:memory/.dreams/session-corpus/2026-04-12.txt:75:75": {
@@ -2508,11 +2494,11 @@
         "message-id",
         "sender-id",
         "ou-1",
-        "user",
         "conversation",
         "info",
         "untrusted",
-        "metadata"
+        "metadata",
+        "sender"
       ]
     },
     "memory:memory/.dreams/session-corpus/2026-04-12.txt:76:76": {
@@ -2540,11 +2526,11 @@
         "message-id",
         "sender-id",
         "ou-1",
-        "user",
         "conversation",
         "info",
         "untrusted",
-        "metadata"
+        "metadata",
+        "sender"
       ]
     },
     "memory:memory/.dreams/session-corpus/2026-04-12.txt:77:77": {
@@ -2572,11 +2558,11 @@
         "zai/glm-5",
         "message-id",
         "sender-id",
-        "user",
-        "system",
         "utc",
         "model",
-        "switched"
+        "switched",
+        "glm",
+        "zai"
       ]
     },
     "memory:memory/.dreams/session-corpus/2026-04-12.txt:78:78": {
@@ -2604,11 +2590,11 @@
         "zai/glm-5",
         "message-id",
         "sender-id",
-        "user",
-        "system",
         "utc",
         "model",
-        "switched"
+        "switched",
+        "glm",
+        "zai"
       ]
     },
     "memory:memory/.dreams/session-corpus/2026-04-12.txt:79:79": {
@@ -2636,11 +2622,11 @@
         "zai/glm-5",
         "message-id",
         "sender-id",
-        "user",
-        "system",
         "utc",
         "model",
-        "switched"
+        "switched",
+        "glm",
+        "zai"
       ]
     },
     "memory:memory/.dreams/session-corpus/2026-04-12.txt:80:80": {
@@ -2668,11 +2654,11 @@
         "zai/glm-5",
         "message-id",
         "sender-id",
-        "user",
-        "system",
         "utc",
         "model",
-        "switched"
+        "switched",
+        "glm",
+        "zai"
       ]
     },
     "memory:memory/.dreams/session-corpus/2026-04-12.txt:81:81": {
@@ -2699,12 +2685,12 @@
       "conceptTags": [
         "message-id",
         "sender-id",
-        "user",
-        "system",
         "utc",
         "model",
         "switched",
-        "volcengine"
+        "volcengine",
+        "plan",
+        "doubao"
       ]
     },
     "memory:memory/.dreams/session-corpus/2026-04-12.txt:82:82": {
@@ -2731,12 +2717,12 @@
       "conceptTags": [
         "message-id",
         "sender-id",
-        "user",
-        "system",
         "utc",
         "model",
         "switched",
-        "volcengine"
+        "volcengine",
+        "plan",
+        "doubao"
       ]
     },
     "memory:memory/.dreams/session-corpus/2026-04-12.txt:83:83": {
@@ -2763,12 +2749,12 @@
       "conceptTags": [
         "message-id",
         "sender-id",
-        "user",
-        "system",
         "utc",
         "model",
         "switched",
-        "volcengine"
+        "volcengine",
+        "plan",
+        "doubao"
       ]
     },
     "memory:memory/.dreams/session-corpus/2026-04-12.txt:84:84": {
@@ -2795,12 +2781,12 @@
       "conceptTags": [
         "message-id",
         "sender-id",
-        "user",
-        "system",
         "utc",
         "model",
         "switched",
-        "volcengine"
+        "volcengine",
+        "plan",
+        "doubao"
       ]
     },
     "memory:memory/.dreams/session-corpus/2026-04-13.txt:1:1": {
@@ -2824,14 +2810,14 @@
         "2026-04-13"
       ],
       "conceptTags": [
-        "user",
         "new",
         "was",
         "started",
         "via",
         "reset",
         "run",
-        "your"
+        "startup",
+        "sequence"
       ]
     },
     "memory:memory/.dreams/session-corpus/2026-04-13.txt:2:2": {
@@ -2856,13 +2842,13 @@
       ],
       "conceptTags": [
         "volcengine-plan/minimax-m2.5",
-        "assistant",
         "你好",
         "开发",
         "默认",
         "模型",
         "volcengine",
-        "plan"
+        "plan",
+        "minimax"
       ]
     },
     "memory:memory/.dreams/session-corpus/2026-04-12.txt:85:85": {
@@ -2887,14 +2873,14 @@
         "2026-04-13"
       ],
       "conceptTags": [
-        "assistant",
         "现在",
         "需要",
         "创建",
         "一个",
         "简单",
         "settings",
-        "然后"
+        "然后",
+        "尝试"
       ]
     },
     "memory:memory/.dreams/session-corpus/2026-04-12.txt:86:86": {
@@ -2920,13 +2906,13 @@
       ],
       "conceptTags": [
         "app.tsx",
-        "assistant",
         "现在",
         "需要",
         "更新",
         "添加",
         "完整",
-        "布局"
+        "布局",
+        "导航"
       ]
     },
     "memory:memory/.dreams/session-corpus/2026-04-12.txt:87:87": {
@@ -2951,14 +2937,14 @@
         "2026-04-13"
       ],
       "conceptTags": [
-        "assistant",
         "现在",
         "需要",
         "确保",
         "项目",
         "正确",
         "tailwind",
-        "css"
+        "css",
+        "配置"
       ]
     },
     "memory:memory/.dreams/session-corpus/2026-04-12.txt:88:88": {
@@ -2983,14 +2969,14 @@
         "2026-04-13"
       ],
       "conceptTags": [
-        "assistant",
         "现在",
         "需要",
         "更新",
         "postcss",
         "配置",
         "然后",
-        "尝试"
+        "尝试",
+        "项目"
       ]
     },
     "memory:memory/.dreams/session-corpus/2026-04-12.txt:89:89": {
@@ -3016,13 +3002,13 @@
       ],
       "conceptTags": [
         "index.css",
-        "assistant",
         "现在",
         "需要",
         "更新",
         "添加",
         "tailwind",
-        "css"
+        "css",
+        "导入"
       ]
     },
     "memory:memory/.dreams/session-corpus/2026-04-12.txt:90:90": {
@@ -3048,13 +3034,13 @@
       ],
       "conceptTags": [
         "main.tsx",
-        "assistant",
         "现在",
         "需要",
         "确保",
         "文件",
         "存在",
-        "并且"
+        "并且",
+        "正确"
       ]
     },
     "memory:memory/.dreams/session-corpus/2026-04-12.txt:91:91": {
@@ -3080,13 +3066,13 @@
       ],
       "conceptTags": [
         "vite.config.ts",
-        "assistant",
         "现在",
         "需要",
         "确保",
         "项目",
         "正确",
-        "文件"
+        "文件",
+        "然后"
       ]
     },
     "memory:memory/.dreams/session-corpus/2026-04-12.txt:92:92": {
@@ -3112,13 +3098,13 @@
       ],
       "conceptTags": [
         "package.json",
-        "assistant",
         "现在",
         "需要",
         "确保",
         "项目",
         "正确",
-        "文件"
+        "文件",
+        "然后"
       ]
     },
     "memory:memory/.dreams/session-corpus/2026-04-12.txt:93:93": {
@@ -3143,14 +3129,14 @@
         "2026-04-13"
       ],
       "conceptTags": [
-        "assistant",
         "现在",
         "需要",
         "重新",
         "安装",
         "依赖",
         "然后",
-        "尝试"
+        "尝试",
+        "项目"
       ]
     },
     "memory:memory/.dreams/session-corpus/2026-04-12.txt:94:94": {
@@ -3175,7 +3161,6 @@
         "2026-04-13"
       ],
       "conceptTags": [
-        "assistant",
         "等待",
         "依赖",
         "安装",
@@ -3207,11 +3192,11 @@
         "message-id",
         "sender-id",
         "ou-1",
-        "user",
         "conversation",
         "info",
         "untrusted",
-        "metadata"
+        "metadata",
+        "sender"
       ]
     },
     "memory:memory/.dreams/session-corpus/2026-04-12.txt:96:96": {
@@ -3239,11 +3224,11 @@
         "message-id",
         "sender-id",
         "ou-1",
-        "user",
         "conversation",
         "info",
         "untrusted",
-        "metadata"
+        "metadata",
+        "sender"
       ]
     },
     "memory:memory/.dreams/session-corpus/2026-04-12.txt:97:97": {
@@ -3271,11 +3256,11 @@
         "message-id",
         "sender-id",
         "ou-1",
-        "user",
         "conversation",
         "info",
         "untrusted",
-        "metadata"
+        "metadata",
+        "sender"
       ]
     },
     "memory:memory/.dreams/session-corpus/2026-04-12.txt:98:98": {
@@ -3300,14 +3285,14 @@
         "2026-04-13"
       ],
       "conceptTags": [
-        "assistant",
         "需要",
         "精简",
         "系统",
         "提示",
         "我先",
         "查看",
-        "当前"
+        "当前",
+        "然后"
       ]
     },
     "memory:memory/.dreams/session-corpus/2026-04-12.txt:99:99": {
@@ -3334,12 +3319,12 @@
       "conceptTags": [
         "user.md",
         "identity.md",
-        "assistant",
         "现在",
         "需要",
         "查看",
         "其他",
-        "相关"
+        "相关",
+        "系统"
       ]
     },
     "memory:memory/.dreams/session-corpus/2026-04-12.txt:100:100": {
@@ -3367,11 +3352,11 @@
         "message-id",
         "sender-id",
         "ou-1",
-        "user",
         "conversation",
         "info",
         "untrusted",
-        "metadata"
+        "metadata",
+        "sender"
       ]
     },
     "memory:memory/.dreams/session-corpus/2026-04-12.txt:101:101": {
@@ -3397,13 +3382,13 @@
       ],
       "conceptTags": [
         "agents.md",
-        "assistant",
         "需要",
         "查看",
         "当前",
         "完整",
         "系统",
-        "提示"
+        "提示",
+        "然后"
       ]
     },
     "memory:memory/.dreams/session-corpus/2026-04-12.txt:102:102": {
@@ -3428,14 +3413,14 @@
         "2026-04-13"
       ],
       "conceptTags": [
-        "assistant",
         "我先",
         "检查",
         "一下",
         "当前",
         "echonexus",
         "demo",
-        "状态"
+        "状态",
+        "然后"
       ]
     },
     "memory:memory/.dreams/session-corpus/2026-04-12.txt:103:103": {
@@ -3463,11 +3448,11 @@
         "message-id",
         "sender-id",
         "ou-1",
-        "user",
         "conversation",
         "info",
         "untrusted",
-        "metadata"
+        "metadata",
+        "sender"
       ]
     },
     "memory:memory/.dreams/session-corpus/2026-04-12.txt:104:104": {
@@ -3495,11 +3480,11 @@
         "message-id",
         "sender-id",
         "ou-1",
-        "user",
         "conversation",
         "info",
         "untrusted",
-        "metadata"
+        "metadata",
+        "sender"
       ]
     },
     "memory:memory/.dreams/session-corpus/2026-04-12.txt:105:105": {
@@ -3527,11 +3512,11 @@
         "message-id",
         "sender-id",
         "ou-1",
-        "user",
         "conversation",
         "info",
         "untrusted",
-        "metadata"
+        "metadata",
+        "sender"
       ]
     },
     "memory:memory/.dreams/session-corpus/2026-04-12.txt:106:106": {
@@ -3559,11 +3544,11 @@
         "message-id",
         "sender-id",
         "ou-1",
-        "user",
         "conversation",
         "info",
         "untrusted",
-        "metadata"
+        "metadata",
+        "sender"
       ]
     },
     "memory:memory/.dreams/session-corpus/2026-04-12.txt:107:107": {
@@ -3591,11 +3576,11 @@
         "message-id",
         "sender-id",
         "ou-1",
-        "user",
         "conversation",
         "info",
         "untrusted",
-        "metadata"
+        "metadata",
+        "sender"
       ]
     },
     "memory:memory/.dreams/session-corpus/2026-04-12.txt:108:108": {
@@ -3624,10 +3609,10 @@
         "user.md",
         "identity.md",
         "agents.md",
-        "assistant",
         "好的",
         "明白",
-        "用户"
+        "用户",
+        "要求"
       ]
     },
     "memory:memory/.dreams/session-corpus/2026-04-12.txt:109:109": {
@@ -3652,7 +3637,6 @@
         "2026-04-13"
       ],
       "conceptTags": [
-        "assistant",
         "现在",
         "检查",
         "一下",
@@ -3684,13 +3668,13 @@
       ],
       "conceptTags": [
         "84.5",
-        "assistant",
         "太好了",
         "精简",
         "大小",
         "bytes",
         "相比",
-        "原来"
+        "原来",
+        "29,997"
       ]
     },
     "memory:memory/.dreams/session-corpus/2026-04-12.txt:111:111": {
@@ -3719,10 +3703,10 @@
         "soul.md",
         "user.md",
         "identity.md",
-        "assistant",
         "完美",
         "已经",
-        "成功"
+        "成功",
+        "精简"
       ]
     },
     "memory:memory/.dreams/session-corpus/2026-04-13.txt:3:3": {
@@ -3749,11 +3733,11 @@
         "message-id",
         "sender-id",
         "ou-1",
-        "user",
         "conversation",
         "info",
         "untrusted",
-        "metadata"
+        "metadata",
+        "sender"
       ]
     },
     "memory:memory/.dreams/session-corpus/2026-04-13.txt:4:4": {
@@ -3777,14 +3761,14 @@
         "2026-04-13"
       ],
       "conceptTags": [
-        "assistant",
         "说得",
         "需要",
         "检查",
         "一下",
         "系统",
         "提示",
-        "是否"
+        "是否",
+        "真的"
       ]
     },
     "memory:memory/.dreams/session-corpus/2026-04-13.txt:5:5": {
@@ -3809,13 +3793,13 @@
       ],
       "conceptTags": [
         "memory.md",
-        "assistant",
         "文件",
         "确实",
         "已经",
         "精简",
         "bytes",
-        "可能"
+        "可能",
+        "系统"
       ]
     },
     "memory:memory/2026-04-14.md:233:236": {
@@ -3850,8 +3834,8 @@
         "8-8",
         "reflections",
         "theme",
-        "assistant",
-        "kept"
+        "kept",
+        "surfacing"
       ]
     },
     "memory:memory/2026-04-14.md:237:240": {
@@ -3886,8 +3870,8 @@
         "4-4",
         "reflections",
         "theme",
-        "user",
-        "kept"
+        "kept",
+        "surfacing"
       ]
     },
     "memory:memory/2026-04-14.md:243:243": {
@@ -3951,9 +3935,9 @@
         "identity.md",
         "agents.md",
         "memory.md",
-        "assistant",
         "发现",
-        "问题"
+        "问题",
+        "精简"
       ]
     },
     "memory:memory/.dreams/session-corpus/2026-04-13.txt:7:7": {
@@ -3979,13 +3963,13 @@
       ],
       "conceptTags": [
         "memory.md",
-        "assistant",
         "现在",
         "已经",
         "创建",
         "文件",
         "包含",
-        "精简"
+        "精简",
+        "核心"
       ]
     },
     "memory:memory/.dreams/session-corpus/2026-04-13.txt:8:8": {
@@ -4045,11 +4029,11 @@
         "message-id",
         "sender-id",
         "ou-1",
-        "user",
         "conversation",
         "info",
         "untrusted",
-        "metadata"
+        "metadata",
+        "sender"
       ]
     },
     "memory:memory/.dreams/session-corpus/2026-04-13.txt:10:10": {
@@ -4077,11 +4061,11 @@
         "message-id",
         "sender-id",
         "ou-1",
-        "user",
         "conversation",
         "info",
         "untrusted",
-        "metadata"
+        "metadata",
+        "sender"
       ]
     },
     "memory:memory/.dreams/session-corpus/2026-04-13.txt:11:11": {
@@ -4106,14 +4090,14 @@
         "2026-04-14"
       ],
       "conceptTags": [
-        "assistant",
         "说得",
         "系统",
         "提示",
         "通常",
         "会话",
         "开始",
-        "对于"
+        "对于",
+        "当前"
       ]
     },
     "memory:memory/.dreams/session-corpus/2026-04-13.txt:12:12": {
@@ -4139,13 +4123,13 @@
       ],
       "conceptTags": [
         "95k/200k",
-        "assistant",
         "说得",
         "我看到",
         "当前",
         "context",
         "95k",
-        "200k"
+        "200k",
+        "系统"
       ]
     },
     "memory:memory/.dreams/session-corpus/2026-04-13.txt:13:13": {
@@ -4177,7 +4161,7 @@
         "2.4k",
         "2026-04-12-0854.md",
         "8.2k",
-        "assistant"
+        "找到"
       ]
     },
     "memory:memory/.dreams/session-corpus/2026-04-14.txt:1:1": {
@@ -4204,11 +4188,11 @@
         "home/node",
         "image/jpeg",
         "media/path/filepath",
-        "user",
         "media",
         "attached",
         "home",
-        "node"
+        "node",
+        "openclaw"
       ]
     },
     "memory:memory/.dreams/session-corpus/2026-04-14.txt:2:2": {
@@ -4238,8 +4222,8 @@
         "ui-ux-pro-max",
         "ui/ux设计智能",
         "dev-builder",
-        "assistant",
-        "开发"
+        "开发",
+        "我看到"
       ]
     },
     "memory:memory/.dreams/session-corpus/2026-04-14.txt:3:3": {
@@ -4266,11 +4250,11 @@
         "message-id",
         "sender-id",
         "ou-1",
-        "user",
         "conversation",
         "info",
         "untrusted",
-        "metadata"
+        "metadata",
+        "sender"
       ]
     },
     "memory:memory/.dreams/session-corpus/2026-04-14.txt:4:4": {
@@ -4294,7 +4278,6 @@
         "2026-04-14"
       ],
       "conceptTags": [
-        "assistant",
         "我来",
         "查看",
         "这个",
@@ -4362,8 +4345,8 @@
         "gemini-deep-research",
         "3.700",
         "xiaohongshu-deep",
-        "assistant",
-        "好的"
+        "好的",
+        "以下"
       ]
     },
     "memory:memory/.dreams/session-corpus/2026-04-14.txt:7:7": {
@@ -4390,11 +4373,11 @@
         "message-id",
         "sender-id",
         "ou-1",
-        "user",
         "conversation",
         "info",
         "untrusted",
-        "metadata"
+        "metadata",
+        "sender"
       ]
     },
     "memory:memory/.dreams/session-corpus/2026-04-14.txt:8:8": {
@@ -4422,10 +4405,10 @@
         "3.312",
         "instruction-only",
         "ddg-search",
-        "assistant",
         "好的",
         "开发",
-        "以下"
+        "以下",
+        "图片"
       ]
     },
     "memory:memory/.dreams/session-corpus/2026-04-14.txt:9:9": {
@@ -4452,11 +4435,11 @@
         "message-id",
         "sender-id",
         "ou-1",
-        "user",
         "conversation",
         "info",
         "untrusted",
-        "metadata"
+        "metadata",
+        "sender"
       ]
     },
     "memory:memory/.dreams/session-corpus/2026-04-14.txt:10:10": {
@@ -4485,9 +4468,9 @@
         "m2.5",
         "minimax/minimax-m2.5",
         "minimax/minimax-m2.7",
-        "assistant",
         "好的",
-        "开发"
+        "开发",
+        "根据"
       ]
     },
     "memory:memory/.dreams/session-corpus/2026-04-14.txt:11:11": {
@@ -4514,11 +4497,11 @@
         "grand-pi",
         "dawn-tid",
         "message-id",
-        "user",
-        "system",
         "untrusted",
         "utc",
-        "exec"
+        "exec",
+        "failed",
+        "grand"
       ]
     },
     "memory:memory/.dreams/session-corpus/2026-04-14.txt:12:12": {
@@ -4546,10 +4529,10 @@
         "swe-pro",
         "56.22",
         "57.0",
-        "assistant",
         "说得",
         "确实",
-        "已经"
+        "已经",
+        "minimax"
       ]
     },
     "memory:memory/.dreams/session-corpus/2026-04-14.txt:13:13": {
@@ -4576,11 +4559,11 @@
         "message-id",
         "sender-id",
         "ou-1",
-        "user",
         "conversation",
         "info",
         "untrusted",
-        "metadata"
+        "metadata",
+        "sender"
       ]
     },
     "memory:memory/.dreams/session-corpus/2026-04-14.txt:14:14": {
@@ -4608,10 +4591,10 @@
         "openai",
         "chatgpt.com/codex",
         "openai/codex",
-        "assistant",
         "codex",
         "什么",
-        "开发"
+        "开发",
+        "代理"
       ]
     },
     "memory:memory/2026-04-15.md:328:331": {
@@ -4646,8 +4629,8 @@
         "8-8",
         "reflections",
         "theme",
-        "assistant",
-        "kept"
+        "kept",
+        "surfacing"
       ]
     },
     "memory:memory/2026-04-15.md:332:335": {
@@ -4682,8 +4665,8 @@
         "4-4",
         "reflections",
         "theme",
-        "user",
-        "kept"
+        "kept",
+        "surfacing"
       ]
     },
     "memory:memory/2026-04-15.md:338:340": {
@@ -4715,11 +4698,11 @@
         "possible",
         "lasting",
         "truths",
-        "assistant",
         "okay",
         "can't",
         "use",
-        "sudo"
+        "sudo",
+        "install"
       ]
     },
     "memory:memory/.dreams/session-corpus/2026-04-15.txt:1:1": {
@@ -4746,11 +4729,11 @@
         "message-id",
         "sender-id",
         "ou-1",
-        "user",
         "conversation",
         "info",
         "untrusted",
-        "metadata"
+        "metadata",
+        "sender"
       ]
     },
     "memory:memory/.dreams/session-corpus/2026-04-15.txt:2:2": {
@@ -4774,14 +4757,14 @@
         "2026-04-15"
       ],
       "conceptTags": [
-        "assistant",
         "我来",
         "搜索",
         "一下",
         "记忆",
         "看看",
         "是否",
-        "关于"
+        "关于",
+        "cliproxyapi"
       ]
     },
     "memory:memory/.dreams/session-corpus/2026-04-15.txt:3:3": {
@@ -4807,12 +4790,12 @@
       "conceptTags": [
         "openai",
         "网关",
-        "assistant",
         "根据",
         "搜索",
         "结果",
         "cliproxyapi",
-        "一个"
+        "一个",
+        "api"
       ]
     },
     "memory:memory/2026-04-16.md:353:356": {
@@ -4847,8 +4830,8 @@
         "8-8",
         "reflections",
         "theme",
-        "assistant",
-        "kept"
+        "kept",
+        "surfacing"
       ]
     },
     "memory:memory/2026-04-16.md:357:360": {
@@ -4883,8 +4866,8 @@
         "4-4",
         "reflections",
         "theme",
-        "user",
-        "kept"
+        "kept",
+        "surfacing"
       ]
     },
     "memory:memory/2026-04-16.md:363:365": {
@@ -4916,11 +4899,11 @@
         "possible",
         "lasting",
         "truths",
-        "assistant",
         "okay",
         "can't",
         "use",
-        "sudo"
+        "sudo",
+        "install"
       ]
     },
     "memory:memory/.dreams/session-corpus/2026-04-17.txt:1:1": {
@@ -4948,11 +4931,11 @@
         "message-id",
         "sender-id",
         "conversation-label",
-        "user",
         "conversation",
         "info",
         "untrusted",
-        "metadata"
+        "metadata",
+        "sender"
       ]
     },
     "memory:memory/.dreams/session-corpus/2026-04-17.txt:2:2": {
@@ -4978,13 +4961,13 @@
       ],
       "conceptTags": [
         "0-3",
-        "assistant",
         "lucus",
         "一个",
         "关于",
         "echo",
         "shi",
-        "技术"
+        "技术",
+        "架构"
       ]
     },
     "memory:memory/2026-04-17.md:183:186": {
@@ -5019,8 +5002,8 @@
         "8-8",
         "reflections",
         "theme",
-        "assistant",
-        "kept"
+        "kept",
+        "surfacing"
       ]
     },
     "memory:memory/2026-04-17.md:187:190": {
@@ -5055,8 +5038,8 @@
         "4-4",
         "reflections",
         "theme",
-        "user",
-        "kept"
+        "kept",
+        "surfacing"
       ]
     },
     "memory:memory/2026-04-17.md:193:195": {
@@ -5088,11 +5071,11 @@
         "possible",
         "lasting",
         "truths",
-        "assistant",
         "okay",
         "can't",
         "use",
-        "sudo"
+        "sudo",
+        "install"
       ]
     },
     "memory:memory/2026-04-18.md:78:81": {
@@ -5127,8 +5110,8 @@
         "8-8",
         "reflections",
         "theme",
-        "assistant",
-        "kept"
+        "kept",
+        "surfacing"
       ]
     },
     "memory:memory/2026-04-18.md:82:85": {
@@ -5163,8 +5146,8 @@
         "4-4",
         "reflections",
         "theme",
-        "user",
-        "kept"
+        "kept",
+        "surfacing"
       ]
     },
     "memory:memory/2026-04-18.md:88:90": {
@@ -5196,11 +5179,11 @@
         "possible",
         "lasting",
         "truths",
-        "assistant",
         "lucus",
         "一个",
         "关于",
-        "echo"
+        "echo",
+        "shi"
       ]
     },
     "memory:memory/2026-04-19.md:78:81": {
@@ -5235,8 +5218,8 @@
         "8-8",
         "reflections",
         "theme",
-        "assistant",
-        "kept"
+        "kept",
+        "surfacing"
       ]
     },
     "memory:memory/2026-04-19.md:82:85": {
@@ -5271,8 +5254,8 @@
         "4-4",
         "reflections",
         "theme",
-        "user",
-        "kept"
+        "kept",
+        "surfacing"
       ]
     },
     "memory:memory/2026-04-19.md:88:90": {
@@ -5336,10 +5319,10 @@
         "soul.md",
         "user.md",
         "memory.md",
-        "user",
-        "system",
         "untrusted",
-        "utc"
+        "utc",
+        "exec",
+        "completed"
       ]
     },
     "memory:memory/.dreams/session-corpus/2026-04-19.txt:2:2": {
@@ -5366,11 +5349,11 @@
         "react/next.js",
         "node.js",
         "volcengine-plan/minimax-m2.5",
-        "assistant",
         "开发",
         "你好",
         "我是",
-        "codus"
+        "codus",
+        "你的"
       ]
     },
     "memory:memory/.dreams/session-corpus/2026-04-19.txt:3:3": {
@@ -5397,11 +5380,11 @@
         "message-id",
         "sender-id",
         "ou-1",
-        "user",
         "conversation",
         "info",
         "untrusted",
-        "metadata"
+        "metadata",
+        "sender"
       ]
     },
     "memory:memory/.dreams/session-corpus/2026-04-19.txt:4:4": {
@@ -5427,12 +5410,12 @@
       "conceptTags": [
         "skill-nft",
         "erc-721/1155",
-        "assistant",
         "一个",
         "前沿",
         "话题",
         "能力",
-        "资产"
+        "资产",
+        "设计"
       ]
     },
     "memory:memory/.dreams/session-corpus/2026-04-19.txt:5:5": {
@@ -5459,11 +5442,11 @@
         "message-id",
         "sender-id",
         "ou-1",
-        "user",
         "conversation",
         "info",
         "untrusted",
-        "metadata"
+        "metadata",
+        "sender"
       ]
     },
     "memory:memory/.dreams/session-corpus/2026-04-19.txt:6:6": {
@@ -5487,14 +5470,14 @@
         "2026-04-19"
       ],
       "conceptTags": [
-        "assistant",
         "好的",
         "详细",
         "聊聊",
         "tee",
         "加密",
         "执行",
-        "skill"
+        "skill",
+        "保护"
       ]
     },
     "memory:memory/.dreams/session-corpus/2026-04-19.txt:7:7": {
@@ -5521,11 +5504,11 @@
         "message-id",
         "sender-id",
         "ou-1",
-        "user",
         "conversation",
         "info",
         "untrusted",
-        "metadata"
+        "metadata",
+        "sender"
       ]
     },
     "memory:memory/.dreams/session-corpus/2026-04-19.txt:8:8": {
@@ -5552,11 +5535,11 @@
         "message-id",
         "sender-id",
         "ou-1",
-        "user",
         "conversation",
         "info",
         "untrusted",
-        "metadata"
+        "metadata",
+        "sender"
       ]
     },
     "memory:memory/.dreams/session-corpus/2026-04-19.txt:9:9": {
@@ -5580,14 +5563,14 @@
         "2026-04-19"
       ],
       "conceptTags": [
-        "assistant",
         "好的",
         "我来",
         "创建",
         "一个",
         "完整",
         "html",
-        "包含"
+        "包含",
+        "我们"
       ]
     },
     "memory:memory/.dreams/session-corpus/2026-04-19.txt:10:10": {
@@ -5612,13 +5595,13 @@
       ],
       "conceptTags": [
         "home/node",
-        "assistant",
         "好的",
         "html",
         "创建",
         "完成",
         "文件",
-        "位置"
+        "位置",
+        "home"
       ]
     },
     "memory:memory/.dreams/session-corpus/2026-04-19.txt:11:11": {
@@ -5645,11 +5628,11 @@
         "message-id",
         "sender-id",
         "ou-1",
-        "user",
         "conversation",
         "info",
         "untrusted",
-        "metadata"
+        "metadata",
+        "sender"
       ]
     },
     "memory:memory/.dreams/session-corpus/2026-04-19.txt:12:12": {
@@ -5673,14 +5656,14 @@
         "2026-04-19"
       ],
       "conceptTags": [
-        "assistant",
         "好的",
         "我来",
         "一份",
         "详细",
         "tee",
         "加密",
-        "执行"
+        "执行",
+        "实现"
       ]
     },
     "memory:memory/.dreams/session-corpus/2026-04-19.txt:13:13": {
@@ -5705,13 +5688,13 @@
       ],
       "conceptTags": [
         "home/node",
-        "assistant",
         "好的",
         "详细",
         "tee",
         "加密",
         "执行",
-        "实现"
+        "实现",
+        "方案"
       ]
     },
     "memory:memory/.dreams/session-corpus/2026-04-19.txt:14:14": {
@@ -5738,11 +5721,11 @@
         "message-id",
         "sender-id",
         "ou-1",
-        "user",
         "conversation",
         "info",
         "untrusted",
-        "metadata"
+        "metadata",
+        "sender"
       ]
     },
     "memory:memory/.dreams/session-corpus/2026-04-19.txt:15:15": {
@@ -5766,14 +5749,14 @@
         "2026-04-19"
       ],
       "conceptTags": [
-        "assistant",
         "好的",
         "我来",
         "tee",
         "实现",
         "方案",
         "写到",
-        "首先"
+        "首先",
+        "查看"
       ]
     },
     "memory:memory/.dreams/session-corpus/2026-04-19.txt:16:16": {
@@ -5797,14 +5780,14 @@
         "2026-04-19"
       ],
       "conceptTags": [
-        "assistant",
         "好的",
         "我看到",
         "这个",
         "wiki",
         "我先",
         "查看",
-        "一下"
+        "一下",
+        "操作"
       ]
     },
     "memory:memory/.dreams/session-corpus/2026-04-19.txt:17:17": {
@@ -5832,10 +5815,10 @@
         "auto-announce",
         "busy-poll",
         "feishu-wiki",
-        "user",
         "sun",
         "utc",
-        "subagent"
+        "context",
+        "running"
       ]
     },
     "memory:memory/.dreams/session-corpus/2026-04-19.txt:18:18": {
@@ -5860,13 +5843,13 @@
       ],
       "conceptTags": [
         "obj-token",
-        "assistant",
         "理解",
         "任务",
         "获取",
         "wiki",
         "然后",
-        "等待"
+        "等待",
+        "提供"
       ]
     },
     "memory:memory/.dreams/session-corpus/2026-04-19.txt:19:19": {
@@ -5890,7 +5873,6 @@
         "2026-04-19"
       ],
       "conceptTags": [
-        "assistant",
         "检查",
         "命令",
         "用法"
@@ -5918,13 +5900,13 @@
       ],
       "conceptTags": [
         "feishu-wiki",
-        "assistant",
         "找到",
         "问题",
         "需要",
         "配置",
         "启用",
-        "feishu"
+        "feishu",
+        "wiki"
       ]
     },
     "memory:memory/.dreams/session-corpus/2026-04-19.txt:21:21": {
@@ -5948,7 +5930,6 @@
         "2026-04-19"
       ],
       "conceptTags": [
-        "assistant",
         "配置",
         "文件",
         "破坏",
@@ -5980,10 +5961,10 @@
         "feishu-doc",
         "skill.md",
         "obj-token",
-        "assistant",
         "现在",
         "理解",
-        "feishu"
+        "feishu",
+        "wiki"
       ]
     },
     "memory:memory/.dreams/session-corpus/2026-04-19.txt:23:23": {
@@ -6008,13 +5989,13 @@
       ],
       "conceptTags": [
         "gateway",
-        "assistant",
         "尝试",
         "一个",
         "直接",
         "方法",
         "等待",
-        "通道"
+        "通道",
+        "响应"
       ]
     },
     "memory:memory/.dreams/session-corpus/2026-04-19.txt:24:24": {
@@ -6039,7 +6020,6 @@
       ],
       "conceptTags": [
         "gateway",
-        "assistant",
         "尝试",
         "后台",
         "启动",
@@ -6070,13 +6050,13 @@
       ],
       "conceptTags": [
         "gateway",
-        "assistant",
         "cli",
         "工具",
         "似乎",
         "问题",
         "尝试",
-        "一个"
+        "一个",
+        "不同"
       ]
     },
     "memory:memory/.dreams/session-corpus/2026-04-19.txt:26:26": {
@@ -6100,14 +6080,14 @@
         "2026-04-19"
       ],
       "conceptTags": [
-        "user",
         "continue",
         "where",
-        "you",
         "left",
         "off",
-        "the",
-        "previous"
+        "previous",
+        "model",
+        "attempt",
+        "failed"
       ]
     },
     "memory:memory/.dreams/session-corpus/2026-04-19.txt:27:27": {
@@ -6135,10 +6115,10 @@
         "feishu-doc",
         "obj-token",
         "doc-token",
-        "assistant",
         "理解",
         "情况",
-        "目前"
+        "目前",
+        "环境"
       ]
     },
     "memory:memory/.dreams/session-corpus/2026-04-19.txt:28:28": {
@@ -6165,11 +6145,11 @@
         "message-id",
         "sender-id",
         "ou-1",
-        "user",
         "conversation",
         "info",
         "untrusted",
-        "metadata"
+        "metadata",
+        "sender"
       ]
     },
     "memory:memory/.dreams/session-corpus/2026-04-19.txt:29:29": {
@@ -6193,7 +6173,6 @@
         "2026-04-19"
       ],
       "conceptTags": [
-        "assistant",
         "找到",
         "nvidia",
         "配置",
@@ -6227,11 +6206,11 @@
         "nvidia/minimaxai/minimax-m2.7",
         "m2.7",
         "nvidia/google/gemma-3n-e4b-it",
-        "assistant",
         "找到",
         "nvidia",
         "模型",
-        "测试"
+        "测试",
+        "是否"
       ]
     },
     "memory:memory/.dreams/session-corpus/2026-04-19.txt:31:31": {
@@ -6255,14 +6234,14 @@
         "2026-04-19"
       ],
       "conceptTags": [
-        "assistant",
         "api",
         "连接",
         "成功",
         "现在",
         "验证",
         "配置",
-        "模型"
+        "模型",
+        "是否"
       ]
     },
     "memory:memory/.dreams/session-corpus/2026-04-19.txt:32:32": {
@@ -6289,11 +6268,11 @@
         "nvidia/minimaxai/minimax-m2.7",
         "nvidia/google/gemma-3n-e4b-it",
         "llama-3.1-405b",
-        "assistant",
         "nvidia",
         "模型",
         "测试",
-        "结果"
+        "结果",
+        "全部"
       ]
     },
     "memory:memory/.dreams/session-corpus/2026-04-19.txt:33:33": {
@@ -6322,9 +6301,9 @@
         "m2.7",
         "message-id",
         "om-x100b5172",
-        "user",
-        "system",
-        "untrusted"
+        "untrusted",
+        "utc",
+        "exec"
       ]
     },
     "memory:memory/.dreams/session-corpus/2026-04-19.txt:34:34": {
@@ -6351,11 +6330,11 @@
         "你的api-key",
         "openclaw.json",
         "m2.7",
-        "assistant",
         "其实",
         "刚才",
         "已经",
-        "通过"
+        "通过",
+        "api"
       ]
     },
     "memory:memory/.dreams/session-corpus/2026-04-19.txt:35:35": {
@@ -6382,11 +6361,11 @@
         "message-id",
         "sender-id",
         "ou-1",
-        "user",
         "conversation",
         "info",
         "untrusted",
-        "metadata"
+        "metadata",
+        "sender"
       ]
     },
     "memory:memory/.dreams/session-corpus/2026-04-19.txt:36:36": {
@@ -6411,13 +6390,13 @@
       ],
       "conceptTags": [
         "3.2",
-        "assistant",
         "根据",
         "搜索",
         "结果",
         "总结",
         "模型",
-        "能力"
+        "能力",
+        "llama"
       ]
     },
     "memory:memory/.dreams/session-corpus/2026-04-19.txt:37:37": {
@@ -6445,10 +6424,10 @@
         "reply-to-id",
         "sender-id",
         "has-rep",
-        "user",
         "conversation",
         "info",
-        "untrusted"
+        "untrusted",
+        "metadata"
       ]
     },
     "memory:memory/.dreams/session-corpus/2026-04-19.txt:38:38": {
@@ -6473,13 +6452,13 @@
       ],
       "conceptTags": [
         "nvidia/nemotron-4-340b-instruct",
-        "assistant",
         "基于",
         "模型",
         "列表",
         "数据",
         "最有",
-        "特色"
+        "特色",
+        "精选"
       ]
     },
     "memory:memory/.dreams/session-corpus/2026-04-19.txt:39:39": {
@@ -6506,11 +6485,11 @@
         "message-id",
         "sender-id",
         "ou-1",
-        "user",
         "conversation",
         "info",
         "untrusted",
-        "metadata"
+        "metadata",
+        "sender"
       ]
     },
     "memory:memory/.dreams/session-corpus/2026-04-19.txt:40:40": {
@@ -6534,7 +6513,6 @@
         "2026-04-19"
       ],
       "conceptTags": [
-        "assistant",
         "问题",
         "验证",
         "一下"
@@ -6564,11 +6542,11 @@
         "m2.7",
         "nemotron-4-340b",
         "meta/l",
-        "assistant",
         "结果",
         "模型",
         "状态",
-        "minimax"
+        "minimax",
+        "测试"
       ]
     },
     "memory:memory/.dreams/session-corpus/2026-04-19.txt:42:42": {
@@ -6595,11 +6573,11 @@
         "kind-ced",
         "message-id",
         "om-x100b51721c97a8a0eea5b",
-        "user",
-        "system",
         "untrusted",
         "utc",
-        "exec"
+        "exec",
+        "completed",
+        "kind"
       ]
     },
     "memory:memory/.dreams/session-corpus/2026-04-19.txt:43:43": {
@@ -6624,13 +6602,13 @@
       ],
       "conceptTags": [
         "moonshotai/kimi-k2-thinking",
-        "assistant",
         "添加",
         "nvidia",
         "provider",
         "模型",
         "名称",
-        "meta"
+        "meta",
+        "llama"
       ]
     },
     "memory:memory/.dreams/session-corpus/2026-04-19.txt:44:44": {
@@ -6654,14 +6632,14 @@
         "2026-04-19"
       ],
       "conceptTags": [
-        "assistant",
         "好的",
         "我看到",
         "一个",
         "wiki",
         "我先",
         "获取",
-        "信息"
+        "信息",
+        "然后"
       ]
     },
     "memory:memory/.dreams/session-corpus/2026-04-19.txt:45:45": {
@@ -6685,14 +6663,14 @@
         "2026-04-19"
       ],
       "conceptTags": [
-        "assistant",
         "好的",
         "先读",
         "我们",
         "刚才",
         "创建",
         "tee",
-        "实现"
+        "实现",
+        "内容"
       ]
     },
     "memory:memory/.dreams/session-corpus/2026-04-19.txt:46:46": {
@@ -6716,7 +6694,6 @@
         "2026-04-19"
       ],
       "conceptTags": [
-        "assistant",
         "现在",
         "使用",
         "工具",
@@ -6747,14 +6724,14 @@
         "2026-04-19"
       ],
       "conceptTags": [
-        "assistant",
         "查看",
         "一下",
         "当前",
         "环境",
         "了解",
         "如何",
-        "正确"
+        "正确",
+        "工具"
       ]
     },
     "memory:memory/.dreams/session-corpus/2026-04-19.txt:48:48": {
@@ -6778,7 +6755,6 @@
         "2026-04-19"
       ],
       "conceptTags": [
-        "assistant",
         "查看",
         "一下",
         "openclaw",
@@ -6809,12 +6785,12 @@
       "conceptTags": [
         "home/node",
         "openclaw/workspace-codus/skill-t",
-        "assistant",
         "好的",
         "了解",
         "目前",
         "无法",
-        "直接"
+        "直接",
+        "api"
       ]
     },
     "memory:memory/.dreams/session-corpus/2026-04-19.txt:50:50": {
@@ -6841,11 +6817,11 @@
         "message-id",
         "sender-id",
         "ou-1",
-        "user",
         "conversation",
         "info",
         "untrusted",
-        "metadata"
+        "metadata",
+        "sender"
       ]
     },
     "memory:memory/.dreams/session-corpus/2026-04-19.txt:51:51": {
@@ -6869,14 +6845,14 @@
         "2026-04-19"
       ],
       "conceptTags": [
-        "assistant",
         "好的",
         "我来",
         "一个",
         "详细",
         "tee",
         "加密",
-        "执行"
+        "执行",
+        "原型"
       ]
     },
     "memory:memory/.dreams/session-corpus/2026-04-19.txt:52:52": {
@@ -6900,14 +6876,14 @@
         "2026-04-19"
       ],
       "conceptTags": [
-        "assistant",
         "好的",
         "现在",
         "创建",
         "一个",
         "完整",
         "原型",
-        "项目"
+        "项目",
+        "结构"
       ]
     },
     "memory:memory/.dreams/session-corpus/2026-04-19.txt:53:53": {
@@ -6931,14 +6907,14 @@
         "2026-04-19"
       ],
       "conceptTags": [
-        "assistant",
         "现在",
         "创建",
         "仿真",
         "模式",
         "tee",
         "实现",
-        "真实"
+        "真实",
+        "sgx"
       ]
     },
     "memory:memory/.dreams/session-corpus/2026-04-19.txt:54:54": {
@@ -6962,7 +6938,6 @@
         "2026-04-19"
       ],
       "conceptTags": [
-        "assistant",
         "现在",
         "创建",
         "智能",
@@ -6991,7 +6966,6 @@
         "2026-04-19"
       ],
       "conceptTags": [
-        "assistant",
         "现在",
         "创建",
         "服务"
@@ -7018,7 +6992,6 @@
         "2026-04-19"
       ],
       "conceptTags": [
-        "assistant",
         "现在",
         "创建",
         "演示",
@@ -7047,7 +7020,6 @@
         "2026-04-19"
       ],
       "conceptTags": [
-        "assistant",
         "现在",
         "创建",
         "foundry",
@@ -7076,14 +7048,14 @@
         "2026-04-19"
       ],
       "conceptTags": [
-        "assistant",
         "现在",
         "更新",
         "readme",
         "添加",
         "详细",
         "快速",
-        "开始"
+        "开始",
+        "指南"
       ]
     },
     "memory:memory/.dreams/session-corpus/2026-04-19.txt:59:59": {
@@ -7107,7 +7079,6 @@
         "2026-04-19"
       ],
       "conceptTags": [
-        "assistant",
         "正确",
         "方式",
         "readme"
@@ -7137,11 +7108,11 @@
         "message-id",
         "sender-id",
         "ou-1",
-        "user",
         "conversation",
         "info",
         "untrusted",
-        "metadata"
+        "metadata",
+        "sender"
       ]
     },
     "memory:memory/.dreams/session-corpus/2026-04-19.txt:61:61": {
@@ -7165,14 +7136,14 @@
         "2026-04-19"
       ],
       "conceptTags": [
-        "assistant",
         "根据",
         "官方",
         "资料",
         "google",
         "gemma",
         "e4b",
-        "能力"
+        "能力",
+        "支持"
       ]
     },
     "memory:memory/.dreams/session-corpus/2026-04-19.txt:62:62": {
@@ -7199,11 +7170,11 @@
         "message-id",
         "sender-id",
         "ou-1",
-        "user",
         "conversation",
         "info",
         "untrusted",
-        "metadata"
+        "metadata",
+        "sender"
       ]
     },
     "memory:memory/.dreams/session-corpus/2026-04-19.txt:63:63": {
@@ -7233,8 +7204,8 @@
         "ui-prompt-generator",
         "ui-ux-pro-max",
         "ui/ux设计智能",
-        "assistant",
-        "gemma"
+        "gemma",
+        "图像"
       ]
     },
     "memory:memory/.dreams/session-corpus/2026-04-19.txt:64:64": {
@@ -7261,11 +7232,11 @@
         "home/node",
         "image/jpeg",
         "media/path/filepath",
-        "user",
         "media",
         "attached",
         "home",
-        "node"
+        "node",
+        "openclaw"
       ]
     },
     "memory:memory/.dreams/session-corpus/2026-04-19.txt:65:65": {
@@ -7290,13 +7261,13 @@
       ],
       "conceptTags": [
         "社媒/品牌监控",
-        "assistant",
         "gemma",
         "图像",
         "识别",
         "成功",
         "图片",
-        "内容"
+        "内容",
+        "openclaw"
       ]
     },
     "memory:memory/.dreams/session-corpus/2026-04-19.txt:66:66": {
@@ -7323,11 +7294,11 @@
         "message-id",
         "sender-id",
         "ou-1",
-        "user",
         "conversation",
         "info",
         "untrusted",
-        "metadata"
+        "metadata",
+        "sender"
       ]
     },
     "memory:memory/.dreams/session-corpus/2026-04-19.txt:67:67": {
@@ -7353,12 +7324,12 @@
       "conceptTags": [
         "gateway",
         "openclaw/memory",
-        "assistant",
         "抱歉",
         "openclaw",
         "cli",
         "没有",
-        "clear"
+        "clear",
+        "命令"
       ]
     },
     "memory:memory/.dreams/session-corpus/2026-04-19.txt:68:68": {
@@ -7387,9 +7358,9 @@
         "short-term",
         "memory.md",
         "promote-ex",
-        "user",
-        "system",
-        "untrusted"
+        "untrusted",
+        "utc",
+        "exec"
       ]
     },
     "memory:memory/.dreams/session-corpus/2026-04-19.txt:69:69": {
@@ -7415,12 +7386,12 @@
       "conceptTags": [
         "skill.md",
         "可选的脚本/工具",
-        "assistant",
         "openclaw",
         "官方",
         "技能",
         "系统",
-        "完整"
+        "完整",
+        "总结"
       ]
     },
     "memory:memory/2026-04-20.md:283:286": {
@@ -7431,12 +7402,12 @@
       "source": "memory",
       "snippet": "Reflections: Theme: `assistant` kept surfacing across 137 memories.; confidence: 1.00; evidence: memory/.dreams/session-corpus/2026-04-11.txt:3-3, memory/.dreams/session-corpus/2026-04-11.txt:5-5, memory/.dreams/session-corpus/2026-04-12.txt:8-8; note: reflection",
       "recallCount": 0,
-      "dailyCount": 1,
+      "dailyCount": 2,
       "groundedCount": 0,
-      "totalScore": 0.62,
+      "totalScore": 1.24,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-20T19:08:50.865Z",
-      "lastRecalledAt": "2026-04-26T19:05:38.568Z",
+      "lastRecalledAt": "2026-04-27T19:01:22.334Z",
       "queryHashes": [
         "511fd8111b88"
       ],
@@ -7445,7 +7416,9 @@
         "2026-04-23",
         "2026-04-24",
         "2026-04-25",
-        "2026-04-26"
+        "2026-04-26",
+        "2026-04-28",
+        "2026-04-27"
       ],
       "conceptTags": [
         "1.00",
@@ -7454,8 +7427,8 @@
         "8-8",
         "reflections",
         "theme",
-        "assistant",
-        "kept"
+        "kept",
+        "surfacing"
       ]
     },
     "memory:memory/2026-04-20.md:287:290": {
@@ -7466,12 +7439,12 @@
       "source": "memory",
       "snippet": "Reflections: Theme: `user` kept surfacing across 90 memories.; confidence: 0.77; evidence: memory/.dreams/session-corpus/2026-04-11.txt:1-1, memory/.dreams/session-corpus/2026-04-11.txt:2-2, memory/.dreams/session-corpus/2026-04-11.txt:4-4; note: reflection",
       "recallCount": 0,
-      "dailyCount": 1,
+      "dailyCount": 2,
       "groundedCount": 0,
-      "totalScore": 0.62,
+      "totalScore": 1.24,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-20T19:08:50.865Z",
-      "lastRecalledAt": "2026-04-26T19:05:38.568Z",
+      "lastRecalledAt": "2026-04-27T19:01:22.334Z",
       "queryHashes": [
         "511fd8111b88"
       ],
@@ -7480,7 +7453,9 @@
         "2026-04-23",
         "2026-04-24",
         "2026-04-25",
-        "2026-04-26"
+        "2026-04-26",
+        "2026-04-28",
+        "2026-04-27"
       ],
       "conceptTags": [
         "0.77",
@@ -7489,8 +7464,8 @@
         "4-4",
         "reflections",
         "theme",
-        "user",
-        "kept"
+        "kept",
+        "surfacing"
       ]
     },
     "memory:memory/2026-04-20.md:293:295": {
@@ -7501,12 +7476,12 @@
       "source": "memory",
       "snippet": "Possible Lasting Truths: Possible Lasting Truths: No strong candidate truths surfaced. [confidence=0.58 evidence=memory/2026-04-14.md:243-243]; Reflections: Theme: `assistant` kept surfacing across 64 memories.; confidence: 1.00; evidence: memory/.dreams/session-corpus/2026-04-11",
       "recallCount": 0,
-      "dailyCount": 1,
+      "dailyCount": 2,
       "groundedCount": 0,
-      "totalScore": 0.62,
+      "totalScore": 1.24,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-20T19:08:50.865Z",
-      "lastRecalledAt": "2026-04-26T19:05:38.568Z",
+      "lastRecalledAt": "2026-04-27T19:01:22.334Z",
       "queryHashes": [
         "511fd8111b88"
       ],
@@ -7515,7 +7490,9 @@
         "2026-04-23",
         "2026-04-24",
         "2026-04-25",
-        "2026-04-26"
+        "2026-04-26",
+        "2026-04-28",
+        "2026-04-27"
       ],
       "conceptTags": [
         "0.58",
@@ -7550,7 +7527,6 @@
         "2026-04-20"
       ],
       "conceptTags": [
-        "assistant",
         "现在",
         "创建",
         "typescript",
@@ -7586,8 +7562,8 @@
         "node.js",
         "tsconfig.json",
         "foundry.toml",
-        "assistant",
-        "完美"
+        "完美",
+        "tee"
       ]
     },
     "memory:memory/.dreams/session-corpus/2026-04-19.txt:72:72": {
@@ -7617,9 +7593,9 @@
         "user-authored",
         "session-key",
         "session-id",
-        "user",
         "sun",
-        "utc"
+        "utc",
+        "openclaw"
       ]
     },
     "memory:memory/.dreams/session-corpus/2026-04-19.txt:73:73": {
@@ -7647,11 +7623,11 @@
         "home/node",
         "ts-node",
         "scripts/demo.ts",
-        "assistant",
         "好的",
         "那边",
         "暂时",
-        "遇到"
+        "遇到",
+        "问题"
       ]
     },
     "memory:memory/.dreams/session-corpus/2026-04-19.txt:74:74": {
@@ -7681,9 +7657,9 @@
         "user-authored",
         "session-key",
         "session-id",
-        "user",
         "sun",
-        "utc"
+        "utc",
+        "openclaw"
       ]
     },
     "memory:memory/.dreams/session-corpus/2026-04-19.txt:75:75": {
@@ -7712,10 +7688,10 @@
         "scripts/demo.ts",
         "skill-tee-prototype",
         "enclave-sim/sgx-simulator.ts",
-        "assistant",
         "好的",
         "那边",
-        "我们"
+        "我们",
+        "可以"
       ]
     },
     "memory:memory/.dreams/session-corpus/2026-04-19.txt:76:76": {
@@ -7743,11 +7719,11 @@
         "message-id",
         "sender-id",
         "ou-1",
-        "user",
         "conversation",
         "info",
         "untrusted",
-        "metadata"
+        "metadata",
+        "sender"
       ]
     },
     "memory:memory/.dreams/session-corpus/2026-04-19.txt:77:77": {
@@ -7772,7 +7748,6 @@
         "2026-04-20"
       ],
       "conceptTags": [
-        "assistant",
         "好的",
         "我来",
         "这些",
@@ -7804,14 +7779,14 @@
         "2026-04-20"
       ],
       "conceptTags": [
-        "assistant",
         "好的",
         "目标",
         "目录",
         "存在",
         "现在",
         "我把",
-        "文件"
+        "文件",
+        "移动"
       ]
     },
     "memory:memory/.dreams/session-corpus/2026-04-19.txt:79:79": {
@@ -7836,7 +7811,6 @@
         "2026-04-20"
       ],
       "conceptTags": [
-        "assistant",
         "完美",
         "文件",
         "成功",
@@ -7902,11 +7876,11 @@
         "message-id",
         "sender-id",
         "ou-1",
-        "user",
         "conversation",
         "info",
         "untrusted",
-        "metadata"
+        "metadata",
+        "sender"
       ]
     },
     "memory:memory/.dreams/session-corpus/2026-04-20.txt:2:2": {
@@ -7932,12 +7906,12 @@
       "conceptTags": [
         "agents.md",
         "openclaw/outputs/codus",
-        "assistant",
         "添加",
         "markdown",
         "output",
         "all",
-        "generated"
+        "generated",
+        "documents"
       ]
     },
     "memory:memory/2026-04-21.md:423:426": {
@@ -7948,12 +7922,12 @@
       "source": "memory",
       "snippet": "Reflections: Theme: `assistant` kept surfacing across 146 memories.; confidence: 1.00; evidence: memory/.dreams/session-corpus/2026-04-11.txt:3-3, memory/.dreams/session-corpus/2026-04-11.txt:5-5, memory/.dreams/session-corpus/2026-04-12.txt:8-8; note: reflection",
       "recallCount": 0,
-      "dailyCount": 1,
+      "dailyCount": 2,
       "groundedCount": 0,
-      "totalScore": 0.62,
+      "totalScore": 1.24,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-21T19:05:13.278Z",
-      "lastRecalledAt": "2026-04-26T19:05:38.568Z",
+      "lastRecalledAt": "2026-04-27T19:01:22.334Z",
       "queryHashes": [
         "f52400c81d76"
       ],
@@ -7961,7 +7935,9 @@
         "2026-04-21",
         "2026-04-24",
         "2026-04-25",
-        "2026-04-26"
+        "2026-04-26",
+        "2026-04-28",
+        "2026-04-27"
       ],
       "conceptTags": [
         "1.00",
@@ -7970,8 +7946,8 @@
         "8-8",
         "reflections",
         "theme",
-        "assistant",
-        "kept"
+        "kept",
+        "surfacing"
       ]
     },
     "memory:memory/2026-04-21.md:427:430": {
@@ -7982,12 +7958,12 @@
       "source": "memory",
       "snippet": "Reflections: Theme: `user` kept surfacing across 95 memories.; confidence: 0.76; evidence: memory/.dreams/session-corpus/2026-04-11.txt:1-1, memory/.dreams/session-corpus/2026-04-11.txt:2-2, memory/.dreams/session-corpus/2026-04-11.txt:4-4; note: reflection",
       "recallCount": 0,
-      "dailyCount": 1,
+      "dailyCount": 2,
       "groundedCount": 0,
-      "totalScore": 0.62,
+      "totalScore": 1.24,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-21T19:05:13.278Z",
-      "lastRecalledAt": "2026-04-26T19:05:38.568Z",
+      "lastRecalledAt": "2026-04-27T19:01:22.334Z",
       "queryHashes": [
         "f52400c81d76"
       ],
@@ -7995,7 +7971,9 @@
         "2026-04-21",
         "2026-04-24",
         "2026-04-25",
-        "2026-04-26"
+        "2026-04-26",
+        "2026-04-28",
+        "2026-04-27"
       ],
       "conceptTags": [
         "0.76",
@@ -8004,8 +7982,8 @@
         "4-4",
         "reflections",
         "theme",
-        "user",
-        "kept"
+        "kept",
+        "surfacing"
       ]
     },
     "memory:memory/2026-04-21.md:433:435": {
@@ -8016,12 +7994,12 @@
       "source": "memory",
       "snippet": "Possible Lasting Truths: Possible Lasting Truths: Assistant: Okay, we can't use sudo to install system dependencies. Let's try a different approach: first, let's see if we can fetch the page HTML using curl (this won't execute JS but will give us static content). Then we can look",
       "recallCount": 0,
-      "dailyCount": 1,
+      "dailyCount": 2,
       "groundedCount": 0,
-      "totalScore": 0.62,
+      "totalScore": 1.24,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-21T19:05:13.278Z",
-      "lastRecalledAt": "2026-04-26T19:05:38.568Z",
+      "lastRecalledAt": "2026-04-27T19:01:22.334Z",
       "queryHashes": [
         "f52400c81d76"
       ],
@@ -8029,17 +8007,19 @@
         "2026-04-21",
         "2026-04-24",
         "2026-04-25",
-        "2026-04-26"
+        "2026-04-26",
+        "2026-04-28",
+        "2026-04-27"
       ],
       "conceptTags": [
         "possible",
         "lasting",
         "truths",
-        "assistant",
         "okay",
         "can't",
         "use",
-        "sudo"
+        "sudo",
+        "install"
       ]
     },
     "memory:memory/2026-04-22.md:423:426": {
@@ -8050,19 +8030,21 @@
       "source": "memory",
       "snippet": "Reflections: Theme: `assistant` kept surfacing across 84 memories.; confidence: 1.00; evidence: memory/2026-04-14.md:233-236, memory/.dreams/session-corpus/2026-04-13.txt:6-6, memory/.dreams/session-corpus/2026-04-13.txt:7-7; note: reflection",
       "recallCount": 0,
-      "dailyCount": 1,
+      "dailyCount": 2,
       "groundedCount": 0,
-      "totalScore": 0.62,
+      "totalScore": 1.24,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-22T19:04:01.896Z",
-      "lastRecalledAt": "2026-04-26T19:05:38.568Z",
+      "lastRecalledAt": "2026-04-27T19:01:22.334Z",
       "queryHashes": [
         "7b7a9134bc2c"
       ],
       "recallDays": [
         "2026-04-22",
         "2026-04-25",
-        "2026-04-26"
+        "2026-04-26",
+        "2026-04-28",
+        "2026-04-27"
       ],
       "conceptTags": [
         "1.00",
@@ -8072,7 +8054,7 @@
         "7-7",
         "reflections",
         "theme",
-        "assistant"
+        "kept"
       ]
     },
     "memory:memory/2026-04-22.md:429:431": {
@@ -8083,29 +8065,31 @@
       "source": "memory",
       "snippet": "Possible Lasting Truths: Possible Lasting Truths: Assistant: Okay, we can't use sudo to install system dependencies. Let's try a different approach: first, let's see if we can fetch the page HTML using curl (this won't execute JS but will give us static content). Then we can look",
       "recallCount": 0,
-      "dailyCount": 1,
+      "dailyCount": 2,
       "groundedCount": 0,
-      "totalScore": 0.62,
+      "totalScore": 1.24,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-22T19:04:01.896Z",
-      "lastRecalledAt": "2026-04-26T19:05:38.568Z",
+      "lastRecalledAt": "2026-04-27T19:01:22.334Z",
       "queryHashes": [
         "7b7a9134bc2c"
       ],
       "recallDays": [
         "2026-04-22",
         "2026-04-25",
-        "2026-04-26"
+        "2026-04-26",
+        "2026-04-28",
+        "2026-04-27"
       ],
       "conceptTags": [
         "possible",
         "lasting",
         "truths",
-        "assistant",
         "okay",
         "can't",
         "use",
-        "sudo"
+        "sudo",
+        "install"
       ]
     },
     "memory:memory/2026-04-23.md:173:176": {
@@ -8116,18 +8100,20 @@
       "source": "memory",
       "snippet": "Reflections: Theme: `assistant` kept surfacing across 74 memories.; confidence: 1.00; evidence: memory/2026-04-14.md:233-236, memory/2026-04-15.md:328-331, memory/2026-04-15.md:338-340; note: reflection",
       "recallCount": 0,
-      "dailyCount": 1,
+      "dailyCount": 2,
       "groundedCount": 0,
-      "totalScore": 0.62,
+      "totalScore": 1.24,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-23T19:07:19.429Z",
-      "lastRecalledAt": "2026-04-26T19:05:38.568Z",
+      "lastRecalledAt": "2026-04-27T19:01:22.334Z",
       "queryHashes": [
         "b7fd25b71b44"
       ],
       "recallDays": [
         "2026-04-23",
-        "2026-04-26"
+        "2026-04-26",
+        "2026-04-28",
+        "2026-04-27"
       ],
       "conceptTags": [
         "1.00",
@@ -8148,28 +8134,30 @@
       "source": "memory",
       "snippet": "Possible Lasting Truths: Possible Lasting Truths: Assistant: Okay, we can't use sudo to install system dependencies. Let's try a different approach: first, let's see if we can fetch the page HTML using curl (this won't execute JS but will give us static content). Then we can look",
       "recallCount": 0,
-      "dailyCount": 1,
+      "dailyCount": 2,
       "groundedCount": 0,
-      "totalScore": 0.62,
+      "totalScore": 1.24,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-23T19:07:19.429Z",
-      "lastRecalledAt": "2026-04-26T19:05:38.568Z",
+      "lastRecalledAt": "2026-04-27T19:01:22.334Z",
       "queryHashes": [
         "b7fd25b71b44"
       ],
       "recallDays": [
         "2026-04-23",
-        "2026-04-26"
+        "2026-04-26",
+        "2026-04-28",
+        "2026-04-27"
       ],
       "conceptTags": [
         "possible",
         "lasting",
         "truths",
-        "assistant",
         "okay",
         "can't",
         "use",
-        "sudo"
+        "sudo",
+        "install"
       ]
     },
     "memory:memory/2026-04-24.md:133:136": {
@@ -8180,17 +8168,19 @@
       "source": "memory",
       "snippet": "Reflections: Theme: `assistant` kept surfacing across 73 memories.; confidence: 1.00; evidence: memory/2026-04-14.md:233-236, memory/2026-04-15.md:328-331, memory/2026-04-15.md:338-340; note: reflection",
       "recallCount": 0,
-      "dailyCount": 1,
+      "dailyCount": 2,
       "groundedCount": 0,
-      "totalScore": 0.62,
+      "totalScore": 1.24,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-24T19:05:59.327Z",
-      "lastRecalledAt": "2026-04-24T19:05:59.327Z",
+      "lastRecalledAt": "2026-04-27T19:01:22.334Z",
       "queryHashes": [
         "409c33906af9"
       ],
       "recallDays": [
-        "2026-04-24"
+        "2026-04-24",
+        "2026-04-28",
+        "2026-04-27"
       ],
       "conceptTags": [
         "1.00",
@@ -8211,27 +8201,29 @@
       "source": "memory",
       "snippet": "Possible Lasting Truths: Possible Lasting Truths: Assistant: @Lucus 这是一个关于 **ECHO 势(Shi) 技术架构**的文档，总结如下： ## 核心概念 **「势」**是一个三维编织的动态系统，用时间、空间、关系三个维度配合64卦约束来管理数字资产。 ## 核心理念 - **实际生效配置** = 创作者意图 ∩ 物理法则范围 - **约束不是限制，而是生态的免疫系统** - 代码即法律，约束即保护，分叉即自由 ## 三维编织 | 维度 | 含义 | 档位 | |------|----",
       "recallCount": 0,
-      "dailyCount": 1,
+      "dailyCount": 2,
       "groundedCount": 0,
-      "totalScore": 0.62,
+      "totalScore": 1.24,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-24T19:05:59.327Z",
-      "lastRecalledAt": "2026-04-24T19:05:59.327Z",
+      "lastRecalledAt": "2026-04-27T19:01:22.334Z",
       "queryHashes": [
         "409c33906af9"
       ],
       "recallDays": [
-        "2026-04-24"
+        "2026-04-24",
+        "2026-04-28",
+        "2026-04-27"
       ],
       "conceptTags": [
         "possible",
         "lasting",
         "truths",
-        "assistant",
         "lucus",
         "一个",
         "关于",
-        "echo"
+        "echo",
+        "shi"
       ]
     },
     "memory:memory/2026-04-25.md:128:131": {
@@ -8289,11 +8281,11 @@
         "possible",
         "lasting",
         "truths",
-        "assistant",
         "lucus",
         "一个",
         "关于",
-        "echo"
+        "echo",
+        "shi"
       ]
     },
     "memory:memory/2026-04-26.md:128:131": {
@@ -8351,11 +8343,11 @@
         "possible",
         "lasting",
         "truths",
-        "assistant",
         "lucus",
         "一个",
         "关于",
-        "echo"
+        "echo",
+        "shi"
       ]
     },
     "memory:memory/.dreams/session-corpus/2026-04-26.txt:1:1": {
@@ -8382,11 +8374,11 @@
         "message-id",
         "sender-id",
         "ou-1",
-        "user",
         "conversation",
         "info",
         "untrusted",
-        "metadata"
+        "metadata",
+        "sender"
       ]
     },
     "memory:memory/.dreams/session-corpus/2026-04-26.txt:2:2": {
@@ -8410,10 +8402,8 @@
         "2026-04-26"
       ],
       "conceptTags": [
-        "assistant",
         "let",
         "fix",
-        "the",
         "correct",
         "path"
       ]
@@ -8439,10 +8429,8 @@
         "2026-04-26"
       ],
       "conceptTags": [
-        "assistant",
         "let",
         "write",
-        "the",
         "html",
         "different",
         "approach"
@@ -8469,14 +8457,14 @@
         "2026-04-26"
       ],
       "conceptTags": [
-        "assistant",
         "let",
         "use",
         "python",
         "properly",
         "convert",
-        "the",
-        "full"
+        "full",
+        "markdown",
+        "html"
       ]
     },
     "memory:memory/.dreams/session-corpus/2026-04-26.txt:5:5": {
@@ -8500,14 +8488,78 @@
         "2026-04-26"
       ],
       "conceptTags": [
-        "assistant",
         "完成",
         "html",
         "生成",
         "文件",
         "位置",
         "openclaw",
-        "outputs"
+        "outputs",
+        "codus"
+      ]
+    },
+    "memory:memory/2026-04-27.md:148:151": {
+      "key": "memory:memory/2026-04-27.md:148:151",
+      "path": "memory/2026-04-27.md",
+      "startLine": 148,
+      "endLine": 151,
+      "source": "memory",
+      "snippet": "Reflections: Theme: `assistant` kept surfacing across 79 memories.; confidence: 1.00; evidence: memory/2026-04-14.md:233-236, memory/2026-04-15.md:328-331, memory/2026-04-15.md:338-340; note: reflection",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-04-27T19:01:22.334Z",
+      "lastRecalledAt": "2026-04-27T19:01:22.334Z",
+      "queryHashes": [
+        "6c24d11cf4d7"
+      ],
+      "recallDays": [
+        "2026-04-28",
+        "2026-04-27"
+      ],
+      "conceptTags": [
+        "1.00",
+        "memory/2026-04-14.md",
+        "233-236",
+        "memory/2026-04-15.md",
+        "328-331",
+        "338-340",
+        "reflections",
+        "theme"
+      ]
+    },
+    "memory:memory/2026-04-27.md:154:156": {
+      "key": "memory:memory/2026-04-27.md:154:156",
+      "path": "memory/2026-04-27.md",
+      "startLine": 154,
+      "endLine": 156,
+      "source": "memory",
+      "snippet": "Possible Lasting Truths: Possible Lasting Truths: Assistant: @Lucus 这是一个关于 **ECHO 势(Shi) 技术架构**的文档，总结如下： ## 核心概念 **「势」**是一个三维编织的动态系统，用时间、空间、关系三个维度配合64卦约束来管理数字资产。 ## 核心理念 - **实际生效配置** = 创作者意图 ∩ 物理法则范围 - **约束不是限制，而是生态的免疫系统** - 代码即法律，约束即保护，分叉即自由 ## 三维编织 | 维度 | 含义 | 档位 | |------|----",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-04-27T19:01:22.334Z",
+      "lastRecalledAt": "2026-04-27T19:01:22.334Z",
+      "queryHashes": [
+        "6c24d11cf4d7"
+      ],
+      "recallDays": [
+        "2026-04-28",
+        "2026-04-27"
+      ],
+      "conceptTags": [
+        "possible",
+        "lasting",
+        "truths",
+        "lucus",
+        "一个",
+        "关于",
+        "echo",
+        "shi"
       ]
     }
   }

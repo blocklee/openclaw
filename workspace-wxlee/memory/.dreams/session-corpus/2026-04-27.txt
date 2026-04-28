@@ -1,0 +1,2 @@
+[wxlee/sessions/f0bce47c-796a-4778-8e1d-f4d644a4d035.jsonl#L5] User: [message_id: om_x100b51c22c4f9ca4ee7c28638d1235e] ou_9e18438fb941decf11a0b88d78fe2b50: 你好，你叫什么名字，用的什么模型
+[wxlee/sessions/f0bce47c-796a-4778-8e1d-f4d644a4d035.jsonl#L6] Assistant: 主公好，我是小夜，您的战略顾问。 我当前使用的模型是 `volcengine-plan/deepseek-v3.2`（火山引擎的 DeepSeek V3.2）。 我的核心使命是助您"谋定而后动"，在信息不全时做最优决策。需要我为您参谋什么战略问题吗？

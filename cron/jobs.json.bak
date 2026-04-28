@@ -6,7 +6,7 @@
       "name": "daily-backup",
       "enabled": true,
       "createdAtMs": 1774507489594,
-      "updatedAtMs": 1776038617544,
+      "updatedAtMs": 1777248197534,
       "schedule": {
         "kind": "cron",
         "expr": "0 0 * * *",
@@ -25,11 +25,11 @@
         "accountId": "lucus"
       },
       "state": {
-        "nextRunAtMs": 1776124800000,
-        "lastRunAtMs": 1776038400003,
+        "nextRunAtMs": 1777334400000,
+        "lastRunAtMs": 1777248000011,
         "lastRunStatus": "ok",
         "lastStatus": "ok",
-        "lastDurationMs": 217541,
+        "lastDurationMs": 197523,
         "lastDeliveryStatus": "delivered",
         "consecutiveErrors": 0,
         "lastDelivered": true
@@ -40,7 +40,7 @@
       "name": "config-backup-8am",
       "enabled": true,
       "createdAtMs": 1774843680000,
-      "updatedAtMs": 1776067262608,
+      "updatedAtMs": 1777190746022,
       "schedule": {
         "kind": "cron",
         "expr": "0 8 * * *",
@@ -59,14 +59,42 @@
         "accountId": "lucus"
       },
       "state": {
-        "nextRunAtMs": 1776153600000,
-        "lastRunAtMs": 1776067200004,
+        "nextRunAtMs": 1777276800000,
+        "lastRunAtMs": 1777190400017,
         "lastRunStatus": "ok",
         "lastStatus": "ok",
-        "lastDurationMs": 62604,
+        "lastDurationMs": 346005,
         "lastDeliveryStatus": "delivered",
         "consecutiveErrors": 0,
         "lastDelivered": true
+      }
+    },
+    {
+      "id": "8f62feb4-aed8-47fd-8093-29d8f97f4b71",
+      "name": "Memory Dreaming Promotion",
+      "description": "[managed-by=memory-core.short-term-promotion] Promote weighted short-term recalls into MEMORY.md (limit=10, minScore=0.800, minRecallCount=3, minUniqueQueries=3, recencyHalfLifeDays=14, maxAgeDays=30).",
+      "enabled": true,
+      "createdAtMs": 1776096382076,
+      "updatedAtMs": 1777230371975,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 3 * * *",
+        "tz": "Asia/Shanghai"
+      },
+      "sessionTarget": "main",
+      "wakeMode": "now",
+      "payload": {
+        "kind": "systemEvent",
+        "text": "__openclaw_memory_core_short_term_promotion_dream__"
+      },
+      "state": {
+        "nextRunAtMs": 1777316400000,
+        "lastRunAtMs": 1777230000008,
+        "lastRunStatus": "ok",
+        "lastStatus": "ok",
+        "lastDurationMs": 371967,
+        "lastDeliveryStatus": "not-requested",
+        "consecutiveErrors": 0
       }
     }
   ]
