@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-04-27T19:01:22.067Z",
+  "updatedAt": "2026-04-28T19:00:23.093Z",
   "entries": {
     "memory:memory/2026-04-12.md:6:6": {
       "key": "memory:memory/2026-04-12.md:6:6",
@@ -3105,12 +3105,12 @@
       "source": "memory",
       "snippet": "Reflections: Theme: `assistant` kept surfacing across 49 memories.; confidence: 1.00; evidence: memory/.dreams/session-corpus/2026-04-11.txt:2-2, memory/.dreams/session-corpus/2026-04-11.txt:4-4, memory/.dreams/session-corpus/2026-04-11.txt:5-5; note: reflection",
       "recallCount": 0,
-      "dailyCount": 2,
+      "dailyCount": 3,
       "groundedCount": 0,
-      "totalScore": 1.24,
+      "totalScore": 1.8599999999999999,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-21T19:02:50.142Z",
-      "lastRecalledAt": "2026-04-27T19:01:12.638Z",
+      "lastRecalledAt": "2026-04-28T19:00:23.093Z",
       "queryHashes": [
         "f52400c81d76"
       ],
@@ -3120,7 +3120,8 @@
         "2026-04-25",
         "2026-04-26",
         "2026-04-28",
-        "2026-04-27"
+        "2026-04-27",
+        "2026-04-29"
       ],
       "conceptTags": [
         "1.00",
@@ -3141,12 +3142,12 @@
       "source": "memory",
       "snippet": "Possible Lasting Truths: Possible Lasting Truths: No strong candidate truths surfaced. [confidence=0.58 evidence=memory/2026-04-14.md:209-209]; Possible Lasting Truths: 事件: ⚠️ Something went wrong while processing your request. Please try again, or use /new to start a fresh sessi",
       "recallCount": 0,
-      "dailyCount": 2,
+      "dailyCount": 3,
       "groundedCount": 0,
-      "totalScore": 1.24,
+      "totalScore": 1.8599999999999999,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-21T19:02:50.142Z",
-      "lastRecalledAt": "2026-04-27T19:01:12.638Z",
+      "lastRecalledAt": "2026-04-28T19:00:23.093Z",
       "queryHashes": [
         "f52400c81d76"
       ],
@@ -3156,7 +3157,8 @@
         "2026-04-25",
         "2026-04-26",
         "2026-04-28",
-        "2026-04-27"
+        "2026-04-27",
+        "2026-04-29"
       ],
       "conceptTags": [
         "0.58",
@@ -3177,12 +3179,12 @@
       "source": "memory",
       "snippet": "Reflections: Theme: `assistant` kept surfacing across 15 memories.; confidence: 0.75; evidence: memory/2026-04-14.md:203-206, memory/2026-04-15.md:223-226, memory/.dreams/session-corpus/2026-04-16.txt:2-2; note: reflection",
       "recallCount": 0,
-      "dailyCount": 2,
+      "dailyCount": 3,
       "groundedCount": 0,
-      "totalScore": 1.24,
+      "totalScore": 1.8599999999999999,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-22T19:03:08.833Z",
-      "lastRecalledAt": "2026-04-27T19:01:12.638Z",
+      "lastRecalledAt": "2026-04-28T19:00:23.093Z",
       "queryHashes": [
         "7b7a9134bc2c"
       ],
@@ -3191,7 +3193,8 @@
         "2026-04-25",
         "2026-04-26",
         "2026-04-28",
-        "2026-04-27"
+        "2026-04-27",
+        "2026-04-29"
       ],
       "conceptTags": [
         "0.75",
@@ -3207,17 +3210,17 @@
     "memory:memory/2026-04-22.md:134:136": {
       "key": "memory:memory/2026-04-22.md:134:136",
       "path": "memory/2026-04-22.md",
-      "startLine": 134,
-      "endLine": 136,
+      "startLine": 8,
+      "endLine": 10,
       "source": "memory",
-      "snippet": "Possible Lasting Truths: Possible Lasting Truths: No strong candidate truths surfaced. [confidence=0.58 evidence=memory/2026-04-14.md:209-209]; Possible Lasting Truths: 事件: ⚠️ Something went wrong while processing your request. Please try again, or use /new to start a fresh sessi",
+      "snippet": "- Candidate: Possible Lasting Truths: Possible Lasting Truths: No strong candidate truths surfaced. [confidence=0.58 evidence=memory/2026-04-14.md:209-209]; Possible Lasting Truths: 事件: ⚠️ Something went wrong while processing your request. Please try again, or use /new to start a fresh sessi - confidence: 0.62 - evidence: memory/2026-04-21.md:134-136",
       "recallCount": 0,
-      "dailyCount": 2,
+      "dailyCount": 3,
       "groundedCount": 0,
-      "totalScore": 1.24,
+      "totalScore": 1.8599999999999999,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-22T19:03:08.833Z",
-      "lastRecalledAt": "2026-04-27T19:01:12.638Z",
+      "lastRecalledAt": "2026-04-28T19:00:23.093Z",
       "queryHashes": [
         "7b7a9134bc2c"
       ],
@@ -3226,7 +3229,8 @@
         "2026-04-25",
         "2026-04-26",
         "2026-04-28",
-        "2026-04-27"
+        "2026-04-27",
+        "2026-04-29"
       ],
       "conceptTags": [
         "0.58",
@@ -3237,7 +3241,8 @@
         "truths",
         "strong",
         "candidate"
-      ]
+      ],
+      "promotedAt": "2026-04-28T19:00:23.093Z"
     },
     "memory:memory/2026-04-23.md:98:98": {
       "key": "memory:memory/2026-04-23.md:98:98",
@@ -3247,12 +3252,12 @@
       "source": "memory",
       "snippet": "Reflections: No strong patterns surfaced.",
       "recallCount": 0,
-      "dailyCount": 2,
+      "dailyCount": 3,
       "groundedCount": 0,
-      "totalScore": 1.24,
+      "totalScore": 1.8599999999999999,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-23T19:05:15.692Z",
-      "lastRecalledAt": "2026-04-27T19:01:12.638Z",
+      "lastRecalledAt": "2026-04-28T19:00:23.093Z",
       "queryHashes": [
         "b7fd25b71b44"
       ],
@@ -3260,7 +3265,8 @@
         "2026-04-23",
         "2026-04-26",
         "2026-04-28",
-        "2026-04-27"
+        "2026-04-27",
+        "2026-04-29"
       ],
       "conceptTags": [
         "reflections",
@@ -3272,17 +3278,17 @@
     "memory:memory/2026-04-23.md:101:103": {
       "key": "memory:memory/2026-04-23.md:101:103",
       "path": "memory/2026-04-23.md",
-      "startLine": 101,
-      "endLine": 103,
+      "startLine": 68,
+      "endLine": 70,
       "source": "memory",
-      "snippet": "Possible Lasting Truths: Possible Lasting Truths: No strong candidate truths surfaced. [confidence=0.58 evidence=memory/2026-04-14.md:209-209]; Possible Lasting Truths: 事件: ⚠️ Something went wrong while processing your request. Please try again, or use /new to start a fresh sessi",
+      "snippet": "- Candidate: Possible Lasting Truths: Possible Lasting Truths: No strong candidate truths surfaced. [confidence=0.58 evidence=memory/2026-04-14.md:209-209]; Possible Lasting Truths: 事件: ⚠️ Something went wrong while processing your request. Please try again, or use /new to start a fresh sessi - confidence: 0.62 - evidence: memory/2026-04-21.md:134-136",
       "recallCount": 0,
-      "dailyCount": 2,
+      "dailyCount": 3,
       "groundedCount": 0,
-      "totalScore": 1.24,
+      "totalScore": 1.8599999999999999,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-23T19:05:15.692Z",
-      "lastRecalledAt": "2026-04-27T19:01:12.638Z",
+      "lastRecalledAt": "2026-04-28T19:00:23.093Z",
       "queryHashes": [
         "b7fd25b71b44"
       ],
@@ -3290,7 +3296,8 @@
         "2026-04-23",
         "2026-04-26",
         "2026-04-28",
-        "2026-04-27"
+        "2026-04-27",
+        "2026-04-29"
       ],
       "conceptTags": [
         "0.58",
@@ -3301,7 +3308,8 @@
         "truths",
         "strong",
         "candidate"
-      ]
+      ],
+      "promotedAt": "2026-04-28T19:00:23.093Z"
     },
     "memory:memory/2026-04-24.md:98:98": {
       "key": "memory:memory/2026-04-24.md:98:98",
@@ -3311,19 +3319,20 @@
       "source": "memory",
       "snippet": "Reflections: No strong patterns surfaced.",
       "recallCount": 0,
-      "dailyCount": 2,
+      "dailyCount": 3,
       "groundedCount": 0,
-      "totalScore": 1.24,
+      "totalScore": 1.8599999999999999,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-24T19:03:16.128Z",
-      "lastRecalledAt": "2026-04-27T19:01:12.638Z",
+      "lastRecalledAt": "2026-04-28T19:00:23.093Z",
       "queryHashes": [
         "409c33906af9"
       ],
       "recallDays": [
         "2026-04-24",
         "2026-04-28",
-        "2026-04-27"
+        "2026-04-27",
+        "2026-04-29"
       ],
       "conceptTags": [
         "reflections",
@@ -3340,19 +3349,20 @@
       "source": "memory",
       "snippet": "Possible Lasting Truths: Possible Lasting Truths: No strong candidate truths surfaced. [confidence=0.58 evidence=memory/2026-04-14.md:209-209]; Possible Lasting Truths: 事件: ⚠️ Something went wrong while processing your request. Please try again, or use /new to start a fresh sessi",
       "recallCount": 0,
-      "dailyCount": 2,
+      "dailyCount": 3,
       "groundedCount": 0,
-      "totalScore": 1.24,
+      "totalScore": 1.8599999999999999,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-24T19:03:16.128Z",
-      "lastRecalledAt": "2026-04-27T19:01:12.638Z",
+      "lastRecalledAt": "2026-04-28T19:00:23.093Z",
       "queryHashes": [
         "409c33906af9"
       ],
       "recallDays": [
         "2026-04-24",
         "2026-04-28",
-        "2026-04-27"
+        "2026-04-27",
+        "2026-04-29"
       ],
       "conceptTags": [
         "0.58",
@@ -3373,17 +3383,19 @@
       "source": "memory",
       "snippet": "Reflections: No strong patterns surfaced.",
       "recallCount": 0,
-      "dailyCount": 1,
+      "dailyCount": 2,
       "groundedCount": 0,
-      "totalScore": 0.62,
+      "totalScore": 1.24,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-25T19:02:36.513Z",
-      "lastRecalledAt": "2026-04-25T19:02:36.513Z",
+      "lastRecalledAt": "2026-04-28T19:00:23.093Z",
       "queryHashes": [
         "90c0a0f693f1"
       ],
       "recallDays": [
-        "2026-04-25"
+        "2026-04-25",
+        "2026-04-29",
+        "2026-04-28"
       ],
       "conceptTags": [
         "reflections",
@@ -3400,17 +3412,19 @@
       "source": "memory",
       "snippet": "Possible Lasting Truths: Possible Lasting Truths: No strong candidate truths surfaced. [confidence=0.58 evidence=memory/2026-04-14.md:209-209]; Possible Lasting Truths: 事件: ⚠️ Something went wrong while processing your request. Please try again, or use /new to start a fresh sessi",
       "recallCount": 0,
-      "dailyCount": 1,
+      "dailyCount": 2,
       "groundedCount": 0,
-      "totalScore": 0.62,
+      "totalScore": 1.24,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-25T19:02:36.513Z",
-      "lastRecalledAt": "2026-04-25T19:02:36.513Z",
+      "lastRecalledAt": "2026-04-28T19:00:23.093Z",
       "queryHashes": [
         "90c0a0f693f1"
       ],
       "recallDays": [
-        "2026-04-25"
+        "2026-04-25",
+        "2026-04-29",
+        "2026-04-28"
       ],
       "conceptTags": [
         "0.58",
@@ -4227,6 +4241,130 @@
         "使用",
         "键盘",
         "导航"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-28.txt:21:21": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-28.txt:21:21",
+      "path": "memory/.dreams/session-corpus/2026-04-28.txt",
+      "startLine": 21,
+      "endLine": 21,
+      "source": "memory",
+      "snippet": "User: 查查9C6446这个航班什么时候到上海",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-28T19:00:23.093Z",
+      "lastRecalledAt": "2026-04-28T19:00:23.093Z",
+      "queryHashes": [
+        "8a4254b47642"
+      ],
+      "recallDays": [
+        "2026-04-29",
+        "2026-04-28"
+      ],
+      "conceptTags": [
+        "9c6446",
+        "这个",
+        "什么时候",
+        "上海"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-28.txt:22:22": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-28.txt:22:22",
+      "path": "memory/.dreams/session-corpus/2026-04-28.txt",
+      "startLine": 22,
+      "endLine": 22,
+      "source": "memory",
+      "snippet": "Assistant: 我将为您查询航班9C6446的到达信息。让我先搜索一下这个航班的实时状态。",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-28T19:00:23.093Z",
+      "lastRecalledAt": "2026-04-28T19:00:23.093Z",
+      "queryHashes": [
+        "8a4254b47642"
+      ],
+      "recallDays": [
+        "2026-04-29",
+        "2026-04-28"
+      ],
+      "conceptTags": [
+        "查询",
+        "9c6446",
+        "到达",
+        "信息",
+        "我先",
+        "搜索",
+        "一下",
+        "这个"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-28.txt:23:23": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-28.txt:23:23",
+      "path": "memory/.dreams/session-corpus/2026-04-28.txt",
+      "startLine": 23,
+      "endLine": 23,
+      "source": "memory",
+      "snippet": "Assistant: 让我访问其中一个航班跟踪网站获取更详细的信息。",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-28T19:00:23.093Z",
+      "lastRecalledAt": "2026-04-28T19:00:23.093Z",
+      "queryHashes": [
+        "8a4254b47642"
+      ],
+      "recallDays": [
+        "2026-04-29",
+        "2026-04-28"
+      ],
+      "conceptTags": [
+        "访问",
+        "其中",
+        "一个",
+        "跟踪",
+        "网站",
+        "获取",
+        "详细",
+        "信息"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-28.txt:24:24": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-28.txt:24:24",
+      "path": "memory/.dreams/session-corpus/2026-04-28.txt",
+      "startLine": 24,
+      "endLine": 24,
+      "source": "memory",
+      "snippet": "Assistant: 很好！我找到了航班9C6446的实时信息。根据FlightStats的数据，这是**春秋航空9C6446航班**，从**广元盘龙机场**飞往**上海浦东国际机场**。 ## 航班9C6446到达信息（2026年4月28日）： **出发地：** 广元盘龙机场 (GYS) **目的地：** 上海浦东国际机场 (PVG) - 2号航站楼 **计划到达时间：** 21:30 (CST，北京时间) **预计到达时间：** 21:00 (CST，北京时间) - **提前30分钟** **当前状态：** 正在飞行中，高度约4105英尺，正在下降",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-28T19:00:23.093Z",
+      "lastRecalledAt": "2026-04-28T19:00:23.093Z",
+      "queryHashes": [
+        "8a4254b47642"
+      ],
+      "recallDays": [
+        "2026-04-29",
+        "2026-04-28"
+      ],
+      "conceptTags": [
+        "很好",
+        "找到",
+        "9c6446",
+        "信息",
+        "根据",
+        "flightstats",
+        "数据",
+        "春秋"
       ]
     }
   }

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-04-27T19:00:27.990Z",
+  "updatedAt": "2026-04-28T19:00:02.875Z",
   "entries": {
     "memory:memory/.dreams/session-corpus/2026-04-11.txt:1:1": {
       "key": "memory:memory/.dreams/session-corpus/2026-04-11.txt:1:1",
@@ -8010,12 +8010,12 @@
       "source": "memory",
       "snippet": "Reflections: Theme: `assistant` kept surfacing across 129 memories.; confidence: 0.98; evidence: memory/.dreams/session-corpus/2026-04-11.txt:2-2, memory/.dreams/session-corpus/2026-04-11.txt:4-4, memory/.dreams/session-corpus/2026-04-11.txt:6-6; note: reflection",
       "recallCount": 0,
-      "dailyCount": 2,
+      "dailyCount": 3,
       "groundedCount": 0,
-      "totalScore": 1.24,
+      "totalScore": 1.8599999999999999,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-21T19:00:01.628Z",
-      "lastRecalledAt": "2026-04-27T19:00:25.602Z",
+      "lastRecalledAt": "2026-04-28T19:00:02.875Z",
       "queryHashes": [
         "f52400c81d76"
       ],
@@ -8025,7 +8025,8 @@
         "2026-04-25",
         "2026-04-26",
         "2026-04-28",
-        "2026-04-27"
+        "2026-04-27",
+        "2026-04-29"
       ],
       "conceptTags": [
         "0.98",
@@ -8046,12 +8047,12 @@
       "source": "memory",
       "snippet": "Reflections: Theme: `user` kept surfacing across 127 memories.; confidence: 0.97; evidence: memory/.dreams/session-corpus/2026-04-11.txt:1-1, memory/.dreams/session-corpus/2026-04-11.txt:3-3, memory/.dreams/session-corpus/2026-04-11.txt:5-5; note: reflection",
       "recallCount": 0,
-      "dailyCount": 2,
+      "dailyCount": 3,
       "groundedCount": 0,
-      "totalScore": 1.24,
+      "totalScore": 1.8599999999999999,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-21T19:00:01.628Z",
-      "lastRecalledAt": "2026-04-27T19:00:25.602Z",
+      "lastRecalledAt": "2026-04-28T19:00:02.875Z",
       "queryHashes": [
         "f52400c81d76"
       ],
@@ -8061,7 +8062,8 @@
         "2026-04-25",
         "2026-04-26",
         "2026-04-28",
-        "2026-04-27"
+        "2026-04-27",
+        "2026-04-29"
       ],
       "conceptTags": [
         "0.97",
@@ -8082,12 +8084,12 @@
       "source": "memory",
       "snippet": "Possible Lasting Truths: Possible Lasting Truths: Assistant: [[reply_to_current]] ## ECHO 势体系技术文档总结 这是 **ECHO Shi Framework (势体系)** 的技术文档首页，介绍了该项目的核心组成部分： ### 核心模块 1. **势枢核心 v1.0** - 包含时间维、空间维、关系维三维编织的元结构定义，基础架构已确认 2. **势场聚类 v1.0** - 从势枢涌现出64个势场区域，使用DBSCAN聚类算法，每周进行测绘并以文化命名，核心机制已确",
       "recallCount": 0,
-      "dailyCount": 2,
+      "dailyCount": 3,
       "groundedCount": 0,
-      "totalScore": 1.24,
+      "totalScore": 1.8599999999999999,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-21T19:00:01.628Z",
-      "lastRecalledAt": "2026-04-27T19:00:25.602Z",
+      "lastRecalledAt": "2026-04-28T19:00:02.875Z",
       "queryHashes": [
         "f52400c81d76"
       ],
@@ -8097,7 +8099,8 @@
         "2026-04-25",
         "2026-04-26",
         "2026-04-28",
-        "2026-04-27"
+        "2026-04-27",
+        "2026-04-29"
       ],
       "conceptTags": [
         "reply-to-current",
@@ -8363,12 +8366,12 @@
       "source": "memory",
       "snippet": "Reflections: Theme: `assistant` kept surfacing across 82 memories.; confidence: 1.00; evidence: memory/.dreams/session-corpus/2026-04-14.txt:2-2, memory/.dreams/session-corpus/2026-04-14.txt:3-3, memory/.dreams/session-corpus/2026-04-14.txt:5-5; note: reflection",
       "recallCount": 0,
-      "dailyCount": 2,
+      "dailyCount": 3,
       "groundedCount": 0,
-      "totalScore": 1.24,
+      "totalScore": 1.8599999999999999,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-22T19:00:00.919Z",
-      "lastRecalledAt": "2026-04-27T19:00:25.602Z",
+      "lastRecalledAt": "2026-04-28T19:00:02.875Z",
       "queryHashes": [
         "7b7a9134bc2c"
       ],
@@ -8377,7 +8380,8 @@
         "2026-04-25",
         "2026-04-26",
         "2026-04-28",
-        "2026-04-27"
+        "2026-04-27",
+        "2026-04-29"
       ],
       "conceptTags": [
         "1.00",
@@ -8398,12 +8402,12 @@
       "source": "memory",
       "snippet": "Reflections: Theme: `user` kept surfacing across 72 memories.; confidence: 0.90; evidence: memory/.dreams/session-corpus/2026-04-14.txt:1-1, memory/.dreams/session-corpus/2026-04-14.txt:4-4, memory/.dreams/session-corpus/2026-04-14.txt:6-6; note: reflection",
       "recallCount": 0,
-      "dailyCount": 2,
+      "dailyCount": 3,
       "groundedCount": 0,
-      "totalScore": 1.24,
+      "totalScore": 1.8599999999999999,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-22T19:00:00.919Z",
-      "lastRecalledAt": "2026-04-27T19:00:25.602Z",
+      "lastRecalledAt": "2026-04-28T19:00:02.875Z",
       "queryHashes": [
         "7b7a9134bc2c"
       ],
@@ -8412,7 +8416,8 @@
         "2026-04-25",
         "2026-04-26",
         "2026-04-28",
-        "2026-04-27"
+        "2026-04-27",
+        "2026-04-29"
       ],
       "conceptTags": [
         "0.90",
@@ -8428,17 +8433,17 @@
     "memory:memory/2026-04-22.md:328:330": {
       "key": "memory:memory/2026-04-22.md:328:330",
       "path": "memory/2026-04-22.md",
-      "startLine": 328,
-      "endLine": 330,
+      "startLine": 13,
+      "endLine": 15,
       "source": "memory",
-      "snippet": "Possible Lasting Truths: Possible Lasting Truths: Assistant: [[reply_to_current]] ## ECHO 势体系技术文档总结 这是 **ECHO Shi Framework (势体系)** 的技术文档首页，介绍了该项目的核心组成部分： ### 核心模块 1. **势枢核心 v1.0** - 包含时间维、空间维、关系维三维编织的元结构定义，基础架构已确认 2. **势场聚类 v1.0** - 从势枢涌现出64个势场区域，使用DBSCAN聚类算法，每周进行测绘并以文化命名，核心机制已确",
+      "snippet": "- Candidate: Possible Lasting Truths: Possible Lasting Truths: Assistant: [[reply_to_current]] ## ECHO 势体系技术文档总结 这是 **ECHO Shi Framework (势体系)** 的技术文档首页，介绍了该项目的核心组成部分： ### 核心模块 1. **势枢核心 v1.0** - 包含时间维、空间维、关系维三维编织的元结构定义，基础架构已确认 2. **势场聚类 v1.0** - 从势枢涌现出64个势场区域，使用DBSCAN聚类算法，每周进行测绘并以文化命名，核心机制已确 - confidence: 0.62 - evidence: memory/2026-04-21.md:298-300",
       "recallCount": 0,
-      "dailyCount": 2,
+      "dailyCount": 3,
       "groundedCount": 0,
-      "totalScore": 1.24,
+      "totalScore": 1.8599999999999999,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-22T19:00:00.919Z",
-      "lastRecalledAt": "2026-04-27T19:00:25.602Z",
+      "lastRecalledAt": "2026-04-28T19:00:02.875Z",
       "queryHashes": [
         "7b7a9134bc2c"
       ],
@@ -8447,7 +8452,8 @@
         "2026-04-25",
         "2026-04-26",
         "2026-04-28",
-        "2026-04-27"
+        "2026-04-27",
+        "2026-04-29"
       ],
       "conceptTags": [
         "reply-to-current",
@@ -8458,7 +8464,8 @@
         "echo",
         "体系",
         "技术"
-      ]
+      ],
+      "promotedAt": "2026-04-28T19:00:02.875Z"
     },
     "memory:memory/.dreams/session-corpus/2026-04-22.txt:1:1": {
       "key": "memory:memory/.dreams/session-corpus/2026-04-22.txt:1:1",
@@ -8590,12 +8597,12 @@
       "source": "memory",
       "snippet": "Reflections: Theme: `assistant` kept surfacing across 67 memories.; confidence: 1.00; evidence: memory/2026-04-14.md:317-320, memory/2026-04-15.md:282-285, memory/2026-04-15.md:288-290; note: reflection",
       "recallCount": 0,
-      "dailyCount": 2,
+      "dailyCount": 3,
       "groundedCount": 0,
-      "totalScore": 1.24,
+      "totalScore": 1.8599999999999999,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-23T19:00:01.605Z",
-      "lastRecalledAt": "2026-04-27T19:00:25.602Z",
+      "lastRecalledAt": "2026-04-28T19:00:02.875Z",
       "queryHashes": [
         "b7fd25b71b44"
       ],
@@ -8603,7 +8610,8 @@
         "2026-04-23",
         "2026-04-26",
         "2026-04-28",
-        "2026-04-27"
+        "2026-04-27",
+        "2026-04-29"
       ],
       "conceptTags": [
         "1.00",
@@ -8624,12 +8632,12 @@
       "source": "memory",
       "snippet": "Reflections: Theme: `user` kept surfacing across 57 memories.; confidence: 0.88; evidence: memory/2026-04-14.md:313-316, memory/2026-04-15.md:278-281, memory/.dreams/session-corpus/2026-04-13.txt:35-35; note: reflection",
       "recallCount": 0,
-      "dailyCount": 2,
+      "dailyCount": 3,
       "groundedCount": 0,
-      "totalScore": 1.24,
+      "totalScore": 1.8599999999999999,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-23T19:00:01.605Z",
-      "lastRecalledAt": "2026-04-27T19:00:25.602Z",
+      "lastRecalledAt": "2026-04-28T19:00:02.875Z",
       "queryHashes": [
         "b7fd25b71b44"
       ],
@@ -8637,7 +8645,8 @@
         "2026-04-23",
         "2026-04-26",
         "2026-04-28",
-        "2026-04-27"
+        "2026-04-27",
+        "2026-04-29"
       ],
       "conceptTags": [
         "0.88",
@@ -8653,17 +8662,17 @@
     "memory:memory/2026-04-23.md:243:245": {
       "key": "memory:memory/2026-04-23.md:243:245",
       "path": "memory/2026-04-23.md",
-      "startLine": 243,
-      "endLine": 245,
+      "startLine": 123,
+      "endLine": 125,
       "source": "memory",
-      "snippet": "Possible Lasting Truths: Possible Lasting Truths: Assistant: [[reply_to_current]] ## ECHO 势体系技术文档总结 这是 **ECHO Shi Framework (势体系)** 的技术文档首页，介绍了该项目的核心组成部分： ### 核心模块 1. **势枢核心 v1.0** - 包含时间维、空间维、关系维三维编织的元结构定义，基础架构已确认 2. **势场聚类 v1.0** - 从势枢涌现出64个势场区域，使用DBSCAN聚类算法，每周进行测绘并以文化命名，核心机制已确",
+      "snippet": "- Candidate: Possible Lasting Truths: Possible Lasting Truths: Assistant: [[reply_to_current]] ## ECHO 势体系技术文档总结 这是 **ECHO Shi Framework (势体系)** 的技术文档首页，介绍了该项目的核心组成部分： ### 核心模块 1. **势枢核心 v1.0** - 包含时间维、空间维、关系维三维编织的元结构定义，基础架构已确认 2. **势场聚类 v1.0** - 从势枢涌现出64个势场区域，使用DBSCAN聚类算法，每周进行测绘并以文化命名，核心机制已确 - confidence: 0.62 - evidence: memory/2026-04-21.md:298-300",
       "recallCount": 0,
-      "dailyCount": 2,
+      "dailyCount": 3,
       "groundedCount": 0,
-      "totalScore": 1.24,
+      "totalScore": 1.8599999999999999,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-23T19:00:01.605Z",
-      "lastRecalledAt": "2026-04-27T19:00:25.602Z",
+      "lastRecalledAt": "2026-04-28T19:00:02.875Z",
       "queryHashes": [
         "b7fd25b71b44"
       ],
@@ -8671,7 +8680,8 @@
         "2026-04-23",
         "2026-04-26",
         "2026-04-28",
-        "2026-04-27"
+        "2026-04-27",
+        "2026-04-29"
       ],
       "conceptTags": [
         "reply-to-current",
@@ -8682,7 +8692,8 @@
         "echo",
         "体系",
         "技术"
-      ]
+      ],
+      "promotedAt": "2026-04-28T19:00:02.875Z"
     },
     "memory:memory/.dreams/session-corpus/2026-04-23.txt:1:1": {
       "key": "memory:memory/.dreams/session-corpus/2026-04-23.txt:1:1",
@@ -9569,19 +9580,20 @@
       "source": "memory",
       "snippet": "Reflections: Theme: `assistant` kept surfacing across 67 memories.; confidence: 1.00; evidence: memory/2026-04-14.md:317-320, memory/2026-04-15.md:282-285, memory/2026-04-15.md:288-290; note: reflection",
       "recallCount": 0,
-      "dailyCount": 2,
+      "dailyCount": 3,
       "groundedCount": 0,
-      "totalScore": 1.24,
+      "totalScore": 1.8599999999999999,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-24T19:00:01.620Z",
-      "lastRecalledAt": "2026-04-27T19:00:25.602Z",
+      "lastRecalledAt": "2026-04-28T19:00:02.875Z",
       "queryHashes": [
         "409c33906af9"
       ],
       "recallDays": [
         "2026-04-24",
         "2026-04-28",
-        "2026-04-27"
+        "2026-04-27",
+        "2026-04-29"
       ],
       "conceptTags": [
         "1.00",
@@ -9602,19 +9614,20 @@
       "source": "memory",
       "snippet": "Reflections: Theme: `user` kept surfacing across 58 memories.; confidence: 0.87; evidence: memory/2026-04-14.md:313-316, memory/2026-04-15.md:278-281, memory/.dreams/session-corpus/2026-04-16.txt:1-1; note: reflection",
       "recallCount": 0,
-      "dailyCount": 2,
+      "dailyCount": 3,
       "groundedCount": 0,
-      "totalScore": 1.24,
+      "totalScore": 1.8599999999999999,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-24T19:00:01.620Z",
-      "lastRecalledAt": "2026-04-27T19:00:25.602Z",
+      "lastRecalledAt": "2026-04-28T19:00:02.875Z",
       "queryHashes": [
         "409c33906af9"
       ],
       "recallDays": [
         "2026-04-24",
         "2026-04-28",
-        "2026-04-27"
+        "2026-04-27",
+        "2026-04-29"
       ],
       "conceptTags": [
         "0.87",
@@ -9635,19 +9648,20 @@
       "source": "memory",
       "snippet": "Possible Lasting Truths: Possible Lasting Truths: Assistant: [[reply_to_current]] ## ECHO 势体系技术文档总结 这是 **ECHO Shi Framework (势体系)** 的技术文档首页，介绍了该项目的核心组成部分： ### 核心模块 1. **势枢核心 v1.0** - 包含时间维、空间维、关系维三维编织的元结构定义，基础架构已确认 2. **势场聚类 v1.0** - 从势枢涌现出64个势场区域，使用DBSCAN聚类算法，每周进行测绘并以文化命名，核心机制已确",
       "recallCount": 0,
-      "dailyCount": 2,
+      "dailyCount": 3,
       "groundedCount": 0,
-      "totalScore": 1.24,
+      "totalScore": 1.8599999999999999,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-24T19:00:01.620Z",
-      "lastRecalledAt": "2026-04-27T19:00:25.602Z",
+      "lastRecalledAt": "2026-04-28T19:00:02.875Z",
       "queryHashes": [
         "409c33906af9"
       ],
       "recallDays": [
         "2026-04-24",
         "2026-04-28",
-        "2026-04-27"
+        "2026-04-27",
+        "2026-04-29"
       ],
       "conceptTags": [
         "reply-to-current",
@@ -10002,17 +10016,19 @@
       "source": "memory",
       "snippet": "Reflections: Theme: `assistant` kept surfacing across 67 memories.; confidence: 0.99; evidence: memory/2026-04-14.md:317-320, memory/2026-04-15.md:282-285, memory/2026-04-15.md:288-290; note: reflection",
       "recallCount": 0,
-      "dailyCount": 1,
+      "dailyCount": 2,
       "groundedCount": 0,
-      "totalScore": 0.62,
+      "totalScore": 1.24,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-25T19:00:01.617Z",
-      "lastRecalledAt": "2026-04-25T19:00:01.617Z",
+      "lastRecalledAt": "2026-04-28T19:00:02.875Z",
       "queryHashes": [
         "90c0a0f693f1"
       ],
       "recallDays": [
-        "2026-04-25"
+        "2026-04-25",
+        "2026-04-29",
+        "2026-04-28"
       ],
       "conceptTags": [
         "0.99",
@@ -10033,17 +10049,19 @@
       "source": "memory",
       "snippet": "Reflections: Theme: `user` kept surfacing across 59 memories.; confidence: 0.87; evidence: memory/2026-04-14.md:313-316, memory/2026-04-15.md:278-281, memory/2026-04-16.md:218-221; note: reflection",
       "recallCount": 0,
-      "dailyCount": 1,
+      "dailyCount": 2,
       "groundedCount": 0,
-      "totalScore": 0.62,
+      "totalScore": 1.24,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-25T19:00:01.617Z",
-      "lastRecalledAt": "2026-04-25T19:00:01.617Z",
+      "lastRecalledAt": "2026-04-28T19:00:02.875Z",
       "queryHashes": [
         "90c0a0f693f1"
       ],
       "recallDays": [
-        "2026-04-25"
+        "2026-04-25",
+        "2026-04-29",
+        "2026-04-28"
       ],
       "conceptTags": [
         "0.87",
@@ -10064,17 +10082,19 @@
       "source": "memory",
       "snippet": "Possible Lasting Truths: Possible Lasting Truths: Assistant: [[reply_to_current]] ## ECHO 势体系技术文档总结 这是 **ECHO Shi Framework (势体系)** 的技术文档首页，介绍了该项目的核心组成部分： ### 核心模块 1. **势枢核心 v1.0** - 包含时间维、空间维、关系维三维编织的元结构定义，基础架构已确认 2. **势场聚类 v1.0** - 从势枢涌现出64个势场区域，使用DBSCAN聚类算法，每周进行测绘并以文化命名，核心机制已确",
       "recallCount": 0,
-      "dailyCount": 1,
+      "dailyCount": 2,
       "groundedCount": 0,
-      "totalScore": 0.62,
+      "totalScore": 1.24,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-25T19:00:01.617Z",
-      "lastRecalledAt": "2026-04-25T19:00:01.617Z",
+      "lastRecalledAt": "2026-04-28T19:00:02.875Z",
       "queryHashes": [
         "90c0a0f693f1"
       ],
       "recallDays": [
-        "2026-04-25"
+        "2026-04-25",
+        "2026-04-29",
+        "2026-04-28"
       ],
       "conceptTags": [
         "reply-to-current",

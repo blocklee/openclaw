@@ -57,3 +57,10 @@
 - IDENTITY.md: 687 bytes (身份信息)
 - AGENTS.md: 2281 bytes (工作流程)
 - MEMORY.md: 当前文件 (长期记忆)
+
+## Promoted From Short-Term Memory (2026-04-29)
+
+<!-- openclaw-memory-promotion:memory:memory/2026-04-22.md:429:431 -->
+- - Candidate: Possible Lasting Truths: Possible Lasting Truths: Assistant: Okay, we can't use sudo to install system dependencies. Let's try a different approach: first, let's see if we can fetch the page HTML using curl (this won't execute JS but will give us static content). Then we can look - confidence: 0.62 - evidence: memory/2026-04-21.md:433-435 [score=0.845 recalls=0 avg=0.620 source=memory/2026-04-22.md:13-15]
+<!-- openclaw-memory-promotion:memory:memory/2026-04-23.md:179:181 -->
+- - Candidate: Possible Lasting Truths: Possible Lasting Truths: Assistant: Okay, we can't use sudo to install system dependencies. Let's try a different approach: first, let's see if we can fetch the page HTML using curl (this won't execute JS but will give us static content). Then we can look - confidence: 0.62 - evidence: memory/2026-04-21.md:433-435 [score=0.834 recalls=0 avg=0.620 source=memory/2026-04-23.md:98-100]

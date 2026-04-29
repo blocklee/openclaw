@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-04-27T19:01:31.638Z",
+  "updatedAt": "2026-04-28T19:00:31.833Z",
   "entries": {
     "memory:memory/.dreams/session-corpus/2026-04-11.txt:1:1": {
       "key": "memory:memory/.dreams/session-corpus/2026-04-11.txt:1:1",
@@ -7922,12 +7922,12 @@
       "source": "memory",
       "snippet": "Reflections: Theme: `assistant` kept surfacing across 146 memories.; confidence: 1.00; evidence: memory/.dreams/session-corpus/2026-04-11.txt:3-3, memory/.dreams/session-corpus/2026-04-11.txt:5-5, memory/.dreams/session-corpus/2026-04-12.txt:8-8; note: reflection",
       "recallCount": 0,
-      "dailyCount": 2,
+      "dailyCount": 3,
       "groundedCount": 0,
-      "totalScore": 1.24,
+      "totalScore": 1.8599999999999999,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-21T19:05:13.278Z",
-      "lastRecalledAt": "2026-04-27T19:01:22.334Z",
+      "lastRecalledAt": "2026-04-28T19:00:31.833Z",
       "queryHashes": [
         "f52400c81d76"
       ],
@@ -7937,7 +7937,8 @@
         "2026-04-25",
         "2026-04-26",
         "2026-04-28",
-        "2026-04-27"
+        "2026-04-27",
+        "2026-04-29"
       ],
       "conceptTags": [
         "1.00",
@@ -7958,12 +7959,12 @@
       "source": "memory",
       "snippet": "Reflections: Theme: `user` kept surfacing across 95 memories.; confidence: 0.76; evidence: memory/.dreams/session-corpus/2026-04-11.txt:1-1, memory/.dreams/session-corpus/2026-04-11.txt:2-2, memory/.dreams/session-corpus/2026-04-11.txt:4-4; note: reflection",
       "recallCount": 0,
-      "dailyCount": 2,
+      "dailyCount": 3,
       "groundedCount": 0,
-      "totalScore": 1.24,
+      "totalScore": 1.8599999999999999,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-21T19:05:13.278Z",
-      "lastRecalledAt": "2026-04-27T19:01:22.334Z",
+      "lastRecalledAt": "2026-04-28T19:00:31.833Z",
       "queryHashes": [
         "f52400c81d76"
       ],
@@ -7973,7 +7974,8 @@
         "2026-04-25",
         "2026-04-26",
         "2026-04-28",
-        "2026-04-27"
+        "2026-04-27",
+        "2026-04-29"
       ],
       "conceptTags": [
         "0.76",
@@ -7994,12 +7996,12 @@
       "source": "memory",
       "snippet": "Possible Lasting Truths: Possible Lasting Truths: Assistant: Okay, we can't use sudo to install system dependencies. Let's try a different approach: first, let's see if we can fetch the page HTML using curl (this won't execute JS but will give us static content). Then we can look",
       "recallCount": 0,
-      "dailyCount": 2,
+      "dailyCount": 3,
       "groundedCount": 0,
-      "totalScore": 1.24,
+      "totalScore": 1.8599999999999999,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-21T19:05:13.278Z",
-      "lastRecalledAt": "2026-04-27T19:01:22.334Z",
+      "lastRecalledAt": "2026-04-28T19:00:31.833Z",
       "queryHashes": [
         "f52400c81d76"
       ],
@@ -8009,7 +8011,8 @@
         "2026-04-25",
         "2026-04-26",
         "2026-04-28",
-        "2026-04-27"
+        "2026-04-27",
+        "2026-04-29"
       ],
       "conceptTags": [
         "possible",
@@ -8030,12 +8033,12 @@
       "source": "memory",
       "snippet": "Reflections: Theme: `assistant` kept surfacing across 84 memories.; confidence: 1.00; evidence: memory/2026-04-14.md:233-236, memory/.dreams/session-corpus/2026-04-13.txt:6-6, memory/.dreams/session-corpus/2026-04-13.txt:7-7; note: reflection",
       "recallCount": 0,
-      "dailyCount": 2,
+      "dailyCount": 3,
       "groundedCount": 0,
-      "totalScore": 1.24,
+      "totalScore": 1.8599999999999999,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-22T19:04:01.896Z",
-      "lastRecalledAt": "2026-04-27T19:01:22.334Z",
+      "lastRecalledAt": "2026-04-28T19:00:31.833Z",
       "queryHashes": [
         "7b7a9134bc2c"
       ],
@@ -8044,7 +8047,8 @@
         "2026-04-25",
         "2026-04-26",
         "2026-04-28",
-        "2026-04-27"
+        "2026-04-27",
+        "2026-04-29"
       ],
       "conceptTags": [
         "1.00",
@@ -8060,17 +8064,17 @@
     "memory:memory/2026-04-22.md:429:431": {
       "key": "memory:memory/2026-04-22.md:429:431",
       "path": "memory/2026-04-22.md",
-      "startLine": 429,
-      "endLine": 431,
+      "startLine": 13,
+      "endLine": 15,
       "source": "memory",
-      "snippet": "Possible Lasting Truths: Possible Lasting Truths: Assistant: Okay, we can't use sudo to install system dependencies. Let's try a different approach: first, let's see if we can fetch the page HTML using curl (this won't execute JS but will give us static content). Then we can look",
+      "snippet": "- Candidate: Possible Lasting Truths: Possible Lasting Truths: Assistant: Okay, we can't use sudo to install system dependencies. Let's try a different approach: first, let's see if we can fetch the page HTML using curl (this won't execute JS but will give us static content). Then we can look - confidence: 0.62 - evidence: memory/2026-04-21.md:433-435",
       "recallCount": 0,
-      "dailyCount": 2,
+      "dailyCount": 3,
       "groundedCount": 0,
-      "totalScore": 1.24,
+      "totalScore": 1.8599999999999999,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-22T19:04:01.896Z",
-      "lastRecalledAt": "2026-04-27T19:01:22.334Z",
+      "lastRecalledAt": "2026-04-28T19:00:31.833Z",
       "queryHashes": [
         "7b7a9134bc2c"
       ],
@@ -8079,7 +8083,8 @@
         "2026-04-25",
         "2026-04-26",
         "2026-04-28",
-        "2026-04-27"
+        "2026-04-27",
+        "2026-04-29"
       ],
       "conceptTags": [
         "possible",
@@ -8090,7 +8095,8 @@
         "use",
         "sudo",
         "install"
-      ]
+      ],
+      "promotedAt": "2026-04-28T19:00:31.833Z"
     },
     "memory:memory/2026-04-23.md:173:176": {
       "key": "memory:memory/2026-04-23.md:173:176",
@@ -8100,12 +8106,12 @@
       "source": "memory",
       "snippet": "Reflections: Theme: `assistant` kept surfacing across 74 memories.; confidence: 1.00; evidence: memory/2026-04-14.md:233-236, memory/2026-04-15.md:328-331, memory/2026-04-15.md:338-340; note: reflection",
       "recallCount": 0,
-      "dailyCount": 2,
+      "dailyCount": 3,
       "groundedCount": 0,
-      "totalScore": 1.24,
+      "totalScore": 1.8599999999999999,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-23T19:07:19.429Z",
-      "lastRecalledAt": "2026-04-27T19:01:22.334Z",
+      "lastRecalledAt": "2026-04-28T19:00:31.833Z",
       "queryHashes": [
         "b7fd25b71b44"
       ],
@@ -8113,7 +8119,8 @@
         "2026-04-23",
         "2026-04-26",
         "2026-04-28",
-        "2026-04-27"
+        "2026-04-27",
+        "2026-04-29"
       ],
       "conceptTags": [
         "1.00",
@@ -8129,17 +8136,17 @@
     "memory:memory/2026-04-23.md:179:181": {
       "key": "memory:memory/2026-04-23.md:179:181",
       "path": "memory/2026-04-23.md",
-      "startLine": 179,
-      "endLine": 181,
+      "startLine": 98,
+      "endLine": 100,
       "source": "memory",
-      "snippet": "Possible Lasting Truths: Possible Lasting Truths: Assistant: Okay, we can't use sudo to install system dependencies. Let's try a different approach: first, let's see if we can fetch the page HTML using curl (this won't execute JS but will give us static content). Then we can look",
+      "snippet": "- Candidate: Possible Lasting Truths: Possible Lasting Truths: Assistant: Okay, we can't use sudo to install system dependencies. Let's try a different approach: first, let's see if we can fetch the page HTML using curl (this won't execute JS but will give us static content). Then we can look - confidence: 0.62 - evidence: memory/2026-04-21.md:433-435",
       "recallCount": 0,
-      "dailyCount": 2,
+      "dailyCount": 3,
       "groundedCount": 0,
-      "totalScore": 1.24,
+      "totalScore": 1.8599999999999999,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-23T19:07:19.429Z",
-      "lastRecalledAt": "2026-04-27T19:01:22.334Z",
+      "lastRecalledAt": "2026-04-28T19:00:31.833Z",
       "queryHashes": [
         "b7fd25b71b44"
       ],
@@ -8147,7 +8154,8 @@
         "2026-04-23",
         "2026-04-26",
         "2026-04-28",
-        "2026-04-27"
+        "2026-04-27",
+        "2026-04-29"
       ],
       "conceptTags": [
         "possible",
@@ -8158,7 +8166,8 @@
         "use",
         "sudo",
         "install"
-      ]
+      ],
+      "promotedAt": "2026-04-28T19:00:31.833Z"
     },
     "memory:memory/2026-04-24.md:133:136": {
       "key": "memory:memory/2026-04-24.md:133:136",
@@ -8168,19 +8177,20 @@
       "source": "memory",
       "snippet": "Reflections: Theme: `assistant` kept surfacing across 73 memories.; confidence: 1.00; evidence: memory/2026-04-14.md:233-236, memory/2026-04-15.md:328-331, memory/2026-04-15.md:338-340; note: reflection",
       "recallCount": 0,
-      "dailyCount": 2,
+      "dailyCount": 3,
       "groundedCount": 0,
-      "totalScore": 1.24,
+      "totalScore": 1.8599999999999999,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-24T19:05:59.327Z",
-      "lastRecalledAt": "2026-04-27T19:01:22.334Z",
+      "lastRecalledAt": "2026-04-28T19:00:31.833Z",
       "queryHashes": [
         "409c33906af9"
       ],
       "recallDays": [
         "2026-04-24",
         "2026-04-28",
-        "2026-04-27"
+        "2026-04-27",
+        "2026-04-29"
       ],
       "conceptTags": [
         "1.00",
@@ -8201,19 +8211,20 @@
       "source": "memory",
       "snippet": "Possible Lasting Truths: Possible Lasting Truths: Assistant: @Lucus 这是一个关于 **ECHO 势(Shi) 技术架构**的文档，总结如下： ## 核心概念 **「势」**是一个三维编织的动态系统，用时间、空间、关系三个维度配合64卦约束来管理数字资产。 ## 核心理念 - **实际生效配置** = 创作者意图 ∩ 物理法则范围 - **约束不是限制，而是生态的免疫系统** - 代码即法律，约束即保护，分叉即自由 ## 三维编织 | 维度 | 含义 | 档位 | |------|----",
       "recallCount": 0,
-      "dailyCount": 2,
+      "dailyCount": 3,
       "groundedCount": 0,
-      "totalScore": 1.24,
+      "totalScore": 1.8599999999999999,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-24T19:05:59.327Z",
-      "lastRecalledAt": "2026-04-27T19:01:22.334Z",
+      "lastRecalledAt": "2026-04-28T19:00:31.833Z",
       "queryHashes": [
         "409c33906af9"
       ],
       "recallDays": [
         "2026-04-24",
         "2026-04-28",
-        "2026-04-27"
+        "2026-04-27",
+        "2026-04-29"
       ],
       "conceptTags": [
         "possible",
@@ -8234,17 +8245,19 @@
       "source": "memory",
       "snippet": "Reflections: Theme: `assistant` kept surfacing across 74 memories.; confidence: 1.00; evidence: memory/2026-04-14.md:233-236, memory/2026-04-15.md:328-331, memory/2026-04-15.md:338-340; note: reflection",
       "recallCount": 0,
-      "dailyCount": 1,
+      "dailyCount": 2,
       "groundedCount": 0,
-      "totalScore": 0.62,
+      "totalScore": 1.24,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-25T19:03:45.966Z",
-      "lastRecalledAt": "2026-04-25T19:03:45.966Z",
+      "lastRecalledAt": "2026-04-28T19:00:31.833Z",
       "queryHashes": [
         "90c0a0f693f1"
       ],
       "recallDays": [
-        "2026-04-25"
+        "2026-04-25",
+        "2026-04-29",
+        "2026-04-28"
       ],
       "conceptTags": [
         "1.00",
@@ -8265,17 +8278,19 @@
       "source": "memory",
       "snippet": "Possible Lasting Truths: Possible Lasting Truths: Assistant: @Lucus 这是一个关于 **ECHO 势(Shi) 技术架构**的文档，总结如下： ## 核心概念 **「势」**是一个三维编织的动态系统，用时间、空间、关系三个维度配合64卦约束来管理数字资产。 ## 核心理念 - **实际生效配置** = 创作者意图 ∩ 物理法则范围 - **约束不是限制，而是生态的免疫系统** - 代码即法律，约束即保护，分叉即自由 ## 三维编织 | 维度 | 含义 | 档位 | |------|----",
       "recallCount": 0,
-      "dailyCount": 1,
+      "dailyCount": 2,
       "groundedCount": 0,
-      "totalScore": 0.62,
+      "totalScore": 1.24,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-25T19:03:45.966Z",
-      "lastRecalledAt": "2026-04-25T19:03:45.966Z",
+      "lastRecalledAt": "2026-04-28T19:00:31.833Z",
       "queryHashes": [
         "90c0a0f693f1"
       ],
       "recallDays": [
-        "2026-04-25"
+        "2026-04-25",
+        "2026-04-29",
+        "2026-04-28"
       ],
       "conceptTags": [
         "possible",
