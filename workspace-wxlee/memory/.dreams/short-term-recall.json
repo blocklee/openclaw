@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-04-28T19:00:23.093Z",
+  "updatedAt": "2026-04-29T19:00:27.014Z",
   "entries": {
     "memory:memory/2026-04-12.md:6:6": {
       "key": "memory:memory/2026-04-12.md:6:6",
@@ -3179,12 +3179,12 @@
       "source": "memory",
       "snippet": "Reflections: Theme: `assistant` kept surfacing across 15 memories.; confidence: 0.75; evidence: memory/2026-04-14.md:203-206, memory/2026-04-15.md:223-226, memory/.dreams/session-corpus/2026-04-16.txt:2-2; note: reflection",
       "recallCount": 0,
-      "dailyCount": 3,
+      "dailyCount": 4,
       "groundedCount": 0,
-      "totalScore": 1.8599999999999999,
+      "totalScore": 2.48,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-22T19:03:08.833Z",
-      "lastRecalledAt": "2026-04-28T19:00:23.093Z",
+      "lastRecalledAt": "2026-04-29T19:00:27.014Z",
       "queryHashes": [
         "7b7a9134bc2c"
       ],
@@ -3194,7 +3194,8 @@
         "2026-04-26",
         "2026-04-28",
         "2026-04-27",
-        "2026-04-29"
+        "2026-04-29",
+        "2026-04-30"
       ],
       "conceptTags": [
         "0.75",
@@ -3210,17 +3211,17 @@
     "memory:memory/2026-04-22.md:134:136": {
       "key": "memory:memory/2026-04-22.md:134:136",
       "path": "memory/2026-04-22.md",
-      "startLine": 8,
-      "endLine": 10,
+      "startLine": 134,
+      "endLine": 136,
       "source": "memory",
-      "snippet": "- Candidate: Possible Lasting Truths: Possible Lasting Truths: No strong candidate truths surfaced. [confidence=0.58 evidence=memory/2026-04-14.md:209-209]; Possible Lasting Truths: 事件: ⚠️ Something went wrong while processing your request. Please try again, or use /new to start a fresh sessi - confidence: 0.62 - evidence: memory/2026-04-21.md:134-136",
+      "snippet": "Possible Lasting Truths: Possible Lasting Truths: No strong candidate truths surfaced. [confidence=0.58 evidence=memory/2026-04-14.md:209-209]; Possible Lasting Truths: 事件: ⚠️ Something went wrong while processing your request. Please try again, or use /new to start a fresh sessi",
       "recallCount": 0,
-      "dailyCount": 3,
+      "dailyCount": 4,
       "groundedCount": 0,
-      "totalScore": 1.8599999999999999,
+      "totalScore": 2.48,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-22T19:03:08.833Z",
-      "lastRecalledAt": "2026-04-28T19:00:23.093Z",
+      "lastRecalledAt": "2026-04-29T19:00:27.014Z",
       "queryHashes": [
         "7b7a9134bc2c"
       ],
@@ -3230,7 +3231,8 @@
         "2026-04-26",
         "2026-04-28",
         "2026-04-27",
-        "2026-04-29"
+        "2026-04-29",
+        "2026-04-30"
       ],
       "conceptTags": [
         "0.58",
@@ -3252,12 +3254,12 @@
       "source": "memory",
       "snippet": "Reflections: No strong patterns surfaced.",
       "recallCount": 0,
-      "dailyCount": 3,
+      "dailyCount": 4,
       "groundedCount": 0,
-      "totalScore": 1.8599999999999999,
+      "totalScore": 2.48,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-23T19:05:15.692Z",
-      "lastRecalledAt": "2026-04-28T19:00:23.093Z",
+      "lastRecalledAt": "2026-04-29T19:00:27.014Z",
       "queryHashes": [
         "b7fd25b71b44"
       ],
@@ -3266,7 +3268,8 @@
         "2026-04-26",
         "2026-04-28",
         "2026-04-27",
-        "2026-04-29"
+        "2026-04-29",
+        "2026-04-30"
       ],
       "conceptTags": [
         "reflections",
@@ -3278,17 +3281,17 @@
     "memory:memory/2026-04-23.md:101:103": {
       "key": "memory:memory/2026-04-23.md:101:103",
       "path": "memory/2026-04-23.md",
-      "startLine": 68,
-      "endLine": 70,
+      "startLine": 101,
+      "endLine": 103,
       "source": "memory",
-      "snippet": "- Candidate: Possible Lasting Truths: Possible Lasting Truths: No strong candidate truths surfaced. [confidence=0.58 evidence=memory/2026-04-14.md:209-209]; Possible Lasting Truths: 事件: ⚠️ Something went wrong while processing your request. Please try again, or use /new to start a fresh sessi - confidence: 0.62 - evidence: memory/2026-04-21.md:134-136",
+      "snippet": "Possible Lasting Truths: Possible Lasting Truths: No strong candidate truths surfaced. [confidence=0.58 evidence=memory/2026-04-14.md:209-209]; Possible Lasting Truths: 事件: ⚠️ Something went wrong while processing your request. Please try again, or use /new to start a fresh sessi",
       "recallCount": 0,
-      "dailyCount": 3,
+      "dailyCount": 4,
       "groundedCount": 0,
-      "totalScore": 1.8599999999999999,
+      "totalScore": 2.48,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-23T19:05:15.692Z",
-      "lastRecalledAt": "2026-04-28T19:00:23.093Z",
+      "lastRecalledAt": "2026-04-29T19:00:27.014Z",
       "queryHashes": [
         "b7fd25b71b44"
       ],
@@ -3297,7 +3300,8 @@
         "2026-04-26",
         "2026-04-28",
         "2026-04-27",
-        "2026-04-29"
+        "2026-04-29",
+        "2026-04-30"
       ],
       "conceptTags": [
         "0.58",
@@ -3314,17 +3318,17 @@
     "memory:memory/2026-04-24.md:98:98": {
       "key": "memory:memory/2026-04-24.md:98:98",
       "path": "memory/2026-04-24.md",
-      "startLine": 98,
-      "endLine": 98,
+      "startLine": 3,
+      "endLine": 3,
       "source": "memory",
-      "snippet": "Reflections: No strong patterns surfaced.",
+      "snippet": "- Candidate: Reflections: No strong patterns surfaced.",
       "recallCount": 0,
-      "dailyCount": 3,
+      "dailyCount": 4,
       "groundedCount": 0,
-      "totalScore": 1.8599999999999999,
+      "totalScore": 2.48,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-24T19:03:16.128Z",
-      "lastRecalledAt": "2026-04-28T19:00:23.093Z",
+      "lastRecalledAt": "2026-04-29T19:00:27.014Z",
       "queryHashes": [
         "409c33906af9"
       ],
@@ -3332,29 +3336,31 @@
         "2026-04-24",
         "2026-04-28",
         "2026-04-27",
-        "2026-04-29"
+        "2026-04-29",
+        "2026-04-30"
       ],
       "conceptTags": [
         "reflections",
         "strong",
         "patterns",
         "surfaced"
-      ]
+      ],
+      "promotedAt": "2026-04-29T19:00:27.014Z"
     },
     "memory:memory/2026-04-24.md:101:103": {
       "key": "memory:memory/2026-04-24.md:101:103",
       "path": "memory/2026-04-24.md",
-      "startLine": 101,
-      "endLine": 103,
+      "startLine": 88,
+      "endLine": 90,
       "source": "memory",
-      "snippet": "Possible Lasting Truths: Possible Lasting Truths: No strong candidate truths surfaced. [confidence=0.58 evidence=memory/2026-04-14.md:209-209]; Possible Lasting Truths: 事件: ⚠️ Something went wrong while processing your request. Please try again, or use /new to start a fresh sessi",
+      "snippet": "- Candidate: Possible Lasting Truths: Possible Lasting Truths: No strong candidate truths surfaced. [confidence=0.58 evidence=memory/2026-04-14.md:209-209]; Possible Lasting Truths: 事件: ⚠️ Something went wrong while processing your request. Please try again, or use /new to start a fresh sessi - confidence: 0.62 - evidence: memory/2026-04-21.md:134-136",
       "recallCount": 0,
-      "dailyCount": 3,
+      "dailyCount": 4,
       "groundedCount": 0,
-      "totalScore": 1.8599999999999999,
+      "totalScore": 2.48,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-24T19:03:16.128Z",
-      "lastRecalledAt": "2026-04-28T19:00:23.093Z",
+      "lastRecalledAt": "2026-04-29T19:00:27.014Z",
       "queryHashes": [
         "409c33906af9"
       ],
@@ -3362,7 +3368,8 @@
         "2026-04-24",
         "2026-04-28",
         "2026-04-27",
-        "2026-04-29"
+        "2026-04-29",
+        "2026-04-30"
       ],
       "conceptTags": [
         "0.58",
@@ -3373,7 +3380,8 @@
         "truths",
         "strong",
         "candidate"
-      ]
+      ],
+      "promotedAt": "2026-04-29T19:00:27.014Z"
     },
     "memory:memory/2026-04-25.md:98:98": {
       "key": "memory:memory/2026-04-25.md:98:98",
@@ -3383,19 +3391,20 @@
       "source": "memory",
       "snippet": "Reflections: No strong patterns surfaced.",
       "recallCount": 0,
-      "dailyCount": 2,
+      "dailyCount": 3,
       "groundedCount": 0,
-      "totalScore": 1.24,
+      "totalScore": 1.8599999999999999,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-25T19:02:36.513Z",
-      "lastRecalledAt": "2026-04-28T19:00:23.093Z",
+      "lastRecalledAt": "2026-04-29T19:00:27.014Z",
       "queryHashes": [
         "90c0a0f693f1"
       ],
       "recallDays": [
         "2026-04-25",
         "2026-04-29",
-        "2026-04-28"
+        "2026-04-28",
+        "2026-04-30"
       ],
       "conceptTags": [
         "reflections",
@@ -3407,24 +3416,25 @@
     "memory:memory/2026-04-25.md:101:103": {
       "key": "memory:memory/2026-04-25.md:101:103",
       "path": "memory/2026-04-25.md",
-      "startLine": 101,
-      "endLine": 103,
+      "startLine": 88,
+      "endLine": 90,
       "source": "memory",
-      "snippet": "Possible Lasting Truths: Possible Lasting Truths: No strong candidate truths surfaced. [confidence=0.58 evidence=memory/2026-04-14.md:209-209]; Possible Lasting Truths: 事件: ⚠️ Something went wrong while processing your request. Please try again, or use /new to start a fresh sessi",
+      "snippet": "- Candidate: Possible Lasting Truths: Possible Lasting Truths: No strong candidate truths surfaced. [confidence=0.58 evidence=memory/2026-04-14.md:209-209]; Possible Lasting Truths: 事件: ⚠️ Something went wrong while processing your request. Please try again, or use /new to start a fresh sessi - confidence: 0.62 - evidence: memory/2026-04-22.md:134-136",
       "recallCount": 0,
-      "dailyCount": 2,
+      "dailyCount": 3,
       "groundedCount": 0,
-      "totalScore": 1.24,
+      "totalScore": 1.8599999999999999,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-25T19:02:36.513Z",
-      "lastRecalledAt": "2026-04-28T19:00:23.093Z",
+      "lastRecalledAt": "2026-04-29T19:00:27.014Z",
       "queryHashes": [
         "90c0a0f693f1"
       ],
       "recallDays": [
         "2026-04-25",
         "2026-04-29",
-        "2026-04-28"
+        "2026-04-28",
+        "2026-04-30"
       ],
       "conceptTags": [
         "0.58",
@@ -3435,7 +3445,8 @@
         "truths",
         "strong",
         "candidate"
-      ]
+      ],
+      "promotedAt": "2026-04-29T19:00:27.014Z"
     },
     "memory:memory/2026-04-26.md:98:98": {
       "key": "memory:memory/2026-04-26.md:98:98",
@@ -3445,17 +3456,19 @@
       "source": "memory",
       "snippet": "Reflections: No strong patterns surfaced.",
       "recallCount": 0,
-      "dailyCount": 1,
+      "dailyCount": 2,
       "groundedCount": 0,
-      "totalScore": 0.62,
+      "totalScore": 1.24,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-26T19:04:32.762Z",
-      "lastRecalledAt": "2026-04-26T19:04:32.762Z",
+      "lastRecalledAt": "2026-04-29T19:00:27.014Z",
       "queryHashes": [
         "9b4c3d373463"
       ],
       "recallDays": [
-        "2026-04-26"
+        "2026-04-26",
+        "2026-04-30",
+        "2026-04-29"
       ],
       "conceptTags": [
         "reflections",
@@ -3472,17 +3485,19 @@
       "source": "memory",
       "snippet": "Possible Lasting Truths: Possible Lasting Truths: No strong candidate truths surfaced. [confidence=0.58 evidence=memory/2026-04-14.md:209-209]; Possible Lasting Truths: Possible Lasting Truths: No strong candidate truths surfaced. [confidence=0.58 evidence=memory/2026-04-14.md:20",
       "recallCount": 0,
-      "dailyCount": 1,
+      "dailyCount": 2,
       "groundedCount": 0,
-      "totalScore": 0.62,
+      "totalScore": 1.24,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-26T19:04:32.762Z",
-      "lastRecalledAt": "2026-04-26T19:04:32.762Z",
+      "lastRecalledAt": "2026-04-29T19:00:27.014Z",
       "queryHashes": [
         "9b4c3d373463"
       ],
       "recallDays": [
-        "2026-04-26"
+        "2026-04-26",
+        "2026-04-30",
+        "2026-04-29"
       ],
       "conceptTags": [
         "0.58",
@@ -4365,6 +4380,1271 @@
         "flightstats",
         "数据",
         "春秋"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-29.txt:1:1": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-29.txt:1:1",
+      "path": "memory/.dreams/session-corpus/2026-04-29.txt",
+      "startLine": 1,
+      "endLine": 1,
+      "source": "memory",
+      "snippet": "Assistant: 我来帮您完成这个操作。首先，我需要检查当前工作目录中是否有 TEE_PPT 文件夹，然后创建目标目录并移动文件。",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-29T19:00:27.014Z",
+      "lastRecalledAt": "2026-04-29T19:00:27.014Z",
+      "queryHashes": [
+        "401e1af52a6f"
+      ],
+      "recallDays": [
+        "2026-04-30",
+        "2026-04-29"
+      ],
+      "conceptTags": [
+        "tee-ppt",
+        "我来",
+        "完成",
+        "这个",
+        "操作",
+        "首先",
+        "需要",
+        "检查"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-29.txt:2:2": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-29.txt:2:2",
+      "path": "memory/.dreams/session-corpus/2026-04-29.txt",
+      "startLine": 2,
+      "endLine": 2,
+      "source": "memory",
+      "snippet": "Assistant: 很好，我看到 TEE_PPT 文件夹确实存在于当前工作目录中。现在让我检查一下 ~/.openclaw/outputs/ 目录是否存在，然后创建 wxlee 子文件夹。",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-29T19:00:27.014Z",
+      "lastRecalledAt": "2026-04-29T19:00:27.014Z",
+      "queryHashes": [
+        "401e1af52a6f"
+      ],
+      "recallDays": [
+        "2026-04-30",
+        "2026-04-29"
+      ],
+      "conceptTags": [
+        "tee-ppt",
+        "openclaw/outputs",
+        "很好",
+        "我看到",
+        "文件",
+        "确实",
+        "存在",
+        "当前"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-29.txt:3:3": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-29.txt:3:3",
+      "path": "memory/.dreams/session-corpus/2026-04-29.txt",
+      "startLine": 3,
+      "endLine": 3,
+      "source": "memory",
+      "snippet": "Assistant: 我看到 outputs 目录已经存在。现在让我创建 wxlee 子文件夹，然后移动 TEE_PPT 文件夹。",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-29T19:00:27.014Z",
+      "lastRecalledAt": "2026-04-29T19:00:27.014Z",
+      "queryHashes": [
+        "401e1af52a6f"
+      ],
+      "recallDays": [
+        "2026-04-30",
+        "2026-04-29"
+      ],
+      "conceptTags": [
+        "tee-ppt",
+        "我看到",
+        "outputs",
+        "目录",
+        "已经",
+        "存在",
+        "现在",
+        "创建"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-29.txt:4:4": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-29.txt:4:4",
+      "path": "memory/.dreams/session-corpus/2026-04-29.txt",
+      "startLine": 4,
+      "endLine": 4,
+      "source": "memory",
+      "snippet": "Assistant: 现在移动 TEE_PPT 文件夹到目标位置：",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-29T19:00:27.014Z",
+      "lastRecalledAt": "2026-04-29T19:00:27.014Z",
+      "queryHashes": [
+        "401e1af52a6f"
+      ],
+      "recallDays": [
+        "2026-04-30",
+        "2026-04-29"
+      ],
+      "conceptTags": [
+        "tee-ppt",
+        "现在",
+        "移动",
+        "文件",
+        "目标",
+        "位置"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-29.txt:5:5": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-29.txt:5:5",
+      "path": "memory/.dreams/session-corpus/2026-04-29.txt",
+      "startLine": 5,
+      "endLine": 5,
+      "source": "memory",
+      "snippet": "Assistant: 让我验证一下移动是否成功，并查看当前目录和目标目录的内容：",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-29T19:00:27.014Z",
+      "lastRecalledAt": "2026-04-29T19:00:27.014Z",
+      "queryHashes": [
+        "401e1af52a6f"
+      ],
+      "recallDays": [
+        "2026-04-30",
+        "2026-04-29"
+      ],
+      "conceptTags": [
+        "验证",
+        "一下",
+        "移动",
+        "是否",
+        "成功",
+        "查看",
+        "当前",
+        "目录"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-29.txt:6:6": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-29.txt:6:6",
+      "path": "memory/.dreams/session-corpus/2026-04-29.txt",
+      "startLine": 6,
+      "endLine": 6,
+      "source": "memory",
+      "snippet": "Assistant: 任务完成！我已经成功： 1. **创建了目标文件夹**：在 `~/.openclaw/outputs/` 目录下创建了 `wxlee` 文件夹 2. **移动了 TEE_PPT 文件夹**：将工作目录中的 `TEE_PPT` 文件夹移动到了 `~/.openclaw/outputs/wxlee/` 目录下 **验证结果**： - ✅ 当前工作目录中已无 `TEE_PPT` 文件夹 - ✅ 目标位置 `~/.openclaw/outputs/wxlee/TEE_PPT` 已存在且包含内容 操作已完成，TEE_PPT 文件夹现在位于 `",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-29T19:00:27.014Z",
+      "lastRecalledAt": "2026-04-29T19:00:27.014Z",
+      "queryHashes": [
+        "401e1af52a6f"
+      ],
+      "recallDays": [
+        "2026-04-30",
+        "2026-04-29"
+      ],
+      "conceptTags": [
+        "openclaw/outputs",
+        "tee-ppt",
+        "openclaw/outputs/wxlee",
+        "openclaw/outputs/wxlee/tee-ppt",
+        "任务",
+        "完成",
+        "已经",
+        "成功"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-29.txt:7:7": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-29.txt:7:7",
+      "path": "memory/.dreams/session-corpus/2026-04-29.txt",
+      "startLine": 7,
+      "endLine": 7,
+      "source": "memory",
+      "snippet": "User: [message_id: om_x100b502a3d68a0a4eea14f14f08a92b] ou_9e18438fb941decf11a0b88d78fe2b50: 请在 ~/.openclaw/outputs/ 目录新建 wxlee 文件夹，然后将 你工作目录里的 TEE_PPT 移动过去",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-29T19:00:27.014Z",
+      "lastRecalledAt": "2026-04-29T19:00:27.014Z",
+      "queryHashes": [
+        "401e1af52a6f"
+      ],
+      "recallDays": [
+        "2026-04-30",
+        "2026-04-29"
+      ],
+      "conceptTags": [
+        "message-id",
+        "openclaw/outputs",
+        "tee-ppt",
+        "请在",
+        "openclaw",
+        "outputs",
+        "目录",
+        "新建"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-29.txt:8:8": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-29.txt:8:8",
+      "path": "memory/.dreams/session-corpus/2026-04-29.txt",
+      "startLine": 8,
+      "endLine": 8,
+      "source": "memory",
+      "snippet": "User: [message_id: om_x100b50155cb61ca8eea3b34572c858b] ou_9e18438fb941decf11a0b88d78fe2b50: 我看了你做的 TEE ppt，感觉太偏商业了，我需要一个讲 TEE技术的",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-29T19:00:27.014Z",
+      "lastRecalledAt": "2026-04-29T19:00:27.014Z",
+      "queryHashes": [
+        "401e1af52a6f"
+      ],
+      "recallDays": [
+        "2026-04-30",
+        "2026-04-29"
+      ],
+      "conceptTags": [
+        "message-id",
+        "看了",
+        "做的",
+        "tee",
+        "ppt",
+        "感觉",
+        "商业",
+        "需要"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-29.txt:9:9": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-29.txt:9:9",
+      "path": "memory/.dreams/session-corpus/2026-04-29.txt",
+      "startLine": 9,
+      "endLine": 9,
+      "source": "memory",
+      "snippet": "Assistant: 主公所言极是。TEE技术本身是硬核的技术话题，确实应该以技术深度为核心。让我先查看一下现有的TEE_PPT内容，然后为您重新规划一个技术导向的TEE技术讲解PPT。",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-29T19:00:27.014Z",
+      "lastRecalledAt": "2026-04-29T19:00:27.014Z",
+      "queryHashes": [
+        "401e1af52a6f"
+      ],
+      "recallDays": [
+        "2026-04-30",
+        "2026-04-29"
+      ],
+      "conceptTags": [
+        "让我先查看一下现有的tee-ppt内容",
+        "公所",
+        "tee",
+        "技术",
+        "本身",
+        "话题",
+        "确实",
+        "应该"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-29.txt:10:10": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-29.txt:10:10",
+      "path": "memory/.dreams/session-corpus/2026-04-29.txt",
+      "startLine": 10,
+      "endLine": 10,
+      "source": "memory",
+      "snippet": "Assistant: 我需要查看目录中的文件内容：",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-29T19:00:27.014Z",
+      "lastRecalledAt": "2026-04-29T19:00:27.014Z",
+      "queryHashes": [
+        "401e1af52a6f"
+      ],
+      "recallDays": [
+        "2026-04-30",
+        "2026-04-29"
+      ],
+      "conceptTags": [
+        "需要",
+        "查看",
+        "目录",
+        "中的",
+        "文件",
+        "内容"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-29.txt:11:11": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-29.txt:11:11",
+      "path": "memory/.dreams/session-corpus/2026-04-29.txt",
+      "startLine": 11,
+      "endLine": 11,
+      "source": "memory",
+      "snippet": "Assistant: 让我查看一下现有的PPT内容，了解其商业偏向：",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-29T19:00:27.014Z",
+      "lastRecalledAt": "2026-04-29T19:00:27.014Z",
+      "queryHashes": [
+        "401e1af52a6f"
+      ],
+      "recallDays": [
+        "2026-04-30",
+        "2026-04-29"
+      ],
+      "conceptTags": [
+        "查看",
+        "一下",
+        "现有",
+        "ppt",
+        "内容",
+        "了解",
+        "商业",
+        "偏向"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-29.txt:12:12": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-29.txt:12:12",
+      "path": "memory/.dreams/session-corpus/2026-04-29.txt",
+      "startLine": 12,
+      "endLine": 12,
+      "source": "memory",
+      "snippet": "Assistant: 我明白了。这个PPT确实非常偏向商业应用和商业模式，技术深度不够。主公需要的是一个**纯技术导向的TEE技术讲解PPT**。 让我为您创建一个全新的技术深度PPT大纲： ## **TEE技术深度解析：从硬件原理到安全模型** ### **核心大纲（技术深度导向）** **第一部分：TEE硬件架构基础** 1. **CPU安全扩展演进史** - 从特权级到硬件隔离的演进 - Intel SGX、AMD SEV-SNP、ARM TrustZone的技术对比 - RISC-V Keystone等开源实现 2. **SGX飞地技术深度解析*",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-29T19:00:27.014Z",
+      "lastRecalledAt": "2026-04-29T19:00:27.014Z",
+      "queryHashes": [
+        "401e1af52a6f"
+      ],
+      "recallDays": [
+        "2026-04-30",
+        "2026-04-29"
+      ],
+      "conceptTags": [
+        "sev-snp",
+        "risc-v",
+        "明白",
+        "这个",
+        "ppt",
+        "确实",
+        "非常",
+        "偏向"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-29.txt:13:13": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-29.txt:13:13",
+      "path": "memory/.dreams/session-corpus/2026-04-29.txt",
+      "startLine": 13,
+      "endLine": 13,
+      "source": "memory",
+      "snippet": "Assistant: **TEE威胁模型分析** - 假设攻击者能力：特权软件、物理访问 - 安全边界：TEE vs REE（Rich Execution Environment） - 攻击面分析：系统调用、内存管理、中断处理 **第三部分：TEE软件开发实践** 7. **SGX SDK深度使用** - Enclave定义语言（EDL）语法详解 - 可信与不可信边界设计模式 - 内存分配与管理：malloc vs sgx_malloc - 异常处理与安全退出机制 8. **Gramine与Occlum轻量级框架** - 系统调用代理与封装 - 文件系统",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-29T19:00:27.014Z",
+      "lastRecalledAt": "2026-04-29T19:00:27.014Z",
+      "queryHashes": [
+        "401e1af52a6f"
+      ],
+      "recallDays": [
+        "2026-04-30",
+        "2026-04-29"
+      ],
+      "conceptTags": [
+        "sgx-malloc",
+        "tee",
+        "威胁",
+        "模型",
+        "分析",
+        "假设",
+        "攻击",
+        "能力"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-29.txt:14:14": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-29.txt:14:14",
+      "path": "memory/.dreams/session-corpus/2026-04-29.txt",
+      "startLine": 14,
+      "endLine": 14,
+      "source": "memory",
+      "snippet": "Assistant: 监控与审计：可验证日志方案 - 故障恢复与高可用性设计 **第六部分：动手实验与代码示例** 14. **SGX Hello World深度解析** - 完整代码逐行讲解 - Makefile构建流程 - 签名与部署过程 - 调试技巧与工具链使用 15. **实际案例：TEE中的机器学习推理** - 模型加密与加载 - 安全数据预处理 - 推理过程保护 - 结果验证与输出 --- 主公，这个大纲是否更符合您对技术深度的要求？我可以为您： 1. **创建完整的Markdown格式PPT**（每页详细技术内容） 2. **添加代码示例和",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-29T19:00:27.014Z",
+      "lastRecalledAt": "2026-04-29T19:00:27.014Z",
+      "queryHashes": [
+        "401e1af52a6f"
+      ],
+      "recallDays": [
+        "2026-04-30",
+        "2026-04-29"
+      ],
+      "conceptTags": [
+        "审计",
+        "验证",
+        "日志",
+        "方案",
+        "故障",
+        "恢复",
+        "可用性",
+        "设计"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-29.txt:15:15": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-29.txt:15:15",
+      "path": "memory/.dreams/session-corpus/2026-04-29.txt",
+      "startLine": 15,
+      "endLine": 15,
+      "source": "memory",
+      "snippet": "User: [message_id: om_x100b50156ed78caceeaced48017e1e8] ou_9e18438fb941decf11a0b88d78fe2b50: 可以集中讲解核心技术与原理",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-29T19:00:27.014Z",
+      "lastRecalledAt": "2026-04-29T19:00:27.014Z",
+      "queryHashes": [
+        "401e1af52a6f"
+      ],
+      "recallDays": [
+        "2026-04-30",
+        "2026-04-29"
+      ],
+      "conceptTags": [
+        "message-id",
+        "可以",
+        "集中",
+        "讲解",
+        "核心",
+        "技术",
+        "原理"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-29.txt:16:16": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-29.txt:16:16",
+      "path": "memory/.dreams/session-corpus/2026-04-29.txt",
+      "startLine": 16,
+      "endLine": 16,
+      "source": "memory",
+      "snippet": "Assistant: 收到！主公要求集中讲解核心技术与原理，我将为您创建一个**纯技术深度**的TEE核心原理PPT。 让我在 `~/.openclaw/outputs/wxlee/` 目录下创建一个新的技术深度PPT：",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-29T19:00:27.014Z",
+      "lastRecalledAt": "2026-04-29T19:00:27.014Z",
+      "queryHashes": [
+        "401e1af52a6f"
+      ],
+      "recallDays": [
+        "2026-04-30",
+        "2026-04-29"
+      ],
+      "conceptTags": [
+        "openclaw/outputs/wxlee",
+        "收到",
+        "主公",
+        "要求",
+        "集中",
+        "讲解",
+        "核心",
+        "技术"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-29.txt:17:17": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-29.txt:17:17",
+      "path": "memory/.dreams/session-corpus/2026-04-29.txt",
+      "startLine": 17,
+      "endLine": 17,
+      "source": "memory",
+      "snippet": "Assistant: 主公，我已为您创建了一个**纯技术深度**的TEE核心技术PPT。这个PPT完全集中在技术原理和实现细节上： ## 📋 **技术PPT核心特点** **1. 纯技术导向**：移除了所有商业模式和应用场景，专注于： - 硬件架构原理（SGX/SEV/TrustZone） - 安全模型与证明机制 - 侧信道攻击与防护 - 性能分析与优化 **2. 深度技术细节**： - CPU微架构级别的安全扩展 - 内存加密的硬件实现机制 - 远程证明的协议栈细节 - 侧信道攻击的数学原理 **3. 实用开发内容**： - SGX开发工具链完整流程",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-29T19:00:27.014Z",
+      "lastRecalledAt": "2026-04-29T19:00:27.014Z",
+      "queryHashes": [
+        "401e1af52a6f"
+      ],
+      "recallDays": [
+        "2026-04-30",
+        "2026-04-29"
+      ],
+      "conceptTags": [
+        "sgx/sev/trustzone",
+        "主公",
+        "创建",
+        "一个",
+        "技术",
+        "深度",
+        "tee",
+        "核心"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-29.txt:18:18": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-29.txt:18:18",
+      "path": "memory/.dreams/session-corpus/2026-04-29.txt",
+      "startLine": 18,
+      "endLine": 18,
+      "source": "memory",
+      "snippet": "Assistant: **性能分析**：边界切换开销、加密延迟、优化策略 5. **安全机制**：侧信道防护、恒定时间编程、完整性验证 这个PPT适合： - 技术团队内部培训 - 架构师技术选型评估 - 安全研究员深入研究 - 开发者实际项目参考 主公是否需要对某个技术点进行更深入的扩展？或者需要我生成HTML/PDF版本以便演示？",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-29T19:00:27.014Z",
+      "lastRecalledAt": "2026-04-29T19:00:27.014Z",
+      "queryHashes": [
+        "401e1af52a6f"
+      ],
+      "recallDays": [
+        "2026-04-30",
+        "2026-04-29"
+      ],
+      "conceptTags": [
+        "或者需要我生成html/pdf版本以便演示",
+        "性能",
+        "分析",
+        "边界",
+        "切换",
+        "开销",
+        "加密",
+        "延迟"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-29.txt:19:19": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-29.txt:19:19",
+      "path": "memory/.dreams/session-corpus/2026-04-29.txt",
+      "startLine": 19,
+      "endLine": 19,
+      "source": "memory",
+      "snippet": "User: [message_id: om_x100b501538fe7ca0eea9b4df9310008] ou_9e18438fb941decf11a0b88d78fe2b50: html的，生产的文件请放到你的专属输出目录 ～/.openclaw/outputs/wxlee",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-29T19:00:27.014Z",
+      "lastRecalledAt": "2026-04-29T19:00:27.014Z",
+      "queryHashes": [
+        "401e1af52a6f"
+      ],
+      "recallDays": [
+        "2026-04-30",
+        "2026-04-29"
+      ],
+      "conceptTags": [
+        "message-id",
+        "openclaw/outputs/wxlee",
+        "html",
+        "生产",
+        "文件",
+        "放到",
+        "你的",
+        "专属"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-29.txt:20:20": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-29.txt:20:20",
+      "path": "memory/.dreams/session-corpus/2026-04-29.txt",
+      "startLine": 20,
+      "endLine": 20,
+      "source": "memory",
+      "snippet": "Assistant: 主公，我来将Markdown格式的TEE技术PPT转换为HTML版本，并放到我的专属输出目录。 首先，让我检查一下现有的Markdown文件，然后使用工具转换为HTML：",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-29T19:00:27.014Z",
+      "lastRecalledAt": "2026-04-29T19:00:27.014Z",
+      "queryHashes": [
+        "401e1af52a6f"
+      ],
+      "recallDays": [
+        "2026-04-30",
+        "2026-04-29"
+      ],
+      "conceptTags": [
+        "主公",
+        "我来",
+        "markdown",
+        "格式",
+        "tee",
+        "技术",
+        "ppt",
+        "转换"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-29.txt:21:21": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-29.txt:21:21",
+      "path": "memory/.dreams/session-corpus/2026-04-29.txt",
+      "startLine": 21,
+      "endLine": 21,
+      "source": "memory",
+      "snippet": "Assistant: 现在我将创建一个HTML转换工具脚本，将Markdown转换为美观的HTML演示文稿：",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-29T19:00:27.014Z",
+      "lastRecalledAt": "2026-04-29T19:00:27.014Z",
+      "queryHashes": [
+        "401e1af52a6f"
+      ],
+      "recallDays": [
+        "2026-04-30",
+        "2026-04-29"
+      ],
+      "conceptTags": [
+        "现在",
+        "创建",
+        "一个",
+        "html",
+        "转换",
+        "工具",
+        "脚本",
+        "markdown"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-29.txt:22:22": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-29.txt:22:22",
+      "path": "memory/.dreams/session-corpus/2026-04-29.txt",
+      "startLine": 22,
+      "endLine": 22,
+      "source": "memory",
+      "snippet": "Assistant: 现在运行转换脚本生成HTML演示文稿：",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-29T19:00:27.014Z",
+      "lastRecalledAt": "2026-04-29T19:00:27.014Z",
+      "queryHashes": [
+        "401e1af52a6f"
+      ],
+      "recallDays": [
+        "2026-04-30",
+        "2026-04-29"
+      ],
+      "conceptTags": [
+        "现在",
+        "运行",
+        "转换",
+        "脚本",
+        "生成",
+        "html",
+        "演示",
+        "文稿"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-29.txt:23:23": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-29.txt:23:23",
+      "path": "memory/.dreams/session-corpus/2026-04-29.txt",
+      "startLine": 23,
+      "endLine": 23,
+      "source": "memory",
+      "snippet": "Assistant: 让我使用python3：",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-29T19:00:27.014Z",
+      "lastRecalledAt": "2026-04-29T19:00:27.014Z",
+      "queryHashes": [
+        "401e1af52a6f"
+      ],
+      "recallDays": [
+        "2026-04-30",
+        "2026-04-29"
+      ],
+      "conceptTags": [
+        "使用",
+        "python3"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-29.txt:24:24": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-29.txt:24:24",
+      "path": "memory/.dreams/session-corpus/2026-04-29.txt",
+      "startLine": 24,
+      "endLine": 24,
+      "source": "memory",
+      "snippet": "Assistant: 很好！HTML演示文稿已经生成。现在让我创建一个更美观的增强版HTML，使用更现代的CSS和交互功能：",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-29T19:00:27.014Z",
+      "lastRecalledAt": "2026-04-29T19:00:27.014Z",
+      "queryHashes": [
+        "401e1af52a6f"
+      ],
+      "recallDays": [
+        "2026-04-30",
+        "2026-04-29"
+      ],
+      "conceptTags": [
+        "很好",
+        "html",
+        "演示",
+        "文稿",
+        "已经",
+        "生成",
+        "现在",
+        "创建"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-29.txt:25:25": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-29.txt:25:25",
+      "path": "memory/.dreams/session-corpus/2026-04-29.txt",
+      "startLine": 25,
+      "endLine": 25,
+      "source": "memory",
+      "snippet": "Assistant: 现在让我验证一下生成的文件，并创建一个简单的README说明文件：",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-29T19:00:27.014Z",
+      "lastRecalledAt": "2026-04-29T19:00:27.014Z",
+      "queryHashes": [
+        "401e1af52a6f"
+      ],
+      "recallDays": [
+        "2026-04-30",
+        "2026-04-29"
+      ],
+      "conceptTags": [
+        "现在",
+        "验证",
+        "一下",
+        "生成",
+        "文件",
+        "创建",
+        "一个",
+        "简单"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-29.txt:26:26": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-29.txt:26:26",
+      "path": "memory/.dreams/session-corpus/2026-04-29.txt",
+      "startLine": 26,
+      "endLine": 26,
+      "source": "memory",
+      "snippet": "Assistant: 让我创建一个README文件，说明这些文件的内容和用途：",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-29T19:00:27.014Z",
+      "lastRecalledAt": "2026-04-29T19:00:27.014Z",
+      "queryHashes": [
+        "401e1af52a6f"
+      ],
+      "recallDays": [
+        "2026-04-30",
+        "2026-04-29"
+      ],
+      "conceptTags": [
+        "创建",
+        "一个",
+        "readme",
+        "文件",
+        "说明",
+        "这些",
+        "内容",
+        "用途"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-29.txt:27:27": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-29.txt:27:27",
+      "path": "memory/.dreams/session-corpus/2026-04-29.txt",
+      "startLine": 27,
+      "endLine": 27,
+      "source": "memory",
+      "snippet": "Assistant: 现在让我验证所有文件都已正确创建，并提供一个快速预览：",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-29T19:00:27.014Z",
+      "lastRecalledAt": "2026-04-29T19:00:27.014Z",
+      "queryHashes": [
+        "401e1af52a6f"
+      ],
+      "recallDays": [
+        "2026-04-30",
+        "2026-04-29"
+      ],
+      "conceptTags": [
+        "现在",
+        "验证",
+        "所有",
+        "文件",
+        "正确",
+        "创建",
+        "提供",
+        "一个"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-29.txt:28:28": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-29.txt:28:28",
+      "path": "memory/.dreams/session-corpus/2026-04-29.txt",
+      "startLine": 28,
+      "endLine": 28,
+      "source": "memory",
+      "snippet": "Assistant: 主公，我已成功为您创建了**纯技术深度**的TEE技术HTML演示文稿！ ## 📋 **完成的工作** ### 1. **创建了三个核心文件** ``` ~/.openclaw/outputs/wxlee/ ├── TEE_Tech_Presentation_Enhanced.html # 🎯 推荐使用 - 现代交互式HTML ├── TEE_Technical_Presentation.html # 基础HTML版本 └── TEE_Technical_Core.md # 原始Markdown技术内容 ``` ### 2. *",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-29T19:00:27.014Z",
+      "lastRecalledAt": "2026-04-29T19:00:27.014Z",
+      "queryHashes": [
+        "401e1af52a6f"
+      ],
+      "recallDays": [
+        "2026-04-30",
+        "2026-04-29"
+      ],
+      "conceptTags": [
+        "openclaw/outputs/wxlee",
+        "tee-technical-presentation.html",
+        "tee-technical-core.md",
+        "主公",
+        "成功",
+        "创建",
+        "技术",
+        "深度"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-29.txt:29:29": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-29.txt:29:29",
+      "path": "memory/.dreams/session-corpus/2026-04-29.txt",
+      "startLine": 29,
+      "endLine": 29,
+      "source": "memory",
+      "snippet": "Assistant: **性能优化**：开销分析与策略 9. **开发实践**：工具链与调试 10. **前沿研究**：跨厂商互操作 11. **总结展望**：技术趋势预测 12. **术语表**：核心术语定义 13. **参考文献**：权威资料索引 ### 5. **使用方式** ```bash # 在浏览器中打开（推荐使用Chrome/Firefox） cd ~/.openclaw/outputs/wxlee open TEE_Tech_Presentation_Enhanced.html # macOS xdg-open TEE_Tech_Pres",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-29T19:00:27.014Z",
+      "lastRecalledAt": "2026-04-29T19:00:27.014Z",
+      "queryHashes": [
+        "401e1af52a6f"
+      ],
+      "recallDays": [
+        "2026-04-30",
+        "2026-04-29"
+      ],
+      "conceptTags": [
+        "推荐使用chrome/firefox",
+        "openclaw/outputs/wxlee",
+        "xdg-open",
+        "tee-tech-pres",
+        "性能",
+        "开销",
+        "分析",
+        "策略"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-29.txt:30:30": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-29.txt:30:30",
+      "path": "memory/.dreams/session-corpus/2026-04-29.txt",
+      "startLine": 30,
+      "endLine": 30,
+      "source": "memory",
+      "snippet": "Assistant: 主公可以直接在浏览器中打开查看，适合技术培训、架构设计参考或学习研究使用。",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-29T19:00:27.014Z",
+      "lastRecalledAt": "2026-04-29T19:00:27.014Z",
+      "queryHashes": [
+        "401e1af52a6f"
+      ],
+      "recallDays": [
+        "2026-04-30",
+        "2026-04-29"
+      ],
+      "conceptTags": [
+        "主公",
+        "可以",
+        "直接",
+        "浏览",
+        "打开",
+        "查看",
+        "适合",
+        "技术"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-29.txt:31:31": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-29.txt:31:31",
+      "path": "memory/.dreams/session-corpus/2026-04-29.txt",
+      "startLine": 31,
+      "endLine": 31,
+      "source": "memory",
+      "snippet": "User: [message_id: om_x100b50162ec688a4ee7302642e86a64] ou_9e18438fb941decf11a0b88d78fe2b50: 有没有更通俗一点的，讲解一下可信执行环境的核心原理，以及在skill资产化上的应用",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-29T19:00:27.014Z",
+      "lastRecalledAt": "2026-04-29T19:00:27.014Z",
+      "queryHashes": [
+        "401e1af52a6f"
+      ],
+      "recallDays": [
+        "2026-04-30",
+        "2026-04-29"
+      ],
+      "conceptTags": [
+        "message-id",
+        "没有",
+        "通俗",
+        "一点",
+        "讲解",
+        "一下",
+        "可信",
+        "执行"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-29.txt:32:32": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-29.txt:32:32",
+      "path": "memory/.dreams/session-corpus/2026-04-29.txt",
+      "startLine": 32,
+      "endLine": 32,
+      "source": "memory",
+      "snippet": "Assistant: 主公，我来为您创建一个**通俗易懂**的TEE原理讲解，并说明在Skill资产化中的应用。 让我创建一个新的通俗版本：",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-29T19:00:27.014Z",
+      "lastRecalledAt": "2026-04-29T19:00:27.014Z",
+      "queryHashes": [
+        "401e1af52a6f"
+      ],
+      "recallDays": [
+        "2026-04-30",
+        "2026-04-29"
+      ],
+      "conceptTags": [
+        "主公",
+        "我来",
+        "创建",
+        "一个",
+        "通俗",
+        "易懂",
+        "tee",
+        "原理"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-29.txt:33:33": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-29.txt:33:33",
+      "path": "memory/.dreams/session-corpus/2026-04-29.txt",
+      "startLine": 33,
+      "endLine": 33,
+      "source": "memory",
+      "snippet": "Assistant: 现在让我将这个通俗版本也转换为HTML，方便查看：",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-29T19:00:27.014Z",
+      "lastRecalledAt": "2026-04-29T19:00:27.014Z",
+      "queryHashes": [
+        "401e1af52a6f"
+      ],
+      "recallDays": [
+        "2026-04-30",
+        "2026-04-29"
+      ],
+      "conceptTags": [
+        "现在",
+        "这个",
+        "通俗",
+        "版本",
+        "转换",
+        "html",
+        "方便",
+        "查看"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-29.txt:34:34": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-29.txt:34:34",
+      "path": "memory/.dreams/session-corpus/2026-04-29.txt",
+      "startLine": 34,
+      "endLine": 34,
+      "source": "memory",
+      "snippet": "Assistant: 现在让我更新README文件，包含通俗版本的信息：",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-29T19:00:27.014Z",
+      "lastRecalledAt": "2026-04-29T19:00:27.014Z",
+      "queryHashes": [
+        "401e1af52a6f"
+      ],
+      "recallDays": [
+        "2026-04-30",
+        "2026-04-29"
+      ],
+      "conceptTags": [
+        "现在",
+        "更新",
+        "readme",
+        "文件",
+        "包含",
+        "通俗",
+        "版本",
+        "信息"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-29.txt:35:35": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-29.txt:35:35",
+      "path": "memory/.dreams/session-corpus/2026-04-29.txt",
+      "startLine": 35,
+      "endLine": 35,
+      "source": "memory",
+      "snippet": "Assistant: 让我验证所有文件都已创建：",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-29T19:00:27.014Z",
+      "lastRecalledAt": "2026-04-29T19:00:27.014Z",
+      "queryHashes": [
+        "401e1af52a6f"
+      ],
+      "recallDays": [
+        "2026-04-30",
+        "2026-04-29"
+      ],
+      "conceptTags": [
+        "验证",
+        "所有",
+        "文件",
+        "创建"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-29.txt:36:36": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-29.txt:36:36",
+      "path": "memory/.dreams/session-corpus/2026-04-29.txt",
+      "startLine": 36,
+      "endLine": 36,
+      "source": "memory",
+      "snippet": "Assistant: 主公，我已为您创建了**通俗易懂**的TEE原理讲解及Skill资产化应用说明！ ## 📋 **完成的工作** ### 1. **创建了两个新文件（通俗版本）** ``` ~/.openclaw/outputs/wxlee/ ├── TEE_Popular_Explanation.html # 🎯 推荐使用 - 通俗易懂HTML版本 ├── TEE_通俗讲解.md # 通俗版Markdown原始内容 ``` ### 2. **通俗版本的核心特点** ✅ **用比喻讲解复杂概念**： - TEE = **数字世界的\"保险箱\" +",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-29T19:00:27.014Z",
+      "lastRecalledAt": "2026-04-29T19:00:27.014Z",
+      "queryHashes": [
+        "401e1af52a6f"
+      ],
+      "recallDays": [
+        "2026-04-30",
+        "2026-04-29"
+      ],
+      "conceptTags": [
+        "openclaw/outputs/wxlee",
+        "tee-popular-explanation.html",
+        "tee-通俗讲解.md",
+        "主公",
+        "创建",
+        "通俗",
+        "易懂",
+        "tee"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-29.txt:37:37": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-29.txt:37:37",
+      "path": "memory/.dreams/session-corpus/2026-04-29.txt",
+      "startLine": 37,
+      "endLine": 37,
+      "source": "memory",
+      "snippet": "Assistant: TrustZone | 大楼安全屋 | 安全系统 | 手机、物联网 | #### **第三部分：Skill资产化应用** **问题**： 1. 开发者：代码开源→价值流失，闭源→缺乏信任 2. 用户：担心隐私泄露 3. 市场：无法确权，难以交易 **TEE解决方案**： ``` 开发者创建Skill → 加密打包上链 → 用户购买使用权 → 在TEE中安全执行 → 自动收益分配 ``` **实际案例**： - **金融风控Skill**：大银行卖模型，小银行按次使用 - **医疗诊断AI**：医院间共享模型，不泄露病历数据 ####",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-29T19:00:27.014Z",
+      "lastRecalledAt": "2026-04-29T19:00:27.014Z",
+      "queryHashes": [
+        "401e1af52a6f"
+      ],
+      "recallDays": [
+        "2026-04-30",
+        "2026-04-29"
+      ],
+      "conceptTags": [
+        "trustzone",
+        "大楼",
+        "安全",
+        "系统",
+        "手机",
+        "第三",
+        "部分",
+        "skill"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-29.txt:38:38": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-29.txt:38:38",
+      "path": "memory/.dreams/session-corpus/2026-04-29.txt",
+      "startLine": 38,
+      "endLine": 38,
+      "source": "memory",
+      "snippet": "Assistant: **创业者**：探索Skill资产化商业模式 - **初学者**：TEE入门学习 **阅读方式**： ```bash # 在浏览器中打开通俗版本 cd ~/.openclaw/outputs/wxlee open TEE_Popular_Explanation.html # macOS xdg-open TEE_Popular_Explanation.html # Linux ``` ### 6. **与之前技术版本的对比** | 维度 | **通俗版本** | **技术深度版本** | |------|--------------",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-29T19:00:27.014Z",
+      "lastRecalledAt": "2026-04-29T19:00:27.014Z",
+      "queryHashes": [
+        "401e1af52a6f"
+      ],
+      "recallDays": [
+        "2026-04-30",
+        "2026-04-29"
+      ],
+      "conceptTags": [
+        "openclaw/outputs/wxlee",
+        "tee-popular-explanation.html",
+        "xdg-open",
+        "创业",
+        "探索",
+        "skill",
+        "资产",
+        "商业"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-29.txt:39:39": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-29.txt:39:39",
+      "path": "memory/.dreams/session-corpus/2026-04-29.txt",
+      "startLine": 39,
+      "endLine": 39,
+      "source": "memory",
+      "snippet": "Assistant: `TEE_Popular_Explanation.html` 在浏览器中查看，内容用生动的比喻和实际案例解释了TEE的核心原理及其在Skill资产化中的应用。",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-29T19:00:27.014Z",
+      "lastRecalledAt": "2026-04-29T19:00:27.014Z",
+      "queryHashes": [
+        "401e1af52a6f"
+      ],
+      "recallDays": [
+        "2026-04-30",
+        "2026-04-29"
+      ],
+      "conceptTags": [
+        "tee-popular-explanation.html",
+        "浏览",
+        "查看",
+        "内容",
+        "生动",
+        "比喻",
+        "实际",
+        "案例"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-30.txt:1:1": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-30.txt:1:1",
+      "path": "memory/.dreams/session-corpus/2026-04-30.txt",
+      "startLine": 1,
+      "endLine": 1,
+      "source": "memory",
+      "snippet": "User: [message_id: om_x100b50176ad52ca0ee8af825cb8ceb0] ou_9e18438fb941decf11a0b88d78fe2b50: 另外给我来一个Intel SGX 技术使用文档，在skill 资产化场景中我该如何构建TEE环境，",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-29T19:00:27.014Z",
+      "lastRecalledAt": "2026-04-29T19:00:27.014Z",
+      "queryHashes": [
+        "cf3cd2e1e340"
+      ],
+      "recallDays": [
+        "2026-04-30",
+        "2026-04-29"
+      ],
+      "conceptTags": [
+        "message-id",
+        "另外",
+        "我来",
+        "一个",
+        "intel",
+        "sgx",
+        "技术",
+        "使用"
       ]
     }
   }

@@ -15,6 +15,20 @@
       "lineCount": 4,
       "lastContentLine": 4
     },
+    "wxlee:sessions/76159854-1c9c-4b5a-987b-a94da17731d4.jsonl": {
+      "mtimeMs": 1777480847875,
+      "size": 617719,
+      "contentHash": "46ee5f94e5aa1d0b4954083c593cf4898e8f2beb573090e87d33c49b4624d4dc",
+      "lineCount": 95,
+      "lastContentLine": 78
+    },
+    "wxlee:sessions/76159854-1c9c-4b5a-987b-a94da17731d4.trajectory.jsonl": {
+      "mtimeMs": 1777480848051,
+      "size": 2192299,
+      "contentHash": "75a11da44c802486bc6f65640aa48a730f0f684c5c07a42ba3cd1735eb3fb070",
+      "lineCount": 0,
+      "lastContentLine": 0
+    },
     "wxlee:sessions/83a40fea-0ecc-4a7e-a16d-6e90ed6a7f42.jsonl": {
       "mtimeMs": 1775117149143,
       "size": 2194879,
@@ -35,13 +49,6 @@
       "contentHash": "2f0938e30caf529d1f662b4b4bcd9bf1315bbad55089c748730a7a9c46d26c95",
       "lineCount": 2,
       "lastContentLine": 2
-    },
-    "wxlee:sessions/e04747da-ba3a-47a7-ae1d-c17de60b42c2.jsonl.reset.2026-04-18T15-53-45.003Z": {
-      "mtimeMs": 1776384713267,
-      "size": 96841,
-      "contentHash": "033d20c4f2bfd53bd26e7cb5dc37af26c4bc04fb319adcb0643312e290a9678a",
-      "lineCount": 6,
-      "lastContentLine": 6
     },
     "wxlee:sessions/e1fbf128-d921-40c9-82ef-0efd40d6b21e.jsonl": {
       "mtimeMs": 1777381246091,
@@ -64,12 +71,12 @@
       "lineCount": 2727,
       "lastContentLine": 2727
     },
-    "wxlee:sessions/f0bce47c-796a-4778-8e1d-f4d644a4d035.jsonl": {
+    "wxlee:sessions/f0bce47c-796a-4778-8e1d-f4d644a4d035.jsonl.reset.2026-04-29T11-10-51.658Z": {
       "mtimeMs": 1777308409928,
       "size": 680442,
-      "contentHash": "ad9b2e55459c9e92c5bd9793e2c76d8fde84f3c135d780b9af50ef6f9c25083b",
-      "lineCount": 44,
-      "lastContentLine": 44
+      "contentHash": "75a11da44c802486bc6f65640aa48a730f0f684c5c07a42ba3cd1735eb3fb070",
+      "lineCount": 0,
+      "lastContentLine": 0
     },
     "wxlee:sessions/f0bce47c-796a-4778-8e1d-f4d644a4d035.trajectory.jsonl": {
       "mtimeMs": 1777308410028,
@@ -194,6 +201,47 @@
       "fad0f32765c28a3048133d11777ae4ed4402eb99",
       "f68094aba79f0b95f1c6a4442d87c9cfae1316ab"
     ],
-    "wxlee:e1fbf128-d921-40c9-82ef-0efd40d6b21e.trajectory": []
+    "wxlee:76159854-1c9c-4b5a-987b-a94da17731d4": [
+      "7a73045b1ab4cd39782e7c80ac6925aef31a52cf",
+      "6e72a36fc7f0ab0d86174c0f563f642d1ae56e00",
+      "d60f6d155569033d091620c7fc3e10115a15e63f",
+      "2335e8ff5511acbee7da9bf43e1f9d4398de2ad1",
+      "f12cf01c3bca497f78b7e4e69b011054efb2f6b6",
+      "1cb6889edc8a609e3952d752febff8e653aa3c63",
+      "0228be52cfaa868eba2834f8af43fd40e5314cea",
+      "3314aff18ae4efc49413915b38f13b168d0d0d3f",
+      "a8c475f4d10b5b5fa0034dfeda8fef02314c3555",
+      "0021c123a23738c5f7d80bc9118d35e1f5b7331f",
+      "8d9349c4d3412275428cd2b4c9c4aec3f249021c",
+      "96aac4a4586ed13fc37fb5025899a675a3afd7b4",
+      "008780f31bf4c8213f121190cc33fc37dd72a188",
+      "df8b6cd7526b93c65b37c1239314ed753f98ca45",
+      "c2b3660f3d67f8365a2028789233d4154a54e0f1",
+      "9739b35c5061a6f208f5a7d27ae876b4def23edc",
+      "bb36d9546102ac4b5489241543b7509969e11061",
+      "8b829caff20b05bb71e3cbd1605e6291d2472c39",
+      "ca77d4ef0e4c44dd1e72ecbd8d24d86a6b99af75",
+      "0f44b856072ccb946b39b577665f4766dadfce0d",
+      "4428f91c2679fdf79e80e9434a46d4f16be9ccab",
+      "69a58facd2a37f4d91bfb88ff9d055f0fa0f9c8d",
+      "5dda9fd103f2fe9c7c6bdd3e9261d66b665940f1",
+      "d02991c38472846ce3ca3bf5d61330789cf35bba",
+      "2e5536743f9cda8fbedd41b859f67f224c3bab85",
+      "c1698deb11cbe93f08b788c0afc282326ffb847c",
+      "d17747dea8d77d6b39236ca25fcb069a3ae53f1d",
+      "6ef7622d42d5c924fd1bdb10048af651ed0d3870",
+      "92ded1c0b96fc6b6b0cec00bef020d0f16232a3a",
+      "89217164881587afaa31274a57e35ad00fd493f7",
+      "421efa1c8a68f9e07d9c932b2a353c4dc5ecfd37",
+      "c55b7e20d8aa54d57cbf6301f613630ef228a6be",
+      "186e4a507f2b99995aa1a136482b132e29764139",
+      "6bf6236ca3b0e3f9e6244911e151c754b6268524",
+      "5fdb57a10f8b64346615c53f89915cc547a7d295",
+      "082f1252821523875718935d01d30033c633f874",
+      "215a9977131ec13b964ea520d05149e8dd22e5e1",
+      "d57b1eb456ce42a583a0d77144851f28762415e7",
+      "ce88ab57cccf64bfb9c230962bf597292c97bb84",
+      "77cf0cfa013c8ca93ccdada432a281d0c586c46f"
+    ]
   }
 }

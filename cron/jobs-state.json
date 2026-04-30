@@ -2,40 +2,40 @@
   "version": 1,
   "jobs": {
     "1c3a7bd5-d835-41d8-a14a-d2970f13d503": {
-      "updatedAtMs": 1777334529879,
+      "updatedAtMs": 1777420985146,
       "state": {
-        "nextRunAtMs": 1777420800000,
-        "lastRunAtMs": 1777334400004,
+        "nextRunAtMs": 1777507200000,
+        "lastRunAtMs": 1777420800003,
         "lastRunStatus": "ok",
         "lastStatus": "ok",
-        "lastDurationMs": 129875,
+        "lastDurationMs": 185143,
         "lastDeliveryStatus": "delivered",
         "consecutiveErrors": 0,
         "lastDelivered": true,
-        "runningAtMs": 1777420800002
+        "runningAtMs": 1777507200010
       }
     },
     "config-backup-8am": {
-      "updatedAtMs": 1777363269005,
+      "updatedAtMs": 1777449666026,
       "state": {
-        "nextRunAtMs": 1777449600000,
-        "lastRunAtMs": 1777363200006,
+        "nextRunAtMs": 1777536000000,
+        "lastRunAtMs": 1777449600003,
         "lastRunStatus": "ok",
         "lastStatus": "ok",
-        "lastDurationMs": 68999,
+        "lastDurationMs": 66023,
         "lastDeliveryStatus": "delivered",
         "consecutiveErrors": 0,
         "lastDelivered": true
       }
     },
     "8f62feb4-aed8-47fd-8093-29d8f97f4b71": {
-      "updatedAtMs": 1777402866492,
+      "updatedAtMs": 1777489269878,
       "state": {
-        "nextRunAtMs": 1777489200000,
-        "lastRunAtMs": 1777402800005,
+        "nextRunAtMs": 1777575600000,
+        "lastRunAtMs": 1777489200005,
         "lastRunStatus": "ok",
         "lastStatus": "ok",
-        "lastDurationMs": 66487,
+        "lastDurationMs": 69873,
         "lastDeliveryStatus": "not-requested",
         "consecutiveErrors": 0
       }
