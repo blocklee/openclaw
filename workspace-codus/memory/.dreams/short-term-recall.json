@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-04-29T19:00:52.095Z",
+  "updatedAt": "2026-04-30T19:00:37.553Z",
   "entries": {
     "memory:memory/.dreams/session-corpus/2026-04-11.txt:1:1": {
       "key": "memory:memory/.dreams/session-corpus/2026-04-11.txt:1:1",
@@ -8108,12 +8108,12 @@
       "source": "memory",
       "snippet": "Reflections: Theme: `assistant` kept surfacing across 74 memories.; confidence: 1.00; evidence: memory/2026-04-14.md:233-236, memory/2026-04-15.md:328-331, memory/2026-04-15.md:338-340; note: reflection",
       "recallCount": 0,
-      "dailyCount": 4,
+      "dailyCount": 5,
       "groundedCount": 0,
-      "totalScore": 2.48,
+      "totalScore": 3.1,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-23T19:07:19.429Z",
-      "lastRecalledAt": "2026-04-29T19:00:48.741Z",
+      "lastRecalledAt": "2026-04-30T19:00:37.553Z",
       "queryHashes": [
         "b7fd25b71b44"
       ],
@@ -8123,7 +8123,8 @@
         "2026-04-28",
         "2026-04-27",
         "2026-04-29",
-        "2026-04-30"
+        "2026-04-30",
+        "2026-05-01"
       ],
       "conceptTags": [
         "1.00",
@@ -8144,12 +8145,12 @@
       "source": "memory",
       "snippet": "Possible Lasting Truths: Possible Lasting Truths: Assistant: Okay, we can't use sudo to install system dependencies. Let's try a different approach: first, let's see if we can fetch the page HTML using curl (this won't execute JS but will give us static content). Then we can look",
       "recallCount": 0,
-      "dailyCount": 4,
+      "dailyCount": 5,
       "groundedCount": 0,
-      "totalScore": 2.48,
+      "totalScore": 3.1,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-23T19:07:19.429Z",
-      "lastRecalledAt": "2026-04-29T19:00:48.741Z",
+      "lastRecalledAt": "2026-04-30T19:00:37.553Z",
       "queryHashes": [
         "b7fd25b71b44"
       ],
@@ -8159,7 +8160,8 @@
         "2026-04-28",
         "2026-04-27",
         "2026-04-29",
-        "2026-04-30"
+        "2026-04-30",
+        "2026-05-01"
       ],
       "conceptTags": [
         "possible",
@@ -8181,12 +8183,12 @@
       "source": "memory",
       "snippet": "Reflections: Theme: `assistant` kept surfacing across 73 memories.; confidence: 1.00; evidence: memory/2026-04-14.md:233-236, memory/2026-04-15.md:328-331, memory/2026-04-15.md:338-340; note: reflection",
       "recallCount": 0,
-      "dailyCount": 4,
+      "dailyCount": 5,
       "groundedCount": 0,
-      "totalScore": 2.48,
+      "totalScore": 3.1,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-24T19:05:59.327Z",
-      "lastRecalledAt": "2026-04-29T19:00:48.741Z",
+      "lastRecalledAt": "2026-04-30T19:00:37.553Z",
       "queryHashes": [
         "409c33906af9"
       ],
@@ -8195,7 +8197,8 @@
         "2026-04-28",
         "2026-04-27",
         "2026-04-29",
-        "2026-04-30"
+        "2026-04-30",
+        "2026-05-01"
       ],
       "conceptTags": [
         "1.00",
@@ -8216,12 +8219,12 @@
       "source": "memory",
       "snippet": "Possible Lasting Truths: Possible Lasting Truths: Assistant: @Lucus 这是一个关于 **ECHO 势(Shi) 技术架构**的文档，总结如下： ## 核心概念 **「势」**是一个三维编织的动态系统，用时间、空间、关系三个维度配合64卦约束来管理数字资产。 ## 核心理念 - **实际生效配置** = 创作者意图 ∩ 物理法则范围 - **约束不是限制，而是生态的免疫系统** - 代码即法律，约束即保护，分叉即自由 ## 三维编织 | 维度 | 含义 | 档位 | |------|----",
       "recallCount": 0,
-      "dailyCount": 4,
+      "dailyCount": 5,
       "groundedCount": 0,
-      "totalScore": 2.48,
+      "totalScore": 3.1,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-24T19:05:59.327Z",
-      "lastRecalledAt": "2026-04-29T19:00:48.741Z",
+      "lastRecalledAt": "2026-04-30T19:00:37.553Z",
       "queryHashes": [
         "409c33906af9"
       ],
@@ -8230,7 +8233,8 @@
         "2026-04-28",
         "2026-04-27",
         "2026-04-29",
-        "2026-04-30"
+        "2026-04-30",
+        "2026-05-01"
       ],
       "conceptTags": [
         "possible",
@@ -8246,17 +8250,17 @@
     "memory:memory/2026-04-25.md:128:131": {
       "key": "memory:memory/2026-04-25.md:128:131",
       "path": "memory/2026-04-25.md",
-      "startLine": 128,
-      "endLine": 131,
+      "startLine": 88,
+      "endLine": 91,
       "source": "memory",
-      "snippet": "Reflections: Theme: `assistant` kept surfacing across 74 memories.; confidence: 1.00; evidence: memory/2026-04-14.md:233-236, memory/2026-04-15.md:328-331, memory/2026-04-15.md:338-340; note: reflection",
+      "snippet": "- Candidate: Reflections: Theme: `assistant` kept surfacing across 74 memories.; confidence: 1.00; evidence: memory/2026-04-14.md:233-236, memory/2026-04-15.md:328-331, memory/2026-04-15.md:338-340; note: reflection - confidence: 0.62 - evidence: memory/2026-04-23.md:173-176 - recalls: 0",
       "recallCount": 0,
-      "dailyCount": 3,
+      "dailyCount": 4,
       "groundedCount": 0,
-      "totalScore": 1.8599999999999999,
+      "totalScore": 2.48,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-25T19:03:45.966Z",
-      "lastRecalledAt": "2026-04-29T19:00:48.741Z",
+      "lastRecalledAt": "2026-04-30T19:00:37.553Z",
       "queryHashes": [
         "90c0a0f693f1"
       ],
@@ -8264,7 +8268,8 @@
         "2026-04-25",
         "2026-04-29",
         "2026-04-28",
-        "2026-04-30"
+        "2026-04-30",
+        "2026-05-01"
       ],
       "conceptTags": [
         "1.00",
@@ -8275,22 +8280,23 @@
         "338-340",
         "reflections",
         "theme"
-      ]
+      ],
+      "promotedAt": "2026-04-30T19:00:37.553Z"
     },
     "memory:memory/2026-04-25.md:134:136": {
       "key": "memory:memory/2026-04-25.md:134:136",
       "path": "memory/2026-04-25.md",
-      "startLine": 134,
-      "endLine": 136,
+      "startLine": 8,
+      "endLine": 10,
       "source": "memory",
-      "snippet": "Possible Lasting Truths: Possible Lasting Truths: Assistant: @Lucus 这是一个关于 **ECHO 势(Shi) 技术架构**的文档，总结如下： ## 核心概念 **「势」**是一个三维编织的动态系统，用时间、空间、关系三个维度配合64卦约束来管理数字资产。 ## 核心理念 - **实际生效配置** = 创作者意图 ∩ 物理法则范围 - **约束不是限制，而是生态的免疫系统** - 代码即法律，约束即保护，分叉即自由 ## 三维编织 | 维度 | 含义 | 档位 | |------|----",
+      "snippet": "- Candidate: Possible Lasting Truths: Possible Lasting Truths: Assistant: @Lucus 这是一个关于 **ECHO 势(Shi) 技术架构**的文档，总结如下： ## 核心概念 **「势」**是一个三维编织的动态系统，用时间、空间、关系三个维度配合64卦约束来管理数字资产。 ## 核心理念 - **实际生效配置** = 创作者意图 ∩ 物理法则范围 - **约束不是限制，而是生态的免疫系统** - 代码即法律，约束即保护，分叉即自由 ## 三维编织 | 维度 | 含义 | 档位 | |------|---- - confidence: 0.62 - evidence: memory/2026-04-24.md:139-141",
       "recallCount": 0,
-      "dailyCount": 3,
+      "dailyCount": 4,
       "groundedCount": 0,
-      "totalScore": 1.8599999999999999,
+      "totalScore": 2.48,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-25T19:03:45.966Z",
-      "lastRecalledAt": "2026-04-29T19:00:48.741Z",
+      "lastRecalledAt": "2026-04-30T19:00:37.553Z",
       "queryHashes": [
         "90c0a0f693f1"
       ],
@@ -8298,7 +8304,8 @@
         "2026-04-25",
         "2026-04-29",
         "2026-04-28",
-        "2026-04-30"
+        "2026-04-30",
+        "2026-05-01"
       ],
       "conceptTags": [
         "possible",
@@ -8309,7 +8316,8 @@
         "关于",
         "echo",
         "shi"
-      ]
+      ],
+      "promotedAt": "2026-04-30T19:00:37.553Z"
     },
     "memory:memory/2026-04-26.md:128:131": {
       "key": "memory:memory/2026-04-26.md:128:131",
@@ -8319,19 +8327,20 @@
       "source": "memory",
       "snippet": "Reflections: Theme: `assistant` kept surfacing across 74 memories.; confidence: 1.00; evidence: memory/2026-04-14.md:233-236, memory/2026-04-15.md:328-331, memory/2026-04-15.md:338-340; note: reflection",
       "recallCount": 0,
-      "dailyCount": 2,
+      "dailyCount": 3,
       "groundedCount": 0,
-      "totalScore": 1.24,
+      "totalScore": 1.8599999999999999,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-26T19:05:38.568Z",
-      "lastRecalledAt": "2026-04-29T19:00:48.741Z",
+      "lastRecalledAt": "2026-04-30T19:00:37.553Z",
       "queryHashes": [
         "9b4c3d373463"
       ],
       "recallDays": [
         "2026-04-26",
         "2026-04-30",
-        "2026-04-29"
+        "2026-04-29",
+        "2026-05-01"
       ],
       "conceptTags": [
         "1.00",
@@ -8352,19 +8361,20 @@
       "source": "memory",
       "snippet": "Possible Lasting Truths: Possible Lasting Truths: Assistant: @Lucus 这是一个关于 **ECHO 势(Shi) 技术架构**的文档，总结如下： ## 核心概念 **「势」**是一个三维编织的动态系统，用时间、空间、关系三个维度配合64卦约束来管理数字资产。 ## 核心理念 - **实际生效配置** = 创作者意图 ∩ 物理法则范围 - **约束不是限制，而是生态的免疫系统** - 代码即法律，约束即保护，分叉即自由 ## 三维编织 | 维度 | 含义 | 档位 | |------|----",
       "recallCount": 0,
-      "dailyCount": 2,
+      "dailyCount": 3,
       "groundedCount": 0,
-      "totalScore": 1.24,
+      "totalScore": 1.8599999999999999,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-26T19:05:38.568Z",
-      "lastRecalledAt": "2026-04-29T19:00:48.741Z",
+      "lastRecalledAt": "2026-04-30T19:00:37.553Z",
       "queryHashes": [
         "9b4c3d373463"
       ],
       "recallDays": [
         "2026-04-26",
         "2026-04-30",
-        "2026-04-29"
+        "2026-04-29",
+        "2026-05-01"
       ],
       "conceptTags": [
         "possible",
@@ -8533,18 +8543,20 @@
       "source": "memory",
       "snippet": "Reflections: Theme: `assistant` kept surfacing across 79 memories.; confidence: 1.00; evidence: memory/2026-04-14.md:233-236, memory/2026-04-15.md:328-331, memory/2026-04-15.md:338-340; note: reflection",
       "recallCount": 0,
-      "dailyCount": 1,
+      "dailyCount": 2,
       "groundedCount": 0,
-      "totalScore": 0.62,
+      "totalScore": 1.24,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-27T19:01:22.334Z",
-      "lastRecalledAt": "2026-04-27T19:01:22.334Z",
+      "lastRecalledAt": "2026-04-30T19:00:37.553Z",
       "queryHashes": [
         "6c24d11cf4d7"
       ],
       "recallDays": [
         "2026-04-28",
-        "2026-04-27"
+        "2026-04-27",
+        "2026-05-01",
+        "2026-04-30"
       ],
       "conceptTags": [
         "1.00",
@@ -8565,18 +8577,20 @@
       "source": "memory",
       "snippet": "Possible Lasting Truths: Possible Lasting Truths: Assistant: @Lucus 这是一个关于 **ECHO 势(Shi) 技术架构**的文档，总结如下： ## 核心概念 **「势」**是一个三维编织的动态系统，用时间、空间、关系三个维度配合64卦约束来管理数字资产。 ## 核心理念 - **实际生效配置** = 创作者意图 ∩ 物理法则范围 - **约束不是限制，而是生态的免疫系统** - 代码即法律，约束即保护，分叉即自由 ## 三维编织 | 维度 | 含义 | 档位 | |------|----",
       "recallCount": 0,
-      "dailyCount": 1,
+      "dailyCount": 2,
       "groundedCount": 0,
-      "totalScore": 0.62,
+      "totalScore": 1.24,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-27T19:01:22.334Z",
-      "lastRecalledAt": "2026-04-27T19:01:22.334Z",
+      "lastRecalledAt": "2026-04-30T19:00:37.553Z",
       "queryHashes": [
         "6c24d11cf4d7"
       ],
       "recallDays": [
         "2026-04-28",
-        "2026-04-27"
+        "2026-04-27",
+        "2026-05-01",
+        "2026-04-30"
       ],
       "conceptTags": [
         "possible",

@@ -64,3 +64,10 @@
 - - Candidate: Possible Lasting Truths: Possible Lasting Truths: Assistant: Okay, we can't use sudo to install system dependencies. Let's try a different approach: first, let's see if we can fetch the page HTML using curl (this won't execute JS but will give us static content). Then we can look - confidence: 0.62 - evidence: memory/2026-04-21.md:433-435 [score=0.845 recalls=0 avg=0.620 source=memory/2026-04-22.md:13-15]
 <!-- openclaw-memory-promotion:memory:memory/2026-04-23.md:179:181 -->
 - - Candidate: Possible Lasting Truths: Possible Lasting Truths: Assistant: Okay, we can't use sudo to install system dependencies. Let's try a different approach: first, let's see if we can fetch the page HTML using curl (this won't execute JS but will give us static content). Then we can look - confidence: 0.62 - evidence: memory/2026-04-21.md:433-435 [score=0.834 recalls=0 avg=0.620 source=memory/2026-04-23.md:98-100]
+
+## Promoted From Short-Term Memory (2026-05-01)
+
+<!-- openclaw-memory-promotion:memory:memory/2026-04-25.md:128:131 -->
+- - Candidate: Reflections: Theme: `assistant` kept surfacing across 74 memories.; confidence: 1.00; evidence: memory/2026-04-14.md:233-236, memory/2026-04-15.md:328-331, memory/2026-04-15.md:338-340; note: reflection - confidence: 0.62 - evidence: memory/2026-04-23.md:173-176 - recalls: 0 [score=0.856 recalls=0 avg=0.620 source=memory/2026-04-25.md:88-91]
+<!-- openclaw-memory-promotion:memory:memory/2026-04-25.md:134:136 -->
+- - Candidate: Possible Lasting Truths: Possible Lasting Truths: Assistant: @Lucus 这是一个关于 **ECHO 势(Shi) 技术架构**的文档，总结如下： ## 核心概念 **「势」**是一个三维编织的动态系统，用时间、空间、关系三个维度配合64卦约束来管理数字资产。 ## 核心理念 - **实际生效配置** = 创作者意图 ∩ 物理法则范围 - **约束不是限制，而是生态的免疫系统** - 代码即法律，约束即保护，分叉即自由 ## 三维编织 | 维度 | 含义 | 档位 | |------|---- - confidence: 0.62 - evidence: memory/2026-04-24.md:139-141 [score=0.856 recalls=0 avg=0.620 source=memory/2026-04-25.md:8-10]
