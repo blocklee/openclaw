@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-05-01T19:00:20.770Z",
+  "updatedAt": "2026-05-02T19:00:30.096Z",
   "entries": {
     "memory:memory/2026-04-12.md:6:6": {
       "key": "memory:memory/2026-04-12.md:6:6",
@@ -3397,12 +3397,12 @@
       "source": "memory",
       "snippet": "Reflections: No strong patterns surfaced.",
       "recallCount": 0,
-      "dailyCount": 5,
+      "dailyCount": 6,
       "groundedCount": 0,
-      "totalScore": 3.1,
+      "totalScore": 3.72,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-25T19:02:36.513Z",
-      "lastRecalledAt": "2026-05-01T19:00:20.770Z",
+      "lastRecalledAt": "2026-05-02T19:00:19.765Z",
       "queryHashes": [
         "90c0a0f693f1"
       ],
@@ -3412,7 +3412,8 @@
         "2026-04-28",
         "2026-04-30",
         "2026-05-01",
-        "2026-05-02"
+        "2026-05-02",
+        "2026-05-03"
       ],
       "conceptTags": [
         "reflections",
@@ -3430,12 +3431,12 @@
       "source": "memory",
       "snippet": "Possible Lasting Truths: Possible Lasting Truths: No strong candidate truths surfaced. [confidence=0.58 evidence=memory/2026-04-14.md:209-209]; Possible Lasting Truths: 事件: ⚠️ Something went wrong while processing your request. Please try again, or use /new to start a fresh sessi",
       "recallCount": 0,
-      "dailyCount": 5,
+      "dailyCount": 6,
       "groundedCount": 0,
-      "totalScore": 3.1,
+      "totalScore": 3.72,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-25T19:02:36.513Z",
-      "lastRecalledAt": "2026-05-01T19:00:20.770Z",
+      "lastRecalledAt": "2026-05-02T19:00:19.765Z",
       "queryHashes": [
         "90c0a0f693f1"
       ],
@@ -3445,7 +3446,8 @@
         "2026-04-28",
         "2026-04-30",
         "2026-05-01",
-        "2026-05-02"
+        "2026-05-02",
+        "2026-05-03"
       ],
       "conceptTags": [
         "0.58",
@@ -3462,17 +3464,17 @@
     "memory:memory/2026-04-26.md:98:98": {
       "key": "memory:memory/2026-04-26.md:98:98",
       "path": "memory/2026-04-26.md",
-      "startLine": 83,
-      "endLine": 83,
+      "startLine": 98,
+      "endLine": 98,
       "source": "memory",
-      "snippet": "- Candidate: Reflections: No strong patterns surfaced.",
+      "snippet": "Reflections: No strong patterns surfaced.",
       "recallCount": 0,
-      "dailyCount": 4,
+      "dailyCount": 5,
       "groundedCount": 0,
-      "totalScore": 2.48,
+      "totalScore": 3.1,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-26T19:04:32.762Z",
-      "lastRecalledAt": "2026-05-01T19:00:20.770Z",
+      "lastRecalledAt": "2026-05-02T19:00:19.765Z",
       "queryHashes": [
         "9b4c3d373463"
       ],
@@ -3481,7 +3483,8 @@
         "2026-04-30",
         "2026-04-29",
         "2026-05-01",
-        "2026-05-02"
+        "2026-05-02",
+        "2026-05-03"
       ],
       "conceptTags": [
         "reflections",
@@ -3499,12 +3502,12 @@
       "source": "memory",
       "snippet": "Possible Lasting Truths: Possible Lasting Truths: No strong candidate truths surfaced. [confidence=0.58 evidence=memory/2026-04-14.md:209-209]; Possible Lasting Truths: Possible Lasting Truths: No strong candidate truths surfaced. [confidence=0.58 evidence=memory/2026-04-14.md:20",
       "recallCount": 0,
-      "dailyCount": 4,
+      "dailyCount": 5,
       "groundedCount": 0,
-      "totalScore": 2.48,
+      "totalScore": 3.1,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-26T19:04:32.762Z",
-      "lastRecalledAt": "2026-05-01T19:00:20.770Z",
+      "lastRecalledAt": "2026-05-02T19:00:19.765Z",
       "queryHashes": [
         "9b4c3d373463"
       ],
@@ -3513,7 +3516,8 @@
         "2026-04-30",
         "2026-04-29",
         "2026-05-01",
-        "2026-05-02"
+        "2026-05-02",
+        "2026-05-03"
       ],
       "conceptTags": [
         "0.58",
@@ -3529,17 +3533,17 @@
     "memory:memory/2026-04-27.md:98:98": {
       "key": "memory:memory/2026-04-27.md:98:98",
       "path": "memory/2026-04-27.md",
-      "startLine": 83,
-      "endLine": 83,
+      "startLine": 98,
+      "endLine": 98,
       "source": "memory",
-      "snippet": "- Candidate: Reflections: No strong patterns surfaced.",
+      "snippet": "Reflections: No strong patterns surfaced.",
       "recallCount": 0,
-      "dailyCount": 3,
+      "dailyCount": 4,
       "groundedCount": 0,
-      "totalScore": 1.8599999999999999,
+      "totalScore": 2.48,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-27T19:01:12.638Z",
-      "lastRecalledAt": "2026-05-01T19:00:20.770Z",
+      "lastRecalledAt": "2026-05-02T19:00:19.765Z",
       "queryHashes": [
         "6c24d11cf4d7"
       ],
@@ -3548,7 +3552,8 @@
         "2026-04-27",
         "2026-05-01",
         "2026-04-30",
-        "2026-05-02"
+        "2026-05-02",
+        "2026-05-03"
       ],
       "conceptTags": [
         "reflections",
@@ -3561,17 +3566,17 @@
     "memory:memory/2026-04-27.md:101:103": {
       "key": "memory:memory/2026-04-27.md:101:103",
       "path": "memory/2026-04-27.md",
-      "startLine": 8,
-      "endLine": 10,
+      "startLine": 101,
+      "endLine": 103,
       "source": "memory",
-      "snippet": "- Candidate: Possible Lasting Truths: Possible Lasting Truths: No strong candidate truths surfaced. [confidence=0.58 evidence=memory/2026-04-14.md:209-209]; Possible Lasting Truths: Possible Lasting Truths: No strong candidate truths surfaced. [confidence=0.58 evidence=memory/2026-04-14.md:20 - confidence: 0.62 - evidence: memory/2026-04-26.md:101-103",
+      "snippet": "Possible Lasting Truths: Possible Lasting Truths: No strong candidate truths surfaced. [confidence=0.58 evidence=memory/2026-04-14.md:209-209]; Possible Lasting Truths: Possible Lasting Truths: No strong candidate truths surfaced. [confidence=0.58 evidence=memory/2026-04-14.md:20",
       "recallCount": 0,
-      "dailyCount": 3,
+      "dailyCount": 4,
       "groundedCount": 0,
-      "totalScore": 1.8599999999999999,
+      "totalScore": 2.48,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-27T19:01:12.638Z",
-      "lastRecalledAt": "2026-05-01T19:00:20.770Z",
+      "lastRecalledAt": "2026-05-02T19:00:19.765Z",
       "queryHashes": [
         "6c24d11cf4d7"
       ],
@@ -3580,7 +3585,8 @@
         "2026-04-27",
         "2026-05-01",
         "2026-04-30",
-        "2026-05-02"
+        "2026-05-02",
+        "2026-05-03"
       ],
       "conceptTags": [
         "0.58",
@@ -6906,6 +6912,535 @@
         "0-50",
         "节约用水",
         "合理"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-02.txt:11:11": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-02.txt:11:11",
+      "path": "memory/.dreams/session-corpus/2026-05-02.txt",
+      "startLine": 11,
+      "endLine": 11,
+      "source": "memory",
+      "snippet": "User: 帮我查询一下巴中到广元高速段，当前实时路况",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-02T19:00:19.765Z",
+      "lastRecalledAt": "2026-05-02T19:00:19.765Z",
+      "queryHashes": [
+        "815cc1934125"
+      ],
+      "recallDays": [
+        "2026-05-03",
+        "2026-05-02"
+      ],
+      "conceptTags": [
+        "查询",
+        "一下",
+        "广元",
+        "高速",
+        "当前"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-02.txt:12:12": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-02.txt:12:12",
+      "path": "memory/.dreams/session-corpus/2026-05-02.txt",
+      "startLine": 12,
+      "endLine": 12,
+      "source": "memory",
+      "snippet": "Assistant: 我需要搜索巴中到广元高速段的实时路况信息。让我先帮您查询一下。",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-02T19:00:19.765Z",
+      "lastRecalledAt": "2026-05-02T19:00:19.765Z",
+      "queryHashes": [
+        "815cc1934125"
+      ],
+      "recallDays": [
+        "2026-05-03",
+        "2026-05-02"
+      ],
+      "conceptTags": [
+        "需要",
+        "搜索",
+        "广元",
+        "高速",
+        "信息",
+        "我先",
+        "查询",
+        "一下"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-02.txt:13:13": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-02.txt:13:13",
+      "path": "memory/.dreams/session-corpus/2026-05-02.txt",
+      "startLine": 13,
+      "endLine": 13,
+      "source": "memory",
+      "snippet": "Assistant: 让我尝试更具体的查询，并访问一些实时路况网站：",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-02T19:00:19.765Z",
+      "lastRecalledAt": "2026-05-02T19:00:19.765Z",
+      "queryHashes": [
+        "815cc1934125"
+      ],
+      "recallDays": [
+        "2026-05-03",
+        "2026-05-02"
+      ],
+      "conceptTags": [
+        "尝试",
+        "具体",
+        "查询",
+        "访问",
+        "一些",
+        "网站"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-02.txt:14:14": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-02.txt:14:14",
+      "path": "memory/.dreams/session-corpus/2026-05-02.txt",
+      "startLine": 14,
+      "endLine": 14,
+      "source": "memory",
+      "snippet": "Assistant: 让我点击四川高速的链接来查看具体信息：",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-02T19:00:19.765Z",
+      "lastRecalledAt": "2026-05-02T19:00:19.765Z",
+      "queryHashes": [
+        "815cc1934125"
+      ],
+      "recallDays": [
+        "2026-05-03",
+        "2026-05-02"
+      ],
+      "conceptTags": [
+        "四川",
+        "高速",
+        "查看",
+        "具体",
+        "信息"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-02.txt:15:15": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-02.txt:15:15",
+      "path": "memory/.dreams/session-corpus/2026-05-02.txt",
+      "startLine": 15,
+      "endLine": 15,
+      "source": "memory",
+      "snippet": "Assistant: 让我尝试使用百度地图API查询一下，或者搜索更具体的路况信息：",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-02T19:00:19.765Z",
+      "lastRecalledAt": "2026-05-02T19:00:19.765Z",
+      "queryHashes": [
+        "815cc1934125"
+      ],
+      "recallDays": [
+        "2026-05-03",
+        "2026-05-02"
+      ],
+      "conceptTags": [
+        "尝试",
+        "使用",
+        "百度",
+        "地图",
+        "api",
+        "查询",
+        "一下",
+        "或者"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-02.txt:16:16": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-02.txt:16:16",
+      "path": "memory/.dreams/session-corpus/2026-05-02.txt",
+      "startLine": 16,
+      "endLine": 16,
+      "source": "memory",
+      "snippet": "Assistant: 让我搜索巴中到广元的具体高速公路名称，以及相关的实时信息：",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-02T19:00:19.765Z",
+      "lastRecalledAt": "2026-05-02T19:00:19.765Z",
+      "queryHashes": [
+        "815cc1934125"
+      ],
+      "recallDays": [
+        "2026-05-03",
+        "2026-05-02"
+      ],
+      "conceptTags": [
+        "搜索",
+        "广元",
+        "具体",
+        "高速公路",
+        "名称",
+        "以及",
+        "相关",
+        "信息"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-02.txt:17:17": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-02.txt:17:17",
+      "path": "memory/.dreams/session-corpus/2026-05-02.txt",
+      "startLine": 17,
+      "endLine": 17,
+      "source": "memory",
+      "snippet": "Assistant: 让我尝试搜索四川高速的官方实时路况信息：",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-02T19:00:19.765Z",
+      "lastRecalledAt": "2026-05-02T19:00:19.765Z",
+      "queryHashes": [
+        "815cc1934125"
+      ],
+      "recallDays": [
+        "2026-05-03",
+        "2026-05-02"
+      ],
+      "conceptTags": [
+        "尝试",
+        "搜索",
+        "四川",
+        "高速",
+        "官方",
+        "信息"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-02.txt:18:18": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-02.txt:18:18",
+      "path": "memory/.dreams/session-corpus/2026-05-02.txt",
+      "startLine": 18,
+      "endLine": 18,
+      "source": "memory",
+      "snippet": "Assistant: 让我访问四川交通厅的官方网站看看：",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-02T19:00:19.765Z",
+      "lastRecalledAt": "2026-05-02T19:00:19.765Z",
+      "queryHashes": [
+        "815cc1934125"
+      ],
+      "recallDays": [
+        "2026-05-03",
+        "2026-05-02"
+      ],
+      "conceptTags": [
+        "访问",
+        "四川",
+        "交通",
+        "官方",
+        "网站",
+        "看看"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-02.txt:19:19": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-02.txt:19:19",
+      "path": "memory/.dreams/session-corpus/2026-05-02.txt",
+      "startLine": 19,
+      "endLine": 19,
+      "source": "memory",
+      "snippet": "Assistant: 让我尝试访问四川智能公司的路网运行平台：",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-02T19:00:19.765Z",
+      "lastRecalledAt": "2026-05-02T19:00:19.765Z",
+      "queryHashes": [
+        "815cc1934125"
+      ],
+      "recallDays": [
+        "2026-05-03",
+        "2026-05-02"
+      ],
+      "conceptTags": [
+        "尝试",
+        "访问",
+        "四川",
+        "智能",
+        "公司",
+        "运行",
+        "平台"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-02.txt:20:20": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-02.txt:20:20",
+      "path": "memory/.dreams/session-corpus/2026-05-02.txt",
+      "startLine": 20,
+      "endLine": 20,
+      "source": "memory",
+      "snippet": "Assistant: 看起来这是需要交互的地图平台，我无法直接获取数据。让我尝试另一个路况查询网站：",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-02T19:00:19.765Z",
+      "lastRecalledAt": "2026-05-02T19:00:19.765Z",
+      "queryHashes": [
+        "815cc1934125"
+      ],
+      "recallDays": [
+        "2026-05-03",
+        "2026-05-02"
+      ],
+      "conceptTags": [
+        "看起来",
+        "需要",
+        "交互",
+        "地图",
+        "平台",
+        "无法",
+        "直接",
+        "获取"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-02.txt:21:21": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-02.txt:21:21",
+      "path": "memory/.dreams/session-corpus/2026-05-02.txt",
+      "startLine": 21,
+      "endLine": 21,
+      "source": "memory",
+      "snippet": "Assistant: 由于编码问题，让我尝试搜索最新的巴中到广元高速新闻：",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-02T19:00:19.765Z",
+      "lastRecalledAt": "2026-05-02T19:00:19.765Z",
+      "queryHashes": [
+        "815cc1934125"
+      ],
+      "recallDays": [
+        "2026-05-03",
+        "2026-05-02"
+      ],
+      "conceptTags": [
+        "由于",
+        "编码",
+        "问题",
+        "尝试",
+        "搜索",
+        "最新",
+        "广元",
+        "高速"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-02.txt:22:22": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-02.txt:22:22",
+      "path": "memory/.dreams/session-corpus/2026-05-02.txt",
+      "startLine": 22,
+      "endLine": 22,
+      "source": "memory",
+      "snippet": "Assistant: 让我访问这个查证宝网站看看巴中高速的具体路况：",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-02T19:00:19.765Z",
+      "lastRecalledAt": "2026-05-02T19:00:19.765Z",
+      "queryHashes": [
+        "815cc1934125"
+      ],
+      "recallDays": [
+        "2026-05-03",
+        "2026-05-02"
+      ],
+      "conceptTags": [
+        "访问",
+        "这个",
+        "查证",
+        "网站",
+        "看看",
+        "高速",
+        "具体"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-02.txt:23:23": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-02.txt:23:23",
+      "path": "memory/.dreams/session-corpus/2026-05-02.txt",
+      "startLine": 23,
+      "endLine": 23,
+      "source": "memory",
+      "snippet": "Assistant: 这些数据都是2019年的旧信息。让我搜索今天的最新路况信息：",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-02T19:00:19.765Z",
+      "lastRecalledAt": "2026-05-02T19:00:19.765Z",
+      "queryHashes": [
+        "815cc1934125"
+      ],
+      "recallDays": [
+        "2026-05-03",
+        "2026-05-02"
+      ],
+      "conceptTags": [
+        "这些",
+        "数据",
+        "都是",
+        "信息",
+        "搜索",
+        "今天",
+        "最新"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-02.txt:24:24": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-02.txt:24:24",
+      "path": "memory/.dreams/session-corpus/2026-05-02.txt",
+      "startLine": 24,
+      "endLine": 24,
+      "source": "memory",
+      "snippet": "Assistant: 让我查看新浪财经的这篇文章，看看是否有最新的四川高速路况：",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-02T19:00:19.765Z",
+      "lastRecalledAt": "2026-05-02T19:00:19.765Z",
+      "queryHashes": [
+        "815cc1934125"
+      ],
+      "recallDays": [
+        "2026-05-03",
+        "2026-05-02"
+      ],
+      "conceptTags": [
+        "查看",
+        "财经",
+        "这篇文章",
+        "看看",
+        "是否",
+        "最新",
+        "四川",
+        "高速"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-02.txt:25:25": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-02.txt:25:25",
+      "path": "memory/.dreams/session-corpus/2026-05-02.txt",
+      "startLine": 25,
+      "endLine": 25,
+      "source": "memory",
+      "snippet": "Assistant: 现在我有了最新的信息。让我也查看一下广元本地宝的网站：",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-02T19:00:19.765Z",
+      "lastRecalledAt": "2026-05-02T19:00:19.765Z",
+      "queryHashes": [
+        "815cc1934125"
+      ],
+      "recallDays": [
+        "2026-05-03",
+        "2026-05-02"
+      ],
+      "conceptTags": [
+        "现在",
+        "有了",
+        "最新",
+        "信息",
+        "我也",
+        "查看",
+        "一下",
+        "广元"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-02.txt:26:26": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-02.txt:26:26",
+      "path": "memory/.dreams/session-corpus/2026-05-02.txt",
+      "startLine": 26,
+      "endLine": 26,
+      "source": "memory",
+      "snippet": "Assistant: 基于我收集到的信息，我现在可以为您提供巴中到广元高速段的实时路况情况。 ## 巴中到广元高速段实时路况查询结果 **查询时间：** 2026年5月2日 09:00 UTC（约17:00 北京时间） ### 📊 **当前路况概述** 根据四川高速最新路况信息（截至2026年5月2日07时），巴中到广元的高速路段主要有以下情况： ### 🛣️ **相关高速公路信息** 1. **主要路线：** 巴中到广元主要通过G85银昆高速（巴南广段）和G5012恩广高速（广巴高速）连接 ### ⚠️ **施工及管制信息** 从最新路况信息中，我",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-02T19:00:19.765Z",
+      "lastRecalledAt": "2026-05-02T19:00:19.765Z",
+      "queryHashes": [
+        "815cc1934125"
+      ],
+      "recallDays": [
+        "2026-05-03",
+        "2026-05-02"
+      ],
+      "conceptTags": [
+        "基于",
+        "收集",
+        "信息",
+        "现在",
+        "可以",
+        "提供",
+        "广元",
+        "高速"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-02.txt:27:27": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-02.txt:27:27",
+      "path": "memory/.dreams/session-corpus/2026-05-02.txt",
+      "startLine": 27,
+      "endLine": 27,
+      "source": "memory",
+      "snippet": "Assistant: 巴陕高速有超限车辆管制，超限车辆需注意分流路线 - 夜间时段（0-6时）禁止危化品车辆通行 ### 📞 **查询建议** 由于实时路况可能随时变化，建议您： 1. **出发前查询：** 拨打四川高速公路服务热线 **028-12122** 2. **使用导航APP：** 如百度地图、高德地图等查看实时路况 3. **关注官方渠道：** 四川交通广播或官方微信公众号获取最新信息 ### 🎯 **军师建议** **如果您今天要出行：** - 建议提前30分钟出发，预留检查路况的时间 - 开启导航软件实时监测路况变化 - 如遇突发情况",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-02T19:00:19.765Z",
+      "lastRecalledAt": "2026-05-02T19:00:19.765Z",
+      "queryHashes": [
+        "815cc1934125"
+      ],
+      "recallDays": [
+        "2026-05-03",
+        "2026-05-02"
+      ],
+      "conceptTags": [
+        "0-6时",
+        "028-12122",
+        "高速",
+        "车辆",
+        "管制",
+        "注意",
+        "分流",
+        "路线"
       ]
     }
   }

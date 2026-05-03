@@ -24,3 +24,8 @@
 - - Candidate: Reflections: Theme: `assistant` kept surfacing across 38 memories.; confidence: 1.00; evidence: memory/2026-04-14.md:258-261, memory/2026-04-15.md:298-301, memory/2026-04-15.md:312-314; note: reflection - confidence: 0.62 - evidence: memory/2026-04-25.md:168-171 - recalls: 0 [score=0.856 recalls=0 avg=0.620 source=memory/2026-04-26.md:3-6]
 <!-- openclaw-memory-promotion:memory:memory/2026-04-26.md:154:156 -->
 - - Candidate: Possible Lasting Truths: Possible Lasting Truths: Assistant: ## 📊 Cron 任务运行状态检查报告 ### ✅ 数据库状态 - **数据库完整性**: ✅ 正常 - **上次修复时间**: 2026-04-10 16:22（约 15 分钟前） - **修复后运行**: ✅ 3/4 任务成功 ### 📋 任务执行情况 | 任务名称 | 状态 | 耗时 | 备注 | |---------|------|------|------| | config-backup-8am | ✅ succee - confidence: 0.62 - evidence: memory/2026-04-23.md:168-170 [score=0.856 recalls=0 avg=0.620 source=memory/2026-04-26.md:138-140]
+
+## Promoted From Short-Term Memory (2026-05-03)
+
+<!-- openclaw-memory-promotion:memory:memory/2026-04-27.md:166:168 -->
+- - Candidate: Possible Lasting Truths: Possible Lasting Truths: Assistant: ## 📊 Cron 任务运行状态检查报告 ### ✅ 数据库状态 - **数据库完整性**: ✅ 正常 - **上次修复时间**: 2026-04-10 16:22（约 15 分钟前） - **修复后运行**: ✅ 3/4 任务成功 ### 📋 任务执行情况 | 任务名称 | 状态 | 耗时 | 备注 | |---------|------|------|------| | config-backup-8am | ✅ succee - confidence: 0.62 - evidence: memory/2026-04-24.md:179-181 [score=0.861 recalls=0 avg=0.620 source=memory/2026-04-27.md:138-140]
