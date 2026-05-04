@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-05-02T19:00:02.035Z",
+  "updatedAt": "2026-05-03T19:00:01.572Z",
   "entries": {
     "memory:memory/.dreams/session-corpus/2026-04-11.txt:1:1": {
       "key": "memory:memory/.dreams/session-corpus/2026-04-11.txt:1:1",
@@ -10270,12 +10270,12 @@
       "source": "memory",
       "snippet": "Reflections: Theme: `assistant` kept surfacing across 65 memories.; confidence: 0.98; evidence: memory/2026-04-14.md:317-320, memory/2026-04-15.md:282-285, memory/2026-04-15.md:288-290; note: reflection",
       "recallCount": 0,
-      "dailyCount": 5,
+      "dailyCount": 6,
       "groundedCount": 0,
-      "totalScore": 3.1,
+      "totalScore": 3.72,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-26T19:00:01.648Z",
-      "lastRecalledAt": "2026-05-02T19:00:02.035Z",
+      "lastRecalledAt": "2026-05-03T19:00:01.572Z",
       "queryHashes": [
         "9b4c3d373463"
       ],
@@ -10285,7 +10285,8 @@
         "2026-04-29",
         "2026-05-01",
         "2026-05-02",
-        "2026-05-03"
+        "2026-05-03",
+        "2026-05-04"
       ],
       "conceptTags": [
         "0.98",
@@ -10306,12 +10307,12 @@
       "source": "memory",
       "snippet": "Reflections: Theme: `user` kept surfacing across 56 memories.; confidence: 0.85; evidence: memory/2026-04-14.md:313-316, memory/2026-04-15.md:278-281, memory/2026-04-16.md:218-221; note: reflection",
       "recallCount": 0,
-      "dailyCount": 5,
+      "dailyCount": 6,
       "groundedCount": 0,
-      "totalScore": 3.1,
+      "totalScore": 3.72,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-26T19:00:01.648Z",
-      "lastRecalledAt": "2026-05-02T19:00:02.035Z",
+      "lastRecalledAt": "2026-05-03T19:00:01.572Z",
       "queryHashes": [
         "9b4c3d373463"
       ],
@@ -10321,7 +10322,8 @@
         "2026-04-29",
         "2026-05-01",
         "2026-05-02",
-        "2026-05-03"
+        "2026-05-03",
+        "2026-05-04"
       ],
       "conceptTags": [
         "0.85",
@@ -10342,12 +10344,12 @@
       "source": "memory",
       "snippet": "Possible Lasting Truths: Possible Lasting Truths: Assistant: [[reply_to_current]] ## ECHO 势体系技术文档总结 这是 **ECHO Shi Framework (势体系)** 的技术文档首页，介绍了该项目的核心组成部分： ### 核心模块 1. **势枢核心 v1.0** - 包含时间维、空间维、关系维三维编织的元结构定义，基础架构已确认 2. **势场聚类 v1.0** - 从势枢涌现出64个势场区域，使用DBSCAN聚类算法，每周进行测绘并以文化命名，核心机制已确",
       "recallCount": 0,
-      "dailyCount": 5,
+      "dailyCount": 6,
       "groundedCount": 0,
-      "totalScore": 3.1,
+      "totalScore": 3.72,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-26T19:00:01.648Z",
-      "lastRecalledAt": "2026-05-02T19:00:02.035Z",
+      "lastRecalledAt": "2026-05-03T19:00:01.572Z",
       "queryHashes": [
         "9b4c3d373463"
       ],
@@ -10357,7 +10359,8 @@
         "2026-04-29",
         "2026-05-01",
         "2026-05-02",
-        "2026-05-03"
+        "2026-05-03",
+        "2026-05-04"
       ],
       "conceptTags": [
         "reply-to-current",
@@ -10563,12 +10566,12 @@
       "source": "memory",
       "snippet": "Reflections: Theme: `assistant` kept surfacing across 67 memories.; confidence: 0.98; evidence: memory/2026-04-14.md:317-320, memory/2026-04-15.md:282-285, memory/2026-04-15.md:288-290; note: reflection",
       "recallCount": 0,
-      "dailyCount": 4,
+      "dailyCount": 5,
       "groundedCount": 0,
-      "totalScore": 2.48,
+      "totalScore": 3.1,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-27T19:00:25.602Z",
-      "lastRecalledAt": "2026-05-02T19:00:02.035Z",
+      "lastRecalledAt": "2026-05-03T19:00:01.572Z",
       "queryHashes": [
         "6c24d11cf4d7"
       ],
@@ -10578,7 +10581,8 @@
         "2026-05-01",
         "2026-04-30",
         "2026-05-02",
-        "2026-05-03"
+        "2026-05-03",
+        "2026-05-04"
       ],
       "conceptTags": [
         "0.98",
@@ -10599,12 +10603,12 @@
       "source": "memory",
       "snippet": "Reflections: Theme: `user` kept surfacing across 57 memories.; confidence: 0.83; evidence: memory/2026-04-14.md:313-316, memory/2026-04-15.md:278-281, memory/2026-04-16.md:218-221; note: reflection",
       "recallCount": 0,
-      "dailyCount": 4,
+      "dailyCount": 5,
       "groundedCount": 0,
-      "totalScore": 2.48,
+      "totalScore": 3.1,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-27T19:00:25.602Z",
-      "lastRecalledAt": "2026-05-02T19:00:02.035Z",
+      "lastRecalledAt": "2026-05-03T19:00:01.572Z",
       "queryHashes": [
         "6c24d11cf4d7"
       ],
@@ -10614,7 +10618,8 @@
         "2026-05-01",
         "2026-04-30",
         "2026-05-02",
-        "2026-05-03"
+        "2026-05-03",
+        "2026-05-04"
       ],
       "conceptTags": [
         "0.83",
@@ -10630,17 +10635,17 @@
     "memory:memory/2026-04-27.md:308:310": {
       "key": "memory:memory/2026-04-27.md:308:310",
       "path": "memory/2026-04-27.md",
-      "startLine": 183,
-      "endLine": 185,
+      "startLine": 308,
+      "endLine": 310,
       "source": "memory",
-      "snippet": "- Candidate: Possible Lasting Truths: Possible Lasting Truths: Assistant: [[reply_to_current]] ## ECHO 势体系技术文档总结 这是 **ECHO Shi Framework (势体系)** 的技术文档首页，介绍了该项目的核心组成部分： ### 核心模块 1. **势枢核心 v1.0** - 包含时间维、空间维、关系维三维编织的元结构定义，基础架构已确认 2. **势场聚类 v1.0** - 从势枢涌现出64个势场区域，使用DBSCAN聚类算法，每周进行测绘并以文化命名，核心机制已确 - confidence: 0.62 - evidence: memory/2026-04-24.md:283-285",
+      "snippet": "Possible Lasting Truths: Possible Lasting Truths: Assistant: [[reply_to_current]] ## ECHO 势体系技术文档总结 这是 **ECHO Shi Framework (势体系)** 的技术文档首页，介绍了该项目的核心组成部分： ### 核心模块 1. **势枢核心 v1.0** - 包含时间维、空间维、关系维三维编织的元结构定义，基础架构已确认 2. **势场聚类 v1.0** - 从势枢涌现出64个势场区域，使用DBSCAN聚类算法，每周进行测绘并以文化命名，核心机制已确",
       "recallCount": 0,
-      "dailyCount": 4,
+      "dailyCount": 5,
       "groundedCount": 0,
-      "totalScore": 2.48,
+      "totalScore": 3.1,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-27T19:00:25.602Z",
-      "lastRecalledAt": "2026-05-02T19:00:02.035Z",
+      "lastRecalledAt": "2026-05-03T19:00:01.572Z",
       "queryHashes": [
         "6c24d11cf4d7"
       ],
@@ -10650,7 +10655,8 @@
         "2026-05-01",
         "2026-04-30",
         "2026-05-02",
-        "2026-05-03"
+        "2026-05-03",
+        "2026-05-04"
       ],
       "conceptTags": [
         "reply-to-current",
