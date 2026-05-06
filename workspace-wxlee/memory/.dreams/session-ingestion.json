@@ -22,12 +22,12 @@
       "lineCount": 0,
       "lastContentLine": 0
     },
-    "wxlee:sessions/76159854-1c9c-4b5a-987b-a94da17731d4.jsonl": {
+    "wxlee:sessions/76159854-1c9c-4b5a-987b-a94da17731d4.jsonl.reset.2026-05-05T10-52-15.995Z": {
       "mtimeMs": 1777480847875,
       "size": 617719,
-      "contentHash": "46ee5f94e5aa1d0b4954083c593cf4898e8f2beb573090e87d33c49b4624d4dc",
-      "lineCount": 95,
-      "lastContentLine": 95
+      "contentHash": "75a11da44c802486bc6f65640aa48a730f0f684c5c07a42ba3cd1735eb3fb070",
+      "lineCount": 0,
+      "lastContentLine": 0
     },
     "wxlee:sessions/76159854-1c9c-4b5a-987b-a94da17731d4.trajectory.jsonl": {
       "mtimeMs": 1777480848051,
@@ -60,6 +60,20 @@
     "wxlee:sessions/8e749a61-94b5-47d8-817b-26ad4f8e8b6f.trajectory.jsonl": {
       "mtimeMs": 1777712646814,
       "size": 320067,
+      "contentHash": "75a11da44c802486bc6f65640aa48a730f0f684c5c07a42ba3cd1735eb3fb070",
+      "lineCount": 0,
+      "lastContentLine": 0
+    },
+    "wxlee:sessions/99718c78-05d0-4955-9ce8-9021163b90f9.jsonl": {
+      "mtimeMs": 1777978647195,
+      "size": 18356,
+      "contentHash": "124b6490b36641b41a92b51772a9f1711f62dec11e888408c722d2cd0042a4d1",
+      "lineCount": 14,
+      "lastContentLine": 14
+    },
+    "wxlee:sessions/99718c78-05d0-4955-9ce8-9021163b90f9.trajectory.jsonl": {
+      "mtimeMs": 1777978647255,
+      "size": 405003,
       "contentHash": "75a11da44c802486bc6f65640aa48a730f0f684c5c07a42ba3cd1735eb3fb070",
       "lineCount": 0,
       "lastContentLine": 0
@@ -360,6 +374,15 @@
       "6a4dc50b0069b2e33b3cff17916f1197bdb0973f",
       "295ca4253cdbba80f93f56bda7f4c09c9d8834a8"
     ],
-    "wxlee:c53204d9-dbc4-4634-8048-77f4d3c7ca91.trajectory": []
+    "wxlee:99718c78-05d0-4955-9ce8-9021163b90f9": [
+      "6422701b3c573078b6095d3670116c4945250ce3",
+      "fd877a6a84a73630fb9779cbbafe6ae719dc61bb",
+      "6d0f416a15ace38a784707835faaadc8e948370c",
+      "ecc22100ffd45af9b6a29711d2816a7856fe7b15",
+      "e4c18918c35c899f36e39012c572dcc55962ba9f",
+      "783b92fb988f04ed49f98422cfd8fc89e0611448",
+      "b45f9f613013913dea7d235036bc39b16d0e67ca"
+    ],
+    "wxlee:99718c78-05d0-4955-9ce8-9021163b90f9.trajectory": []
   }
 }
