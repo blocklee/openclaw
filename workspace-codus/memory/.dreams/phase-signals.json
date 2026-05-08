@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-05-06T19:00:28.721Z",
+  "updatedAt": "2026-05-07T19:00:27.243Z",
   "entries": {
     "memory:memory/.dreams/session-corpus/2026-04-11.txt:1:1": {
       "key": "memory:memory/.dreams/session-corpus/2026-04-11.txt:1:1",
@@ -998,8 +998,9 @@
     "memory:memory/2026-04-23.md:173:176": {
       "key": "memory:memory/2026-04-23.md:173:176",
       "lightHits": 10,
-      "remHits": 0,
-      "lastLightAt": "2026-05-03T19:00:23.223Z"
+      "remHits": 1,
+      "lastLightAt": "2026-05-03T19:00:23.223Z",
+      "lastRemAt": "2026-05-07T19:00:27.243Z"
     },
     "memory:memory/2026-04-23.md:179:181": {
       "key": "memory:memory/2026-04-23.md:179:181",
@@ -1010,15 +1011,16 @@
     "memory:memory/2026-04-24.md:133:136": {
       "key": "memory:memory/2026-04-24.md:133:136",
       "lightHits": 10,
-      "remHits": 0,
-      "lastLightAt": "2026-05-04T19:00:23.203Z"
+      "remHits": 1,
+      "lastLightAt": "2026-05-04T19:00:23.203Z",
+      "lastRemAt": "2026-05-07T19:00:27.243Z"
     },
     "memory:memory/2026-04-24.md:139:141": {
       "key": "memory:memory/2026-04-24.md:139:141",
       "lightHits": 10,
-      "remHits": 6,
+      "remHits": 7,
       "lastLightAt": "2026-05-04T19:00:23.203Z",
-      "lastRemAt": "2026-05-06T19:00:28.721Z"
+      "lastRemAt": "2026-05-07T19:00:27.243Z"
     },
     "memory:memory/2026-04-25.md:128:131": {
       "key": "memory:memory/2026-04-25.md:128:131",
@@ -1076,15 +1078,15 @@
     },
     "memory:memory/2026-04-27.md:148:151": {
       "key": "memory:memory/2026-04-27.md:148:151",
-      "lightHits": 10,
+      "lightHits": 11,
       "remHits": 0,
-      "lastLightAt": "2026-05-06T19:00:28.721Z"
+      "lastLightAt": "2026-05-07T19:00:27.243Z"
     },
     "memory:memory/2026-04-27.md:154:156": {
       "key": "memory:memory/2026-04-27.md:154:156",
-      "lightHits": 10,
+      "lightHits": 11,
       "remHits": 0,
-      "lastLightAt": "2026-05-06T19:00:28.721Z"
+      "lastLightAt": "2026-05-07T19:00:27.243Z"
     }
   }
 }

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-05-06T19:00:06.558Z",
+  "updatedAt": "2026-05-07T19:00:06.326Z",
   "entries": {
     "memory:memory/.dreams/session-corpus/2026-04-11.txt:1:1": {
       "key": "memory:memory/.dreams/session-corpus/2026-04-11.txt:1:1",
@@ -939,8 +939,9 @@
     "memory:memory/2026-04-24.md:173:176": {
       "key": "memory:memory/2026-04-24.md:173:176",
       "lightHits": 10,
-      "remHits": 0,
-      "lastLightAt": "2026-05-04T19:00:05.584Z"
+      "remHits": 1,
+      "lastLightAt": "2026-05-04T19:00:05.584Z",
+      "lastRemAt": "2026-05-07T19:00:06.326Z"
     },
     "memory:memory/2026-04-24.md:179:181": {
       "key": "memory:memory/2026-04-24.md:179:181",
@@ -951,8 +952,9 @@
     "memory:memory/2026-04-25.md:168:171": {
       "key": "memory:memory/2026-04-25.md:168:171",
       "lightHits": 10,
-      "remHits": 0,
-      "lastLightAt": "2026-05-05T19:00:06.604Z"
+      "remHits": 1,
+      "lastLightAt": "2026-05-05T19:00:06.604Z",
+      "lastRemAt": "2026-05-07T19:00:06.326Z"
     },
     "memory:memory/2026-04-25.md:174:176": {
       "key": "memory:memory/2026-04-25.md:174:176",
@@ -974,28 +976,28 @@
     },
     "memory:memory/2026-04-27.md:148:151": {
       "key": "memory:memory/2026-04-27.md:148:151",
-      "lightHits": 10,
+      "lightHits": 11,
       "remHits": 0,
-      "lastLightAt": "2026-05-06T19:00:06.558Z"
+      "lastLightAt": "2026-05-07T19:00:06.326Z"
     },
     "memory:memory/2026-04-27.md:156:159": {
       "key": "memory:memory/2026-04-27.md:156:159",
-      "lightHits": 10,
-      "remHits": 1,
-      "lastLightAt": "2026-05-06T19:00:06.558Z",
-      "lastRemAt": "2026-05-06T19:00:06.558Z"
+      "lightHits": 11,
+      "remHits": 2,
+      "lastLightAt": "2026-05-07T19:00:06.326Z",
+      "lastRemAt": "2026-05-07T19:00:06.326Z"
     },
     "memory:memory/2026-04-27.md:160:163": {
       "key": "memory:memory/2026-04-27.md:160:163",
-      "lightHits": 10,
+      "lightHits": 11,
       "remHits": 0,
-      "lastLightAt": "2026-05-06T19:00:06.558Z"
+      "lastLightAt": "2026-05-07T19:00:06.326Z"
     },
     "memory:memory/2026-04-27.md:166:168": {
       "key": "memory:memory/2026-04-27.md:166:168",
-      "lightHits": 10,
+      "lightHits": 11,
       "remHits": 0,
-      "lastLightAt": "2026-05-06T19:00:06.558Z"
+      "lastLightAt": "2026-05-07T19:00:06.326Z"
     },
     "memory:memory/.dreams/session-corpus/2026-04-27.txt:1:1": {
       "key": "memory:memory/.dreams/session-corpus/2026-04-27.txt:1:1",
