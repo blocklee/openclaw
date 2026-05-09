@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-05-05T19:00:04.665Z",
+  "updatedAt": "2026-05-08T19:00:05.047Z",
   "entries": {
     "memory:memory/.dreams/session-corpus/2026-04-11.txt:1:1": {
       "key": "memory:memory/.dreams/session-corpus/2026-04-11.txt:1:1",
@@ -10796,18 +10796,20 @@
       "source": "memory",
       "snippet": "每日备份: 08:00: openclaw.json 备份完成 (`~/.openclaw/openclaw.json.backup-20260505`)",
       "recallCount": 0,
-      "dailyCount": 1,
+      "dailyCount": 2,
       "groundedCount": 0,
-      "totalScore": 0.62,
+      "totalScore": 1.24,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-05-05T19:00:02.052Z",
-      "lastRecalledAt": "2026-05-05T19:00:02.052Z",
+      "lastRecalledAt": "2026-05-08T19:00:01.545Z",
       "queryHashes": [
         "b3222f2b9fdf"
       ],
       "recallDays": [
         "2026-05-06",
-        "2026-05-05"
+        "2026-05-05",
+        "2026-05-09",
+        "2026-05-08"
       ],
       "conceptTags": [
         "backup",
