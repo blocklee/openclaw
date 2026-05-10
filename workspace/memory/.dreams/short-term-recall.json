@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-05-08T19:00:05.047Z",
+  "updatedAt": "2026-05-09T19:00:04.939Z",
   "entries": {
     "memory:memory/.dreams/session-corpus/2026-04-11.txt:1:1": {
       "key": "memory:memory/.dreams/session-corpus/2026-04-11.txt:1:1",
@@ -10796,12 +10796,12 @@
       "source": "memory",
       "snippet": "每日备份: 08:00: openclaw.json 备份完成 (`~/.openclaw/openclaw.json.backup-20260505`)",
       "recallCount": 0,
-      "dailyCount": 2,
+      "dailyCount": 3,
       "groundedCount": 0,
-      "totalScore": 1.24,
+      "totalScore": 1.8599999999999999,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-05-05T19:00:02.052Z",
-      "lastRecalledAt": "2026-05-08T19:00:01.545Z",
+      "lastRecalledAt": "2026-05-09T19:00:01.592Z",
       "queryHashes": [
         "b3222f2b9fdf"
       ],
@@ -10809,7 +10809,8 @@
         "2026-05-06",
         "2026-05-05",
         "2026-05-09",
-        "2026-05-08"
+        "2026-05-08",
+        "2026-05-10"
       ],
       "conceptTags": [
         "backup",
@@ -10819,6 +10820,478 @@
         "完成",
         "openclaw",
         "openclaw.json.backup"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-09.txt:1:1": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-09.txt:1:1",
+      "path": "memory/.dreams/session-corpus/2026-05-09.txt",
+      "startLine": 1,
+      "endLine": 1,
+      "source": "memory",
+      "snippet": "User: [message_id: om_x100b50df76fe44a0eea8a364d0c79a6] 听风: 查看一下我的nvidia api是否支持 deepseek-v4-pro 和 deepseek-v4-flash 两个模型",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-09T19:00:01.592Z",
+      "lastRecalledAt": "2026-05-09T19:00:01.592Z",
+      "queryHashes": [
+        "962844034959"
+      ],
+      "recallDays": [
+        "2026-05-10",
+        "2026-05-09"
+      ],
+      "conceptTags": [
+        "message-id",
+        "deepseek-v4-pro",
+        "deepseek-v4-flash",
+        "查看",
+        "一下",
+        "我的",
+        "nvidia",
+        "api"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-09.txt:2:2": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-09.txt:2:2",
+      "path": "memory/.dreams/session-corpus/2026-05-09.txt",
+      "startLine": 2,
+      "endLine": 2,
+      "source": "memory",
+      "snippet": "Assistant: 两个模型都在 NVIDIA API 上**可用** ✅ **当前状态：** - `deepseek-ai/deepseek-v4-pro` — ✅ 支持 - `deepseek-ai/deepseek-v4-flash` — ✅ 支持 但你的 `openclaw.json` 里 NVIDIA provider 还没配置这两个模型。目前只配了： - `minimaxai/minimax-m2.7` - `google/gemma-3n-e4b-it` 需要我把这两个模型加进去吗？",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-09T19:00:01.592Z",
+      "lastRecalledAt": "2026-05-09T19:00:01.592Z",
+      "queryHashes": [
+        "962844034959"
+      ],
+      "recallDays": [
+        "2026-05-10",
+        "2026-05-09"
+      ],
+      "conceptTags": [
+        "deepseek-ai/deepseek-v4-pro",
+        "deepseek-ai/deepseek-v4-flash",
+        "openclaw.json",
+        "minimaxai/minimax-m2.7",
+        "google/gemma-3n-e4b-it",
+        "模型",
+        "都在",
+        "nvidia"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-09.txt:3:3": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-09.txt:3:3",
+      "path": "memory/.dreams/session-corpus/2026-05-09.txt",
+      "startLine": 3,
+      "endLine": 3,
+      "source": "memory",
+      "snippet": "User: [message_id: om_x100b50df0f76b8a0ee8b14178f0b65f] 听风: 把这两个模型加进去，同时也把 glm-4.7 加上",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-09T19:00:01.592Z",
+      "lastRecalledAt": "2026-05-09T19:00:01.592Z",
+      "queryHashes": [
+        "962844034959"
+      ],
+      "recallDays": [
+        "2026-05-10",
+        "2026-05-09"
+      ],
+      "conceptTags": [
+        "message-id",
+        "glm-4.7",
+        "把这两",
+        "模型",
+        "加进去",
+        "同时",
+        "也把",
+        "glm"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-09.txt:4:4": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-09.txt:4:4",
+      "path": "memory/.dreams/session-corpus/2026-05-09.txt",
+      "startLine": 4,
+      "endLine": 4,
+      "source": "memory",
+      "snippet": "Assistant: 已添加三个模型到 NVIDIA provider： | 模型 | ID | |------|-----| | DeepSeek V4 Pro | `deepseek-ai/deepseek-v4-pro` | | DeepSeek V4 Flash | `deepseek-ai/deepseek-v4-flash` | | GLM-4.7 | `z-ai/glm4.7` | 配置已更新，contextWindow 分别是 1M / 1M / 200K。需要我重启服务或做其他调整吗？",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-09T19:00:01.592Z",
+      "lastRecalledAt": "2026-05-09T19:00:01.592Z",
+      "queryHashes": [
+        "962844034959"
+      ],
+      "recallDays": [
+        "2026-05-10",
+        "2026-05-09"
+      ],
+      "conceptTags": [
+        "deepseek-ai/deepseek-v4-pro",
+        "deepseek-ai/deepseek-v4-flash",
+        "glm-4.7",
+        "z-ai/glm4.7",
+        "添加",
+        "模型",
+        "nvidia",
+        "provider"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-09.txt:5:5": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-09.txt:5:5",
+      "path": "memory/.dreams/session-corpus/2026-05-09.txt",
+      "startLine": 5,
+      "endLine": 5,
+      "source": "memory",
+      "snippet": "User: [message_id: om_x100b50df04a88530ee7bc3a4fa45b43] 听风: volcengine-plan 的模型是不是都到期了，",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-09T19:00:01.592Z",
+      "lastRecalledAt": "2026-05-09T19:00:01.592Z",
+      "queryHashes": [
+        "962844034959"
+      ],
+      "recallDays": [
+        "2026-05-10",
+        "2026-05-09"
+      ],
+      "conceptTags": [
+        "message-id",
+        "volcengine-plan",
+        "volcengine",
+        "plan",
+        "模型",
+        "是不是",
+        "到期"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-09.txt:6:6": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-09.txt:6:6",
+      "path": "memory/.dreams/session-corpus/2026-05-09.txt",
+      "startLine": 6,
+      "endLine": 6,
+      "source": "memory",
+      "snippet": "Assistant: 不完全是，但有几个模型确实有问题。 **当前状态：** | 模型 (配置中) | API ID | 状态 | |---|---|---| | `glm-4.7` | `glm-4-7-251222` | ✅ 正常 | | `deepseek-v3.2` | `deepseek-v3-2-251201` | ✅ 正常 | | `doubao-seed-2.0-pro` | `doubao-seed-2-0-pro-260215` | ✅ 正常 | | `doubao-seed-2.0-lite` | `doubao-seed-2-0-",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-09T19:00:01.592Z",
+      "lastRecalledAt": "2026-05-09T19:00:01.592Z",
+      "queryHashes": [
+        "962844034959"
+      ],
+      "recallDays": [
+        "2026-05-10",
+        "2026-05-09"
+      ],
+      "conceptTags": [
+        "glm-4.7",
+        "glm-4-7-251222",
+        "deepseek-v3.2",
+        "deepseek-v3-2-251201",
+        "doubao-seed-2.0-pro",
+        "doubao-seed-2-0-pro-260215",
+        "doubao-seed-2.0-lite",
+        "doubao-seed-2-0"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-09.txt:7:7": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-09.txt:7:7",
+      "path": "memory/.dreams/session-corpus/2026-05-09.txt",
+      "startLine": 7,
+      "endLine": 7,
+      "source": "memory",
+      "snippet": "Assistant: 需要确认 要我帮你清理并修复这些配置吗？",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-09T19:00:01.592Z",
+      "lastRecalledAt": "2026-05-09T19:00:01.592Z",
+      "queryHashes": [
+        "962844034959"
+      ],
+      "recallDays": [
+        "2026-05-10",
+        "2026-05-09"
+      ],
+      "conceptTags": [
+        "需要",
+        "确认",
+        "清理",
+        "修复",
+        "这些",
+        "配置"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-09.txt:8:8": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-09.txt:8:8",
+      "path": "memory/.dreams/session-corpus/2026-05-09.txt",
+      "startLine": 8,
+      "endLine": 8,
+      "source": "memory",
+      "snippet": "User: [message_id: om_x100b50dfe8c2cca0ee73f6f42fa1ec9] 听风: 我的意思是 volcengine-plan api应该到期了",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-09T19:00:01.592Z",
+      "lastRecalledAt": "2026-05-09T19:00:01.592Z",
+      "queryHashes": [
+        "962844034959"
+      ],
+      "recallDays": [
+        "2026-05-10",
+        "2026-05-09"
+      ],
+      "conceptTags": [
+        "message-id",
+        "volcengine-plan",
+        "我的",
+        "意思",
+        "volcengine",
+        "plan",
+        "api",
+        "应该"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-09.txt:9:9": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-09.txt:9:9",
+      "path": "memory/.dreams/session-corpus/2026-05-09.txt",
+      "startLine": 9,
+      "endLine": 9,
+      "source": "memory",
+      "snippet": "Assistant: 对，已经过期了。 错误信息：`Your account does not have a valid CodingPlan subscription, or your subscription has expired.` **账号：** 2123993668 **服务：** 火山引擎 ARK Coding Plan 你的 fallback 链里大量依赖 volcengine-plan，这波过期影响不小。要续费还是先把配置里的这些模型清理掉？",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-09T19:00:01.592Z",
+      "lastRecalledAt": "2026-05-09T19:00:01.592Z",
+      "queryHashes": [
+        "962844034959"
+      ],
+      "recallDays": [
+        "2026-05-10",
+        "2026-05-09"
+      ],
+      "conceptTags": [
+        "volcengine-plan",
+        "已经",
+        "过期",
+        "错误",
+        "信息",
+        "account",
+        "does",
+        "not"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-09.txt:10:10": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-09.txt:10:10",
+      "path": "memory/.dreams/session-corpus/2026-05-09.txt",
+      "startLine": 10,
+      "endLine": 10,
+      "source": "memory",
+      "snippet": "User: [message_id: om_x100b50dff05580a4ee75b087ccf8d2a] 听风: 把 volcengine-plan 的模型都清理掉吧",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-09T19:00:01.592Z",
+      "lastRecalledAt": "2026-05-09T19:00:01.592Z",
+      "queryHashes": [
+        "962844034959"
+      ],
+      "recallDays": [
+        "2026-05-10",
+        "2026-05-09"
+      ],
+      "conceptTags": [
+        "message-id",
+        "volcengine-plan",
+        "volcengine",
+        "plan",
+        "模型",
+        "清理"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-09.txt:11:11": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-09.txt:11:11",
+      "path": "memory/.dreams/session-corpus/2026-05-09.txt",
+      "startLine": 11,
+      "endLine": 11,
+      "source": "memory",
+      "snippet": "Assistant: 清理完毕 ✅ **已删除/修改的内容：** - 整个 `volcengine-plan` provider 配置 - `auth.profiles` 中的 `volcengine-plan:default` - `agents.defaults` 中的所有 volcengine-plan fallback 和 model aliases - 所有 agent 的 volcengine-plan 依赖（`lucus`/`wxlee`/`codus` 主模型都改成了 minimax） - `imageGenerationModel.pr",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-09T19:00:01.592Z",
+      "lastRecalledAt": "2026-05-09T19:00:01.592Z",
+      "queryHashes": [
+        "962844034959"
+      ],
+      "recallDays": [
+        "2026-05-10",
+        "2026-05-09"
+      ],
+      "conceptTags": [
+        "已删除/修改的内容",
+        "volcengine-plan",
+        "auth.profiles",
+        "agents.defaults",
+        "imagegenerationmodel.pr",
+        "清理",
+        "完毕",
+        "删除"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-09.txt:12:12": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-09.txt:12:12",
+      "path": "memory/.dreams/session-corpus/2026-05-09.txt",
+      "startLine": 12,
+      "endLine": 12,
+      "source": "memory",
+      "snippet": "User: [message_id: om_x100b50dfae202ca4eea522725f8cd9f] 听风: 将nvidia provider下掉几个模型也都添加到这个列表里啊 \"models\": { \"minimax/MiniMax-M2.7\": { \"alias\": \"Minimax\" }, \"zai/glm-5\": { \"alias\": \"GLM\" }, \"google/gemini-2.5-flash\": { \"alias\": \"Gemini\" }, \"google/lyria-3-pro-preview:free\": {}, \"goo",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-09T19:00:01.592Z",
+      "lastRecalledAt": "2026-05-09T19:00:01.592Z",
+      "queryHashes": [
+        "962844034959"
+      ],
+      "recallDays": [
+        "2026-05-10",
+        "2026-05-09"
+      ],
+      "conceptTags": [
+        "message-id",
+        "minimax/minimax-m2.7",
+        "zai/glm-5",
+        "google/gemini-2.5-flash",
+        "google/lyria-3-pro-preview",
+        "nvidia",
+        "provider",
+        "几个"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-09.txt:13:13": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-09.txt:13:13",
+      "path": "memory/.dreams/session-corpus/2026-05-09.txt",
+      "startLine": 13,
+      "endLine": 13,
+      "source": "memory",
+      "snippet": "Assistant: 已添加： ```json \"deepseek-ai/deepseek-v4-pro\": {}, \"deepseek-ai/deepseek-v4-flash\": {}, \"z-ai/glm4.7\": {} ``` 当前 `defaults.models` 列表现在是： | Key | Alias | |-----|-------| | `minimax/MiniMax-M2.7` | Minimax | | `zai/glm-5` | GLM | | `google/gemini-2.5-flash` | Gemini | | `g",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-09T19:00:01.592Z",
+      "lastRecalledAt": "2026-05-09T19:00:01.592Z",
+      "queryHashes": [
+        "962844034959"
+      ],
+      "recallDays": [
+        "2026-05-10",
+        "2026-05-09"
+      ],
+      "conceptTags": [
+        "deepseek-ai/deepseek-v4-pro",
+        "deepseek-ai/deepseek-v4-flash",
+        "z-ai/glm4.7",
+        "defaults.models",
+        "minimax/minimax-m2.7",
+        "zai/glm-5",
+        "google/gemini-2.5-flash",
+        "添加"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-09.txt:14:14": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-09.txt:14:14",
+      "path": "memory/.dreams/session-corpus/2026-05-09.txt",
+      "startLine": 14,
+      "endLine": 14,
+      "source": "memory",
+      "snippet": "User: [message_id: om_x100b50d8836f90acee796cef4b27224] 听风: 应该是 nvidia/deepseek-ai/deepseek-v4-pro nvidia/deepseek-ai/deepseek-v4-flash",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-09T19:00:01.592Z",
+      "lastRecalledAt": "2026-05-09T19:00:01.592Z",
+      "queryHashes": [
+        "962844034959"
+      ],
+      "recallDays": [
+        "2026-05-10",
+        "2026-05-09"
+      ],
+      "conceptTags": [
+        "message-id",
+        "应该",
+        "nvidia",
+        "deepseek",
+        "pro",
+        "flash"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-09.txt:15:15": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-09.txt:15:15",
+      "path": "memory/.dreams/session-corpus/2026-05-09.txt",
+      "startLine": 15,
+      "endLine": 15,
+      "source": "memory",
+      "snippet": "Assistant: 已修正： ``` nvidia/deepseek-ai/deepseek-v4-pro nvidia/deepseek-ai/deepseek-v4-flash nvidia/z-ai/glm4.7 ```",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-09T19:00:01.592Z",
+      "lastRecalledAt": "2026-05-09T19:00:01.592Z",
+      "queryHashes": [
+        "962844034959"
+      ],
+      "recallDays": [
+        "2026-05-10",
+        "2026-05-09"
+      ],
+      "conceptTags": [
+        "nvidia/z-ai/glm4.7",
+        "修正",
+        "nvidia",
+        "deepseek",
+        "pro",
+        "flash",
+        "glm4.7"
       ]
     }
   }

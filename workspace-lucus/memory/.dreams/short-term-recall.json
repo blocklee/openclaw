@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-05-04T19:00:05.584Z",
+  "updatedAt": "2026-05-09T19:00:42.940Z",
   "entries": {
     "memory:memory/.dreams/session-corpus/2026-04-11.txt:1:1": {
       "key": "memory:memory/.dreams/session-corpus/2026-04-11.txt:1:1",
@@ -8429,6 +8429,134 @@
         "declares",
         "openclaw",
         "weixin"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-09.txt:1:1": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-09.txt:1:1",
+      "path": "memory/.dreams/session-corpus/2026-05-09.txt",
+      "startLine": 1,
+      "endLine": 1,
+      "source": "memory",
+      "snippet": "User: [message_id: om_x100b50df1ce33ca0eea71956354679a] ou_cb5c7afa7e77cafdeaeae1620a2a383a: openclaw.json 备份完成 — 2026-05-08 这个备份认为是否可以加上一个判断，和上一次备份进行比较，发生变化了才备份",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-09T19:00:08.103Z",
+      "lastRecalledAt": "2026-05-09T19:00:08.103Z",
+      "queryHashes": [
+        "962844034959"
+      ],
+      "recallDays": [
+        "2026-05-10",
+        "2026-05-09"
+      ],
+      "conceptTags": [
+        "备份",
+        "message-id",
+        "openclaw.json",
+        "完成",
+        "这个",
+        "认为",
+        "是否",
+        "可以"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-09.txt:2:2": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-09.txt:2:2",
+      "path": "memory/.dreams/session-corpus/2026-05-09.txt",
+      "startLine": 2,
+      "endLine": 2,
+      "source": "memory",
+      "snippet": "User: [message_id: om_x100b50df1ce33ca0eea71956354679a] ou_cb5c7afa7e77cafdeaeae1620a2a383a: openclaw.json 备份完成 — 2026-05-08 这个备份认为是否可以加上一个判断，和上一次备份进行比较，发生变化了才备份",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-09T19:00:08.103Z",
+      "lastRecalledAt": "2026-05-09T19:00:08.103Z",
+      "queryHashes": [
+        "962844034959"
+      ],
+      "recallDays": [
+        "2026-05-10",
+        "2026-05-09"
+      ],
+      "conceptTags": [
+        "备份",
+        "message-id",
+        "openclaw.json",
+        "完成",
+        "这个",
+        "认为",
+        "是否",
+        "可以"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-09.txt:3:3": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-09.txt:3:3",
+      "path": "memory/.dreams/session-corpus/2026-05-09.txt",
+      "startLine": 3,
+      "endLine": 3,
+      "source": "memory",
+      "snippet": "User: [message_id: om_x100b50df1ce33ca0eea71956354679a] ou_cb5c7afa7e77cafdeaeae1620a2a383a: openclaw.json 备份完成 — 2026-05-08 这个备份认为是否可以加上一个判断，和上一次备份进行比较，发生变化了才备份",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-09T19:00:08.103Z",
+      "lastRecalledAt": "2026-05-09T19:00:08.103Z",
+      "queryHashes": [
+        "962844034959"
+      ],
+      "recallDays": [
+        "2026-05-10",
+        "2026-05-09"
+      ],
+      "conceptTags": [
+        "备份",
+        "message-id",
+        "openclaw.json",
+        "完成",
+        "这个",
+        "认为",
+        "是否",
+        "可以"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-09.txt:4:4": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-09.txt:4:4",
+      "path": "memory/.dreams/session-corpus/2026-05-09.txt",
+      "startLine": 4,
+      "endLine": 4,
+      "source": "memory",
+      "snippet": "User: [message_id: om_x100b50df1ce33ca0eea71956354679a] ou_cb5c7afa7e77cafdeaeae1620a2a383a: openclaw.json 备份完成 — 2026-05-08 这个备份认为是否可以加上一个判断，和上一次备份进行比较，发生变化了才备份",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-09T19:00:08.103Z",
+      "lastRecalledAt": "2026-05-09T19:00:08.103Z",
+      "queryHashes": [
+        "962844034959"
+      ],
+      "recallDays": [
+        "2026-05-10",
+        "2026-05-09"
+      ],
+      "conceptTags": [
+        "备份",
+        "message-id",
+        "openclaw.json",
+        "完成",
+        "这个",
+        "认为",
+        "是否",
+        "可以"
       ]
     }
   }
