@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-05-11T19:00:01.507Z",
+  "updatedAt": "2026-05-12T19:00:24.163Z",
   "entries": {
     "memory:memory/.dreams/session-corpus/2026-04-11.txt:1:1": {
       "key": "memory:memory/.dreams/session-corpus/2026-04-11.txt:1:1",
@@ -10796,12 +10796,12 @@
       "source": "memory",
       "snippet": "每日备份: 08:00: openclaw.json 备份完成 (`~/.openclaw/openclaw.json.backup-20260505`)",
       "recallCount": 0,
-      "dailyCount": 5,
+      "dailyCount": 6,
       "groundedCount": 0,
-      "totalScore": 3.1,
+      "totalScore": 3.72,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-05-05T19:00:02.052Z",
-      "lastRecalledAt": "2026-05-11T19:00:01.507Z",
+      "lastRecalledAt": "2026-05-12T19:00:21.469Z",
       "queryHashes": [
         "b3222f2b9fdf"
       ],
@@ -10812,7 +10812,8 @@
         "2026-05-08",
         "2026-05-10",
         "2026-05-11",
-        "2026-05-12"
+        "2026-05-12",
+        "2026-05-13"
       ],
       "conceptTags": [
         "backup",
@@ -11294,6 +11295,38 @@
         "pro",
         "flash",
         "glm4.7"
+      ]
+    },
+    "memory:memory/2026-05-12.md:5:5": {
+      "key": "memory:memory/2026-05-12.md:5:5",
+      "path": "memory/2026-05-12.md",
+      "startLine": 5,
+      "endLine": 5,
+      "source": "memory",
+      "snippet": "8:00 - 定时备份: 执行 `config-backup-8am` cron job：`openclaw.json` 备份完成 → `~/.openclaw/openclaw.json.backup-20260512`",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-05-12T19:00:21.469Z",
+      "lastRecalledAt": "2026-05-12T19:00:21.469Z",
+      "queryHashes": [
+        "a727ea7b8da3"
+      ],
+      "recallDays": [
+        "2026-05-13",
+        "2026-05-12"
+      ],
+      "conceptTags": [
+        "backup",
+        "备份",
+        "config-backup-8am",
+        "openclaw.json",
+        "执行",
+        "config",
+        "8am",
+        "cron"
       ]
     }
   }
