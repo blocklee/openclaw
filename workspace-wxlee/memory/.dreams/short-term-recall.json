@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-05-05T19:00:22.589Z",
+  "updatedAt": "2026-05-13T19:00:11.656Z",
   "entries": {
     "memory:memory/2026-04-12.md:6:6": {
       "key": "memory:memory/2026-04-12.md:6:6",
@@ -7760,6 +7760,134 @@
         "tee",
         "才能",
         "获取"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-13.txt:1:1": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-13.txt:1:1",
+      "path": "memory/.dreams/session-corpus/2026-05-13.txt",
+      "startLine": 1,
+      "endLine": 1,
+      "source": "memory",
+      "snippet": "User: [message_id: om_x100b6f73d387e0a4eeaad7399f61e05] ou_9e18438fb941decf11a0b88d78fe2b50: 可信执行环境需要专门的硬件，对吧，那有没有其他可代替方案呢",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-13T19:00:09.688Z",
+      "lastRecalledAt": "2026-05-13T19:00:09.688Z",
+      "queryHashes": [
+        "8c2b6c884df4"
+      ],
+      "recallDays": [
+        "2026-05-14",
+        "2026-05-13"
+      ],
+      "conceptTags": [
+        "message-id",
+        "可信",
+        "执行",
+        "环境",
+        "需要",
+        "专门",
+        "硬件",
+        "没有"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-13.txt:2:2": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-13.txt:2:2",
+      "path": "memory/.dreams/session-corpus/2026-05-13.txt",
+      "startLine": 2,
+      "endLine": 2,
+      "source": "memory",
+      "snippet": "Assistant: 主公问得好。TEE 确实依赖专用硬件（SGX/SEV/TDX），但这并非唯一的路。 --- ## 替代方案全景 ### 1. 🛡️ 零知识证明（ZKP）— 最成熟的替代 - **核心逻辑**：一方证明\"我正确执行了计算\"，而不暴露输入数据 - **代表方案**：zk-SNARKs、zk-STARKs（zkSync、StarkNet、Aztec） - **优点**：无需信任硬件、数学保证安全性、可公开验证 - **缺点**：计算开销大（比明文慢几个数量级）、对通用计算支持弱 - **适用场景**：区块链验证层、应用特定计算（如zk-",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-13T19:00:09.688Z",
+      "lastRecalledAt": "2026-05-13T19:00:09.688Z",
+      "queryHashes": [
+        "8c2b6c884df4"
+      ],
+      "recallDays": [
+        "2026-05-14",
+        "2026-05-13"
+      ],
+      "conceptTags": [
+        "sgx/sev/tdx",
+        "zk-snarks",
+        "zk-starks",
+        "主公",
+        "问得",
+        "tee",
+        "确实",
+        "依赖"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-13.txt:3:3": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-13.txt:3:3",
+      "path": "memory/.dreams/session-corpus/2026-05-13.txt",
+      "startLine": 3,
+      "endLine": 3,
+      "source": "memory",
+      "snippet": "Assistant: fhEVM 在以太坊上的方向值得关注。 ### 4. ⚖️ 乐观/仲裁模型 — 放弃执行隐私，保留执行正确性 - **核心逻辑**：默认假设执行正确，有人质疑时通过链上仲裁或第三方验证 - **代表方案**：Optimistic Rollups（Arbitrum、Optimism）、链上仲裁 oracle - **优点**：效率极高、无需专用硬件 - **缺点**：不保护数据隐私（仅保证正确性） - **适用场景**：不需要隐私、只需要抗审查和正确性的场景 **判断**：若你不需要隐私，这个方案最简单务实。 ### 5. 🔗 TL",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-13T19:00:09.688Z",
+      "lastRecalledAt": "2026-05-13T19:00:09.688Z",
+      "queryHashes": [
+        "8c2b6c884df4"
+      ],
+      "recallDays": [
+        "2026-05-14",
+        "2026-05-13"
+      ],
+      "conceptTags": [
+        "乐观/仲裁模型",
+        "fhevm",
+        "以太",
+        "方向",
+        "值得",
+        "关注",
+        "乐观",
+        "仲裁"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-13.txt:4:4": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-13.txt:4:4",
+      "path": "memory/.dreams/session-corpus/2026-05-13.txt",
+      "startLine": 4,
+      "endLine": 4,
+      "source": "memory",
+      "snippet": "Assistant: **TLSNotary** | ❌ 不需要 | ⚠️ 部分 | ❌ 仅数据 | ✅ 中等 | 链下服务信任 | --- ## ⚠️ 暗坑：TEE 的\"硬件信任\"并非万能 主公若在考虑从 TEE 转向替代方案，有一事不得不察： **TEE 最脆弱的地方恰恰就是它的卖点** — 对硬件厂商的信任。Intel SGX 已被多次攻破（Plundervolt、Smash、AEPIC Leak），而且 Intel 停用了 SGX 的远程证明服务。AMD SEV 也有 side-channel 漏洞。硬件 TEE 的安全边界并不像宣传的那么绝对。",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-13T19:00:09.688Z",
+      "lastRecalledAt": "2026-05-13T19:00:09.688Z",
+      "queryHashes": [
+        "8c2b6c884df4"
+      ],
+      "recallDays": [
+        "2026-05-14",
+        "2026-05-13"
+      ],
+      "conceptTags": [
+        "side-channel",
+        "tlsnotary",
+        "不需要",
+        "部分",
+        "数据",
+        "中等",
+        "服务",
+        "信任"
       ]
     }
   }
