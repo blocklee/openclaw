@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-05-10T19:00:17.333Z",
+  "updatedAt": "2026-05-15T19:00:56.479Z",
   "entries": {
     "memory:memory/.dreams/session-corpus/2026-04-11.txt:1:1": {
       "key": "memory:memory/.dreams/session-corpus/2026-04-11.txt:1:1",
@@ -8717,6 +8717,132 @@
         "reset",
         "execute",
         "startup"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-15.txt:1:1": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-15.txt:1:1",
+      "path": "memory/.dreams/session-corpus/2026-05-15.txt",
+      "startLine": 1,
+      "endLine": 1,
+      "source": "memory",
+      "snippet": "User: [message_id: om_x100b6f4053687134eea0fc9f23673e7] ou_cb5c7afa7e77cafdeaeae1620a2a383a: 如何查看lark的api使用额度",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-15T19:00:35.069Z",
+      "lastRecalledAt": "2026-05-15T19:00:35.069Z",
+      "queryHashes": [
+        "fd6cc5e579bc"
+      ],
+      "recallDays": [
+        "2026-05-16",
+        "2026-05-15"
+      ],
+      "conceptTags": [
+        "message-id",
+        "如何",
+        "查看",
+        "lark",
+        "api",
+        "使用"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-15.txt:2:2": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-15.txt:2:2",
+      "path": "memory/.dreams/session-corpus/2026-05-15.txt",
+      "startLine": 2,
+      "endLine": 2,
+      "source": "memory",
+      "snippet": "Assistant: 查看 Lark/Feishu API 使用额度的方法： ## 1. Lark Open Platform 管理后台 访问 Lark Open Platform → **开发者后台** → 选择你的应用 → **凭证与成本** → **用量统计** 链接：https://open.larksuite.com/app ## 2. 主要查看内容 - **API 调用次数**：各 API 的调用量/限制 - **token 使用量**：access_token 的消耗情况 - **机器人消息数**：消息相关 API 的限额 ## 3. 通过",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-15T19:00:35.069Z",
+      "lastRecalledAt": "2026-05-15T19:00:35.069Z",
+      "queryHashes": [
+        "fd6cc5e579bc"
+      ],
+      "recallDays": [
+        "2026-05-16",
+        "2026-05-15"
+      ],
+      "conceptTags": [
+        "lark/feishu",
+        "open.larksuite.com/app",
+        "的调用量/限制",
+        "access-token",
+        "查看",
+        "lark",
+        "feishu",
+        "api"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-16.txt:1:1": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-16.txt:1:1",
+      "path": "memory/.dreams/session-corpus/2026-05-16.txt",
+      "startLine": 1,
+      "endLine": 1,
+      "source": "memory",
+      "snippet": "User: [message_id: om_x100b6f407b0d6ca8eeaac2a77c8ac81] ou_cb5c7afa7e77cafdeaeae1620a2a383a: 找不到 开发者后台 → 选择你的应用 → 凭证与成本 → 用量统计",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-15T19:00:35.069Z",
+      "lastRecalledAt": "2026-05-15T19:00:35.069Z",
+      "queryHashes": [
+        "b43f3073c69a"
+      ],
+      "recallDays": [
+        "2026-05-16",
+        "2026-05-15"
+      ],
+      "conceptTags": [
+        "message-id",
+        "找不到",
+        "开发",
+        "后台",
+        "选择",
+        "你的",
+        "应用",
+        "凭证"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-16.txt:2:2": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-16.txt:2:2",
+      "path": "memory/.dreams/session-corpus/2026-05-16.txt",
+      "startLine": 2,
+      "endLine": 2,
+      "source": "memory",
+      "snippet": "Assistant: 可能是界面改版了，路径有变化。试试这个： ## 最新路径 1. 进入 **开发者后台**：https://open.larksuite.com/app 2. 找到你的应用，点击进入 3. 左侧菜单找 **\"费用与预算\"** 或 **\"用量统计\"** - 有时候叫 **\"调用量\"** / **\"API 配额\"** ## 如果左边菜单没有 在应用详情页的 **\"基本信息\"** 旁边可能有 Tab 栏，比如： - 凭证 - 事件订阅 - 调用量 ## 直接访问 试试这个直接链接（替换你的 app_id）： ``` https://open",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-15T19:00:35.069Z",
+      "lastRecalledAt": "2026-05-15T19:00:35.069Z",
+      "queryHashes": [
+        "b43f3073c69a"
+      ],
+      "recallDays": [
+        "2026-05-16",
+        "2026-05-15"
+      ],
+      "conceptTags": [
+        "open.larksuite.com/app",
+        "app-id",
+        "可能是",
+        "界面",
+        "改版",
+        "路径",
+        "变化",
+        "这个"
       ]
     }
   }

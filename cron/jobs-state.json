@@ -2,42 +2,55 @@
   "version": 1,
   "jobs": {
     "1c3a7bd5-d835-41d8-a14a-d2970f13d503": {
-      "updatedAtMs": 1778716884245,
+      "updatedAtMs": 1778803297571,
       "state": {
-        "nextRunAtMs": 1778803200000,
-        "lastRunAtMs": 1778716800005,
+        "nextRunAtMs": 1778889600000,
+        "lastRunAtMs": 1778803200002,
         "lastRunStatus": "ok",
         "lastStatus": "ok",
-        "lastDurationMs": 84240,
+        "lastDurationMs": 97569,
         "lastDeliveryStatus": "delivered",
         "consecutiveErrors": 0,
         "lastDelivered": true,
-        "runningAtMs": 1778803200001
+        "runningAtMs": 1778889600003
       }
     },
     "config-backup-8am": {
-      "updatedAtMs": 1778745659220,
+      "updatedAtMs": 1778832059493,
       "state": {
-        "nextRunAtMs": 1778832000000,
-        "lastRunAtMs": 1778745600003,
+        "nextRunAtMs": 1778918400000,
+        "lastRunAtMs": 1778832000003,
         "lastRunStatus": "ok",
         "lastStatus": "ok",
-        "lastDurationMs": 59217,
+        "lastDurationMs": 59490,
         "lastDeliveryStatus": "delivered",
         "consecutiveErrors": 0,
         "lastDelivered": true
       }
     },
     "8f62feb4-aed8-47fd-8093-29d8f97f4b71": {
-      "updatedAtMs": 1778785243472,
+      "updatedAtMs": 1778871953188,
       "state": {
-        "nextRunAtMs": 1778871600000,
-        "lastRunAtMs": 1778785200005,
+        "nextRunAtMs": 1778958000000,
+        "lastRunAtMs": 1778871843717,
         "lastRunStatus": "ok",
         "lastStatus": "ok",
-        "lastDurationMs": 43467,
+        "lastDurationMs": 109471,
         "lastDeliveryStatus": "not-requested",
         "consecutiveErrors": 0
+      }
+    },
+    "echo-platform-heartbeat": {
+      "updatedAtMs": 1778889365607,
+      "state": {
+        "nextRunAtMs": 1778889600000,
+        "lastRunAtMs": 1778889300005,
+        "lastRunStatus": "ok",
+        "lastStatus": "ok",
+        "lastDurationMs": 65602,
+        "lastDeliveryStatus": "not-requested",
+        "consecutiveErrors": 0,
+        "runningAtMs": 1778889600003
       }
     }
   }

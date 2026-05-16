@@ -162,12 +162,12 @@
       "lineCount": 2,
       "lastContentLine": 2
     },
-    "lucus:sessions/3cae0ae6-703f-4e56-bace-de80d930aea5.jsonl": {
+    "lucus:sessions/3cae0ae6-703f-4e56-bace-de80d930aea5.jsonl.reset.2026-05-15T15-55-11.913Z": {
       "mtimeMs": 1778419489734,
       "size": 8489,
-      "contentHash": "10db86ba5b34f6a264054b274bb1d4d2a29e742a11676cf7414a33c5354bcdfc",
-      "lineCount": 6,
-      "lastContentLine": 6
+      "contentHash": "75a11da44c802486bc6f65640aa48a730f0f684c5c07a42ba3cd1735eb3fb070",
+      "lineCount": 0,
+      "lastContentLine": 0
     },
     "lucus:sessions/3cae0ae6-703f-4e56-bace-de80d930aea5.trajectory.jsonl": {
       "mtimeMs": 1778419489838,
@@ -203,6 +203,20 @@
       "contentHash": "29964c32a126ad651286a05cd5025e05896f5decb1b9d71da23bc9f350883b37",
       "lineCount": 3,
       "lastContentLine": 3
+    },
+    "lucus:sessions/52a0edba-c27d-47bb-bc76-9b5e4addef3b.jsonl": {
+      "mtimeMs": 1778860908032,
+      "size": 9523,
+      "contentHash": "ed07d4a3c5c16ff250b368d200e1db3143eba973bcc91de18bf30909118eb862",
+      "lineCount": 8,
+      "lastContentLine": 8
+    },
+    "lucus:sessions/52a0edba-c27d-47bb-bc76-9b5e4addef3b.trajectory.jsonl": {
+      "mtimeMs": 1778860908216,
+      "size": 368841,
+      "contentHash": "75a11da44c802486bc6f65640aa48a730f0f684c5c07a42ba3cd1735eb3fb070",
+      "lineCount": 0,
+      "lastContentLine": 0
     },
     "lucus:sessions/563edfcb-f18f-41b4-8607-717374a2b924.jsonl": {
       "mtimeMs": 1774777912749,
@@ -875,8 +889,12 @@
       "524c9534d522c9523dd11dd3cf1ae8f39eba94c7",
       "930174416255d84e81f4d7d0b82059017ab35337"
     ],
-    "lucus:3cae0ae6-703f-4e56-bace-de80d930aea5.trajectory": [],
-    "lucus:ce2ddff3-3d27-425f-a38d-80b4ca64cc0e": [],
-    "lucus:ce2ddff3-3d27-425f-a38d-80b4ca64cc0e.trajectory": []
+    "lucus:52a0edba-c27d-47bb-bc76-9b5e4addef3b": [
+      "e3955750e6449189d57aed058b34f1bd42fbfe92",
+      "f4579c24d85cbc81960b223fa27a33ed634ff0a2",
+      "114ae3052adef01fab61830534873a569ea8ed49",
+      "51658b4799f01b9b938c910f2bcc0c826443dd82"
+    ],
+    "lucus:52a0edba-c27d-47bb-bc76-9b5e4addef3b.trajectory": []
   }
 }

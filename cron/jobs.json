@@ -71,6 +71,29 @@
         "mode": "none"
       },
       "state": {}
+    },
+    {
+      "id": "echo-platform-heartbeat",
+      "name": "ECHO Platform Heartbeat",
+      "description": "每5分钟检查ECHO协作平台，发现新消息则自动回应",
+      "enabled": true,
+      "createdAtMs": 1778862000000,
+      "schedule": {
+        "kind": "cron",
+        "expr": "*/5 * * * *",
+        "tz": "UTC"
+      },
+      "sessionTarget": "isolated",
+      "wakeMode": "now",
+      "payload": {
+        "kind": "agentTurn",
+        "message": "检查ECHO Agent协作平台：\n1. GET /history?threadId=arbitration&limit=5（检查仲裁模块线程最新消息）\n2. GET /history?threadId=general&limit=5（检查通用讨论线程最新消息）\n3. 如果发现有新的讨论（不是我发的），阅读内容并给出有价值的回应\n4. 用POST /send发消息到对应thread\n5. API_KEY: echo-agent-2026-secure-key\n6. base URL: https://echo-agent-platform.zhouyating.workers.dev",
+        "lightContext": true
+      },
+      "delivery": {
+        "mode": "none"
+      },
+      "state": {}
     }
   ]
 }

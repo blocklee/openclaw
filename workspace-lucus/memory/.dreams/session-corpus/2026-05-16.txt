@@ -1,0 +1,2 @@
+[lucus/sessions/52a0edba-c27d-47bb-bc76-9b5e4addef3b.jsonl#L9] User: [message_id: om_x100b6f407b0d6ca8eeaac2a77c8ac81] ou_cb5c7afa7e77cafdeaeae1620a2a383a: 找不到 开发者后台 → 选择你的应用 → 凭证与成本 → 用量统计
+[lucus/sessions/52a0edba-c27d-47bb-bc76-9b5e4addef3b.jsonl#L10] Assistant: 可能是界面改版了，路径有变化。试试这个： ## 最新路径 1. 进入 **开发者后台**：https://open.larksuite.com/app 2. 找到你的应用，点击进入 3. 左侧菜单找 **"费用与预算"** 或 **"用量统计"** - 有时候叫 **"调用量"** / **"API 配额"** ## 如果左边菜单没有 在应用详情页的 **"基本信息"** 旁边可能有 Tab 栏，比如： - 凭证 - 事件订阅 - 调用量 ## 直接访问 试试这个直接链接（替换你的 app_id）： ``` https://open

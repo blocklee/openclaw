@@ -201,3 +201,9 @@
 {"type":"memory.recall.recorded","timestamp":"2026-05-14T19:00:16.328Z","query":"__dreaming_sessions__:2026-05-14","resultCount":1,"results":[{"path":"memory/.dreams/session-corpus/2026-05-14.txt","startLine":14,"endLine":14,"score":0.58}]}
 {"type":"memory.dream.completed","timestamp":"2026-05-14T19:00:16.328Z","phase":"rem","reportPath":"/home/node/.openclaw/workspace-wxlee/memory/dreaming/rem/2026-05-15.md","lineCount":7,"storageMode":"separate"}
 {"type":"memory.dream.completed","timestamp":"2026-05-14T19:00:16.328Z","phase":"deep","reportPath":"/home/node/.openclaw/workspace-wxlee/memory/dreaming/deep/2026-05-15.md","lineCount":3,"storageMode":"separate"}
+{"type":"memory.dream.completed","timestamp":"2026-05-15T19:01:05.635Z","phase":"light","reportPath":"/home/node/.openclaw/workspace-wxlee/memory/dreaming/light/2026-05-16.md","lineCount":90,"storageMode":"separate"}
+{"type":"memory.dream.completed","timestamp":"2026-05-15T19:01:05.635Z","phase":"rem","reportPath":"/home/node/.openclaw/workspace-wxlee/memory/dreaming/rem/2026-05-16.md","lineCount":7,"storageMode":"separate"}
+{"type":"memory.dream.completed","timestamp":"2026-05-15T19:01:05.635Z","phase":"deep","reportPath":"/home/node/.openclaw/workspace-wxlee/memory/dreaming/deep/2026-05-16.md","lineCount":2,"storageMode":"separate"}
+{"type":"memory.dream.completed","timestamp":"2026-05-15T19:05:25.176Z","phase":"light","reportPath":"/home/node/.openclaw/workspace-wxlee/memory/dreaming/light/2026-05-16.md","lineCount":90,"storageMode":"separate"}
+{"type":"memory.dream.completed","timestamp":"2026-05-15T19:05:25.176Z","phase":"rem","reportPath":"/home/node/.openclaw/workspace-wxlee/memory/dreaming/rem/2026-05-16.md","lineCount":7,"storageMode":"separate"}
+{"type":"memory.dream.completed","timestamp":"2026-05-15T19:05:25.176Z","phase":"deep","reportPath":"/home/node/.openclaw/workspace-wxlee/memory/dreaming/deep/2026-05-16.md","lineCount":2,"storageMode":"separate"}
