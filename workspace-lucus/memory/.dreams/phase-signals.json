@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-05-15T19:04:37.974Z",
+  "updatedAt": "2026-05-16T19:00:39.120Z",
   "entries": {
     "memory:memory/.dreams/session-corpus/2026-04-11.txt:1:1": {
       "key": "memory:memory/.dreams/session-corpus/2026-04-11.txt:1:1",
@@ -1078,9 +1078,9 @@
     "memory:memory/.dreams/session-corpus/2026-05-10.txt:4:4": {
       "key": "memory:memory/.dreams/session-corpus/2026-05-10.txt:4:4",
       "lightHits": 4,
-      "remHits": 4,
+      "remHits": 5,
       "lastLightAt": "2026-05-13T19:00:06.468Z",
-      "lastRemAt": "2026-05-15T19:04:37.974Z"
+      "lastRemAt": "2026-05-16T19:00:39.120Z"
     },
     "memory:memory/.dreams/session-corpus/2026-05-10.txt:5:5": {
       "key": "memory:memory/.dreams/session-corpus/2026-05-10.txt:5:5",
@@ -1090,29 +1090,29 @@
     },
     "memory:memory/.dreams/session-corpus/2026-05-15.txt:1:1": {
       "key": "memory:memory/.dreams/session-corpus/2026-05-15.txt:1:1",
-      "lightHits": 2,
+      "lightHits": 3,
       "remHits": 0,
-      "lastLightAt": "2026-05-15T19:04:37.974Z"
+      "lastLightAt": "2026-05-16T19:00:39.120Z"
     },
     "memory:memory/.dreams/session-corpus/2026-05-15.txt:2:2": {
       "key": "memory:memory/.dreams/session-corpus/2026-05-15.txt:2:2",
-      "lightHits": 2,
-      "remHits": 1,
-      "lastLightAt": "2026-05-15T19:04:37.974Z",
-      "lastRemAt": "2026-05-15T19:04:37.974Z"
+      "lightHits": 3,
+      "remHits": 2,
+      "lastLightAt": "2026-05-16T19:00:39.120Z",
+      "lastRemAt": "2026-05-16T19:00:39.120Z"
     },
     "memory:memory/.dreams/session-corpus/2026-05-16.txt:1:1": {
       "key": "memory:memory/.dreams/session-corpus/2026-05-16.txt:1:1",
-      "lightHits": 2,
+      "lightHits": 3,
       "remHits": 0,
-      "lastLightAt": "2026-05-15T19:04:37.974Z"
+      "lastLightAt": "2026-05-16T19:00:39.120Z"
     },
     "memory:memory/.dreams/session-corpus/2026-05-16.txt:2:2": {
       "key": "memory:memory/.dreams/session-corpus/2026-05-16.txt:2:2",
-      "lightHits": 2,
-      "remHits": 1,
-      "lastLightAt": "2026-05-15T19:04:37.974Z",
-      "lastRemAt": "2026-05-15T19:04:37.974Z"
+      "lightHits": 3,
+      "remHits": 2,
+      "lastLightAt": "2026-05-16T19:00:39.120Z",
+      "lastRemAt": "2026-05-16T19:00:39.120Z"
     }
   }
 }

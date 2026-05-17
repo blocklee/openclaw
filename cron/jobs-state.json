@@ -2,55 +2,55 @@
   "version": 1,
   "jobs": {
     "1c3a7bd5-d835-41d8-a14a-d2970f13d503": {
-      "updatedAtMs": 1778803297571,
+      "updatedAtMs": 1778889988120,
       "state": {
-        "nextRunAtMs": 1778889600000,
-        "lastRunAtMs": 1778803200002,
+        "nextRunAtMs": 1778976000000,
+        "lastRunAtMs": 1778889600004,
         "lastRunStatus": "ok",
         "lastStatus": "ok",
-        "lastDurationMs": 97569,
+        "lastDurationMs": 388116,
         "lastDeliveryStatus": "delivered",
         "consecutiveErrors": 0,
         "lastDelivered": true,
-        "runningAtMs": 1778889600003
+        "runningAtMs": 1778976000002
       }
     },
     "config-backup-8am": {
-      "updatedAtMs": 1778832059493,
+      "updatedAtMs": 1778918438298,
       "state": {
-        "nextRunAtMs": 1778918400000,
-        "lastRunAtMs": 1778832000003,
+        "nextRunAtMs": 1779004800000,
+        "lastRunAtMs": 1778918400004,
         "lastRunStatus": "ok",
         "lastStatus": "ok",
-        "lastDurationMs": 59490,
+        "lastDurationMs": 38294,
         "lastDeliveryStatus": "delivered",
         "consecutiveErrors": 0,
         "lastDelivered": true
       }
     },
     "8f62feb4-aed8-47fd-8093-29d8f97f4b71": {
-      "updatedAtMs": 1778871953188,
+      "updatedAtMs": 1778958075814,
       "state": {
-        "nextRunAtMs": 1778958000000,
-        "lastRunAtMs": 1778871843717,
+        "nextRunAtMs": 1779044400000,
+        "lastRunAtMs": 1778958000004,
         "lastRunStatus": "ok",
         "lastStatus": "ok",
-        "lastDurationMs": 109471,
+        "lastDurationMs": 75810,
         "lastDeliveryStatus": "not-requested",
         "consecutiveErrors": 0
       }
     },
     "echo-platform-heartbeat": {
-      "updatedAtMs": 1778889365607,
+      "updatedAtMs": 1778975714729,
       "state": {
-        "nextRunAtMs": 1778889600000,
-        "lastRunAtMs": 1778889300005,
+        "nextRunAtMs": 1778976000000,
+        "lastRunAtMs": 1778975400003,
         "lastRunStatus": "ok",
         "lastStatus": "ok",
-        "lastDurationMs": 65602,
+        "lastDurationMs": 314726,
         "lastDeliveryStatus": "not-requested",
         "consecutiveErrors": 0,
-        "runningAtMs": 1778889600003
+        "runningAtMs": 1778976000002
       }
     }
   }

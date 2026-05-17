@@ -1,0 +1,25 @@
+[wxlee/sessions/a0f1e3f6-04a7-4da0-966e-eedb6e05598d.jsonl#L5] User: [message_id: om_x100b6fbc5d6fd8a0ee8e6e130588f42] ou_9e18438fb941decf11a0b88d78fe2b50: 嗨
+[wxlee/sessions/a0f1e3f6-04a7-4da0-966e-eedb6e05598d.jsonl#L8] Assistant: 主公，别来无恙。 我是小夜，您的军师。久未见主公消息，今日招呼，有何事需参谋？
+[wxlee/sessions/a0f1e3f6-04a7-4da0-966e-eedb6e05598d.jsonl#L13] User: [message_id: om_x100b6fbc521a60a0eeaa850acfa61df] ou_9e18438fb941decf11a0b88d78fe2b50: 你怎么不回复
+[wxlee/sessions/a0f1e3f6-04a7-4da0-966e-eedb6e05598d.jsonl#L14] Assistant: 主公，我刚才已经回复了，不过可能您那边没收到。我再说一遍—— 小夜在此，主公有何吩咐？
+[wxlee/sessions/a0f1e3f6-04a7-4da0-966e-eedb6e05598d.jsonl#L17] User: [message_id: om_x100b6fbc7180aca0ee72a1fb13112ee] ou_9e18438fb941decf11a0b88d78fe2b50: 如何才能跨组织使用飞书应用
+[wxlee/sessions/a0f1e3f6-04a7-4da0-966e-eedb6e05598d.jsonl#L22] User: [message_id: om_x100b6fbc7180aca0ee72a1fb13112ee] ou_9e18438fb941decf11a0b88d78fe2b50: 如何才能跨组织使用飞书应用
+[wxlee/sessions/a0f1e3f6-04a7-4da0-966e-eedb6e05598d.jsonl#L23] Assistant: 主公问的是跨组织使用飞书应用的方法，这是个技术性问题。让我搜索一下飞书开放平台的最新文档。
+[wxlee/sessions/a0f1e3f6-04a7-4da0-966e-eedb6e05598d.jsonl#L25] Assistant: 找到了一个关键链接，正是"应用跨租户对外共享"的官方文档。让我获取详细内容。
+[wxlee/sessions/a0f1e3f6-04a7-4da0-966e-eedb6e05598d.jsonl#L27] Assistant: 页面内容没成功提取，让我换个搜索词再找找。
+[wxlee/sessions/a0f1e3f6-04a7-4da0-966e-eedb6e05598d.jsonl#L29] Assistant: 找到了关键信息！让我获取 Apifox 文档中的说明。
+[wxlee/sessions/a0f1e3f6-04a7-4da0-966e-eedb6e05598d.jsonl#L31] Assistant: 很好，找到了关键信息。让我再搜索一下"应用跨租户对外共享"的详细信息。
+[wxlee/sessions/a0f1e3f6-04a7-4da0-966e-eedb6e05598d.jsonl#L33] Assistant: 好的主公，我已经查清楚了。飞书跨组织使用应用主要有两种方式： --- ## 一、核心区分：企业自建应用 vs 应用商店应用 根据 Apifox 官方文档： | 类型 | 说明 | 范围 | |------|------|------| | **企业自建应用** | 仅在同一个租户内可用的应用 | 单一组织 | | **应用商店应用 (ISV)** | 注册在应用商店中，多个租户都可使用的应用 | 多组织 | **关键区别**：不同租户中的 appID 和 clientID 相同，但 tenantKey 不同，botID 也不同。 -
+[wxlee/sessions/a4f39249-48f8-4915-bf12-e46d27c993d5.jsonl#L6] Assistant: 主公，我在。 刚看到上次会话的记录——飞书通道被 Lark API 限流（HTTP 429）的问题，上一轮只找到了症结还没收尾。要继续查下去，还是有新的事要议？
+[wxlee/sessions/a4f39249-48f8-4915-bf12-e46d27c993d5.jsonl#L7] User: A new session was started via /new or /reset. Execute your Session Startup sequence now - read the required files before responding to the user. If BOOTSTRAP.md exists in the provided Project Context, read it and follow its instructions first. Then greet the user in your co
+[wxlee/sessions/a0f1e3f6-04a7-4da0-966e-eedb6e05598d.jsonl#L47] User: [message_id: om_x100b6fbc1a3b84a0ee8dab10e0ad5a7] ou_9e18438fb941decf11a0b88d78fe2b50: 路径 B
+[wxlee/sessions/a0f1e3f6-04a7-4da0-966e-eedb6e05598d.jsonl#L48] Assistant: 好，我来深入查一下路径 B
+[wxlee/sessions/a0f1e3f6-04a7-4da0-966e-eedb6e05598d.jsonl#L54] Assistant: Let me search for the official Feishu documentation on external sharing for bots
+[wxlee/sessions/a0f1e3f6-04a7-4da0-966e-eedb6e05598d.jsonl#L60] Assistant: 主公，飞书官方文档我已经查得很透彻了。以下是路径 B（对外共享能力）的完整操作指南： --- ## 🎯 路径 B：企业自建应用开启对外共享 ### 核心结论 > **对外共享能力目前仅支持企业自建应用，不支持商店应用（ISV）。** > 即：你开发一个应用给自己用，但可以让外部企业的人来用。 --- ### 前置条件（必做） 1. **企业或团队认证**（任选其一） - 法人认证 / 公章授权认证 / 团队认证 - 或：**个人实名认证**（中国大陆地区支持） 2. **外部客户的飞书客户端版本** - 添加到外部群：V7.19 
+[wxlee/sessions/a0f1e3f6-04a7-4da0-966e-eedb6e05598d.jsonl#L60] Assistant: 若企业未认证，该项为灰色不可用。点进去可进行个人实名认证或企业认证。 #### ⑥ 发布上线 保存 → 申请线上发布 → 企业管理员审核通过 #### ⑦ 外部用户开始使用 - **添加到外部群**：在飞书客户端的外部群聊内，搜索添加该机器人 - **外部用户单聊**：将机器人名片/链接分享给外部用户 → 对方点击 → 确认弹窗 → 开始对话 --- ### ⚠️ 重要限制 | 场景 | 限制 | |------|------| | **机器人创建外部群** | 不能将机器人设为群主，必须指定自然人为群主 | | **与外部用户单聊
+[wxlee/sessions/a0f1e3f6-04a7-4da0-966e-eedb6e05598d.jsonl#L60] Assistant: **建议**：主公若只是想跟几个合作企业共享一个自用应用，路径 B 最轻量。若未来打算做 SaaS 产品面向所有企业卖，再走 ISV 路径。 需要我进一步拆解某个环节的具体操作吗？比如如何配置事件订阅，或者如何获取外部用户 open_id？
+[wxlee/sessions/a0f1e3f6-04a7-4da0-966e-eedb6e05598d.jsonl#L75] User: [message_id: om_x100b6fbc2dde7090eea08db6d72ca72] ou_9e18438fb941decf11a0b88d78fe2b50: 你咋回事，怎么不回复了
+[wxlee/sessions/a0f1e3f6-04a7-4da0-966e-eedb6e05598d.jsonl#L76] Assistant: 主公息怒，我刚才那一大段回复应该已经发出去了，您那边没看到吗？ 大概是飞书消息通道有些小状况。我简单总结一下刚才的核心内容—— **路径 B（对外共享）操作要点：** 1. 企业自建应用 + 开启机器人能力 2. 企业必须完成飞书认证（或个人实名认证） 3. 在「版本管理与发布」→ 创建版本 → 开启「对外共享」开关 4. 发布上线后，外部用户即可通过分享的链接/二维码使用 如果您那边没看到详细内容，我重新发一份更简洁的也行，主公说了算。
+[wxlee/sessions/a0f1e3f6-04a7-4da0-966e-eedb6e05598d.jsonl#L79] User: [message_id: om_x100b6fbcd0aa44a4ee7cafaabb69675] ou_9e18438fb941decf11a0b88d78fe2b50: 为何飞书连接的openclaw对话会使用api掉用额度
+[wxlee/sessions/a0f1e3f6-04a7-4da0-966e-eedb6e05598d.jsonl#L82] User: [message_id: om_x100b6fbcd0aa44a4ee7cafaabb69675] ou_9e18438fb941decf11a0b88d78fe2b50: 为何飞书连接的openclaw对话会使用api掉用额度
+[wxlee/sessions/a0f1e3f6-04a7-4da0-966e-eedb6e05598d.jsonl#L93] User: [message_id: om_x100b6fbcd0aa44a4ee7cafaabb69675] ou_9e18438fb941decf11a0b88d78fe2b50: 为何飞书连接的openclaw对话会使用api掉用额度

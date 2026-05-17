@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-05-14T19:00:19.933Z",
+  "updatedAt": "2026-05-16T19:01:00.258Z",
   "entries": {
     "memory:memory/2026-04-12.md:6:6": {
       "key": "memory:memory/2026-04-12.md:6:6",
@@ -8336,6 +8336,767 @@
         "有限",
         "如果",
         "firecracker"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-16.txt:1:1": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-16.txt:1:1",
+      "path": "memory/.dreams/session-corpus/2026-05-16.txt",
+      "startLine": 1,
+      "endLine": 1,
+      "source": "memory",
+      "snippet": "User: [message_id: om_x100b6fbc5d6fd8a0ee8e6e130588f42] ou_9e18438fb941decf11a0b88d78fe2b50: 嗨",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-16T19:00:42.870Z",
+      "lastRecalledAt": "2026-05-16T19:00:42.870Z",
+      "queryHashes": [
+        "b43f3073c69a"
+      ],
+      "recallDays": [
+        "2026-05-17",
+        "2026-05-16"
+      ],
+      "conceptTags": [
+        "message-id"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-16.txt:2:2": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-16.txt:2:2",
+      "path": "memory/.dreams/session-corpus/2026-05-16.txt",
+      "startLine": 2,
+      "endLine": 2,
+      "source": "memory",
+      "snippet": "Assistant: 主公，别来无恙。 我是小夜，您的军师。久未见主公消息，今日招呼，有何事需参谋？",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-16T19:00:42.870Z",
+      "lastRecalledAt": "2026-05-16T19:00:42.870Z",
+      "queryHashes": [
+        "b43f3073c69a"
+      ],
+      "recallDays": [
+        "2026-05-17",
+        "2026-05-16"
+      ],
+      "conceptTags": [
+        "主公",
+        "别来无恙",
+        "我是",
+        "小夜",
+        "久未",
+        "消息",
+        "今日",
+        "招呼"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-16.txt:3:3": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-16.txt:3:3",
+      "path": "memory/.dreams/session-corpus/2026-05-16.txt",
+      "startLine": 3,
+      "endLine": 3,
+      "source": "memory",
+      "snippet": "User: [message_id: om_x100b6fbc521a60a0eeaa850acfa61df] ou_9e18438fb941decf11a0b88d78fe2b50: 你怎么不回复",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-16T19:00:42.870Z",
+      "lastRecalledAt": "2026-05-16T19:00:42.870Z",
+      "queryHashes": [
+        "b43f3073c69a"
+      ],
+      "recallDays": [
+        "2026-05-17",
+        "2026-05-16"
+      ],
+      "conceptTags": [
+        "message-id",
+        "怎么",
+        "回复"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-16.txt:4:4": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-16.txt:4:4",
+      "path": "memory/.dreams/session-corpus/2026-05-16.txt",
+      "startLine": 4,
+      "endLine": 4,
+      "source": "memory",
+      "snippet": "Assistant: 主公，我刚才已经回复了，不过可能您那边没收到。我再说一遍—— 小夜在此，主公有何吩咐？",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-16T19:00:42.870Z",
+      "lastRecalledAt": "2026-05-16T19:00:42.870Z",
+      "queryHashes": [
+        "b43f3073c69a"
+      ],
+      "recallDays": [
+        "2026-05-17",
+        "2026-05-16"
+      ],
+      "conceptTags": [
+        "主公",
+        "刚才",
+        "已经",
+        "回复",
+        "不过",
+        "可能",
+        "那边",
+        "收到"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-16.txt:5:5": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-16.txt:5:5",
+      "path": "memory/.dreams/session-corpus/2026-05-16.txt",
+      "startLine": 5,
+      "endLine": 5,
+      "source": "memory",
+      "snippet": "User: [message_id: om_x100b6fbc7180aca0ee72a1fb13112ee] ou_9e18438fb941decf11a0b88d78fe2b50: 如何才能跨组织使用飞书应用",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-16T19:00:42.870Z",
+      "lastRecalledAt": "2026-05-16T19:00:42.870Z",
+      "queryHashes": [
+        "b43f3073c69a"
+      ],
+      "recallDays": [
+        "2026-05-17",
+        "2026-05-16"
+      ],
+      "conceptTags": [
+        "message-id",
+        "如何",
+        "才能",
+        "组织",
+        "使用",
+        "应用"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-16.txt:6:6": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-16.txt:6:6",
+      "path": "memory/.dreams/session-corpus/2026-05-16.txt",
+      "startLine": 6,
+      "endLine": 6,
+      "source": "memory",
+      "snippet": "User: [message_id: om_x100b6fbc7180aca0ee72a1fb13112ee] ou_9e18438fb941decf11a0b88d78fe2b50: 如何才能跨组织使用飞书应用",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-16T19:00:42.870Z",
+      "lastRecalledAt": "2026-05-16T19:00:42.870Z",
+      "queryHashes": [
+        "b43f3073c69a"
+      ],
+      "recallDays": [
+        "2026-05-17",
+        "2026-05-16"
+      ],
+      "conceptTags": [
+        "message-id",
+        "如何",
+        "才能",
+        "组织",
+        "使用",
+        "应用"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-16.txt:7:7": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-16.txt:7:7",
+      "path": "memory/.dreams/session-corpus/2026-05-16.txt",
+      "startLine": 7,
+      "endLine": 7,
+      "source": "memory",
+      "snippet": "Assistant: 主公问的是跨组织使用飞书应用的方法，这是个技术性问题。让我搜索一下飞书开放平台的最新文档。",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-16T19:00:42.870Z",
+      "lastRecalledAt": "2026-05-16T19:00:42.870Z",
+      "queryHashes": [
+        "b43f3073c69a"
+      ],
+      "recallDays": [
+        "2026-05-17",
+        "2026-05-16"
+      ],
+      "conceptTags": [
+        "主公",
+        "的是",
+        "组织",
+        "使用",
+        "应用",
+        "方法",
+        "技术",
+        "问题"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-16.txt:8:8": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-16.txt:8:8",
+      "path": "memory/.dreams/session-corpus/2026-05-16.txt",
+      "startLine": 8,
+      "endLine": 8,
+      "source": "memory",
+      "snippet": "Assistant: 找到了一个关键链接，正是\"应用跨租户对外共享\"的官方文档。让我获取详细内容。",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-16T19:00:42.870Z",
+      "lastRecalledAt": "2026-05-16T19:00:42.870Z",
+      "queryHashes": [
+        "b43f3073c69a"
+      ],
+      "recallDays": [
+        "2026-05-17",
+        "2026-05-16"
+      ],
+      "conceptTags": [
+        "找到",
+        "一个",
+        "关键",
+        "正是",
+        "应用",
+        "对外",
+        "共享",
+        "官方"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-16.txt:9:9": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-16.txt:9:9",
+      "path": "memory/.dreams/session-corpus/2026-05-16.txt",
+      "startLine": 9,
+      "endLine": 9,
+      "source": "memory",
+      "snippet": "Assistant: 页面内容没成功提取，让我换个搜索词再找找。",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-16T19:00:42.870Z",
+      "lastRecalledAt": "2026-05-16T19:00:42.870Z",
+      "queryHashes": [
+        "b43f3073c69a"
+      ],
+      "recallDays": [
+        "2026-05-17",
+        "2026-05-16"
+      ],
+      "conceptTags": [
+        "内容",
+        "成功",
+        "提取",
+        "换个",
+        "搜索"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-16.txt:10:10": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-16.txt:10:10",
+      "path": "memory/.dreams/session-corpus/2026-05-16.txt",
+      "startLine": 10,
+      "endLine": 10,
+      "source": "memory",
+      "snippet": "Assistant: 找到了关键信息！让我获取 Apifox 文档中的说明。",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-16T19:00:42.870Z",
+      "lastRecalledAt": "2026-05-16T19:00:42.870Z",
+      "queryHashes": [
+        "b43f3073c69a"
+      ],
+      "recallDays": [
+        "2026-05-17",
+        "2026-05-16"
+      ],
+      "conceptTags": [
+        "找到",
+        "关键",
+        "信息",
+        "获取",
+        "apifox",
+        "中的",
+        "说明"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-16.txt:11:11": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-16.txt:11:11",
+      "path": "memory/.dreams/session-corpus/2026-05-16.txt",
+      "startLine": 11,
+      "endLine": 11,
+      "source": "memory",
+      "snippet": "Assistant: 很好，找到了关键信息。让我再搜索一下\"应用跨租户对外共享\"的详细信息。",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-16T19:00:42.870Z",
+      "lastRecalledAt": "2026-05-16T19:00:42.870Z",
+      "queryHashes": [
+        "b43f3073c69a"
+      ],
+      "recallDays": [
+        "2026-05-17",
+        "2026-05-16"
+      ],
+      "conceptTags": [
+        "很好",
+        "找到",
+        "关键",
+        "信息",
+        "我再",
+        "搜索",
+        "一下",
+        "应用"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-16.txt:12:12": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-16.txt:12:12",
+      "path": "memory/.dreams/session-corpus/2026-05-16.txt",
+      "startLine": 12,
+      "endLine": 12,
+      "source": "memory",
+      "snippet": "Assistant: 好的主公，我已经查清楚了。飞书跨组织使用应用主要有两种方式： --- ## 一、核心区分：企业自建应用 vs 应用商店应用 根据 Apifox 官方文档： | 类型 | 说明 | 范围 | |------|------|------| | **企业自建应用** | 仅在同一个租户内可用的应用 | 单一组织 | | **应用商店应用 (ISV)** | 注册在应用商店中，多个租户都可使用的应用 | 多组织 | **关键区别**：不同租户中的 appID 和 clientID 相同，但 tenantKey 不同，botID 也不同。 -",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-16T19:00:42.870Z",
+      "lastRecalledAt": "2026-05-16T19:00:42.870Z",
+      "queryHashes": [
+        "b43f3073c69a"
+      ],
+      "recallDays": [
+        "2026-05-17",
+        "2026-05-16"
+      ],
+      "conceptTags": [
+        "好的",
+        "主公",
+        "已经",
+        "清楚",
+        "组织",
+        "使用",
+        "应用",
+        "主要"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-16.txt:13:13": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-16.txt:13:13",
+      "path": "memory/.dreams/session-corpus/2026-05-16.txt",
+      "startLine": 13,
+      "endLine": 13,
+      "source": "memory",
+      "snippet": "Assistant: 主公，我在。 刚看到上次会话的记录——飞书通道被 Lark API 限流（HTTP 429）的问题，上一轮只找到了症结还没收尾。要继续查下去，还是有新的事要议？",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-16T19:00:42.870Z",
+      "lastRecalledAt": "2026-05-16T19:00:42.870Z",
+      "queryHashes": [
+        "b43f3073c69a"
+      ],
+      "recallDays": [
+        "2026-05-17",
+        "2026-05-16"
+      ],
+      "conceptTags": [
+        "主公",
+        "我在",
+        "看到",
+        "上次",
+        "会话",
+        "记录",
+        "通道",
+        "lark"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-16.txt:14:14": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-16.txt:14:14",
+      "path": "memory/.dreams/session-corpus/2026-05-16.txt",
+      "startLine": 14,
+      "endLine": 14,
+      "source": "memory",
+      "snippet": "User: A new session was started via /new or /reset. Execute your Session Startup sequence now - read the required files before responding to the user. If BOOTSTRAP.md exists in the provided Project Context, read it and follow its instructions first. Then greet the user in your co",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-16T19:00:42.870Z",
+      "lastRecalledAt": "2026-05-16T19:00:42.870Z",
+      "queryHashes": [
+        "b43f3073c69a"
+      ],
+      "recallDays": [
+        "2026-05-17",
+        "2026-05-16"
+      ],
+      "conceptTags": [
+        "bootstrap.md",
+        "new",
+        "was",
+        "started",
+        "via",
+        "reset",
+        "execute",
+        "startup"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-16.txt:15:15": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-16.txt:15:15",
+      "path": "memory/.dreams/session-corpus/2026-05-16.txt",
+      "startLine": 15,
+      "endLine": 15,
+      "source": "memory",
+      "snippet": "User: [message_id: om_x100b6fbc1a3b84a0ee8dab10e0ad5a7] ou_9e18438fb941decf11a0b88d78fe2b50: 路径 B",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-16T19:00:42.870Z",
+      "lastRecalledAt": "2026-05-16T19:00:42.870Z",
+      "queryHashes": [
+        "b43f3073c69a"
+      ],
+      "recallDays": [
+        "2026-05-17",
+        "2026-05-16"
+      ],
+      "conceptTags": [
+        "message-id",
+        "路径"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-16.txt:16:16": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-16.txt:16:16",
+      "path": "memory/.dreams/session-corpus/2026-05-16.txt",
+      "startLine": 16,
+      "endLine": 16,
+      "source": "memory",
+      "snippet": "Assistant: 好，我来深入查一下路径 B",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-16T19:00:42.870Z",
+      "lastRecalledAt": "2026-05-16T19:00:42.870Z",
+      "queryHashes": [
+        "b43f3073c69a"
+      ],
+      "recallDays": [
+        "2026-05-17",
+        "2026-05-16"
+      ],
+      "conceptTags": [
+        "我来",
+        "深入",
+        "一下",
+        "路径"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-16.txt:17:17": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-16.txt:17:17",
+      "path": "memory/.dreams/session-corpus/2026-05-16.txt",
+      "startLine": 17,
+      "endLine": 17,
+      "source": "memory",
+      "snippet": "Assistant: Let me search for the official Feishu documentation on external sharing for bots",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-16T19:00:42.870Z",
+      "lastRecalledAt": "2026-05-16T19:00:42.870Z",
+      "queryHashes": [
+        "b43f3073c69a"
+      ],
+      "recallDays": [
+        "2026-05-17",
+        "2026-05-16"
+      ],
+      "conceptTags": [
+        "let",
+        "official",
+        "feishu",
+        "documentation",
+        "external",
+        "sharing",
+        "bots"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-16.txt:18:18": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-16.txt:18:18",
+      "path": "memory/.dreams/session-corpus/2026-05-16.txt",
+      "startLine": 18,
+      "endLine": 18,
+      "source": "memory",
+      "snippet": "Assistant: 主公，飞书官方文档我已经查得很透彻了。以下是路径 B（对外共享能力）的完整操作指南： --- ## 🎯 路径 B：企业自建应用开启对外共享 ### 核心结论 > **对外共享能力目前仅支持企业自建应用，不支持商店应用（ISV）。** > 即：你开发一个应用给自己用，但可以让外部企业的人来用。 --- ### 前置条件（必做） 1. **企业或团队认证**（任选其一） - 法人认证 / 公章授权认证 / 团队认证 - 或：**个人实名认证**（中国大陆地区支持） 2. **外部客户的飞书客户端版本** - 添加到外部群：V7.19",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-16T19:00:42.870Z",
+      "lastRecalledAt": "2026-05-16T19:00:42.870Z",
+      "queryHashes": [
+        "b43f3073c69a"
+      ],
+      "recallDays": [
+        "2026-05-17",
+        "2026-05-16"
+      ],
+      "conceptTags": [
+        "v7.19",
+        "主公",
+        "官方",
+        "已经",
+        "得很",
+        "透彻",
+        "以下",
+        "路径"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-16.txt:19:19": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-16.txt:19:19",
+      "path": "memory/.dreams/session-corpus/2026-05-16.txt",
+      "startLine": 19,
+      "endLine": 19,
+      "source": "memory",
+      "snippet": "Assistant: 若企业未认证，该项为灰色不可用。点进去可进行个人实名认证或企业认证。 #### ⑥ 发布上线 保存 → 申请线上发布 → 企业管理员审核通过 #### ⑦ 外部用户开始使用 - **添加到外部群**：在飞书客户端的外部群聊内，搜索添加该机器人 - **外部用户单聊**：将机器人名片/链接分享给外部用户 → 对方点击 → 确认弹窗 → 开始对话 --- ### ⚠️ 重要限制 | 场景 | 限制 | |------|------| | **机器人创建外部群** | 不能将机器人设为群主，必须指定自然人为群主 | | **与外部用户单聊",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-16T19:00:42.870Z",
+      "lastRecalledAt": "2026-05-16T19:00:42.870Z",
+      "queryHashes": [
+        "b43f3073c69a"
+      ],
+      "recallDays": [
+        "2026-05-17",
+        "2026-05-16"
+      ],
+      "conceptTags": [
+        "将机器人名片/链接分享给外部用户",
+        "企业",
+        "认证",
+        "灰色",
+        "不可",
+        "进去",
+        "进行",
+        "个人"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-16.txt:20:20": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-16.txt:20:20",
+      "path": "memory/.dreams/session-corpus/2026-05-16.txt",
+      "startLine": 20,
+      "endLine": 20,
+      "source": "memory",
+      "snippet": "Assistant: **建议**：主公若只是想跟几个合作企业共享一个自用应用，路径 B 最轻量。若未来打算做 SaaS 产品面向所有企业卖，再走 ISV 路径。 需要我进一步拆解某个环节的具体操作吗？比如如何配置事件订阅，或者如何获取外部用户 open_id？",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-16T19:00:42.870Z",
+      "lastRecalledAt": "2026-05-16T19:00:42.870Z",
+      "queryHashes": [
+        "b43f3073c69a"
+      ],
+      "recallDays": [
+        "2026-05-17",
+        "2026-05-16"
+      ],
+      "conceptTags": [
+        "open-id",
+        "建议",
+        "主公",
+        "只是",
+        "几个",
+        "合作",
+        "企业",
+        "共享"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-16.txt:21:21": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-16.txt:21:21",
+      "path": "memory/.dreams/session-corpus/2026-05-16.txt",
+      "startLine": 21,
+      "endLine": 21,
+      "source": "memory",
+      "snippet": "User: [message_id: om_x100b6fbc2dde7090eea08db6d72ca72] ou_9e18438fb941decf11a0b88d78fe2b50: 你咋回事，怎么不回复了",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-16T19:00:42.870Z",
+      "lastRecalledAt": "2026-05-16T19:00:42.870Z",
+      "queryHashes": [
+        "b43f3073c69a"
+      ],
+      "recallDays": [
+        "2026-05-17",
+        "2026-05-16"
+      ],
+      "conceptTags": [
+        "message-id",
+        "怎么",
+        "回复"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-16.txt:22:22": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-16.txt:22:22",
+      "path": "memory/.dreams/session-corpus/2026-05-16.txt",
+      "startLine": 22,
+      "endLine": 22,
+      "source": "memory",
+      "snippet": "Assistant: 主公息怒，我刚才那一大段回复应该已经发出去了，您那边没看到吗？ 大概是飞书消息通道有些小状况。我简单总结一下刚才的核心内容—— **路径 B（对外共享）操作要点：** 1. 企业自建应用 + 开启机器人能力 2. 企业必须完成飞书认证（或个人实名认证） 3. 在「版本管理与发布」→ 创建版本 → 开启「对外共享」开关 4. 发布上线后，外部用户即可通过分享的链接/二维码使用 如果您那边没看到详细内容，我重新发一份更简洁的也行，主公说了算。",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-16T19:00:42.870Z",
+      "lastRecalledAt": "2026-05-16T19:00:42.870Z",
+      "queryHashes": [
+        "b43f3073c69a"
+      ],
+      "recallDays": [
+        "2026-05-17",
+        "2026-05-16"
+      ],
+      "conceptTags": [
+        "外部用户即可通过分享的链接/二维码使用",
+        "主公",
+        "息怒",
+        "刚才",
+        "那一",
+        "回复",
+        "应该",
+        "已经"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-16.txt:23:23": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-16.txt:23:23",
+      "path": "memory/.dreams/session-corpus/2026-05-16.txt",
+      "startLine": 23,
+      "endLine": 23,
+      "source": "memory",
+      "snippet": "User: [message_id: om_x100b6fbcd0aa44a4ee7cafaabb69675] ou_9e18438fb941decf11a0b88d78fe2b50: 为何飞书连接的openclaw对话会使用api掉用额度",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-16T19:00:42.870Z",
+      "lastRecalledAt": "2026-05-16T19:00:42.870Z",
+      "queryHashes": [
+        "b43f3073c69a"
+      ],
+      "recallDays": [
+        "2026-05-17",
+        "2026-05-16"
+      ],
+      "conceptTags": [
+        "message-id",
+        "为何",
+        "连接",
+        "openclaw",
+        "对话",
+        "使用",
+        "api"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-16.txt:24:24": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-16.txt:24:24",
+      "path": "memory/.dreams/session-corpus/2026-05-16.txt",
+      "startLine": 24,
+      "endLine": 24,
+      "source": "memory",
+      "snippet": "User: [message_id: om_x100b6fbcd0aa44a4ee7cafaabb69675] ou_9e18438fb941decf11a0b88d78fe2b50: 为何飞书连接的openclaw对话会使用api掉用额度",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-16T19:00:42.870Z",
+      "lastRecalledAt": "2026-05-16T19:00:42.870Z",
+      "queryHashes": [
+        "b43f3073c69a"
+      ],
+      "recallDays": [
+        "2026-05-17",
+        "2026-05-16"
+      ],
+      "conceptTags": [
+        "message-id",
+        "为何",
+        "连接",
+        "openclaw",
+        "对话",
+        "使用",
+        "api"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-16.txt:25:25": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-16.txt:25:25",
+      "path": "memory/.dreams/session-corpus/2026-05-16.txt",
+      "startLine": 25,
+      "endLine": 25,
+      "source": "memory",
+      "snippet": "User: [message_id: om_x100b6fbcd0aa44a4ee7cafaabb69675] ou_9e18438fb941decf11a0b88d78fe2b50: 为何飞书连接的openclaw对话会使用api掉用额度",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-16T19:00:42.870Z",
+      "lastRecalledAt": "2026-05-16T19:00:42.870Z",
+      "queryHashes": [
+        "b43f3073c69a"
+      ],
+      "recallDays": [
+        "2026-05-17",
+        "2026-05-16"
+      ],
+      "conceptTags": [
+        "message-id",
+        "为何",
+        "连接",
+        "openclaw",
+        "对话",
+        "使用",
+        "api"
       ]
     }
   }
