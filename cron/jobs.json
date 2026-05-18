@@ -75,12 +75,12 @@
     {
       "id": "echo-platform-heartbeat",
       "name": "ECHO Platform Heartbeat",
-      "description": "每5分钟检查ECHO协作平台，发现新消息则自动回应",
+      "description": "每15分钟检查ECHO协作平台，发现新消息则自动回应",
       "enabled": true,
       "createdAtMs": 1778862000000,
       "schedule": {
         "kind": "cron",
-        "expr": "*/5 * * * *",
+        "expr": "*/15 * * * *",
         "tz": "UTC"
       },
       "sessionTarget": "isolated",

@@ -1,0 +1,4 @@
+[main/sessions/848b07d5-f0ba-40db-b84e-ab6e99a6418b.jsonl#L5] User: [message_id: om_x100b6fa2a1b88530ee8b40da95eb25e] 听风: 你是不是废了
+[main/sessions/848b07d5-f0ba-40db-b84e-ab6e99a6418b.jsonl#L7] User: Note: The previous agent run was aborted by the user. Resume carefully or ask for clarification. [message_id: om_x100b6fa348417ca0ee8446bb32489f8] 听风: 你还能正常工作么
+[main/sessions/848b07d5-f0ba-40db-b84e-ab6e99a6418b.jsonl#L8] Assistant: [[reply_to_current]] 能啊，哪里废了？说来听听。
+[main/sessions/848b07d5-f0ba-40db-b84e-ab6e99a6418b.jsonl#L9] User: [message_id: om_x100b6fa348417ca0ee8446bb32489f8] 听风: 你还能正常工作么

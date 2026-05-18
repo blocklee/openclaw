@@ -635,14 +635,7 @@
             "text"
           ],
           "contextWindow": 200000,
-          "maxTokens": 8192,
-          "cost": {
-            "input": 0,
-            "output": 0,
-            "cacheRead": 0,
-            "cacheWrite": 0
-          },
-          "api": "openai-completions"
+          "maxTokens": 8192
         },
         {
           "id": "google/gemma-3n-e4b-it",
@@ -653,14 +646,7 @@
             "image"
           ],
           "contextWindow": 32768,
-          "maxTokens": 32768,
-          "cost": {
-            "input": 0,
-            "output": 0,
-            "cacheRead": 0,
-            "cacheWrite": 0
-          },
-          "api": "openai-completions"
+          "maxTokens": 32768
         },
         {
           "id": "deepseek-ai/deepseek-v4-pro",
@@ -670,14 +656,7 @@
             "text"
           ],
           "contextWindow": 1000000,
-          "maxTokens": 32768,
-          "cost": {
-            "input": 0,
-            "output": 0,
-            "cacheRead": 0,
-            "cacheWrite": 0
-          },
-          "api": "openai-completions"
+          "maxTokens": 32768
         },
         {
           "id": "deepseek-ai/deepseek-v4-flash",
@@ -687,14 +666,7 @@
             "text"
           ],
           "contextWindow": 1000000,
-          "maxTokens": 32768,
-          "cost": {
-            "input": 0,
-            "output": 0,
-            "cacheRead": 0,
-            "cacheWrite": 0
-          },
-          "api": "openai-completions"
+          "maxTokens": 32768
         },
         {
           "id": "z-ai/glm4.7",
@@ -704,14 +676,7 @@
             "text"
           ],
           "contextWindow": 200000,
-          "maxTokens": 128000,
-          "cost": {
-            "input": 0,
-            "output": 0,
-            "cacheRead": 0,
-            "cacheWrite": 0
-          },
-          "api": "openai-completions"
+          "maxTokens": 128000
         }
       ],
       "apiKey": "NVIDIA_API_KEY"

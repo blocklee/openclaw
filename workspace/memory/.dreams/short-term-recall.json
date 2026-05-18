@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-05-16T19:00:36.958Z",
+  "updatedAt": "2026-05-17T19:07:08.957Z",
   "entries": {
     "memory:memory/.dreams/session-corpus/2026-04-11.txt:1:1": {
       "key": "memory:memory/.dreams/session-corpus/2026-04-11.txt:1:1",
@@ -11305,12 +11305,12 @@
       "source": "memory",
       "snippet": "8:00 - 定时备份: 执行 `config-backup-8am` cron job：`openclaw.json` 备份完成 → `~/.openclaw/openclaw.json.backup-20260512`",
       "recallCount": 0,
-      "dailyCount": 3,
+      "dailyCount": 4,
       "groundedCount": 0,
-      "totalScore": 1.8599999999999999,
+      "totalScore": 2.48,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-05-12T19:00:21.469Z",
-      "lastRecalledAt": "2026-05-16T19:00:01.525Z",
+      "lastRecalledAt": "2026-05-17T19:07:08.957Z",
       "queryHashes": [
         "a727ea7b8da3"
       ],
@@ -11319,7 +11319,8 @@
         "2026-05-12",
         "2026-05-16",
         "2026-05-15",
-        "2026-05-17"
+        "2026-05-17",
+        "2026-05-18"
       ],
       "conceptTags": [
         "backup",
@@ -15193,6 +15194,120 @@
         "迭代",
         "绝对",
         "质量"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-17.txt:1:1": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-17.txt:1:1",
+      "path": "memory/.dreams/session-corpus/2026-05-17.txt",
+      "startLine": 1,
+      "endLine": 1,
+      "source": "memory",
+      "snippet": "User: [message_id: om_x100b6fa2a1b88530ee8b40da95eb25e] 听风: 你是不是废了",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-17T19:00:05.472Z",
+      "lastRecalledAt": "2026-05-17T19:00:05.472Z",
+      "queryHashes": [
+        "7c821d0b4905"
+      ],
+      "recallDays": [
+        "2026-05-18",
+        "2026-05-17"
+      ],
+      "conceptTags": [
+        "message-id",
+        "是不是",
+        "废了"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-17.txt:2:2": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-17.txt:2:2",
+      "path": "memory/.dreams/session-corpus/2026-05-17.txt",
+      "startLine": 2,
+      "endLine": 2,
+      "source": "memory",
+      "snippet": "User: Note: The previous agent run was aborted by the user. Resume carefully or ask for clarification. [message_id: om_x100b6fa348417ca0ee8446bb32489f8] 听风: 你还能正常工作么",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-17T19:00:05.472Z",
+      "lastRecalledAt": "2026-05-17T19:00:05.472Z",
+      "queryHashes": [
+        "7c821d0b4905"
+      ],
+      "recallDays": [
+        "2026-05-18",
+        "2026-05-17"
+      ],
+      "conceptTags": [
+        "message-id",
+        "previous",
+        "run",
+        "was",
+        "aborted",
+        "resume",
+        "carefully",
+        "ask"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-17.txt:3:3": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-17.txt:3:3",
+      "path": "memory/.dreams/session-corpus/2026-05-17.txt",
+      "startLine": 3,
+      "endLine": 3,
+      "source": "memory",
+      "snippet": "Assistant: [[reply_to_current]] 能啊，哪里废了？说来听听。",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-17T19:00:05.472Z",
+      "lastRecalledAt": "2026-05-17T19:00:05.472Z",
+      "queryHashes": [
+        "7c821d0b4905"
+      ],
+      "recallDays": [
+        "2026-05-18",
+        "2026-05-17"
+      ],
+      "conceptTags": [
+        "reply-to-current",
+        "哪里",
+        "废了",
+        "说来听听"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-17.txt:4:4": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-17.txt:4:4",
+      "path": "memory/.dreams/session-corpus/2026-05-17.txt",
+      "startLine": 4,
+      "endLine": 4,
+      "source": "memory",
+      "snippet": "User: [message_id: om_x100b6fa348417ca0ee8446bb32489f8] 听风: 你还能正常工作么",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-17T19:00:05.472Z",
+      "lastRecalledAt": "2026-05-17T19:00:05.472Z",
+      "queryHashes": [
+        "7c821d0b4905"
+      ],
+      "recallDays": [
+        "2026-05-18",
+        "2026-05-17"
+      ],
+      "conceptTags": [
+        "message-id",
+        "正常",
+        "工作"
       ]
     }
   }

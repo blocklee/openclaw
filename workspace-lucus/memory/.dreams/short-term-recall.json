@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-05-15T19:00:56.479Z",
+  "updatedAt": "2026-05-17T19:00:43.295Z",
   "entries": {
     "memory:memory/.dreams/session-corpus/2026-04-11.txt:1:1": {
       "key": "memory:memory/.dreams/session-corpus/2026-04-11.txt:1:1",
@@ -8843,6 +8843,119 @@
         "路径",
         "变化",
         "这个"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-17.txt:1:1": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-17.txt:1:1",
+      "path": "memory/.dreams/session-corpus/2026-05-17.txt",
+      "startLine": 1,
+      "endLine": 1,
+      "source": "memory",
+      "snippet": "User: [message_id: om_x100b6fa30ef560a8eead6d499242788] ou_cb5c7afa7e77cafdeaeae1620a2a383a: 你好",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-17T19:00:35.564Z",
+      "lastRecalledAt": "2026-05-17T19:00:35.564Z",
+      "queryHashes": [
+        "7c821d0b4905"
+      ],
+      "recallDays": [
+        "2026-05-18",
+        "2026-05-17"
+      ],
+      "conceptTags": [
+        "message-id",
+        "你好"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-17.txt:2:2": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-17.txt:2:2",
+      "path": "memory/.dreams/session-corpus/2026-05-17.txt",
+      "startLine": 2,
+      "endLine": 2,
+      "source": "memory",
+      "snippet": "Assistant: 你好！有什么我可以帮你的吗？",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-17T19:00:35.564Z",
+      "lastRecalledAt": "2026-05-17T19:00:35.564Z",
+      "queryHashes": [
+        "7c821d0b4905"
+      ],
+      "recallDays": [
+        "2026-05-18",
+        "2026-05-17"
+      ],
+      "conceptTags": [
+        "你好",
+        "什么",
+        "可以",
+        "你的"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-17.txt:3:3": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-17.txt:3:3",
+      "path": "memory/.dreams/session-corpus/2026-05-17.txt",
+      "startLine": 3,
+      "endLine": 3,
+      "source": "memory",
+      "snippet": "User: [message_id: om_x100b6fa3e945b530eea6bde95086d31] ou_cb5c7afa7e77cafdeaeae1620a2a383a: 你还能正常工作么",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-17T19:00:35.564Z",
+      "lastRecalledAt": "2026-05-17T19:00:35.564Z",
+      "queryHashes": [
+        "7c821d0b4905"
+      ],
+      "recallDays": [
+        "2026-05-18",
+        "2026-05-17"
+      ],
+      "conceptTags": [
+        "message-id",
+        "正常",
+        "工作"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-17.txt:4:4": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-17.txt:4:4",
+      "path": "memory/.dreams/session-corpus/2026-05-17.txt",
+      "startLine": 4,
+      "endLine": 4,
+      "source": "memory",
+      "snippet": "Assistant: 能！我这边运行正常。之前你发了\"你好\"，现在又问\"还能正常工作么\"——是遇到什么问题了，还是想测试一下？说吧 📡",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-17T19:00:35.564Z",
+      "lastRecalledAt": "2026-05-17T19:00:35.564Z",
+      "queryHashes": [
+        "7c821d0b4905"
+      ],
+      "recallDays": [
+        "2026-05-18",
+        "2026-05-17"
+      ],
+      "conceptTags": [
+        "这边",
+        "运行",
+        "正常",
+        "之前",
+        "你好",
+        "现在",
+        "工作",
+        "遇到"
       ]
     }
   }

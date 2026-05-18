@@ -769,7 +769,7 @@
       "accountId": "a23ee0675df2-im-bot"
     },
     "sessionId": "a4f39249-48f8-4915-bf12-e46d27c993d5",
-    "updatedAt": 1778944682058,
+    "updatedAt": 1778986015463,
     "systemSent": true,
     "abortedLastRun": false,
     "chatType": "direct",
@@ -1192,12 +1192,12 @@
       "version": 0
     },
     "status": "done",
-    "startedAt": 1778944641687,
+    "startedAt": 1778985955715,
     "modelProvider": "nvidia",
     "model": "deepseek-ai/deepseek-v4-flash",
     "systemPromptReport": {
       "source": "run",
-      "generatedAt": 1778944641629,
+      "generatedAt": 1778985955583,
       "sessionId": "a4f39249-48f8-4915-bf12-e46d27c993d5",
       "sessionKey": "agent:wxlee:openclaw-weixin:a23ee0675df2-im-bot:direct:o9cq802uvmveggp0xkfm4o7acdrg@im.wechat",
       "provider": "nvidia",
@@ -1509,9 +1509,9 @@
     },
     "totalTokensFresh": false,
     "compactionCount": 0,
-    "endedAt": 1778944681812,
-    "runtimeMs": 40125,
-    "contextTokens": 1000000
+    "contextTokens": 1000000,
+    "endedAt": 1778986014884,
+    "runtimeMs": 59169
   },
   "agent:wxlee:main": {
     "sessionId": "09c77d83-ab1d-499b-8f31-6d0c48516537",
