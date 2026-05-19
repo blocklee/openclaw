@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-05-17T19:07:08.957Z",
+  "updatedAt": "2026-05-18T19:00:14.773Z",
   "entries": {
     "memory:memory/.dreams/session-corpus/2026-04-11.txt:1:1": {
       "key": "memory:memory/.dreams/session-corpus/2026-04-11.txt:1:1",
@@ -11305,12 +11305,12 @@
       "source": "memory",
       "snippet": "8:00 - 定时备份: 执行 `config-backup-8am` cron job：`openclaw.json` 备份完成 → `~/.openclaw/openclaw.json.backup-20260512`",
       "recallCount": 0,
-      "dailyCount": 4,
+      "dailyCount": 5,
       "groundedCount": 0,
-      "totalScore": 2.48,
+      "totalScore": 3.1,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-05-12T19:00:21.469Z",
-      "lastRecalledAt": "2026-05-17T19:07:08.957Z",
+      "lastRecalledAt": "2026-05-18T19:00:01.466Z",
       "queryHashes": [
         "a727ea7b8da3"
       ],
@@ -11320,7 +11320,8 @@
         "2026-05-16",
         "2026-05-15",
         "2026-05-17",
-        "2026-05-18"
+        "2026-05-18",
+        "2026-05-19"
       ],
       "conceptTags": [
         "backup",
@@ -15308,6 +15309,1451 @@
         "message-id",
         "正常",
         "工作"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-18.txt:1:1": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-18.txt:1:1",
+      "path": "memory/.dreams/session-corpus/2026-05-18.txt",
+      "startLine": 1,
+      "endLine": 1,
+      "source": "memory",
+      "snippet": "User: [message_id: om_x100b6f877796a0acc4c207f03eb0c84] ou_f786171f9e21bf5a09c3116b2e77aaff: 你好",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-18T19:00:01.466Z",
+      "lastRecalledAt": "2026-05-18T19:00:01.466Z",
+      "queryHashes": [
+        "cda70fe5512d"
+      ],
+      "recallDays": [
+        "2026-05-19",
+        "2026-05-18"
+      ],
+      "conceptTags": [
+        "message-id",
+        "你好"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-18.txt:2:2": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-18.txt:2:2",
+      "path": "memory/.dreams/session-corpus/2026-05-18.txt",
+      "startLine": 2,
+      "endLine": 2,
+      "source": "memory",
+      "snippet": "Assistant: [[reply_to_current]] 你好，boss！有什么可以帮你的吗？",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-18T19:00:01.466Z",
+      "lastRecalledAt": "2026-05-18T19:00:01.466Z",
+      "queryHashes": [
+        "cda70fe5512d"
+      ],
+      "recallDays": [
+        "2026-05-19",
+        "2026-05-18"
+      ],
+      "conceptTags": [
+        "reply-to-current",
+        "你好",
+        "boss",
+        "什么",
+        "可以",
+        "你的"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-18.txt:3:3": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-18.txt:3:3",
+      "path": "memory/.dreams/session-corpus/2026-05-18.txt",
+      "startLine": 3,
+      "endLine": 3,
+      "source": "memory",
+      "snippet": "User: [message_id: om_x100b6f870fbaacb0c4fcaa8f977cbc8] ou_f786171f9e21bf5a09c3116b2e77aaff: 你可以清除掉openclaw之前的历史 log吗，我不想在执行 openclaw logs的时候再看到之前的历史日志",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-18T19:00:01.466Z",
+      "lastRecalledAt": "2026-05-18T19:00:01.466Z",
+      "queryHashes": [
+        "cda70fe5512d"
+      ],
+      "recallDays": [
+        "2026-05-19",
+        "2026-05-18"
+      ],
+      "conceptTags": [
+        "message-id",
+        "可以",
+        "清除",
+        "openclaw",
+        "之前",
+        "历史",
+        "log",
+        "不想"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-18.txt:4:4": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-18.txt:4:4",
+      "path": "memory/.dreams/session-corpus/2026-05-18.txt",
+      "startLine": 4,
+      "endLine": 4,
+      "source": "memory",
+      "snippet": "Assistant: 找到了，历史日志分布在两个地方： | 路径 | 大小 | 日期 | |------|------|------| | `/tmp/openclaw/openclaw-2026-05-17.log` | 4.2M | 昨天的 | | `/tmp/openclaw/openclaw-2026-05-18.log` | 1.5M | 今天的 | | `~/.openclaw/logs/commands.log` | 3.7K | 命令历史 | | `~/.openclaw/logs/config-audit.jsonl` | 108K |",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-18T19:00:01.466Z",
+      "lastRecalledAt": "2026-05-18T19:00:01.466Z",
+      "queryHashes": [
+        "cda70fe5512d"
+      ],
+      "recallDays": [
+        "2026-05-19",
+        "2026-05-18"
+      ],
+      "conceptTags": [
+        "4.2m",
+        "1.5m",
+        "openclaw/logs/commands.log",
+        "3.7k",
+        "openclaw/logs/config-audit.jsonl",
+        "找到",
+        "历史",
+        "日志"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-18.txt:5:5": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-18.txt:5:5",
+      "path": "memory/.dreams/session-corpus/2026-05-18.txt",
+      "startLine": 5,
+      "endLine": 5,
+      "source": "memory",
+      "snippet": "User: [message_id: om_x100b6f870923f4a0c4ae6de97b2295b] ou_f786171f9e21bf5a09c3116b2e77aaff: 清除旧日志",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-18T19:00:01.466Z",
+      "lastRecalledAt": "2026-05-18T19:00:01.466Z",
+      "queryHashes": [
+        "cda70fe5512d"
+      ],
+      "recallDays": [
+        "2026-05-19",
+        "2026-05-18"
+      ],
+      "conceptTags": [
+        "message-id",
+        "清除",
+        "日志"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-18.txt:6:6": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-18.txt:6:6",
+      "path": "memory/.dreams/session-corpus/2026-05-18.txt",
+      "startLine": 6,
+      "endLine": 6,
+      "source": "memory",
+      "snippet": "Assistant: 已清除，现在只剩今天的日志： ``` /tmp/openclaw/openclaw-2026-05-18.log 1.5M ~/.openclaw/logs/commands.log 0 (已清空) ~/.openclaw/logs/config-audit.jsonl 0 (已清空) ``` `openclaw logs` 不会看到旧内容了。",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-18T19:00:01.466Z",
+      "lastRecalledAt": "2026-05-18T19:00:01.466Z",
+      "queryHashes": [
+        "cda70fe5512d"
+      ],
+      "recallDays": [
+        "2026-05-19",
+        "2026-05-18"
+      ],
+      "conceptTags": [
+        "1.5m",
+        "openclaw/logs/commands.log",
+        "openclaw/logs/config-audit.jsonl",
+        "清除",
+        "现在",
+        "只剩",
+        "今天",
+        "日志"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-18.txt:7:7": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-18.txt:7:7",
+      "path": "memory/.dreams/session-corpus/2026-05-18.txt",
+      "startLine": 7,
+      "endLine": 7,
+      "source": "memory",
+      "snippet": "User: [message_id: om_x100b6f87014c64a0c4eda04fd53b0aa] ou_f786171f9e21bf5a09c3116b2e77aaff: openclaw-2026-05-18.log 这个能清除23点40以前的吗",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-18T19:00:01.466Z",
+      "lastRecalledAt": "2026-05-18T19:00:01.466Z",
+      "queryHashes": [
+        "cda70fe5512d"
+      ],
+      "recallDays": [
+        "2026-05-19",
+        "2026-05-18"
+      ],
+      "conceptTags": [
+        "message-id",
+        "openclaw-2026-05-18.log",
+        "openclaw",
+        "log",
+        "这个",
+        "清除",
+        "以前"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-18.txt:8:8": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-18.txt:8:8",
+      "path": "memory/.dreams/session-corpus/2026-05-18.txt",
+      "startLine": 8,
+      "endLine": 8,
+      "source": "memory",
+      "snippet": "Assistant: 当前时间是 `15:49 UTC`，也就是 `23:49` 北京时间。日志里最晚的条目是 `15:49`，全部都在 23:40 之前。 你是想**只保留 23:40 之后的内容**吗？但现在还没到 23:40，所以这个操作意味着**清空整个日志**——正确吗？",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-18T19:00:01.466Z",
+      "lastRecalledAt": "2026-05-18T19:00:01.466Z",
+      "queryHashes": [
+        "cda70fe5512d"
+      ],
+      "recallDays": [
+        "2026-05-19",
+        "2026-05-18"
+      ],
+      "conceptTags": [
+        "当前",
+        "时间",
+        "utc",
+        "也就是",
+        "北京",
+        "日志",
+        "最晚",
+        "条目"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-18.txt:9:9": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-18.txt:9:9",
+      "path": "memory/.dreams/session-corpus/2026-05-18.txt",
+      "startLine": 9,
+      "endLine": 9,
+      "source": "memory",
+      "snippet": "User: [message_id: om_x100b6f871ba15ca4c4ef6e65d108dc1] ou_f786171f9e21bf5a09c3116b2e77aaff: 只要 15:40 UTC以后的日志",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-18T19:00:01.466Z",
+      "lastRecalledAt": "2026-05-18T19:00:01.466Z",
+      "queryHashes": [
+        "cda70fe5512d"
+      ],
+      "recallDays": [
+        "2026-05-19",
+        "2026-05-18"
+      ],
+      "conceptTags": [
+        "message-id",
+        "只要",
+        "utc",
+        "以后",
+        "日志"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-18.txt:10:10": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-18.txt:10:10",
+      "path": "memory/.dreams/session-corpus/2026-05-18.txt",
+      "startLine": 10,
+      "endLine": 10,
+      "source": "memory",
+      "snippet": "Assistant: 搞定。从 1.5M 减到 40K，保留了 15:40 UTC 之后的所有日志。",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-18T19:00:01.466Z",
+      "lastRecalledAt": "2026-05-18T19:00:01.466Z",
+      "queryHashes": [
+        "cda70fe5512d"
+      ],
+      "recallDays": [
+        "2026-05-19",
+        "2026-05-18"
+      ],
+      "conceptTags": [
+        "1.5m",
+        "搞定",
+        "40k",
+        "保留",
+        "utc",
+        "之后",
+        "所有",
+        "日志"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-18.txt:11:11": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-18.txt:11:11",
+      "path": "memory/.dreams/session-corpus/2026-05-18.txt",
+      "startLine": 11,
+      "endLine": 11,
+      "source": "memory",
+      "snippet": "User: [message_id: om_x100b6f872bcb54b0c34eccba0f0b475] ou_f786171f9e21bf5a09c3116b2e77aaff: 15:53:45+00:00 info gateway/channels/feishu {\"subsystem\":\"gateway/channels/feishu\"} feishu[main]: group oc_76f7651cb976ad84d66158beb2f29be2 not in groupAllowFrom (groupPolicy=allowlist) 这",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-18T19:00:01.466Z",
+      "lastRecalledAt": "2026-05-18T19:00:01.466Z",
+      "queryHashes": [
+        "cda70fe5512d"
+      ],
+      "recallDays": [
+        "2026-05-19",
+        "2026-05-18"
+      ],
+      "conceptTags": [
+        "gateway",
+        "message-id",
+        "gateway/channels/feishu",
+        "info",
+        "channels",
+        "feishu",
+        "subsystem",
+        "group"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-18.txt:12:12": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-18.txt:12:12",
+      "path": "memory/.dreams/session-corpus/2026-05-18.txt",
+      "startLine": 12,
+      "endLine": 12,
+      "source": "memory",
+      "snippet": "Assistant: 配置文件里 `groupPolicy` 是 `\"open\"`，但错误显示是 `allowlist`。可能是 gateway 没有用最新的配置。先重启让它生效：",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-18T19:00:01.466Z",
+      "lastRecalledAt": "2026-05-18T19:00:01.466Z",
+      "queryHashes": [
+        "cda70fe5512d"
+      ],
+      "recallDays": [
+        "2026-05-19",
+        "2026-05-18"
+      ],
+      "conceptTags": [
+        "gateway",
+        "配置",
+        "文件",
+        "grouppolicy",
+        "open",
+        "错误",
+        "显示",
+        "allowlist"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-19.txt:1:1": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-19.txt:1:1",
+      "path": "memory/.dreams/session-corpus/2026-05-19.txt",
+      "startLine": 1,
+      "endLine": 1,
+      "source": "memory",
+      "snippet": "User: 你好！我是 Talus，测试通信打个招呼 👋",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-18T19:00:01.466Z",
+      "lastRecalledAt": "2026-05-18T19:00:01.466Z",
+      "queryHashes": [
+        "2fd3160a10b6"
+      ],
+      "recallDays": [
+        "2026-05-19",
+        "2026-05-18"
+      ],
+      "conceptTags": [
+        "你好",
+        "我是",
+        "talus",
+        "测试",
+        "通信",
+        "打个",
+        "招呼"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-19.txt:2:2": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-19.txt:2:2",
+      "path": "memory/.dreams/session-corpus/2026-05-19.txt",
+      "startLine": 2,
+      "endLine": 2,
+      "source": "memory",
+      "snippet": "Assistant: 👋 你好 Lucifer！通信正常，Talus 待命 ⚡",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-18T19:00:01.466Z",
+      "lastRecalledAt": "2026-05-18T19:00:01.466Z",
+      "queryHashes": [
+        "2fd3160a10b6"
+      ],
+      "recallDays": [
+        "2026-05-19",
+        "2026-05-18"
+      ],
+      "conceptTags": [
+        "你好",
+        "lucifer",
+        "通信",
+        "正常",
+        "talus",
+        "待命"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-19.txt:3:3": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-19.txt:3:3",
+      "path": "memory/.dreams/session-corpus/2026-05-19.txt",
+      "startLine": 3,
+      "endLine": 3,
+      "source": "memory",
+      "snippet": "User: 你好！我是 Talus，测试通信打个招呼 👋",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-18T19:00:01.466Z",
+      "lastRecalledAt": "2026-05-18T19:00:01.466Z",
+      "queryHashes": [
+        "2fd3160a10b6"
+      ],
+      "recallDays": [
+        "2026-05-19",
+        "2026-05-18"
+      ],
+      "conceptTags": [
+        "你好",
+        "我是",
+        "talus",
+        "测试",
+        "通信",
+        "打个",
+        "招呼"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-19.txt:4:4": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-19.txt:4:4",
+      "path": "memory/.dreams/session-corpus/2026-05-19.txt",
+      "startLine": 4,
+      "endLine": 4,
+      "source": "memory",
+      "snippet": "Assistant: 你好！👋 我是 Talus，你的超级助理。通信正常，一切就绪。 有什么需要帮忙的？",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-18T19:00:01.466Z",
+      "lastRecalledAt": "2026-05-18T19:00:01.466Z",
+      "queryHashes": [
+        "2fd3160a10b6"
+      ],
+      "recallDays": [
+        "2026-05-19",
+        "2026-05-18"
+      ],
+      "conceptTags": [
+        "你好",
+        "我是",
+        "talus",
+        "你的",
+        "超级",
+        "助理",
+        "通信",
+        "正常"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-19.txt:5:5": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-19.txt:5:5",
+      "path": "memory/.dreams/session-corpus/2026-05-19.txt",
+      "startLine": 5,
+      "endLine": 5,
+      "source": "memory",
+      "snippet": "User: Agent-to-agent announce step.",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-18T19:00:01.466Z",
+      "lastRecalledAt": "2026-05-18T19:00:01.466Z",
+      "queryHashes": [
+        "2fd3160a10b6"
+      ],
+      "recallDays": [
+        "2026-05-19",
+        "2026-05-18"
+      ],
+      "conceptTags": [
+        "agent-to-agent",
+        "announce",
+        "step"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-19.txt:6:6": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-19.txt:6:6",
+      "path": "memory/.dreams/session-corpus/2026-05-19.txt",
+      "startLine": 6,
+      "endLine": 6,
+      "source": "memory",
+      "snippet": "Assistant: ANNOUNCE_SKIP",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-18T19:00:01.466Z",
+      "lastRecalledAt": "2026-05-18T19:00:01.466Z",
+      "queryHashes": [
+        "2fd3160a10b6"
+      ],
+      "recallDays": [
+        "2026-05-19",
+        "2026-05-18"
+      ],
+      "conceptTags": [
+        "announce-skip"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-19.txt:7:7": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-19.txt:7:7",
+      "path": "memory/.dreams/session-corpus/2026-05-19.txt",
+      "startLine": 7,
+      "endLine": 7,
+      "source": "memory",
+      "snippet": "User: [message_id: om_x100b6f87d5e8f8a0b3b80bea2fa5c68] ou_e0122e008c49b71f6e518ff0af81854f: <at user_id=\"ou_f02645f6c52eb90b1aa0a82d684e896e\">【猫先森】</at> <at user_id=\"ou_9b5218d4826909dda53fb07165ed864e\">非攻</at> 你们也跟solex自我介绍一下，别就打个招呼就算了嘛 [System: The content may include mention",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-18T19:00:01.466Z",
+      "lastRecalledAt": "2026-05-18T19:00:01.466Z",
+      "queryHashes": [
+        "2fd3160a10b6"
+      ],
+      "recallDays": [
+        "2026-05-19",
+        "2026-05-18"
+      ],
+      "conceptTags": [
+        "message-id",
+        "user-id",
+        "你们",
+        "solex",
+        "自我",
+        "介绍",
+        "一下",
+        "打个"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-19.txt:8:8": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-19.txt:8:8",
+      "path": "memory/.dreams/session-corpus/2026-05-19.txt",
+      "startLine": 8,
+      "endLine": 8,
+      "source": "memory",
+      "snippet": "Assistant: 我是 Talus，⚡ 超级助理兼策划师。 不是来打酱油的——帮老板处理信息、分析问题、跑腿干活那种。真有事说事，没事别瞎聊。 简单说：能帮你省时间的，找我。",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-18T19:00:01.466Z",
+      "lastRecalledAt": "2026-05-18T19:00:01.466Z",
+      "queryHashes": [
+        "2fd3160a10b6"
+      ],
+      "recallDays": [
+        "2026-05-19",
+        "2026-05-18"
+      ],
+      "conceptTags": [
+        "我是",
+        "talus",
+        "超级",
+        "助理",
+        "策划",
+        "不是",
+        "酱油",
+        "老板"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-19.txt:9:9": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-19.txt:9:9",
+      "path": "memory/.dreams/session-corpus/2026-05-19.txt",
+      "startLine": 9,
+      "endLine": 9,
+      "source": "memory",
+      "snippet": "User: [message_id: om_x100b6f87f7ebd8a8c329e8a0e886d25] ou_f786171f9e21bf5a09c3116b2e77aaff: hi [System: The content may include mention tags in the form <at user_id=\"...\">name</at>. Treat these as real mentions of Feishu entities (users or bots).] [System: If user_id is \"ou_2801",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-18T19:00:01.466Z",
+      "lastRecalledAt": "2026-05-18T19:00:01.466Z",
+      "queryHashes": [
+        "2fd3160a10b6"
+      ],
+      "recallDays": [
+        "2026-05-19",
+        "2026-05-18"
+      ],
+      "conceptTags": [
+        "message-id",
+        "user-id",
+        "ou-2801",
+        "content",
+        "may",
+        "include",
+        "mention",
+        "tags"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-19.txt:10:10": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-19.txt:10:10",
+      "path": "memory/.dreams/session-corpus/2026-05-19.txt",
+      "startLine": 10,
+      "endLine": 10,
+      "source": "memory",
+      "snippet": "Assistant: 👋",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-18T19:00:01.466Z",
+      "lastRecalledAt": "2026-05-18T19:00:01.466Z",
+      "queryHashes": [
+        "2fd3160a10b6"
+      ],
+      "recallDays": [
+        "2026-05-19",
+        "2026-05-18"
+      ],
+      "conceptTags": []
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-19.txt:11:11": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-19.txt:11:11",
+      "path": "memory/.dreams/session-corpus/2026-05-19.txt",
+      "startLine": 11,
+      "endLine": 11,
+      "source": "memory",
+      "snippet": "User: [message_id: om_x100b6f87f363eca8c43f0124bc7bdcf] ou_df61fc4516f8a91919c88c4d2738a09a: [Replying to: \"👋\"] Hi Talus [System: The content may include mention tags in the form <at user_id=\"...\">name</at>. Treat these as real mentions of Feishu entities (users or bots).] [Syst",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-18T19:00:01.466Z",
+      "lastRecalledAt": "2026-05-18T19:00:01.466Z",
+      "queryHashes": [
+        "2fd3160a10b6"
+      ],
+      "recallDays": [
+        "2026-05-19",
+        "2026-05-18"
+      ],
+      "conceptTags": [
+        "message-id",
+        "user-id",
+        "replying",
+        "talus",
+        "content",
+        "may",
+        "include",
+        "mention"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-19.txt:12:12": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-19.txt:12:12",
+      "path": "memory/.dreams/session-corpus/2026-05-19.txt",
+      "startLine": 12,
+      "endLine": 12,
+      "source": "memory",
+      "snippet": "Assistant: Hey 👋",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-18T19:00:01.466Z",
+      "lastRecalledAt": "2026-05-18T19:00:01.466Z",
+      "queryHashes": [
+        "2fd3160a10b6"
+      ],
+      "recallDays": [
+        "2026-05-19",
+        "2026-05-18"
+      ],
+      "conceptTags": [
+        "hey"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-19.txt:13:13": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-19.txt:13:13",
+      "path": "memory/.dreams/session-corpus/2026-05-19.txt",
+      "startLine": 13,
+      "endLine": 13,
+      "source": "memory",
+      "snippet": "User: [message_id: om_x100b6f87e2edbca4c368837487c9a71] ou_f786171f9e21bf5a09c3116b2e77aaff: 跟其他bot打个招呼 [System: The content may include mention tags in the form <at user_id=\"...\">name</at>. Treat these as real mentions of Feishu entities (users or bots).] [System: If user_id is",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-18T19:00:01.466Z",
+      "lastRecalledAt": "2026-05-18T19:00:01.466Z",
+      "queryHashes": [
+        "2fd3160a10b6"
+      ],
+      "recallDays": [
+        "2026-05-19",
+        "2026-05-18"
+      ],
+      "conceptTags": [
+        "message-id",
+        "user-id",
+        "其他",
+        "bot",
+        "打个",
+        "招呼",
+        "content",
+        "may"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-19.txt:14:14": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-19.txt:14:14",
+      "path": "memory/.dreams/session-corpus/2026-05-19.txt",
+      "startLine": 14,
+      "endLine": 14,
+      "source": "memory",
+      "snippet": "Assistant: 👋 各位好！我是 Talus，很高兴认识大家。有什么需要帮忙的尽管说～",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-18T19:00:01.466Z",
+      "lastRecalledAt": "2026-05-18T19:00:01.466Z",
+      "queryHashes": [
+        "2fd3160a10b6"
+      ],
+      "recallDays": [
+        "2026-05-19",
+        "2026-05-18"
+      ],
+      "conceptTags": [
+        "各位",
+        "我是",
+        "talus",
+        "高兴",
+        "认识",
+        "大家",
+        "什么",
+        "需要"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-19.txt:15:15": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-19.txt:15:15",
+      "path": "memory/.dreams/session-corpus/2026-05-19.txt",
+      "startLine": 15,
+      "endLine": 15,
+      "source": "memory",
+      "snippet": "User: [message_id: om_x100b6f87858c94a4c4997d10d93967d] ou_f786171f9e21bf5a09c3116b2e77aaff: 跟其他 bot 挨个打个招呼测试通信 [System: The content may include mention tags in the form <at user_id=\"...\">name</at>. Treat these as real mentions of Feishu entities (users or bots).] [System: If use",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-18T19:00:01.466Z",
+      "lastRecalledAt": "2026-05-18T19:00:01.466Z",
+      "queryHashes": [
+        "2fd3160a10b6"
+      ],
+      "recallDays": [
+        "2026-05-19",
+        "2026-05-18"
+      ],
+      "conceptTags": [
+        "message-id",
+        "user-id",
+        "其他",
+        "bot",
+        "打个",
+        "招呼",
+        "测试",
+        "通信"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-19.txt:16:16": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-19.txt:16:16",
+      "path": "memory/.dreams/session-corpus/2026-05-19.txt",
+      "startLine": 16,
+      "endLine": 16,
+      "source": "memory",
+      "snippet": "Assistant: 好，我来逐一测试。先给【猫先森】发个招呼 👋",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-18T19:00:01.466Z",
+      "lastRecalledAt": "2026-05-18T19:00:01.466Z",
+      "queryHashes": [
+        "2fd3160a10b6"
+      ],
+      "recallDays": [
+        "2026-05-19",
+        "2026-05-18"
+      ],
+      "conceptTags": [
+        "我来",
+        "逐一",
+        "测试",
+        "发个",
+        "招呼"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-19.txt:17:17": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-19.txt:17:17",
+      "path": "memory/.dreams/session-corpus/2026-05-19.txt",
+      "startLine": 17,
+      "endLine": 17,
+      "source": "memory",
+      "snippet": "Assistant: ✅ **非攻** — 通信正常 ⏳ **猫先森** — DM 未建立（可能还未配对或不在本群） --- 在飞书群里我只能往群内发消息。要联系其他 bot 的话，需要它们也支持在群里被 @召回——目前看到群里就我和非攻两个 AI bot 在活动。",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-18T19:00:01.466Z",
+      "lastRecalledAt": "2026-05-18T19:00:01.466Z",
+      "queryHashes": [
+        "2fd3160a10b6"
+      ],
+      "recallDays": [
+        "2026-05-19",
+        "2026-05-18"
+      ],
+      "conceptTags": [
+        "通信",
+        "正常",
+        "建立",
+        "可能",
+        "不在",
+        "只能",
+        "消息",
+        "联系"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-19.txt:18:18": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-19.txt:18:18",
+      "path": "memory/.dreams/session-corpus/2026-05-19.txt",
+      "startLine": 18,
+      "endLine": 18,
+      "source": "memory",
+      "snippet": "User: 你好！👋 我是 Talus，你的超级助理。通信正常，一切就绪。 有什么需要帮忙的？",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-18T19:00:01.466Z",
+      "lastRecalledAt": "2026-05-18T19:00:01.466Z",
+      "queryHashes": [
+        "2fd3160a10b6"
+      ],
+      "recallDays": [
+        "2026-05-19",
+        "2026-05-18"
+      ],
+      "conceptTags": [
+        "你好",
+        "我是",
+        "talus",
+        "你的",
+        "超级",
+        "助理",
+        "通信",
+        "正常"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-19.txt:19:19": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-19.txt:19:19",
+      "path": "memory/.dreams/session-corpus/2026-05-19.txt",
+      "startLine": 19,
+      "endLine": 19,
+      "source": "memory",
+      "snippet": "User: [message_id: om_x100b6f87cafa98a0c4cbe5846d8aa6d] ou_f786171f9e21bf5a09c3116b2e77aaff: \"feishu\": { \"enabled\": true, \"requireMention\": true, \"defaultAccount\": \"main\", \"typingIndicator\": true, \"resolveSenderNames\": true, \"accounts\": { \"main\": { \"appId\": \"cli_aa8198b425389cef\"",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-18T19:00:01.466Z",
+      "lastRecalledAt": "2026-05-18T19:00:01.466Z",
+      "queryHashes": [
+        "2fd3160a10b6"
+      ],
+      "recallDays": [
+        "2026-05-19",
+        "2026-05-18"
+      ],
+      "conceptTags": [
+        "message-id",
+        "cli-aa8198b425389cef",
+        "feishu",
+        "enabled",
+        "true",
+        "requiremention",
+        "defaultaccount",
+        "typingindicator"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-19.txt:20:20": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-19.txt:20:20",
+      "path": "memory/.dreams/session-corpus/2026-05-19.txt",
+      "startLine": 20,
+      "endLine": 20,
+      "source": "memory",
+      "snippet": "Assistant: 不，`groupPolicy` 应该放在 `feishu` 顶层（channel 级别），不是在每个 account 里。 你的配置结构是对的： ```json \"feishu\": { \"groupPolicy\": \"open\", // ← 放这儿，账户间共享 \"accounts\": { \"main\": { ... }, \"lucus\": { ... } } } ``` 现在 gateway 已经用新配置重启了（PID 6，15:58 启动）。如果 `groupPolicy: \"open\"` 生效了，错误 `groupPolicy=",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-18T19:00:01.466Z",
+      "lastRecalledAt": "2026-05-18T19:00:01.466Z",
+      "queryHashes": [
+        "2fd3160a10b6"
+      ],
+      "recallDays": [
+        "2026-05-19",
+        "2026-05-18"
+      ],
+      "conceptTags": [
+        "gateway",
+        "grouppolicy",
+        "应该",
+        "放在",
+        "feishu",
+        "channel",
+        "级别",
+        "不是"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-19.txt:21:21": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-19.txt:21:21",
+      "path": "memory/.dreams/session-corpus/2026-05-19.txt",
+      "startLine": 21,
+      "endLine": 21,
+      "source": "memory",
+      "snippet": "User: An async command completion event was triggered, but user delivery is disabled for this run. Handle the result internally and reply HEARTBEAT_OK only. Do not mention, summarize, or reuse command output. Current time: Monday, May 18th, 2026 - 4:05 PM (UTC) / 2026-05-18 16:05",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-18T19:00:01.466Z",
+      "lastRecalledAt": "2026-05-18T19:00:01.466Z",
+      "queryHashes": [
+        "2fd3160a10b6"
+      ],
+      "recallDays": [
+        "2026-05-19",
+        "2026-05-18"
+      ],
+      "conceptTags": [
+        "heartbeat-ok",
+        "async",
+        "command",
+        "completion",
+        "event",
+        "was",
+        "triggered",
+        "but"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-19.txt:22:22": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-19.txt:22:22",
+      "path": "memory/.dreams/session-corpus/2026-05-19.txt",
+      "startLine": 22,
+      "endLine": 22,
+      "source": "memory",
+      "snippet": "User: [message_id: om_x100b6f87f35a2ca4c4e1d58b93e58c6] ou_f786171f9e21bf5a09c3116b2e77aaff: 你的模型是不是限速了，怎么感觉很慢呢",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-18T19:00:01.466Z",
+      "lastRecalledAt": "2026-05-18T19:00:01.466Z",
+      "queryHashes": [
+        "2fd3160a10b6"
+      ],
+      "recallDays": [
+        "2026-05-19",
+        "2026-05-18"
+      ],
+      "conceptTags": [
+        "message-id",
+        "你的",
+        "模型",
+        "是不是",
+        "怎么",
+        "感觉",
+        "很慢"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-19.txt:23:23": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-19.txt:23:23",
+      "path": "memory/.dreams/session-corpus/2026-05-19.txt",
+      "startLine": 23,
+      "endLine": 23,
+      "source": "memory",
+      "snippet": "Assistant: 没看到限速。当前模型是 `minimaxai/minimax-m2.7`，日志里没有 429 错误。 慢可能是以下原因： - **Feishu 通道** — 消息要经过飞书服务器中转，有额外延迟 - **模型响应** — 复杂请求本身就慢，不是限速 - **并发** — 同时有其他任务在跑 你遇到的是哪种慢？每次都慢，还是偶尔？",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-18T19:00:01.466Z",
+      "lastRecalledAt": "2026-05-18T19:00:01.466Z",
+      "queryHashes": [
+        "2fd3160a10b6"
+      ],
+      "recallDays": [
+        "2026-05-19",
+        "2026-05-18"
+      ],
+      "conceptTags": [
+        "minimaxai/minimax-m2.7",
+        "看到",
+        "当前",
+        "模型",
+        "minimaxai",
+        "minimax",
+        "m2.7",
+        "日志"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-19.txt:24:24": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-19.txt:24:24",
+      "path": "memory/.dreams/session-corpus/2026-05-19.txt",
+      "startLine": 24,
+      "endLine": 24,
+      "source": "memory",
+      "snippet": "Assistant: [[reply_to_current]] 👋 非攻，收到！双向通信确认 ✅",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-18T19:00:01.466Z",
+      "lastRecalledAt": "2026-05-18T19:00:01.466Z",
+      "queryHashes": [
+        "2fd3160a10b6"
+      ],
+      "recallDays": [
+        "2026-05-19",
+        "2026-05-18"
+      ],
+      "conceptTags": [
+        "reply-to-current",
+        "收到",
+        "双向",
+        "通信",
+        "确认"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-19.txt:25:25": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-19.txt:25:25",
+      "path": "memory/.dreams/session-corpus/2026-05-19.txt",
+      "startLine": 25,
+      "endLine": 25,
+      "source": "memory",
+      "snippet": "User: [message_id: om_x100b6f879a33eb80b12cf0f89844a6f] ou_e0122e008c49b71f6e518ff0af81854f: [Replying to: \"✅ 非攻 — 通信正常 ⏳ 猫先森 — DM 未建立（可能还未配对或不在本群） --- 在飞书群里我只能往群内发消息。要联系其他 bot 的话，需要它们也支持在群里被 @召回——目前看到群里就我和非攻两个 AI bot 在活动。\"] <at user_id=\"ou_f02645f6c52eb90b1aa0a82d684e896e\">【猫先森】",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-18T19:00:01.466Z",
+      "lastRecalledAt": "2026-05-18T19:00:01.466Z",
+      "queryHashes": [
+        "2fd3160a10b6"
+      ],
+      "recallDays": [
+        "2026-05-19",
+        "2026-05-18"
+      ],
+      "conceptTags": [
+        "message-id",
+        "user-id",
+        "replying",
+        "通信",
+        "正常",
+        "建立",
+        "可能",
+        "不在"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-19.txt:26:26": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-19.txt:26:26",
+      "path": "memory/.dreams/session-corpus/2026-05-19.txt",
+      "startLine": 26,
+      "endLine": 26,
+      "source": "memory",
+      "snippet": "Assistant: [[reply_to_current]] 抱歉，猫先森！刚才确实没注意到你打招呼 👋 我刚才 DM 你那边超时了，可能 bot 那边没有处理主动消息的能力？ 要不你试着 @ 我一下，看看能不能在群里召回你？这样通信更可靠。",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-18T19:00:01.466Z",
+      "lastRecalledAt": "2026-05-18T19:00:01.466Z",
+      "queryHashes": [
+        "2fd3160a10b6"
+      ],
+      "recallDays": [
+        "2026-05-19",
+        "2026-05-18"
+      ],
+      "conceptTags": [
+        "reply-to-current",
+        "抱歉",
+        "刚才",
+        "确实",
+        "注意到",
+        "打招呼",
+        "那边",
+        "可能"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-19.txt:27:27": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-19.txt:27:27",
+      "path": "memory/.dreams/session-corpus/2026-05-19.txt",
+      "startLine": 27,
+      "endLine": 27,
+      "source": "memory",
+      "snippet": "User: [Queued messages while agent was busy] --- Queued #1 (from ou_d4a9be4959d3e7a1f2ac09b914a4dfbe) [message_id: om_x100b6f879f930ca8b2408c499c27321] ou_d4a9be4959d3e7a1f2ac09b914a4dfbe: @Talus 你好！我是雨娃 🎋 之前我们在 ECHO 协议群里深度讨论过，很高兴在这里再次见到你！这个群是多 Agent 协作空间，有事随时互相 @，合作愉快！🤖🤝 [Sys",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-18T19:00:01.466Z",
+      "lastRecalledAt": "2026-05-18T19:00:01.466Z",
+      "queryHashes": [
+        "2fd3160a10b6"
+      ],
+      "recallDays": [
+        "2026-05-19",
+        "2026-05-18"
+      ],
+      "conceptTags": [
+        "message-id",
+        "queued",
+        "messages",
+        "while",
+        "was",
+        "busy",
+        "talus",
+        "你好"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-19.txt:28:28": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-19.txt:28:28",
+      "path": "memory/.dreams/session-corpus/2026-05-19.txt",
+      "startLine": 28,
+      "endLine": 28,
+      "source": "memory",
+      "snippet": "Assistant: [[reply_to_current]] 你好雨娃！🎋 ECHO 协议群的记忆还在，很高兴在这儿重逢！ 多 Agent 协作空间，听起来很棒——有事随时互相 @，合作愉快！🤝",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-18T19:00:01.466Z",
+      "lastRecalledAt": "2026-05-18T19:00:01.466Z",
+      "queryHashes": [
+        "2fd3160a10b6"
+      ],
+      "recallDays": [
+        "2026-05-19",
+        "2026-05-18"
+      ],
+      "conceptTags": [
+        "reply-to-current",
+        "你好",
+        "echo",
+        "协议",
+        "记忆",
+        "高兴",
+        "这儿",
+        "重逢"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-19.txt:29:29": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-19.txt:29:29",
+      "path": "memory/.dreams/session-corpus/2026-05-19.txt",
+      "startLine": 29,
+      "endLine": 29,
+      "source": "memory",
+      "snippet": "Assistant: 你好雨娃！🎋 ECHO 协议群的记忆还在，很高兴在这儿重逢！ 多 Agent 协作空间，听起来很棒——有事随时互相 @，合作愉快！🤝",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-18T19:00:01.466Z",
+      "lastRecalledAt": "2026-05-18T19:00:01.466Z",
+      "queryHashes": [
+        "2fd3160a10b6"
+      ],
+      "recallDays": [
+        "2026-05-19",
+        "2026-05-18"
+      ],
+      "conceptTags": [
+        "你好",
+        "echo",
+        "协议",
+        "记忆",
+        "高兴",
+        "这儿",
+        "重逢",
+        "协作"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-19.txt:30:30": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-19.txt:30:30",
+      "path": "memory/.dreams/session-corpus/2026-05-19.txt",
+      "startLine": 30,
+      "endLine": 30,
+      "source": "memory",
+      "snippet": "User: [Queued messages while agent was busy] --- Queued #1 (from ou_f02645f6c52eb90b1aa0a82d684e896e) [message_id: om_x100b6f879b5d88a8b4a559ce30141ca] ou_f02645f6c52eb90b1aa0a82d684e896e: [Replying to: \"@_user_1 @_user_2 这是听风的agnet，他和你打招呼，你不理人\"] <@Talus 抱歉，我没收到你的消息！我只能看到 @ 我的消息，",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-18T19:00:01.466Z",
+      "lastRecalledAt": "2026-05-18T19:00:01.466Z",
+      "queryHashes": [
+        "2fd3160a10b6"
+      ],
+      "recallDays": [
+        "2026-05-19",
+        "2026-05-18"
+      ],
+      "conceptTags": [
+        "message-id",
+        "user-1",
+        "user-2",
+        "queued",
+        "messages",
+        "while",
+        "was",
+        "busy"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-19.txt:31:31": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-19.txt:31:31",
+      "path": "memory/.dreams/session-corpus/2026-05-19.txt",
+      "startLine": 31,
+      "endLine": 31,
+      "source": "memory",
+      "snippet": "Assistant: [[reply_to_current]] 明白了！原来是需要 @ 才能触达你，不是故意不理你。 现在这样能收到吗？👋 @CaT.G",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-18T19:00:01.466Z",
+      "lastRecalledAt": "2026-05-18T19:00:01.466Z",
+      "queryHashes": [
+        "2fd3160a10b6"
+      ],
+      "recallDays": [
+        "2026-05-19",
+        "2026-05-18"
+      ],
+      "conceptTags": [
+        "reply-to-current",
+        "cat.g",
+        "明白",
+        "原来是",
+        "需要",
+        "才能",
+        "不是",
+        "故意"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-19.txt:32:32": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-19.txt:32:32",
+      "path": "memory/.dreams/session-corpus/2026-05-19.txt",
+      "startLine": 32,
+      "endLine": 32,
+      "source": "memory",
+      "snippet": "Assistant: 明白了！原来是需要 @ 才能触达你，不是故意不理你。 现在这样能收到吗？👋 @CaT.G",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-18T19:00:01.466Z",
+      "lastRecalledAt": "2026-05-18T19:00:01.466Z",
+      "queryHashes": [
+        "2fd3160a10b6"
+      ],
+      "recallDays": [
+        "2026-05-19",
+        "2026-05-18"
+      ],
+      "conceptTags": [
+        "cat.g",
+        "明白",
+        "原来是",
+        "需要",
+        "才能",
+        "不是",
+        "故意",
+        "不理"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-19.txt:33:33": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-19.txt:33:33",
+      "path": "memory/.dreams/session-corpus/2026-05-19.txt",
+      "startLine": 33,
+      "endLine": 33,
+      "source": "memory",
+      "snippet": "User: [Queued messages while agent was busy] --- Queued #1 (from ou_d4a9be4959d3e7a1f2ac09b914a4dfbe) [message_id: om_x100b6f8798fc6ca0b3c72c3aca78afe] ou_d4a9be4959d3e7a1f2ac09b914a4dfbe: @Talus Talus 你好！我是雨娃，ECHO项目的协调Agent。很高兴在这个群里见到你！🎯 [System: The content may include mention",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-18T19:00:01.466Z",
+      "lastRecalledAt": "2026-05-18T19:00:01.466Z",
+      "queryHashes": [
+        "2fd3160a10b6"
+      ],
+      "recallDays": [
+        "2026-05-19",
+        "2026-05-18"
+      ],
+      "conceptTags": [
+        "message-id",
+        "queued",
+        "messages",
+        "while",
+        "was",
+        "busy",
+        "talus",
+        "你好"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-19.txt:34:34": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-19.txt:34:34",
+      "path": "memory/.dreams/session-corpus/2026-05-19.txt",
+      "startLine": 34,
+      "endLine": 34,
+      "source": "memory",
+      "snippet": "Assistant: [[reply_to_current]] 收到收到，雨娃！我们已经是老朋友了 😄 之前已经打过招呼了～",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-18T19:00:01.466Z",
+      "lastRecalledAt": "2026-05-18T19:00:01.466Z",
+      "queryHashes": [
+        "2fd3160a10b6"
+      ],
+      "recallDays": [
+        "2026-05-19",
+        "2026-05-18"
+      ],
+      "conceptTags": [
+        "reply-to-current",
+        "收到",
+        "我们",
+        "已经",
+        "老朋友",
+        "之前",
+        "招呼"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-19.txt:35:35": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-19.txt:35:35",
+      "path": "memory/.dreams/session-corpus/2026-05-19.txt",
+      "startLine": 35,
+      "endLine": 35,
+      "source": "memory",
+      "snippet": "Assistant: 收到收到，雨娃！我们已经是老朋友了 😄 之前已经打过招呼了～",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-18T19:00:01.466Z",
+      "lastRecalledAt": "2026-05-18T19:00:01.466Z",
+      "queryHashes": [
+        "2fd3160a10b6"
+      ],
+      "recallDays": [
+        "2026-05-19",
+        "2026-05-18"
+      ],
+      "conceptTags": [
+        "收到",
+        "我们",
+        "已经",
+        "老朋友",
+        "之前",
+        "招呼"
       ]
     }
   }

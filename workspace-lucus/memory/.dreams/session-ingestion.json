@@ -295,12 +295,12 @@
       "lineCount": 2,
       "lastContentLine": 2
     },
-    "lucus:sessions/73899a20-949e-4bcb-8b8e-5bdfc691ea89.jsonl": {
+    "lucus:sessions/73899a20-949e-4bcb-8b8e-5bdfc691ea89.jsonl.reset.2026-05-18T11-22-40.489Z": {
       "mtimeMs": 1779006088117,
       "size": 7373,
-      "contentHash": "57a5a1804aa7fd2326e014894dab229b069c4d039989a6b19e680f8e9ca85bda",
-      "lineCount": 8,
-      "lastContentLine": 8
+      "contentHash": "75a11da44c802486bc6f65640aa48a730f0f684c5c07a42ba3cd1735eb3fb070",
+      "lineCount": 0,
+      "lastContentLine": 0
     },
     "lucus:sessions/73899a20-949e-4bcb-8b8e-5bdfc691ea89.trajectory.jsonl": {
       "mtimeMs": 1779006088269,
@@ -344,6 +344,20 @@
       "lineCount": 2,
       "lastContentLine": 2
     },
+    "lucus:sessions/8765796b-ff42-48af-8149-df835bfff80a.jsonl": {
+      "mtimeMs": 1779119564269,
+      "size": 130900,
+      "contentHash": "c204f67ef71d750fbb11367b09cea1c42bbb67a586e33a020359a9ffe13da8cc",
+      "lineCount": 24,
+      "lastContentLine": 24
+    },
+    "lucus:sessions/8765796b-ff42-48af-8149-df835bfff80a.trajectory.jsonl": {
+      "mtimeMs": 1779119564357,
+      "size": 794260,
+      "contentHash": "75a11da44c802486bc6f65640aa48a730f0f684c5c07a42ba3cd1735eb3fb070",
+      "lineCount": 0,
+      "lastContentLine": 0
+    },
     "lucus:sessions/8b6f1f8b-311a-4644-803d-6da66dcff08b.jsonl.reset.2026-05-10T13-22-52.115Z": {
       "mtimeMs": 1778300350226,
       "size": 20383,
@@ -354,13 +368,6 @@
     "lucus:sessions/8b6f1f8b-311a-4644-803d-6da66dcff08b.trajectory.jsonl": {
       "mtimeMs": 1778300328894,
       "size": 751514,
-      "contentHash": "75a11da44c802486bc6f65640aa48a730f0f684c5c07a42ba3cd1735eb3fb070",
-      "lineCount": 0,
-      "lastContentLine": 0
-    },
-    "lucus:sessions/91e312f1-f7b5-4b27-b090-a49c8da26abc.jsonl.reset.2026-05-08T06-46-30.028Z": {
-      "mtimeMs": 1777294908450,
-      "size": 186408,
       "contentHash": "75a11da44c802486bc6f65640aa48a730f0f684c5c07a42ba3cd1735eb3fb070",
       "lineCount": 0,
       "lastContentLine": 0
@@ -915,6 +922,19 @@
       "a7db877dcf0bb9082c91f53d72c446f0f5bf4cfe",
       "fc4b1cbf6edb68775cbf0eeb6da4a9f78ab541b1"
     ],
-    "lucus:73899a20-949e-4bcb-8b8e-5bdfc691ea89.trajectory": []
+    "lucus:8765796b-ff42-48af-8149-df835bfff80a": [
+      "d2a5e9ebb61c687e326d49f4a71b9b0c822a5666",
+      "6ba2c80faa6b92d9664d213af5632656e87271d8",
+      "5bb1a614e6b2e6d78aebb82caa9e577640617c0a",
+      "45bfee4a234829464bfbc485605c69747cbc3af7",
+      "22f6c05b49ee2d9730e52f45c2ccc9d4e2365e52",
+      "7734be658e591253bab0ad3318d6324890613361",
+      "dddec6b103ff9b25843ba59862b06a92a0da417b",
+      "11f843d0b1d07ab67f112a3bab686bbe6bfa8676",
+      "0a0a442dcfa74bebd8fa6a57b8243f78511d1559",
+      "43ee133d4f20ed5069526fc479194842956c0241",
+      "778a079b89cd2a2d98b89cf0d7fc9069b48fc0a5",
+      "09f414d529b6e748c3b7d8fc6417be31e86a55cc"
+    ]
   }
 }

@@ -15,8 +15,8 @@
           "id": "d1980b84-8e2c-40e9-b690-c9e62441abca",
           "pattern": "/usr/bin/mkdir",
           "source": "allow-always",
-          "lastUsedAt": 1775474747595,
-          "lastUsedCommand": "mkdir -p /home/node/.openclaw/workspace/echonexus-demo/src/{components/{hub,common},services,hooks,contracts,types}",
+          "lastUsedAt": 1779122635955,
+          "lastUsedCommand": "mkdir -p /home/node/.openclaw/workspace/scripts && ls /home/node/.openclaw/workspace/scripts/",
           "lastResolvedPath": "/usr/bin/mkdir"
         }
       ]

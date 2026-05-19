@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-05-04T19:00:23.203Z",
+  "updatedAt": "2026-05-18T19:00:34.021Z",
   "entries": {
     "memory:memory/.dreams/session-corpus/2026-04-11.txt:1:1": {
       "key": "memory:memory/.dreams/session-corpus/2026-04-11.txt:1:1",
@@ -8625,6 +8625,294 @@
         "shi"
       ],
       "promotedAt": "2026-05-01T19:00:42.078Z"
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-18.txt:1:1": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-18.txt:1:1",
+      "path": "memory/.dreams/session-corpus/2026-05-18.txt",
+      "startLine": 1,
+      "endLine": 1,
+      "source": "memory",
+      "snippet": "User: [message_id: om_x100b6f84faca20a4ee833468d1eca93] 听风: 请帮我把下边这个图片里的表格做成电子版的",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-18T19:00:32.818Z",
+      "lastRecalledAt": "2026-05-18T19:00:32.818Z",
+      "queryHashes": [
+        "cda70fe5512d"
+      ],
+      "recallDays": [
+        "2026-05-19",
+        "2026-05-18"
+      ],
+      "conceptTags": [
+        "message-id",
+        "我把",
+        "下边",
+        "这个",
+        "图片",
+        "表格",
+        "做成",
+        "电子"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-18.txt:2:2": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-18.txt:2:2",
+      "path": "memory/.dreams/session-corpus/2026-05-18.txt",
+      "startLine": 2,
+      "endLine": 2,
+      "source": "memory",
+      "snippet": "Assistant: [[reply_to_current]] 开发者，我没有看到图片，能麻烦你把表格图片发给我吗？📎",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-18T19:00:32.818Z",
+      "lastRecalledAt": "2026-05-18T19:00:32.818Z",
+      "queryHashes": [
+        "cda70fe5512d"
+      ],
+      "recallDays": [
+        "2026-05-19",
+        "2026-05-18"
+      ],
+      "conceptTags": [
+        "reply-to-current",
+        "开发",
+        "没有",
+        "看到",
+        "图片",
+        "麻烦",
+        "表格",
+        "我吗"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-18.txt:3:3": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-18.txt:3:3",
+      "path": "memory/.dreams/session-corpus/2026-05-18.txt",
+      "startLine": 3,
+      "endLine": 3,
+      "source": "memory",
+      "snippet": "User: [media attached: /home/node/.openclaw/media/inbound/ebb90b8a-fa9e-40da-9adc-4c9b3365a3ed.jpg (image/jpeg) | /home/node/.openclaw/media/inbound/ebb90b8a-fa9e-40da-9adc-4c9b3365a3ed.jpg] To send an image back, prefer the message tool (media/path/filePath). If you must inline,",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-18T19:00:32.818Z",
+      "lastRecalledAt": "2026-05-18T19:00:32.818Z",
+      "queryHashes": [
+        "cda70fe5512d"
+      ],
+      "recallDays": [
+        "2026-05-19",
+        "2026-05-18"
+      ],
+      "conceptTags": [
+        "home/node",
+        "image/jpeg",
+        "media/path/filepath",
+        "media",
+        "attached",
+        "home",
+        "node",
+        "openclaw"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-18.txt:4:4": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-18.txt:4:4",
+      "path": "memory/.dreams/session-corpus/2026-05-18.txt",
+      "startLine": 4,
+      "endLine": 4,
+      "source": "memory",
+      "snippet": "User: record in Chinese. It lists employee names, ID numbers, bank account details, and corresponding salary amounts. Total payroll amount: 125,000元.",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-18T19:00:32.818Z",
+      "lastRecalledAt": "2026-05-18T19:00:32.818Z",
+      "queryHashes": [
+        "cda70fe5512d"
+      ],
+      "recallDays": [
+        "2026-05-19",
+        "2026-05-18"
+      ],
+      "conceptTags": [
+        "record",
+        "chinese",
+        "lists",
+        "employee",
+        "names",
+        "numbers",
+        "bank",
+        "account"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-18.txt:5:5": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-18.txt:5:5",
+      "path": "memory/.dreams/session-corpus/2026-05-18.txt",
+      "startLine": 5,
+      "endLine": 5,
+      "source": "memory",
+      "snippet": "User: [media attached: /home/node/.openclaw/media/inbound/ebb90b8a-fa9e-40da-9adc-4c9b3365a3ed.jpg (image/jpeg) | /home/node/.openclaw/media/inbound/ebb90b8a-fa9e-40da-9adc-4c9b3365a3ed.jpg] To send an image back, prefer the message tool (media/path/filePath). If you must inline,",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-18T19:00:32.818Z",
+      "lastRecalledAt": "2026-05-18T19:00:32.818Z",
+      "queryHashes": [
+        "cda70fe5512d"
+      ],
+      "recallDays": [
+        "2026-05-19",
+        "2026-05-18"
+      ],
+      "conceptTags": [
+        "home/node",
+        "image/jpeg",
+        "media/path/filepath",
+        "media",
+        "attached",
+        "home",
+        "node",
+        "openclaw"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-18.txt:6:6": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-18.txt:6:6",
+      "path": "memory/.dreams/session-corpus/2026-05-18.txt",
+      "startLine": 6,
+      "endLine": 6,
+      "source": "memory",
+      "snippet": "User: record in Chinese. It lists employee names, ID numbers, bank account details, and corresponding salary amounts. Total payroll amount: 125,000元.",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-18T19:00:32.818Z",
+      "lastRecalledAt": "2026-05-18T19:00:32.818Z",
+      "queryHashes": [
+        "cda70fe5512d"
+      ],
+      "recallDays": [
+        "2026-05-19",
+        "2026-05-18"
+      ],
+      "conceptTags": [
+        "record",
+        "chinese",
+        "lists",
+        "employee",
+        "names",
+        "numbers",
+        "bank",
+        "account"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-18.txt:7:7": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-18.txt:7:7",
+      "path": "memory/.dreams/session-corpus/2026-05-18.txt",
+      "startLine": 7,
+      "endLine": 7,
+      "source": "memory",
+      "snippet": "Assistant: 开发者，图像识别 API 暂时用不了（额度耗尽/失败）。我先给你制作一个电子表格模板，你把数据填进来就行。",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-18T19:00:32.818Z",
+      "lastRecalledAt": "2026-05-18T19:00:32.818Z",
+      "queryHashes": [
+        "cda70fe5512d"
+      ],
+      "recallDays": [
+        "2026-05-19",
+        "2026-05-18"
+      ],
+      "conceptTags": [
+        "额度耗尽/失败",
+        "开发",
+        "图像",
+        "识别",
+        "api",
+        "暂时",
+        "不了",
+        "失败"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-18.txt:8:8": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-18.txt:8:8",
+      "path": "memory/.dreams/session-corpus/2026-05-18.txt",
+      "startLine": 8,
+      "endLine": 8,
+      "source": "memory",
+      "snippet": "Assistant: 我生成了一个工资表模板，已保存到： `~/.openclaw/outputs/codus/工资表_模板.csv` **模板列包括：** | 序号 | 姓名 | 身份证号 | 开户行 | 银行卡号 | 基本工资 | 扣款 | 实发工资 | 签字 | 📌 **总工资额：125,000元**（从图片说明中获取） --- **获取方式（二选一）：** 1. **直接告诉我数据**：你把表格内容念给我，我帮你填好再发回 2. **你自己填 CSV**：下载模板后填写，填完发我检查 > ⚠️ 根据飞书图片描述，这是一份手写工资单，包含员工姓名",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-18T19:00:32.818Z",
+      "lastRecalledAt": "2026-05-18T19:00:32.818Z",
+      "queryHashes": [
+        "cda70fe5512d"
+      ],
+      "recallDays": [
+        "2026-05-19",
+        "2026-05-18"
+      ],
+      "conceptTags": [
+        "生成",
+        "一个",
+        "工资",
+        "模板",
+        "保存",
+        "openclaw",
+        "outputs",
+        "codus"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-18.txt:9:9": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-18.txt:9:9",
+      "path": "memory/.dreams/session-corpus/2026-05-18.txt",
+      "startLine": 9,
+      "endLine": 9,
+      "source": "memory",
+      "snippet": "User: [media attached: /home/node/.openclaw/media/inbound/ebb90b8a-fa9e-40da-9adc-4c9b3365a3ed.jpg (image/jpeg) | /home/node/.openclaw/media/inbound/ebb90b8a-fa9e-40da-9adc-4c9b3365a3ed.jpg] [Image] User text: [Feishu ou_13190b75af6c015cd2975d6de047a6f1 Mon 2026-05-18 12:54 UTC]",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-18T19:00:32.818Z",
+      "lastRecalledAt": "2026-05-18T19:00:32.818Z",
+      "queryHashes": [
+        "cda70fe5512d"
+      ],
+      "recallDays": [
+        "2026-05-19",
+        "2026-05-18"
+      ],
+      "conceptTags": [
+        "home/node",
+        "image/jpeg",
+        "media",
+        "attached",
+        "home",
+        "node",
+        "openclaw",
+        "inbound"
+      ]
     }
   }
 }

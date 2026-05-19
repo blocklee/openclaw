@@ -1,7 +1,7 @@
 {
   "meta": {
     "lastTouchedVersion": "2026.4.24",
-    "lastTouchedAt": "2026-04-27T13:00:11.325Z"
+    "lastTouchedAt": "2026-05-18T16:08:58.283Z"
   },
   "env": {
     "OPENROUTER_API_KEY": "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",
@@ -241,9 +241,9 @@
       "model": {
         "primary": "nvidia/minimaxai/minimax-m2.7",
         "fallbacks": [
-	  "nvidia/deepseek-ai/deepseek-v4-pro",
-	  "nvidia/deepseek-ai/deepseek-v4-flash",
-	  "nvidia/z-ai/glm4.7",
+          "nvidia/deepseek-ai/deepseek-v4-pro",
+          "nvidia/deepseek-ai/deepseek-v4-flash",
+          "nvidia/z-ai/glm4.7",
           "minimax/MiniMax-M2.7"
         ]
       },
@@ -329,9 +329,9 @@
         "model": {
           "primary": "nvidia/deepseek-ai/deepseek-v4-pro",
           "fallbacks": [
-	    "nvidia/minimaxai/minimax-m2.7",
+            "nvidia/minimaxai/minimax-m2.7",
             "zai/glm-4.7-flash",
-	    "nvidia/minimaxai/minimax-m2.7"
+            "nvidia/minimaxai/minimax-m2.7"
           ]
         }
       }
@@ -450,45 +450,45 @@
   "channels": {
     "feishu": {
       "enabled": true,
-      "domain": "lark",
       "requireMention": true,
       "defaultAccount": "main",
       "typingIndicator": true,
       "resolveSenderNames": true,
       "accounts": {
         "main": {
-          "appId": "cli_a9243f0855b89e1b",
-          "appSecret": "YpMh4x85MwnG3DNjeERnDfNaJs2IM1OA",
-          "name": "Talus"
+          "appId": "cli_aa8198b425389cef",
+          "appSecret": "k0S58IdXo8doVPNlcaQEydgNpcGdPNOT",
+          "name": "Talus",
+          "domain": "feishu"
         },
         "lucus": {
           "appId": "cli_a93108fad2b81e15",
           "appSecret": "YXsvQgicI06FJkWenoDpggitFT6TCgVq",
-          "name": "Lucus"
+          "name": "Lucus",
+          "domain": "lark"
         },
         "codus": {
           "appId": "cli_a9417983f678de17",
           "appSecret": "6FMGvf9k9eUGxQ9c32QRp3e8nTacmB6r",
-          "name": "Codus"
+          "name": "Codus",
+          "domain": "lark"
         },
         "xiaoye": {
           "appId": "cli_a965de5a7b78de17",
           "appSecret": "kfNGYuW5vlPEL71PwYsK7f8UrMg31WHB",
-          "name": "xiaoye"
+          "name": "xiaoye",
+          "domain": "lark"
         },
         "default": {
           "dmPolicy": "pairing",
-          "groupPolicy": "allowlist",
-          "groupAllowFrom": [
-            "oc_badefa41a5267f2823cd495b63dd6ce5"
-          ]
+          "groupPolicy": "open"
         }
       },
       "connectionMode": "websocket",
-      "dmPolicy": "pairing",
-      "groupPolicy": "open",
       "reactionNotifications": "own",
-      "webhookPath": "/feishu/events"
+      "groupAllowFrom": [
+        "oc_76f7651cb976ad84d66158beb2f29be2"
+      ]
     },
     "openclaw-weixin": {
       "channelConfigUpdatedAt": "2026-04-27T06:04:52.593Z",

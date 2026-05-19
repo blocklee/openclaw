@@ -1,7 +1,7 @@
 {
   "meta": {
     "lastTouchedVersion": "2026.4.24",
-    "lastTouchedAt": "2026-04-27T05:58:57.166Z"
+    "lastTouchedAt": "2026-04-27T13:00:11.325Z"
   },
   "env": {
     "OPENROUTER_API_KEY": "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",
@@ -42,10 +42,6 @@
       "volcengine:default": {
         "provider": "volcengine",
         "mode": "api_key"
-      },
-      "volcengine-plan:default": {
-        "provider": "volcengine-plan",
-        "mode": "api_key"
       }
     }
   },
@@ -76,6 +72,36 @@
             ],
             "contextWindow": 32768,
             "maxTokens": 32768
+          },
+          {
+            "id": "deepseek-ai/deepseek-v4-pro",
+            "name": "DeepSeek V4 Pro",
+            "reasoning": true,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 1000000,
+            "maxTokens": 32768
+          },
+          {
+            "id": "deepseek-ai/deepseek-v4-flash",
+            "name": "DeepSeek V4 Flash",
+            "reasoning": true,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 1000000,
+            "maxTokens": 32768
+          },
+          {
+            "id": "z-ai/glm4.7",
+            "name": "GLM-4.7",
+            "reasoning": true,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 200000,
+            "maxTokens": 128000
           }
         ]
       },
@@ -119,23 +145,6 @@
               "input": 1,
               "output": 3.2,
               "cacheRead": 0.2,
-              "cacheWrite": 0
-            },
-            "contextWindow": 202800,
-            "maxTokens": 131100
-          },
-          {
-            "id": "glm-5-turbo",
-            "name": "GLM-5 Turbo",
-            "api": "openai-completions",
-            "reasoning": true,
-            "input": [
-              "text"
-            ],
-            "cost": {
-              "input": 1.2,
-              "output": 4,
-              "cacheRead": 0.24,
               "cacheWrite": 0
             },
             "contextWindow": 202800,
@@ -224,99 +233,6 @@
             "maxTokens": 8192
           }
         ]
-      },
-      "volcengine-plan": {
-        "baseUrl": "https://ark.cn-beijing.volces.com/api/coding/v3",
-        "api": "openai-completions",
-        "models": [
-          {
-            "id": "ark-code-latest",
-            "name": "ark-code-latest",
-            "contextWindow": 256000,
-            "maxTokens": 32000,
-            "input": [
-              "text",
-              "image"
-            ]
-          },
-          {
-            "id": "doubao-seed-code",
-            "name": "doubao-seed-code",
-            "contextWindow": 256000,
-            "maxTokens": 32000,
-            "input": [
-              "text",
-              "image"
-            ]
-          },
-          {
-            "id": "glm-4.7",
-            "name": "glm-4.7",
-            "contextWindow": 200000,
-            "maxTokens": 128000,
-            "input": [
-              "text"
-            ]
-          },
-          {
-            "id": "deepseek-v3.2",
-            "name": "deepseek-v3.2",
-            "contextWindow": 128000,
-            "maxTokens": 32000,
-            "input": [
-              "text"
-            ]
-          },
-          {
-            "id": "doubao-seed-2.0-code",
-            "name": "doubao-seed-2.0-code",
-            "contextWindow": 256000,
-            "maxTokens": 128000,
-            "input": [
-              "text",
-              "image"
-            ]
-          },
-          {
-            "id": "doubao-seed-2.0-pro",
-            "name": "doubao-seed-2.0-pro",
-            "contextWindow": 256000,
-            "maxTokens": 128000,
-            "input": [
-              "text",
-              "image"
-            ]
-          },
-          {
-            "id": "doubao-seed-2.0-lite",
-            "name": "doubao-seed-2.0-lite",
-            "contextWindow": 256000,
-            "maxTokens": 128000,
-            "input": [
-              "text",
-              "image"
-            ]
-          },
-          {
-            "id": "minimax-m2.5",
-            "name": "minimax-m2.5",
-            "contextWindow": 200000,
-            "maxTokens": 128000,
-            "input": [
-              "text"
-            ]
-          },
-          {
-            "id": "kimi-k2.5",
-            "name": "kimi-k2.5",
-            "contextWindow": 256000,
-            "maxTokens": 32000,
-            "input": [
-              "text",
-              "image"
-            ]
-          }
-        ]
       }
     }
   },
@@ -325,23 +241,15 @@
       "model": {
         "primary": "nvidia/minimaxai/minimax-m2.7",
         "fallbacks": [
-          "volcengine-plan/doubao-seed-2.0-pro",
-          "volcengine-plan/doubao-seed-2.0-code",
-          "volcengine-plan/doubao-seed-2.0-lite",
-          "volcengine-plan/doubao-seed-code",
-          "volcengine-plan/deepseek-v3.2",
-          "volcengine-plan/minimax-m2.5",
-          "volcengine-plan/kimi-k2.5",
-          "volcengine-plan/ark-code-latest",
+	  "nvidia/deepseek-ai/deepseek-v4-pro",
+	  "nvidia/deepseek-ai/deepseek-v4-flash",
+	  "nvidia/z-ai/glm4.7",
           "minimax/MiniMax-M2.7"
         ]
       },
       "imageGenerationModel": {
-        "primary": "volcengine-plan/doubao-seed-2.0-pro",
-        "fallbacks": [
-          "volcengine-plan/doubao-seed-2.0-code",
-          "volcengine-plan/doubao-seed-code"
-        ]
+        "primary": "nvidia/minimaxai/minimax-m2.7",
+        "fallbacks": []
       },
       "models": {
         "minimax/MiniMax-M2.7": {
@@ -356,16 +264,10 @@
         "google/lyria-3-pro-preview:free": {},
         "google/lyria-3-clip-preview:free": {},
         "nvidia/nemotron-3-super-120b-a12b:free": {},
-        "volcengine-plan/ark-code-latest": {},
-        "volcengine-plan/doubao-seed-2.0-code": {},
-        "volcengine-plan/doubao-seed-2.0-pro": {},
-        "volcengine-plan/doubao-seed-2.0-lite": {},
-        "volcengine-plan/doubao-seed-code": {},
-        "volcengine-plan/minimax-m2.5": {},
-        "volcengine-plan/glm-4.7": {},
-        "volcengine-plan/deepseek-v3.2": {},
-        "volcengine-plan/kimi-k2.5": {},
-        "nvidia/minimaxai/minimax-m2.7": {}
+        "nvidia/minimaxai/minimax-m2.7": {},
+        "nvidia/deepseek-ai/deepseek-v4-pro": {},
+        "nvidia/deepseek-ai/deepseek-v4-flash": {},
+        "nvidia/z-ai/glm4.7": {}
       },
       "workspace": "/home/node/.openclaw/workspace",
       "memorySearch": {
@@ -399,10 +301,9 @@
         "workspace": "/home/node/.openclaw/workspace-lucus",
         "agentDir": "/home/node/.openclaw/agents/lucus/agent",
         "model": {
-          "primary": "volcengine-plan/doubao-seed-2.0-pro",
+          "primary": "nvidia/minimaxai/minimax-m2.7",
           "fallbacks": [
             "minimax/MiniMax-M2.7",
-            "volcengine-plan/glm-4.7",
             "minimax/minimax-m2.5:free"
           ]
         }
@@ -413,9 +314,8 @@
         "workspace": "/home/node/.openclaw/workspace-wxlee",
         "agentDir": "/home/node/.openclaw/agents/wxlee/agent",
         "model": {
-          "primary": "volcengine-plan/deepseek-v3.2",
+          "primary": "nvidia/deepseek-ai/deepseek-v4-flash",
           "fallbacks": [
-            "volcengine-plan/glm-4.7",
             "zai/glm-4.7-flash",
             "minimax/MiniMax-M2.7"
           ]
@@ -427,11 +327,11 @@
         "workspace": "/home/node/.openclaw/workspace-codus",
         "agentDir": "/home/node/.openclaw/agents/codus/agent",
         "model": {
-          "primary": "volcengine-plan/minimax-m2.5",
+          "primary": "nvidia/deepseek-ai/deepseek-v4-pro",
           "fallbacks": [
-            "volcengine-plan/doubao-seed-2.0-code",
-            "volcengine-plan/glm-4.7",
-            "zai/glm-4.7-flash"
+	    "nvidia/minimaxai/minimax-m2.7",
+            "zai/glm-4.7-flash",
+	    "nvidia/minimaxai/minimax-m2.7"
           ]
         }
       }
@@ -498,7 +398,15 @@
       "agentId": "wxlee",
       "match": {
         "channel": "openclaw-weixin",
-        "accountId": "ff482f9682b2-im-bot"
+        "accountId": "a23ee0675df2-im-bot"
+      }
+    },
+    {
+      "type": "route",
+      "agentId": "wxlee",
+      "match": {
+        "channel": "feishu",
+        "accountId": "xiaoye"
       }
     }
   ],
@@ -542,40 +450,44 @@
   "channels": {
     "feishu": {
       "enabled": true,
-      "domain": "lark",
       "requireMention": true,
       "defaultAccount": "main",
       "typingIndicator": true,
       "resolveSenderNames": true,
       "accounts": {
         "main": {
-          "appId": "cli_a9243f0855b89e1b",
-          "appSecret": "YpMh4x85MwnG3DNjeERnDfNaJs2IM1OA",
-          "name": "Talus"
+          "appId": "cli_aa8198b425389cef",
+          "appSecret": "k0S58IdXo8doVPNlcaQEydgNpcGdPNOT",
+          "name": "Talus",
+          "domain": "feishu"
         },
         "lucus": {
           "appId": "cli_a93108fad2b81e15",
           "appSecret": "YXsvQgicI06FJkWenoDpggitFT6TCgVq",
-          "name": "Lucus"
+          "name": "Lucus",
+          "domain": "lark"
         },
         "codus": {
           "appId": "cli_a9417983f678de17",
           "appSecret": "6FMGvf9k9eUGxQ9c32QRp3e8nTacmB6r",
-          "name": "Codus"
+          "name": "Codus",
+          "domain": "lark"
         },
-        "default": {
-          "dmPolicy": "pairing",
-          "groupPolicy": "allowlist",
-          "groupAllowFrom": [
-            "oc_badefa41a5267f2823cd495b63dd6ce5"
-          ]
+        "xiaoye": {
+          "appId": "cli_a965de5a7b78de17",
+          "appSecret": "kfNGYuW5vlPEL71PwYsK7f8UrMg31WHB",
+          "name": "xiaoye",
+          "domain": "lark"
         }
       },
       "connectionMode": "websocket",
       "dmPolicy": "pairing",
       "groupPolicy": "open",
-      "reactionNotifications": "own",
-      "webhookPath": "/feishu/events"
+      "reactionNotifications": "own"
+    },
+    "openclaw-weixin": {
+      "channelConfigUpdatedAt": "2026-04-27T06:04:52.593Z",
+      "enabled": true
     }
   },
   "gateway": {

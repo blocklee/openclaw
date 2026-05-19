@@ -11,8 +11,8 @@
       "failureCounts": {
         "rate_limit": 1
       },
-      "lastFailureAt": 1778944697018,
-      "cooldownUntil": 1778944727018,
+      "lastFailureAt": 1779108672227,
+      "cooldownUntil": 1779108702227,
       "cooldownReason": "rate_limit",
       "cooldownModel": "MiniMax-M2.7"
     },
@@ -27,15 +27,9 @@
       "cooldownModel": "gpt-5.4"
     },
     "zai:default": {
-      "errorCount": 1,
-      "lastUsed": 1778943223250,
-      "failureCounts": {
-        "rate_limit": 1
-      },
-      "lastFailureAt": 1778944663698,
-      "cooldownUntil": 1778944693698,
-      "cooldownReason": "rate_limit",
-      "cooldownModel": "glm-4.7-flash"
+      "errorCount": 0,
+      "lastUsed": 1779109253576,
+      "lastFailureAt": 1778944663698
     }
   }
 }
