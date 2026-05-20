@@ -8,12 +8,12 @@
       "lineCount": 18,
       "lastContentLine": 18
     },
-    "wxlee:sessions/276c91b2-7160-4975-989c-e97db75621c7.jsonl": {
+    "wxlee:sessions/276c91b2-7160-4975-989c-e97db75621c7.jsonl.reset.2026-05-19T09-34-36.269Z": {
       "mtimeMs": 1779119848347,
       "size": 7280,
-      "contentHash": "d0e18dc23b11ef8cd97fa4dbd4549a12730dcbdde8e3b6d886ce19ae6a4acceb",
-      "lineCount": 7,
-      "lastContentLine": 7
+      "contentHash": "75a11da44c802486bc6f65640aa48a730f0f684c5c07a42ba3cd1735eb3fb070",
+      "lineCount": 0,
+      "lastContentLine": 0
     },
     "wxlee:sessions/276c91b2-7160-4975-989c-e97db75621c7.trajectory.jsonl": {
       "mtimeMs": 1779119848471,
@@ -71,12 +71,12 @@
       "lineCount": 0,
       "lastContentLine": 0
     },
-    "wxlee:sessions/954693a3-0e79-4367-a9c9-3d28b4efde86.jsonl": {
+    "wxlee:sessions/954693a3-0e79-4367-a9c9-3d28b4efde86.jsonl.reset.2026-05-19T16-38-15.309Z": {
       "mtimeMs": 1779109900018,
       "size": 95297,
-      "contentHash": "aa9d9562da6a95d52804bea77b16a924f61d10932dbf9c8831cceb6691f2ee0c",
-      "lineCount": 42,
-      "lastContentLine": 42
+      "contentHash": "75a11da44c802486bc6f65640aa48a730f0f684c5c07a42ba3cd1735eb3fb070",
+      "lineCount": 0,
+      "lastContentLine": 0
     },
     "wxlee:sessions/954693a3-0e79-4367-a9c9-3d28b4efde86.trajectory.jsonl": {
       "mtimeMs": 1779109900074,
@@ -127,6 +127,20 @@
       "lineCount": 0,
       "lastContentLine": 0
     },
+    "wxlee:sessions/b09b3935-9f48-4d36-9a98-65d59288e069.jsonl": {
+      "mtimeMs": 1779209524280,
+      "size": 23584,
+      "contentHash": "3264b6ed719924714fc3efcd5c0260f158e0e9c6fd1ff5b08b8d840b6aec1765",
+      "lineCount": 16,
+      "lastContentLine": 16
+    },
+    "wxlee:sessions/b09b3935-9f48-4d36-9a98-65d59288e069.trajectory.jsonl": {
+      "mtimeMs": 1779209524312,
+      "size": 607582,
+      "contentHash": "75a11da44c802486bc6f65640aa48a730f0f684c5c07a42ba3cd1735eb3fb070",
+      "lineCount": 0,
+      "lastContentLine": 0
+    },
     "wxlee:sessions/c53204d9-dbc4-4634-8048-77f4d3c7ca91.jsonl.deleted.2026-05-14T04-57-41.081Z": {
       "mtimeMs": 1777861475532,
       "size": 7837,
@@ -144,6 +158,20 @@
     "wxlee:sessions/cf77b8ff-939c-4240-bfce-3a51546cb256.trajectory.jsonl": {
       "mtimeMs": 1777574382237,
       "size": 501492,
+      "contentHash": "75a11da44c802486bc6f65640aa48a730f0f684c5c07a42ba3cd1735eb3fb070",
+      "lineCount": 0,
+      "lastContentLine": 0
+    },
+    "wxlee:sessions/d5236bc4-a607-479f-8674-a84fd84d7b93.jsonl": {
+      "mtimeMs": 1779183442601,
+      "size": 45426,
+      "contentHash": "c8bc80a4723b2da66d3d21dfc99ca04e9d1cf2bd8c570aeaea097a02f86f1213",
+      "lineCount": 4,
+      "lastContentLine": 4
+    },
+    "wxlee:sessions/d5236bc4-a607-479f-8674-a84fd84d7b93.trajectory.jsonl": {
+      "mtimeMs": 1779183442801,
+      "size": 204918,
       "contentHash": "75a11da44c802486bc6f65640aa48a730f0f684c5c07a42ba3cd1735eb3fb070",
       "lineCount": 0,
       "lastContentLine": 0
@@ -537,6 +565,25 @@
       "834f5c2afaa627e2a317579c9a27d8314e8cb1e9",
       "4a312f10a567f812a1159c295fefa82289beaa06",
       "2088b452d2c9b5c1b8ab7eb282a4458f6a469b0d"
-    ]
+    ],
+    "wxlee:b09b3935-9f48-4d36-9a98-65d59288e069": [
+      "cd8c40a165600380d2159f323c21a2f79af5b1c0",
+      "905de5499744a6e10070cb07254160de5fedb103",
+      "d1edf1f801eb826bb33baffa7c667272653892f6",
+      "61a5a1e8cbd8d844d8c8a373eb8440cff6f1129c",
+      "bbbb991cf88b11f410174b8853f485274fe6ae00",
+      "c00722f841e106080c216663730022018ffc16dd",
+      "46b83ec037e7df81ba7eb403fede5b296668fa97",
+      "b3d63c3eb9611fad1e5a45a4bc1369915ee46d2e",
+      "29875613cce574af53cab3e3f20ac0c890da9efb",
+      "8e7abe8b4c197238c7a55438f228750fe9dfedce",
+      "efd026eba7cf75f292cef8c97749b76292a69ce3"
+    ],
+    "wxlee:b09b3935-9f48-4d36-9a98-65d59288e069.trajectory": [],
+    "wxlee:d5236bc4-a607-479f-8674-a84fd84d7b93": [
+      "eaf042f6c35829202eac60a237f2dfce60f7fd0c",
+      "1d06a16d5414ec1dc075d5186b3c86e321dd3f8c"
+    ],
+    "wxlee:d5236bc4-a607-479f-8674-a84fd84d7b93.trajectory": []
   }
 }
