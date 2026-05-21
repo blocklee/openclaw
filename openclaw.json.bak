@@ -1,7 +1,7 @@
 {
   "meta": {
-    "lastTouchedVersion": "2026.4.24",
-    "lastTouchedAt": "2026-05-18T16:07:26.600Z"
+    "lastTouchedVersion": "2026.5.19",
+    "lastTouchedAt": "2026-05-20T16:05:14.269Z"
   },
   "env": {
     "OPENROUTER_API_KEY": "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",
@@ -12,9 +12,9 @@
     "NVIDIA_API_KEY": "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"
   },
   "wizard": {
-    "lastRunAt": "2026-04-06T08:05:17.208Z",
-    "lastRunVersion": "2026.4.1",
-    "lastRunCommand": "configure",
+    "lastRunAt": "2026-05-20T16:05:13.643Z",
+    "lastRunVersion": "2026.5.19",
+    "lastRunCommand": "doctor",
     "lastRunMode": "local"
   },
   "auth": {
@@ -424,8 +424,7 @@
     "maintenance": {
       "mode": "enforce",
       "pruneAfter": "10d",
-      "maxEntries": 100,
-      "rotateBytes": "10mb"
+      "maxEntries": 100
     }
   },
   "hooks": {
@@ -557,7 +556,8 @@
             "timezone": "Asia/Shanghai",
             "frequency": "0 3 * * *"
           }
-        }
+        },
+        "enabled": true
       },
       "feishu": {
         "enabled": true,
@@ -587,20 +587,6 @@
         "enabled": true
       }
     },
-    "installs": {
-      "openclaw-weixin": {
-        "source": "npm",
-        "spec": "@tencent-weixin/openclaw-weixin",
-        "installPath": "/home/node/.openclaw/extensions/openclaw-weixin",
-        "version": "2.1.10",
-        "resolvedName": "@tencent-weixin/openclaw-weixin",
-        "resolvedVersion": "2.1.10",
-        "resolvedSpec": "@tencent-weixin/openclaw-weixin@2.1.10",
-        "integrity": "sha512-cEG6Iw5g2qqlA+8/TcmV+E8aFUEX0ruxF0+a5LgVy5wv56/qP07KoapfRa7YTRPzhRW5UDaz6zsZQArt/4ZNnA==",
-        "shasum": "3e4fa19e5997567a6f8e0bacef8ec96d46cc432c",
-        "resolvedAt": "2026-04-27T05:57:43.960Z",
-        "installedAt": "2026-04-27T05:58:17.624Z"
-      }
-    }
+    "bundledDiscovery": "compat"
   }
 }

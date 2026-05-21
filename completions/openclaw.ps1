@@ -17,7 +17,7 @@ Register-ArgumentCompleter -Native -CommandName openclaw -ScriptBlock {
     
     # Root command
     if ($commandPath -eq "") {
-         $completions = @('completion','setup','onboard','configure','config','backup','doctor','dashboard','reset','uninstall','message','mcp','agent','agents','status','health','sessions','tasks','acp','gateway','daemon','logs','system','models','infer','approvals','exec-policy','nodes','devices','node','sandbox','tui','cron','dns','docs','proxy','hooks','webhooks','qr','clawbot','memory','pairing','plugins','channels','directory','security','secrets','skills','update', '-V,','--container','--dev','--profile','--log-level','--no-color') 
+         $completions = @('completion','crestodian','setup','onboard','configure','config','backup','migrate','doctor','dashboard','reset','uninstall','message','mcp','agent','agents','status','health','sessions','commitments','tasks','acp','gateway','daemon','logs','system','models','infer','approvals','exec-policy','nodes','devices','node','sandbox','tui','cron','dns','docs','proxy','hooks','webhooks','qr','clawbot','pairing','plugins','channels','directory','security','secrets','skills','update','memory', '-V,','--container','--dev','--profile','--log-level','--no-color') 
          $completions | Where-Object { $_ -like "$wordToComplete*" } | ForEach-Object {
             [System.Management.Automation.CompletionResult]::new($_, $_, 'ParameterName', $_)
          }
@@ -31,15 +31,22 @@ Register-ArgumentCompleter -Native -CommandName openclaw -ScriptBlock {
                 }
             }
 
+            if ($commandPath -eq 'crestodian') {
+                $completions = @('-m','--yes','--json')
+                $completions | Where-Object { $_ -like "$wordToComplete*" } | ForEach-Object {
+                    [System.Management.Automation.CompletionResult]::new($_, $_, 'ParameterName', $_)
+                }
+            }
+
             if ($commandPath -eq 'setup') {
-                $completions = @('--workspace','--wizard','--non-interactive','--mode','--remote-url','--remote-token')
+                $completions = @('--workspace','--wizard','--non-interactive','--mode','--import-from','--import-source','--import-secrets','--remote-url','--remote-token')
                 $completions | Where-Object { $_ -like "$wordToComplete*" } | ForEach-Object {
                     [System.Management.Automation.CompletionResult]::new($_, $_, 'ParameterName', $_)
                 }
             }
 
             if ($commandPath -eq 'onboard') {
-                $completions = @('--workspace','--reset','--reset-scope','--non-interactive','--accept-risk','--flow','--mode','--auth-choice','--token-provider','--token','--token-profile-id','--token-expires-in','--secret-input-mode','--cloudflare-ai-gateway-account-id','--cloudflare-ai-gateway-gateway-id','--alibaba-model-studio-api-key','--anthropic-api-key','--arceeai-api-key','--openrouter-api-key','--byteplus-api-key','--chutes-api-key','--cloudflare-ai-gateway-api-key','--comfy-api-key','--deepseek-api-key','--fal-api-key','--fireworks-api-key','--gemini-api-key','--huggingface-api-key','--kilocode-api-key','--kimi-code-api-key','--litellm-api-key','--lmstudio-api-key','--minimax-api-key','--mistral-api-key','--moonshot-api-key','--nvidia-api-key','--openai-api-key','--opencode-zen-api-key','--opencode-go-api-key','--qianfan-api-key','--modelstudio-standard-api-key-cn','--modelstudio-standard-api-key','--modelstudio-api-key-cn','--modelstudio-api-key','--runway-api-key','--stepfun-api-key','--synthetic-api-key','--tokenhub-api-key','--together-api-key','--venice-api-key','--ai-gateway-api-key','--volcengine-api-key','--vydra-api-key','--xai-api-key','--xiaomi-api-key','--zai-api-key','--custom-base-url','--custom-api-key','--custom-model-id','--custom-provider-id','--custom-compatibility','--gateway-port','--gateway-bind','--gateway-auth','--gateway-token','--gateway-token-ref-env','--gateway-password','--remote-url','--remote-token','--tailscale','--tailscale-reset-on-exit','--install-daemon','--no-install-daemon','--skip-daemon','--daemon-runtime','--skip-channels','--skip-skills','--skip-bootstrap','--skip-search','--skip-health','--skip-ui','--node-manager','--json')
+                $completions = @('--workspace','--reset','--reset-scope','--non-interactive','--modern','--accept-risk','--flow','--mode','--auth-choice','--token-provider','--token','--token-profile-id','--token-expires-in','--secret-input-mode','--cloudflare-ai-gateway-account-id','--cloudflare-ai-gateway-gateway-id','--alibaba-model-studio-api-key','--anthropic-api-key','--arceeai-api-key','--openrouter-api-key','--byteplus-api-key','--cerebras-api-key','--chutes-api-key','--cloudflare-ai-gateway-api-key','--comfy-api-key','--deepinfra-api-key','--deepseek-api-key','--fal-api-key','--fireworks-api-key','--github-copilot-token','--gemini-api-key','--huggingface-api-key','--kilocode-api-key','--kimi-code-api-key','--litellm-api-key','--lmstudio-api-key','--minimax-api-key','--mistral-api-key','--moonshot-api-key','--nvidia-api-key','--openai-api-key','--opencode-zen-api-key','--opencode-go-api-key','--qianfan-api-key','--modelstudio-standard-api-key-cn','--modelstudio-standard-api-key','--modelstudio-api-key-cn','--modelstudio-api-key','--runway-api-key','--stepfun-api-key','--synthetic-api-key','--tokenhub-api-key','--together-api-key','--venice-api-key','--ai-gateway-api-key','--volcengine-api-key','--vydra-api-key','--xai-api-key','--xiaomi-api-key','--zai-api-key','--custom-base-url','--custom-api-key','--custom-model-id','--custom-provider-id','--custom-compatibility','--custom-image-input','--custom-text-input','--gateway-port','--gateway-bind','--gateway-auth','--gateway-token','--gateway-token-ref-env','--gateway-password','--remote-url','--remote-token','--tailscale','--tailscale-reset-on-exit','--install-daemon','--no-install-daemon','--skip-daemon','--daemon-runtime','--skip-channels','--skip-skills','--skip-bootstrap','--skip-search','--skip-health','--skip-ui','--skip-hooks','--node-manager','--import-from','--import-source','--import-secrets','--json')
                 $completions | Where-Object { $_ -like "$wordToComplete*" } | ForEach-Object {
                     [System.Management.Automation.CompletionResult]::new($_, $_, 'ParameterName', $_)
                 }
@@ -53,7 +60,7 @@ Register-ArgumentCompleter -Native -CommandName openclaw -ScriptBlock {
             }
 
             if ($commandPath -eq 'config') {
-                $completions = @('get','set','unset','file','schema','validate','--section')
+                $completions = @('get','set','patch','unset','file','schema','validate','--section')
                 $completions | Where-Object { $_ -like "$wordToComplete*" } | ForEach-Object {
                     [System.Management.Automation.CompletionResult]::new($_, $_, 'ParameterName', $_)
                 }
@@ -68,6 +75,20 @@ Register-ArgumentCompleter -Native -CommandName openclaw -ScriptBlock {
 
             if ($commandPath -eq 'config set') {
                 $completions = @('--strict-json','--json','--dry-run','--allow-exec','--merge','--replace','--ref-provider','--ref-source','--ref-id','--provider-source','--provider-allowlist','--provider-path','--provider-mode','--provider-timeout-ms','--provider-max-bytes','--provider-command','--provider-arg','--provider-no-output-timeout-ms','--provider-max-output-bytes','--provider-json-only','--provider-env','--provider-pass-env','--provider-trusted-dir','--provider-allow-insecure-path','--provider-allow-symlink-command','--batch-json','--batch-file')
+                $completions | Where-Object { $_ -like "$wordToComplete*" } | ForEach-Object {
+                    [System.Management.Automation.CompletionResult]::new($_, $_, 'ParameterName', $_)
+                }
+            }
+
+            if ($commandPath -eq 'config patch') {
+                $completions = @('--file','--stdin','--dry-run','--allow-exec','--json','--replace-path')
+                $completions | Where-Object { $_ -like "$wordToComplete*" } | ForEach-Object {
+                    [System.Management.Automation.CompletionResult]::new($_, $_, 'ParameterName', $_)
+                }
+            }
+
+            if ($commandPath -eq 'config unset') {
+                $completions = @('--dry-run','--allow-exec','--json')
                 $completions | Where-Object { $_ -like "$wordToComplete*" } | ForEach-Object {
                     [System.Management.Automation.CompletionResult]::new($_, $_, 'ParameterName', $_)
                 }
@@ -101,15 +122,43 @@ Register-ArgumentCompleter -Native -CommandName openclaw -ScriptBlock {
                 }
             }
 
+            if ($commandPath -eq 'migrate') {
+                $completions = @('list','plan','apply','--from','--include-secrets','--overwrite','--dry-run','--yes','--skill','--plugin','--backup-output','--no-backup','--force','--json','--verify-plugin-apps')
+                $completions | Where-Object { $_ -like "$wordToComplete*" } | ForEach-Object {
+                    [System.Management.Automation.CompletionResult]::new($_, $_, 'ParameterName', $_)
+                }
+            }
+
+            if ($commandPath -eq 'migrate list') {
+                $completions = @('--json')
+                $completions | Where-Object { $_ -like "$wordToComplete*" } | ForEach-Object {
+                    [System.Management.Automation.CompletionResult]::new($_, $_, 'ParameterName', $_)
+                }
+            }
+
+            if ($commandPath -eq 'migrate plan') {
+                $completions = @('--from','--include-secrets','--overwrite','--json','--skill','--plugin','--verify-plugin-apps')
+                $completions | Where-Object { $_ -like "$wordToComplete*" } | ForEach-Object {
+                    [System.Management.Automation.CompletionResult]::new($_, $_, 'ParameterName', $_)
+                }
+            }
+
+            if ($commandPath -eq 'migrate apply') {
+                $completions = @('--from','--include-secrets','--overwrite','--json','--skill','--plugin','--verify-plugin-apps','--yes','--backup-output','--no-backup','--force')
+                $completions | Where-Object { $_ -like "$wordToComplete*" } | ForEach-Object {
+                    [System.Management.Automation.CompletionResult]::new($_, $_, 'ParameterName', $_)
+                }
+            }
+
             if ($commandPath -eq 'doctor') {
-                $completions = @('--no-workspace-suggestions','--yes','--repair','--fix','--force','--non-interactive','--generate-gateway-token','--deep')
+                $completions = @('--no-workspace-suggestions','--yes','--repair','--fix','--force','--non-interactive','--generate-gateway-token','--deep','--lint','--json','--severity-min','--skip','--only')
                 $completions | Where-Object { $_ -like "$wordToComplete*" } | ForEach-Object {
                     [System.Management.Automation.CompletionResult]::new($_, $_, 'ParameterName', $_)
                 }
             }
 
             if ($commandPath -eq 'dashboard') {
-                $completions = @('--no-open')
+                $completions = @('--no-open','--yes')
                 $completions | Where-Object { $_ -like "$wordToComplete*" } | ForEach-Object {
                     [System.Management.Automation.CompletionResult]::new($_, $_, 'ParameterName', $_)
                 }
@@ -172,7 +221,7 @@ Register-ArgumentCompleter -Native -CommandName openclaw -ScriptBlock {
             }
 
             if ($commandPath -eq 'message read') {
-                $completions = @('-t','--channel','--account','--json','--dry-run','--verbose','--limit','--before','--after','--around','--include-thread')
+                $completions = @('-t','--channel','--account','--json','--dry-run','--verbose','--limit','--message-id','--before','--after','--around','--thread-id','--include-thread')
                 $completions | Where-Object { $_ -like "$wordToComplete*" } | ForEach-Object {
                     [System.Management.Automation.CompletionResult]::new($_, $_, 'ParameterName', $_)
                 }
@@ -445,7 +494,7 @@ Register-ArgumentCompleter -Native -CommandName openclaw -ScriptBlock {
             }
 
             if ($commandPath -eq 'agent') {
-                $completions = @('-m','-t','--session-id','--agent','--thinking','--verbose','--channel','--reply-to','--reply-channel','--reply-account','--local','--deliver','--json','--timeout')
+                $completions = @('-m','-t','--session-id','--agent','--model','--thinking','--verbose','--channel','--reply-to','--reply-channel','--reply-account','--local','--deliver','--json','--timeout')
                 $completions | Where-Object { $_ -like "$wordToComplete*" } | ForEach-Object {
                     [System.Management.Automation.CompletionResult]::new($_, $_, 'ParameterName', $_)
                 }
@@ -522,14 +571,49 @@ Register-ArgumentCompleter -Native -CommandName openclaw -ScriptBlock {
             }
 
             if ($commandPath -eq 'sessions') {
-                $completions = @('cleanup','--json','--verbose','--store','--agent','--all-agents','--active')
+                $completions = @('list','cleanup','export-trajectory','--json','--verbose','--store','--agent','--all-agents','--active','--limit')
+                $completions | Where-Object { $_ -like "$wordToComplete*" } | ForEach-Object {
+                    [System.Management.Automation.CompletionResult]::new($_, $_, 'ParameterName', $_)
+                }
+            }
+
+            if ($commandPath -eq 'sessions list') {
+                $completions = @('--json','--verbose','--store','--agent','--all-agents','--active','--limit')
                 $completions | Where-Object { $_ -like "$wordToComplete*" } | ForEach-Object {
                     [System.Management.Automation.CompletionResult]::new($_, $_, 'ParameterName', $_)
                 }
             }
 
             if ($commandPath -eq 'sessions cleanup') {
-                $completions = @('--store','--agent','--all-agents','--dry-run','--enforce','--fix-missing','--active-key','--json')
+                $completions = @('--store','--agent','--all-agents','--dry-run','--enforce','--fix-missing','--fix-dm-scope','--active-key','--json')
+                $completions | Where-Object { $_ -like "$wordToComplete*" } | ForEach-Object {
+                    [System.Management.Automation.CompletionResult]::new($_, $_, 'ParameterName', $_)
+                }
+            }
+
+            if ($commandPath -eq 'sessions export-trajectory') {
+                $completions = @('--session-key','--output','--workspace','--store','--agent','--request-json-base64','--json')
+                $completions | Where-Object { $_ -like "$wordToComplete*" } | ForEach-Object {
+                    [System.Management.Automation.CompletionResult]::new($_, $_, 'ParameterName', $_)
+                }
+            }
+
+            if ($commandPath -eq 'commitments') {
+                $completions = @('list','dismiss','--json','--agent','--status','--all')
+                $completions | Where-Object { $_ -like "$wordToComplete*" } | ForEach-Object {
+                    [System.Management.Automation.CompletionResult]::new($_, $_, 'ParameterName', $_)
+                }
+            }
+
+            if ($commandPath -eq 'commitments list') {
+                $completions = @('--json','--agent','--status','--all')
+                $completions | Where-Object { $_ -like "$wordToComplete*" } | ForEach-Object {
+                    [System.Management.Automation.CompletionResult]::new($_, $_, 'ParameterName', $_)
+                }
+            }
+
+            if ($commandPath -eq 'commitments dismiss') {
+                $completions = @('--json')
                 $completions | Where-Object { $_ -like "$wordToComplete*" } | ForEach-Object {
                     [System.Management.Automation.CompletionResult]::new($_, $_, 'ParameterName', $_)
                 }
@@ -627,7 +711,7 @@ Register-ArgumentCompleter -Native -CommandName openclaw -ScriptBlock {
             }
 
             if ($commandPath -eq 'gateway install') {
-                $completions = @('--port','--runtime','--token','--force','--json')
+                $completions = @('--port','--runtime','--token','--wrapper','--force','--json')
                 $completions | Where-Object { $_ -like "$wordToComplete*" } | ForEach-Object {
                     [System.Management.Automation.CompletionResult]::new($_, $_, 'ParameterName', $_)
                 }
@@ -648,14 +732,14 @@ Register-ArgumentCompleter -Native -CommandName openclaw -ScriptBlock {
             }
 
             if ($commandPath -eq 'gateway stop') {
-                $completions = @('--json')
+                $completions = @('--json','--disable')
                 $completions | Where-Object { $_ -like "$wordToComplete*" } | ForEach-Object {
                     [System.Management.Automation.CompletionResult]::new($_, $_, 'ParameterName', $_)
                 }
             }
 
             if ($commandPath -eq 'gateway restart') {
-                $completions = @('--json')
+                $completions = @('--force','--safe','--skip-deferral','--wait','--json')
                 $completions | Where-Object { $_ -like "$wordToComplete*" } | ForEach-Object {
                     [System.Management.Automation.CompletionResult]::new($_, $_, 'ParameterName', $_)
                 }
@@ -732,7 +816,7 @@ Register-ArgumentCompleter -Native -CommandName openclaw -ScriptBlock {
             }
 
             if ($commandPath -eq 'daemon install') {
-                $completions = @('--port','--runtime','--token','--force','--json')
+                $completions = @('--port','--runtime','--token','--wrapper','--force','--json')
                 $completions | Where-Object { $_ -like "$wordToComplete*" } | ForEach-Object {
                     [System.Management.Automation.CompletionResult]::new($_, $_, 'ParameterName', $_)
                 }
@@ -753,14 +837,14 @@ Register-ArgumentCompleter -Native -CommandName openclaw -ScriptBlock {
             }
 
             if ($commandPath -eq 'daemon stop') {
-                $completions = @('--json')
+                $completions = @('--json','--disable')
                 $completions | Where-Object { $_ -like "$wordToComplete*" } | ForEach-Object {
                     [System.Management.Automation.CompletionResult]::new($_, $_, 'ParameterName', $_)
                 }
             }
 
             if ($commandPath -eq 'daemon restart') {
-                $completions = @('--json')
+                $completions = @('--force','--safe','--skip-deferral','--wait','--json')
                 $completions | Where-Object { $_ -like "$wordToComplete*" } | ForEach-Object {
                     [System.Management.Automation.CompletionResult]::new($_, $_, 'ParameterName', $_)
                 }
@@ -781,7 +865,7 @@ Register-ArgumentCompleter -Native -CommandName openclaw -ScriptBlock {
             }
 
             if ($commandPath -eq 'system event') {
-                $completions = @('--text','--mode','--json','--url','--token','--timeout','--expect-final')
+                $completions = @('--text','--mode','--session-key','--json','--url','--token','--timeout','--expect-final')
                 $completions | Where-Object { $_ -like "$wordToComplete*" } | ForEach-Object {
                     [System.Management.Automation.CompletionResult]::new($_, $_, 'ParameterName', $_)
                 }
@@ -893,14 +977,21 @@ Register-ArgumentCompleter -Native -CommandName openclaw -ScriptBlock {
             }
 
             if ($commandPath -eq 'models auth') {
-                $completions = @('add','login','setup-token','paste-token','login-github-copilot','order','--agent')
+                $completions = @('list','add','login','setup-token','paste-token','login-github-copilot','order','--agent')
+                $completions | Where-Object { $_ -like "$wordToComplete*" } | ForEach-Object {
+                    [System.Management.Automation.CompletionResult]::new($_, $_, 'ParameterName', $_)
+                }
+            }
+
+            if ($commandPath -eq 'models auth list') {
+                $completions = @('--provider','--agent','--json')
                 $completions | Where-Object { $_ -like "$wordToComplete*" } | ForEach-Object {
                     [System.Management.Automation.CompletionResult]::new($_, $_, 'ParameterName', $_)
                 }
             }
 
             if ($commandPath -eq 'models auth login') {
-                $completions = @('--provider','--method','--set-default')
+                $completions = @('--provider','--method','--device-code','--set-default')
                 $completions | Where-Object { $_ -like "$wordToComplete*" } | ForEach-Object {
                     [System.Management.Automation.CompletionResult]::new($_, $_, 'ParameterName', $_)
                 }
@@ -984,7 +1075,7 @@ Register-ArgumentCompleter -Native -CommandName openclaw -ScriptBlock {
             }
 
             if ($commandPath -eq 'infer model run') {
-                $completions = @('--prompt','--model','--local','--gateway','--json')
+                $completions = @('--prompt','--file','--model','--thinking','--local','--gateway','--json')
                 $completions | Where-Object { $_ -like "$wordToComplete*" } | ForEach-Object {
                     [System.Management.Automation.CompletionResult]::new($_, $_, 'ParameterName', $_)
                 }
@@ -1019,7 +1110,7 @@ Register-ArgumentCompleter -Native -CommandName openclaw -ScriptBlock {
             }
 
             if ($commandPath -eq 'infer model auth login') {
-                $completions = @('--provider')
+                $completions = @('--provider','--method')
                 $completions | Where-Object { $_ -like "$wordToComplete*" } | ForEach-Object {
                     [System.Management.Automation.CompletionResult]::new($_, $_, 'ParameterName', $_)
                 }
@@ -1047,28 +1138,28 @@ Register-ArgumentCompleter -Native -CommandName openclaw -ScriptBlock {
             }
 
             if ($commandPath -eq 'infer image generate') {
-                $completions = @('--prompt','--model','--count','--size','--aspect-ratio','--resolution','--output','--json')
+                $completions = @('--prompt','--model','--count','--size','--aspect-ratio','--resolution','--output-format','--background','--openai-background','--timeout-ms','--output','--json')
                 $completions | Where-Object { $_ -like "$wordToComplete*" } | ForEach-Object {
                     [System.Management.Automation.CompletionResult]::new($_, $_, 'ParameterName', $_)
                 }
             }
 
             if ($commandPath -eq 'infer image edit') {
-                $completions = @('--file','--prompt','--model','--output','--json')
+                $completions = @('--file','--prompt','--model','--size','--aspect-ratio','--resolution','--output-format','--background','--openai-background','--timeout-ms','--output','--json')
                 $completions | Where-Object { $_ -like "$wordToComplete*" } | ForEach-Object {
                     [System.Management.Automation.CompletionResult]::new($_, $_, 'ParameterName', $_)
                 }
             }
 
             if ($commandPath -eq 'infer image describe') {
-                $completions = @('--file','--model','--json')
+                $completions = @('--file','--prompt','--model','--timeout-ms','--json')
                 $completions | Where-Object { $_ -like "$wordToComplete*" } | ForEach-Object {
                     [System.Management.Automation.CompletionResult]::new($_, $_, 'ParameterName', $_)
                 }
             }
 
             if ($commandPath -eq 'infer image describe-many') {
-                $completions = @('--file','--model','--json')
+                $completions = @('--file','--prompt','--model','--timeout-ms','--json')
                 $completions | Where-Object { $_ -like "$wordToComplete*" } | ForEach-Object {
                     [System.Management.Automation.CompletionResult]::new($_, $_, 'ParameterName', $_)
                 }
@@ -1103,7 +1194,7 @@ Register-ArgumentCompleter -Native -CommandName openclaw -ScriptBlock {
             }
 
             if ($commandPath -eq 'infer tts') {
-                $completions = @('convert','voices','providers','status','enable','disable','set-provider')
+                $completions = @('convert','voices','providers','personas','status','enable','disable','set-provider','set-persona')
                 $completions | Where-Object { $_ -like "$wordToComplete*" } | ForEach-Object {
                     [System.Management.Automation.CompletionResult]::new($_, $_, 'ParameterName', $_)
                 }
@@ -1124,6 +1215,13 @@ Register-ArgumentCompleter -Native -CommandName openclaw -ScriptBlock {
             }
 
             if ($commandPath -eq 'infer tts providers') {
+                $completions = @('--local','--gateway','--json')
+                $completions | Where-Object { $_ -like "$wordToComplete*" } | ForEach-Object {
+                    [System.Management.Automation.CompletionResult]::new($_, $_, 'ParameterName', $_)
+                }
+            }
+
+            if ($commandPath -eq 'infer tts personas') {
                 $completions = @('--local','--gateway','--json')
                 $completions | Where-Object { $_ -like "$wordToComplete*" } | ForEach-Object {
                     [System.Management.Automation.CompletionResult]::new($_, $_, 'ParameterName', $_)
@@ -1158,6 +1256,13 @@ Register-ArgumentCompleter -Native -CommandName openclaw -ScriptBlock {
                 }
             }
 
+            if ($commandPath -eq 'infer tts set-persona') {
+                $completions = @('--persona','--off','--local','--gateway','--json')
+                $completions | Where-Object { $_ -like "$wordToComplete*" } | ForEach-Object {
+                    [System.Management.Automation.CompletionResult]::new($_, $_, 'ParameterName', $_)
+                }
+            }
+
             if ($commandPath -eq 'infer video') {
                 $completions = @('generate','describe','providers')
                 $completions | Where-Object { $_ -like "$wordToComplete*" } | ForEach-Object {
@@ -1166,7 +1271,7 @@ Register-ArgumentCompleter -Native -CommandName openclaw -ScriptBlock {
             }
 
             if ($commandPath -eq 'infer video generate') {
-                $completions = @('--prompt','--model','--output','--json')
+                $completions = @('--prompt','--model','--size','--aspect-ratio','--resolution','--duration','--audio','--watermark','--timeout-ms','--output','--json')
                 $completions | Where-Object { $_ -like "$wordToComplete*" } | ForEach-Object {
                     [System.Management.Automation.CompletionResult]::new($_, $_, 'ParameterName', $_)
                 }
@@ -1306,7 +1411,7 @@ Register-ArgumentCompleter -Native -CommandName openclaw -ScriptBlock {
             }
 
             if ($commandPath -eq 'nodes') {
-                $completions = @('status','describe','list','pending','approve','reject','rename','invoke','notify','push','canvas','camera','screen','location')
+                $completions = @('status','describe','list','pending','approve','reject','remove','rename','invoke','notify','push','camera','screen','location')
                 $completions | Where-Object { $_ -like "$wordToComplete*" } | ForEach-Object {
                     [System.Management.Automation.CompletionResult]::new($_, $_, 'ParameterName', $_)
                 }
@@ -1354,6 +1459,13 @@ Register-ArgumentCompleter -Native -CommandName openclaw -ScriptBlock {
                 }
             }
 
+            if ($commandPath -eq 'nodes remove') {
+                $completions = @('--node','--url','--token','--timeout','--json')
+                $completions | Where-Object { $_ -like "$wordToComplete*" } | ForEach-Object {
+                    [System.Management.Automation.CompletionResult]::new($_, $_, 'ParameterName', $_)
+                }
+            }
+
             if ($commandPath -eq 'nodes rename') {
                 $completions = @('--node','--name','--url','--token','--timeout','--json')
                 $completions | Where-Object { $_ -like "$wordToComplete*" } | ForEach-Object {
@@ -1377,69 +1489,6 @@ Register-ArgumentCompleter -Native -CommandName openclaw -ScriptBlock {
 
             if ($commandPath -eq 'nodes push') {
                 $completions = @('--node','--title','--body','--environment','--url','--token','--timeout','--json')
-                $completions | Where-Object { $_ -like "$wordToComplete*" } | ForEach-Object {
-                    [System.Management.Automation.CompletionResult]::new($_, $_, 'ParameterName', $_)
-                }
-            }
-
-            if ($commandPath -eq 'nodes canvas') {
-                $completions = @('snapshot','present','hide','navigate','eval','a2ui')
-                $completions | Where-Object { $_ -like "$wordToComplete*" } | ForEach-Object {
-                    [System.Management.Automation.CompletionResult]::new($_, $_, 'ParameterName', $_)
-                }
-            }
-
-            if ($commandPath -eq 'nodes canvas snapshot') {
-                $completions = @('--node','--format','--max-width','--quality','--invoke-timeout','--url','--token','--timeout','--json')
-                $completions | Where-Object { $_ -like "$wordToComplete*" } | ForEach-Object {
-                    [System.Management.Automation.CompletionResult]::new($_, $_, 'ParameterName', $_)
-                }
-            }
-
-            if ($commandPath -eq 'nodes canvas present') {
-                $completions = @('--node','--target','--x','--y','--width','--height','--invoke-timeout','--url','--token','--timeout','--json')
-                $completions | Where-Object { $_ -like "$wordToComplete*" } | ForEach-Object {
-                    [System.Management.Automation.CompletionResult]::new($_, $_, 'ParameterName', $_)
-                }
-            }
-
-            if ($commandPath -eq 'nodes canvas hide') {
-                $completions = @('--node','--invoke-timeout','--url','--token','--timeout','--json')
-                $completions | Where-Object { $_ -like "$wordToComplete*" } | ForEach-Object {
-                    [System.Management.Automation.CompletionResult]::new($_, $_, 'ParameterName', $_)
-                }
-            }
-
-            if ($commandPath -eq 'nodes canvas navigate') {
-                $completions = @('--node','--invoke-timeout','--url','--token','--timeout','--json')
-                $completions | Where-Object { $_ -like "$wordToComplete*" } | ForEach-Object {
-                    [System.Management.Automation.CompletionResult]::new($_, $_, 'ParameterName', $_)
-                }
-            }
-
-            if ($commandPath -eq 'nodes canvas eval') {
-                $completions = @('--js','--node','--invoke-timeout','--url','--token','--timeout','--json')
-                $completions | Where-Object { $_ -like "$wordToComplete*" } | ForEach-Object {
-                    [System.Management.Automation.CompletionResult]::new($_, $_, 'ParameterName', $_)
-                }
-            }
-
-            if ($commandPath -eq 'nodes canvas a2ui') {
-                $completions = @('push','reset')
-                $completions | Where-Object { $_ -like "$wordToComplete*" } | ForEach-Object {
-                    [System.Management.Automation.CompletionResult]::new($_, $_, 'ParameterName', $_)
-                }
-            }
-
-            if ($commandPath -eq 'nodes canvas a2ui push') {
-                $completions = @('--jsonl','--text','--node','--invoke-timeout','--url','--token','--timeout','--json')
-                $completions | Where-Object { $_ -like "$wordToComplete*" } | ForEach-Object {
-                    [System.Management.Automation.CompletionResult]::new($_, $_, 'ParameterName', $_)
-                }
-            }
-
-            if ($commandPath -eq 'nodes canvas a2ui reset') {
-                $completions = @('--node','--invoke-timeout','--url','--token','--timeout','--json')
                 $completions | Where-Object { $_ -like "$wordToComplete*" } | ForEach-Object {
                     [System.Management.Automation.CompletionResult]::new($_, $_, 'ParameterName', $_)
                 }
@@ -1558,7 +1607,7 @@ Register-ArgumentCompleter -Native -CommandName openclaw -ScriptBlock {
             }
 
             if ($commandPath -eq 'node') {
-                $completions = @('run','status','install','uninstall','stop','restart')
+                $completions = @('run','status','install','uninstall','stop','start','restart')
                 $completions | Where-Object { $_ -like "$wordToComplete*" } | ForEach-Object {
                     [System.Management.Automation.CompletionResult]::new($_, $_, 'ParameterName', $_)
                 }
@@ -1593,6 +1642,13 @@ Register-ArgumentCompleter -Native -CommandName openclaw -ScriptBlock {
             }
 
             if ($commandPath -eq 'node stop') {
+                $completions = @('--json')
+                $completions | Where-Object { $_ -like "$wordToComplete*" } | ForEach-Object {
+                    [System.Management.Automation.CompletionResult]::new($_, $_, 'ParameterName', $_)
+                }
+            }
+
+            if ($commandPath -eq 'node start') {
                 $completions = @('--json')
                 $completions | Where-Object { $_ -like "$wordToComplete*" } | ForEach-Object {
                     [System.Management.Automation.CompletionResult]::new($_, $_, 'ParameterName', $_)
@@ -1642,7 +1698,7 @@ Register-ArgumentCompleter -Native -CommandName openclaw -ScriptBlock {
             }
 
             if ($commandPath -eq 'cron') {
-                $completions = @('status','list','add','rm','enable','disable','show','runs','run','edit')
+                $completions = @('status','list','add','rm','enable','disable','get','show','runs','run','edit')
                 $completions | Where-Object { $_ -like "$wordToComplete*" } | ForEach-Object {
                     [System.Management.Automation.CompletionResult]::new($_, $_, 'ParameterName', $_)
                 }
@@ -1656,14 +1712,14 @@ Register-ArgumentCompleter -Native -CommandName openclaw -ScriptBlock {
             }
 
             if ($commandPath -eq 'cron list') {
-                $completions = @('--all','--json','--url','--token','--timeout','--expect-final')
+                $completions = @('--all','--agent','--json','--url','--token','--timeout','--expect-final')
                 $completions | Where-Object { $_ -like "$wordToComplete*" } | ForEach-Object {
                     [System.Management.Automation.CompletionResult]::new($_, $_, 'ParameterName', $_)
                 }
             }
 
             if ($commandPath -eq 'cron add') {
-                $completions = @('--name','--description','--disabled','--delete-after-run','--keep-after-run','--agent','--session','--session-key','--wake','--at','--every','--cron','--tz','--stagger','--exact','--system-event','--message','--thinking','--model','--timeout-seconds','--light-context','--tools','--announce','--deliver','--no-deliver','--channel','--to','--account','--best-effort-deliver','--json','--url','--token','--timeout','--expect-final')
+                $completions = @('--name','--description','--disabled','--delete-after-run','--keep-after-run','--agent','--session','--session-key','--wake','--at','--every','--cron','--tz','--stagger','--exact','--system-event','--message','--thinking','--model','--timeout-seconds','--light-context','--tools','--announce','--deliver','--no-deliver','--channel','--to','--thread-id','--account','--best-effort-deliver','--json','--url','--token','--timeout','--expect-final')
                 $completions | Where-Object { $_ -like "$wordToComplete*" } | ForEach-Object {
                     [System.Management.Automation.CompletionResult]::new($_, $_, 'ParameterName', $_)
                 }
@@ -1690,6 +1746,13 @@ Register-ArgumentCompleter -Native -CommandName openclaw -ScriptBlock {
                 }
             }
 
+            if ($commandPath -eq 'cron get') {
+                $completions = @('--url','--token','--timeout','--expect-final')
+                $completions | Where-Object { $_ -like "$wordToComplete*" } | ForEach-Object {
+                    [System.Management.Automation.CompletionResult]::new($_, $_, 'ParameterName', $_)
+                }
+            }
+
             if ($commandPath -eq 'cron show') {
                 $completions = @('--json','--url','--token','--timeout','--expect-final')
                 $completions | Where-Object { $_ -like "$wordToComplete*" } | ForEach-Object {
@@ -1698,21 +1761,21 @@ Register-ArgumentCompleter -Native -CommandName openclaw -ScriptBlock {
             }
 
             if ($commandPath -eq 'cron runs') {
-                $completions = @('--id','--limit','--url','--token','--timeout','--expect-final')
+                $completions = @('--id','--run-id','--limit','--url','--token','--timeout','--expect-final')
                 $completions | Where-Object { $_ -like "$wordToComplete*" } | ForEach-Object {
                     [System.Management.Automation.CompletionResult]::new($_, $_, 'ParameterName', $_)
                 }
             }
 
             if ($commandPath -eq 'cron run') {
-                $completions = @('--due','--url','--token','--timeout','--expect-final')
+                $completions = @('--due','--wait','--wait-timeout','--poll-interval','--url','--token','--timeout','--expect-final')
                 $completions | Where-Object { $_ -like "$wordToComplete*" } | ForEach-Object {
                     [System.Management.Automation.CompletionResult]::new($_, $_, 'ParameterName', $_)
                 }
             }
 
             if ($commandPath -eq 'cron edit') {
-                $completions = @('--name','--description','--enable','--disable','--delete-after-run','--keep-after-run','--session','--agent','--clear-agent','--session-key','--clear-session-key','--wake','--at','--every','--cron','--tz','--stagger','--exact','--system-event','--message','--thinking','--model','--timeout-seconds','--light-context','--no-light-context','--tools','--clear-tools','--announce','--deliver','--no-deliver','--channel','--to','--account','--best-effort-deliver','--no-best-effort-deliver','--failure-alert','--no-failure-alert','--failure-alert-after','--failure-alert-channel','--failure-alert-to','--failure-alert-cooldown','--failure-alert-mode','--failure-alert-account-id','--url','--token','--timeout','--expect-final')
+                $completions = @('--name','--description','--enable','--disable','--delete-after-run','--keep-after-run','--session','--agent','--clear-agent','--session-key','--clear-session-key','--wake','--at','--every','--cron','--tz','--stagger','--exact','--system-event','--message','--thinking','--model','--timeout-seconds','--light-context','--no-light-context','--tools','--clear-tools','--announce','--deliver','--no-deliver','--channel','--to','--thread-id','--account','--best-effort-deliver','--no-best-effort-deliver','--failure-alert','--no-failure-alert','--failure-alert-after','--failure-alert-channel','--failure-alert-to','--failure-alert-cooldown','--failure-alert-include-skipped','--failure-alert-exclude-skipped','--failure-alert-mode','--failure-alert-account-id','--url','--token','--timeout','--expect-final')
                 $completions | Where-Object { $_ -like "$wordToComplete*" } | ForEach-Object {
                     [System.Management.Automation.CompletionResult]::new($_, $_, 'ParameterName', $_)
                 }
@@ -1733,7 +1796,7 @@ Register-ArgumentCompleter -Native -CommandName openclaw -ScriptBlock {
             }
 
             if ($commandPath -eq 'proxy') {
-                $completions = @('start','run','coverage','sessions','query','blob','purge')
+                $completions = @('start','run','validate','coverage','sessions','query','blob','purge')
                 $completions | Where-Object { $_ -like "$wordToComplete*" } | ForEach-Object {
                     [System.Management.Automation.CompletionResult]::new($_, $_, 'ParameterName', $_)
                 }
@@ -1748,6 +1811,13 @@ Register-ArgumentCompleter -Native -CommandName openclaw -ScriptBlock {
 
             if ($commandPath -eq 'proxy run') {
                 $completions = @('--host','--port')
+                $completions | Where-Object { $_ -like "$wordToComplete*" } | ForEach-Object {
+                    [System.Management.Automation.CompletionResult]::new($_, $_, 'ParameterName', $_)
+                }
+            }
+
+            if ($commandPath -eq 'proxy validate') {
+                $completions = @('--json','--proxy-url','--proxy-ca-file','--allowed-url','--denied-url','--apns-reachable','--apns-authority','--timeout-ms')
                 $completions | Where-Object { $_ -like "$wordToComplete*" } | ForEach-Object {
                     [System.Management.Automation.CompletionResult]::new($_, $_, 'ParameterName', $_)
                 }
@@ -1872,62 +1942,6 @@ Register-ArgumentCompleter -Native -CommandName openclaw -ScriptBlock {
                 }
             }
 
-            if ($commandPath -eq 'memory') {
-                $completions = @('status','index','search','promote','promote-explain','rem-harness','rem-backfill')
-                $completions | Where-Object { $_ -like "$wordToComplete*" } | ForEach-Object {
-                    [System.Management.Automation.CompletionResult]::new($_, $_, 'ParameterName', $_)
-                }
-            }
-
-            if ($commandPath -eq 'memory status') {
-                $completions = @('--agent','--json','--deep','--index','--fix','--verbose')
-                $completions | Where-Object { $_ -like "$wordToComplete*" } | ForEach-Object {
-                    [System.Management.Automation.CompletionResult]::new($_, $_, 'ParameterName', $_)
-                }
-            }
-
-            if ($commandPath -eq 'memory index') {
-                $completions = @('--agent','--force','--verbose')
-                $completions | Where-Object { $_ -like "$wordToComplete*" } | ForEach-Object {
-                    [System.Management.Automation.CompletionResult]::new($_, $_, 'ParameterName', $_)
-                }
-            }
-
-            if ($commandPath -eq 'memory search') {
-                $completions = @('--query','--agent','--max-results','--min-score','--json')
-                $completions | Where-Object { $_ -like "$wordToComplete*" } | ForEach-Object {
-                    [System.Management.Automation.CompletionResult]::new($_, $_, 'ParameterName', $_)
-                }
-            }
-
-            if ($commandPath -eq 'memory promote') {
-                $completions = @('--agent','--limit','--min-score','--min-recall-count','--min-unique-queries','--apply','--include-promoted','--json')
-                $completions | Where-Object { $_ -like "$wordToComplete*" } | ForEach-Object {
-                    [System.Management.Automation.CompletionResult]::new($_, $_, 'ParameterName', $_)
-                }
-            }
-
-            if ($commandPath -eq 'memory promote-explain') {
-                $completions = @('--agent','--include-promoted','--json')
-                $completions | Where-Object { $_ -like "$wordToComplete*" } | ForEach-Object {
-                    [System.Management.Automation.CompletionResult]::new($_, $_, 'ParameterName', $_)
-                }
-            }
-
-            if ($commandPath -eq 'memory rem-harness') {
-                $completions = @('--agent','--path','--grounded','--include-promoted','--json')
-                $completions | Where-Object { $_ -like "$wordToComplete*" } | ForEach-Object {
-                    [System.Management.Automation.CompletionResult]::new($_, $_, 'ParameterName', $_)
-                }
-            }
-
-            if ($commandPath -eq 'memory rem-backfill') {
-                $completions = @('--agent','--path','--rollback','--stage-short-term','--rollback-short-term','--json')
-                $completions | Where-Object { $_ -like "$wordToComplete*" } | ForEach-Object {
-                    [System.Management.Automation.CompletionResult]::new($_, $_, 'ParameterName', $_)
-                }
-            }
-
             if ($commandPath -eq 'pairing') {
                 $completions = @('list','approve')
                 $completions | Where-Object { $_ -like "$wordToComplete*" } | ForEach-Object {
@@ -1950,7 +1964,7 @@ Register-ArgumentCompleter -Native -CommandName openclaw -ScriptBlock {
             }
 
             if ($commandPath -eq 'plugins') {
-                $completions = @('list','inspect','enable','disable','uninstall','install','update','doctor','marketplace')
+                $completions = @('list','search','inspect','enable','disable','uninstall','install','update','registry','doctor','build','validate','init','marketplace')
                 $completions | Where-Object { $_ -like "$wordToComplete*" } | ForEach-Object {
                     [System.Management.Automation.CompletionResult]::new($_, $_, 'ParameterName', $_)
                 }
@@ -1963,8 +1977,15 @@ Register-ArgumentCompleter -Native -CommandName openclaw -ScriptBlock {
                 }
             }
 
+            if ($commandPath -eq 'plugins search') {
+                $completions = @('--limit','--json')
+                $completions | Where-Object { $_ -like "$wordToComplete*" } | ForEach-Object {
+                    [System.Management.Automation.CompletionResult]::new($_, $_, 'ParameterName', $_)
+                }
+            }
+
             if ($commandPath -eq 'plugins inspect') {
-                $completions = @('--all','--json')
+                $completions = @('--all','--runtime','--json')
                 $completions | Where-Object { $_ -like "$wordToComplete*" } | ForEach-Object {
                     [System.Management.Automation.CompletionResult]::new($_, $_, 'ParameterName', $_)
                 }
@@ -1986,6 +2007,34 @@ Register-ArgumentCompleter -Native -CommandName openclaw -ScriptBlock {
 
             if ($commandPath -eq 'plugins update') {
                 $completions = @('--all','--dry-run','--dangerously-force-unsafe-install')
+                $completions | Where-Object { $_ -like "$wordToComplete*" } | ForEach-Object {
+                    [System.Management.Automation.CompletionResult]::new($_, $_, 'ParameterName', $_)
+                }
+            }
+
+            if ($commandPath -eq 'plugins registry') {
+                $completions = @('--json','--refresh')
+                $completions | Where-Object { $_ -like "$wordToComplete*" } | ForEach-Object {
+                    [System.Management.Automation.CompletionResult]::new($_, $_, 'ParameterName', $_)
+                }
+            }
+
+            if ($commandPath -eq 'plugins build') {
+                $completions = @('--root','--entry','--check')
+                $completions | Where-Object { $_ -like "$wordToComplete*" } | ForEach-Object {
+                    [System.Management.Automation.CompletionResult]::new($_, $_, 'ParameterName', $_)
+                }
+            }
+
+            if ($commandPath -eq 'plugins validate') {
+                $completions = @('--root','--entry')
+                $completions | Where-Object { $_ -like "$wordToComplete*" } | ForEach-Object {
+                    [System.Management.Automation.CompletionResult]::new($_, $_, 'ParameterName', $_)
+                }
+            }
+
+            if ($commandPath -eq 'plugins init') {
+                $completions = @('--directory','--name','--force')
                 $completions | Where-Object { $_ -like "$wordToComplete*" } | ForEach-Object {
                     [System.Management.Automation.CompletionResult]::new($_, $_, 'ParameterName', $_)
                 }
@@ -2013,14 +2062,14 @@ Register-ArgumentCompleter -Native -CommandName openclaw -ScriptBlock {
             }
 
             if ($commandPath -eq 'channels list') {
-                $completions = @('--no-usage','--json')
+                $completions = @('--all','--json')
                 $completions | Where-Object { $_ -like "$wordToComplete*" } | ForEach-Object {
                     [System.Management.Automation.CompletionResult]::new($_, $_, 'ParameterName', $_)
                 }
             }
 
             if ($commandPath -eq 'channels status') {
-                $completions = @('--probe','--timeout','--json')
+                $completions = @('--channel','--probe','--timeout','--json')
                 $completions | Where-Object { $_ -like "$wordToComplete*" } | ForEach-Object {
                     [System.Management.Automation.CompletionResult]::new($_, $_, 'ParameterName', $_)
                 }
@@ -2048,7 +2097,7 @@ Register-ArgumentCompleter -Native -CommandName openclaw -ScriptBlock {
             }
 
             if ($commandPath -eq 'channels add') {
-                $completions = @('--channel','--account','--name','--token','--token-file','--secret','--secret-file','--bot-token','--app-token','--password','--cli-path','--url','--base-url','--http-url','--auth-dir','--use-env')
+                $completions = @('--channel','--account','--name','--token','--token-file','--secret','--secret-file','--bot-token','--app-token','--password','--cli-path','--url','--base-url','--http-url','--auth-dir','--use-env','--db-path','--service','--region','--signal-number','--http-host','--http-port')
                 $completions | Where-Object { $_ -like "$wordToComplete*" } | ForEach-Object {
                     [System.Management.Automation.CompletionResult]::new($_, $_, 'ParameterName', $_)
                 }
@@ -2174,7 +2223,7 @@ Register-ArgumentCompleter -Native -CommandName openclaw -ScriptBlock {
             }
 
             if ($commandPath -eq 'skills') {
-                $completions = @('search','install','update','list','info','check')
+                $completions = @('search','install','update','list','info','check','--agent')
                 $completions | Where-Object { $_ -like "$wordToComplete*" } | ForEach-Object {
                     [System.Management.Automation.CompletionResult]::new($_, $_, 'ParameterName', $_)
                 }
@@ -2188,42 +2237,49 @@ Register-ArgumentCompleter -Native -CommandName openclaw -ScriptBlock {
             }
 
             if ($commandPath -eq 'skills install') {
-                $completions = @('--version','--force')
+                $completions = @('--version','--force','--global','--agent')
                 $completions | Where-Object { $_ -like "$wordToComplete*" } | ForEach-Object {
                     [System.Management.Automation.CompletionResult]::new($_, $_, 'ParameterName', $_)
                 }
             }
 
             if ($commandPath -eq 'skills update') {
-                $completions = @('--all')
+                $completions = @('--all','--global','--agent')
                 $completions | Where-Object { $_ -like "$wordToComplete*" } | ForEach-Object {
                     [System.Management.Automation.CompletionResult]::new($_, $_, 'ParameterName', $_)
                 }
             }
 
             if ($commandPath -eq 'skills list') {
-                $completions = @('--json','--eligible','-v')
+                $completions = @('--json','--eligible','-v','--agent')
                 $completions | Where-Object { $_ -like "$wordToComplete*" } | ForEach-Object {
                     [System.Management.Automation.CompletionResult]::new($_, $_, 'ParameterName', $_)
                 }
             }
 
             if ($commandPath -eq 'skills info') {
-                $completions = @('--json')
+                $completions = @('--json','--agent')
                 $completions | Where-Object { $_ -like "$wordToComplete*" } | ForEach-Object {
                     [System.Management.Automation.CompletionResult]::new($_, $_, 'ParameterName', $_)
                 }
             }
 
             if ($commandPath -eq 'skills check') {
-                $completions = @('--json')
+                $completions = @('--agent','--json')
                 $completions | Where-Object { $_ -like "$wordToComplete*" } | ForEach-Object {
                     [System.Management.Automation.CompletionResult]::new($_, $_, 'ParameterName', $_)
                 }
             }
 
             if ($commandPath -eq 'update') {
-                $completions = @('wizard','status','--json','--no-restart','--dry-run','--channel','--tag','--timeout','--yes')
+                $completions = @('finalize','wizard','status','--json','--no-restart','--dry-run','--channel','--tag','--timeout','--yes')
+                $completions | Where-Object { $_ -like "$wordToComplete*" } | ForEach-Object {
+                    [System.Management.Automation.CompletionResult]::new($_, $_, 'ParameterName', $_)
+                }
+            }
+
+            if ($commandPath -eq 'update finalize') {
+                $completions = @('--json','--channel','--timeout','--yes','--no-restart')
                 $completions | Where-Object { $_ -like "$wordToComplete*" } | ForEach-Object {
                     [System.Management.Automation.CompletionResult]::new($_, $_, 'ParameterName', $_)
                 }
@@ -2238,6 +2294,62 @@ Register-ArgumentCompleter -Native -CommandName openclaw -ScriptBlock {
 
             if ($commandPath -eq 'update status') {
                 $completions = @('--json','--timeout')
+                $completions | Where-Object { $_ -like "$wordToComplete*" } | ForEach-Object {
+                    [System.Management.Automation.CompletionResult]::new($_, $_, 'ParameterName', $_)
+                }
+            }
+
+            if ($commandPath -eq 'memory') {
+                $completions = @('status','index','search','promote','promote-explain','rem-harness','rem-backfill')
+                $completions | Where-Object { $_ -like "$wordToComplete*" } | ForEach-Object {
+                    [System.Management.Automation.CompletionResult]::new($_, $_, 'ParameterName', $_)
+                }
+            }
+
+            if ($commandPath -eq 'memory status') {
+                $completions = @('--agent','--json','--deep','--index','--fix','--verbose')
+                $completions | Where-Object { $_ -like "$wordToComplete*" } | ForEach-Object {
+                    [System.Management.Automation.CompletionResult]::new($_, $_, 'ParameterName', $_)
+                }
+            }
+
+            if ($commandPath -eq 'memory index') {
+                $completions = @('--agent','--force','--verbose')
+                $completions | Where-Object { $_ -like "$wordToComplete*" } | ForEach-Object {
+                    [System.Management.Automation.CompletionResult]::new($_, $_, 'ParameterName', $_)
+                }
+            }
+
+            if ($commandPath -eq 'memory search') {
+                $completions = @('--query','--agent','--max-results','--min-score','--json')
+                $completions | Where-Object { $_ -like "$wordToComplete*" } | ForEach-Object {
+                    [System.Management.Automation.CompletionResult]::new($_, $_, 'ParameterName', $_)
+                }
+            }
+
+            if ($commandPath -eq 'memory promote') {
+                $completions = @('--agent','--limit','--min-score','--min-recall-count','--min-unique-queries','--apply','--include-promoted','--json')
+                $completions | Where-Object { $_ -like "$wordToComplete*" } | ForEach-Object {
+                    [System.Management.Automation.CompletionResult]::new($_, $_, 'ParameterName', $_)
+                }
+            }
+
+            if ($commandPath -eq 'memory promote-explain') {
+                $completions = @('--agent','--include-promoted','--json')
+                $completions | Where-Object { $_ -like "$wordToComplete*" } | ForEach-Object {
+                    [System.Management.Automation.CompletionResult]::new($_, $_, 'ParameterName', $_)
+                }
+            }
+
+            if ($commandPath -eq 'memory rem-harness') {
+                $completions = @('--agent','--path','--grounded','--include-promoted','--json')
+                $completions | Where-Object { $_ -like "$wordToComplete*" } | ForEach-Object {
+                    [System.Management.Automation.CompletionResult]::new($_, $_, 'ParameterName', $_)
+                }
+            }
+
+            if ($commandPath -eq 'memory rem-backfill') {
+                $completions = @('--agent','--path','--rollback','--stage-short-term','--rollback-short-term','--json')
                 $completions | Where-Object { $_ -like "$wordToComplete*" } | ForEach-Object {
                     [System.Management.Automation.CompletionResult]::new($_, $_, 'ParameterName', $_)
                 }

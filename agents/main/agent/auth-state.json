@@ -2,27 +2,32 @@
   "version": 1,
   "lastGood": {
     "minimax": "minimax:cn",
-    "volcengine": "volcengine:default"
+    "volcengine": "volcengine:default",
+    "zai": "zai:default"
   },
   "usageStats": {
     "minimax:cn": {
-      "errorCount": 0,
-      "lastUsed": 1775462567927
+      "lastUsed": 1775462567927,
+      "errorCount": 0
     },
     "openai:default": {
+      "cooldownUntil": 1775057062853,
+      "cooldownReason": "rate_limit",
+      "cooldownModel": "gpt-5.4",
       "errorCount": 2,
       "failureCounts": {
         "rate_limit": 2
       },
-      "lastFailureAt": 1775057058632,
-      "cooldownUntil": 1775057062853,
-      "cooldownReason": "rate_limit",
-      "cooldownModel": "gpt-5.4"
+      "lastFailureAt": 1775057058632
     },
     "volcengine:default": {
-      "errorCount": 0,
       "lastUsed": 1777489446920,
+      "errorCount": 0,
       "lastFailureAt": 1775985969417
+    },
+    "zai:default": {
+      "lastUsed": 1779306475876,
+      "errorCount": 0
     }
   }
 }

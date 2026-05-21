@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-05-18T19:00:18.600Z",
+  "updatedAt": "2026-05-20T19:00:18.738Z",
   "entries": {
     "memory:memory/.dreams/session-corpus/2026-04-11.txt:1:1": {
       "key": "memory:memory/.dreams/session-corpus/2026-04-11.txt:1:1",
@@ -9329,6 +9329,198 @@
         "谢谢",
         "问题",
         "随时"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-18.txt:13:13": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-18.txt:13:13",
+      "path": "memory/.dreams/session-corpus/2026-05-18.txt",
+      "startLine": 13,
+      "endLine": 13,
+      "source": "memory",
+      "snippet": "User: \"reactionNotifications\": \"own\" }, \"openclaw-weixin\": { \"channelConfigUpdatedAt\": \"2026-04-27T06:04:52.593Z\", \"enabled\": true } },",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-20T19:00:16.182Z",
+      "lastRecalledAt": "2026-05-20T19:00:16.182Z",
+      "queryHashes": [
+        "cda70fe5512d"
+      ],
+      "recallDays": [
+        "2026-05-21",
+        "2026-05-20"
+      ],
+      "conceptTags": [
+        "openclaw-weixin",
+        "2026-04-27t06",
+        "52.593z",
+        "reactionnotifications",
+        "own",
+        "openclaw",
+        "weixin",
+        "channelconfigupdatedat"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-20.txt:1:1": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-20.txt:1:1",
+      "path": "memory/.dreams/session-corpus/2026-05-20.txt",
+      "startLine": 1,
+      "endLine": 1,
+      "source": "memory",
+      "snippet": "User: [message_id: om_x100b6fe92880c0a0eea9daae787d670] ou_cb5c7afa7e77cafdeaeae1620a2a383a: 2026.5.18 和2026.5.19两个openclaw版本该怎么选。下面这个说法是否正确： 不要回退到 2026.4.22 之前的版本。Cyera 披露的“爪链”4个安全漏洞（包括 CVE-2026-44112，CVSS 9.6 严重级）影响所有 v2026.4.22 之前的版本，攻击者可通过恶意插件取得系统级控制",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-20T19:00:16.182Z",
+      "lastRecalledAt": "2026-05-20T19:00:16.182Z",
+      "queryHashes": [
+        "f8f9fcbffd97"
+      ],
+      "recallDays": [
+        "2026-05-21",
+        "2026-05-20"
+      ],
+      "conceptTags": [
+        "message-id",
+        "2026.5.18",
+        "和2026.5.19两个openclaw版本该怎么选",
+        "2026.4.22",
+        "cve-2026-44112",
+        "9.6",
+        "v2026.4.22",
+        "2026.5.19"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-20.txt:2:2": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-20.txt:2:2",
+      "path": "memory/.dreams/session-corpus/2026-05-20.txt",
+      "startLine": 2,
+      "endLine": 2,
+      "source": "memory",
+      "snippet": "Assistant: **结论先行：你引用的说法完全正确。** --- ## ✅ CVE-2026-44112 / \"Claw Chain\" 漏洞说明 Cyera 在 2026 年 4 月 22 日披露了 4 个 OpenClaw 漏洞（统称 \"Claw Chain\"）： | CVE | 严重性 | 漏洞类型 | |-----|--------|---------| | CVE-2026-44112 | **9.6 (Critical)** | OpenShell 沙箱 TOCTOU 写逃逸 | | CVE-2026-44115 | 8.8 (High)",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-20T19:00:16.182Z",
+      "lastRecalledAt": "2026-05-20T19:00:16.182Z",
+      "queryHashes": [
+        "f8f9fcbffd97"
+      ],
+      "recallDays": [
+        "2026-05-21",
+        "2026-05-20"
+      ],
+      "conceptTags": [
+        "cve-2026-44112",
+        "9.6",
+        "cve-2026-44115",
+        "8.8",
+        "结论",
+        "先行",
+        "引用",
+        "说法"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-20.txt:3:3": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-20.txt:3:3",
+      "path": "memory/.dreams/session-corpus/2026-05-20.txt",
+      "startLine": 3,
+      "endLine": 3,
+      "source": "memory",
+      "snippet": "Assistant: Android Talk Mode 实时语音中继（如果用到移动端） v2026.5.18 本身也没问题，但 v2026.5.19 在此基础上是完整的 superset。 --- ## 你现在最该做的事 如果当前版本 < v2026.4.22，**立即升级**： ```bash openclaw update ``` 同时建议轮换所有 OpenClaw 进程接触过的凭据（API keys、tokens 等），因为 Cyera 已证明攻击者可从漏洞利用中获取环境变量。",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-20T19:00:16.182Z",
+      "lastRecalledAt": "2026-05-20T19:00:16.182Z",
+      "queryHashes": [
+        "f8f9fcbffd97"
+      ],
+      "recallDays": [
+        "2026-05-21",
+        "2026-05-20"
+      ],
+      "conceptTags": [
+        "v2026.5.18",
+        "v2026.5.19",
+        "v2026.4.22",
+        "android",
+        "talk",
+        "mode",
+        "语音",
+        "中继"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-21.txt:1:1": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-21.txt:1:1",
+      "path": "memory/.dreams/session-corpus/2026-05-21.txt",
+      "startLine": 1,
+      "endLine": 1,
+      "source": "memory",
+      "snippet": "User: [message_id: om_x100b6feaf6dcb130ee70f28904f39ae] ou_cb5c7afa7e77cafdeaeae1620a2a383a: zai/glm-4.7-flash 这个模型是否能够正常使用",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-20T19:00:16.182Z",
+      "lastRecalledAt": "2026-05-20T19:00:16.182Z",
+      "queryHashes": [
+        "90ee39ac7cd8"
+      ],
+      "recallDays": [
+        "2026-05-21",
+        "2026-05-20"
+      ],
+      "conceptTags": [
+        "message-id",
+        "zai/glm-4.7-flash",
+        "zai",
+        "glm",
+        "4.7",
+        "flash",
+        "这个",
+        "模型"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-21.txt:2:2": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-21.txt:2:2",
+      "path": "memory/.dreams/session-corpus/2026-05-21.txt",
+      "startLine": 2,
+      "endLine": 2,
+      "source": "memory",
+      "snippet": "Assistant: **不能直接用** — 你的当前配置里没有 `zai/glm-4.7-flash` 这个模型。 ## 现状 你配置里 zai provider 下只有这两个 GLM 模型： | 模型 ID | 名称 | 状态 | |--------|------|------| | `glm-5` | GLM-5 | ✅ 已配置 | | `glm-4.5-flash` | GLM-4.5 Flash | ✅ 已配置 | 而 `nvidia` provider 下有一个相关的： | 模型 ID | 名称 | 状态 | |--------|------",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-20T19:00:16.182Z",
+      "lastRecalledAt": "2026-05-20T19:00:16.182Z",
+      "queryHashes": [
+        "90ee39ac7cd8"
+      ],
+      "recallDays": [
+        "2026-05-21",
+        "2026-05-20"
+      ],
+      "conceptTags": [
+        "zai/glm-4.7-flash",
+        "glm-5",
+        "glm-4.5-flash",
+        "glm-4.5",
+        "不能",
+        "直接",
+        "你的",
+        "当前"
       ]
     }
   }

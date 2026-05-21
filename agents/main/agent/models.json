@@ -60,17 +60,17 @@
           "input": [
             "text"
           ],
-          "contextWindow": 1000000,
-          "maxTokens": 384000,
           "cost": {
             "input": 0.14,
             "output": 0.28,
             "cacheRead": 0.028,
             "cacheWrite": 0
           },
+          "contextWindow": 1000000,
+          "maxTokens": 384000,
           "compat": {
-            "supportsUsageInStreaming": true,
             "supportsReasoningEffort": true,
+            "supportsUsageInStreaming": true,
             "maxTokensField": "max_tokens"
           },
           "api": "openai-completions"
@@ -82,17 +82,17 @@
           "input": [
             "text"
           ],
-          "contextWindow": 1000000,
-          "maxTokens": 384000,
           "cost": {
             "input": 1.74,
             "output": 3.48,
             "cacheRead": 0.145,
             "cacheWrite": 0
           },
+          "contextWindow": 1000000,
+          "maxTokens": 384000,
           "compat": {
-            "supportsUsageInStreaming": true,
             "supportsReasoningEffort": true,
+            "supportsUsageInStreaming": true,
             "maxTokensField": "max_tokens"
           },
           "api": "openai-completions"
@@ -104,14 +104,14 @@
           "input": [
             "text"
           ],
-          "contextWindow": 131072,
-          "maxTokens": 8192,
           "cost": {
             "input": 0.28,
             "output": 0.42,
             "cacheRead": 0.028,
             "cacheWrite": 0
           },
+          "contextWindow": 131072,
+          "maxTokens": 8192,
           "compat": {
             "supportsUsageInStreaming": true,
             "maxTokensField": "max_tokens"
@@ -125,17 +125,17 @@
           "input": [
             "text"
           ],
-          "contextWindow": 131072,
-          "maxTokens": 65536,
           "cost": {
             "input": 0.28,
             "output": 0.42,
             "cacheRead": 0.028,
             "cacheWrite": 0
           },
+          "contextWindow": 131072,
+          "maxTokens": 65536,
           "compat": {
-            "supportsUsageInStreaming": true,
             "supportsReasoningEffort": false,
+            "supportsUsageInStreaming": true,
             "maxTokensField": "max_tokens"
           },
           "api": "openai-completions"
@@ -180,6 +180,23 @@
           },
           "contextWindow": 131072,
           "maxTokens": 98304
+        },
+        {
+          "id": "glm-4.7-flash",
+          "name": "GLM-4.7 Flash",
+          "api": "openai-completions",
+          "reasoning": true,
+          "input": [
+            "text"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 131072,
+          "maxTokens": 131072
         }
       ],
       "apiKey": "c3e9575689604f9f89c62f8c54ecfcb0.2QvZ07xH7stCPXco"
@@ -557,7 +574,29 @@
       "models": [
         {
           "id": "gpt-5.5",
-          "name": "gpt-5.5",
+          "name": "GPT-5.5",
+          "api": "openai-codex-responses",
+          "reasoning": true,
+          "input": [
+            "text",
+            "image"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 272000,
+          "maxTokens": 128000,
+          "compat": {
+            "supportsReasoningEffort": true,
+            "supportsUsageInStreaming": true
+          }
+        },
+        {
+          "id": "gpt-5.4",
+          "name": "gpt-5.4",
           "api": "openai-codex-responses",
           "reasoning": true,
           "input": [
@@ -580,6 +619,28 @@
         {
           "id": "gpt-5.4-mini",
           "name": "GPT-5.4-Mini",
+          "api": "openai-codex-responses",
+          "reasoning": true,
+          "input": [
+            "text",
+            "image"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 272000,
+          "maxTokens": 128000,
+          "compat": {
+            "supportsReasoningEffort": true,
+            "supportsUsageInStreaming": true
+          }
+        },
+        {
+          "id": "gpt-5.3-codex",
+          "name": "gpt-5.3-codex",
           "api": "openai-codex-responses",
           "reasoning": true,
           "input": [
@@ -635,7 +696,14 @@
             "text"
           ],
           "contextWindow": 200000,
-          "maxTokens": 8192
+          "maxTokens": 8192,
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "api": "openai-completions"
         },
         {
           "id": "google/gemma-3n-e4b-it",
@@ -646,7 +714,14 @@
             "image"
           ],
           "contextWindow": 32768,
-          "maxTokens": 32768
+          "maxTokens": 32768,
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "api": "openai-completions"
         },
         {
           "id": "deepseek-ai/deepseek-v4-pro",
@@ -656,7 +731,14 @@
             "text"
           ],
           "contextWindow": 1000000,
-          "maxTokens": 32768
+          "maxTokens": 32768,
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "api": "openai-completions"
         },
         {
           "id": "deepseek-ai/deepseek-v4-flash",
@@ -666,7 +748,14 @@
             "text"
           ],
           "contextWindow": 1000000,
-          "maxTokens": 32768
+          "maxTokens": 32768,
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "api": "openai-completions"
         },
         {
           "id": "z-ai/glm4.7",
@@ -676,7 +765,14 @@
             "text"
           ],
           "contextWindow": 200000,
-          "maxTokens": 128000
+          "maxTokens": 128000,
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "api": "openai-completions"
         }
       ],
       "apiKey": "NVIDIA_API_KEY"

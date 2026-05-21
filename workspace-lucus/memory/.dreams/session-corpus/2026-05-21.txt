@@ -1,0 +1,2 @@
+[lucus/sessions/lucus/665de1db-3931-4558-b5a1-40182f6047f9.jsonl#L37] User: [message_id: om_x100b6feaf6dcb130ee70f28904f39ae] ou_cb5c7afa7e77cafdeaeae1620a2a383a: zai/glm-4.7-flash 这个模型是否能够正常使用
+[lucus/sessions/lucus/665de1db-3931-4558-b5a1-40182f6047f9.jsonl#L55] Assistant: **不能直接用** — 你的当前配置里没有 `zai/glm-4.7-flash` 这个模型。 ## 现状 你配置里 zai provider 下只有这两个 GLM 模型： | 模型 ID | 名称 | 状态 | |--------|------|------| | `glm-5` | GLM-5 | ✅ 已配置 | | `glm-4.5-flash` | GLM-4.5 Flash | ✅ 已配置 | 而 `nvidia` provider 下有一个相关的： | 模型 ID | 名称 | 状态 | |--------|

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-05-19T19:00:31.095Z",
+  "updatedAt": "2026-05-20T19:00:21.751Z",
   "entries": {
     "memory:memory/2026-04-12.md:6:6": {
       "key": "memory:memory/2026-04-12.md:6:6",
@@ -10654,6 +10654,3497 @@
         "用户",
         "echo",
         "协议"
+      ]
+    },
+    "memory:memory/2026-05-18-payroll-ocr.md:3:5": {
+      "key": "memory:memory/2026-05-18-payroll-ocr.md:3:5",
+      "path": "memory/2026-05-18-payroll-ocr.md",
+      "startLine": 3,
+      "endLine": 5,
+      "source": "memory",
+      "snippet": "Session: 2026-05-18 15:55:51 UTC: **Session Key**: agent:wxlee:openclaw-weixin:a23ee0675df2-im-bot:direct:o9cq802uvmveggp0xkfm4o7acdrg@im.wechat; **Session ID**: f9445f93-ead6-491f-beca-64e3dffbe10b; **Source**: openclaw-weixin",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-05-20T19:00:18.943Z",
+      "lastRecalledAt": "2026-05-20T19:00:18.943Z",
+      "queryHashes": [
+        "f2bd5daba4fc"
+      ],
+      "recallDays": [
+        "2026-05-21",
+        "2026-05-20"
+      ],
+      "conceptTags": [
+        "2026-05-18-payroll-ocr.md",
+        "openclaw-weixin",
+        "a23ee0675df2-im-bot",
+        "im.wechat",
+        "payroll",
+        "ocr.md",
+        "utc",
+        "key"
+      ]
+    },
+    "memory:memory/2026-05-18-payroll-ocr.md:9:11": {
+      "key": "memory:memory/2026-05-18-payroll-ocr.md:9:11",
+      "path": "memory/2026-05-18-payroll-ocr.md",
+      "startLine": 9,
+      "endLine": 11,
+      "source": "memory",
+      "snippet": "Conversation Summary: assistant: 主公稍等，我再试试 assistant: 好多了！这次识别效果提升不少。让我把数据整理出来 assistant: 好，综合两次 OCR 结果，我整理出一份表格。由于是手写体，部分姓名和号码可能有识别误差，请核对。",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-05-20T19:00:18.943Z",
+      "lastRecalledAt": "2026-05-20T19:00:18.943Z",
+      "queryHashes": [
+        "f2bd5daba4fc"
+      ],
+      "recallDays": [
+        "2026-05-21",
+        "2026-05-20"
+      ],
+      "conceptTags": [
+        "2026-05-18-payroll-ocr.md",
+        "payroll",
+        "ocr.md",
+        "conversation",
+        "summary",
+        "主公",
+        "稍等",
+        "再试"
+      ]
+    },
+    "memory:memory/2026-05-18-payroll-ocr.md:14:14": {
+      "key": "memory:memory/2026-05-18-payroll-ocr.md:14:14",
+      "path": "memory/2026-05-18-payroll-ocr.md",
+      "startLine": 14,
+      "endLine": 14,
+      "source": "memory",
+      "snippet": "Conversation Summary: assistant: 主公，已整理完毕！以下是电子版工资表。但手写体 OCR 识别质量有限，**请务必逐行核对**，红色标记为高度不确定字段。",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-05-20T19:00:18.943Z",
+      "lastRecalledAt": "2026-05-20T19:00:18.943Z",
+      "queryHashes": [
+        "f2bd5daba4fc"
+      ],
+      "recallDays": [
+        "2026-05-21",
+        "2026-05-20"
+      ],
+      "conceptTags": [
+        "2026-05-18-payroll-ocr.md",
+        "payroll",
+        "ocr.md",
+        "conversation",
+        "summary",
+        "主公",
+        "整理",
+        "完毕"
+      ]
+    },
+    "memory:memory/2026-05-18-payroll-ocr.md:20:23": {
+      "key": "memory:memory/2026-05-18-payroll-ocr.md:20:23",
+      "path": "memory/2026-05-18-payroll-ocr.md",
+      "startLine": 20,
+      "endLine": 23,
+      "source": "memory",
+      "snippet": "工资发放表（汇总）: | # | 姓名 | 应发工资 | 卡号 | 开户行 | |---|------|---------|------|--------| | 1 | 胡条 ⚠️ | 10,000 | 6212***50822 | 工行鼓楼支行 | | 2 | 张小之 ⚠️ | 5,000 | 6215***50240 | 中国银行 |",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-05-20T19:00:18.943Z",
+      "lastRecalledAt": "2026-05-20T19:00:18.943Z",
+      "queryHashes": [
+        "f2bd5daba4fc"
+      ],
+      "recallDays": [
+        "2026-05-21",
+        "2026-05-20"
+      ],
+      "conceptTags": [
+        "2026-05-18-payroll-ocr.md",
+        "payroll",
+        "ocr.md",
+        "工资",
+        "发放",
+        "姓名",
+        "10,000",
+        "5,000"
+      ]
+    },
+    "memory:memory/2026-05-18-payroll-ocr.md:24:27": {
+      "key": "memory:memory/2026-05-18-payroll-ocr.md:24:27",
+      "path": "memory/2026-05-18-payroll-ocr.md",
+      "startLine": 24,
+      "endLine": 27,
+      "source": "memory",
+      "snippet": "工资发放表（汇总）: | 3 | 彭海冰 | 5,000 | 6228***06674 | 中国银行 | | 4 | 刘国波 | 10,000 | 6217***62458 | 建行乐都支行 | | 5 | 王开生 ⚠️ | 5,000 | 6217***96226 | 汉中市西孙路支行 | | 6 | 杨万文 ⚠️ | 10,000 | 6222***64891 | 中国银行油城支行 |",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-05-20T19:00:18.943Z",
+      "lastRecalledAt": "2026-05-20T19:00:18.943Z",
+      "queryHashes": [
+        "f2bd5daba4fc"
+      ],
+      "recallDays": [
+        "2026-05-21",
+        "2026-05-20"
+      ],
+      "conceptTags": [
+        "2026-05-18-payroll-ocr.md",
+        "payroll",
+        "ocr.md",
+        "工资",
+        "发放",
+        "5,000",
+        "中国",
+        "银行"
+      ]
+    },
+    "memory:memory/2026-05-18-payroll-ocr.md:28:31": {
+      "key": "memory:memory/2026-05-18-payroll-ocr.md:28:31",
+      "path": "memory/2026-05-18-payroll-ocr.md",
+      "startLine": 28,
+      "endLine": 31,
+      "source": "memory",
+      "snippet": "工资发放表（汇总）: | 7 | 李成洪 ⚠️ | 10,000 | 6235***34047 | 青海银行互助支行 | | 8 | 刘加俊 | 10,000 | 6235***34120 | | | 9 | 唐仕之 ⚠️ | 10,000 | 6235***96553 | | | 10 | 姜朝李 ⚠️ | 10,000 | 6235***703412 | |",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-05-20T19:00:18.943Z",
+      "lastRecalledAt": "2026-05-20T19:00:18.943Z",
+      "queryHashes": [
+        "f2bd5daba4fc"
+      ],
+      "recallDays": [
+        "2026-05-21",
+        "2026-05-20"
+      ],
+      "conceptTags": [
+        "2026-05-18-payroll-ocr.md",
+        "payroll",
+        "ocr.md",
+        "工资",
+        "发放",
+        "10,000",
+        "青海",
+        "银行"
+      ]
+    },
+    "memory:memory/2026-05-18-payroll-ocr.md:32:35": {
+      "key": "memory:memory/2026-05-18-payroll-ocr.md:32:35",
+      "path": "memory/2026-05-18-payroll-ocr.md",
+      "startLine": 32,
+      "endLine": 35,
+      "source": "memory",
+      "snippet": "工资发放表（汇总）: | 11 | 房泽 ⚠️ | 10,000 | 6235***34144 | | | 12 | 唐蓉 | 10,000 | 6235***340b2 | | | 13 | 刘顺 | 10,000 | 6235***34095 | | | 14 | 唐俊 | 5,000 ⚠️ | 6235***34070 | |",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-05-20T19:00:18.943Z",
+      "lastRecalledAt": "2026-05-20T19:00:18.943Z",
+      "queryHashes": [
+        "f2bd5daba4fc"
+      ],
+      "recallDays": [
+        "2026-05-21",
+        "2026-05-20"
+      ],
+      "conceptTags": [
+        "2026-05-18-payroll-ocr.md",
+        "payroll",
+        "ocr.md",
+        "工资",
+        "发放",
+        "10,000",
+        "340b2",
+        "5,000"
+      ]
+    },
+    "memory:memory/2026-05-18-payroll-ocr.md:36:37": {
+      "key": "memory:memory/2026-05-18-payroll-ocr.md:36:37",
+      "path": "memory/2026-05-18-payroll-ocr.md",
+      "startLine": 36,
+      "endLine": 37,
+      "source": "memory",
+      "snippet": "工资发放表（汇总）: | 15 | 祁朝军 ⚠️ | 15,000 | 6235***34054 | 青海银行互助支行 | | **合计** | | **135,000** | | |",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-05-20T19:00:18.943Z",
+      "lastRecalledAt": "2026-05-20T19:00:18.943Z",
+      "queryHashes": [
+        "f2bd5daba4fc"
+      ],
+      "recallDays": [
+        "2026-05-21",
+        "2026-05-20"
+      ],
+      "conceptTags": [
+        "2026-05-18-payroll-ocr.md",
+        "payroll",
+        "ocr.md",
+        "工资",
+        "发放",
+        "15,000",
+        "青海",
+        "银行"
+      ]
+    },
+    "memory:memory/2026-05-18-payroll-ocr.md:39:39": {
+      "key": "memory:memory/2026-05-18-payroll-ocr.md:39:39",
+      "path": "memory/2026-05-18-payroll-ocr.md",
+      "startLine": 39,
+      "endLine": 39,
+      "source": "memory",
+      "snippet": "工资发放表（汇总）: ⚠️ 标记说明：",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-05-20T19:00:18.943Z",
+      "lastRecalledAt": "2026-05-20T19:00:18.943Z",
+      "queryHashes": [
+        "f2bd5daba4fc"
+      ],
+      "recallDays": [
+        "2026-05-21",
+        "2026-05-20"
+      ],
+      "conceptTags": [
+        "2026-05-18-payroll-ocr.md",
+        "payroll",
+        "ocr.md",
+        "工资",
+        "发放",
+        "标记",
+        "说明"
+      ]
+    },
+    "memory:memory/2026-05-18-payroll-ocr.md:40:42": {
+      "key": "memory:memory/2026-05-18-payroll-ocr.md:40:42",
+      "path": "memory/2026-05-18-payroll-ocr.md",
+      "startLine": 40,
+      "endLine": 42,
+      "source": "memory",
+      "snippet": "工资发放表（汇总）: **姓名**：手写体识别不准，如\"胡条\"可能是\"胡某\"、\"姜朝李/薑朝李/蓬朝苓\"、\"房泽/廊泽\"、\"祁朝军/革朝案/室朝军\"、\"杨万文/办万文迷/奶万文迷\"等; **唐俊工资**：OCR 读出为\"0000\"，但合计135,000需为5000; **身份证号/卡号**：部分字符（g/l/b/0/O混淆）需要人工核对原图",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-05-20T19:00:18.943Z",
+      "lastRecalledAt": "2026-05-20T19:00:18.943Z",
+      "queryHashes": [
+        "f2bd5daba4fc"
+      ],
+      "recallDays": [
+        "2026-05-21",
+        "2026-05-20"
+      ],
+      "conceptTags": [
+        "2026-05-18-payroll-ocr.md",
+        "姜朝李/薑朝李/蓬朝苓",
+        "房泽/廊泽",
+        "祁朝军/革朝案/室朝军",
+        "杨万文/办万文迷/奶万文迷",
+        "身份证号/卡号",
+        "g/l/b/0/o混淆",
+        "payroll"
+      ]
+    },
+    "memory:memory/2026-05-18-payroll-ocr.md:44:44": {
+      "key": "memory:memory/2026-05-18-payroll-ocr.md:44:44",
+      "path": "memory/2026-05-18-payroll-ocr.md",
+      "startLine": 44,
+      "endLine": 44,
+      "source": "memory",
+      "snippet": "工资发放表（汇总）: **CSV文件已保存**至工作区：`工资发放表_2026.csv`",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-05-20T19:00:18.943Z",
+      "lastRecalledAt": "2026-05-20T19:00:18.943Z",
+      "queryHashes": [
+        "f2bd5daba4fc"
+      ],
+      "recallDays": [
+        "2026-05-21",
+        "2026-05-20"
+      ],
+      "conceptTags": [
+        "2026-05-18-payroll-ocr.md",
+        "工资发放表-2026.csv",
+        "payroll",
+        "ocr.md",
+        "工资",
+        "发放",
+        "csv",
+        "文件"
+      ]
+    },
+    "memory:memory/2026-05-18-payroll-ocr.md:46:49": {
+      "key": "memory:memory/2026-05-18-payroll-ocr.md:46:49",
+      "path": "memory/2026-05-18-payroll-ocr.md",
+      "startLine": 46,
+      "endLine": 49,
+      "source": "memory",
+      "snippet": "工资发放表（汇总）: **建议下一步：** 如果您能快速把图中15个名字逐行发我，我可以立即修正成准确版本，省去逐字核对。 user: 你能识别前面的图片把 assistant: 主公稍等，我再试试 assistant: 好多了！这次识别效果提升不少。让我把数据整理出来",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-05-20T19:00:18.943Z",
+      "lastRecalledAt": "2026-05-20T19:00:18.943Z",
+      "queryHashes": [
+        "f2bd5daba4fc"
+      ],
+      "recallDays": [
+        "2026-05-21",
+        "2026-05-20"
+      ],
+      "conceptTags": [
+        "2026-05-18-payroll-ocr.md",
+        "payroll",
+        "ocr.md",
+        "工资",
+        "发放",
+        "建议",
+        "下一步",
+        "如果"
+      ]
+    },
+    "memory:memory/2026-05-18-payroll-ocr.md:50:50": {
+      "key": "memory:memory/2026-05-18-payroll-ocr.md:50:50",
+      "path": "memory/2026-05-18-payroll-ocr.md",
+      "startLine": 50,
+      "endLine": 50,
+      "source": "memory",
+      "snippet": "工资发放表（汇总）: assistant: 好，综合两次 OCR 结果，我整理出一份表格。由于是手写体，部分姓名和号码可能有识别误差，请核对。",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-05-20T19:00:18.943Z",
+      "lastRecalledAt": "2026-05-20T19:00:18.943Z",
+      "queryHashes": [
+        "f2bd5daba4fc"
+      ],
+      "recallDays": [
+        "2026-05-21",
+        "2026-05-20"
+      ],
+      "conceptTags": [
+        "2026-05-18-payroll-ocr.md",
+        "payroll",
+        "ocr.md",
+        "工资",
+        "发放",
+        "综合",
+        "两次",
+        "ocr"
+      ]
+    },
+    "memory:memory/2026-05-18-payroll-ocr.md:53:53": {
+      "key": "memory:memory/2026-05-18-payroll-ocr.md:53:53",
+      "path": "memory/2026-05-18-payroll-ocr.md",
+      "startLine": 53,
+      "endLine": 53,
+      "source": "memory",
+      "snippet": "工资发放表（汇总）: assistant: 主公，已整理完毕！以下是电子版工资表。但手写体 OCR 识别质量有限，**请务必逐行核对**，红色标记为高度不确定字段。",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-05-20T19:00:18.943Z",
+      "lastRecalledAt": "2026-05-20T19:00:18.943Z",
+      "queryHashes": [
+        "f2bd5daba4fc"
+      ],
+      "recallDays": [
+        "2026-05-21",
+        "2026-05-20"
+      ],
+      "conceptTags": [
+        "2026-05-18-payroll-ocr.md",
+        "payroll",
+        "ocr.md",
+        "工资",
+        "发放",
+        "主公",
+        "整理",
+        "完毕"
+      ]
+    },
+    "memory:memory/2026-05-18-payroll-ocr.md:59:62": {
+      "key": "memory:memory/2026-05-18-payroll-ocr.md:59:62",
+      "path": "memory/2026-05-18-payroll-ocr.md",
+      "startLine": 59,
+      "endLine": 62,
+      "source": "memory",
+      "snippet": "工资发放表（汇总）: | # | 姓名 | 应发工资 | 卡号 | 开户行 | |---|------|---------|------|--------| | 1 | 胡条 ⚠️ | 10,000 | 6212***50822 | 工行鼓楼支行 | | 2 | 张小之 ⚠️ | 5,000 | 6215***50240 | 中国银行 |",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-05-20T19:00:18.943Z",
+      "lastRecalledAt": "2026-05-20T19:00:18.943Z",
+      "queryHashes": [
+        "f2bd5daba4fc"
+      ],
+      "recallDays": [
+        "2026-05-21",
+        "2026-05-20"
+      ],
+      "conceptTags": [
+        "2026-05-18-payroll-ocr.md",
+        "payroll",
+        "ocr.md",
+        "工资",
+        "发放",
+        "姓名",
+        "10,000",
+        "5,000"
+      ]
+    },
+    "memory:memory/2026-05-18-payroll-ocr.md:63:66": {
+      "key": "memory:memory/2026-05-18-payroll-ocr.md:63:66",
+      "path": "memory/2026-05-18-payroll-ocr.md",
+      "startLine": 63,
+      "endLine": 66,
+      "source": "memory",
+      "snippet": "工资发放表（汇总）: | 3 | 彭海冰 | 5,000 | 6228***06674 | 中国银行 | | 4 | 刘国波 | 10,000 | 6217***62458 | 建行乐都支行 | | 5 | 王开生 ⚠️ | 5,000 | 6217***96226 | 汉中市西孙路支行 | | 6 | 杨万文 ⚠️ | 10,000 | 6222***64891 | 中国银行油城支行 |",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-05-20T19:00:18.943Z",
+      "lastRecalledAt": "2026-05-20T19:00:18.943Z",
+      "queryHashes": [
+        "f2bd5daba4fc"
+      ],
+      "recallDays": [
+        "2026-05-21",
+        "2026-05-20"
+      ],
+      "conceptTags": [
+        "2026-05-18-payroll-ocr.md",
+        "payroll",
+        "ocr.md",
+        "工资",
+        "发放",
+        "5,000",
+        "中国",
+        "银行"
+      ]
+    },
+    "memory:memory/2026-05-18-payroll-ocr.md:67:70": {
+      "key": "memory:memory/2026-05-18-payroll-ocr.md:67:70",
+      "path": "memory/2026-05-18-payroll-ocr.md",
+      "startLine": 67,
+      "endLine": 70,
+      "source": "memory",
+      "snippet": "工资发放表（汇总）: | 7 | 李成洪 ⚠️ | 10,000 | 6235***34047 | 青海银行互助支行 | | 8 | 刘加俊 | 10,000 | 6235***34120 | | | 9 | 唐仕之 ⚠️ | 10,000 | 6235***96553 | | | 10 | 姜朝李 ⚠️ | 10,000 | 6235***703412 | |",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-05-20T19:00:18.943Z",
+      "lastRecalledAt": "2026-05-20T19:00:18.943Z",
+      "queryHashes": [
+        "f2bd5daba4fc"
+      ],
+      "recallDays": [
+        "2026-05-21",
+        "2026-05-20"
+      ],
+      "conceptTags": [
+        "2026-05-18-payroll-ocr.md",
+        "payroll",
+        "ocr.md",
+        "工资",
+        "发放",
+        "10,000",
+        "青海",
+        "银行"
+      ]
+    },
+    "memory:memory/2026-05-18-payroll-ocr.md:71:74": {
+      "key": "memory:memory/2026-05-18-payroll-ocr.md:71:74",
+      "path": "memory/2026-05-18-payroll-ocr.md",
+      "startLine": 71,
+      "endLine": 74,
+      "source": "memory",
+      "snippet": "工资发放表（汇总）: | 11 | 房泽 ⚠️ | 10,000 | 6235***34144 | | | 12 | 唐蓉 | 10,000 | 6235***340b2 | | | 13 | 刘顺 | 10,000 | 6235***34095 | | | 14 | 唐俊 | 5,000 ⚠️ | 6235***34070 | |",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-05-20T19:00:18.943Z",
+      "lastRecalledAt": "2026-05-20T19:00:18.943Z",
+      "queryHashes": [
+        "f2bd5daba4fc"
+      ],
+      "recallDays": [
+        "2026-05-21",
+        "2026-05-20"
+      ],
+      "conceptTags": [
+        "2026-05-18-payroll-ocr.md",
+        "payroll",
+        "ocr.md",
+        "工资",
+        "发放",
+        "10,000",
+        "340b2",
+        "5,000"
+      ]
+    },
+    "memory:memory/2026-05-18-payroll-ocr.md:75:76": {
+      "key": "memory:memory/2026-05-18-payroll-ocr.md:75:76",
+      "path": "memory/2026-05-18-payroll-ocr.md",
+      "startLine": 75,
+      "endLine": 76,
+      "source": "memory",
+      "snippet": "工资发放表（汇总）: | 15 | 祁朝军 ⚠️ | 15,000 | 6235***34054 | 青海银行互助支行 | | **合计** | | **135,000** | | |",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-05-20T19:00:18.943Z",
+      "lastRecalledAt": "2026-05-20T19:00:18.943Z",
+      "queryHashes": [
+        "f2bd5daba4fc"
+      ],
+      "recallDays": [
+        "2026-05-21",
+        "2026-05-20"
+      ],
+      "conceptTags": [
+        "2026-05-18-payroll-ocr.md",
+        "payroll",
+        "ocr.md",
+        "工资",
+        "发放",
+        "15,000",
+        "青海",
+        "银行"
+      ]
+    },
+    "memory:memory/2026-05-18-payroll-ocr.md:78:78": {
+      "key": "memory:memory/2026-05-18-payroll-ocr.md:78:78",
+      "path": "memory/2026-05-18-payroll-ocr.md",
+      "startLine": 78,
+      "endLine": 78,
+      "source": "memory",
+      "snippet": "工资发放表（汇总）: ⚠️ 标记说明：",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-05-20T19:00:18.943Z",
+      "lastRecalledAt": "2026-05-20T19:00:18.943Z",
+      "queryHashes": [
+        "f2bd5daba4fc"
+      ],
+      "recallDays": [
+        "2026-05-21",
+        "2026-05-20"
+      ],
+      "conceptTags": [
+        "2026-05-18-payroll-ocr.md",
+        "payroll",
+        "ocr.md",
+        "工资",
+        "发放",
+        "标记",
+        "说明"
+      ]
+    },
+    "memory:memory/2026-05-18-payroll-ocr.md:79:81": {
+      "key": "memory:memory/2026-05-18-payroll-ocr.md:79:81",
+      "path": "memory/2026-05-18-payroll-ocr.md",
+      "startLine": 79,
+      "endLine": 81,
+      "source": "memory",
+      "snippet": "工资发放表（汇总）: **姓名**：手写体识别不准，如\"胡条\"可能是\"胡某\"、\"姜朝李/薑朝李/蓬朝苓\"、\"房泽/廊泽\"、\"祁朝军/革朝案/室朝军\"、\"杨万文/办万文迷/奶万文迷\"等; **唐俊工资**：OCR 读出为\"0000\"，但合计135,000需为5000; **身份证号/卡号**：部分字符（g/l/b/0/O混淆）需要人工核对原图",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-05-20T19:00:18.943Z",
+      "lastRecalledAt": "2026-05-20T19:00:18.943Z",
+      "queryHashes": [
+        "f2bd5daba4fc"
+      ],
+      "recallDays": [
+        "2026-05-21",
+        "2026-05-20"
+      ],
+      "conceptTags": [
+        "2026-05-18-payroll-ocr.md",
+        "姜朝李/薑朝李/蓬朝苓",
+        "房泽/廊泽",
+        "祁朝军/革朝案/室朝军",
+        "杨万文/办万文迷/奶万文迷",
+        "身份证号/卡号",
+        "g/l/b/0/o混淆",
+        "payroll"
+      ]
+    },
+    "memory:memory/2026-05-18-payroll-ocr.md:83:83": {
+      "key": "memory:memory/2026-05-18-payroll-ocr.md:83:83",
+      "path": "memory/2026-05-18-payroll-ocr.md",
+      "startLine": 83,
+      "endLine": 83,
+      "source": "memory",
+      "snippet": "工资发放表（汇总）: **CSV文件已保存**至工作区：`工资发放表_2026.csv`",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-05-20T19:00:18.943Z",
+      "lastRecalledAt": "2026-05-20T19:00:18.943Z",
+      "queryHashes": [
+        "f2bd5daba4fc"
+      ],
+      "recallDays": [
+        "2026-05-21",
+        "2026-05-20"
+      ],
+      "conceptTags": [
+        "2026-05-18-payroll-ocr.md",
+        "工资发放表-2026.csv",
+        "payroll",
+        "ocr.md",
+        "工资",
+        "发放",
+        "csv",
+        "文件"
+      ]
+    },
+    "memory:memory/2026-05-18-payroll-ocr.md:85:86": {
+      "key": "memory:memory/2026-05-18-payroll-ocr.md:85:86",
+      "path": "memory/2026-05-18-payroll-ocr.md",
+      "startLine": 85,
+      "endLine": 86,
+      "source": "memory",
+      "snippet": "工资发放表（汇总）: **建议下一步：** 如果您能快速把图中15个名字逐行发我，我可以立即修正成准确版本，省去逐字核对。 user: Conversation info (untrusted metadata):",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-05-20T19:00:18.943Z",
+      "lastRecalledAt": "2026-05-20T19:00:18.943Z",
+      "queryHashes": [
+        "f2bd5daba4fc"
+      ],
+      "recallDays": [
+        "2026-05-21",
+        "2026-05-20"
+      ],
+      "conceptTags": [
+        "2026-05-18-payroll-ocr.md",
+        "payroll",
+        "ocr.md",
+        "工资",
+        "发放",
+        "建议",
+        "下一步",
+        "如果"
+      ]
+    },
+    "memory:memory/2026-05-18-payroll-ocr.md:89:91": {
+      "key": "memory:memory/2026-05-18-payroll-ocr.md:89:91",
+      "path": "memory/2026-05-18-payroll-ocr.md",
+      "startLine": 89,
+      "endLine": 91,
+      "source": "memory",
+      "snippet": "工资发放表（汇总）: \"chat_id\": \"o9cq802UVmvEGGP0xkFm4O7AcdRg@im.wechat\", \"message_id\": \"openclaw-weixin:1779110563582-9cebf2e9\", \"timestamp\": \"Mon 2026-05-18 13:05 UTC\"",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-05-20T19:00:18.943Z",
+      "lastRecalledAt": "2026-05-20T19:00:18.943Z",
+      "queryHashes": [
+        "f2bd5daba4fc"
+      ],
+      "recallDays": [
+        "2026-05-21",
+        "2026-05-20"
+      ],
+      "conceptTags": [
+        "2026-05-18-payroll-ocr.md",
+        "chat-id",
+        "im.wechat",
+        "message-id",
+        "openclaw-weixin",
+        "1779110563582-9cebf2e9",
+        "payroll",
+        "ocr.md"
+      ]
+    },
+    "memory:memory/2026-05-18-payroll-ocr.md:95:95": {
+      "key": "memory:memory/2026-05-18-payroll-ocr.md:95:95",
+      "path": "memory/2026-05-18-payroll-ocr.md",
+      "startLine": 95,
+      "endLine": 95,
+      "source": "memory",
+      "snippet": "工资发放表（汇总）: 我识别了内容，你给我做成表格",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-05-20T19:00:18.943Z",
+      "lastRecalledAt": "2026-05-20T19:00:18.943Z",
+      "queryHashes": [
+        "f2bd5daba4fc"
+      ],
+      "recallDays": [
+        "2026-05-21",
+        "2026-05-20"
+      ],
+      "conceptTags": [
+        "2026-05-18-payroll-ocr.md",
+        "payroll",
+        "ocr.md",
+        "工资",
+        "发放",
+        "识别",
+        "内容",
+        "做成"
+      ]
+    },
+    "memory:memory/2026-05-18-payroll-ocr.md:97:100": {
+      "key": "memory:memory/2026-05-18-payroll-ocr.md:97:100",
+      "path": "memory/2026-05-18-payroll-ocr.md",
+      "startLine": 97,
+      "endLine": 100,
+      "source": "memory",
+      "snippet": "工资发放表（汇总）: 序 姓名 身份证号 卡号 开户行 应发工资 (元) 实发工资 联系电话 签字 1 胡军 510821199505165318 6212262309006758828 工行广鼓楼支行 10000元 张悦斌510824198603056531 6215683100026750240中国银行广元分行 5000元 彭海冰 510824198808046265 6228482869610061174 农行芳溪东溪支行 5000元",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-05-20T19:00:18.943Z",
+      "lastRecalledAt": "2026-05-20T19:00:18.943Z",
+      "queryHashes": [
+        "f2bd5daba4fc"
+      ],
+      "recallDays": [
+        "2026-05-21",
+        "2026-05-20"
+      ],
+      "conceptTags": [
+        "2026-05-18-payroll-ocr.md",
+        "payroll",
+        "ocr.md",
+        "工资",
+        "发放",
+        "姓名",
+        "身份",
+        "实发"
+      ]
+    },
+    "memory:memory/2026-05-18-payroll-ocr.md:101:104": {
+      "key": "memory:memory/2026-05-18-payroll-ocr.md:101:104",
+      "path": "memory/2026-05-18-payroll-ocr.md",
+      "startLine": 101,
+      "endLine": 104,
+      "source": "memory",
+      "snippet": "工资发放表（汇总）: 4 刘国波 610726200305165415 6217004400026962458 建行乐都支行 10000元 5 王开生 612326198701145416 6217004130013396226 汉中市西环路支行 1000元 6 杨文 612326199410305010 222032902004604891 银石油城支行 5000元 7 李成洪 510821196903235015 62359926007034047 青海银行互助支行 10000元",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-05-20T19:00:18.943Z",
+      "lastRecalledAt": "2026-05-20T19:00:18.943Z",
+      "queryHashes": [
+        "f2bd5daba4fc"
+      ],
+      "recallDays": [
+        "2026-05-21",
+        "2026-05-20"
+      ],
+      "conceptTags": [
+        "2026-05-18-payroll-ocr.md",
+        "payroll",
+        "ocr.md",
+        "工资",
+        "发放",
+        "汉中",
+        "杨文",
+        "石油"
+      ]
+    },
+    "memory:memory/2026-05-18-payroll-ocr.md:105:108": {
+      "key": "memory:memory/2026-05-18-payroll-ocr.md:105:108",
+      "path": "memory/2026-05-18-payroll-ocr.md",
+      "startLine": 105,
+      "endLine": 108,
+      "source": "memory",
+      "snippet": "工资发放表（汇总）: 8 刘加俊 510821197107105011 62359926007034120 10000元 9 唐仕斌 510821199511025055 62359926006966553 10000元 10 董朝喜 570821200107105016 62359926007034112 10000元 11 唐泽 56821199308035012 62359936007034104 10000元",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-05-20T19:00:18.943Z",
+      "lastRecalledAt": "2026-05-20T19:00:18.943Z",
+      "queryHashes": [
+        "f2bd5daba4fc"
+      ],
+      "recallDays": [
+        "2026-05-21",
+        "2026-05-20"
+      ],
+      "conceptTags": [
+        "2026-05-18-payroll-ocr.md",
+        "payroll",
+        "ocr.md",
+        "工资",
+        "发放"
+      ]
+    },
+    "memory:memory/2026-05-18-payroll-ocr.md:109:112": {
+      "key": "memory:memory/2026-05-18-payroll-ocr.md:109:112",
+      "path": "memory/2026-05-18-payroll-ocr.md",
+      "startLine": 109,
+      "endLine": 112,
+      "source": "memory",
+      "snippet": "工资发放表（汇总）: 12 唐蓉 510821198502285029 62359926007034062 10000元 13 刘顺 510821197701055037 62359926007034096 10000元 14 唐俊 510821199809135011 62359926007034070 0000元 15 董朝军 510821108708275336 62359926007034054 青海银行正助支行 15000元",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-05-20T19:00:18.943Z",
+      "lastRecalledAt": "2026-05-20T19:00:18.943Z",
+      "queryHashes": [
+        "f2bd5daba4fc"
+      ],
+      "recallDays": [
+        "2026-05-21",
+        "2026-05-20"
+      ],
+      "conceptTags": [
+        "2026-05-18-payroll-ocr.md",
+        "payroll",
+        "ocr.md",
+        "工资",
+        "发放",
+        "青海",
+        "银行"
+      ]
+    },
+    "memory:memory/2026-05-18-payroll-ocr.md:114:114": {
+      "key": "memory:memory/2026-05-18-payroll-ocr.md:114:114",
+      "path": "memory/2026-05-18-payroll-ocr.md",
+      "startLine": 114,
+      "endLine": 114,
+      "source": "memory",
+      "snippet": "工资发放表（汇总）: 合计：135000元",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-05-20T19:00:18.943Z",
+      "lastRecalledAt": "2026-05-20T19:00:18.943Z",
+      "queryHashes": [
+        "f2bd5daba4fc"
+      ],
+      "recallDays": [
+        "2026-05-21",
+        "2026-05-20"
+      ],
+      "conceptTags": [
+        "2026-05-18-payroll-ocr.md",
+        "payroll",
+        "ocr.md",
+        "工资",
+        "发放",
+        "合计"
+      ]
+    },
+    "memory:memory/2026-05-18-payroll-ocr.md:116:116": {
+      "key": "memory:memory/2026-05-18-payroll-ocr.md:116:116",
+      "path": "memory/2026-05-18-payroll-ocr.md",
+      "startLine": 116,
+      "endLine": 116,
+      "source": "memory",
+      "snippet": "工资发放表（汇总）: assistant: 收到！马上为您生成电子表格。",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-05-20T19:00:18.943Z",
+      "lastRecalledAt": "2026-05-20T19:00:18.943Z",
+      "queryHashes": [
+        "f2bd5daba4fc"
+      ],
+      "recallDays": [
+        "2026-05-21",
+        "2026-05-20"
+      ],
+      "conceptTags": [
+        "2026-05-18-payroll-ocr.md",
+        "payroll",
+        "ocr.md",
+        "工资",
+        "发放",
+        "收到",
+        "马上",
+        "生成"
+      ]
+    },
+    "memory:memory/2026-05-18-payroll-ocr.md:119:119": {
+      "key": "memory:memory/2026-05-18-payroll-ocr.md:119:119",
+      "path": "memory/2026-05-18-payroll-ocr.md",
+      "startLine": 119,
+      "endLine": 119,
+      "source": "memory",
+      "snippet": "工资发放表（汇总）: assistant: 主公，表格已生成！不过合计金额对不上，帮您看看：",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-05-20T19:00:18.943Z",
+      "lastRecalledAt": "2026-05-20T19:00:18.943Z",
+      "queryHashes": [
+        "f2bd5daba4fc"
+      ],
+      "recallDays": [
+        "2026-05-21",
+        "2026-05-20"
+      ],
+      "conceptTags": [
+        "2026-05-18-payroll-ocr.md",
+        "payroll",
+        "ocr.md",
+        "工资",
+        "发放",
+        "主公",
+        "表格",
+        "生成"
+      ]
+    },
+    "memory:memory/2026-05-18-payroll-ocr.md:121:121": {
+      "key": "memory:memory/2026-05-18-payroll-ocr.md:121:121",
+      "path": "memory/2026-05-18-payroll-ocr.md",
+      "startLine": 121,
+      "endLine": 121,
+      "source": "memory",
+      "snippet": "工资发放表（汇总）: **核对结果：**",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-05-20T19:00:18.943Z",
+      "lastRecalledAt": "2026-05-20T19:00:18.943Z",
+      "queryHashes": [
+        "f2bd5daba4fc"
+      ],
+      "recallDays": [
+        "2026-05-21",
+        "2026-05-20"
+      ],
+      "conceptTags": [
+        "2026-05-18-payroll-ocr.md",
+        "payroll",
+        "ocr.md",
+        "工资",
+        "发放",
+        "核对",
+        "结果"
+      ]
+    },
+    "memory:memory/2026-05-18-payroll-ocr.md:123:126": {
+      "key": "memory:memory/2026-05-18-payroll-ocr.md:123:126",
+      "path": "memory/2026-05-18-payroll-ocr.md",
+      "startLine": 123,
+      "endLine": 126,
+      "source": "memory",
+      "snippet": "工资发放表（汇总）: | 序号 | 姓名 | 应发工资 | |:---:|:----:|:--------:| | 1 | 胡军 | 10,000 | | 2 | 张悦斌 | 5,000 |",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-05-20T19:00:18.943Z",
+      "lastRecalledAt": "2026-05-20T19:00:18.943Z",
+      "queryHashes": [
+        "f2bd5daba4fc"
+      ],
+      "recallDays": [
+        "2026-05-21",
+        "2026-05-20"
+      ],
+      "conceptTags": [
+        "2026-05-18-payroll-ocr.md",
+        "payroll",
+        "ocr.md",
+        "工资",
+        "发放",
+        "姓名",
+        "10,000",
+        "5,000"
+      ]
+    },
+    "memory:memory/2026-05-18-payroll-ocr.md:127:130": {
+      "key": "memory:memory/2026-05-18-payroll-ocr.md:127:130",
+      "path": "memory/2026-05-18-payroll-ocr.md",
+      "startLine": 127,
+      "endLine": 130,
+      "source": "memory",
+      "snippet": "工资发放表（汇总）: | 3 | 彭海冰 | 5,000 | | 4 | 刘国波 | 10,000 | | 5 | 王开生 | **1,000** | | 6 | 杨文 | **5,000** |",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-05-20T19:00:18.943Z",
+      "lastRecalledAt": "2026-05-20T19:00:18.943Z",
+      "queryHashes": [
+        "f2bd5daba4fc"
+      ],
+      "recallDays": [
+        "2026-05-21",
+        "2026-05-20"
+      ],
+      "conceptTags": [
+        "2026-05-18-payroll-ocr.md",
+        "payroll",
+        "ocr.md",
+        "工资",
+        "发放",
+        "5,000",
+        "10,000",
+        "1,000"
+      ]
+    },
+    "memory:memory/2026-05-18-payroll-ocr.md:131:134": {
+      "key": "memory:memory/2026-05-18-payroll-ocr.md:131:134",
+      "path": "memory/2026-05-18-payroll-ocr.md",
+      "startLine": 131,
+      "endLine": 134,
+      "source": "memory",
+      "snippet": "工资发放表（汇总）: | 7 | 李成洪 | 10,000 | | 8 | 刘加俊 | 10,000 | | 9 | 唐仕斌 | 10,000 | | 10 | 董朝喜 | 10,000 |",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-05-20T19:00:18.943Z",
+      "lastRecalledAt": "2026-05-20T19:00:18.943Z",
+      "queryHashes": [
+        "f2bd5daba4fc"
+      ],
+      "recallDays": [
+        "2026-05-21",
+        "2026-05-20"
+      ],
+      "conceptTags": [
+        "2026-05-18-payroll-ocr.md",
+        "payroll",
+        "ocr.md",
+        "工资",
+        "发放",
+        "10,000"
+      ]
+    },
+    "memory:memory/2026-05-18-payroll-ocr.md:135:138": {
+      "key": "memory:memory/2026-05-18-payroll-ocr.md:135:138",
+      "path": "memory/2026-05-18-payroll-ocr.md",
+      "startLine": 135,
+      "endLine": 138,
+      "source": "memory",
+      "snippet": "工资发放表（汇总）: | 11 | 唐泽 | 10,000 | | 12 | 唐蓉 | 10,000 | | 13 | 刘顺 | 10,000 | | 14 | 唐俊 | **0** |",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-05-20T19:00:18.943Z",
+      "lastRecalledAt": "2026-05-20T19:00:18.943Z",
+      "queryHashes": [
+        "f2bd5daba4fc"
+      ],
+      "recallDays": [
+        "2026-05-21",
+        "2026-05-20"
+      ],
+      "conceptTags": [
+        "2026-05-18-payroll-ocr.md",
+        "payroll",
+        "ocr.md",
+        "工资",
+        "发放",
+        "10,000"
+      ]
+    },
+    "memory:memory/2026-05-18-payroll-ocr.md:139:140": {
+      "key": "memory:memory/2026-05-18-payroll-ocr.md:139:140",
+      "path": "memory/2026-05-18-payroll-ocr.md",
+      "startLine": 139,
+      "endLine": 140,
+      "source": "memory",
+      "snippet": "工资发放表（汇总）: | 15 | 董朝军 | 15,000 | | | **合计** | **111,000** |",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-05-20T19:00:18.943Z",
+      "lastRecalledAt": "2026-05-20T19:00:18.943Z",
+      "queryHashes": [
+        "f2bd5daba4fc"
+      ],
+      "recallDays": [
+        "2026-05-21",
+        "2026-05-20"
+      ],
+      "conceptTags": [
+        "2026-05-18-payroll-ocr.md",
+        "payroll",
+        "ocr.md",
+        "工资",
+        "发放",
+        "15,000",
+        "合计",
+        "111,000"
+      ]
+    },
+    "memory:memory/2026-05-18-payroll-ocr.md:142:142": {
+      "key": "memory:memory/2026-05-18-payroll-ocr.md:142:142",
+      "path": "memory/2026-05-18-payroll-ocr.md",
+      "startLine": 142,
+      "endLine": 142,
+      "source": "memory",
+      "snippet": "工资发放表（汇总）: 您写的合计是 **135,000**，但我逐行相加只得到 **111,000**，差了 **24,000 元**。",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-05-20T19:00:18.943Z",
+      "lastRecalledAt": "2026-05-20T19:00:18.943Z",
+      "queryHashes": [
+        "f2bd5daba4fc"
+      ],
+      "recallDays": [
+        "2026-05-21",
+        "2026-05-20"
+      ],
+      "conceptTags": [
+        "2026-05-18-payroll-ocr.md",
+        "payroll",
+        "ocr.md",
+        "工资",
+        "发放",
+        "写的",
+        "合计",
+        "135,000"
+      ]
+    },
+    "memory:memory/2026-05-18-payroll-ocr.md:144:144": {
+      "key": "memory:memory/2026-05-18-payroll-ocr.md:144:144",
+      "path": "memory/2026-05-18-payroll-ocr.md",
+      "startLine": 144,
+      "endLine": 144,
+      "source": "memory",
+      "snippet": "工资发放表（汇总）: **怀疑是这些数字看错了：**",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-05-20T19:00:18.943Z",
+      "lastRecalledAt": "2026-05-20T19:00:18.943Z",
+      "queryHashes": [
+        "f2bd5daba4fc"
+      ],
+      "recallDays": [
+        "2026-05-21",
+        "2026-05-20"
+      ],
+      "conceptTags": [
+        "2026-05-18-payroll-ocr.md",
+        "payroll",
+        "ocr.md",
+        "工资",
+        "发放",
+        "怀疑",
+        "这些",
+        "数字"
+      ]
+    },
+    "memory:memory/2026-05-18-payroll-ocr.md:145:147": {
+      "key": "memory:memory/2026-05-18-payroll-ocr.md:145:147",
+      "path": "memory/2026-05-18-payroll-ocr.md",
+      "startLine": 145,
+      "endLine": 147,
+      "source": "memory",
+      "snippet": "工资发放表（汇总）: **王开生**：您写的 \"1000元\" → 可能是 **10000元**？（少了1个0）; **杨文**：\"5000元\" → 原图可能是 **10000元**？; **唐俊**：\"0000\" → 原图可能是 **5000元** 或 **10000元**？",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-05-20T19:00:18.943Z",
+      "lastRecalledAt": "2026-05-20T19:00:18.943Z",
+      "queryHashes": [
+        "f2bd5daba4fc"
+      ],
+      "recallDays": [
+        "2026-05-21",
+        "2026-05-20"
+      ],
+      "conceptTags": [
+        "2026-05-18-payroll-ocr.md",
+        "payroll",
+        "ocr.md",
+        "工资",
+        "发放",
+        "写的",
+        "可能是",
+        "少了"
+      ]
+    },
+    "memory:memory/2026-05-18-payroll-ocr.md:149:150": {
+      "key": "memory:memory/2026-05-18-payroll-ocr.md:149:150",
+      "path": "memory/2026-05-18-payroll-ocr.md",
+      "startLine": 149,
+      "endLine": 150,
+      "source": "memory",
+      "snippet": "工资发放表（汇总）: 您看要不要核一下原图再告诉我修正？或者您先确认这几个数字，我立刻更新。 user: 我识别了内容，你给我做成表格",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-05-20T19:00:18.943Z",
+      "lastRecalledAt": "2026-05-20T19:00:18.943Z",
+      "queryHashes": [
+        "f2bd5daba4fc"
+      ],
+      "recallDays": [
+        "2026-05-21",
+        "2026-05-20"
+      ],
+      "conceptTags": [
+        "2026-05-18-payroll-ocr.md",
+        "payroll",
+        "ocr.md",
+        "工资",
+        "发放",
+        "不要",
+        "一下",
+        "告诉"
+      ]
+    },
+    "memory:memory/2026-05-18-payroll-ocr.md:152:155": {
+      "key": "memory:memory/2026-05-18-payroll-ocr.md:152:155",
+      "path": "memory/2026-05-18-payroll-ocr.md",
+      "startLine": 152,
+      "endLine": 155,
+      "source": "memory",
+      "snippet": "工资发放表（汇总）: 序 姓名 身份证号 卡号 开户行 应发工资 (元) 实发工资 联系电话 签字 1 胡军 510821199505165318 6212262309006758828 工行广鼓楼支行 10000元 张悦斌510824198603056531 6215683100026750240中国银行广元分行 5000元 彭海冰 510824198808046265 6228482869610061174 农行芳溪东溪支行 5000元",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-05-20T19:00:18.943Z",
+      "lastRecalledAt": "2026-05-20T19:00:18.943Z",
+      "queryHashes": [
+        "f2bd5daba4fc"
+      ],
+      "recallDays": [
+        "2026-05-21",
+        "2026-05-20"
+      ],
+      "conceptTags": [
+        "2026-05-18-payroll-ocr.md",
+        "payroll",
+        "ocr.md",
+        "工资",
+        "发放",
+        "姓名",
+        "身份",
+        "实发"
+      ]
+    },
+    "memory:memory/2026-05-18-payroll-ocr.md:156:159": {
+      "key": "memory:memory/2026-05-18-payroll-ocr.md:156:159",
+      "path": "memory/2026-05-18-payroll-ocr.md",
+      "startLine": 156,
+      "endLine": 159,
+      "source": "memory",
+      "snippet": "工资发放表（汇总）: 4 刘国波 610726200305165415 6217004400026962458 建行乐都支行 10000元 5 王开生 612326198701145416 6217004130013396226 汉中市西环路支行 1000元 6 杨文 612326199410305010 222032902004604891 银石油城支行 5000元 7 李成洪 510821196903235015 62359926007034047 青海银行互助支行 10000元",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-05-20T19:00:18.943Z",
+      "lastRecalledAt": "2026-05-20T19:00:18.943Z",
+      "queryHashes": [
+        "f2bd5daba4fc"
+      ],
+      "recallDays": [
+        "2026-05-21",
+        "2026-05-20"
+      ],
+      "conceptTags": [
+        "2026-05-18-payroll-ocr.md",
+        "payroll",
+        "ocr.md",
+        "工资",
+        "发放",
+        "汉中",
+        "杨文",
+        "石油"
+      ]
+    },
+    "memory:memory/2026-05-18-payroll-ocr.md:160:163": {
+      "key": "memory:memory/2026-05-18-payroll-ocr.md:160:163",
+      "path": "memory/2026-05-18-payroll-ocr.md",
+      "startLine": 160,
+      "endLine": 163,
+      "source": "memory",
+      "snippet": "工资发放表（汇总）: 8 刘加俊 510821197107105011 62359926007034120 10000元 9 唐仕斌 510821199511025055 62359926006966553 10000元 10 董朝喜 570821200107105016 62359926007034112 10000元 11 唐泽 56821199308035012 62359936007034104 10000元",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-05-20T19:00:18.943Z",
+      "lastRecalledAt": "2026-05-20T19:00:18.943Z",
+      "queryHashes": [
+        "f2bd5daba4fc"
+      ],
+      "recallDays": [
+        "2026-05-21",
+        "2026-05-20"
+      ],
+      "conceptTags": [
+        "2026-05-18-payroll-ocr.md",
+        "payroll",
+        "ocr.md",
+        "工资",
+        "发放"
+      ]
+    },
+    "memory:memory/2026-05-18-payroll-ocr.md:164:167": {
+      "key": "memory:memory/2026-05-18-payroll-ocr.md:164:167",
+      "path": "memory/2026-05-18-payroll-ocr.md",
+      "startLine": 164,
+      "endLine": 167,
+      "source": "memory",
+      "snippet": "工资发放表（汇总）: 12 唐蓉 510821198502285029 62359926007034062 10000元 13 刘顺 510821197701055037 62359926007034096 10000元 14 唐俊 510821199809135011 62359926007034070 0000元 15 董朝军 510821108708275336 62359926007034054 青海银行正助支行 15000元",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-05-20T19:00:18.943Z",
+      "lastRecalledAt": "2026-05-20T19:00:18.943Z",
+      "queryHashes": [
+        "f2bd5daba4fc"
+      ],
+      "recallDays": [
+        "2026-05-21",
+        "2026-05-20"
+      ],
+      "conceptTags": [
+        "2026-05-18-payroll-ocr.md",
+        "payroll",
+        "ocr.md",
+        "工资",
+        "发放",
+        "青海",
+        "银行"
+      ]
+    },
+    "memory:memory/2026-05-18-payroll-ocr.md:169:169": {
+      "key": "memory:memory/2026-05-18-payroll-ocr.md:169:169",
+      "path": "memory/2026-05-18-payroll-ocr.md",
+      "startLine": 169,
+      "endLine": 169,
+      "source": "memory",
+      "snippet": "工资发放表（汇总）: 合计：135000元",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-05-20T19:00:18.943Z",
+      "lastRecalledAt": "2026-05-20T19:00:18.943Z",
+      "queryHashes": [
+        "f2bd5daba4fc"
+      ],
+      "recallDays": [
+        "2026-05-21",
+        "2026-05-20"
+      ],
+      "conceptTags": [
+        "2026-05-18-payroll-ocr.md",
+        "payroll",
+        "ocr.md",
+        "工资",
+        "发放",
+        "合计"
+      ]
+    },
+    "memory:memory/2026-05-18-payroll-ocr.md:171:171": {
+      "key": "memory:memory/2026-05-18-payroll-ocr.md:171:171",
+      "path": "memory/2026-05-18-payroll-ocr.md",
+      "startLine": 171,
+      "endLine": 171,
+      "source": "memory",
+      "snippet": "工资发放表（汇总）: assistant: 收到！马上为您生成电子表格。",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-05-20T19:00:18.943Z",
+      "lastRecalledAt": "2026-05-20T19:00:18.943Z",
+      "queryHashes": [
+        "f2bd5daba4fc"
+      ],
+      "recallDays": [
+        "2026-05-21",
+        "2026-05-20"
+      ],
+      "conceptTags": [
+        "2026-05-18-payroll-ocr.md",
+        "payroll",
+        "ocr.md",
+        "工资",
+        "发放",
+        "收到",
+        "马上",
+        "生成"
+      ]
+    },
+    "memory:memory/2026-05-18-payroll-ocr.md:174:174": {
+      "key": "memory:memory/2026-05-18-payroll-ocr.md:174:174",
+      "path": "memory/2026-05-18-payroll-ocr.md",
+      "startLine": 174,
+      "endLine": 174,
+      "source": "memory",
+      "snippet": "工资发放表（汇总）: assistant: 主公，表格已生成！不过合计金额对不上，帮您看看：",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-05-20T19:00:18.943Z",
+      "lastRecalledAt": "2026-05-20T19:00:18.943Z",
+      "queryHashes": [
+        "f2bd5daba4fc"
+      ],
+      "recallDays": [
+        "2026-05-21",
+        "2026-05-20"
+      ],
+      "conceptTags": [
+        "2026-05-18-payroll-ocr.md",
+        "payroll",
+        "ocr.md",
+        "工资",
+        "发放",
+        "主公",
+        "表格",
+        "生成"
+      ]
+    },
+    "memory:memory/2026-05-18-payroll-ocr.md:176:176": {
+      "key": "memory:memory/2026-05-18-payroll-ocr.md:176:176",
+      "path": "memory/2026-05-18-payroll-ocr.md",
+      "startLine": 176,
+      "endLine": 176,
+      "source": "memory",
+      "snippet": "工资发放表（汇总）: **核对结果：**",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-05-20T19:00:18.943Z",
+      "lastRecalledAt": "2026-05-20T19:00:18.943Z",
+      "queryHashes": [
+        "f2bd5daba4fc"
+      ],
+      "recallDays": [
+        "2026-05-21",
+        "2026-05-20"
+      ],
+      "conceptTags": [
+        "2026-05-18-payroll-ocr.md",
+        "payroll",
+        "ocr.md",
+        "工资",
+        "发放",
+        "核对",
+        "结果"
+      ]
+    },
+    "memory:memory/2026-05-18-payroll-ocr.md:178:181": {
+      "key": "memory:memory/2026-05-18-payroll-ocr.md:178:181",
+      "path": "memory/2026-05-18-payroll-ocr.md",
+      "startLine": 178,
+      "endLine": 181,
+      "source": "memory",
+      "snippet": "工资发放表（汇总）: | 序号 | 姓名 | 应发工资 | |:---:|:----:|:--------:| | 1 | 胡军 | 10,000 | | 2 | 张悦斌 | 5,000 |",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-05-20T19:00:18.943Z",
+      "lastRecalledAt": "2026-05-20T19:00:18.943Z",
+      "queryHashes": [
+        "f2bd5daba4fc"
+      ],
+      "recallDays": [
+        "2026-05-21",
+        "2026-05-20"
+      ],
+      "conceptTags": [
+        "2026-05-18-payroll-ocr.md",
+        "payroll",
+        "ocr.md",
+        "工资",
+        "发放",
+        "姓名",
+        "10,000",
+        "5,000"
+      ]
+    },
+    "memory:memory/2026-05-18-payroll-ocr.md:182:185": {
+      "key": "memory:memory/2026-05-18-payroll-ocr.md:182:185",
+      "path": "memory/2026-05-18-payroll-ocr.md",
+      "startLine": 182,
+      "endLine": 185,
+      "source": "memory",
+      "snippet": "工资发放表（汇总）: | 3 | 彭海冰 | 5,000 | | 4 | 刘国波 | 10,000 | | 5 | 王开生 | **1,000** | | 6 | 杨文 | **5,000** |",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-05-20T19:00:18.943Z",
+      "lastRecalledAt": "2026-05-20T19:00:18.943Z",
+      "queryHashes": [
+        "f2bd5daba4fc"
+      ],
+      "recallDays": [
+        "2026-05-21",
+        "2026-05-20"
+      ],
+      "conceptTags": [
+        "2026-05-18-payroll-ocr.md",
+        "payroll",
+        "ocr.md",
+        "工资",
+        "发放",
+        "5,000",
+        "10,000",
+        "1,000"
+      ]
+    },
+    "memory:memory/2026-05-18-payroll-ocr.md:186:189": {
+      "key": "memory:memory/2026-05-18-payroll-ocr.md:186:189",
+      "path": "memory/2026-05-18-payroll-ocr.md",
+      "startLine": 186,
+      "endLine": 189,
+      "source": "memory",
+      "snippet": "工资发放表（汇总）: | 7 | 李成洪 | 10,000 | | 8 | 刘加俊 | 10,000 | | 9 | 唐仕斌 | 10,000 | | 10 | 董朝喜 | 10,000 |",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-05-20T19:00:18.943Z",
+      "lastRecalledAt": "2026-05-20T19:00:18.943Z",
+      "queryHashes": [
+        "f2bd5daba4fc"
+      ],
+      "recallDays": [
+        "2026-05-21",
+        "2026-05-20"
+      ],
+      "conceptTags": [
+        "2026-05-18-payroll-ocr.md",
+        "payroll",
+        "ocr.md",
+        "工资",
+        "发放",
+        "10,000"
+      ]
+    },
+    "memory:memory/2026-05-18-payroll-ocr.md:190:193": {
+      "key": "memory:memory/2026-05-18-payroll-ocr.md:190:193",
+      "path": "memory/2026-05-18-payroll-ocr.md",
+      "startLine": 190,
+      "endLine": 193,
+      "source": "memory",
+      "snippet": "工资发放表（汇总）: | 11 | 唐泽 | 10,000 | | 12 | 唐蓉 | 10,000 | | 13 | 刘顺 | 10,000 | | 14 | 唐俊 | **0** |",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-05-20T19:00:18.943Z",
+      "lastRecalledAt": "2026-05-20T19:00:18.943Z",
+      "queryHashes": [
+        "f2bd5daba4fc"
+      ],
+      "recallDays": [
+        "2026-05-21",
+        "2026-05-20"
+      ],
+      "conceptTags": [
+        "2026-05-18-payroll-ocr.md",
+        "payroll",
+        "ocr.md",
+        "工资",
+        "发放",
+        "10,000"
+      ]
+    },
+    "memory:memory/2026-05-18-payroll-ocr.md:194:195": {
+      "key": "memory:memory/2026-05-18-payroll-ocr.md:194:195",
+      "path": "memory/2026-05-18-payroll-ocr.md",
+      "startLine": 194,
+      "endLine": 195,
+      "source": "memory",
+      "snippet": "工资发放表（汇总）: | 15 | 董朝军 | 15,000 | | | **合计** | **111,000** |",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-05-20T19:00:18.943Z",
+      "lastRecalledAt": "2026-05-20T19:00:18.943Z",
+      "queryHashes": [
+        "f2bd5daba4fc"
+      ],
+      "recallDays": [
+        "2026-05-21",
+        "2026-05-20"
+      ],
+      "conceptTags": [
+        "2026-05-18-payroll-ocr.md",
+        "payroll",
+        "ocr.md",
+        "工资",
+        "发放",
+        "15,000",
+        "合计",
+        "111,000"
+      ]
+    },
+    "memory:memory/2026-05-18-payroll-ocr.md:197:197": {
+      "key": "memory:memory/2026-05-18-payroll-ocr.md:197:197",
+      "path": "memory/2026-05-18-payroll-ocr.md",
+      "startLine": 197,
+      "endLine": 197,
+      "source": "memory",
+      "snippet": "工资发放表（汇总）: 您写的合计是 **135,000**，但我逐行相加只得到 **111,000**，差了 **24,000 元**。",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-05-20T19:00:18.943Z",
+      "lastRecalledAt": "2026-05-20T19:00:18.943Z",
+      "queryHashes": [
+        "f2bd5daba4fc"
+      ],
+      "recallDays": [
+        "2026-05-21",
+        "2026-05-20"
+      ],
+      "conceptTags": [
+        "2026-05-18-payroll-ocr.md",
+        "payroll",
+        "ocr.md",
+        "工资",
+        "发放",
+        "写的",
+        "合计",
+        "135,000"
+      ]
+    },
+    "memory:memory/2026-05-18-payroll-ocr.md:199:199": {
+      "key": "memory:memory/2026-05-18-payroll-ocr.md:199:199",
+      "path": "memory/2026-05-18-payroll-ocr.md",
+      "startLine": 199,
+      "endLine": 199,
+      "source": "memory",
+      "snippet": "工资发放表（汇总）: **怀疑是这些数字看错了：**",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-05-20T19:00:18.943Z",
+      "lastRecalledAt": "2026-05-20T19:00:18.943Z",
+      "queryHashes": [
+        "f2bd5daba4fc"
+      ],
+      "recallDays": [
+        "2026-05-21",
+        "2026-05-20"
+      ],
+      "conceptTags": [
+        "2026-05-18-payroll-ocr.md",
+        "payroll",
+        "ocr.md",
+        "工资",
+        "发放",
+        "怀疑",
+        "这些",
+        "数字"
+      ]
+    },
+    "memory:memory/2026-05-18-payroll-ocr.md:200:202": {
+      "key": "memory:memory/2026-05-18-payroll-ocr.md:200:202",
+      "path": "memory/2026-05-18-payroll-ocr.md",
+      "startLine": 200,
+      "endLine": 202,
+      "source": "memory",
+      "snippet": "工资发放表（汇总）: **王开生**：您写的 \"1000元\" → 可能是 **10000元**？（少了1个0）; **杨文**：\"5000元\" → 原图可能是 **10000元**？; **唐俊**：\"0000\" → 原图可能是 **5000元** 或 **10000元**？",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-05-20T19:00:18.943Z",
+      "lastRecalledAt": "2026-05-20T19:00:18.943Z",
+      "queryHashes": [
+        "f2bd5daba4fc"
+      ],
+      "recallDays": [
+        "2026-05-21",
+        "2026-05-20"
+      ],
+      "conceptTags": [
+        "2026-05-18-payroll-ocr.md",
+        "payroll",
+        "ocr.md",
+        "工资",
+        "发放",
+        "写的",
+        "可能是",
+        "少了"
+      ]
+    },
+    "memory:memory/2026-05-18-payroll-ocr.md:204:204": {
+      "key": "memory:memory/2026-05-18-payroll-ocr.md:204:204",
+      "path": "memory/2026-05-18-payroll-ocr.md",
+      "startLine": 204,
+      "endLine": 204,
+      "source": "memory",
+      "snippet": "工资发放表（汇总）: 您看要不要核一下原图再告诉我修正？或者您先确认这几个数字，我立刻更新。",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-05-20T19:00:18.943Z",
+      "lastRecalledAt": "2026-05-20T19:00:18.943Z",
+      "queryHashes": [
+        "f2bd5daba4fc"
+      ],
+      "recallDays": [
+        "2026-05-21",
+        "2026-05-20"
+      ],
+      "conceptTags": [
+        "2026-05-18-payroll-ocr.md",
+        "payroll",
+        "ocr.md",
+        "工资",
+        "发放",
+        "不要",
+        "一下",
+        "告诉"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-18.txt:28:28": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-18.txt:28:28",
+      "path": "memory/.dreams/session-corpus/2026-05-18.txt",
+      "startLine": 28,
+      "endLine": 28,
+      "source": "memory",
+      "snippet": "Assistant: 代码未被篡改 | | **RTMR[0-3]** | 证明 Runtime 的状态转换路径正确（如配置、输入加载过程） | | **User Data (REPORTDATA)** | 嵌入 session 公钥 + nonce，绑定后续通信 | | **Quote 签名链** | Intel 硬件背书，防伪造 | **Attestation 验证后在当前 session 中建立信任上下文：** ``` TrustContext { runtimeId: bytes32, publicKey: bytes, // TD 内部生成的",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-20T19:00:18.943Z",
+      "lastRecalledAt": "2026-05-20T19:00:18.943Z",
+      "queryHashes": [
+        "cda70fe5512d"
+      ],
+      "recallDays": [
+        "2026-05-21",
+        "2026-05-20"
+      ],
+      "conceptTags": [
+        "0-3",
+        "代码",
+        "篡改",
+        "rtmr",
+        "证明",
+        "runtime",
+        "状态",
+        "转换"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-18.txt:29:29": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-18.txt:29:29",
+      "path": "memory/.dreams/session-corpus/2026-05-18.txt",
+      "startLine": 29,
+      "endLine": 29,
+      "source": "memory",
+      "snippet": "User: [media attached: /home/node/.openclaw/media/inbound/7fd872e9-64a1-483e-833f-4b4326eae96e.jpg (image/*)] To send an image back, prefer the message tool (media/path/filePath). If you must inline, use MEDIA:https://example.com/image.jpg (spaces ok, quote if needed) or a safe r",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-20T19:00:18.943Z",
+      "lastRecalledAt": "2026-05-20T19:00:18.943Z",
+      "queryHashes": [
+        "cda70fe5512d"
+      ],
+      "recallDays": [
+        "2026-05-21",
+        "2026-05-20"
+      ],
+      "conceptTags": [
+        "home/node",
+        "media/path/filepath",
+        "example.com/image.jpg",
+        "media",
+        "attached",
+        "home",
+        "node",
+        "openclaw"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-18.txt:30:30": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-18.txt:30:30",
+      "path": "memory/.dreams/session-corpus/2026-05-18.txt",
+      "startLine": 30,
+      "endLine": 30,
+      "source": "memory",
+      "snippet": "Assistant: 主公，我目前无法解析图片中的具体内容——所有图像模型均因配额/限流问题暂时不可用。 不过我能看到这张图是一份手写的工资表。请问您需要我帮您做什么？ 比如： 1. **转录为电子版**？——如果我无法直接读图，您可以逐行文字发给我，我来整理成表格 2. **分析/校验**？——比如核对总额是否正确 3. **处理建议**？——关于这份薪酬数据的后续操作 请告知具体需求，我换个路数搞定。",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-20T19:00:18.943Z",
+      "lastRecalledAt": "2026-05-20T19:00:18.943Z",
+      "queryHashes": [
+        "cda70fe5512d"
+      ],
+      "recallDays": [
+        "2026-05-21",
+        "2026-05-20"
+      ],
+      "conceptTags": [
+        "所有图像模型均因配额/限流问题暂时不可用",
+        "分析/校验",
+        "主公",
+        "目前",
+        "无法",
+        "解析",
+        "图片",
+        "中的"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-18.txt:31:31": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-18.txt:31:31",
+      "path": "memory/.dreams/session-corpus/2026-05-18.txt",
+      "startLine": 31,
+      "endLine": 31,
+      "source": "memory",
+      "snippet": "User: [media attached: /home/node/.openclaw/media/inbound/7fd872e9-64a1-483e-833f-4b4326eae96e.jpg (image/*)] [Image] Description: The image shows a handwritten payroll record in Chinese. It lists 17 employees with details like name, ID, bank card, salary, and contact information",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-20T19:00:18.943Z",
+      "lastRecalledAt": "2026-05-20T19:00:18.943Z",
+      "queryHashes": [
+        "cda70fe5512d"
+      ],
+      "recallDays": [
+        "2026-05-21",
+        "2026-05-20"
+      ],
+      "conceptTags": [
+        "home/node",
+        "media",
+        "attached",
+        "home",
+        "node",
+        "openclaw",
+        "inbound",
+        "7fd872e9"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-18.txt:32:32": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-18.txt:32:32",
+      "path": "memory/.dreams/session-corpus/2026-05-18.txt",
+      "startLine": 32,
+      "endLine": 32,
+      "source": "memory",
+      "snippet": "User: 请帮我做一个电子版表格",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-20T19:00:18.943Z",
+      "lastRecalledAt": "2026-05-20T19:00:18.943Z",
+      "queryHashes": [
+        "cda70fe5512d"
+      ],
+      "recallDays": [
+        "2026-05-21",
+        "2026-05-20"
+      ],
+      "conceptTags": [
+        "一个",
+        "电子",
+        "表格"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-18.txt:33:33": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-18.txt:33:33",
+      "path": "memory/.dreams/session-corpus/2026-05-18.txt",
+      "startLine": 33,
+      "endLine": 33,
+      "source": "memory",
+      "snippet": "User: 请帮我做一个电子版表格",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-20T19:00:18.943Z",
+      "lastRecalledAt": "2026-05-20T19:00:18.943Z",
+      "queryHashes": [
+        "cda70fe5512d"
+      ],
+      "recallDays": [
+        "2026-05-21",
+        "2026-05-20"
+      ],
+      "conceptTags": [
+        "一个",
+        "电子",
+        "表格"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-18.txt:34:34": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-18.txt:34:34",
+      "path": "memory/.dreams/session-corpus/2026-05-18.txt",
+      "startLine": 34,
+      "endLine": 34,
+      "source": "memory",
+      "snippet": "Assistant: OCR结果不太理想，文字识别质量较差。让我换个方式——用 Tesseract.js 在本地运行，效果应该更好。",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-20T19:00:18.943Z",
+      "lastRecalledAt": "2026-05-20T19:00:18.943Z",
+      "queryHashes": [
+        "cda70fe5512d"
+      ],
+      "recallDays": [
+        "2026-05-21",
+        "2026-05-20"
+      ],
+      "conceptTags": [
+        "tesseract.js",
+        "ocr",
+        "结果",
+        "不太",
+        "理想",
+        "文字",
+        "识别",
+        "质量"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-18.txt:35:35": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-18.txt:35:35",
+      "path": "memory/.dreams/session-corpus/2026-05-18.txt",
+      "startLine": 35,
+      "endLine": 35,
+      "source": "memory",
+      "snippet": "User: 请帮我做一个电子版表格",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-20T19:00:18.943Z",
+      "lastRecalledAt": "2026-05-20T19:00:18.943Z",
+      "queryHashes": [
+        "cda70fe5512d"
+      ],
+      "recallDays": [
+        "2026-05-21",
+        "2026-05-20"
+      ],
+      "conceptTags": [
+        "一个",
+        "电子",
+        "表格"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-18.txt:36:36": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-18.txt:36:36",
+      "path": "memory/.dreams/session-corpus/2026-05-18.txt",
+      "startLine": 36,
+      "endLine": 36,
+      "source": "memory",
+      "snippet": "User: 转录为电子版",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-20T19:00:18.943Z",
+      "lastRecalledAt": "2026-05-20T19:00:18.943Z",
+      "queryHashes": [
+        "cda70fe5512d"
+      ],
+      "recallDays": [
+        "2026-05-21",
+        "2026-05-20"
+      ],
+      "conceptTags": [
+        "转录",
+        "电子"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-18.txt:37:37": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-18.txt:37:37",
+      "path": "memory/.dreams/session-corpus/2026-05-18.txt",
+      "startLine": 37,
+      "endLine": 37,
+      "source": "memory",
+      "snippet": "User: 转录为电子版",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-20T19:00:18.943Z",
+      "lastRecalledAt": "2026-05-20T19:00:18.943Z",
+      "queryHashes": [
+        "cda70fe5512d"
+      ],
+      "recallDays": [
+        "2026-05-21",
+        "2026-05-20"
+      ],
+      "conceptTags": [
+        "转录",
+        "电子"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-18.txt:38:38": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-18.txt:38:38",
+      "path": "memory/.dreams/session-corpus/2026-05-18.txt",
+      "startLine": 38,
+      "endLine": 38,
+      "source": "memory",
+      "snippet": "Assistant: 主公，OCR 识别效果极差，手写体字迹潦草，导致识别结果几乎不可用。 **现状：** - OCR.space：识别率 < 5%，几乎全是乱码 - Tesseract.js + 图像增强：识别率 < 10%，仍无法辨认关键信息 **建议方案：** | 方案 | 优点 | 缺点 | 推荐度 | |------|------|------|--------| | A. 您逐行提供文字 | 100%准确 | 需您手动录入 | ⭐⭐⭐⭐⭐ | | B. 我先建模板，您填数据 | 结构完整 | 仍需您手动录入 | ⭐⭐⭐⭐ | | C. 尝试人",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-20T19:00:18.943Z",
+      "lastRecalledAt": "2026-05-20T19:00:18.943Z",
+      "queryHashes": [
+        "cda70fe5512d"
+      ],
+      "recallDays": [
+        "2026-05-21",
+        "2026-05-20"
+      ],
+      "conceptTags": [
+        "ocr.space",
+        "tesseract.js",
+        "主公",
+        "ocr",
+        "识别",
+        "效果",
+        "手写",
+        "潦草"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-18.txt:39:39": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-18.txt:39:39",
+      "path": "memory/.dreams/session-corpus/2026-05-18.txt",
+      "startLine": 39,
+      "endLine": 39,
+      "source": "memory",
+      "snippet": "Assistant: 主公稍等，我再试试",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-20T19:00:18.943Z",
+      "lastRecalledAt": "2026-05-20T19:00:18.943Z",
+      "queryHashes": [
+        "cda70fe5512d"
+      ],
+      "recallDays": [
+        "2026-05-21",
+        "2026-05-20"
+      ],
+      "conceptTags": [
+        "主公",
+        "稍等",
+        "再试"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-18.txt:40:40": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-18.txt:40:40",
+      "path": "memory/.dreams/session-corpus/2026-05-18.txt",
+      "startLine": 40,
+      "endLine": 40,
+      "source": "memory",
+      "snippet": "Assistant: 好多了！这次识别效果提升不少。让我把数据整理出来",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-20T19:00:18.943Z",
+      "lastRecalledAt": "2026-05-20T19:00:18.943Z",
+      "queryHashes": [
+        "cda70fe5512d"
+      ],
+      "recallDays": [
+        "2026-05-21",
+        "2026-05-20"
+      ],
+      "conceptTags": [
+        "好多",
+        "这次",
+        "识别",
+        "效果",
+        "提升",
+        "不少",
+        "我把",
+        "数据"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-18.txt:41:41": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-18.txt:41:41",
+      "path": "memory/.dreams/session-corpus/2026-05-18.txt",
+      "startLine": 41,
+      "endLine": 41,
+      "source": "memory",
+      "snippet": "Assistant: 好，综合两次 OCR 结果，我整理出一份表格。由于是手写体，部分姓名和号码可能有识别误差，请核对。",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-20T19:00:18.943Z",
+      "lastRecalledAt": "2026-05-20T19:00:18.943Z",
+      "queryHashes": [
+        "cda70fe5512d"
+      ],
+      "recallDays": [
+        "2026-05-21",
+        "2026-05-20"
+      ],
+      "conceptTags": [
+        "综合",
+        "两次",
+        "ocr",
+        "结果",
+        "整理",
+        "一份",
+        "表格",
+        "由于"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-18.txt:42:42": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-18.txt:42:42",
+      "path": "memory/.dreams/session-corpus/2026-05-18.txt",
+      "startLine": 42,
+      "endLine": 42,
+      "source": "memory",
+      "snippet": "Assistant: 主公，已整理完毕！以下是电子版工资表。但手写体 OCR 识别质量有限，**请务必逐行核对**，红色标记为高度不确定字段。 --- ## 工资发放表（汇总） | # | 姓名 | 应发工资 | 卡号 | 开户行 | |---|------|---------|------|--------| | 1 | 胡条 ⚠️ | 10,000 | 6212***50822 | 工行鼓楼支行 | | 2 | 张小之 ⚠️ | 5,000 | 6215***50240 | 中国银行 | | 3 | 彭海冰 | 5,000 | 6228***0667",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-20T19:00:18.943Z",
+      "lastRecalledAt": "2026-05-20T19:00:18.943Z",
+      "queryHashes": [
+        "cda70fe5512d"
+      ],
+      "recallDays": [
+        "2026-05-21",
+        "2026-05-20"
+      ],
+      "conceptTags": [
+        "主公",
+        "整理",
+        "完毕",
+        "以下",
+        "电子",
+        "工资",
+        "手写",
+        "ocr"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-18.txt:43:43": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-18.txt:43:43",
+      "path": "memory/.dreams/session-corpus/2026-05-18.txt",
+      "startLine": 43,
+      "endLine": 43,
+      "source": "memory",
+      "snippet": "Assistant: 青海银行互助支行 | | **合计** | | **135,000** | | | ⚠️ 标记说明： - **姓名**：手写体识别不准，如\"胡条\"可能是\"胡某\"、\"姜朝李/薑朝李/蓬朝苓\"、\"房泽/廊泽\"、\"祁朝军/革朝案/室朝军\"、\"杨万文/办万文迷/奶万文迷\"等 - **唐俊工资**：OCR 读出为\"0000\"，但合计135,000需为5000 - **身份证号/卡号**：部分字符（g/l/b/0/O混淆）需要人工核对原图 **CSV文件已保存**至工作区：`工资发放表_2026.csv` **建议下一步：** 如果您能快速把图",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-20T19:00:18.943Z",
+      "lastRecalledAt": "2026-05-20T19:00:18.943Z",
+      "queryHashes": [
+        "cda70fe5512d"
+      ],
+      "recallDays": [
+        "2026-05-21",
+        "2026-05-20"
+      ],
+      "conceptTags": [
+        "姜朝李/薑朝李/蓬朝苓",
+        "房泽/廊泽",
+        "祁朝军/革朝案/室朝军",
+        "杨万文/办万文迷/奶万文迷",
+        "身份证号/卡号",
+        "g/l/b/0/o混淆",
+        "工资发放表-2026.csv",
+        "青海"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-21.txt:1:1": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-21.txt:1:1",
+      "path": "memory/.dreams/session-corpus/2026-05-21.txt",
+      "startLine": 1,
+      "endLine": 1,
+      "source": "memory",
+      "snippet": "User: [message_id: om_x100b6fea503ab4a4eea35f3828d8abc] ou_9e18438fb941decf11a0b88d78fe2b50: 之前提到我想用TDX做 skill runtime，如何着手",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-20T19:00:18.943Z",
+      "lastRecalledAt": "2026-05-20T19:00:18.943Z",
+      "queryHashes": [
+        "90ee39ac7cd8"
+      ],
+      "recallDays": [
+        "2026-05-21",
+        "2026-05-20"
+      ],
+      "conceptTags": [
+        "message-id",
+        "之前",
+        "提到",
+        "我想",
+        "tdx",
+        "skill",
+        "runtime",
+        "如何"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-21.txt:2:2": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-21.txt:2:2",
+      "path": "memory/.dreams/session-corpus/2026-05-21.txt",
+      "startLine": 2,
+      "endLine": 2,
+      "source": "memory",
+      "snippet": "Assistant: 主公，此事此前未留有记录，但概念清晰。让我先做一番情报搜集，再给出路径推",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-20T19:00:18.943Z",
+      "lastRecalledAt": "2026-05-20T19:00:18.943Z",
+      "queryHashes": [
+        "90ee39ac7cd8"
+      ],
+      "recallDays": [
+        "2026-05-21",
+        "2026-05-20"
+      ],
+      "conceptTags": [
+        "主公",
+        "此事",
+        "留有",
+        "记录",
+        "概念",
+        "清晰",
+        "我先",
+        "一番"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-21.txt:3:3": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-21.txt:3:3",
+      "path": "memory/.dreams/session-corpus/2026-05-21.txt",
+      "startLine": 3,
+      "endLine": 3,
+      "source": "memory",
+      "snippet": "Assistant: 主公，情报已齐。让我为此事做完整推演。 --- ## 用 TDX 做 Skill Runtime：战略推演 ### 一、核心概念澄清 先厘清两层关系： - **OpenClaw Skill** = Agent 的工具/插件，本质是 shell 脚本 / Node.js 代码，通过 `exec` tool 执行 - **TDX** = 硬件级 TEE，提供不可篡改的隔离 VM（Trust Domain） 用 TDX 做 skill runtime，核心诉求是：**Skill 在硬件隔离的可信环境中运行，执行过程可远程验证（attest",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-20T19:00:18.943Z",
+      "lastRecalledAt": "2026-05-20T19:00:18.943Z",
+      "queryHashes": [
+        "90ee39ac7cd8"
+      ],
+      "recallDays": [
+        "2026-05-21",
+        "2026-05-20"
+      ],
+      "conceptTags": [
+        "的工具/插件",
+        "node.js",
+        "主公",
+        "情报",
+        "此事",
+        "完整",
+        "推演",
+        "tdx"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-21.txt:4:4": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-21.txt:4:4",
+      "path": "memory/.dreams/session-corpus/2026-05-21.txt",
+      "startLine": 4,
+      "endLine": 4,
+      "source": "memory",
+      "snippet": "Assistant: `check-td-runtime`，用来检测当前系统是否为 TDX 可信 VM。 --- ### 三、三条路径推演 #### 路径 A：激进 — 自建 TDX Skill Runtime（6-12 月） | 条目 | 内容 | |------|------| | **核心打法** | 从零构建一个 OpenClaw 自定义 Agent Runtime（Harness），运行在 TDX VM 内，skill 代码在 TEE 中执行并生成 attestation 报告 | | **技术栈** | Intel TDX SDK + dst",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-20T19:00:18.943Z",
+      "lastRecalledAt": "2026-05-20T19:00:18.943Z",
+      "queryHashes": [
+        "90ee39ac7cd8"
+      ],
+      "recallDays": [
+        "2026-05-21",
+        "2026-05-20"
+      ],
+      "conceptTags": [
+        "check-td-runtime",
+        "6-12",
+        "check",
+        "runtime",
+        "检测",
+        "当前",
+        "系统",
+        "是否"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-21.txt:5:5": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-21.txt:5:5",
+      "path": "memory/.dreams/session-corpus/2026-05-21.txt",
+      "startLine": 5,
+      "endLine": 5,
+      "source": "memory",
+      "snippet": "Assistant: TDX VM 中运行 Skill 的 Docker 容器，通过 OpenClaw 的 `exec host=sandbox` 将 skill 执行路由到 dstack 管控的 TEE 环境 | | **技术栈** | dstack (Linux Foundation) + Docker Compose + OpenClaw Sandbox + Remote Attestation | | **关键动作** | ① 部署 dstack TDX 集群 → ② 将 Skill 打包为 Docker 镜像（OCI 标准）→ ③ 配置 Ope",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-20T19:00:18.943Z",
+      "lastRecalledAt": "2026-05-20T19:00:18.943Z",
+      "queryHashes": [
+        "90ee39ac7cd8"
+      ],
+      "recallDays": [
+        "2026-05-21",
+        "2026-05-20"
+      ],
+      "conceptTags": [
+        "tdx",
+        "运行",
+        "skill",
+        "docker",
+        "容器",
+        "通过",
+        "openclaw",
+        "exec"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-21.txt:6:6": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-21.txt:6:6",
+      "path": "memory/.dreams/session-corpus/2026-05-21.txt",
+      "startLine": 6,
+      "endLine": 6,
+      "source": "memory",
+      "snippet": "Assistant: skill）→ ④ 验证 skill 是否真实运行在 TEE 中 → ⑤ 评估性能和安全边界 | | **成功率** | 80-95% | | **资源需求** | 低（云主机费用 + 2 周配置） | | **主要风险** | ⚡ PoC 离生产级还有距离，需要决定是否继续 | | **推荐** | ⭐⭐⭐ | --- ### 四、风险预警 #### ⚠️ 致命风险 1. **TDX 硬件可用性**：公有云的 TDX VM 实例有限且贵（GCP N2D 系列、Azure 特定 SKU），国内云尚无广泛支持 2. **Skill R",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-20T19:00:18.943Z",
+      "lastRecalledAt": "2026-05-20T19:00:18.943Z",
+      "queryHashes": [
+        "90ee39ac7cd8"
+      ],
+      "recallDays": [
+        "2026-05-21",
+        "2026-05-20"
+      ],
+      "conceptTags": [
+        "80-95",
+        "skill",
+        "验证",
+        "是否",
+        "真实",
+        "运行",
+        "tee",
+        "评估"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-21.txt:7:7": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-21.txt:7:7",
+      "path": "memory/.dreams/session-corpus/2026-05-21.txt",
+      "startLine": 7,
+      "endLine": 7,
+      "source": "memory",
+      "snippet": "Assistant: runtime，dstack 已经封装了 Docker-on-TDX、KMS、attestation、密钥管理，直接将 OpenClaw sandbox 指向 dstack 节点即可 3. **与 ECHO 的天然衔接**：dstack 的智能合约治理层（DstackKms/DstackApp contract）可以直接映射到 ECHO 的资产协议——Skill 的执行权、使用权由链上合约管理，attestation 作为执行证明上链 **切忌路径 A 起步**：在 TDX 生态和 OpenClaw Harness API 都不成熟",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-20T19:00:18.943Z",
+      "lastRecalledAt": "2026-05-20T19:00:18.943Z",
+      "queryHashes": [
+        "90ee39ac7cd8"
+      ],
+      "recallDays": [
+        "2026-05-21",
+        "2026-05-20"
+      ],
+      "conceptTags": [
+        "docker-on-tdx",
+        "dstackkms/dstackapp",
+        "runtime",
+        "dstack",
+        "已经",
+        "docker",
+        "tdx",
+        "kms"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-21.txt:8:8": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-21.txt:8:8",
+      "path": "memory/.dreams/session-corpus/2026-05-21.txt",
+      "startLine": 8,
+      "endLine": 8,
+      "source": "memory",
+      "snippet": "User: [message_id: om_x100b6feaf9dd70a0ee79347e8c46f13] ou_9e18438fb941decf11a0b88d78fe2b50: zai/glm-4.7-flash 这个模型是否能够正常使用",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-20T19:00:18.943Z",
+      "lastRecalledAt": "2026-05-20T19:00:18.943Z",
+      "queryHashes": [
+        "90ee39ac7cd8"
+      ],
+      "recallDays": [
+        "2026-05-21",
+        "2026-05-20"
+      ],
+      "conceptTags": [
+        "message-id",
+        "zai/glm-4.7-flash",
+        "zai",
+        "glm",
+        "4.7",
+        "flash",
+        "这个",
+        "模型"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-21.txt:9:9": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-21.txt:9:9",
+      "path": "memory/.dreams/session-corpus/2026-05-21.txt",
+      "startLine": 9,
+      "endLine": 9,
+      "source": "memory",
+      "snippet": "Assistant: 主公，关于 `zai/glm-4.7-flash` 的可用性，我查了配置，结果如下： --- ## 结论：目前无法正常使用 模型引用 `zai/glm-4.7-flash` 虽已定义在配置中，但 **缺少 API Key**，调用会直接失败。 ### 具体情况 **配置文件状态：** - `zai` provider 已配置（`api.z.ai`），但 `ZAI_API_KEY` 未设置 - `.env` 中无 `ZAI_API_KEY` 变量 - 当前运行环境也无 `ZAI_API_KEY` 环境变量 **模型定义存在：** ``",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-20T19:00:18.943Z",
+      "lastRecalledAt": "2026-05-20T19:00:18.943Z",
+      "queryHashes": [
+        "90ee39ac7cd8"
+      ],
+      "recallDays": [
+        "2026-05-21",
+        "2026-05-20"
+      ],
+      "conceptTags": [
+        "zai/glm-4.7-flash",
+        "api.z.ai",
+        "zai-api-key",
+        "主公",
+        "关于",
+        "zai",
+        "glm",
+        "4.7"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-21.txt:10:10": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-21.txt:10:10",
+      "path": "memory/.dreams/session-corpus/2026-05-21.txt",
+      "startLine": 10,
+      "endLine": 10,
+      "source": "memory",
+      "snippet": "Assistant: `ZAI_API_KEY`（`openclaw env set ZAI_API_KEY=*** 若只是要一个可用的免费 GLM 模型，当前配置中 `nvidia/z-ai/glm4.7`（GLM-4.7）可通过 NVIDIA API 调用，不需额外配 key——要试一下吗？",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-20T19:00:18.943Z",
+      "lastRecalledAt": "2026-05-20T19:00:18.943Z",
+      "queryHashes": [
+        "90ee39ac7cd8"
+      ],
+      "recallDays": [
+        "2026-05-21",
+        "2026-05-20"
+      ],
+      "conceptTags": [
+        "zai-api-key",
+        "nvidia/z-ai/glm4.7",
+        "glm-4.7",
+        "openclaw",
+        "env",
+        "set",
+        "只是",
+        "一个"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-21.txt:11:11": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-21.txt:11:11",
+      "path": "memory/.dreams/session-corpus/2026-05-21.txt",
+      "startLine": 11,
+      "endLine": 11,
+      "source": "memory",
+      "snippet": "Assistant: [assistant turn failed before producing content]",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-20T19:00:18.943Z",
+      "lastRecalledAt": "2026-05-20T19:00:18.943Z",
+      "queryHashes": [
+        "90ee39ac7cd8"
+      ],
+      "recallDays": [
+        "2026-05-21",
+        "2026-05-20"
+      ],
+      "conceptTags": [
+        "turn",
+        "failed",
+        "producing",
+        "content"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-21.txt:12:12": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-21.txt:12:12",
+      "path": "memory/.dreams/session-corpus/2026-05-21.txt",
+      "startLine": 12,
+      "endLine": 12,
+      "source": "memory",
+      "snippet": "Assistant: 主公，小夜在此。有何吩咐？",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-20T19:00:18.943Z",
+      "lastRecalledAt": "2026-05-20T19:00:18.943Z",
+      "queryHashes": [
+        "90ee39ac7cd8"
+      ],
+      "recallDays": [
+        "2026-05-21",
+        "2026-05-20"
+      ],
+      "conceptTags": [
+        "主公",
+        "小夜",
+        "在此",
+        "有何",
+        "吩咐"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-21.txt:13:13": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-21.txt:13:13",
+      "path": "memory/.dreams/session-corpus/2026-05-21.txt",
+      "startLine": 13,
+      "endLine": 13,
+      "source": "memory",
+      "snippet": "Assistant: 主公，我在。刚看了下时间，距离上次对话已过数日——最近可有什么新动向需要军师参谋？或是遇到了什么难题，不妨说来听听。",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-20T19:00:18.943Z",
+      "lastRecalledAt": "2026-05-20T19:00:18.943Z",
+      "queryHashes": [
+        "90ee39ac7cd8"
+      ],
+      "recallDays": [
+        "2026-05-21",
+        "2026-05-20"
+      ],
+      "conceptTags": [
+        "主公",
+        "我在",
+        "看了",
+        "时间",
+        "距离",
+        "上次",
+        "对话",
+        "最近"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-21.txt:14:14": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-21.txt:14:14",
+      "path": "memory/.dreams/session-corpus/2026-05-21.txt",
+      "startLine": 14,
+      "endLine": 14,
+      "source": "memory",
+      "snippet": "User: 我就是想看看微信通道正常不，刚升级到最新版openclaw",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-20T19:00:18.943Z",
+      "lastRecalledAt": "2026-05-20T19:00:18.943Z",
+      "queryHashes": [
+        "90ee39ac7cd8"
+      ],
+      "recallDays": [
+        "2026-05-21",
+        "2026-05-20"
+      ],
+      "conceptTags": [
+        "就是",
+        "想看看",
+        "通道",
+        "正常",
+        "升级",
+        "最新",
+        "openclaw"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-21.txt:15:15": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-21.txt:15:15",
+      "path": "memory/.dreams/session-corpus/2026-05-21.txt",
+      "startLine": 15,
+      "endLine": 15,
+      "source": "memory",
+      "snippet": "Assistant: 收到。微信通道一切正常，消息收发顺畅 ✅ 主公升级到最新版了，有何新功能值得留意？若需我巡览一番，随时吩咐。",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-20T19:00:18.943Z",
+      "lastRecalledAt": "2026-05-20T19:00:18.943Z",
+      "queryHashes": [
+        "90ee39ac7cd8"
+      ],
+      "recallDays": [
+        "2026-05-21",
+        "2026-05-20"
+      ],
+      "conceptTags": [
+        "收到",
+        "通道",
+        "一切",
+        "正常",
+        "消息",
+        "顺畅",
+        "主公",
+        "升级"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-21.txt:16:16": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-21.txt:16:16",
+      "path": "memory/.dreams/session-corpus/2026-05-21.txt",
+      "startLine": 16,
+      "endLine": 16,
+      "source": "memory",
+      "snippet": "User: 那你去巡览一下",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-20T19:00:18.943Z",
+      "lastRecalledAt": "2026-05-20T19:00:18.943Z",
+      "queryHashes": [
+        "90ee39ac7cd8"
+      ],
+      "recallDays": [
+        "2026-05-21",
+        "2026-05-20"
+      ],
+      "conceptTags": [
+        "一下"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-21.txt:17:17": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-21.txt:17:17",
+      "path": "memory/.dreams/session-corpus/2026-05-21.txt",
+      "startLine": 17,
+      "endLine": 17,
+      "source": "memory",
+      "snippet": "Assistant: 主公，巡览完毕。 当前运行的是 **OpenClaw v2026.5.18**（最新稳定版，5月12日之后的滚动大更），以下是关键新变化： --- **🚀 值得关注的新东西：** 1. **Control UI + Mac 应用** — 设置更快了，会话管理、日志展示、远程网关配置都做了优化 2. **实时语音升级** — Android Talk Mode 改用 Gateway 中继语音，Discord/OpenAI 实时对话可连续收听了 3. **Telegram / Discord 可靠性** — 隔离轮询、媒体投递、`/s",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-20T19:00:18.943Z",
+      "lastRecalledAt": "2026-05-20T19:00:18.943Z",
+      "queryHashes": [
+        "90ee39ac7cd8"
+      ],
+      "recallDays": [
+        "2026-05-21",
+        "2026-05-20"
+      ],
+      "conceptTags": [
+        "gateway",
+        "openai",
+        "网关",
+        "v2026.5.18",
+        "discord/openai",
+        "主公",
+        "完毕",
+        "当前"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-21.txt:18:18": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-21.txt:18:18",
+      "path": "memory/.dreams/session-corpus/2026-05-21.txt",
+      "startLine": 18,
+      "endLine": 18,
+      "source": "memory",
+      "snippet": "User: Docker新增的参数是啥",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-20T19:00:18.943Z",
+      "lastRecalledAt": "2026-05-20T19:00:18.943Z",
+      "queryHashes": [
+        "90ee39ac7cd8"
+      ],
+      "recallDays": [
+        "2026-05-21",
+        "2026-05-20"
+      ],
+      "conceptTags": [
+        "docker",
+        "新增",
+        "参数",
+        "是啥"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-21.txt:19:19": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-21.txt:19:19",
+      "path": "memory/.dreams/session-corpus/2026-05-21.txt",
+      "startLine": 19,
+      "endLine": 19,
+      "source": "memory",
+      "snippet": "Assistant: **`OPENCLAW_IMAGE_APT_PACKAGES`** — 在 Docker/Podman 构建镜像时安装额外的 apt 软件包。 **用法示例：** ```bash export OPENCLAW_IMAGE_APT_PACKAGES=\"git curl jq\" ``` **要点：** 1. 值用空格分隔 package 名，构建时自动 `apt-get install` 2. 取代了旧的 `OPENCLAW_DOCKER_APT_PACKAGES`（旧名仍兼容，但推荐用新的） 3. 只对**构建时**生效，不像 `O",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-20T19:00:18.943Z",
+      "lastRecalledAt": "2026-05-20T19:00:18.943Z",
+      "queryHashes": [
+        "90ee39ac7cd8"
+      ],
+      "recallDays": [
+        "2026-05-21",
+        "2026-05-20"
+      ],
+      "conceptTags": [
+        "openclaw-image-apt-packages",
+        "docker/podman",
+        "apt-get",
+        "openclaw-docker-apt-packages",
+        "docker",
+        "podman",
+        "安装",
+        "额外"
+      ]
+    },
+    "memory:memory/2026-05-16-1516.md:3:5": {
+      "key": "memory:memory/2026-05-16-1516.md:3:5",
+      "path": "memory/2026-05-16-1516.md",
+      "startLine": 3,
+      "endLine": 5,
+      "source": "memory",
+      "snippet": "Session: 2026-05-16 15:16:51 UTC: **Session Key**: agent:wxlee:openclaw-weixin:a23ee0675df2-im-bot:direct:o9cq802uvmveggp0xkfm4o7acdrg@im.wechat; **Session ID**: f91bf92a-0ccd-483f-b17a-a61f51c3dbab; **Source**: openclaw-weixin",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-05-20T19:00:18.943Z",
+      "lastRecalledAt": "2026-05-20T19:00:18.943Z",
+      "queryHashes": [
+        "ccfae0e39afd"
+      ],
+      "recallDays": [
+        "2026-05-21",
+        "2026-05-20"
+      ],
+      "conceptTags": [
+        "2026-05-16-1516.md",
+        "openclaw-weixin",
+        "a23ee0675df2-im-bot",
+        "im.wechat",
+        "utc",
+        "key",
+        "agent:wxlee:openclaw",
+        "weixin:a23ee0675df2"
+      ]
+    },
+    "memory:memory/2026-05-16-1516.md:9:9": {
+      "key": "memory:memory/2026-05-16-1516.md:9:9",
+      "path": "memory/2026-05-16-1516.md",
+      "startLine": 9,
+      "endLine": 9,
+      "source": "memory",
+      "snippet": "Conversation Summary: user: Conversation info (untrusted metadata):",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-05-20T19:00:18.943Z",
+      "lastRecalledAt": "2026-05-20T19:00:18.943Z",
+      "queryHashes": [
+        "ccfae0e39afd"
+      ],
+      "recallDays": [
+        "2026-05-21",
+        "2026-05-20"
+      ],
+      "conceptTags": [
+        "2026-05-16-1516.md",
+        "conversation",
+        "summary",
+        "info",
+        "untrusted",
+        "metadata"
+      ]
+    },
+    "memory:memory/2026-05-16-1516.md:12:14": {
+      "key": "memory:memory/2026-05-16-1516.md:12:14",
+      "path": "memory/2026-05-16-1516.md",
+      "startLine": 12,
+      "endLine": 14,
+      "source": "memory",
+      "snippet": "Conversation Summary: \"chat_id\": \"o9cq802UVmvEGGP0xkFm4O7AcdRg@im.wechat\", \"message_id\": \"openclaw-weixin:1778943752330-5b3081ea\", \"timestamp\": \"Sat 2026-05-16 15:02 UTC\"",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-05-20T19:00:18.943Z",
+      "lastRecalledAt": "2026-05-20T19:00:18.943Z",
+      "queryHashes": [
+        "ccfae0e39afd"
+      ],
+      "recallDays": [
+        "2026-05-21",
+        "2026-05-20"
+      ],
+      "conceptTags": [
+        "2026-05-16-1516.md",
+        "chat-id",
+        "im.wechat",
+        "message-id",
+        "openclaw-weixin",
+        "1778943752330-5b3081ea",
+        "conversation",
+        "summary"
+      ]
+    },
+    "memory:memory/2026-05-16-1516.md:19:19": {
+      "key": "memory:memory/2026-05-16-1516.md:19:19",
+      "path": "memory/2026-05-16-1516.md",
+      "startLine": 19,
+      "endLine": 19,
+      "source": "memory",
+      "snippet": "Conversation Summary: assistant: 主公，我在。",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-05-20T19:00:18.943Z",
+      "lastRecalledAt": "2026-05-20T19:00:18.943Z",
+      "queryHashes": [
+        "ccfae0e39afd"
+      ],
+      "recallDays": [
+        "2026-05-21",
+        "2026-05-20"
+      ],
+      "conceptTags": [
+        "2026-05-16-1516.md",
+        "conversation",
+        "summary",
+        "主公",
+        "我在"
+      ]
+    },
+    "memory:memory/2026-05-16-1516.md:21:23": {
+      "key": "memory:memory/2026-05-16-1516.md:21:23",
+      "path": "memory/2026-05-16-1516.md",
+      "startLine": 21,
+      "endLine": 23,
+      "source": "memory",
+      "snippet": "Conversation Summary: 看时间，你那儿已是深夜（UTC+8 23:02）。深夜唤我，是有要事相商，还是只是打个招呼？ user: 小夜小夜 assistant: 主公，我在。",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-05-20T19:00:18.943Z",
+      "lastRecalledAt": "2026-05-20T19:00:18.943Z",
+      "queryHashes": [
+        "ccfae0e39afd"
+      ],
+      "recallDays": [
+        "2026-05-21",
+        "2026-05-20"
+      ],
+      "conceptTags": [
+        "2026-05-16-1516.md",
+        "conversation",
+        "summary",
+        "时间",
+        "那儿",
+        "已是",
+        "深夜",
+        "utc"
+      ]
+    },
+    "memory:memory/2026-05-16-1516.md:25:26": {
+      "key": "memory:memory/2026-05-16-1516.md:25:26",
+      "path": "memory/2026-05-16-1516.md",
+      "startLine": 25,
+      "endLine": 26,
+      "source": "memory",
+      "snippet": "Conversation Summary: 看时间，你那儿已是深夜（UTC+8 23:02）。深夜唤我，是有要事相商，还是只是打个招呼？ user: Conversation info (untrusted metadata):",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-05-20T19:00:18.943Z",
+      "lastRecalledAt": "2026-05-20T19:00:18.943Z",
+      "queryHashes": [
+        "ccfae0e39afd"
+      ],
+      "recallDays": [
+        "2026-05-21",
+        "2026-05-20"
+      ],
+      "conceptTags": [
+        "2026-05-16-1516.md",
+        "conversation",
+        "summary",
+        "时间",
+        "那儿",
+        "已是",
+        "深夜",
+        "utc"
+      ]
+    },
+    "memory:memory/2026-05-16-1516.md:29:31": {
+      "key": "memory:memory/2026-05-16-1516.md:29:31",
+      "path": "memory/2026-05-16-1516.md",
+      "startLine": 29,
+      "endLine": 31,
+      "source": "memory",
+      "snippet": "Conversation Summary: \"chat_id\": \"o9cq802UVmvEGGP0xkFm4O7AcdRg@im.wechat\", \"message_id\": \"openclaw-weixin:1778943901960-100768f1\", \"timestamp\": \"Sat 2026-05-16 15:05 UTC\"",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-05-20T19:00:18.943Z",
+      "lastRecalledAt": "2026-05-20T19:00:18.943Z",
+      "queryHashes": [
+        "ccfae0e39afd"
+      ],
+      "recallDays": [
+        "2026-05-21",
+        "2026-05-20"
+      ],
+      "conceptTags": [
+        "2026-05-16-1516.md",
+        "chat-id",
+        "im.wechat",
+        "message-id",
+        "openclaw-weixin",
+        "1778943901960-100768f1",
+        "conversation",
+        "summary"
+      ]
+    },
+    "memory:memory/2026-05-16-1516.md:35:36": {
+      "key": "memory:memory/2026-05-16-1516.md:35:36",
+      "path": "memory/2026-05-16-1516.md",
+      "startLine": 35,
+      "endLine": 36,
+      "source": "memory",
+      "snippet": "Conversation Summary: 我是想让你看看，飞书通道好像有点哑火了，被限流了似的 assistant: 找到症结了。看日志一目了然——飞书通道的 ping/heartbeat 请求被 Lark API 限流了，持续返回 **HTTP 429 (Too Many Requests)**。",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-05-20T19:00:18.943Z",
+      "lastRecalledAt": "2026-05-20T19:00:18.943Z",
+      "queryHashes": [
+        "ccfae0e39afd"
+      ],
+      "recallDays": [
+        "2026-05-21",
+        "2026-05-20"
+      ],
+      "conceptTags": [
+        "2026-05-16-1516.md",
+        "ping/heartbeat",
+        "conversation",
+        "summary",
+        "我是",
+        "看看",
+        "通道",
+        "好像"
+      ]
+    },
+    "memory:memory/2026-05-16-1516.md:38:39": {
+      "key": "memory:memory/2026-05-16-1516.md:38:39",
+      "path": "memory/2026-05-16-1516.md",
+      "startLine": 38,
+      "endLine": 39,
+      "source": "memory",
+      "snippet": "Conversation Summary: 让我进一步查清楚限制的来源和可调 user: Conversation info (untrusted metadata):",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-05-20T19:00:18.943Z",
+      "lastRecalledAt": "2026-05-20T19:00:18.943Z",
+      "queryHashes": [
+        "ccfae0e39afd"
+      ],
+      "recallDays": [
+        "2026-05-21",
+        "2026-05-20"
+      ],
+      "conceptTags": [
+        "2026-05-16-1516.md",
+        "conversation",
+        "summary",
+        "进一步",
+        "清楚",
+        "限制",
+        "来源",
+        "info"
+      ]
+    },
+    "memory:memory/2026-05-16-1516.md:42:44": {
+      "key": "memory:memory/2026-05-16-1516.md:42:44",
+      "path": "memory/2026-05-16-1516.md",
+      "startLine": 42,
+      "endLine": 44,
+      "source": "memory",
+      "snippet": "Conversation Summary: \"chat_id\": \"o9cq802UVmvEGGP0xkFm4O7AcdRg@im.wechat\", \"message_id\": \"openclaw-weixin:1778943901960-100768f1\", \"timestamp\": \"Sat 2026-05-16 15:05 UTC\"",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-05-20T19:00:18.943Z",
+      "lastRecalledAt": "2026-05-20T19:00:18.943Z",
+      "queryHashes": [
+        "ccfae0e39afd"
+      ],
+      "recallDays": [
+        "2026-05-21",
+        "2026-05-20"
+      ],
+      "conceptTags": [
+        "2026-05-16-1516.md",
+        "chat-id",
+        "im.wechat",
+        "message-id",
+        "openclaw-weixin",
+        "1778943901960-100768f1",
+        "conversation",
+        "summary"
+      ]
+    },
+    "memory:memory/2026-05-16-1516.md:48:49": {
+      "key": "memory:memory/2026-05-16-1516.md:48:49",
+      "path": "memory/2026-05-16-1516.md",
+      "startLine": 48,
+      "endLine": 49,
+      "source": "memory",
+      "snippet": "Conversation Summary: 我是想让你看看，飞书通道好像有点哑火了，被限流了似的 user: Conversation info (untrusted metadata):",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-05-20T19:00:18.943Z",
+      "lastRecalledAt": "2026-05-20T19:00:18.943Z",
+      "queryHashes": [
+        "ccfae0e39afd"
+      ],
+      "recallDays": [
+        "2026-05-21",
+        "2026-05-20"
+      ],
+      "conceptTags": [
+        "2026-05-16-1516.md",
+        "conversation",
+        "summary",
+        "我是",
+        "看看",
+        "通道",
+        "好像",
+        "有点"
+      ]
+    },
+    "memory:memory/2026-05-16-1516.md:52:54": {
+      "key": "memory:memory/2026-05-16-1516.md:52:54",
+      "path": "memory/2026-05-16-1516.md",
+      "startLine": 52,
+      "endLine": 54,
+      "source": "memory",
+      "snippet": "Conversation Summary: \"chat_id\": \"o9cq802UVmvEGGP0xkFm4O7AcdRg@im.wechat\", \"message_id\": \"openclaw-weixin:1778943901960-100768f1\", \"timestamp\": \"Sat 2026-05-16 15:05 UTC\"",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-05-20T19:00:18.943Z",
+      "lastRecalledAt": "2026-05-20T19:00:18.943Z",
+      "queryHashes": [
+        "ccfae0e39afd"
+      ],
+      "recallDays": [
+        "2026-05-21",
+        "2026-05-20"
+      ],
+      "conceptTags": [
+        "2026-05-16-1516.md",
+        "chat-id",
+        "im.wechat",
+        "message-id",
+        "openclaw-weixin",
+        "1778943901960-100768f1",
+        "conversation",
+        "summary"
+      ]
+    },
+    "memory:memory/2026-05-16-1516.md:58:59": {
+      "key": "memory:memory/2026-05-16-1516.md:58:59",
+      "path": "memory/2026-05-16-1516.md",
+      "startLine": 58,
+      "endLine": 59,
+      "source": "memory",
+      "snippet": "Conversation Summary: 我是想让你看看，飞书通道好像有点哑火了，被限流了似的 user: 我是想让你看看，飞书通道好像有点哑火了，被限流了似的",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-05-20T19:00:18.943Z",
+      "lastRecalledAt": "2026-05-20T19:00:18.943Z",
+      "queryHashes": [
+        "ccfae0e39afd"
+      ],
+      "recallDays": [
+        "2026-05-21",
+        "2026-05-20"
+      ],
+      "conceptTags": [
+        "2026-05-16-1516.md",
+        "conversation",
+        "summary",
+        "我是",
+        "看看",
+        "通道",
+        "好像",
+        "有点"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-18.txt:44:44": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-18.txt:44:44",
+      "path": "memory/.dreams/session-corpus/2026-05-18.txt",
+      "startLine": 44,
+      "endLine": 44,
+      "source": "memory",
+      "snippet": "User: 你能识别前面的图片把",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-20T19:00:18.943Z",
+      "lastRecalledAt": "2026-05-20T19:00:18.943Z",
+      "queryHashes": [
+        "cda70fe5512d"
+      ],
+      "recallDays": [
+        "2026-05-21",
+        "2026-05-20"
+      ],
+      "conceptTags": [
+        "识别",
+        "前面",
+        "图片"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-18.txt:45:45": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-18.txt:45:45",
+      "path": "memory/.dreams/session-corpus/2026-05-18.txt",
+      "startLine": 45,
+      "endLine": 45,
+      "source": "memory",
+      "snippet": "User: 我识别了内容，你给我做成表格 工资发放表 序 姓名 身份证号 卡号 开户行 应发工资 (元) 实发工资 联系电话 签字 1 胡军 510821199505165318 6212262309006758828 工行广鼓楼支行 10000元 张悦斌510824198603056531 6215683100026750240中国银行广元分行 5000元 彭海冰 510824198808046265 6228482869610061174 农行芳溪东溪支行 5000元 4 刘国波 610726200305165415 6217004400026962",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-20T19:00:18.943Z",
+      "lastRecalledAt": "2026-05-20T19:00:18.943Z",
+      "queryHashes": [
+        "cda70fe5512d"
+      ],
+      "recallDays": [
+        "2026-05-21",
+        "2026-05-20"
+      ],
+      "conceptTags": [
+        "识别",
+        "内容",
+        "做成",
+        "表格",
+        "工资",
+        "发放",
+        "姓名",
+        "身份"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-18.txt:46:46": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-18.txt:46:46",
+      "path": "memory/.dreams/session-corpus/2026-05-18.txt",
+      "startLine": 46,
+      "endLine": 46,
+      "source": "memory",
+      "snippet": "User: 62359926007034070 0000元 15 董朝军 510821108708275336 62359926007034054 青海银行正助支行 15000元 1617 合计：135000元 号",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-20T19:00:18.943Z",
+      "lastRecalledAt": "2026-05-20T19:00:18.943Z",
+      "queryHashes": [
+        "cda70fe5512d"
+      ],
+      "recallDays": [
+        "2026-05-21",
+        "2026-05-20"
+      ],
+      "conceptTags": [
+        "青海",
+        "银行",
+        "合计"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-18.txt:47:47": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-18.txt:47:47",
+      "path": "memory/.dreams/session-corpus/2026-05-18.txt",
+      "startLine": 47,
+      "endLine": 47,
+      "source": "memory",
+      "snippet": "Assistant: 收到！马上为您生成电子表格。",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-20T19:00:18.943Z",
+      "lastRecalledAt": "2026-05-20T19:00:18.943Z",
+      "queryHashes": [
+        "cda70fe5512d"
+      ],
+      "recallDays": [
+        "2026-05-21",
+        "2026-05-20"
+      ],
+      "conceptTags": [
+        "收到",
+        "马上",
+        "生成",
+        "电子",
+        "表格"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-18.txt:48:48": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-18.txt:48:48",
+      "path": "memory/.dreams/session-corpus/2026-05-18.txt",
+      "startLine": 48,
+      "endLine": 48,
+      "source": "memory",
+      "snippet": "Assistant: 主公，表格已生成！不过合计金额对不上，帮您看看： **核对结果：** | 序号 | 姓名 | 应发工资 | |:---:|:----:|:--------:| | 1 | 胡军 | 10,000 | | 2 | 张悦斌 | 5,000 | | 3 | 彭海冰 | 5,000 | | 4 | 刘国波 | 10,000 | | 5 | 王开生 | **1,000** | | 6 | 杨文 | **5,000** | | 7 | 李成洪 | 10,000 | | 8 | 刘加俊 | 10,000 | | 9 | 唐仕斌 | 10,000",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-20T19:00:18.943Z",
+      "lastRecalledAt": "2026-05-20T19:00:18.943Z",
+      "queryHashes": [
+        "cda70fe5512d"
+      ],
+      "recallDays": [
+        "2026-05-21",
+        "2026-05-20"
+      ],
+      "conceptTags": [
+        "主公",
+        "表格",
+        "生成",
+        "不过",
+        "合计",
+        "金额",
+        "不上",
+        "看看"
       ]
     }
   }

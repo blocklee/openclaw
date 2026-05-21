@@ -10,3 +10,4 @@
 [lucus/sessions/8765796b-ff42-48af-8149-df835bfff80a.jsonl#L46] Assistant: ✅ 配置文件已更新。备份已保存到 `~/.openclaw/openclaw.json.backup-时间戳` **变更摘要：** | 项目 | 旧值 | 新值 | |------|------|------| | **main.appId** | `cli_a9243f0855b89e1b` | `cli_aa8198b425389cef` | | **main.appSecret** | `YpMh4x...` | `k0S58Id...` | | **main.domain** | (无) | `feishu` | | **f
 [lucus/sessions/8765796b-ff42-48af-8149-df835bfff80a.jsonl#L63] User: [message_id: om_x100b6f8714996f84eea67ea7bfe03a0] ou_cb5c7afa7e77cafdeaeae1620a2a383a: 你做的很好
 [lucus/sessions/8765796b-ff42-48af-8149-df835bfff80a.jsonl#L64] Assistant: 谢谢！有问题随时叫我 👋
+[lucus/sessions/lucus/8765796b-ff42-48af-8149-df835bfff80a.jsonl.reset.2026-05-20T15-42-36.410Z#L31] User: "reactionNotifications": "own" }, "openclaw-weixin": { "channelConfigUpdatedAt": "2026-04-27T06:04:52.593Z", "enabled": true } },
