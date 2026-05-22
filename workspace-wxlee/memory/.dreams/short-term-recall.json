@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-05-20T19:00:21.751Z",
+  "updatedAt": "2026-05-21T19:00:24.813Z",
   "entries": {
     "memory:memory/2026-04-12.md:6:6": {
       "key": "memory:memory/2026-04-12.md:6:6",
@@ -10664,18 +10664,19 @@
       "source": "memory",
       "snippet": "Session: 2026-05-18 15:55:51 UTC: **Session Key**: agent:wxlee:openclaw-weixin:a23ee0675df2-im-bot:direct:o9cq802uvmveggp0xkfm4o7acdrg@im.wechat; **Session ID**: f9445f93-ead6-491f-beca-64e3dffbe10b; **Source**: openclaw-weixin",
       "recallCount": 0,
-      "dailyCount": 1,
+      "dailyCount": 2,
       "groundedCount": 0,
-      "totalScore": 0.62,
+      "totalScore": 1.24,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-05-20T19:00:18.943Z",
-      "lastRecalledAt": "2026-05-20T19:00:18.943Z",
+      "lastRecalledAt": "2026-05-21T19:00:24.365Z",
       "queryHashes": [
         "f2bd5daba4fc"
       ],
       "recallDays": [
         "2026-05-21",
-        "2026-05-20"
+        "2026-05-20",
+        "2026-05-22"
       ],
       "conceptTags": [
         "2026-05-18-payroll-ocr.md",
@@ -10696,18 +10697,19 @@
       "source": "memory",
       "snippet": "Conversation Summary: assistant: 主公稍等，我再试试 assistant: 好多了！这次识别效果提升不少。让我把数据整理出来 assistant: 好，综合两次 OCR 结果，我整理出一份表格。由于是手写体，部分姓名和号码可能有识别误差，请核对。",
       "recallCount": 0,
-      "dailyCount": 1,
+      "dailyCount": 2,
       "groundedCount": 0,
-      "totalScore": 0.62,
+      "totalScore": 1.24,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-05-20T19:00:18.943Z",
-      "lastRecalledAt": "2026-05-20T19:00:18.943Z",
+      "lastRecalledAt": "2026-05-21T19:00:24.365Z",
       "queryHashes": [
         "f2bd5daba4fc"
       ],
       "recallDays": [
         "2026-05-21",
-        "2026-05-20"
+        "2026-05-20",
+        "2026-05-22"
       ],
       "conceptTags": [
         "2026-05-18-payroll-ocr.md",
@@ -10728,18 +10730,19 @@
       "source": "memory",
       "snippet": "Conversation Summary: assistant: 主公，已整理完毕！以下是电子版工资表。但手写体 OCR 识别质量有限，**请务必逐行核对**，红色标记为高度不确定字段。",
       "recallCount": 0,
-      "dailyCount": 1,
+      "dailyCount": 2,
       "groundedCount": 0,
-      "totalScore": 0.62,
+      "totalScore": 1.24,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-05-20T19:00:18.943Z",
-      "lastRecalledAt": "2026-05-20T19:00:18.943Z",
+      "lastRecalledAt": "2026-05-21T19:00:24.365Z",
       "queryHashes": [
         "f2bd5daba4fc"
       ],
       "recallDays": [
         "2026-05-21",
-        "2026-05-20"
+        "2026-05-20",
+        "2026-05-22"
       ],
       "conceptTags": [
         "2026-05-18-payroll-ocr.md",
@@ -10760,18 +10763,19 @@
       "source": "memory",
       "snippet": "工资发放表（汇总）: | # | 姓名 | 应发工资 | 卡号 | 开户行 | |---|------|---------|------|--------| | 1 | 胡条 ⚠️ | 10,000 | 6212***50822 | 工行鼓楼支行 | | 2 | 张小之 ⚠️ | 5,000 | 6215***50240 | 中国银行 |",
       "recallCount": 0,
-      "dailyCount": 1,
+      "dailyCount": 2,
       "groundedCount": 0,
-      "totalScore": 0.62,
+      "totalScore": 1.24,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-05-20T19:00:18.943Z",
-      "lastRecalledAt": "2026-05-20T19:00:18.943Z",
+      "lastRecalledAt": "2026-05-21T19:00:24.365Z",
       "queryHashes": [
         "f2bd5daba4fc"
       ],
       "recallDays": [
         "2026-05-21",
-        "2026-05-20"
+        "2026-05-20",
+        "2026-05-22"
       ],
       "conceptTags": [
         "2026-05-18-payroll-ocr.md",
@@ -10792,18 +10796,19 @@
       "source": "memory",
       "snippet": "工资发放表（汇总）: | 3 | 彭海冰 | 5,000 | 6228***06674 | 中国银行 | | 4 | 刘国波 | 10,000 | 6217***62458 | 建行乐都支行 | | 5 | 王开生 ⚠️ | 5,000 | 6217***96226 | 汉中市西孙路支行 | | 6 | 杨万文 ⚠️ | 10,000 | 6222***64891 | 中国银行油城支行 |",
       "recallCount": 0,
-      "dailyCount": 1,
+      "dailyCount": 2,
       "groundedCount": 0,
-      "totalScore": 0.62,
+      "totalScore": 1.24,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-05-20T19:00:18.943Z",
-      "lastRecalledAt": "2026-05-20T19:00:18.943Z",
+      "lastRecalledAt": "2026-05-21T19:00:24.365Z",
       "queryHashes": [
         "f2bd5daba4fc"
       ],
       "recallDays": [
         "2026-05-21",
-        "2026-05-20"
+        "2026-05-20",
+        "2026-05-22"
       ],
       "conceptTags": [
         "2026-05-18-payroll-ocr.md",
@@ -10824,18 +10829,19 @@
       "source": "memory",
       "snippet": "工资发放表（汇总）: | 7 | 李成洪 ⚠️ | 10,000 | 6235***34047 | 青海银行互助支行 | | 8 | 刘加俊 | 10,000 | 6235***34120 | | | 9 | 唐仕之 ⚠️ | 10,000 | 6235***96553 | | | 10 | 姜朝李 ⚠️ | 10,000 | 6235***703412 | |",
       "recallCount": 0,
-      "dailyCount": 1,
+      "dailyCount": 2,
       "groundedCount": 0,
-      "totalScore": 0.62,
+      "totalScore": 1.24,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-05-20T19:00:18.943Z",
-      "lastRecalledAt": "2026-05-20T19:00:18.943Z",
+      "lastRecalledAt": "2026-05-21T19:00:24.365Z",
       "queryHashes": [
         "f2bd5daba4fc"
       ],
       "recallDays": [
         "2026-05-21",
-        "2026-05-20"
+        "2026-05-20",
+        "2026-05-22"
       ],
       "conceptTags": [
         "2026-05-18-payroll-ocr.md",
@@ -10856,18 +10862,19 @@
       "source": "memory",
       "snippet": "工资发放表（汇总）: | 11 | 房泽 ⚠️ | 10,000 | 6235***34144 | | | 12 | 唐蓉 | 10,000 | 6235***340b2 | | | 13 | 刘顺 | 10,000 | 6235***34095 | | | 14 | 唐俊 | 5,000 ⚠️ | 6235***34070 | |",
       "recallCount": 0,
-      "dailyCount": 1,
+      "dailyCount": 2,
       "groundedCount": 0,
-      "totalScore": 0.62,
+      "totalScore": 1.24,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-05-20T19:00:18.943Z",
-      "lastRecalledAt": "2026-05-20T19:00:18.943Z",
+      "lastRecalledAt": "2026-05-21T19:00:24.365Z",
       "queryHashes": [
         "f2bd5daba4fc"
       ],
       "recallDays": [
         "2026-05-21",
-        "2026-05-20"
+        "2026-05-20",
+        "2026-05-22"
       ],
       "conceptTags": [
         "2026-05-18-payroll-ocr.md",
@@ -10888,18 +10895,19 @@
       "source": "memory",
       "snippet": "工资发放表（汇总）: | 15 | 祁朝军 ⚠️ | 15,000 | 6235***34054 | 青海银行互助支行 | | **合计** | | **135,000** | | |",
       "recallCount": 0,
-      "dailyCount": 1,
+      "dailyCount": 2,
       "groundedCount": 0,
-      "totalScore": 0.62,
+      "totalScore": 1.24,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-05-20T19:00:18.943Z",
-      "lastRecalledAt": "2026-05-20T19:00:18.943Z",
+      "lastRecalledAt": "2026-05-21T19:00:24.365Z",
       "queryHashes": [
         "f2bd5daba4fc"
       ],
       "recallDays": [
         "2026-05-21",
-        "2026-05-20"
+        "2026-05-20",
+        "2026-05-22"
       ],
       "conceptTags": [
         "2026-05-18-payroll-ocr.md",
@@ -10920,18 +10928,19 @@
       "source": "memory",
       "snippet": "工资发放表（汇总）: ⚠️ 标记说明：",
       "recallCount": 0,
-      "dailyCount": 1,
+      "dailyCount": 2,
       "groundedCount": 0,
-      "totalScore": 0.62,
+      "totalScore": 1.24,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-05-20T19:00:18.943Z",
-      "lastRecalledAt": "2026-05-20T19:00:18.943Z",
+      "lastRecalledAt": "2026-05-21T19:00:24.365Z",
       "queryHashes": [
         "f2bd5daba4fc"
       ],
       "recallDays": [
         "2026-05-21",
-        "2026-05-20"
+        "2026-05-20",
+        "2026-05-22"
       ],
       "conceptTags": [
         "2026-05-18-payroll-ocr.md",
@@ -10951,18 +10960,19 @@
       "source": "memory",
       "snippet": "工资发放表（汇总）: **姓名**：手写体识别不准，如\"胡条\"可能是\"胡某\"、\"姜朝李/薑朝李/蓬朝苓\"、\"房泽/廊泽\"、\"祁朝军/革朝案/室朝军\"、\"杨万文/办万文迷/奶万文迷\"等; **唐俊工资**：OCR 读出为\"0000\"，但合计135,000需为5000; **身份证号/卡号**：部分字符（g/l/b/0/O混淆）需要人工核对原图",
       "recallCount": 0,
-      "dailyCount": 1,
+      "dailyCount": 2,
       "groundedCount": 0,
-      "totalScore": 0.62,
+      "totalScore": 1.24,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-05-20T19:00:18.943Z",
-      "lastRecalledAt": "2026-05-20T19:00:18.943Z",
+      "lastRecalledAt": "2026-05-21T19:00:24.365Z",
       "queryHashes": [
         "f2bd5daba4fc"
       ],
       "recallDays": [
         "2026-05-21",
-        "2026-05-20"
+        "2026-05-20",
+        "2026-05-22"
       ],
       "conceptTags": [
         "2026-05-18-payroll-ocr.md",
@@ -10983,18 +10993,19 @@
       "source": "memory",
       "snippet": "工资发放表（汇总）: **CSV文件已保存**至工作区：`工资发放表_2026.csv`",
       "recallCount": 0,
-      "dailyCount": 1,
+      "dailyCount": 2,
       "groundedCount": 0,
-      "totalScore": 0.62,
+      "totalScore": 1.24,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-05-20T19:00:18.943Z",
-      "lastRecalledAt": "2026-05-20T19:00:18.943Z",
+      "lastRecalledAt": "2026-05-21T19:00:24.365Z",
       "queryHashes": [
         "f2bd5daba4fc"
       ],
       "recallDays": [
         "2026-05-21",
-        "2026-05-20"
+        "2026-05-20",
+        "2026-05-22"
       ],
       "conceptTags": [
         "2026-05-18-payroll-ocr.md",
@@ -11015,18 +11026,19 @@
       "source": "memory",
       "snippet": "工资发放表（汇总）: **建议下一步：** 如果您能快速把图中15个名字逐行发我，我可以立即修正成准确版本，省去逐字核对。 user: 你能识别前面的图片把 assistant: 主公稍等，我再试试 assistant: 好多了！这次识别效果提升不少。让我把数据整理出来",
       "recallCount": 0,
-      "dailyCount": 1,
+      "dailyCount": 2,
       "groundedCount": 0,
-      "totalScore": 0.62,
+      "totalScore": 1.24,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-05-20T19:00:18.943Z",
-      "lastRecalledAt": "2026-05-20T19:00:18.943Z",
+      "lastRecalledAt": "2026-05-21T19:00:24.365Z",
       "queryHashes": [
         "f2bd5daba4fc"
       ],
       "recallDays": [
         "2026-05-21",
-        "2026-05-20"
+        "2026-05-20",
+        "2026-05-22"
       ],
       "conceptTags": [
         "2026-05-18-payroll-ocr.md",
@@ -11047,18 +11059,19 @@
       "source": "memory",
       "snippet": "工资发放表（汇总）: assistant: 好，综合两次 OCR 结果，我整理出一份表格。由于是手写体，部分姓名和号码可能有识别误差，请核对。",
       "recallCount": 0,
-      "dailyCount": 1,
+      "dailyCount": 2,
       "groundedCount": 0,
-      "totalScore": 0.62,
+      "totalScore": 1.24,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-05-20T19:00:18.943Z",
-      "lastRecalledAt": "2026-05-20T19:00:18.943Z",
+      "lastRecalledAt": "2026-05-21T19:00:24.365Z",
       "queryHashes": [
         "f2bd5daba4fc"
       ],
       "recallDays": [
         "2026-05-21",
-        "2026-05-20"
+        "2026-05-20",
+        "2026-05-22"
       ],
       "conceptTags": [
         "2026-05-18-payroll-ocr.md",
@@ -11079,18 +11092,19 @@
       "source": "memory",
       "snippet": "工资发放表（汇总）: assistant: 主公，已整理完毕！以下是电子版工资表。但手写体 OCR 识别质量有限，**请务必逐行核对**，红色标记为高度不确定字段。",
       "recallCount": 0,
-      "dailyCount": 1,
+      "dailyCount": 2,
       "groundedCount": 0,
-      "totalScore": 0.62,
+      "totalScore": 1.24,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-05-20T19:00:18.943Z",
-      "lastRecalledAt": "2026-05-20T19:00:18.943Z",
+      "lastRecalledAt": "2026-05-21T19:00:24.365Z",
       "queryHashes": [
         "f2bd5daba4fc"
       ],
       "recallDays": [
         "2026-05-21",
-        "2026-05-20"
+        "2026-05-20",
+        "2026-05-22"
       ],
       "conceptTags": [
         "2026-05-18-payroll-ocr.md",
@@ -11111,18 +11125,19 @@
       "source": "memory",
       "snippet": "工资发放表（汇总）: | # | 姓名 | 应发工资 | 卡号 | 开户行 | |---|------|---------|------|--------| | 1 | 胡条 ⚠️ | 10,000 | 6212***50822 | 工行鼓楼支行 | | 2 | 张小之 ⚠️ | 5,000 | 6215***50240 | 中国银行 |",
       "recallCount": 0,
-      "dailyCount": 1,
+      "dailyCount": 2,
       "groundedCount": 0,
-      "totalScore": 0.62,
+      "totalScore": 1.24,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-05-20T19:00:18.943Z",
-      "lastRecalledAt": "2026-05-20T19:00:18.943Z",
+      "lastRecalledAt": "2026-05-21T19:00:24.365Z",
       "queryHashes": [
         "f2bd5daba4fc"
       ],
       "recallDays": [
         "2026-05-21",
-        "2026-05-20"
+        "2026-05-20",
+        "2026-05-22"
       ],
       "conceptTags": [
         "2026-05-18-payroll-ocr.md",
@@ -11143,18 +11158,19 @@
       "source": "memory",
       "snippet": "工资发放表（汇总）: | 3 | 彭海冰 | 5,000 | 6228***06674 | 中国银行 | | 4 | 刘国波 | 10,000 | 6217***62458 | 建行乐都支行 | | 5 | 王开生 ⚠️ | 5,000 | 6217***96226 | 汉中市西孙路支行 | | 6 | 杨万文 ⚠️ | 10,000 | 6222***64891 | 中国银行油城支行 |",
       "recallCount": 0,
-      "dailyCount": 1,
+      "dailyCount": 2,
       "groundedCount": 0,
-      "totalScore": 0.62,
+      "totalScore": 1.24,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-05-20T19:00:18.943Z",
-      "lastRecalledAt": "2026-05-20T19:00:18.943Z",
+      "lastRecalledAt": "2026-05-21T19:00:24.365Z",
       "queryHashes": [
         "f2bd5daba4fc"
       ],
       "recallDays": [
         "2026-05-21",
-        "2026-05-20"
+        "2026-05-20",
+        "2026-05-22"
       ],
       "conceptTags": [
         "2026-05-18-payroll-ocr.md",
@@ -11175,18 +11191,19 @@
       "source": "memory",
       "snippet": "工资发放表（汇总）: | 7 | 李成洪 ⚠️ | 10,000 | 6235***34047 | 青海银行互助支行 | | 8 | 刘加俊 | 10,000 | 6235***34120 | | | 9 | 唐仕之 ⚠️ | 10,000 | 6235***96553 | | | 10 | 姜朝李 ⚠️ | 10,000 | 6235***703412 | |",
       "recallCount": 0,
-      "dailyCount": 1,
+      "dailyCount": 2,
       "groundedCount": 0,
-      "totalScore": 0.62,
+      "totalScore": 1.24,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-05-20T19:00:18.943Z",
-      "lastRecalledAt": "2026-05-20T19:00:18.943Z",
+      "lastRecalledAt": "2026-05-21T19:00:24.365Z",
       "queryHashes": [
         "f2bd5daba4fc"
       ],
       "recallDays": [
         "2026-05-21",
-        "2026-05-20"
+        "2026-05-20",
+        "2026-05-22"
       ],
       "conceptTags": [
         "2026-05-18-payroll-ocr.md",
@@ -11207,18 +11224,19 @@
       "source": "memory",
       "snippet": "工资发放表（汇总）: | 11 | 房泽 ⚠️ | 10,000 | 6235***34144 | | | 12 | 唐蓉 | 10,000 | 6235***340b2 | | | 13 | 刘顺 | 10,000 | 6235***34095 | | | 14 | 唐俊 | 5,000 ⚠️ | 6235***34070 | |",
       "recallCount": 0,
-      "dailyCount": 1,
+      "dailyCount": 2,
       "groundedCount": 0,
-      "totalScore": 0.62,
+      "totalScore": 1.24,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-05-20T19:00:18.943Z",
-      "lastRecalledAt": "2026-05-20T19:00:18.943Z",
+      "lastRecalledAt": "2026-05-21T19:00:24.365Z",
       "queryHashes": [
         "f2bd5daba4fc"
       ],
       "recallDays": [
         "2026-05-21",
-        "2026-05-20"
+        "2026-05-20",
+        "2026-05-22"
       ],
       "conceptTags": [
         "2026-05-18-payroll-ocr.md",
@@ -11239,18 +11257,19 @@
       "source": "memory",
       "snippet": "工资发放表（汇总）: | 15 | 祁朝军 ⚠️ | 15,000 | 6235***34054 | 青海银行互助支行 | | **合计** | | **135,000** | | |",
       "recallCount": 0,
-      "dailyCount": 1,
+      "dailyCount": 2,
       "groundedCount": 0,
-      "totalScore": 0.62,
+      "totalScore": 1.24,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-05-20T19:00:18.943Z",
-      "lastRecalledAt": "2026-05-20T19:00:18.943Z",
+      "lastRecalledAt": "2026-05-21T19:00:24.365Z",
       "queryHashes": [
         "f2bd5daba4fc"
       ],
       "recallDays": [
         "2026-05-21",
-        "2026-05-20"
+        "2026-05-20",
+        "2026-05-22"
       ],
       "conceptTags": [
         "2026-05-18-payroll-ocr.md",
@@ -11271,18 +11290,19 @@
       "source": "memory",
       "snippet": "工资发放表（汇总）: ⚠️ 标记说明：",
       "recallCount": 0,
-      "dailyCount": 1,
+      "dailyCount": 2,
       "groundedCount": 0,
-      "totalScore": 0.62,
+      "totalScore": 1.24,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-05-20T19:00:18.943Z",
-      "lastRecalledAt": "2026-05-20T19:00:18.943Z",
+      "lastRecalledAt": "2026-05-21T19:00:24.365Z",
       "queryHashes": [
         "f2bd5daba4fc"
       ],
       "recallDays": [
         "2026-05-21",
-        "2026-05-20"
+        "2026-05-20",
+        "2026-05-22"
       ],
       "conceptTags": [
         "2026-05-18-payroll-ocr.md",
@@ -13597,18 +13617,19 @@
       "source": "memory",
       "snippet": "Session: 2026-05-16 15:16:51 UTC: **Session Key**: agent:wxlee:openclaw-weixin:a23ee0675df2-im-bot:direct:o9cq802uvmveggp0xkfm4o7acdrg@im.wechat; **Session ID**: f91bf92a-0ccd-483f-b17a-a61f51c3dbab; **Source**: openclaw-weixin",
       "recallCount": 0,
-      "dailyCount": 1,
+      "dailyCount": 2,
       "groundedCount": 0,
-      "totalScore": 0.62,
+      "totalScore": 1.24,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-05-20T19:00:18.943Z",
-      "lastRecalledAt": "2026-05-20T19:00:18.943Z",
+      "lastRecalledAt": "2026-05-21T19:00:24.365Z",
       "queryHashes": [
         "ccfae0e39afd"
       ],
       "recallDays": [
         "2026-05-21",
-        "2026-05-20"
+        "2026-05-20",
+        "2026-05-22"
       ],
       "conceptTags": [
         "2026-05-16-1516.md",
@@ -13629,18 +13650,19 @@
       "source": "memory",
       "snippet": "Conversation Summary: user: Conversation info (untrusted metadata):",
       "recallCount": 0,
-      "dailyCount": 1,
+      "dailyCount": 2,
       "groundedCount": 0,
-      "totalScore": 0.62,
+      "totalScore": 1.24,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-05-20T19:00:18.943Z",
-      "lastRecalledAt": "2026-05-20T19:00:18.943Z",
+      "lastRecalledAt": "2026-05-21T19:00:24.365Z",
       "queryHashes": [
         "ccfae0e39afd"
       ],
       "recallDays": [
         "2026-05-21",
-        "2026-05-20"
+        "2026-05-20",
+        "2026-05-22"
       ],
       "conceptTags": [
         "2026-05-16-1516.md",
@@ -13659,18 +13681,19 @@
       "source": "memory",
       "snippet": "Conversation Summary: \"chat_id\": \"o9cq802UVmvEGGP0xkFm4O7AcdRg@im.wechat\", \"message_id\": \"openclaw-weixin:1778943752330-5b3081ea\", \"timestamp\": \"Sat 2026-05-16 15:02 UTC\"",
       "recallCount": 0,
-      "dailyCount": 1,
+      "dailyCount": 2,
       "groundedCount": 0,
-      "totalScore": 0.62,
+      "totalScore": 1.24,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-05-20T19:00:18.943Z",
-      "lastRecalledAt": "2026-05-20T19:00:18.943Z",
+      "lastRecalledAt": "2026-05-21T19:00:24.365Z",
       "queryHashes": [
         "ccfae0e39afd"
       ],
       "recallDays": [
         "2026-05-21",
-        "2026-05-20"
+        "2026-05-20",
+        "2026-05-22"
       ],
       "conceptTags": [
         "2026-05-16-1516.md",
@@ -13691,18 +13714,19 @@
       "source": "memory",
       "snippet": "Conversation Summary: assistant: 主公，我在。",
       "recallCount": 0,
-      "dailyCount": 1,
+      "dailyCount": 2,
       "groundedCount": 0,
-      "totalScore": 0.62,
+      "totalScore": 1.24,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-05-20T19:00:18.943Z",
-      "lastRecalledAt": "2026-05-20T19:00:18.943Z",
+      "lastRecalledAt": "2026-05-21T19:00:24.365Z",
       "queryHashes": [
         "ccfae0e39afd"
       ],
       "recallDays": [
         "2026-05-21",
-        "2026-05-20"
+        "2026-05-20",
+        "2026-05-22"
       ],
       "conceptTags": [
         "2026-05-16-1516.md",
@@ -13720,18 +13744,19 @@
       "source": "memory",
       "snippet": "Conversation Summary: 看时间，你那儿已是深夜（UTC+8 23:02）。深夜唤我，是有要事相商，还是只是打个招呼？ user: 小夜小夜 assistant: 主公，我在。",
       "recallCount": 0,
-      "dailyCount": 1,
+      "dailyCount": 2,
       "groundedCount": 0,
-      "totalScore": 0.62,
+      "totalScore": 1.24,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-05-20T19:00:18.943Z",
-      "lastRecalledAt": "2026-05-20T19:00:18.943Z",
+      "lastRecalledAt": "2026-05-21T19:00:24.365Z",
       "queryHashes": [
         "ccfae0e39afd"
       ],
       "recallDays": [
         "2026-05-21",
-        "2026-05-20"
+        "2026-05-20",
+        "2026-05-22"
       ],
       "conceptTags": [
         "2026-05-16-1516.md",
@@ -13752,18 +13777,19 @@
       "source": "memory",
       "snippet": "Conversation Summary: 看时间，你那儿已是深夜（UTC+8 23:02）。深夜唤我，是有要事相商，还是只是打个招呼？ user: Conversation info (untrusted metadata):",
       "recallCount": 0,
-      "dailyCount": 1,
+      "dailyCount": 2,
       "groundedCount": 0,
-      "totalScore": 0.62,
+      "totalScore": 1.24,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-05-20T19:00:18.943Z",
-      "lastRecalledAt": "2026-05-20T19:00:18.943Z",
+      "lastRecalledAt": "2026-05-21T19:00:24.365Z",
       "queryHashes": [
         "ccfae0e39afd"
       ],
       "recallDays": [
         "2026-05-21",
-        "2026-05-20"
+        "2026-05-20",
+        "2026-05-22"
       ],
       "conceptTags": [
         "2026-05-16-1516.md",
@@ -13784,18 +13810,19 @@
       "source": "memory",
       "snippet": "Conversation Summary: \"chat_id\": \"o9cq802UVmvEGGP0xkFm4O7AcdRg@im.wechat\", \"message_id\": \"openclaw-weixin:1778943901960-100768f1\", \"timestamp\": \"Sat 2026-05-16 15:05 UTC\"",
       "recallCount": 0,
-      "dailyCount": 1,
+      "dailyCount": 2,
       "groundedCount": 0,
-      "totalScore": 0.62,
+      "totalScore": 1.24,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-05-20T19:00:18.943Z",
-      "lastRecalledAt": "2026-05-20T19:00:18.943Z",
+      "lastRecalledAt": "2026-05-21T19:00:24.365Z",
       "queryHashes": [
         "ccfae0e39afd"
       ],
       "recallDays": [
         "2026-05-21",
-        "2026-05-20"
+        "2026-05-20",
+        "2026-05-22"
       ],
       "conceptTags": [
         "2026-05-16-1516.md",
@@ -13816,18 +13843,19 @@
       "source": "memory",
       "snippet": "Conversation Summary: 我是想让你看看，飞书通道好像有点哑火了，被限流了似的 assistant: 找到症结了。看日志一目了然——飞书通道的 ping/heartbeat 请求被 Lark API 限流了，持续返回 **HTTP 429 (Too Many Requests)**。",
       "recallCount": 0,
-      "dailyCount": 1,
+      "dailyCount": 2,
       "groundedCount": 0,
-      "totalScore": 0.62,
+      "totalScore": 1.24,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-05-20T19:00:18.943Z",
-      "lastRecalledAt": "2026-05-20T19:00:18.943Z",
+      "lastRecalledAt": "2026-05-21T19:00:24.365Z",
       "queryHashes": [
         "ccfae0e39afd"
       ],
       "recallDays": [
         "2026-05-21",
-        "2026-05-20"
+        "2026-05-20",
+        "2026-05-22"
       ],
       "conceptTags": [
         "2026-05-16-1516.md",
@@ -13848,18 +13876,19 @@
       "source": "memory",
       "snippet": "Conversation Summary: 让我进一步查清楚限制的来源和可调 user: Conversation info (untrusted metadata):",
       "recallCount": 0,
-      "dailyCount": 1,
+      "dailyCount": 2,
       "groundedCount": 0,
-      "totalScore": 0.62,
+      "totalScore": 1.24,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-05-20T19:00:18.943Z",
-      "lastRecalledAt": "2026-05-20T19:00:18.943Z",
+      "lastRecalledAt": "2026-05-21T19:00:24.365Z",
       "queryHashes": [
         "ccfae0e39afd"
       ],
       "recallDays": [
         "2026-05-21",
-        "2026-05-20"
+        "2026-05-20",
+        "2026-05-22"
       ],
       "conceptTags": [
         "2026-05-16-1516.md",
@@ -13880,18 +13909,19 @@
       "source": "memory",
       "snippet": "Conversation Summary: \"chat_id\": \"o9cq802UVmvEGGP0xkFm4O7AcdRg@im.wechat\", \"message_id\": \"openclaw-weixin:1778943901960-100768f1\", \"timestamp\": \"Sat 2026-05-16 15:05 UTC\"",
       "recallCount": 0,
-      "dailyCount": 1,
+      "dailyCount": 2,
       "groundedCount": 0,
-      "totalScore": 0.62,
+      "totalScore": 1.24,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-05-20T19:00:18.943Z",
-      "lastRecalledAt": "2026-05-20T19:00:18.943Z",
+      "lastRecalledAt": "2026-05-21T19:00:24.365Z",
       "queryHashes": [
         "ccfae0e39afd"
       ],
       "recallDays": [
         "2026-05-21",
-        "2026-05-20"
+        "2026-05-20",
+        "2026-05-22"
       ],
       "conceptTags": [
         "2026-05-16-1516.md",
@@ -13912,18 +13942,19 @@
       "source": "memory",
       "snippet": "Conversation Summary: 我是想让你看看，飞书通道好像有点哑火了，被限流了似的 user: Conversation info (untrusted metadata):",
       "recallCount": 0,
-      "dailyCount": 1,
+      "dailyCount": 2,
       "groundedCount": 0,
-      "totalScore": 0.62,
+      "totalScore": 1.24,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-05-20T19:00:18.943Z",
-      "lastRecalledAt": "2026-05-20T19:00:18.943Z",
+      "lastRecalledAt": "2026-05-21T19:00:24.365Z",
       "queryHashes": [
         "ccfae0e39afd"
       ],
       "recallDays": [
         "2026-05-21",
-        "2026-05-20"
+        "2026-05-20",
+        "2026-05-22"
       ],
       "conceptTags": [
         "2026-05-16-1516.md",
@@ -13944,18 +13975,19 @@
       "source": "memory",
       "snippet": "Conversation Summary: \"chat_id\": \"o9cq802UVmvEGGP0xkFm4O7AcdRg@im.wechat\", \"message_id\": \"openclaw-weixin:1778943901960-100768f1\", \"timestamp\": \"Sat 2026-05-16 15:05 UTC\"",
       "recallCount": 0,
-      "dailyCount": 1,
+      "dailyCount": 2,
       "groundedCount": 0,
-      "totalScore": 0.62,
+      "totalScore": 1.24,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-05-20T19:00:18.943Z",
-      "lastRecalledAt": "2026-05-20T19:00:18.943Z",
+      "lastRecalledAt": "2026-05-21T19:00:24.365Z",
       "queryHashes": [
         "ccfae0e39afd"
       ],
       "recallDays": [
         "2026-05-21",
-        "2026-05-20"
+        "2026-05-20",
+        "2026-05-22"
       ],
       "conceptTags": [
         "2026-05-16-1516.md",
@@ -13976,18 +14008,19 @@
       "source": "memory",
       "snippet": "Conversation Summary: 我是想让你看看，飞书通道好像有点哑火了，被限流了似的 user: 我是想让你看看，飞书通道好像有点哑火了，被限流了似的",
       "recallCount": 0,
-      "dailyCount": 1,
+      "dailyCount": 2,
       "groundedCount": 0,
-      "totalScore": 0.62,
+      "totalScore": 1.24,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-05-20T19:00:18.943Z",
-      "lastRecalledAt": "2026-05-20T19:00:18.943Z",
+      "lastRecalledAt": "2026-05-21T19:00:24.365Z",
       "queryHashes": [
         "ccfae0e39afd"
       ],
       "recallDays": [
         "2026-05-21",
-        "2026-05-20"
+        "2026-05-20",
+        "2026-05-22"
       ],
       "conceptTags": [
         "2026-05-16-1516.md",
@@ -14146,6 +14179,285 @@
         "不上",
         "看看"
       ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-21.txt:20:20": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-21.txt:20:20",
+      "path": "memory/.dreams/session-corpus/2026-05-21.txt",
+      "startLine": 20,
+      "endLine": 20,
+      "source": "memory",
+      "snippet": "User: [message_id: om_x100b6fdce29e88a4ee886909c253ac1] ou_9e18438fb941decf11a0b88d78fe2b50: 为何升级到openclaw 5.19版本后ssh不可用了",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-21T19:00:24.365Z",
+      "lastRecalledAt": "2026-05-21T19:00:24.365Z",
+      "queryHashes": [
+        "90ee39ac7cd8"
+      ],
+      "recallDays": [
+        "2026-05-22",
+        "2026-05-21"
+      ],
+      "conceptTags": [
+        "message-id",
+        "5.19版本后ssh不可用了",
+        "为何",
+        "升级",
+        "openclaw",
+        "5.19",
+        "版本",
+        "ssh"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-21.txt:21:21": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-21.txt:21:21",
+      "path": "memory/.dreams/session-corpus/2026-05-21.txt",
+      "startLine": 21,
+      "endLine": 21,
+      "source": "memory",
+      "snippet": "Assistant: 主公，此事值得深究。让我先调查一下当前环境和版本信息",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-21T19:00:24.365Z",
+      "lastRecalledAt": "2026-05-21T19:00:24.365Z",
+      "queryHashes": [
+        "90ee39ac7cd8"
+      ],
+      "recallDays": [
+        "2026-05-22",
+        "2026-05-21"
+      ],
+      "conceptTags": [
+        "主公",
+        "此事",
+        "值得",
+        "深究",
+        "我先",
+        "调查",
+        "一下",
+        "当前"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-21.txt:22:22": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-21.txt:22:22",
+      "path": "memory/.dreams/session-corpus/2026-05-21.txt",
+      "startLine": 22,
+      "endLine": 22,
+      "source": "memory",
+      "snippet": "Assistant: 主公，调查完毕，结论如下： --- ## 诊断结论 问题**不是 OpenClaw 5.19 的代码变更导致 SSH 不可用**，而是 **5.19 的 Docker 镜像重建时精简了基础包集**。 ### 直接原因 ``` $ ssh ssh: not found ``` **`openssh-client` 没有安装。** 容器内只有 `libssh2-1`（被 git/curl 依赖拉进），但 SSH 客户端二进制本身不在镜像中。 ### 证据链 1. **apt history.log** 显示 5月20日（5.19 镜像构",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-21T19:00:24.365Z",
+      "lastRecalledAt": "2026-05-21T19:00:24.365Z",
+      "queryHashes": [
+        "90ee39ac7cd8"
+      ],
+      "recallDays": [
+        "2026-05-22",
+        "2026-05-21"
+      ],
+      "conceptTags": [
+        "5.19",
+        "openssh-client",
+        "libssh2-1",
+        "git/curl",
+        "history.log",
+        "主公",
+        "调查",
+        "完毕"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-21.txt:23:23": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-21.txt:23:23",
+      "path": "memory/.dreams/session-corpus/2026-05-21.txt",
+      "startLine": 23,
+      "endLine": 23,
+      "source": "memory",
+      "snippet": "Assistant: Dockerfile 中： ```dockerfile FROM openclaw/openclaw:5.19 RUN apt-get update && apt-get install -y openssh-client ``` ### 方案二：即时修复（运行中容器） ```bash apt-get update && apt-get install -y openssh-client ``` --- 但有一虑，主公——我想确认一下，您说的\"SSH 不可用\"具体指什么场景？ 1. **从容器内 SSH 到其他服务器**（如 git",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-21T19:00:24.365Z",
+      "lastRecalledAt": "2026-05-21T19:00:24.365Z",
+      "queryHashes": [
+        "90ee39ac7cd8"
+      ],
+      "recallDays": [
+        "2026-05-22",
+        "2026-05-21"
+      ],
+      "conceptTags": [
+        "openclaw/openclaw",
+        "5.19",
+        "apt-get",
+        "openssh-client",
+        "dockerfile",
+        "openclaw",
+        "run",
+        "apt"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-22.txt:1:1": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-22.txt:1:1",
+      "path": "memory/.dreams/session-corpus/2026-05-22.txt",
+      "startLine": 1,
+      "endLine": 1,
+      "source": "memory",
+      "snippet": "User: [message_id: om_x100b6fc173d77ca0ee8a4a34b12e82d] ou_9e18438fb941decf11a0b88d78fe2b50: 请检查一下lucus那个agent是怎么回事，无法回复我，报错：：⚠️ Something went wrong while processing your request. Please try again, or use /new to start a fresh session.",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-21T19:00:24.365Z",
+      "lastRecalledAt": "2026-05-21T19:00:24.365Z",
+      "queryHashes": [
+        "91dce059e480"
+      ],
+      "recallDays": [
+        "2026-05-22",
+        "2026-05-21"
+      ],
+      "conceptTags": [
+        "message-id",
+        "检查",
+        "一下",
+        "lucus",
+        "那个",
+        "怎么",
+        "无法",
+        "回复"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-22.txt:2:2": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-22.txt:2:2",
+      "path": "memory/.dreams/session-corpus/2026-05-22.txt",
+      "startLine": 2,
+      "endLine": 2,
+      "source": "memory",
+      "snippet": "Assistant: 主公，查清楚了。lucus 那个 agent 不是\"不想回你\"，而是**所有配置的模型全挂了**。 ## 诊断结果 从会话记录里拉出了完整失败链，如下： ### lucus 的模型链路（全灭） | 顺序 | 模型 | 报错 | 原因 | |------|------|------|------| | 🔴 Primary | `nvidia/minimaxai/minimax-m2.7` | **429 Rate Limited** | NVIDIA API 限流 | | 🔴 Fallback 1 | `minimax/MiniM",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-21T19:00:24.365Z",
+      "lastRecalledAt": "2026-05-21T19:00:24.365Z",
+      "queryHashes": [
+        "91dce059e480"
+      ],
+      "recallDays": [
+        "2026-05-22",
+        "2026-05-21"
+      ],
+      "conceptTags": [
+        "nvidia/minimaxai/minimax-m2.7",
+        "minimax/minim",
+        "主公",
+        "清楚",
+        "lucus",
+        "那个",
+        "不是",
+        "不想"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-22.txt:3:3": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-22.txt:3:3",
+      "path": "memory/.dreams/session-corpus/2026-05-22.txt",
+      "startLine": 3,
+      "endLine": 3,
+      "source": "memory",
+      "snippet": "Assistant: `deepseek-ai/deepseek-v4-pro` | ✅ 我用着，正常 | | 🔵 `zai/*` | `glm-4.7-flash`（免费） | ✅ 刚充了值或者限免额度还在可以用 | | 🔵 `google/*` | `gemini-2.5-flash`, `gemini-2.5-flash-lite`（免费）| ✅ 免费额度 | **建议方案**：给 lucus 换到和我一样的模型链： ``` primary: nvidia/deepseek-ai/deepseek-v4-flash fallbacks: - z",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-21T19:00:24.365Z",
+      "lastRecalledAt": "2026-05-21T19:00:24.365Z",
+      "queryHashes": [
+        "91dce059e480"
+      ],
+      "recallDays": [
+        "2026-05-22",
+        "2026-05-21"
+      ],
+      "conceptTags": [
+        "deepseek-ai/deepseek-v4-pro",
+        "glm-4.7-flash",
+        "gemini-2.5-flash",
+        "gemini-2.5-flash-lite",
+        "deepseek",
+        "pro",
+        "正常",
+        "zai"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-22.txt:4:4": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-22.txt:4:4",
+      "path": "memory/.dreams/session-corpus/2026-05-22.txt",
+      "startLine": 4,
+      "endLine": 4,
+      "source": "memory",
+      "snippet": "User: [message_id: om_x100b6fc11ada3ca0ee71ea8f0f71c7f] ou_9e18438fb941decf11a0b88d78fe2b50: `deepseek-ai/deepseek-v4-flash`, `deepseek-ai/deepseek-v4-pro` `gemini-2.5-flash`, `gemini-2.5-flash-lite` `glm-4.7-flash` 把这几个模型放到他的fallback",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-21T19:00:24.365Z",
+      "lastRecalledAt": "2026-05-21T19:00:24.365Z",
+      "queryHashes": [
+        "91dce059e480"
+      ],
+      "recallDays": [
+        "2026-05-22",
+        "2026-05-21"
+      ],
+      "conceptTags": [
+        "message-id",
+        "deepseek-ai/deepseek-v4-flash",
+        "deepseek-ai/deepseek-v4-pro",
+        "gemini-2.5-flash",
+        "gemini-2.5-flash-lite",
+        "glm-4.7-flash",
+        "deepseek",
+        "flash"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-22.txt:5:5": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-22.txt:5:5",
+      "path": "memory/.dreams/session-corpus/2026-05-22.txt",
+      "startLine": 5,
+      "endLine": 5,
+      "source": "memory",
+      "snippet": "Assistant: 善",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-21T19:00:24.365Z",
+      "lastRecalledAt": "2026-05-21T19:00:24.365Z",
+      "queryHashes": [
+        "91dce059e480"
+      ],
+      "recallDays": [
+        "2026-05-22",
+        "2026-05-21"
+      ],
+      "conceptTags": []
     }
   }
 }

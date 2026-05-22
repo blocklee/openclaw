@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-05-20T19:00:22.096Z",
+  "updatedAt": "2026-05-21T19:00:25.945Z",
   "entries": {
     "memory:memory/.dreams/session-corpus/2026-04-11.txt:1:1": {
       "key": "memory:memory/.dreams/session-corpus/2026-04-11.txt:1:1",
@@ -9129,6 +9129,126 @@
         "更新",
         "完成",
         "总结"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-22.txt:1:1": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-22.txt:1:1",
+      "path": "memory/.dreams/session-corpus/2026-05-22.txt",
+      "startLine": 1,
+      "endLine": 1,
+      "source": "memory",
+      "snippet": "User: [message_id: om_x100b6fc11b0a44a0ee81f7d8dedc3b2] 听风: 你好",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-21T19:00:25.018Z",
+      "lastRecalledAt": "2026-05-21T19:00:25.018Z",
+      "queryHashes": [
+        "91dce059e480"
+      ],
+      "recallDays": [
+        "2026-05-22",
+        "2026-05-21"
+      ],
+      "conceptTags": [
+        "message-id",
+        "你好"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-22.txt:2:2": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-22.txt:2:2",
+      "path": "memory/.dreams/session-corpus/2026-05-22.txt",
+      "startLine": 2,
+      "endLine": 2,
+      "source": "memory",
+      "snippet": "Assistant: 你好，开发者！👋 我是 **Codus / Web3Master**，专注全栈开发 + 智能合约的全能型助手。 - 🔗 **前端**：React/Next.js/TypeScript，wagmi/viem 集成 - ⚙️ **后端**：Node.js/Python/Go，API、数据库、链上交互 - 🔐 **合约**：Solidity/Foundry，安全审计、Gas 优化、ERC 标准 有什么我可以帮你的？无论是新合约开发、安全审计、DApp 架构设计还是 Gas 优化，直接说就行。",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-21T19:00:25.018Z",
+      "lastRecalledAt": "2026-05-21T19:00:25.018Z",
+      "queryHashes": [
+        "91dce059e480"
+      ],
+      "recallDays": [
+        "2026-05-22",
+        "2026-05-21"
+      ],
+      "conceptTags": [
+        "react/next.js/typescript",
+        "wagmi/viem",
+        "node.js/python/go",
+        "solidity/foundry",
+        "你好",
+        "开发",
+        "我是",
+        "codus"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-22.txt:3:3": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-22.txt:3:3",
+      "path": "memory/.dreams/session-corpus/2026-05-22.txt",
+      "startLine": 3,
+      "endLine": 3,
+      "source": "memory",
+      "snippet": "User: [message_id: om_x100b6fc117fe88a0ee8e48e4638dd53] 听风: 给你发/status 命令怎么没反应",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-21T19:00:25.018Z",
+      "lastRecalledAt": "2026-05-21T19:00:25.018Z",
+      "queryHashes": [
+        "91dce059e480"
+      ],
+      "recallDays": [
+        "2026-05-22",
+        "2026-05-21"
+      ],
+      "conceptTags": [
+        "message-id",
+        "给你发/status",
+        "status",
+        "命令",
+        "怎么",
+        "反应"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-22.txt:4:4": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-22.txt:4:4",
+      "path": "memory/.dreams/session-corpus/2026-05-22.txt",
+      "startLine": 4,
+      "endLine": 4,
+      "source": "memory",
+      "snippet": "Assistant: 抱歉让开发者困惑了！在飞书对话中，`/status` 这类斜杠命令是由 OpenClaw 网关直接处理的，不会经过我这个 agent。如果网关处理后没有在飞书里显示回复，可能是通道问题。 不过没关系，我已经帮你查到了状态，这是当前的运行信息： --- 📊 **OpenClaw 状态** | 项目 | 详情 | |------|------| | 🦞 **版本** | 2026.5.19 | | ⏱️ **运行时间** | Gateway 13h 53m · System 199d 8h | | 🧠 **当前模型** | `nv",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-21T19:00:25.018Z",
+      "lastRecalledAt": "2026-05-21T19:00:25.018Z",
+      "queryHashes": [
+        "91dce059e480"
+      ],
+      "recallDays": [
+        "2026-05-22",
+        "2026-05-21"
+      ],
+      "conceptTags": [
+        "gateway",
+        "网关",
+        "2026.5.19",
+        "抱歉",
+        "开发",
+        "困惑",
+        "对话",
+        "status"
       ]
     }
   }

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-05-20T19:00:18.738Z",
+  "updatedAt": "2026-05-21T19:00:24.121Z",
   "entries": {
     "memory:memory/.dreams/session-corpus/2026-04-11.txt:1:1": {
       "key": "memory:memory/.dreams/session-corpus/2026-04-11.txt:1:1",
@@ -9521,6 +9521,693 @@
         "直接",
         "你的",
         "当前"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-21.txt:3:3": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-21.txt:3:3",
+      "path": "memory/.dreams/session-corpus/2026-05-21.txt",
+      "startLine": 3,
+      "endLine": 3,
+      "source": "memory",
+      "snippet": "User: [message_id: om_x100b6fdcd54ed8a8ee78cf9eed72e32] ou_cb5c7afa7e77cafdeaeae1620a2a383a: 为何升级到openclaw 5.19版本后ssh不可用了",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-21T19:00:22.245Z",
+      "lastRecalledAt": "2026-05-21T19:00:22.245Z",
+      "queryHashes": [
+        "90ee39ac7cd8"
+      ],
+      "recallDays": [
+        "2026-05-22",
+        "2026-05-21"
+      ],
+      "conceptTags": [
+        "message-id",
+        "5.19版本后ssh不可用了",
+        "为何",
+        "升级",
+        "openclaw",
+        "5.19",
+        "版本",
+        "ssh"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-21.txt:4:4": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-21.txt:4:4",
+      "path": "memory/.dreams/session-corpus/2026-05-21.txt",
+      "startLine": 4,
+      "endLine": 4,
+      "source": "memory",
+      "snippet": "Assistant: [assistant turn failed before producing content]",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-21T19:00:22.245Z",
+      "lastRecalledAt": "2026-05-21T19:00:22.245Z",
+      "queryHashes": [
+        "90ee39ac7cd8"
+      ],
+      "recallDays": [
+        "2026-05-22",
+        "2026-05-21"
+      ],
+      "conceptTags": [
+        "turn",
+        "failed",
+        "producing",
+        "content"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-21.txt:5:5": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-21.txt:5:5",
+      "path": "memory/.dreams/session-corpus/2026-05-21.txt",
+      "startLine": 5,
+      "endLine": 5,
+      "source": "memory",
+      "snippet": "Assistant: [assistant turn failed before producing content]",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-21T19:00:22.245Z",
+      "lastRecalledAt": "2026-05-21T19:00:22.245Z",
+      "queryHashes": [
+        "90ee39ac7cd8"
+      ],
+      "recallDays": [
+        "2026-05-22",
+        "2026-05-21"
+      ],
+      "conceptTags": [
+        "turn",
+        "failed",
+        "producing",
+        "content"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-21.txt:6:6": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-21.txt:6:6",
+      "path": "memory/.dreams/session-corpus/2026-05-21.txt",
+      "startLine": 6,
+      "endLine": 6,
+      "source": "memory",
+      "snippet": "Assistant: [assistant turn failed before producing content]",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-21T19:00:22.245Z",
+      "lastRecalledAt": "2026-05-21T19:00:22.245Z",
+      "queryHashes": [
+        "90ee39ac7cd8"
+      ],
+      "recallDays": [
+        "2026-05-22",
+        "2026-05-21"
+      ],
+      "conceptTags": [
+        "turn",
+        "failed",
+        "producing",
+        "content"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-21.txt:7:7": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-21.txt:7:7",
+      "path": "memory/.dreams/session-corpus/2026-05-21.txt",
+      "startLine": 7,
+      "endLine": 7,
+      "source": "memory",
+      "snippet": "Assistant: 我需要先了解更多信息来定位问题。请先运行以下命令，把结果发给我： **在出问题的机器上运行：** ```bash openclaw gateway status sshd -v 2>&1 | head -5 systemctl status ssh 2>&1 || service ssh status 2>&1 journalctl -u ssh --no-pager -n 20 2>&1 ``` 同时，帮你查一下 OpenClaw 5.19 的变更日志：",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-21T19:00:22.245Z",
+      "lastRecalledAt": "2026-05-21T19:00:22.245Z",
+      "queryHashes": [
+        "90ee39ac7cd8"
+      ],
+      "recallDays": [
+        "2026-05-22",
+        "2026-05-21"
+      ],
+      "conceptTags": [
+        "gateway",
+        "no-pager",
+        "5.19",
+        "需要",
+        "了解",
+        "更多",
+        "信息",
+        "定位"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-21.txt:8:8": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-21.txt:8:8",
+      "path": "memory/.dreams/session-corpus/2026-05-21.txt",
+      "startLine": 8,
+      "endLine": 8,
+      "source": "memory",
+      "snippet": "Assistant: [assistant turn failed before producing content]",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-21T19:00:22.245Z",
+      "lastRecalledAt": "2026-05-21T19:00:22.245Z",
+      "queryHashes": [
+        "90ee39ac7cd8"
+      ],
+      "recallDays": [
+        "2026-05-22",
+        "2026-05-21"
+      ],
+      "conceptTags": [
+        "turn",
+        "failed",
+        "producing",
+        "content"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-21.txt:9:9": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-21.txt:9:9",
+      "path": "memory/.dreams/session-corpus/2026-05-21.txt",
+      "startLine": 9,
+      "endLine": 9,
+      "source": "memory",
+      "snippet": "Assistant: [assistant turn failed before producing content]",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-21T19:00:22.245Z",
+      "lastRecalledAt": "2026-05-21T19:00:22.245Z",
+      "queryHashes": [
+        "90ee39ac7cd8"
+      ],
+      "recallDays": [
+        "2026-05-22",
+        "2026-05-21"
+      ],
+      "conceptTags": [
+        "turn",
+        "failed",
+        "producing",
+        "content"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-21.txt:10:10": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-21.txt:10:10",
+      "path": "memory/.dreams/session-corpus/2026-05-21.txt",
+      "startLine": 10,
+      "endLine": 10,
+      "source": "memory",
+      "snippet": "Assistant: [assistant turn failed before producing content]",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-21T19:00:22.245Z",
+      "lastRecalledAt": "2026-05-21T19:00:22.245Z",
+      "queryHashes": [
+        "90ee39ac7cd8"
+      ],
+      "recallDays": [
+        "2026-05-22",
+        "2026-05-21"
+      ],
+      "conceptTags": [
+        "turn",
+        "failed",
+        "producing",
+        "content"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-21.txt:11:11": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-21.txt:11:11",
+      "path": "memory/.dreams/session-corpus/2026-05-21.txt",
+      "startLine": 11,
+      "endLine": 11,
+      "source": "memory",
+      "snippet": "Assistant: [assistant turn failed before producing content]",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-21T19:00:22.245Z",
+      "lastRecalledAt": "2026-05-21T19:00:22.245Z",
+      "queryHashes": [
+        "90ee39ac7cd8"
+      ],
+      "recallDays": [
+        "2026-05-22",
+        "2026-05-21"
+      ],
+      "conceptTags": [
+        "turn",
+        "failed",
+        "producing",
+        "content"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-21.txt:12:12": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-21.txt:12:12",
+      "path": "memory/.dreams/session-corpus/2026-05-21.txt",
+      "startLine": 12,
+      "endLine": 12,
+      "source": "memory",
+      "snippet": "User: [message_id: om_x100b6fdc8e8f7108ee867d783bbefcb] ou_cb5c7afa7e77cafdeaeae1620a2a383a: :models",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-21T19:00:22.245Z",
+      "lastRecalledAt": "2026-05-21T19:00:22.245Z",
+      "queryHashes": [
+        "90ee39ac7cd8"
+      ],
+      "recallDays": [
+        "2026-05-22",
+        "2026-05-21"
+      ],
+      "conceptTags": [
+        "message-id",
+        "models"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-21.txt:13:13": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-21.txt:13:13",
+      "path": "memory/.dreams/session-corpus/2026-05-21.txt",
+      "startLine": 13,
+      "endLine": 13,
+      "source": "memory",
+      "snippet": "Assistant: [assistant turn failed before producing content]",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-21T19:00:22.245Z",
+      "lastRecalledAt": "2026-05-21T19:00:22.245Z",
+      "queryHashes": [
+        "90ee39ac7cd8"
+      ],
+      "recallDays": [
+        "2026-05-22",
+        "2026-05-21"
+      ],
+      "conceptTags": [
+        "turn",
+        "failed",
+        "producing",
+        "content"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-21.txt:14:14": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-21.txt:14:14",
+      "path": "memory/.dreams/session-corpus/2026-05-21.txt",
+      "startLine": 14,
+      "endLine": 14,
+      "source": "memory",
+      "snippet": "Assistant: [assistant turn failed before producing content]",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-21T19:00:22.245Z",
+      "lastRecalledAt": "2026-05-21T19:00:22.245Z",
+      "queryHashes": [
+        "90ee39ac7cd8"
+      ],
+      "recallDays": [
+        "2026-05-22",
+        "2026-05-21"
+      ],
+      "conceptTags": [
+        "turn",
+        "failed",
+        "producing",
+        "content"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-21.txt:15:15": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-21.txt:15:15",
+      "path": "memory/.dreams/session-corpus/2026-05-21.txt",
+      "startLine": 15,
+      "endLine": 15,
+      "source": "memory",
+      "snippet": "Assistant: 这是当前配置的所有模型： **NVIDIA (集成 API)** | 模型 | 名称 | Context | 支持输入 | |------|------|---------|---------| | `minimaxai/minimax-m2.7` | MiniMax M2.7 | 200K | text | | `google/gemma-3n-e4b-it` | Google Gemma 3N E4B | 32K | text+image | | `deepseek-ai/deepseek-v4-pro` | DeepSeek",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-21T19:00:22.245Z",
+      "lastRecalledAt": "2026-05-21T19:00:22.245Z",
+      "queryHashes": [
+        "90ee39ac7cd8"
+      ],
+      "recallDays": [
+        "2026-05-22",
+        "2026-05-21"
+      ],
+      "conceptTags": [
+        "minimaxai/minimax-m2.7",
+        "m2.7",
+        "google/gemma-3n-e4b-it",
+        "deepseek-ai/deepseek-v4-pro",
+        "当前",
+        "配置",
+        "所有",
+        "模型"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-21.txt:16:16": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-21.txt:16:16",
+      "path": "memory/.dreams/session-corpus/2026-05-21.txt",
+      "startLine": 16,
+      "endLine": 16,
+      "source": "memory",
+      "snippet": "User: [message_id: om_x100b6fdd08de30a0ee7c4ed1d8f3f17] ou_cb5c7afa7e77cafdeaeae1620a2a383a: 现在需要给你添加才行嘛 \"tools\": { \"allowlist\": [\"message\", \"channels\"] }",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-21T19:00:22.245Z",
+      "lastRecalledAt": "2026-05-21T19:00:22.245Z",
+      "queryHashes": [
+        "90ee39ac7cd8"
+      ],
+      "recallDays": [
+        "2026-05-22",
+        "2026-05-21"
+      ],
+      "conceptTags": [
+        "message-id",
+        "现在",
+        "需要",
+        "添加",
+        "才行",
+        "tools",
+        "allowlist",
+        "message"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-21.txt:17:17": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-21.txt:17:17",
+      "path": "memory/.dreams/session-corpus/2026-05-21.txt",
+      "startLine": 17,
+      "endLine": 17,
+      "source": "memory",
+      "snippet": "Assistant: [assistant turn failed before producing content]",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-21T19:00:22.245Z",
+      "lastRecalledAt": "2026-05-21T19:00:22.245Z",
+      "queryHashes": [
+        "90ee39ac7cd8"
+      ],
+      "recallDays": [
+        "2026-05-22",
+        "2026-05-21"
+      ],
+      "conceptTags": [
+        "turn",
+        "failed",
+        "producing",
+        "content"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-21.txt:18:18": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-21.txt:18:18",
+      "path": "memory/.dreams/session-corpus/2026-05-21.txt",
+      "startLine": 18,
+      "endLine": 18,
+      "source": "memory",
+      "snippet": "Assistant: [assistant turn failed before producing content]",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-21T19:00:22.245Z",
+      "lastRecalledAt": "2026-05-21T19:00:22.245Z",
+      "queryHashes": [
+        "90ee39ac7cd8"
+      ],
+      "recallDays": [
+        "2026-05-22",
+        "2026-05-21"
+      ],
+      "conceptTags": [
+        "turn",
+        "failed",
+        "producing",
+        "content"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-21.txt:19:19": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-21.txt:19:19",
+      "path": "memory/.dreams/session-corpus/2026-05-21.txt",
+      "startLine": 19,
+      "endLine": 19,
+      "source": "memory",
+      "snippet": "Assistant: [assistant turn failed before producing content]",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-21T19:00:22.245Z",
+      "lastRecalledAt": "2026-05-21T19:00:22.245Z",
+      "queryHashes": [
+        "90ee39ac7cd8"
+      ],
+      "recallDays": [
+        "2026-05-22",
+        "2026-05-21"
+      ],
+      "conceptTags": [
+        "turn",
+        "failed",
+        "producing",
+        "content"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-21.txt:20:20": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-21.txt:20:20",
+      "path": "memory/.dreams/session-corpus/2026-05-21.txt",
+      "startLine": 20,
+      "endLine": 20,
+      "source": "memory",
+      "snippet": "Assistant: [assistant turn failed before producing content]",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-21T19:00:22.245Z",
+      "lastRecalledAt": "2026-05-21T19:00:22.245Z",
+      "queryHashes": [
+        "90ee39ac7cd8"
+      ],
+      "recallDays": [
+        "2026-05-22",
+        "2026-05-21"
+      ],
+      "conceptTags": [
+        "turn",
+        "failed",
+        "producing",
+        "content"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-21.txt:21:21": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-21.txt:21:21",
+      "path": "memory/.dreams/session-corpus/2026-05-21.txt",
+      "startLine": 21,
+      "endLine": 21,
+      "source": "memory",
+      "snippet": "User: [message_id: om_x100b6fddc4df38a4eea0cae9da0b23e] ou_cb5c7afa7e77cafdeaeae1620a2a383a: hi",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-21T19:00:22.245Z",
+      "lastRecalledAt": "2026-05-21T19:00:22.245Z",
+      "queryHashes": [
+        "90ee39ac7cd8"
+      ],
+      "recallDays": [
+        "2026-05-22",
+        "2026-05-21"
+      ],
+      "conceptTags": [
+        "message-id"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-21.txt:22:22": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-21.txt:22:22",
+      "path": "memory/.dreams/session-corpus/2026-05-21.txt",
+      "startLine": 22,
+      "endLine": 22,
+      "source": "memory",
+      "snippet": "Assistant: [assistant turn failed before producing content]",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-21T19:00:22.245Z",
+      "lastRecalledAt": "2026-05-21T19:00:22.245Z",
+      "queryHashes": [
+        "90ee39ac7cd8"
+      ],
+      "recallDays": [
+        "2026-05-22",
+        "2026-05-21"
+      ],
+      "conceptTags": [
+        "turn",
+        "failed",
+        "producing",
+        "content"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-21.txt:23:23": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-21.txt:23:23",
+      "path": "memory/.dreams/session-corpus/2026-05-21.txt",
+      "startLine": 23,
+      "endLine": 23,
+      "source": "memory",
+      "snippet": "Assistant: [assistant turn failed before producing content]",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-21T19:00:22.245Z",
+      "lastRecalledAt": "2026-05-21T19:00:22.245Z",
+      "queryHashes": [
+        "90ee39ac7cd8"
+      ],
+      "recallDays": [
+        "2026-05-22",
+        "2026-05-21"
+      ],
+      "conceptTags": [
+        "turn",
+        "failed",
+        "producing",
+        "content"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-21.txt:24:24": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-21.txt:24:24",
+      "path": "memory/.dreams/session-corpus/2026-05-21.txt",
+      "startLine": 24,
+      "endLine": 24,
+      "source": "memory",
+      "snippet": "Assistant: [assistant turn failed before producing content]",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-21T19:00:22.245Z",
+      "lastRecalledAt": "2026-05-21T19:00:22.245Z",
+      "queryHashes": [
+        "90ee39ac7cd8"
+      ],
+      "recallDays": [
+        "2026-05-22",
+        "2026-05-21"
+      ],
+      "conceptTags": [
+        "turn",
+        "failed",
+        "producing",
+        "content"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-21.txt:25:25": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-21.txt:25:25",
+      "path": "memory/.dreams/session-corpus/2026-05-21.txt",
+      "startLine": 25,
+      "endLine": 25,
+      "source": "memory",
+      "snippet": "Assistant: [assistant turn failed before producing content]",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-21T19:00:22.245Z",
+      "lastRecalledAt": "2026-05-21T19:00:22.245Z",
+      "queryHashes": [
+        "90ee39ac7cd8"
+      ],
+      "recallDays": [
+        "2026-05-22",
+        "2026-05-21"
+      ],
+      "conceptTags": [
+        "turn",
+        "failed",
+        "producing",
+        "content"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-22.txt:1:1": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-22.txt:1:1",
+      "path": "memory/.dreams/session-corpus/2026-05-22.txt",
+      "startLine": 1,
+      "endLine": 1,
+      "source": "memory",
+      "snippet": "User: [message_id: om_x100b6fc17b7e8c68eea81920de3d7cd] ou_cb5c7afa7e77cafdeaeae1620a2a383a: [Replying to: \"⚠️ Cron job \"config\\-backup\\-8am\" failed: EmbeddedAttemptSessionTakeoverError: session file changed while embedded prompt lock was released: /home/node/.openclaw/agents/mai",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-21T19:00:22.245Z",
+      "lastRecalledAt": "2026-05-21T19:00:22.245Z",
+      "queryHashes": [
+        "91dce059e480"
+      ],
+      "recallDays": [
+        "2026-05-22",
+        "2026-05-21"
+      ],
+      "conceptTags": [
+        "backup",
+        "message-id",
+        "home/node",
+        "openclaw/agents/mai",
+        "replying",
+        "cron",
+        "job",
+        "config"
       ]
     }
   }

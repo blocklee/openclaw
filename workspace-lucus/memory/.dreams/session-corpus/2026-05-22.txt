@@ -1,0 +1,1 @@
+[lucus/sessions/lucus/4af9be2f-0106-4f73-b81d-699b0357495e.jsonl#L54] User: [message_id: om_x100b6fc17b7e8c68eea81920de3d7cd] ou_cb5c7afa7e77cafdeaeae1620a2a383a: [Replying to: "⚠️ Cron job "config\-backup\-8am" failed: EmbeddedAttemptSessionTakeoverError: session file changed while embedded prompt lock was released: /home/node/.openclaw/agen

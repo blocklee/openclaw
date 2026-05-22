@@ -1,7 +1,7 @@
 {
   "meta": {
     "lastTouchedVersion": "2026.5.19",
-    "lastTouchedAt": "2026-05-20T16:05:14.269Z"
+    "lastTouchedAt": "2026-05-21T04:57:50.814Z"
   },
   "env": {
     "OPENROUTER_API_KEY": "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",
@@ -12,7 +12,7 @@
     "NVIDIA_API_KEY": "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"
   },
   "wizard": {
-    "lastRunAt": "2026-05-20T16:05:13.643Z",
+    "lastRunAt": "2026-05-20T16:07:49.153Z",
     "lastRunVersion": "2026.5.19",
     "lastRunCommand": "doctor",
     "lastRunMode": "local"
@@ -166,6 +166,23 @@
             },
             "contextWindow": 131072,
             "maxTokens": 98304
+          },
+          {
+            "id": "glm-4.7-flash",
+            "name": "GLM-4.7 Flash",
+            "api": "openai-completions",
+            "reasoning": true,
+            "input": [
+              "text"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 131072,
+            "maxTokens": 131072
           }
         ]
       },
@@ -244,7 +261,8 @@
           "nvidia/deepseek-ai/deepseek-v4-pro",
           "nvidia/deepseek-ai/deepseek-v4-flash",
           "nvidia/z-ai/glm4.7",
-          "minimax/MiniMax-M2.7"
+          "minimax/MiniMax-M2.7",
+          "zai/glm-4.7-flash"
         ]
       },
       "imageGenerationModel": {
@@ -417,7 +435,10 @@
     "native": "auto",
     "nativeSkills": "auto",
     "restart": true,
-    "ownerDisplay": "raw"
+    "ownerDisplay": "raw",
+    "ownerAllowFrom": [
+      "feishu:ou_f786171f9e21bf5a09c3116b2e77aaff"
+    ]
   },
   "session": {
     "dmScope": "per-account-channel-peer",
@@ -529,6 +550,140 @@
   "skills": {
     "install": {
       "nodeManager": "npm"
+    },
+    "entries": {
+      "1password": {
+        "enabled": false
+      },
+      "apple-notes": {
+        "enabled": false
+      },
+      "apple-reminders": {
+        "enabled": false
+      },
+      "bear-notes": {
+        "enabled": false
+      },
+      "blogwatcher": {
+        "enabled": false
+      },
+      "blucli": {
+        "enabled": false
+      },
+      "camsnap": {
+        "enabled": false
+      },
+      "clawhub": {
+        "enabled": false
+      },
+      "coding-agent": {
+        "enabled": false
+      },
+      "discord": {
+        "enabled": false
+      },
+      "docker-essentials": {
+        "enabled": false
+      },
+      "eightctl": {
+        "enabled": false
+      },
+      "gemini": {
+        "enabled": false
+      },
+      "gh-issues": {
+        "enabled": false
+      },
+      "gifgrep": {
+        "enabled": false
+      },
+      "gog": {
+        "enabled": false
+      },
+      "goplaces": {
+        "enabled": false
+      },
+      "himalaya": {
+        "enabled": false
+      },
+      "imsg": {
+        "enabled": false
+      },
+      "mcporter": {
+        "enabled": false
+      },
+      "model-usage": {
+        "enabled": false
+      },
+      "nano-pdf": {
+        "enabled": false
+      },
+      "obsidian": {
+        "enabled": false
+      },
+      "openai-whisper": {
+        "enabled": false
+      },
+      "openai-whisper-api": {
+        "enabled": false
+      },
+      "openhue": {
+        "enabled": false
+      },
+      "oracle": {
+        "enabled": false
+      },
+      "ordercli": {
+        "enabled": false
+      },
+      "peekaboo": {
+        "enabled": false
+      },
+      "sag": {
+        "enabled": false
+      },
+      "session-logs": {
+        "enabled": false
+      },
+      "sherpa-onnx-tts": {
+        "enabled": false
+      },
+      "slack": {
+        "enabled": false
+      },
+      "songsee": {
+        "enabled": false
+      },
+      "sonoscli": {
+        "enabled": false
+      },
+      "spotify-player": {
+        "enabled": false
+      },
+      "summarize": {
+        "enabled": false
+      },
+      "things-mac": {
+        "enabled": false
+      },
+      "tmux": {
+        "enabled": false
+      },
+      "trello": {
+        "enabled": false
+      },
+      "video-frames": {
+        "enabled": false
+      },
+      "voice-call": {
+        "enabled": false
+      },
+      "wacli": {
+        "enabled": false
+      },
+      "xurl": {
+        "enabled": false
+      }
     }
   },
   "plugins": {

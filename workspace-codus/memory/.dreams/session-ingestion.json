@@ -29,7 +29,14 @@
       "lineCount": 11,
       "lastContentLine": 11
     },
-    "codus:sessions/codus/f63e3d3d-f6c5-4983-8ee8-954956508c8d.jsonl": {
+    "codus:sessions/codus/f2903044-0dbe-4362-9515-90dc2bffb4e6.jsonl": {
+      "mtimeMs": 1779389867880,
+      "size": 18924,
+      "contentHash": "23b4255dc542a9af3a8a72b020d28cd9b86ed0f479b9de6d5e5bdb33c4174af4",
+      "lineCount": 4,
+      "lastContentLine": 4
+    },
+    "codus:sessions/codus/f63e3d3d-f6c5-4983-8ee8-954956508c8d.jsonl.reset.2026-05-21T18-51-14.015Z": {
       "mtimeMs": 1779298044407,
       "size": 121078,
       "contentHash": "87f514a749554102d1c5e49cf8aab3c18dec29da582c688a629d8ff0e7a80c8b",
@@ -324,6 +331,12 @@
       "00b287d7e046405ca0049127d945fcb67d641852",
       "bdf57e32b352ba914bf7ca5fa9af559811c11d22",
       "af2e47e756e1069173182e3083f4de818ad3899e"
+    ],
+    "codus:f2903044-0dbe-4362-9515-90dc2bffb4e6": [
+      "7c06a3e8bb5b776722c00f676e2ec7f3a618a010",
+      "5873af61386c17702dc298771f1f89f939527a00",
+      "934490cb079b1d970733f9bd54ffea1bdee71c85",
+      "962964361f7ef2bf377ecb97ff2061f70f6894d7"
     ]
   }
 }

@@ -1,0 +1,4 @@
+[codus/sessions/codus/f2903044-0dbe-4362-9515-90dc2bffb4e6.jsonl#L5] User: [message_id: om_x100b6fc11b0a44a0ee81f7d8dedc3b2] 听风: 你好
+[codus/sessions/codus/f2903044-0dbe-4362-9515-90dc2bffb4e6.jsonl#L9] Assistant: 你好，开发者！👋 我是 **Codus / Web3Master**，专注全栈开发 + 智能合约的全能型助手。 - 🔗 **前端**：React/Next.js/TypeScript，wagmi/viem 集成 - ⚙️ **后端**：Node.js/Python/Go，API、数据库、链上交互 - 🔐 **合约**：Solidity/Foundry，安全审计、Gas 优化、ERC 标准 有什么我可以帮你的？无论是新合约开发、安全审计、DApp 架构设计还是 Gas 优化，直接说就行。
+[codus/sessions/codus/f2903044-0dbe-4362-9515-90dc2bffb4e6.jsonl#L10] User: [message_id: om_x100b6fc117fe88a0ee8e48e4638dd53] 听风: 给你发/status 命令怎么没反应
+[codus/sessions/codus/f2903044-0dbe-4362-9515-90dc2bffb4e6.jsonl#L14] Assistant: 抱歉让开发者困惑了！在飞书对话中，`/status` 这类斜杠命令是由 OpenClaw 网关直接处理的，不会经过我这个 agent。如果网关处理后没有在飞书里显示回复，可能是通道问题。 不过没关系，我已经帮你查到了状态，这是当前的运行信息： --- 📊 **OpenClaw 状态** | 项目 | 详情 | |------|------| | 🦞 **版本** | 2026.5.19 | | ⏱️ **运行时间** | Gateway 13h 53m · System 199d 8h | | 🧠 **当前模型**
