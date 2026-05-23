@@ -1,4 +1,47 @@
 {
   "version": 2,
-  "runs": {}
+  "runs": {
+    "7c8433c6-bc9e-40ec-aa6e-406de8e8e74d": {
+      "runId": "7c8433c6-bc9e-40ec-aa6e-406de8e8e74d",
+      "childSessionKey": "agent:main:subagent:a0284e4c-e40c-44d8-aca8-5ab1d2a1f144",
+      "controllerSessionKey": "agent:main:feishu:main:direct:ou_f786171f9e21bf5a09c3116b2e77aaff",
+      "requesterSessionKey": "agent:main:feishu:main:direct:ou_f786171f9e21bf5a09c3116b2e77aaff",
+      "requesterOrigin": {
+        "channel": "feishu",
+        "to": "user:ou_f786171f9e21bf5a09c3116b2e77aaff",
+        "accountId": "main"
+      },
+      "requesterDisplayKey": "agent:main:feishu:main:direct:ou_f786171f9e21bf5a09c3116b2e77aaff",
+      "task": "Test feishu_wiki and feishu_doc tools. First try to get wiki node with token \"MKJtwW9nriMKh3kMmz4c3Bubnoc\" using feishu_wiki tool, then read the document. Report what tools are available and the results.",
+      "taskName": "feishu_test",
+      "cleanup": "keep",
+      "expectsCompletionMessage": true,
+      "spawnMode": "run",
+      "model": "nvidia/minimaxai/minimax-m2.7",
+      "agentDir": "/home/node/.openclaw/agents/main/agent",
+      "workspaceDir": "/home/node/.openclaw/workspace",
+      "runTimeoutSeconds": 60,
+      "createdAt": 1779479594844,
+      "startedAt": 1779479596382,
+      "sessionStartedAt": 1779479594844,
+      "accumulatedRuntimeMs": 0,
+      "cleanupHandled": true,
+      "retainAttachmentsOnKeep": false,
+      "endedAt": 1779479656438,
+      "outcome": {
+        "status": "timeout",
+        "startedAt": 1779479596382,
+        "endedAt": 1779479656438,
+        "elapsedMs": 60056
+      },
+      "endedReason": "subagent-complete",
+      "frozenResultText": "Now let me test the feishu_wiki tool with the provided token:",
+      "frozenResultCapturedAt": 1779479660431,
+      "lastAnnounceDeliveryError": "EmbeddedAttemptSessionTakeoverError: session file changed while embedded prompt lock was released: /home/node/.openclaw/agents/main/sessions/c790a464-17ae-4617-ac74-0151640ce612.jsonl; direct-primary: EmbeddedAttemptSessionTakeoverError: session file changed while embedded prompt lock was released: /home/node/.openclaw/agents/main/sessions/c790a464-17ae-4617-ac74-0151640ce612.jsonl",
+      "announceRetryCount": 3,
+      "lastAnnounceRetryAt": 1779479903710,
+      "cleanupCompletedAt": 1779479903710,
+      "endedHookEmittedAt": 1779479903762
+    }
+  }
 }

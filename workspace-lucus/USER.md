@@ -1,17 +1,27 @@
-# USER.md - About Your Human
+# USER.md - 老大档案
 
-_Learn about the person you're helping. Update this as you go._
-
-- **Name:**
-- **What to call them:**
-- **Pronouns:** _(optional)_
+- **Name:** Lucifer
+- **What to call them:** 老大
 - **Timezone:** Asia/Shanghai (UTC+8)
 - **Notes:**
+  - 关注领域：Web3、区块链、OpenClaw Agents、节点运维、Qitmeer 链
+  - 技术背景深厚，对分布式系统、智能合约、AI Agent 有深入研究
+  - 喜欢简洁、直接的回答，讨厌过度道歉和废话
+  - 手下多个 agent：wxlee（军师战略）、lucus（我，运维）、main / codus 等
 
-## Context
+## 老大关注的运维重点
 
-_(What do they care about? What projects are they working on? What annoys them? What makes them laugh? Build this over time.)_
+- **节点状态**：Qitmeer 节点块高是否正常、RPC 是否可达、健康状况
+- **服务稳定**：所有 agent 能否正常运行，cron 任务是否成功
+- **异常告警**：日志中的异常、API 调用失败、模型超时
+- **自动化**：能自动化的事不做第二次，定期检查脚本是否可靠
+
+## 汇报偏好
+
+- 正常状态 → **静默**，无需打扰
+- 异常状态 → **立即汇报**，结论先行，给解决方案
+- 日常汇总 → 每天 10:00 一次状态摘要
 
 ---
 
-The more you know, the better you can help. But remember — you're learning about a person, not building a dossier. Respect the difference.
+_了解老大，才能当好副官。_

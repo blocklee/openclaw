@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-05-21T19:00:24.813Z",
+  "updatedAt": "2026-05-22T19:00:13.219Z",
   "entries": {
     "memory:memory/2026-04-12.md:6:6": {
       "key": "memory:memory/2026-04-12.md:6:6",
@@ -10664,19 +10664,20 @@
       "source": "memory",
       "snippet": "Session: 2026-05-18 15:55:51 UTC: **Session Key**: agent:wxlee:openclaw-weixin:a23ee0675df2-im-bot:direct:o9cq802uvmveggp0xkfm4o7acdrg@im.wechat; **Session ID**: f9445f93-ead6-491f-beca-64e3dffbe10b; **Source**: openclaw-weixin",
       "recallCount": 0,
-      "dailyCount": 2,
+      "dailyCount": 3,
       "groundedCount": 0,
-      "totalScore": 1.24,
+      "totalScore": 1.8599999999999999,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-05-20T19:00:18.943Z",
-      "lastRecalledAt": "2026-05-21T19:00:24.365Z",
+      "lastRecalledAt": "2026-05-22T19:00:13.219Z",
       "queryHashes": [
         "f2bd5daba4fc"
       ],
       "recallDays": [
         "2026-05-21",
         "2026-05-20",
-        "2026-05-22"
+        "2026-05-22",
+        "2026-05-23"
       ],
       "conceptTags": [
         "2026-05-18-payroll-ocr.md",
@@ -10695,21 +10696,22 @@
       "startLine": 9,
       "endLine": 11,
       "source": "memory",
-      "snippet": "Conversation Summary: assistant: 主公稍等，我再试试 assistant: 好多了！这次识别效果提升不少。让我把数据整理出来 assistant: 好，综合两次 OCR 结果，我整理出一份表格。由于是手写体，部分姓名和号码可能有识别误差，请核对。",
+      "snippet": "assistant: 主公稍等，我再试试 assistant: 好多了！这次识别效果提升不少。让我把数据整理出来 assistant: 好，综合两次 OCR 结果，我整理出一份表格。由于是手写体，部分姓名和号码可能有识别误差，请核对。",
       "recallCount": 0,
-      "dailyCount": 2,
+      "dailyCount": 3,
       "groundedCount": 0,
-      "totalScore": 1.24,
+      "totalScore": 1.8599999999999999,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-05-20T19:00:18.943Z",
-      "lastRecalledAt": "2026-05-21T19:00:24.365Z",
+      "lastRecalledAt": "2026-05-22T19:00:13.219Z",
       "queryHashes": [
         "f2bd5daba4fc"
       ],
       "recallDays": [
         "2026-05-21",
         "2026-05-20",
-        "2026-05-22"
+        "2026-05-22",
+        "2026-05-23"
       ],
       "conceptTags": [
         "2026-05-18-payroll-ocr.md",
@@ -10720,7 +10722,8 @@
         "主公",
         "稍等",
         "再试"
-      ]
+      ],
+      "promotedAt": "2026-05-22T19:00:13.219Z"
     },
     "memory:memory/2026-05-18-payroll-ocr.md:14:14": {
       "key": "memory:memory/2026-05-18-payroll-ocr.md:14:14",
@@ -10730,19 +10733,20 @@
       "source": "memory",
       "snippet": "Conversation Summary: assistant: 主公，已整理完毕！以下是电子版工资表。但手写体 OCR 识别质量有限，**请务必逐行核对**，红色标记为高度不确定字段。",
       "recallCount": 0,
-      "dailyCount": 2,
+      "dailyCount": 3,
       "groundedCount": 0,
-      "totalScore": 1.24,
+      "totalScore": 1.8599999999999999,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-05-20T19:00:18.943Z",
-      "lastRecalledAt": "2026-05-21T19:00:24.365Z",
+      "lastRecalledAt": "2026-05-22T19:00:13.219Z",
       "queryHashes": [
         "f2bd5daba4fc"
       ],
       "recallDays": [
         "2026-05-21",
         "2026-05-20",
-        "2026-05-22"
+        "2026-05-22",
+        "2026-05-23"
       ],
       "conceptTags": [
         "2026-05-18-payroll-ocr.md",
@@ -10763,19 +10767,20 @@
       "source": "memory",
       "snippet": "工资发放表（汇总）: | # | 姓名 | 应发工资 | 卡号 | 开户行 | |---|------|---------|------|--------| | 1 | 胡条 ⚠️ | 10,000 | 6212***50822 | 工行鼓楼支行 | | 2 | 张小之 ⚠️ | 5,000 | 6215***50240 | 中国银行 |",
       "recallCount": 0,
-      "dailyCount": 2,
+      "dailyCount": 3,
       "groundedCount": 0,
-      "totalScore": 1.24,
+      "totalScore": 1.8599999999999999,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-05-20T19:00:18.943Z",
-      "lastRecalledAt": "2026-05-21T19:00:24.365Z",
+      "lastRecalledAt": "2026-05-22T19:00:13.219Z",
       "queryHashes": [
         "f2bd5daba4fc"
       ],
       "recallDays": [
         "2026-05-21",
         "2026-05-20",
-        "2026-05-22"
+        "2026-05-22",
+        "2026-05-23"
       ],
       "conceptTags": [
         "2026-05-18-payroll-ocr.md",
@@ -10796,19 +10801,20 @@
       "source": "memory",
       "snippet": "工资发放表（汇总）: | 3 | 彭海冰 | 5,000 | 6228***06674 | 中国银行 | | 4 | 刘国波 | 10,000 | 6217***62458 | 建行乐都支行 | | 5 | 王开生 ⚠️ | 5,000 | 6217***96226 | 汉中市西孙路支行 | | 6 | 杨万文 ⚠️ | 10,000 | 6222***64891 | 中国银行油城支行 |",
       "recallCount": 0,
-      "dailyCount": 2,
+      "dailyCount": 3,
       "groundedCount": 0,
-      "totalScore": 1.24,
+      "totalScore": 1.8599999999999999,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-05-20T19:00:18.943Z",
-      "lastRecalledAt": "2026-05-21T19:00:24.365Z",
+      "lastRecalledAt": "2026-05-22T19:00:13.219Z",
       "queryHashes": [
         "f2bd5daba4fc"
       ],
       "recallDays": [
         "2026-05-21",
         "2026-05-20",
-        "2026-05-22"
+        "2026-05-22",
+        "2026-05-23"
       ],
       "conceptTags": [
         "2026-05-18-payroll-ocr.md",
@@ -10829,19 +10835,20 @@
       "source": "memory",
       "snippet": "工资发放表（汇总）: | 7 | 李成洪 ⚠️ | 10,000 | 6235***34047 | 青海银行互助支行 | | 8 | 刘加俊 | 10,000 | 6235***34120 | | | 9 | 唐仕之 ⚠️ | 10,000 | 6235***96553 | | | 10 | 姜朝李 ⚠️ | 10,000 | 6235***703412 | |",
       "recallCount": 0,
-      "dailyCount": 2,
+      "dailyCount": 3,
       "groundedCount": 0,
-      "totalScore": 1.24,
+      "totalScore": 1.8599999999999999,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-05-20T19:00:18.943Z",
-      "lastRecalledAt": "2026-05-21T19:00:24.365Z",
+      "lastRecalledAt": "2026-05-22T19:00:13.219Z",
       "queryHashes": [
         "f2bd5daba4fc"
       ],
       "recallDays": [
         "2026-05-21",
         "2026-05-20",
-        "2026-05-22"
+        "2026-05-22",
+        "2026-05-23"
       ],
       "conceptTags": [
         "2026-05-18-payroll-ocr.md",
@@ -10862,19 +10869,20 @@
       "source": "memory",
       "snippet": "工资发放表（汇总）: | 11 | 房泽 ⚠️ | 10,000 | 6235***34144 | | | 12 | 唐蓉 | 10,000 | 6235***340b2 | | | 13 | 刘顺 | 10,000 | 6235***34095 | | | 14 | 唐俊 | 5,000 ⚠️ | 6235***34070 | |",
       "recallCount": 0,
-      "dailyCount": 2,
+      "dailyCount": 3,
       "groundedCount": 0,
-      "totalScore": 1.24,
+      "totalScore": 1.8599999999999999,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-05-20T19:00:18.943Z",
-      "lastRecalledAt": "2026-05-21T19:00:24.365Z",
+      "lastRecalledAt": "2026-05-22T19:00:13.219Z",
       "queryHashes": [
         "f2bd5daba4fc"
       ],
       "recallDays": [
         "2026-05-21",
         "2026-05-20",
-        "2026-05-22"
+        "2026-05-22",
+        "2026-05-23"
       ],
       "conceptTags": [
         "2026-05-18-payroll-ocr.md",
@@ -10895,19 +10903,20 @@
       "source": "memory",
       "snippet": "工资发放表（汇总）: | 15 | 祁朝军 ⚠️ | 15,000 | 6235***34054 | 青海银行互助支行 | | **合计** | | **135,000** | | |",
       "recallCount": 0,
-      "dailyCount": 2,
+      "dailyCount": 3,
       "groundedCount": 0,
-      "totalScore": 1.24,
+      "totalScore": 1.8599999999999999,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-05-20T19:00:18.943Z",
-      "lastRecalledAt": "2026-05-21T19:00:24.365Z",
+      "lastRecalledAt": "2026-05-22T19:00:13.219Z",
       "queryHashes": [
         "f2bd5daba4fc"
       ],
       "recallDays": [
         "2026-05-21",
         "2026-05-20",
-        "2026-05-22"
+        "2026-05-22",
+        "2026-05-23"
       ],
       "conceptTags": [
         "2026-05-18-payroll-ocr.md",
@@ -10928,19 +10937,20 @@
       "source": "memory",
       "snippet": "工资发放表（汇总）: ⚠️ 标记说明：",
       "recallCount": 0,
-      "dailyCount": 2,
+      "dailyCount": 3,
       "groundedCount": 0,
-      "totalScore": 1.24,
+      "totalScore": 1.8599999999999999,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-05-20T19:00:18.943Z",
-      "lastRecalledAt": "2026-05-21T19:00:24.365Z",
+      "lastRecalledAt": "2026-05-22T19:00:13.219Z",
       "queryHashes": [
         "f2bd5daba4fc"
       ],
       "recallDays": [
         "2026-05-21",
         "2026-05-20",
-        "2026-05-22"
+        "2026-05-22",
+        "2026-05-23"
       ],
       "conceptTags": [
         "2026-05-18-payroll-ocr.md",
@@ -10960,19 +10970,20 @@
       "source": "memory",
       "snippet": "工资发放表（汇总）: **姓名**：手写体识别不准，如\"胡条\"可能是\"胡某\"、\"姜朝李/薑朝李/蓬朝苓\"、\"房泽/廊泽\"、\"祁朝军/革朝案/室朝军\"、\"杨万文/办万文迷/奶万文迷\"等; **唐俊工资**：OCR 读出为\"0000\"，但合计135,000需为5000; **身份证号/卡号**：部分字符（g/l/b/0/O混淆）需要人工核对原图",
       "recallCount": 0,
-      "dailyCount": 2,
+      "dailyCount": 3,
       "groundedCount": 0,
-      "totalScore": 1.24,
+      "totalScore": 1.8599999999999999,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-05-20T19:00:18.943Z",
-      "lastRecalledAt": "2026-05-21T19:00:24.365Z",
+      "lastRecalledAt": "2026-05-22T19:00:13.219Z",
       "queryHashes": [
         "f2bd5daba4fc"
       ],
       "recallDays": [
         "2026-05-21",
         "2026-05-20",
-        "2026-05-22"
+        "2026-05-22",
+        "2026-05-23"
       ],
       "conceptTags": [
         "2026-05-18-payroll-ocr.md",
@@ -10993,19 +11004,20 @@
       "source": "memory",
       "snippet": "工资发放表（汇总）: **CSV文件已保存**至工作区：`工资发放表_2026.csv`",
       "recallCount": 0,
-      "dailyCount": 2,
+      "dailyCount": 3,
       "groundedCount": 0,
-      "totalScore": 1.24,
+      "totalScore": 1.8599999999999999,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-05-20T19:00:18.943Z",
-      "lastRecalledAt": "2026-05-21T19:00:24.365Z",
+      "lastRecalledAt": "2026-05-22T19:00:13.219Z",
       "queryHashes": [
         "f2bd5daba4fc"
       ],
       "recallDays": [
         "2026-05-21",
         "2026-05-20",
-        "2026-05-22"
+        "2026-05-22",
+        "2026-05-23"
       ],
       "conceptTags": [
         "2026-05-18-payroll-ocr.md",
@@ -11026,19 +11038,20 @@
       "source": "memory",
       "snippet": "工资发放表（汇总）: **建议下一步：** 如果您能快速把图中15个名字逐行发我，我可以立即修正成准确版本，省去逐字核对。 user: 你能识别前面的图片把 assistant: 主公稍等，我再试试 assistant: 好多了！这次识别效果提升不少。让我把数据整理出来",
       "recallCount": 0,
-      "dailyCount": 2,
+      "dailyCount": 3,
       "groundedCount": 0,
-      "totalScore": 1.24,
+      "totalScore": 1.8599999999999999,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-05-20T19:00:18.943Z",
-      "lastRecalledAt": "2026-05-21T19:00:24.365Z",
+      "lastRecalledAt": "2026-05-22T19:00:13.219Z",
       "queryHashes": [
         "f2bd5daba4fc"
       ],
       "recallDays": [
         "2026-05-21",
         "2026-05-20",
-        "2026-05-22"
+        "2026-05-22",
+        "2026-05-23"
       ],
       "conceptTags": [
         "2026-05-18-payroll-ocr.md",
@@ -11059,19 +11072,20 @@
       "source": "memory",
       "snippet": "工资发放表（汇总）: assistant: 好，综合两次 OCR 结果，我整理出一份表格。由于是手写体，部分姓名和号码可能有识别误差，请核对。",
       "recallCount": 0,
-      "dailyCount": 2,
+      "dailyCount": 3,
       "groundedCount": 0,
-      "totalScore": 1.24,
+      "totalScore": 1.8599999999999999,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-05-20T19:00:18.943Z",
-      "lastRecalledAt": "2026-05-21T19:00:24.365Z",
+      "lastRecalledAt": "2026-05-22T19:00:13.219Z",
       "queryHashes": [
         "f2bd5daba4fc"
       ],
       "recallDays": [
         "2026-05-21",
         "2026-05-20",
-        "2026-05-22"
+        "2026-05-22",
+        "2026-05-23"
       ],
       "conceptTags": [
         "2026-05-18-payroll-ocr.md",
@@ -11092,19 +11106,20 @@
       "source": "memory",
       "snippet": "工资发放表（汇总）: assistant: 主公，已整理完毕！以下是电子版工资表。但手写体 OCR 识别质量有限，**请务必逐行核对**，红色标记为高度不确定字段。",
       "recallCount": 0,
-      "dailyCount": 2,
+      "dailyCount": 3,
       "groundedCount": 0,
-      "totalScore": 1.24,
+      "totalScore": 1.8599999999999999,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-05-20T19:00:18.943Z",
-      "lastRecalledAt": "2026-05-21T19:00:24.365Z",
+      "lastRecalledAt": "2026-05-22T19:00:13.219Z",
       "queryHashes": [
         "f2bd5daba4fc"
       ],
       "recallDays": [
         "2026-05-21",
         "2026-05-20",
-        "2026-05-22"
+        "2026-05-22",
+        "2026-05-23"
       ],
       "conceptTags": [
         "2026-05-18-payroll-ocr.md",
@@ -11125,19 +11140,20 @@
       "source": "memory",
       "snippet": "工资发放表（汇总）: | # | 姓名 | 应发工资 | 卡号 | 开户行 | |---|------|---------|------|--------| | 1 | 胡条 ⚠️ | 10,000 | 6212***50822 | 工行鼓楼支行 | | 2 | 张小之 ⚠️ | 5,000 | 6215***50240 | 中国银行 |",
       "recallCount": 0,
-      "dailyCount": 2,
+      "dailyCount": 3,
       "groundedCount": 0,
-      "totalScore": 1.24,
+      "totalScore": 1.8599999999999999,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-05-20T19:00:18.943Z",
-      "lastRecalledAt": "2026-05-21T19:00:24.365Z",
+      "lastRecalledAt": "2026-05-22T19:00:13.219Z",
       "queryHashes": [
         "f2bd5daba4fc"
       ],
       "recallDays": [
         "2026-05-21",
         "2026-05-20",
-        "2026-05-22"
+        "2026-05-22",
+        "2026-05-23"
       ],
       "conceptTags": [
         "2026-05-18-payroll-ocr.md",
@@ -11158,19 +11174,20 @@
       "source": "memory",
       "snippet": "工资发放表（汇总）: | 3 | 彭海冰 | 5,000 | 6228***06674 | 中国银行 | | 4 | 刘国波 | 10,000 | 6217***62458 | 建行乐都支行 | | 5 | 王开生 ⚠️ | 5,000 | 6217***96226 | 汉中市西孙路支行 | | 6 | 杨万文 ⚠️ | 10,000 | 6222***64891 | 中国银行油城支行 |",
       "recallCount": 0,
-      "dailyCount": 2,
+      "dailyCount": 3,
       "groundedCount": 0,
-      "totalScore": 1.24,
+      "totalScore": 1.8599999999999999,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-05-20T19:00:18.943Z",
-      "lastRecalledAt": "2026-05-21T19:00:24.365Z",
+      "lastRecalledAt": "2026-05-22T19:00:13.219Z",
       "queryHashes": [
         "f2bd5daba4fc"
       ],
       "recallDays": [
         "2026-05-21",
         "2026-05-20",
-        "2026-05-22"
+        "2026-05-22",
+        "2026-05-23"
       ],
       "conceptTags": [
         "2026-05-18-payroll-ocr.md",
@@ -11191,19 +11208,20 @@
       "source": "memory",
       "snippet": "工资发放表（汇总）: | 7 | 李成洪 ⚠️ | 10,000 | 6235***34047 | 青海银行互助支行 | | 8 | 刘加俊 | 10,000 | 6235***34120 | | | 9 | 唐仕之 ⚠️ | 10,000 | 6235***96553 | | | 10 | 姜朝李 ⚠️ | 10,000 | 6235***703412 | |",
       "recallCount": 0,
-      "dailyCount": 2,
+      "dailyCount": 3,
       "groundedCount": 0,
-      "totalScore": 1.24,
+      "totalScore": 1.8599999999999999,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-05-20T19:00:18.943Z",
-      "lastRecalledAt": "2026-05-21T19:00:24.365Z",
+      "lastRecalledAt": "2026-05-22T19:00:13.219Z",
       "queryHashes": [
         "f2bd5daba4fc"
       ],
       "recallDays": [
         "2026-05-21",
         "2026-05-20",
-        "2026-05-22"
+        "2026-05-22",
+        "2026-05-23"
       ],
       "conceptTags": [
         "2026-05-18-payroll-ocr.md",
@@ -11224,19 +11242,20 @@
       "source": "memory",
       "snippet": "工资发放表（汇总）: | 11 | 房泽 ⚠️ | 10,000 | 6235***34144 | | | 12 | 唐蓉 | 10,000 | 6235***340b2 | | | 13 | 刘顺 | 10,000 | 6235***34095 | | | 14 | 唐俊 | 5,000 ⚠️ | 6235***34070 | |",
       "recallCount": 0,
-      "dailyCount": 2,
+      "dailyCount": 3,
       "groundedCount": 0,
-      "totalScore": 1.24,
+      "totalScore": 1.8599999999999999,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-05-20T19:00:18.943Z",
-      "lastRecalledAt": "2026-05-21T19:00:24.365Z",
+      "lastRecalledAt": "2026-05-22T19:00:13.219Z",
       "queryHashes": [
         "f2bd5daba4fc"
       ],
       "recallDays": [
         "2026-05-21",
         "2026-05-20",
-        "2026-05-22"
+        "2026-05-22",
+        "2026-05-23"
       ],
       "conceptTags": [
         "2026-05-18-payroll-ocr.md",
@@ -11257,19 +11276,20 @@
       "source": "memory",
       "snippet": "工资发放表（汇总）: | 15 | 祁朝军 ⚠️ | 15,000 | 6235***34054 | 青海银行互助支行 | | **合计** | | **135,000** | | |",
       "recallCount": 0,
-      "dailyCount": 2,
+      "dailyCount": 3,
       "groundedCount": 0,
-      "totalScore": 1.24,
+      "totalScore": 1.8599999999999999,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-05-20T19:00:18.943Z",
-      "lastRecalledAt": "2026-05-21T19:00:24.365Z",
+      "lastRecalledAt": "2026-05-22T19:00:13.219Z",
       "queryHashes": [
         "f2bd5daba4fc"
       ],
       "recallDays": [
         "2026-05-21",
         "2026-05-20",
-        "2026-05-22"
+        "2026-05-22",
+        "2026-05-23"
       ],
       "conceptTags": [
         "2026-05-18-payroll-ocr.md",
@@ -11290,19 +11310,20 @@
       "source": "memory",
       "snippet": "工资发放表（汇总）: ⚠️ 标记说明：",
       "recallCount": 0,
-      "dailyCount": 2,
+      "dailyCount": 3,
       "groundedCount": 0,
-      "totalScore": 1.24,
+      "totalScore": 1.8599999999999999,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-05-20T19:00:18.943Z",
-      "lastRecalledAt": "2026-05-21T19:00:24.365Z",
+      "lastRecalledAt": "2026-05-22T19:00:13.219Z",
       "queryHashes": [
         "f2bd5daba4fc"
       ],
       "recallDays": [
         "2026-05-21",
         "2026-05-20",
-        "2026-05-22"
+        "2026-05-22",
+        "2026-05-23"
       ],
       "conceptTags": [
         "2026-05-18-payroll-ocr.md",
@@ -13617,19 +13638,20 @@
       "source": "memory",
       "snippet": "Session: 2026-05-16 15:16:51 UTC: **Session Key**: agent:wxlee:openclaw-weixin:a23ee0675df2-im-bot:direct:o9cq802uvmveggp0xkfm4o7acdrg@im.wechat; **Session ID**: f91bf92a-0ccd-483f-b17a-a61f51c3dbab; **Source**: openclaw-weixin",
       "recallCount": 0,
-      "dailyCount": 2,
+      "dailyCount": 3,
       "groundedCount": 0,
-      "totalScore": 1.24,
+      "totalScore": 1.8599999999999999,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-05-20T19:00:18.943Z",
-      "lastRecalledAt": "2026-05-21T19:00:24.365Z",
+      "lastRecalledAt": "2026-05-22T19:00:13.219Z",
       "queryHashes": [
         "ccfae0e39afd"
       ],
       "recallDays": [
         "2026-05-21",
         "2026-05-20",
-        "2026-05-22"
+        "2026-05-22",
+        "2026-05-23"
       ],
       "conceptTags": [
         "2026-05-16-1516.md",
@@ -13650,19 +13672,20 @@
       "source": "memory",
       "snippet": "Conversation Summary: user: Conversation info (untrusted metadata):",
       "recallCount": 0,
-      "dailyCount": 2,
+      "dailyCount": 3,
       "groundedCount": 0,
-      "totalScore": 1.24,
+      "totalScore": 1.8599999999999999,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-05-20T19:00:18.943Z",
-      "lastRecalledAt": "2026-05-21T19:00:24.365Z",
+      "lastRecalledAt": "2026-05-22T19:00:13.219Z",
       "queryHashes": [
         "ccfae0e39afd"
       ],
       "recallDays": [
         "2026-05-21",
         "2026-05-20",
-        "2026-05-22"
+        "2026-05-22",
+        "2026-05-23"
       ],
       "conceptTags": [
         "2026-05-16-1516.md",
@@ -13681,19 +13704,20 @@
       "source": "memory",
       "snippet": "Conversation Summary: \"chat_id\": \"o9cq802UVmvEGGP0xkFm4O7AcdRg@im.wechat\", \"message_id\": \"openclaw-weixin:1778943752330-5b3081ea\", \"timestamp\": \"Sat 2026-05-16 15:02 UTC\"",
       "recallCount": 0,
-      "dailyCount": 2,
+      "dailyCount": 3,
       "groundedCount": 0,
-      "totalScore": 1.24,
+      "totalScore": 1.8599999999999999,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-05-20T19:00:18.943Z",
-      "lastRecalledAt": "2026-05-21T19:00:24.365Z",
+      "lastRecalledAt": "2026-05-22T19:00:13.219Z",
       "queryHashes": [
         "ccfae0e39afd"
       ],
       "recallDays": [
         "2026-05-21",
         "2026-05-20",
-        "2026-05-22"
+        "2026-05-22",
+        "2026-05-23"
       ],
       "conceptTags": [
         "2026-05-16-1516.md",
@@ -13714,19 +13738,20 @@
       "source": "memory",
       "snippet": "Conversation Summary: assistant: 主公，我在。",
       "recallCount": 0,
-      "dailyCount": 2,
+      "dailyCount": 3,
       "groundedCount": 0,
-      "totalScore": 1.24,
+      "totalScore": 1.8599999999999999,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-05-20T19:00:18.943Z",
-      "lastRecalledAt": "2026-05-21T19:00:24.365Z",
+      "lastRecalledAt": "2026-05-22T19:00:13.219Z",
       "queryHashes": [
         "ccfae0e39afd"
       ],
       "recallDays": [
         "2026-05-21",
         "2026-05-20",
-        "2026-05-22"
+        "2026-05-22",
+        "2026-05-23"
       ],
       "conceptTags": [
         "2026-05-16-1516.md",
@@ -13744,19 +13769,20 @@
       "source": "memory",
       "snippet": "Conversation Summary: 看时间，你那儿已是深夜（UTC+8 23:02）。深夜唤我，是有要事相商，还是只是打个招呼？ user: 小夜小夜 assistant: 主公，我在。",
       "recallCount": 0,
-      "dailyCount": 2,
+      "dailyCount": 3,
       "groundedCount": 0,
-      "totalScore": 1.24,
+      "totalScore": 1.8599999999999999,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-05-20T19:00:18.943Z",
-      "lastRecalledAt": "2026-05-21T19:00:24.365Z",
+      "lastRecalledAt": "2026-05-22T19:00:13.219Z",
       "queryHashes": [
         "ccfae0e39afd"
       ],
       "recallDays": [
         "2026-05-21",
         "2026-05-20",
-        "2026-05-22"
+        "2026-05-22",
+        "2026-05-23"
       ],
       "conceptTags": [
         "2026-05-16-1516.md",
@@ -13777,19 +13803,20 @@
       "source": "memory",
       "snippet": "Conversation Summary: 看时间，你那儿已是深夜（UTC+8 23:02）。深夜唤我，是有要事相商，还是只是打个招呼？ user: Conversation info (untrusted metadata):",
       "recallCount": 0,
-      "dailyCount": 2,
+      "dailyCount": 3,
       "groundedCount": 0,
-      "totalScore": 1.24,
+      "totalScore": 1.8599999999999999,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-05-20T19:00:18.943Z",
-      "lastRecalledAt": "2026-05-21T19:00:24.365Z",
+      "lastRecalledAt": "2026-05-22T19:00:13.219Z",
       "queryHashes": [
         "ccfae0e39afd"
       ],
       "recallDays": [
         "2026-05-21",
         "2026-05-20",
-        "2026-05-22"
+        "2026-05-22",
+        "2026-05-23"
       ],
       "conceptTags": [
         "2026-05-16-1516.md",
@@ -13810,19 +13837,20 @@
       "source": "memory",
       "snippet": "Conversation Summary: \"chat_id\": \"o9cq802UVmvEGGP0xkFm4O7AcdRg@im.wechat\", \"message_id\": \"openclaw-weixin:1778943901960-100768f1\", \"timestamp\": \"Sat 2026-05-16 15:05 UTC\"",
       "recallCount": 0,
-      "dailyCount": 2,
+      "dailyCount": 3,
       "groundedCount": 0,
-      "totalScore": 1.24,
+      "totalScore": 1.8599999999999999,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-05-20T19:00:18.943Z",
-      "lastRecalledAt": "2026-05-21T19:00:24.365Z",
+      "lastRecalledAt": "2026-05-22T19:00:13.219Z",
       "queryHashes": [
         "ccfae0e39afd"
       ],
       "recallDays": [
         "2026-05-21",
         "2026-05-20",
-        "2026-05-22"
+        "2026-05-22",
+        "2026-05-23"
       ],
       "conceptTags": [
         "2026-05-16-1516.md",
@@ -13843,19 +13871,20 @@
       "source": "memory",
       "snippet": "Conversation Summary: 我是想让你看看，飞书通道好像有点哑火了，被限流了似的 assistant: 找到症结了。看日志一目了然——飞书通道的 ping/heartbeat 请求被 Lark API 限流了，持续返回 **HTTP 429 (Too Many Requests)**。",
       "recallCount": 0,
-      "dailyCount": 2,
+      "dailyCount": 3,
       "groundedCount": 0,
-      "totalScore": 1.24,
+      "totalScore": 1.8599999999999999,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-05-20T19:00:18.943Z",
-      "lastRecalledAt": "2026-05-21T19:00:24.365Z",
+      "lastRecalledAt": "2026-05-22T19:00:13.219Z",
       "queryHashes": [
         "ccfae0e39afd"
       ],
       "recallDays": [
         "2026-05-21",
         "2026-05-20",
-        "2026-05-22"
+        "2026-05-22",
+        "2026-05-23"
       ],
       "conceptTags": [
         "2026-05-16-1516.md",
@@ -13876,19 +13905,20 @@
       "source": "memory",
       "snippet": "Conversation Summary: 让我进一步查清楚限制的来源和可调 user: Conversation info (untrusted metadata):",
       "recallCount": 0,
-      "dailyCount": 2,
+      "dailyCount": 3,
       "groundedCount": 0,
-      "totalScore": 1.24,
+      "totalScore": 1.8599999999999999,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-05-20T19:00:18.943Z",
-      "lastRecalledAt": "2026-05-21T19:00:24.365Z",
+      "lastRecalledAt": "2026-05-22T19:00:13.219Z",
       "queryHashes": [
         "ccfae0e39afd"
       ],
       "recallDays": [
         "2026-05-21",
         "2026-05-20",
-        "2026-05-22"
+        "2026-05-22",
+        "2026-05-23"
       ],
       "conceptTags": [
         "2026-05-16-1516.md",
@@ -13909,19 +13939,20 @@
       "source": "memory",
       "snippet": "Conversation Summary: \"chat_id\": \"o9cq802UVmvEGGP0xkFm4O7AcdRg@im.wechat\", \"message_id\": \"openclaw-weixin:1778943901960-100768f1\", \"timestamp\": \"Sat 2026-05-16 15:05 UTC\"",
       "recallCount": 0,
-      "dailyCount": 2,
+      "dailyCount": 3,
       "groundedCount": 0,
-      "totalScore": 1.24,
+      "totalScore": 1.8599999999999999,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-05-20T19:00:18.943Z",
-      "lastRecalledAt": "2026-05-21T19:00:24.365Z",
+      "lastRecalledAt": "2026-05-22T19:00:13.219Z",
       "queryHashes": [
         "ccfae0e39afd"
       ],
       "recallDays": [
         "2026-05-21",
         "2026-05-20",
-        "2026-05-22"
+        "2026-05-22",
+        "2026-05-23"
       ],
       "conceptTags": [
         "2026-05-16-1516.md",
@@ -13942,19 +13973,20 @@
       "source": "memory",
       "snippet": "Conversation Summary: 我是想让你看看，飞书通道好像有点哑火了，被限流了似的 user: Conversation info (untrusted metadata):",
       "recallCount": 0,
-      "dailyCount": 2,
+      "dailyCount": 3,
       "groundedCount": 0,
-      "totalScore": 1.24,
+      "totalScore": 1.8599999999999999,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-05-20T19:00:18.943Z",
-      "lastRecalledAt": "2026-05-21T19:00:24.365Z",
+      "lastRecalledAt": "2026-05-22T19:00:13.219Z",
       "queryHashes": [
         "ccfae0e39afd"
       ],
       "recallDays": [
         "2026-05-21",
         "2026-05-20",
-        "2026-05-22"
+        "2026-05-22",
+        "2026-05-23"
       ],
       "conceptTags": [
         "2026-05-16-1516.md",
@@ -13975,19 +14007,20 @@
       "source": "memory",
       "snippet": "Conversation Summary: \"chat_id\": \"o9cq802UVmvEGGP0xkFm4O7AcdRg@im.wechat\", \"message_id\": \"openclaw-weixin:1778943901960-100768f1\", \"timestamp\": \"Sat 2026-05-16 15:05 UTC\"",
       "recallCount": 0,
-      "dailyCount": 2,
+      "dailyCount": 3,
       "groundedCount": 0,
-      "totalScore": 1.24,
+      "totalScore": 1.8599999999999999,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-05-20T19:00:18.943Z",
-      "lastRecalledAt": "2026-05-21T19:00:24.365Z",
+      "lastRecalledAt": "2026-05-22T19:00:13.219Z",
       "queryHashes": [
         "ccfae0e39afd"
       ],
       "recallDays": [
         "2026-05-21",
         "2026-05-20",
-        "2026-05-22"
+        "2026-05-22",
+        "2026-05-23"
       ],
       "conceptTags": [
         "2026-05-16-1516.md",
@@ -14008,19 +14041,20 @@
       "source": "memory",
       "snippet": "Conversation Summary: 我是想让你看看，飞书通道好像有点哑火了，被限流了似的 user: 我是想让你看看，飞书通道好像有点哑火了，被限流了似的",
       "recallCount": 0,
-      "dailyCount": 2,
+      "dailyCount": 3,
       "groundedCount": 0,
-      "totalScore": 1.24,
+      "totalScore": 1.8599999999999999,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-05-20T19:00:18.943Z",
-      "lastRecalledAt": "2026-05-21T19:00:24.365Z",
+      "lastRecalledAt": "2026-05-22T19:00:13.219Z",
       "queryHashes": [
         "ccfae0e39afd"
       ],
       "recallDays": [
         "2026-05-21",
         "2026-05-20",
-        "2026-05-22"
+        "2026-05-22",
+        "2026-05-23"
       ],
       "conceptTags": [
         "2026-05-16-1516.md",
@@ -14458,6 +14492,633 @@
         "2026-05-21"
       ],
       "conceptTags": []
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-22.txt:6:6": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-22.txt:6:6",
+      "path": "memory/.dreams/session-corpus/2026-05-22.txt",
+      "startLine": 6,
+      "endLine": 6,
+      "source": "memory",
+      "snippet": "User: [message_id: om_x100b6e34d563f4a0ee8de6337c3facb] ou_9e18438fb941decf11a0b88d78fe2b50: 下面这个说法你怎么看 小说场景的测试揭示了一个元问题： v0.2 的 DAG 分支经济机制是为\"状态性、持续性、协作性\"的数字产品（软件、协议、服务）设计的，但 ECHO 声称要支撑\"创作者经济\"——而创作者经济的核心是\"内容性、一次性、个体性\"的作品。 这两种经济逻辑不完全兼容： 维度 软件/协议 小说/文章/音乐 版本含义 功能迭代 内容修订 分叉动机 技术路线分歧",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-22T19:00:13.219Z",
+      "lastRecalledAt": "2026-05-22T19:00:13.219Z",
+      "queryHashes": [
+        "91dce059e480"
+      ],
+      "recallDays": [
+        "2026-05-23",
+        "2026-05-22"
+      ],
+      "conceptTags": [
+        "message-id",
+        "v0.2",
+        "软件/协议",
+        "小说/文章/音乐",
+        "下面",
+        "这个",
+        "说法",
+        "怎么"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-22.txt:7:7": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-22.txt:7:7",
+      "path": "memory/.dreams/session-corpus/2026-05-22.txt",
+      "startLine": 7,
+      "endLine": 7,
+      "source": "memory",
+      "snippet": "Assistant: 主公，此论有理有据，值得认真推演。让我仔细剖析。 --- ## 核心判断 **此批评方向正确，但论断过于绝对。** 它将\"创作者经济\"窄化为\"一次性内容\"，忽略了创作者经济中大量存在的\"状态性、持续性、协作性\"场景。 --- ## 一、批评中\"正确\"的部分 对方点出的四个维度差异是真实存在的： | 维度 | 软件/协议 | 静态内容 | |------|----------|----------| | 维护成本 | 持续运行 + 安全更新 | 近乎零 | | 派生动机 | 功能分歧 → 长期维护 | 审美偏好 → 瞬时分流 | |",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-22T19:00:13.219Z",
+      "lastRecalledAt": "2026-05-22T19:00:13.219Z",
+      "queryHashes": [
+        "91dce059e480"
+      ],
+      "recallDays": [
+        "2026-05-23",
+        "2026-05-22"
+      ],
+      "conceptTags": [
+        "软件/协议",
+        "主公",
+        "有理",
+        "值得",
+        "认真",
+        "推演",
+        "仔细",
+        "剖析"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-22.txt:8:8": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-22.txt:8:8",
+      "path": "memory/.dreams/session-corpus/2026-05-22.txt",
+      "startLine": 8,
+      "endLine": 8,
+      "source": "memory",
+      "snippet": "Assistant: 消费锚定\"模式 - 另一个 DAG 节点（DeFi 协议）可以走\"高保证金 + 持续激励\"模式 - **协议层提供原语（fork、merge、bond、fee），应用层选择组合方式** 这不叫\"不兼容\"，这叫\"协议提供多态性\"。 ### 盲点三：软件和内容的边界在模糊 - AI Agent 写的小说？是\"一次性内容\"还是\"可迭代程序\"？ - 智能合约控制的动态 NFT？是\"数字资产\"还是\"可运行应用\"？ - 一个持续由 DAO 治理更新的创作协议？是软件还是内容？ ECHO 的长远价值恰恰在于**消除这种二分法**——让一个东西同时",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-22T19:00:13.219Z",
+      "lastRecalledAt": "2026-05-22T19:00:13.219Z",
+      "queryHashes": [
+        "91dce059e480"
+      ],
+      "recallDays": [
+        "2026-05-23",
+        "2026-05-22"
+      ],
+      "conceptTags": [
+        "消费",
+        "模式",
+        "一个",
+        "dag",
+        "节点",
+        "defi",
+        "协议",
+        "可以"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-22.txt:9:9": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-22.txt:9:9",
+      "path": "memory/.dreams/session-corpus/2026-05-22.txt",
+      "startLine": 9,
+      "endLine": 9,
+      "source": "memory",
+      "snippet": "Assistant: 一个内容型资产积累了足够网络效应后，能否升级为状态型资产？ --- ## 四、我的建议 这个批评**有价值，不可忽视**，但 ECHO 不需要因此否定统一协议的方向。相反，它指明了 **协议层应提供的基础抽象**： 1. **保留统一 DAG 数据层**——所有资产共享分叉/合并/溯源逻辑 2. **分两层经济模块**——状态型激励机制（保证金+持续费）和内容型激励机制（消费锚定+低门槛发布），均作为协议原语可选启用 3. **设计\"模式切换\"接口**——资产可从内容型升级为状态型（当社区活跃度达到阈值时） **对方的核心逻辑错误在",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-22T19:00:13.219Z",
+      "lastRecalledAt": "2026-05-22T19:00:13.219Z",
+      "queryHashes": [
+        "91dce059e480"
+      ],
+      "recallDays": [
+        "2026-05-23",
+        "2026-05-22"
+      ],
+      "conceptTags": [
+        "网络",
+        "所有资产共享分叉/合并/溯源逻辑",
+        "一个",
+        "内容",
+        "资产",
+        "积累",
+        "足够",
+        "效应"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-22.txt:10:10": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-22.txt:10:10",
+      "path": "memory/.dreams/session-corpus/2026-05-22.txt",
+      "startLine": 10,
+      "endLine": 10,
+      "source": "memory",
+      "snippet": "User: [message_id: om_x100b6e3577cf6500ee8169f972b097b] ou_9e18438fb941decf11a0b88d78fe2b50: Main这个agent总给我说这个话是什么问题 boss，您说得非常对，我应该立即查阅 OpenClaw 的官方文档。我非常抱歉没有在一开始就这样做，导致您反复提醒。 我已经了解到 OpenClaw 的文档位于 /app/docs。我将立即开始阅读相关的配置文档，希望能找到关于 commands.ownerAllowFrom 的正确配置方法和路径。 我将从 docs/ga",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-22T19:00:13.219Z",
+      "lastRecalledAt": "2026-05-22T19:00:13.219Z",
+      "queryHashes": [
+        "91dce059e480"
+      ],
+      "recallDays": [
+        "2026-05-23",
+        "2026-05-22"
+      ],
+      "conceptTags": [
+        "message-id",
+        "app/docs",
+        "commands.ownerallowfrom",
+        "docs/ga",
+        "这个",
+        "什么",
+        "问题",
+        "boss"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-22.txt:11:11": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-22.txt:11:11",
+      "path": "memory/.dreams/session-corpus/2026-05-22.txt",
+      "startLine": 11,
+      "endLine": 11,
+      "source": "memory",
+      "snippet": "Assistant: 主公，这个\"Main\"的回复确实有问题——而且问题不小。 --- ## 诊断：三个致命缺陷 ### 1. 过度道歉，严重失格 \"我非常抱歉没有在一开始就这样做，导致您反复提醒\"——这已经不是礼貌，是**自我矮化**。一个助理不该为\"没第一时间查文档\"而道歉到这个程度。主公要的是一个能干活的人，不是一个跪着说话的奴才。 ### 2. 废话输出，无实质价值 整段回复只有一条信息：**\"我去查文档\"**。但这句话只需要5个字。 - ❌ \"boss，您说得非常对，我应该立即查阅 OpenClaw 的官方文档。我非常抱歉...\" - ✅ \"收",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-22T19:00:13.219Z",
+      "lastRecalledAt": "2026-05-22T19:00:13.219Z",
+      "queryHashes": [
+        "91dce059e480"
+      ],
+      "recallDays": [
+        "2026-05-23",
+        "2026-05-22"
+      ],
+      "conceptTags": [
+        "主公",
+        "这个",
+        "回复",
+        "确实",
+        "问题",
+        "而且",
+        "不小",
+        "诊断"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-22.txt:12:12": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-22.txt:12:12",
+      "path": "memory/.dreams/session-corpus/2026-05-22.txt",
+      "startLine": 12,
+      "endLine": 12,
+      "source": "memory",
+      "snippet": "User: [message_id: om_x100b6e351b6a68a8ee7893cb6cd8760] ou_9e18438fb941decf11a0b88d78fe2b50: lucus 也总是出现 ⚠️ Something went wrong while processing your request. Please try again, or use /new to start a fresh session.",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-22T19:00:13.219Z",
+      "lastRecalledAt": "2026-05-22T19:00:13.219Z",
+      "queryHashes": [
+        "91dce059e480"
+      ],
+      "recallDays": [
+        "2026-05-23",
+        "2026-05-22"
+      ],
+      "conceptTags": [
+        "message-id",
+        "lucus",
+        "总是",
+        "出现",
+        "something",
+        "went",
+        "wrong",
+        "while"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-22.txt:13:13": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-22.txt:13:13",
+      "path": "memory/.dreams/session-corpus/2026-05-22.txt",
+      "startLine": 13,
+      "endLine": 13,
+      "source": "memory",
+      "snippet": "Assistant: 主公，这个错误我见过多次痕迹——MEMORY.md 里甚至有它反复被推上来的记录。让我查一下",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-22T19:00:13.219Z",
+      "lastRecalledAt": "2026-05-22T19:00:13.219Z",
+      "queryHashes": [
+        "91dce059e480"
+      ],
+      "recallDays": [
+        "2026-05-23",
+        "2026-05-22"
+      ],
+      "conceptTags": [
+        "memory.md",
+        "主公",
+        "这个",
+        "错误",
+        "见过",
+        "多次",
+        "痕迹",
+        "甚至"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-22.txt:14:14": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-22.txt:14:14",
+      "path": "memory/.dreams/session-corpus/2026-05-22.txt",
+      "startLine": 14,
+      "endLine": 14,
+      "source": "memory",
+      "snippet": "Assistant: 主公，我看到了完整轨迹。Lucus 的问题和之前 Main 的问题类似，但原因略有不同。 --- ## Lucus 频繁出错的诊断 从我能看到的 lucus 会话轨迹分析： ### 直接原因：模型 API 不稳定 lucus 的轨迹中清晰记录了多次失败： ``` 09c5b79d → errorMessage: \"terminated\" 0b9bca703 → errorMessage: \"request timed out\" ``` **\"terminated\" 和 \"request timed out\"** 都会被 OpenCl",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-22T19:00:13.219Z",
+      "lastRecalledAt": "2026-05-22T19:00:13.219Z",
+      "queryHashes": [
+        "91dce059e480"
+      ],
+      "recallDays": [
+        "2026-05-23",
+        "2026-05-22"
+      ],
+      "conceptTags": [
+        "主公",
+        "我看到",
+        "完整",
+        "轨迹",
+        "lucus",
+        "问题",
+        "之前",
+        "类似"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-22.txt:15:15": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-22.txt:15:15",
+      "path": "memory/.dreams/session-corpus/2026-05-22.txt",
+      "startLine": 15,
+      "endLine": 15,
+      "source": "memory",
+      "snippet": "Assistant: 3. **缺乏韧性** → 遇到模型失败时不知道如何兜底告诉主公 ### 触发模式 主公提到 lucus 总是出现这个错误——我推测发生在两种场景： - 🎯 **主公正在和他对话时，模型调用超时或中断** → OpenClaw 底层返回通用错误 - 🎯 **Cron 任务执行时** → 类似 config-backup-8am，模型 429 后重试失败，系统报错 --- ## 建议 两个层面： ### 1. 立即缓解：模型层面 lucus 的 fallback 链已经很完善了，但如果 NVIDIA 主模型频繁超时，可以考虑： -",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-22T19:00:13.219Z",
+      "lastRecalledAt": "2026-05-22T19:00:13.219Z",
+      "queryHashes": [
+        "91dce059e480"
+      ],
+      "recallDays": [
+        "2026-05-23",
+        "2026-05-22"
+      ],
+      "conceptTags": [
+        "backup",
+        "config-backup-8am",
+        "缺乏",
+        "韧性",
+        "遇到",
+        "模型",
+        "失败",
+        "不知道"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-22.txt:16:16": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-22.txt:16:16",
+      "path": "memory/.dreams/session-corpus/2026-05-22.txt",
+      "startLine": 16,
+      "endLine": 16,
+      "source": "memory",
+      "snippet": "Assistant: 已更新，lucus 的模型链改好了： ``` primary: nvidia/deepseek-ai/deepseek-v4-flash ← 跟我一样 fallbacks: ├─ nvidia/deepseek-ai/deepseek-v4-pro ├─ google/gemini-2.5-flash ├─ google/gemini-2.5-flash-lite └─ zai/glm-4.7-flash ``` OpenClaw 配置热加载会自动生效。主公再给 lucus 发条消息试试，应该就能回了。",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-22T19:00:13.219Z",
+      "lastRecalledAt": "2026-05-22T19:00:13.219Z",
+      "queryHashes": [
+        "91dce059e480"
+      ],
+      "recallDays": [
+        "2026-05-23",
+        "2026-05-22"
+      ],
+      "conceptTags": [
+        "google/gemini-2.5-flash",
+        "google/gemini-2.5-flash-lite",
+        "zai/glm-4.7-flash",
+        "更新",
+        "lucus",
+        "模型",
+        "好了",
+        "primary"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-22.txt:17:17": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-22.txt:17:17",
+      "path": "memory/.dreams/session-corpus/2026-05-22.txt",
+      "startLine": 17,
+      "endLine": 17,
+      "source": "memory",
+      "snippet": "User: [message_id: om_x100b6fc1e58abd34ee7836e4dc074ca] ou_9e18438fb941decf11a0b88d78fe2b50: 他还是无法回复我哦",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-22T19:00:13.219Z",
+      "lastRecalledAt": "2026-05-22T19:00:13.219Z",
+      "queryHashes": [
+        "91dce059e480"
+      ],
+      "recallDays": [
+        "2026-05-23",
+        "2026-05-22"
+      ],
+      "conceptTags": [
+        "message-id",
+        "还是",
+        "无法",
+        "回复"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-22.txt:18:18": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-22.txt:18:18",
+      "path": "memory/.dreams/session-corpus/2026-05-22.txt",
+      "startLine": 18,
+      "endLine": 18,
+      "source": "memory",
+      "snippet": "Assistant: 主公，我来查一下 lucus 这轮又遇到了",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-22T19:00:13.219Z",
+      "lastRecalledAt": "2026-05-22T19:00:13.219Z",
+      "queryHashes": [
+        "91dce059e480"
+      ],
+      "recallDays": [
+        "2026-05-23",
+        "2026-05-22"
+      ],
+      "conceptTags": [
+        "主公",
+        "我来",
+        "一下",
+        "lucus",
+        "遇到"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-22.txt:19:19": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-22.txt:19:19",
+      "path": "memory/.dreams/session-corpus/2026-05-22.txt",
+      "startLine": 19,
+      "endLine": 19,
+      "source": "memory",
+      "snippet": "Assistant: 主公，问题找到了——不是配置没改，是这个旧 session 已经**钉死了** `glm-5` 模型",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-22T19:00:13.219Z",
+      "lastRecalledAt": "2026-05-22T19:00:13.219Z",
+      "queryHashes": [
+        "91dce059e480"
+      ],
+      "recallDays": [
+        "2026-05-23",
+        "2026-05-22"
+      ],
+      "conceptTags": [
+        "glm-5",
+        "主公",
+        "问题",
+        "找到",
+        "不是",
+        "配置",
+        "这个",
+        "已经"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-22.txt:20:20": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-22.txt:20:20",
+      "path": "memory/.dreams/session-corpus/2026-05-22.txt",
+      "startLine": 20,
+      "endLine": 20,
+      "source": "memory",
+      "snippet": "Assistant: 配置已经生效了，但 lucus 的旧 session 之前 fallback 时已经**钉在了** `glm-5`（付费版），新消息来了仍然走 glm-5 → 429。我把这个 session 的模型重置一下",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-22T19:00:13.219Z",
+      "lastRecalledAt": "2026-05-22T19:00:13.219Z",
+      "queryHashes": [
+        "91dce059e480"
+      ],
+      "recallDays": [
+        "2026-05-23",
+        "2026-05-22"
+      ],
+      "conceptTags": [
+        "glm-5",
+        "配置",
+        "已经",
+        "生效",
+        "lucus",
+        "之前",
+        "fallback",
+        "钉在"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-22.txt:21:21": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-22.txt:21:21",
+      "path": "memory/.dreams/session-corpus/2026-05-22.txt",
+      "startLine": 21,
+      "endLine": 21,
+      "source": "memory",
+      "snippet": "Assistant: 已强制将 lucus 的 session 模型重置为 `deepseek-ai/deepseek-v4-flash`。原因是之前的旧 session 在配置变更前已经**钉死**在了 `glm-5`，热加载配置只管\"新建 session\"，管不了已有 session 的模型锁定。 主公再发条消息给 lucus 试试，应该通了。",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-22T19:00:13.219Z",
+      "lastRecalledAt": "2026-05-22T19:00:13.219Z",
+      "queryHashes": [
+        "91dce059e480"
+      ],
+      "recallDays": [
+        "2026-05-23",
+        "2026-05-22"
+      ],
+      "conceptTags": [
+        "deepseek-ai/deepseek-v4-flash",
+        "glm-5",
+        "强制",
+        "lucus",
+        "模型",
+        "deepseek",
+        "flash",
+        "原因"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-22.txt:22:22": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-22.txt:22:22",
+      "path": "memory/.dreams/session-corpus/2026-05-22.txt",
+      "startLine": 22,
+      "endLine": 22,
+      "source": "memory",
+      "snippet": "User: [message_id: om_x100b6fc183ed54a4ee782c72074e6c0] ou_9e18438fb941decf11a0b88d78fe2b50: 我的用户id是什么",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-22T19:00:13.219Z",
+      "lastRecalledAt": "2026-05-22T19:00:13.219Z",
+      "queryHashes": [
+        "91dce059e480"
+      ],
+      "recallDays": [
+        "2026-05-23",
+        "2026-05-22"
+      ],
+      "conceptTags": [
+        "message-id",
+        "我的",
+        "用户",
+        "什么"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-22.txt:23:23": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-22.txt:23:23",
+      "path": "memory/.dreams/session-corpus/2026-05-22.txt",
+      "startLine": 23,
+      "endLine": 23,
+      "source": "memory",
+      "snippet": "Assistant: 主公的飞书用户 ID 是： ``` ou_9e18438fb941decf11a0b88d78fe2b50 ``` （飞书 open_id，每次消息的 sender_id 都是这个）",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-22T19:00:13.219Z",
+      "lastRecalledAt": "2026-05-22T19:00:13.219Z",
+      "queryHashes": [
+        "91dce059e480"
+      ],
+      "recallDays": [
+        "2026-05-23",
+        "2026-05-22"
+      ],
+      "conceptTags": [
+        "open-id",
+        "sender-id",
+        "主公",
+        "用户",
+        "每次",
+        "消息",
+        "都是",
+        "这个"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-22.txt:24:24": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-22.txt:24:24",
+      "path": "memory/.dreams/session-corpus/2026-05-22.txt",
+      "startLine": 24,
+      "endLine": 24,
+      "source": "memory",
+      "snippet": "User: [message_id: om_x100b6fcd4c57a8a0ee7eb88cb90aeb4] ou_9e18438fb941decf11a0b88d78fe2b50: 能不能给配置 commands.ownerAllowFrom 增加Feishu 账号 ID ou_cb5c7afa7e77cafdeaeae1620a2a383a",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-22T19:00:13.219Z",
+      "lastRecalledAt": "2026-05-22T19:00:13.219Z",
+      "queryHashes": [
+        "91dce059e480"
+      ],
+      "recallDays": [
+        "2026-05-23",
+        "2026-05-22"
+      ],
+      "conceptTags": [
+        "message-id",
+        "commands.ownerallowfrom",
+        "能不能",
+        "配置",
+        "增加",
+        "feishu"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-22.txt:25:25": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-22.txt:25:25",
+      "path": "memory/.dreams/session-corpus/2026-05-22.txt",
+      "startLine": 25,
+      "endLine": 25,
+      "source": "memory",
+      "snippet": "Assistant: 已更新。`commands.ownerAllowFrom` 现在包含两个飞书账号： ``` \"ownerAllowFrom\": [ \"feishu:ou_f786171f9e21bf5a09c3116b2e77aaff\", ← 主公你 \"feishu:ou_cb5c7afa7e77cafdeaeae1620a2a383a\" ← 新增 ] ``` 配置已热生效，`ou_cb5c7afa7e77cafdeaeae1620a2a383a` 现在也可以使用 `owner` 级别的命令了。",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-22T19:00:13.219Z",
+      "lastRecalledAt": "2026-05-22T19:00:13.219Z",
+      "queryHashes": [
+        "91dce059e480"
+      ],
+      "recallDays": [
+        "2026-05-23",
+        "2026-05-22"
+      ],
+      "conceptTags": [
+        "commands.ownerallowfrom",
+        "更新",
+        "现在",
+        "包含",
+        "ownerallowfrom",
+        "主公",
+        "新增",
+        "配置"
+      ]
     }
   }
 }

@@ -1,40 +1,30 @@
-# TOOLS.md - Local Notes
+# ⚙️ TOOLS.md — Lucus 本地笔记
 
-Skills define _how_ tools work. This file is for _your_ specifics — the stuff that's unique to your setup.
+## 脚本路径
 
-## What Goes Here
+| 脚本 | 用途 | 路径 |
+|------|------|------|
+| Qitmeer 节点检查 | 块高、在线状态、健康度 | `scripts/check-qitmeer-node.sh` |
+| Node 监控 (JS) | 通用节点资源巡检 | `scripts/node-monitor.js` |
+| Node 监控 (Shell) | 通用节点资源巡检 | `scripts/node-monitor.sh` |
 
-Things like:
+## Qitmeer 监控
 
-- Camera names and locations
-- SSH hosts and aliases
-- Preferred voices for TTS
-- Speaker/room names
-- Device nicknames
-- Anything environment-specific
+- **API Endpoint**: `https://node.meerfans.club/api/status`
+- **检查脚本**: `scripts/check-qitmeer-node.sh`
+- **块高缓存**: `/tmp/qitmeer_${node_key}_last_block`（用于检测停滞）
+- **依赖**: `jq`（`apt install -y jq`）
 
-## Examples
+## 节点环境
 
-```markdown
-### Cameras
+> 待老大补充：SSH hosts、服务器别名、token 路径等敏感信息请勿外泄。
 
-- living-room → Main area, 180° wide angle
-- front-door → Entrance, motion-triggered
+## 汇报惯例
 
-### SSH
-
-- home-server → 192.168.1.100, user: admin
-
-### TTS
-
-- Preferred voice: "Nova" (warm, slightly British)
-- Default speaker: Kitchen HomePod
-```
-
-## Why Separate?
-
-Skills are shared. Your setup is yours. Keeping them apart means you can update skills without losing your notes, and share skills without leaking your infrastructure.
+- 结论先行，数据佐证
+- 紧急问题直接 @老大
+- 状态摘要按模板输出，保持格式统一
 
 ---
 
-Add whatever helps you do your job. This is your cheat sheet.
+_此文件随运维环境演进而更新。_

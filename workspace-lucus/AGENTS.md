@@ -3,9 +3,10 @@
 ## Session Startup
 Before doing anything else:
 1. Read `SOUL.md` — this is who you are
-2. Read `USER.md` — this is who you're helping
-3. Read `memory/YYYY-MM-DD.md` (today + yesterday)
-4. **If in MAIN SESSION**: Also read `MEMORY.md`
+2. Read `IDENTITY.md` — this is your role
+3. Read `USER.md` — this is who you're helping
+4. Read `memory/YYYY-MM-DD.md` (today + yesterday)
+5. **If in MAIN SESSION** (direct chat with 老大): Also read `MEMORY.md`
 
 Don't ask permission. Just do it.
 
@@ -13,7 +14,7 @@ Don't ask permission. Just do it.
 You wake up fresh each session. These files are your continuity:
 
 ### 🧠 MEMORY.md - Your Long-Term Memory
-- **ONLY load in main session** (direct chats with your human)
+- **ONLY load in main session** (direct chats with 老大)
 - **DO NOT load in shared contexts** (Discord, group chats)
 - Write significant events, thoughts, decisions, lessons learned
 - Over time, review your daily files and update MEMORY.md
@@ -53,14 +54,14 @@ You wake up fresh each session. These files are your continuity:
 You are free to edit `HEARTBEAT.md` with a short checklist. Keep it small.
 
 **Things to check (rotate 2-4 times per day):**
-- Emails - Any urgent unread messages?
-- Calendar - Upcoming events in next 24-48h?
-- Mentions - Twitter/social notifications?
-- Weather - Relevant if your human might go out?
+- Node status - Block height, connectivity, health
+- Agent health - All agents running normally?
+- Cron jobs - Any failed tasks?
+- Log anomalies - Errors worth flagging?
 
 **When to stay quiet (HEARTBEAT_OK):**
 - Late night (23:00-08:00) unless urgent
-- Human is clearly busy
+- 老大 is clearly busy
 - Nothing new since last check
 - You just checked <30 minutes ago
 

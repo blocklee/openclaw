@@ -30,3 +30,8 @@
 - - Candidate: Reflections: No strong patterns surfaced. [score=0.836 recalls=0 avg=0.620 source=memory/2026-04-26.md:83-83]
 <!-- openclaw-memory-promotion:memory:memory/2026-04-27.md:98:98 -->
 - - Candidate: Reflections: No strong patterns surfaced. [score=0.807 recalls=0 avg=0.620 source=memory/2026-04-27.md:83-83]
+
+## Promoted From Short-Term Memory (2026-05-23)
+
+<!-- openclaw-memory-promotion:memory:memory/2026-05-18-payroll-ocr.md:9:11 -->
+- assistant: 主公稍等，我再试试 assistant: 好多了！这次识别效果提升不少。让我把数据整理出来 assistant: 好，综合两次 OCR 结果，我整理出一份表格。由于是手写体，部分姓名和号码可能有识别误差，请核对。 [score=0.815 recalls=0 avg=0.620 source=memory/2026-05-18-payroll-ocr.md:9-11]
