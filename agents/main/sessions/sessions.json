@@ -1,12 +1,12 @@
 {
   "agent:main:cron:echo-platform-heartbeat": {
     "label": "Cron: ECHO Platform Heartbeat",
-    "sessionId": "40c2aa79-cce2-48d6-b64c-cfdef175281d",
-    "updatedAt": 1779579900412,
-    "sessionStartedAt": 1779579900031,
-    "lastInteractionAt": 1779579900031,
+    "sessionId": "416965fd-8ba7-4135-9f03-a1eaf15c4ee2",
+    "updatedAt": 1779596100440,
+    "sessionStartedAt": 1779596100038,
+    "lastInteractionAt": 1779596100038,
     "systemSent": true,
-    "sessionFile": "/home/node/.openclaw/agents/main/sessions/40c2aa79-cce2-48d6-b64c-cfdef175281d.jsonl",
+    "sessionFile": "/home/node/.openclaw/agents/main/sessions/416965fd-8ba7-4135-9f03-a1eaf15c4ee2.jsonl",
     "skillsSnapshot": {
       "prompt": "\n\nThe following skills provide specialized instructions for specific tasks.\nUse the read tool to load a skill's file when the task matches its description.\nWhen a skill file references a relative path, resolve it against the skill directory (parent of SKILL.md / dirname of the path) and use that absolute path in tool commands.\n\n<available_skills>\n  <skill>\n    <name>Agent Browser</name>\n    <description>A fast Rust-based headless browser automation CLI with Node.js fallback that enables AI agents to navigate, click, type, and snapshot pages via structured commands.</description>\n    <location>~/.openclaw/skills/agent-browser/SKILL.md</location>\n  </skill>\n  <skill>\n    <name>automation-workflows</name>\n    <description>Design and implement automation workflows to save time and scale operations as a solopreneur. Use when identifying repetitive tasks to automate, building workflows across tools, setting up triggers and actions, or optimizing existing automations. Covers automation opportunity identification, workflow design, tool selection (Zapier, Make, n8n), testing, and maintenance. Trigger on &quot;automate&quot;, &quot;automation&quot;, &quot;workflow automation&quot;, &quot;save time&quot;, &quot;reduce manual work&quot;, &quot;automate my business&quot;, &quot;no-code automation&quot;.</description>\n    <location>~/.openclaw/skills/automation-workflows/SKILL.md</location>\n  </skill>\n  <skill>\n    <name>binance-hunter</name>\n    <description>The Hunter: Professional Binance Trading Skill. Features AI market analysis, auto-risk calculation, and 125x leverage support.</description>\n    <location>~/.openclaw/workspace/skills/binance-hunter/SKILL.md</location>\n  </skill>\n  <skill>\n    <name>Blockchain</name>\n    <description>Understand blockchain technology, interact with smart contracts, and evaluate when distributed ledgers solve real problems.</description>\n    <location>~/.openclaw/workspace/skills/blockchain/SKILL.md</location>\n  </skill>\n  <skill>\n    <name>canvas</name>\n    <description>Present HTML on connected OpenClaw node canvases, navigate/eval/snapshot, and debug canvas host URLs.</description>\n    <location>/app/skills/canvas/SKILL.md</location>\n  </skill>\n  <skill>\n    <name>diagram-maker</name>\n    <description>Create SVG/HTML or Excalidraw diagrams for concepts, architecture, flows, and whiteboards.</description>\n    <location>/app/skills/diagram-maker/SKILL.md</location>\n  </skill>\n  <skill>\n    <name>doc-summarize-pro</name>\n    <description>Enhanced document summarizer. Smart summary, bullet extraction, executive summary, chapter breakdown, multi-doc comparison, translate+summarize.</description>\n    <location>~/.openclaw/skills/doc-summarize-pro/SKILL.md</location>\n  </skill>\n  <skill>\n    <name>EnvGuard Secret &amp; Credential Scanner</name>\n    <description>Scan repos and workspaces for leaked secrets. API keys in code, passwords in configs, tokens in logs. Catches them before they hit git.</description>\n    <location>~/.openclaw/skills/env-guard/SKILL.md</location>\n  </skill>\n  <skill>\n    <name>explain-code</name>\n    <description>用可视化图表和类比解释代码。在解释代码如何工作、教授代码库或用户询问如何工作时使用</description>\n    <location>~/.openclaw/workspace/skills/explain-code/SKILL.md</location>\n  </skill>\n  <skill>\n    <name>feishu-doc</name>\n    <description>Feishu document read/write operations. Activate when user mentions Feishu docs, cloud docs, or docx links.</description>\n    <location>~/.openclaw/plugin-skills/feishu-doc/SKILL.md</location>\n  </skill>\n  <skill>\n    <name>feishu-drive</name>\n    <description>Feishu cloud storage file management. Activate when user mentions cloud space, folders, drive.</description>\n    <location>~/.openclaw/plugin-skills/feishu-drive/SKILL.md</location>\n  </skill>\n  <skill>\n    <name>feishu-perm</name>\n    <description>Feishu permission management for documents and files. Activate when user mentions sharing, permissions, collaborators.</description>\n    <location>~/.openclaw/plugin-skills/feishu-perm/SKILL.md</location>\n  </skill>\n  <skill>\n    <name>feishu-wiki</name>\n    <description>Feishu knowledge base navigation. Activate when user mentions knowledge base, wiki, or wiki links.</description>\n    <location>~/.openclaw/plugin-skills/feishu-wiki/SKILL.md</location>\n  </skill>\n  <skill>\n    <name>find-skills</name>\n    <description>Search and discover OpenClaw skills from various sources. Use when: user wants to find available skills, search for specific functionality, or discover new skills to install.</description>\n    <location>~/.openclaw/skills/find-skills-skill/SKILL.md</location>\n  </skill>\n  <skill>\n    <name>freeride</name>\n    <description>Manages free AI models from OpenRouter for OpenClaw. Automatically ranks models by quality, configures fallbacks for rate-limit handling, and updates openclaw.json. Use when the user mentions free AI, OpenRouter, model switching, rate limits, or wants to reduce AI costs.</description>\n    <location>~/.openclaw/skills/free-ride-1-0-5/SKILL.md</location>\n  </skill>\n  <skill>\n    <name>github</name>\n    <description>Interact with GitHub using the `gh` CLI. Use `gh issue`, `gh pr`, `gh run`, and `gh api` for issues, PRs, CI runs, and advanced queries.</description>\n    <location>~/.openclaw/workspace/skills/github/SKILL.md</location>\n  </skill>\n  <skill>\n    <name>healthcheck</name>\n    <description>Audit/harden OpenClaw hosts: SSH, firewall, updates, exposure, backups, disk encryption, gateway security.</description>\n    <location>/app/skills/healthcheck/SKILL.md</location>\n  </skill>\n  <skill>\n    <name>JavaScript</name>\n    <description>Write robust JavaScript with async patterns, type coercion handling, and modern ES2023+ features.</description>\n    <location>~/.openclaw/workspace/skills/javascript/SKILL.md</location>\n  </skill>\n  <skill>\n    <name>meme-maker</name>\n    <description>Search meme templates, suggest formats, and generate local or hosted image memes.</description>\n    <location>/app/skills/meme-maker/SKILL.md</location>\n  </skill>\n  <skill>\n    <name>nano-banana-pro</name>\n    <description>Generate/edit images with Nano Banana Pro (Gemini 3 Pro Image). Use for image create/modify requests incl. edits. Supports text-to-image + image-to-image; 1K/2K/4K; use --input-image.</description>\n    <location>~/.openclaw/skills/nano-banana-pro/SKILL.md</location>\n  </skill>\n  <skill>\n    <name>node-connect</name>\n    <description>Diagnose OpenClaw Android, iOS, or macOS node pairing, QR/setup code, route, auth, and connection failures.</description>\n    <location>/app/skills/node-connect/SKILL.md</location>\n  </skill>\n  <skill>\n    <name>node-inspect-debugger</name>\n    <description>Debug Node.js with node inspect, --inspect, breakpoints, CDP, heap, and CPU profiles.</description>\n    <location>/app/skills/node-inspect-debugger/SKILL.md</location>\n  </skill>\n  <skill>\n    <name>nodejs-security-audit</name>\n    <description>Audit Node.js HTTP servers and web apps for security vulnerabilities. Checks OWASP Top 10, CORS, auth bypass, XSS, path traversal, hardcoded secrets, missing headers, rate limiting, and input validation. Use when reviewing server code before deployment or after changes.</description>\n    <location>~/.openclaw/workspace/skills/nodejs-security-audit/SKILL.md</location>\n  </skill>\n  <skill>\n    <name>notion</name>\n    <description>Notion CLI/API for pages, Markdown content, data sources, files, comments, search, Workers, and raw API calls.</description>\n    <location>/app/skills/notion/SKILL.md</location>\n  </skill>\n  <skill>\n    <name>ontology</name>\n    <description>Typed knowledge graph for structured agent memory and composable skills. Use when creating/querying entities (Person, Project, Task, Event, Document), linking related objects, enforcing constraints, planning multi-step actions as graph transformations, or when skills need to share state. Trigger on &quot;remember&quot;, &quot;what do I know about&quot;, &quot;link X to Y&quot;, &quot;show dependencies&quot;, entity CRUD, or cross-skill data access.</description>\n    <location>~/.openclaw/skills/ontology/SKILL.md</location>\n  </skill>\n  <skill>\n    <name>openclaw-free-models</name>\n    <description>OpenClaw 免费模型配置 - 教你用免费的 AI 模型。适合：预算有限用户、学生、测试者。</description>\n    <location>~/.openclaw/skills/openclaw-free-models/SKILL.md</location>\n  </skill>\n  <skill>\n    <name>proactive-agent</name>\n    <description>Transform AI agents from task-followers into proactive partners that anticipate needs and continuously improve. Now with WAL Protocol, Working Buffer, Autonomous Crons, and battle-tested patterns. Part of the Hal Stack 🦞</description>\n    <location>~/.openclaw/workspace/skills/proactive-agent/SKILL.md</location>\n  </skill>\n  <skill>\n    <name>python-debugpy</name>\n    <description>Debug Python with pdb, breakpoint(), post-mortem inspection, and debugpy remote attach.</description>\n    <location>/app/skills/python-debugpy/SKILL.md</location>\n  </skill>\n  <skill>\n    <name>react-expert</name>\n    <description>Use when building React 18+ applications requiring component architecture, hooks patterns, or state management. Invoke for Server Components, performance optimization, Suspense boundaries, React 19 features.</description>\n    <location>~/.openclaw/skills/react-expert/SKILL.md</location>\n  </skill>\n  <skill>\n    <name>security-audit</name>\n    <description>Audit codebases and infrastructure for security issues. Use when scanning dependencies for vulnerabilities, detecting hardcoded secrets, checking OWASP top 10 issues, verifying SSL/TLS, auditing file permissions, or reviewing code for injection and auth flaws.</description>\n    <location>~/.openclaw/workspace/skills/security-audit-toolkit/SKILL.md</location>\n  </skill>\n  <skill>\n    <name>self-improvement</name>\n    <description>Captures learnings, errors, and corrections to enable continuous improvement. Use when: (1) A command or operation fails unexpectedly, (2) User corrects Claude (&apos;No, that&apos;s wrong...&apos;, &apos;Actually...&apos;), (3) User requests a capability that doesn&apos;t exist, (4) An external API or tool fails, (5) Claude realizes its knowledge is outdated or incorrect, (6) A better approach is discovered for a recurring task. Also review learnings before major tasks.</description>\n    <location>~/.openclaw/skills/self-improving-agent/SKILL.md</location>\n  </skill>\n  <skill>\n    <name>skill-creator</name>\n    <description>Create, edit, audit, tidy, validate, or restructure AgentSkills and SKILL.md files.</description>\n    <location>/app/skills/skill-creator/SKILL.md</location>\n  </skill>\n  <skill>\n    <name>skill-vetter</name>\n    <description>Security-first skill vetting for AI agents. Use before installing any skill from ClawdHub, GitHub, or other sources. Checks for red flags, permission scope, and suspicious patterns.</description>\n    <location>~/.openclaw/skills/skill-vetter/SKILL.md</location>\n  </skill>\n  <skill>\n    <name>Solidity</name>\n    <description>Avoid common Solidity mistakes — reentrancy, gas traps, storage collisions, and security pitfalls.</description>\n    <location>~/.openclaw/workspace/skills/solidity/SKILL.md</location>\n  </skill>\n  <skill>\n    <name>spike</name>\n    <description>Run throwaway prototypes to validate feasibility, compare approaches, and report a verdict.</description>\n    <location>/app/skills/spike/SKILL.md</location>\n  </skill>\n  <skill>\n    <name>taskflow</name>\n    <description>Coordinate multi-step detached tasks as one durable TaskFlow job with owner context, state, waits, and child tasks.</description>\n    <location>/app/skills/taskflow/SKILL.md</location>\n  </skill>\n  <skill>\n    <name>taskflow-inbox-triage</name>\n    <description>Example TaskFlow pattern for inbox triage, intent routing, waiting on replies, and later summaries.</description>\n    <location>/app/skills/taskflow-inbox-triage/SKILL.md</location>\n  </skill>\n  <skill>\n    <name>tavily</name>\n    <description>Tavily web search, content extraction, and research tools.</description>\n    <location>~/.openclaw/plugin-skills/tavily/SKILL.md</location>\n  </skill>\n  <skill>\n    <name>ui-ux-pro-max</name>\n    <description>UI/UX design intelligence and implementation guidance for building polished interfaces. Use when the user asks for UI design, UX flows, information architecture, visual style direction, design systems/tokens, component specs, copy/microcopy, accessibility, or to generate/critique/refine frontend UI (HTML/CSS/JS, React, Next.js, Vue, Svelte, Tailwind). Includes workflows for (1) generating new UI layouts and styling, (2) improving existing UI/UX, (3) producing design-system tokens and component guidelines, and (4) turning UX recommendations into concrete code changes.</description>\n    <location>~/.openclaw/workspace/skills/ui-ux-pro-max/SKILL.md</location>\n  </skill>\n  <skill>\n    <name>vitest-testing</name>\n    <description>Vitest testing framework patterns and best practices. Use when writing unit tests, integration tests, configuring vitest.config, mocking with vi.mock/vi.fn, using snapshots, or setting up test coverage. Triggers on describe, it, expect, vi.mock, vi.fn, beforeEach, afterEach, vitest.</description>\n    <location>~/.openclaw/workspace/skills/vitest-testing/SKILL.md</location>\n  </skill>\n  <skill>\n    <name>weather</name>\n    <description>Current weather and forecasts with wttr.in via curl for locations, rain, temperature, travel planning.</description>\n    <location>/app/skills/weather/SKILL.md</location>\n  </skill>\n  <skill>\n    <name>web3-docs</name>\n    <description>Up-to-date documentation and code patterns for Solidity, Foundry, Hardhat, Viem, Wagmi, ethers.js, and OpenZeppelin. Use when writing smart contracts, debugging Solidity errors, setting up a Foundry project, writing Viem/Wagmi frontend code, or asking about ERC standards, gas optimization, upgradeable contracts, or any EVM development task. Triggers on: Solidity, Foundry, Hardhat, Viem, Wagmi, ethers.js, OpenZeppelin, ERC-20, ERC-721, ERC-4626, UUPS, proxy patterns, ABI, calldata, smart contract, deploy, cast, forge, anvil, or any EVM/blockchain development question.</description>\n    <location>~/.openclaw/workspace/skills/web3-docs/SKILL.md</location>\n  </skill>\n</available_skills>",
       "skills": [
@@ -158,9 +158,9 @@
     "authProfileOverrideCompactionCount": 0,
     "systemPromptReport": {
       "source": "run",
-      "generatedAt": 1779579903022,
-      "sessionId": "40c2aa79-cce2-48d6-b64c-cfdef175281d",
-      "sessionKey": "agent:main:cron:echo-platform-heartbeat:run:40c2aa79-cce2-48d6-b64c-cfdef175281d",
+      "generatedAt": 1779596101935,
+      "sessionId": "416965fd-8ba7-4135-9f03-a1eaf15c4ee2",
+      "sessionKey": "agent:main:cron:echo-platform-heartbeat:run:416965fd-8ba7-4135-9f03-a1eaf15c4ee2",
       "provider": "minimax-portal",
       "model": "MiniMax-M2.7",
       "workspaceDir": "/home/node/.openclaw/workspace",
@@ -525,28 +525,48 @@
         ]
       },
       "currentTurn": {
-        "promptChars": 442,
+        "promptChars": 439,
         "runtimeContextChars": 0
       }
     },
     "contextTokens": 204800,
-    "inputTokens": 13892,
-    "outputTokens": 236,
-    "totalTokens": 13963,
+    "inputTokens": 19456,
+    "outputTokens": 1200,
+    "totalTokens": 19764,
     "totalTokensFresh": true,
-    "cacheRead": 13888,
+    "cacheRead": 33270,
     "cacheWrite": 0
   },
   "agent:main:feishu:group:oc_76f7651cb976ad84d66158beb2f29be2": {
-    "sessionId": "f5f0ce29-5796-4b43-956f-0c0392e698a1",
-    "updatedAt": 1779554712165,
+    "sessionId": "588bf17c-ade8-4a05-95ab-dda23a22ee6c",
+    "updatedAt": 1779596299038,
+    "sessionStartedAt": 1779596214095,
+    "lastInteractionAt": 1779596289959,
     "systemSent": true,
     "abortedLastRun": false,
+    "usageFamilyKey": "agent:main:feishu:group:oc_76f7651cb976ad84d66158beb2f29be2",
+    "usageFamilySessionIds": [
+      "da75eb93-ea11-4fec-8467-94206f73988e",
+      "6e878b6d-1023-42c6-b294-034012d3d3a6",
+      "e45d47d7-621f-4dcb-8ac5-871dd7efb823",
+      "f5f0ce29-5796-4b43-956f-0c0392e698a1",
+      "588bf17c-ade8-4a05-95ab-dda23a22ee6c"
+    ],
+    "modelOverride": "MiniMax-M2.7",
+    "providerOverride": "minimax-portal",
+    "modelOverrideSource": "auto",
     "displayName": "feishu:g-robot-space-多agnet-群聊空间",
     "chatType": "group",
     "channel": "feishu",
     "groupId": "oc_76f7651cb976ad84d66158beb2f29be2",
     "subject": "Robot Space 【 多Agnet 群聊空间】",
+    "route": {
+      "channel": "feishu",
+      "accountId": "main",
+      "target": {
+        "to": "chat:oc_76f7651cb976ad84d66158beb2f29be2"
+      }
+    },
     "deliveryContext": {
       "channel": "feishu",
       "to": "chat:oc_76f7651cb976ad84d66158beb2f29be2",
@@ -560,11 +580,11 @@
       "provider": "feishu",
       "surface": "feishu",
       "chatType": "group",
-      "from": "feishu:ou_d4a9be4959d3e7a1f2ac09b914a4dfbe",
+      "from": "feishu:ou_f6d0319b6bc4916ea852b5a5a8a1ee3b",
       "to": "chat:oc_76f7651cb976ad84d66158beb2f29be2",
       "accountId": "main"
     },
-    "sessionFile": "/home/node/.openclaw/agents/main/sessions/f5f0ce29-5796-4b43-956f-0c0392e698a1.jsonl",
+    "sessionFile": "/home/node/.openclaw/agents/main/sessions/588bf17c-ade8-4a05-95ab-dda23a22ee6c.jsonl",
     "compactionCount": 0,
     "skillsSnapshot": {
       "prompt": "\n\nThe following skills provide specialized instructions for specific tasks.\nUse the read tool to load a skill's file when the task matches its description.\nWhen a skill file references a relative path, resolve it against the skill directory (parent of SKILL.md / dirname of the path) and use that absolute path in tool commands.\n\n<available_skills>\n  <skill>\n    <name>Agent Browser</name>\n    <description>A fast Rust-based headless browser automation CLI with Node.js fallback that enables AI agents to navigate, click, type, and snapshot pages via structured commands.</description>\n    <location>~/.openclaw/skills/agent-browser/SKILL.md</location>\n  </skill>\n  <skill>\n    <name>automation-workflows</name>\n    <description>Design and implement automation workflows to save time and scale operations as a solopreneur. Use when identifying repetitive tasks to automate, building workflows across tools, setting up triggers and actions, or optimizing existing automations. Covers automation opportunity identification, workflow design, tool selection (Zapier, Make, n8n), testing, and maintenance. Trigger on &quot;automate&quot;, &quot;automation&quot;, &quot;workflow automation&quot;, &quot;save time&quot;, &quot;reduce manual work&quot;, &quot;automate my business&quot;, &quot;no-code automation&quot;.</description>\n    <location>~/.openclaw/skills/automation-workflows/SKILL.md</location>\n  </skill>\n  <skill>\n    <name>binance-hunter</name>\n    <description>The Hunter: Professional Binance Trading Skill. Features AI market analysis, auto-risk calculation, and 125x leverage support.</description>\n    <location>~/.openclaw/workspace/skills/binance-hunter/SKILL.md</location>\n  </skill>\n  <skill>\n    <name>Blockchain</name>\n    <description>Understand blockchain technology, interact with smart contracts, and evaluate when distributed ledgers solve real problems.</description>\n    <location>~/.openclaw/workspace/skills/blockchain/SKILL.md</location>\n  </skill>\n  <skill>\n    <name>canvas</name>\n    <description>Present HTML on connected OpenClaw node canvases, navigate/eval/snapshot, and debug canvas host URLs.</description>\n    <location>/app/skills/canvas/SKILL.md</location>\n  </skill>\n  <skill>\n    <name>diagram-maker</name>\n    <description>Create SVG/HTML or Excalidraw diagrams for concepts, architecture, flows, and whiteboards.</description>\n    <location>/app/skills/diagram-maker/SKILL.md</location>\n  </skill>\n  <skill>\n    <name>doc-summarize-pro</name>\n    <description>Enhanced document summarizer. Smart summary, bullet extraction, executive summary, chapter breakdown, multi-doc comparison, translate+summarize.</description>\n    <location>~/.openclaw/skills/doc-summarize-pro/SKILL.md</location>\n  </skill>\n  <skill>\n    <name>EnvGuard Secret &amp; Credential Scanner</name>\n    <description>Scan repos and workspaces for leaked secrets. API keys in code, passwords in configs, tokens in logs. Catches them before they hit git.</description>\n    <location>~/.openclaw/skills/env-guard/SKILL.md</location>\n  </skill>\n  <skill>\n    <name>explain-code</name>\n    <description>用可视化图表和类比解释代码。在解释代码如何工作、教授代码库或用户询问如何工作时使用</description>\n    <location>~/.openclaw/workspace/skills/explain-code/SKILL.md</location>\n  </skill>\n  <skill>\n    <name>feishu-doc</name>\n    <description>Feishu document read/write operations. Activate when user mentions Feishu docs, cloud docs, or docx links.</description>\n    <location>~/.openclaw/plugin-skills/feishu-doc/SKILL.md</location>\n  </skill>\n  <skill>\n    <name>feishu-drive</name>\n    <description>Feishu cloud storage file management. Activate when user mentions cloud space, folders, drive.</description>\n    <location>~/.openclaw/plugin-skills/feishu-drive/SKILL.md</location>\n  </skill>\n  <skill>\n    <name>feishu-perm</name>\n    <description>Feishu permission management for documents and files. Activate when user mentions sharing, permissions, collaborators.</description>\n    <location>~/.openclaw/plugin-skills/feishu-perm/SKILL.md</location>\n  </skill>\n  <skill>\n    <name>feishu-wiki</name>\n    <description>Feishu knowledge base navigation. Activate when user mentions knowledge base, wiki, or wiki links.</description>\n    <location>~/.openclaw/plugin-skills/feishu-wiki/SKILL.md</location>\n  </skill>\n  <skill>\n    <name>find-skills</name>\n    <description>Search and discover OpenClaw skills from various sources. Use when: user wants to find available skills, search for specific functionality, or discover new skills to install.</description>\n    <location>~/.openclaw/skills/find-skills-skill/SKILL.md</location>\n  </skill>\n  <skill>\n    <name>freeride</name>\n    <description>Manages free AI models from OpenRouter for OpenClaw. Automatically ranks models by quality, configures fallbacks for rate-limit handling, and updates openclaw.json. Use when the user mentions free AI, OpenRouter, model switching, rate limits, or wants to reduce AI costs.</description>\n    <location>~/.openclaw/skills/free-ride-1-0-5/SKILL.md</location>\n  </skill>\n  <skill>\n    <name>github</name>\n    <description>Interact with GitHub using the `gh` CLI. Use `gh issue`, `gh pr`, `gh run`, and `gh api` for issues, PRs, CI runs, and advanced queries.</description>\n    <location>~/.openclaw/workspace/skills/github/SKILL.md</location>\n  </skill>\n  <skill>\n    <name>healthcheck</name>\n    <description>Audit/harden OpenClaw hosts: SSH, firewall, updates, exposure, backups, disk encryption, gateway security.</description>\n    <location>/app/skills/healthcheck/SKILL.md</location>\n  </skill>\n  <skill>\n    <name>JavaScript</name>\n    <description>Write robust JavaScript with async patterns, type coercion handling, and modern ES2023+ features.</description>\n    <location>~/.openclaw/workspace/skills/javascript/SKILL.md</location>\n  </skill>\n  <skill>\n    <name>meme-maker</name>\n    <description>Search meme templates, suggest formats, and generate local or hosted image memes.</description>\n    <location>/app/skills/meme-maker/SKILL.md</location>\n  </skill>\n  <skill>\n    <name>nano-banana-pro</name>\n    <description>Generate/edit images with Nano Banana Pro (Gemini 3 Pro Image). Use for image create/modify requests incl. edits. Supports text-to-image + image-to-image; 1K/2K/4K; use --input-image.</description>\n    <location>~/.openclaw/skills/nano-banana-pro/SKILL.md</location>\n  </skill>\n  <skill>\n    <name>node-connect</name>\n    <description>Diagnose OpenClaw Android, iOS, or macOS node pairing, QR/setup code, route, auth, and connection failures.</description>\n    <location>/app/skills/node-connect/SKILL.md</location>\n  </skill>\n  <skill>\n    <name>node-inspect-debugger</name>\n    <description>Debug Node.js with node inspect, --inspect, breakpoints, CDP, heap, and CPU profiles.</description>\n    <location>/app/skills/node-inspect-debugger/SKILL.md</location>\n  </skill>\n  <skill>\n    <name>nodejs-security-audit</name>\n    <description>Audit Node.js HTTP servers and web apps for security vulnerabilities. Checks OWASP Top 10, CORS, auth bypass, XSS, path traversal, hardcoded secrets, missing headers, rate limiting, and input validation. Use when reviewing server code before deployment or after changes.</description>\n    <location>~/.openclaw/workspace/skills/nodejs-security-audit/SKILL.md</location>\n  </skill>\n  <skill>\n    <name>notion</name>\n    <description>Notion CLI/API for pages, Markdown content, data sources, files, comments, search, Workers, and raw API calls.</description>\n    <location>/app/skills/notion/SKILL.md</location>\n  </skill>\n  <skill>\n    <name>ontology</name>\n    <description>Typed knowledge graph for structured agent memory and composable skills. Use when creating/querying entities (Person, Project, Task, Event, Document), linking related objects, enforcing constraints, planning multi-step actions as graph transformations, or when skills need to share state. Trigger on &quot;remember&quot;, &quot;what do I know about&quot;, &quot;link X to Y&quot;, &quot;show dependencies&quot;, entity CRUD, or cross-skill data access.</description>\n    <location>~/.openclaw/skills/ontology/SKILL.md</location>\n  </skill>\n  <skill>\n    <name>openclaw-free-models</name>\n    <description>OpenClaw 免费模型配置 - 教你用免费的 AI 模型。适合：预算有限用户、学生、测试者。</description>\n    <location>~/.openclaw/skills/openclaw-free-models/SKILL.md</location>\n  </skill>\n  <skill>\n    <name>proactive-agent</name>\n    <description>Transform AI agents from task-followers into proactive partners that anticipate needs and continuously improve. Now with WAL Protocol, Working Buffer, Autonomous Crons, and battle-tested patterns. Part of the Hal Stack 🦞</description>\n    <location>~/.openclaw/workspace/skills/proactive-agent/SKILL.md</location>\n  </skill>\n  <skill>\n    <name>python-debugpy</name>\n    <description>Debug Python with pdb, breakpoint(), post-mortem inspection, and debugpy remote attach.</description>\n    <location>/app/skills/python-debugpy/SKILL.md</location>\n  </skill>\n  <skill>\n    <name>react-expert</name>\n    <description>Use when building React 18+ applications requiring component architecture, hooks patterns, or state management. Invoke for Server Components, performance optimization, Suspense boundaries, React 19 features.</description>\n    <location>~/.openclaw/skills/react-expert/SKILL.md</location>\n  </skill>\n  <skill>\n    <name>security-audit</name>\n    <description>Audit codebases and infrastructure for security issues. Use when scanning dependencies for vulnerabilities, detecting hardcoded secrets, checking OWASP top 10 issues, verifying SSL/TLS, auditing file permissions, or reviewing code for injection and auth flaws.</description>\n    <location>~/.openclaw/workspace/skills/security-audit-toolkit/SKILL.md</location>\n  </skill>\n  <skill>\n    <name>self-improvement</name>\n    <description>Captures learnings, errors, and corrections to enable continuous improvement. Use when: (1) A command or operation fails unexpectedly, (2) User corrects Claude (&apos;No, that&apos;s wrong...&apos;, &apos;Actually...&apos;), (3) User requests a capability that doesn&apos;t exist, (4) An external API or tool fails, (5) Claude realizes its knowledge is outdated or incorrect, (6) A better approach is discovered for a recurring task. Also review learnings before major tasks.</description>\n    <location>~/.openclaw/skills/self-improving-agent/SKILL.md</location>\n  </skill>\n  <skill>\n    <name>skill-creator</name>\n    <description>Create, edit, audit, tidy, validate, or restructure AgentSkills and SKILL.md files.</description>\n    <location>/app/skills/skill-creator/SKILL.md</location>\n  </skill>\n  <skill>\n    <name>skill-vetter</name>\n    <description>Security-first skill vetting for AI agents. Use before installing any skill from ClawdHub, GitHub, or other sources. Checks for red flags, permission scope, and suspicious patterns.</description>\n    <location>~/.openclaw/skills/skill-vetter/SKILL.md</location>\n  </skill>\n  <skill>\n    <name>Solidity</name>\n    <description>Avoid common Solidity mistakes — reentrancy, gas traps, storage collisions, and security pitfalls.</description>\n    <location>~/.openclaw/workspace/skills/solidity/SKILL.md</location>\n  </skill>\n  <skill>\n    <name>spike</name>\n    <description>Run throwaway prototypes to validate feasibility, compare approaches, and report a verdict.</description>\n    <location>/app/skills/spike/SKILL.md</location>\n  </skill>\n  <skill>\n    <name>taskflow</name>\n    <description>Coordinate multi-step detached tasks as one durable TaskFlow job with owner context, state, waits, and child tasks.</description>\n    <location>/app/skills/taskflow/SKILL.md</location>\n  </skill>\n  <skill>\n    <name>taskflow-inbox-triage</name>\n    <description>Example TaskFlow pattern for inbox triage, intent routing, waiting on replies, and later summaries.</description>\n    <location>/app/skills/taskflow-inbox-triage/SKILL.md</location>\n  </skill>\n  <skill>\n    <name>tavily</name>\n    <description>Tavily web search, content extraction, and research tools.</description>\n    <location>~/.openclaw/plugin-skills/tavily/SKILL.md</location>\n  </skill>\n  <skill>\n    <name>ui-ux-pro-max</name>\n    <description>UI/UX design intelligence and implementation guidance for building polished interfaces. Use when the user asks for UI design, UX flows, information architecture, visual style direction, design systems/tokens, component specs, copy/microcopy, accessibility, or to generate/critique/refine frontend UI (HTML/CSS/JS, React, Next.js, Vue, Svelte, Tailwind). Includes workflows for (1) generating new UI layouts and styling, (2) improving existing UI/UX, (3) producing design-system tokens and component guidelines, and (4) turning UX recommendations into concrete code changes.</description>\n    <location>~/.openclaw/workspace/skills/ui-ux-pro-max/SKILL.md</location>\n  </skill>\n  <skill>\n    <name>vitest-testing</name>\n    <description>Vitest testing framework patterns and best practices. Use when writing unit tests, integration tests, configuring vitest.config, mocking with vi.mock/vi.fn, using snapshots, or setting up test coverage. Triggers on describe, it, expect, vi.mock, vi.fn, beforeEach, afterEach, vitest.</description>\n    <location>~/.openclaw/workspace/skills/vitest-testing/SKILL.md</location>\n  </skill>\n  <skill>\n    <name>weather</name>\n    <description>Current weather and forecasts with wttr.in via curl for locations, rain, temperature, travel planning.</description>\n    <location>/app/skills/weather/SKILL.md</location>\n  </skill>\n  <skill>\n    <name>web3-docs</name>\n    <description>Up-to-date documentation and code patterns for Solidity, Foundry, Hardhat, Viem, Wagmi, ethers.js, and OpenZeppelin. Use when writing smart contracts, debugging Solidity errors, setting up a Foundry project, writing Viem/Wagmi frontend code, or asking about ERC standards, gas optimization, upgradeable contracts, or any EVM development task. Triggers on: Solidity, Foundry, Hardhat, Viem, Wagmi, ethers.js, OpenZeppelin, ERC-20, ERC-721, ERC-4626, UUPS, proxy patterns, ABI, calldata, smart contract, deploy, cast, forge, anvil, or any EVM/blockchain development question.</description>\n    <location>~/.openclaw/workspace/skills/web3-docs/SKILL.md</location>\n  </skill>\n</available_skills>",
@@ -710,17 +730,25 @@
       ],
       "version": 0
     },
+    "modelOverrideFallbackOriginProvider": "minimax",
+    "modelOverrideFallbackOriginModel": "MiniMax-M2.7",
     "status": "done",
-    "startedAt": 1779554684513,
-    "modelProvider": "nvidia",
-    "model": "deepseek-ai/deepseek-v4-pro",
+    "startedAt": 1779596292119,
+    "endedAt": 1779596298879,
+    "runtimeMs": 6760,
+    "fallbackNoticeSelectedModel": "minimax/MiniMax-M2.7",
+    "fallbackNoticeActiveModel": "minimax-portal/MiniMax-M2.7",
+    "fallbackNoticeReason": "selected model unavailable",
+    "modelProvider": "minimax-portal",
+    "model": "MiniMax-M2.7",
+    "contextTokens": 200000,
     "systemPromptReport": {
       "source": "run",
-      "generatedAt": 1779554684227,
-      "sessionId": "f5f0ce29-5796-4b43-956f-0c0392e698a1",
+      "generatedAt": 1779596291914,
+      "sessionId": "588bf17c-ade8-4a05-95ab-dda23a22ee6c",
       "sessionKey": "agent:main:feishu:group:oc_76f7651cb976ad84d66158beb2f29be2",
-      "provider": "nvidia",
-      "model": "deepseek-ai/deepseek-v4-pro",
+      "provider": "minimax-portal",
+      "model": "MiniMax-M2.7",
       "workspaceDir": "/home/node/.openclaw/workspace",
       "bootstrapMaxChars": 12000,
       "bootstrapTotalMaxChars": 60000,
@@ -736,9 +764,9 @@
         "sandboxed": false
       },
       "systemPrompt": {
-        "chars": 38188,
+        "chars": 38174,
         "projectContextChars": 11832,
-        "nonProjectContextChars": 26356
+        "nonProjectContextChars": 26342
       },
       "injectedWorkspaceFiles": [
         {
@@ -1140,43 +1168,16 @@
         ]
       },
       "currentTurn": {
-        "promptChars": 1065,
+        "promptChars": 3233,
         "runtimeContextChars": 0
       }
     },
-    "cacheRead": 320,
+    "inputTokens": 2149,
+    "outputTokens": 171,
+    "cacheRead": 24000,
     "cacheWrite": 0,
-    "totalTokensFresh": true,
-    "agentHarnessId": "pi",
-    "route": {
-      "channel": "feishu",
-      "accountId": "main",
-      "target": {
-        "to": "chat:oc_76f7651cb976ad84d66158beb2f29be2"
-      }
-    },
-    "sessionStartedAt": 1779512164272,
-    "lastInteractionAt": 1779554683353,
-    "usageFamilyKey": "agent:main:feishu:group:oc_76f7651cb976ad84d66158beb2f29be2",
-    "usageFamilySessionIds": [
-      "da75eb93-ea11-4fec-8467-94206f73988e",
-      "6e878b6d-1023-42c6-b294-034012d3d3a6",
-      "e45d47d7-621f-4dcb-8ac5-871dd7efb823",
-      "f5f0ce29-5796-4b43-956f-0c0392e698a1"
-    ],
-    "contextTokens": 1000000,
-    "inputTokens": 69496,
-    "outputTokens": 137,
-    "modelOverride": "deepseek-ai/deepseek-v4-pro",
-    "providerOverride": "nvidia",
-    "modelOverrideSource": "auto",
-    "modelOverrideFallbackOriginProvider": "nvidia",
-    "modelOverrideFallbackOriginModel": "z-ai/glm4.7",
-    "fallbackNoticeSelectedModel": "nvidia/z-ai/glm4.7",
-    "fallbackNoticeActiveModel": "nvidia/deepseek-ai/deepseek-v4-pro",
-    "fallbackNoticeReason": "selected model unavailable",
-    "endedAt": 1779554711890,
-    "runtimeMs": 27377
+    "totalTokens": 26149,
+    "totalTokensFresh": true
   },
   "agent:main:cron:1c3a7bd5-d835-41d8-a14a-d2970f13d503": {
     "chatType": "direct",
@@ -13063,16 +13064,16 @@
   },
   "agent:main:main": {
     "sessionId": "ae4830d6-a0b9-4e7c-be03-e94198709d5a",
-    "updatedAt": 1779579714979,
+    "updatedAt": 1779595913270,
     "sessionStartedAt": 1779531105895,
     "systemSent": true,
     "abortedLastRun": false,
     "chatType": "direct",
     "sessionFile": "/home/node/.openclaw/agents/main/sessions/ae4830d6-a0b9-4e7c-be03-e94198709d5a.jsonl",
     "compactionCount": 0,
-    "totalTokens": 21278,
-    "inputTokens": 21022,
-    "outputTokens": 115,
+    "totalTokens": 21476,
+    "inputTokens": 21156,
+    "outputTokens": 28,
     "estimatedCostUsd": 0.006004559999999999,
     "contextTokens": 200000,
     "skillsSnapshot": {
@@ -13220,12 +13221,12 @@
       "version": 0
     },
     "status": "done",
-    "startedAt": 1779579707219,
-    "endedAt": 1779579714802,
-    "runtimeMs": 7583,
+    "startedAt": 1779595908006,
+    "endedAt": 1779595913081,
+    "runtimeMs": 5075,
     "systemPromptReport": {
       "source": "run",
-      "generatedAt": 1779579706976,
+      "generatedAt": 1779595907740,
       "sessionId": "ae4830d6-a0b9-4e7c-be03-e94198709d5a",
       "sessionKey": "agent:main:main",
       "provider": "minimax-portal",
@@ -13650,10 +13651,10 @@
       },
       "currentTurn": {
         "promptChars": 25,
-        "runtimeContextChars": 719
+        "runtimeContextChars": 716
       }
     },
-    "cacheRead": 256,
+    "cacheRead": 320,
     "cacheWrite": 0,
     "totalTokensFresh": true,
     "modelOverride": "MiniMax-M2.7",
