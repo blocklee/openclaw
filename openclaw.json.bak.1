@@ -1,7 +1,7 @@
 {
   "meta": {
     "lastTouchedVersion": "2026.5.19",
-    "lastTouchedAt": "2026-05-21T04:57:50.814Z"
+    "lastTouchedAt": "2026-05-23T04:05:13.357Z"
   },
   "env": {
     "OPENROUTER_API_KEY": "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",
@@ -285,7 +285,8 @@
         "nvidia/minimaxai/minimax-m2.7": {},
         "nvidia/deepseek-ai/deepseek-v4-pro": {},
         "nvidia/deepseek-ai/deepseek-v4-flash": {},
-        "nvidia/z-ai/glm4.7": {}
+        "nvidia/z-ai/glm4.7": {},
+        "zai/glm-4.7-flash": {}
       },
       "workspace": "/home/node/.openclaw/workspace",
       "memorySearch": {
@@ -319,10 +320,12 @@
         "workspace": "/home/node/.openclaw/workspace-lucus",
         "agentDir": "/home/node/.openclaw/agents/lucus/agent",
         "model": {
-          "primary": "nvidia/minimaxai/minimax-m2.7",
+          "primary": "nvidia/deepseek-ai/deepseek-v4-flash",
           "fallbacks": [
-            "minimax/MiniMax-M2.7",
-            "minimax/minimax-m2.5:free"
+            "nvidia/deepseek-ai/deepseek-v4-pro",
+            "google/gemini-2.5-flash",
+            "google/gemini-2.5-flash-lite",
+            "zai/glm-4.7-flash"
           ]
         }
       },
@@ -437,7 +440,8 @@
     "restart": true,
     "ownerDisplay": "raw",
     "ownerAllowFrom": [
-      "feishu:ou_f786171f9e21bf5a09c3116b2e77aaff"
+      "feishu:ou_f786171f9e21bf5a09c3116b2e77aaff",
+      "feishu:ou_cb5c7afa7e77cafdeaeae1620a2a383a"
     ]
   },
   "session": {
@@ -508,7 +512,10 @@
       "reactionNotifications": "own",
       "groupAllowFrom": [
         "oc_76f7651cb976ad84d66158beb2f29be2"
-      ]
+      ],
+      "tools": {
+        "doc": true
+      }
     },
     "openclaw-weixin": {
       "channelConfigUpdatedAt": "2026-04-27T06:04:52.593Z",

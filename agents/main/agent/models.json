@@ -741,6 +741,12 @@
         }
       ],
       "apiKey": "NVIDIA_API_KEY"
+    },
+    "minimax-portal": {
+      "baseUrl": "https://api.minimaxi.com/anthropic/v1",
+      "api": "anthropic-messages",
+      "authHeader": true,
+      "models": []
     }
   }
 }

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-05-22T19:00:12.992Z",
+  "updatedAt": "2026-05-23T19:00:13.364Z",
   "entries": {
     "memory:memory/.dreams/session-corpus/2026-04-11.txt:1:1": {
       "key": "memory:memory/.dreams/session-corpus/2026-04-11.txt:1:1",
@@ -10218,18 +10218,19 @@
       "source": "memory",
       "snippet": "Session: 2026-05-21 19:23:49 UTC: **Session Key**: agent:lucus:feishu:lucus:direct:ou_cb5c7afa7e77cafdeaeae1620a2a383a; **Session ID**: 4af9be2f-0106-4f73-b81d-699b0357495e; **Source**: feishu",
       "recallCount": 0,
-      "dailyCount": 1,
+      "dailyCount": 2,
       "groundedCount": 0,
-      "totalScore": 0.62,
+      "totalScore": 1.24,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-05-22T19:00:11.007Z",
-      "lastRecalledAt": "2026-05-22T19:00:11.007Z",
+      "lastRecalledAt": "2026-05-23T19:00:13.364Z",
       "queryHashes": [
         "f698e45e49cd"
       ],
       "recallDays": [
         "2026-05-23",
-        "2026-05-22"
+        "2026-05-22",
+        "2026-05-24"
       ],
       "conceptTags": [
         "2026-05-21-1923.md",
@@ -10250,18 +10251,19 @@
       "source": "memory",
       "snippet": "Conversation Summary: assistant: [assistant turn failed before producing content] assistant: [assistant turn failed before producing content] assistant: [assistant turn failed before producing content] assistant: [assistant turn failed before producing content]",
       "recallCount": 0,
-      "dailyCount": 1,
+      "dailyCount": 2,
       "groundedCount": 0,
-      "totalScore": 0.62,
+      "totalScore": 1.24,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-05-22T19:00:11.007Z",
-      "lastRecalledAt": "2026-05-22T19:00:11.007Z",
+      "lastRecalledAt": "2026-05-23T19:00:13.364Z",
       "queryHashes": [
         "f698e45e49cd"
       ],
       "recallDays": [
         "2026-05-23",
-        "2026-05-22"
+        "2026-05-22",
+        "2026-05-24"
       ],
       "conceptTags": [
         "2026-05-21-1923.md",
@@ -10281,18 +10283,19 @@
       "source": "memory",
       "snippet": "Conversation Summary: user: Conversation info (untrusted metadata):",
       "recallCount": 0,
-      "dailyCount": 1,
+      "dailyCount": 2,
       "groundedCount": 0,
-      "totalScore": 0.62,
+      "totalScore": 1.24,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-05-22T19:00:11.007Z",
-      "lastRecalledAt": "2026-05-22T19:00:11.007Z",
+      "lastRecalledAt": "2026-05-23T19:00:13.364Z",
       "queryHashes": [
         "f698e45e49cd"
       ],
       "recallDays": [
         "2026-05-23",
-        "2026-05-22"
+        "2026-05-22",
+        "2026-05-24"
       ],
       "conceptTags": [
         "2026-05-21-1923.md",
@@ -10311,18 +10314,19 @@
       "source": "memory",
       "snippet": "Conversation Summary: \"chat_id\": \"user:ou_cb5c7afa7e77cafdeaeae1620a2a383a\", \"message_id\": \"om_x100b6fc17b7e8c68eea81920de3d7cd\", \"reply_to_id\": \"om_x100b6fdff63a3ca8ee8d450536ae34a\", \"sender_id\": \"ou_cb5c7afa7e77cafdeaeae1620a2a383a\",",
       "recallCount": 0,
-      "dailyCount": 1,
+      "dailyCount": 2,
       "groundedCount": 0,
-      "totalScore": 0.62,
+      "totalScore": 1.24,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-05-22T19:00:11.007Z",
-      "lastRecalledAt": "2026-05-22T19:00:11.007Z",
+      "lastRecalledAt": "2026-05-23T19:00:13.364Z",
       "queryHashes": [
         "f698e45e49cd"
       ],
       "recallDays": [
         "2026-05-23",
-        "2026-05-22"
+        "2026-05-22",
+        "2026-05-24"
       ],
       "conceptTags": [
         "2026-05-21-1923.md",
@@ -10342,18 +10346,19 @@
       "source": "memory",
       "snippet": "Conversation Summary: \"sender\": \"ou_cb5c7afa7e77cafdeaeae1620a2a383a\", \"timestamp\": \"Thu 2026-05-21 18:47 UTC\", \"has_reply_context\": true",
       "recallCount": 0,
-      "dailyCount": 1,
+      "dailyCount": 2,
       "groundedCount": 0,
-      "totalScore": 0.62,
+      "totalScore": 1.24,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-05-22T19:00:11.007Z",
-      "lastRecalledAt": "2026-05-22T19:00:11.007Z",
+      "lastRecalledAt": "2026-05-23T19:00:13.364Z",
       "queryHashes": [
         "f698e45e49cd"
       ],
       "recallDays": [
         "2026-05-23",
-        "2026-05-22"
+        "2026-05-22",
+        "2026-05-24"
       ],
       "conceptTags": [
         "2026-05-21-1923.md",
@@ -10374,18 +10379,19 @@
       "source": "memory",
       "snippet": "Conversation Summary: Sender (untrusted metadata):",
       "recallCount": 0,
-      "dailyCount": 1,
+      "dailyCount": 2,
       "groundedCount": 0,
-      "totalScore": 0.62,
+      "totalScore": 1.24,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-05-22T19:00:11.007Z",
-      "lastRecalledAt": "2026-05-22T19:00:11.007Z",
+      "lastRecalledAt": "2026-05-23T19:00:13.364Z",
       "queryHashes": [
         "f698e45e49cd"
       ],
       "recallDays": [
         "2026-05-23",
-        "2026-05-22"
+        "2026-05-22",
+        "2026-05-24"
       ],
       "conceptTags": [
         "2026-05-21-1923.md",
@@ -10404,18 +10410,19 @@
       "source": "memory",
       "snippet": "Conversation Summary: \"label\": \"ou_cb5c7afa7e77cafdeaeae1620a2a383a\", \"id\": \"ou_cb5c7afa7e77cafdeaeae1620a2a383a\", \"name\": \"ou_cb5c7afa7e77cafdeaeae1620a2a383a\"",
       "recallCount": 0,
-      "dailyCount": 1,
+      "dailyCount": 2,
       "groundedCount": 0,
-      "totalScore": 0.62,
+      "totalScore": 1.24,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-05-22T19:00:11.007Z",
-      "lastRecalledAt": "2026-05-22T19:00:11.007Z",
+      "lastRecalledAt": "2026-05-23T19:00:13.364Z",
       "queryHashes": [
         "f698e45e49cd"
       ],
       "recallDays": [
         "2026-05-23",
-        "2026-05-22"
+        "2026-05-22",
+        "2026-05-24"
       ],
       "conceptTags": [
         "2026-05-21-1923.md",
@@ -10433,18 +10440,19 @@
       "source": "memory",
       "snippet": "Conversation Summary: Reply target of current user message (untrusted, for context):",
       "recallCount": 0,
-      "dailyCount": 1,
+      "dailyCount": 2,
       "groundedCount": 0,
-      "totalScore": 0.62,
+      "totalScore": 1.24,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-05-22T19:00:11.007Z",
-      "lastRecalledAt": "2026-05-22T19:00:11.007Z",
+      "lastRecalledAt": "2026-05-23T19:00:13.364Z",
       "queryHashes": [
         "f698e45e49cd"
       ],
       "recallDays": [
         "2026-05-23",
-        "2026-05-22"
+        "2026-05-22",
+        "2026-05-24"
       ],
       "conceptTags": [
         "2026-05-21-1923.md",
@@ -10465,18 +10473,19 @@
       "source": "memory",
       "snippet": "Conversation Summary: \"body\": \"⚠️ Cron job \\\"config\\\\-backup\\\\-8am\\\" failed: EmbeddedAttemptSessionTakeoverError: session file changed while embedded prompt lock was released: /home/node/.openclaw/agents/main/sessions/e4936a00\\\\-5ae8\\\\-411e\\\\-b73b\\\\-5f2262f60553.jsonl\"",
       "recallCount": 0,
-      "dailyCount": 1,
+      "dailyCount": 2,
       "groundedCount": 0,
-      "totalScore": 0.62,
+      "totalScore": 1.24,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-05-22T19:00:11.007Z",
-      "lastRecalledAt": "2026-05-22T19:00:11.007Z",
+      "lastRecalledAt": "2026-05-23T19:00:13.364Z",
       "queryHashes": [
         "f698e45e49cd"
       ],
       "recallDays": [
         "2026-05-23",
-        "2026-05-22"
+        "2026-05-22",
+        "2026-05-24"
       ],
       "conceptTags": [
         "backup",
@@ -10497,18 +10506,19 @@
       "source": "memory",
       "snippet": "Conversation Summary: [message_id: om_x100b6fc17b7e8c68eea81920de3d7cd] ou_cb5c7afa7e77cafdeaeae1620a2a383a: [Replying to: \"⚠️ Cron job \"config\\-backup\\-8am\" failed: EmbeddedAttemptSessionTakeoverError: session file changed while embedded prompt lock was released: /home/node/.ope",
       "recallCount": 0,
-      "dailyCount": 1,
+      "dailyCount": 2,
       "groundedCount": 0,
-      "totalScore": 0.62,
+      "totalScore": 1.24,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-05-22T19:00:11.007Z",
-      "lastRecalledAt": "2026-05-22T19:00:11.007Z",
+      "lastRecalledAt": "2026-05-23T19:00:13.364Z",
       "queryHashes": [
         "f698e45e49cd"
       ],
       "recallDays": [
         "2026-05-23",
-        "2026-05-22"
+        "2026-05-22",
+        "2026-05-24"
       ],
       "conceptTags": [
         "backup",
@@ -10529,18 +10539,19 @@
       "source": "memory",
       "snippet": "Conversation Summary: 请自检这是什么原因 assistant: [assistant turn failed before producing content] assistant: [assistant turn failed before producing content] assistant: [assistant turn failed before producing content]",
       "recallCount": 0,
-      "dailyCount": 1,
+      "dailyCount": 2,
       "groundedCount": 0,
-      "totalScore": 0.62,
+      "totalScore": 1.24,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-05-22T19:00:11.007Z",
-      "lastRecalledAt": "2026-05-22T19:00:11.007Z",
+      "lastRecalledAt": "2026-05-23T19:00:13.364Z",
       "queryHashes": [
         "f698e45e49cd"
       ],
       "recallDays": [
         "2026-05-23",
-        "2026-05-22"
+        "2026-05-22",
+        "2026-05-24"
       ],
       "conceptTags": [
         "2026-05-21-1923.md",
@@ -10561,18 +10572,19 @@
       "source": "memory",
       "snippet": "Conversation Summary: assistant: [assistant turn failed before producing content] user: Conversation info (untrusted metadata):",
       "recallCount": 0,
-      "dailyCount": 1,
+      "dailyCount": 2,
       "groundedCount": 0,
-      "totalScore": 0.62,
+      "totalScore": 1.24,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-05-22T19:00:11.007Z",
-      "lastRecalledAt": "2026-05-22T19:00:11.007Z",
+      "lastRecalledAt": "2026-05-23T19:00:13.364Z",
       "queryHashes": [
         "f698e45e49cd"
       ],
       "recallDays": [
         "2026-05-23",
-        "2026-05-22"
+        "2026-05-22",
+        "2026-05-24"
       ],
       "conceptTags": [
         "2026-05-21-1923.md",
@@ -10593,18 +10605,19 @@
       "source": "memory",
       "snippet": "Conversation Summary: \"chat_id\": \"user:ou_cb5c7afa7e77cafdeaeae1620a2a383a\", \"message_id\": \"om_x100b6fc129c15934ee7b264b81a3a66\", \"reply_to_id\": \"om_x100b6fdff63a3ca8ee8d450536ae34a\", \"sender_id\": \"ou_cb5c7afa7e77cafdeaeae1620a2a383a\",",
       "recallCount": 0,
-      "dailyCount": 1,
+      "dailyCount": 2,
       "groundedCount": 0,
-      "totalScore": 0.62,
+      "totalScore": 1.24,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-05-22T19:00:11.007Z",
-      "lastRecalledAt": "2026-05-22T19:00:11.007Z",
+      "lastRecalledAt": "2026-05-23T19:00:13.364Z",
       "queryHashes": [
         "f698e45e49cd"
       ],
       "recallDays": [
         "2026-05-23",
-        "2026-05-22"
+        "2026-05-22",
+        "2026-05-24"
       ],
       "conceptTags": [
         "2026-05-21-1923.md",
@@ -10624,18 +10637,19 @@
       "source": "memory",
       "snippet": "Conversation Summary: \"sender\": \"ou_cb5c7afa7e77cafdeaeae1620a2a383a\", \"timestamp\": \"Thu 2026-05-21 19:01 UTC\", \"has_reply_context\": true",
       "recallCount": 0,
-      "dailyCount": 1,
+      "dailyCount": 2,
       "groundedCount": 0,
-      "totalScore": 0.62,
+      "totalScore": 1.24,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-05-22T19:00:11.007Z",
-      "lastRecalledAt": "2026-05-22T19:00:11.007Z",
+      "lastRecalledAt": "2026-05-23T19:00:13.364Z",
       "queryHashes": [
         "f698e45e49cd"
       ],
       "recallDays": [
         "2026-05-23",
-        "2026-05-22"
+        "2026-05-22",
+        "2026-05-24"
       ],
       "conceptTags": [
         "2026-05-21-1923.md",
@@ -10656,18 +10670,19 @@
       "source": "memory",
       "snippet": "Conversation Summary: Sender (untrusted metadata):",
       "recallCount": 0,
-      "dailyCount": 1,
+      "dailyCount": 2,
       "groundedCount": 0,
-      "totalScore": 0.62,
+      "totalScore": 1.24,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-05-22T19:00:11.007Z",
-      "lastRecalledAt": "2026-05-22T19:00:11.007Z",
+      "lastRecalledAt": "2026-05-23T19:00:13.364Z",
       "queryHashes": [
         "f698e45e49cd"
       ],
       "recallDays": [
         "2026-05-23",
-        "2026-05-22"
+        "2026-05-22",
+        "2026-05-24"
       ],
       "conceptTags": [
         "2026-05-21-1923.md",
@@ -10686,18 +10701,19 @@
       "source": "memory",
       "snippet": "Conversation Summary: \"label\": \"ou_cb5c7afa7e77cafdeaeae1620a2a383a\", \"id\": \"ou_cb5c7afa7e77cafdeaeae1620a2a383a\", \"name\": \"ou_cb5c7afa7e77cafdeaeae1620a2a383a\"",
       "recallCount": 0,
-      "dailyCount": 1,
+      "dailyCount": 2,
       "groundedCount": 0,
-      "totalScore": 0.62,
+      "totalScore": 1.24,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-05-22T19:00:11.007Z",
-      "lastRecalledAt": "2026-05-22T19:00:11.007Z",
+      "lastRecalledAt": "2026-05-23T19:00:13.364Z",
       "queryHashes": [
         "f698e45e49cd"
       ],
       "recallDays": [
         "2026-05-23",
-        "2026-05-22"
+        "2026-05-22",
+        "2026-05-24"
       ],
       "conceptTags": [
         "2026-05-21-1923.md",
@@ -10715,18 +10731,19 @@
       "source": "memory",
       "snippet": "Conversation Summary: Reply target of current user message (untrusted, for context):",
       "recallCount": 0,
-      "dailyCount": 1,
+      "dailyCount": 2,
       "groundedCount": 0,
-      "totalScore": 0.62,
+      "totalScore": 1.24,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-05-22T19:00:11.007Z",
-      "lastRecalledAt": "2026-05-22T19:00:11.007Z",
+      "lastRecalledAt": "2026-05-23T19:00:13.364Z",
       "queryHashes": [
         "f698e45e49cd"
       ],
       "recallDays": [
         "2026-05-23",
-        "2026-05-22"
+        "2026-05-22",
+        "2026-05-24"
       ],
       "conceptTags": [
         "2026-05-21-1923.md",
@@ -10747,18 +10764,19 @@
       "source": "memory",
       "snippet": "Conversation Summary: \"body\": \"⚠️ Cron job \\\"config\\\\-backup\\\\-8am\\\" failed: EmbeddedAttemptSessionTakeoverError: session file changed while embedded prompt lock was released: /home/node/.openclaw/agents/main/sessions/e4936a00\\\\-5ae8\\\\-411e\\\\-b73b\\\\-5f2262f60553.jsonl\"",
       "recallCount": 0,
-      "dailyCount": 1,
+      "dailyCount": 2,
       "groundedCount": 0,
-      "totalScore": 0.62,
+      "totalScore": 1.24,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-05-22T19:00:11.007Z",
-      "lastRecalledAt": "2026-05-22T19:00:11.007Z",
+      "lastRecalledAt": "2026-05-23T19:00:13.364Z",
       "queryHashes": [
         "f698e45e49cd"
       ],
       "recallDays": [
         "2026-05-23",
-        "2026-05-22"
+        "2026-05-22",
+        "2026-05-24"
       ],
       "conceptTags": [
         "backup",
@@ -10779,18 +10797,19 @@
       "source": "memory",
       "snippet": "Conversation Summary: [message_id: om_x100b6fc129c15934ee7b264b81a3a66] ou_cb5c7afa7e77cafdeaeae1620a2a383a: [Replying to: \"⚠️ Cron job \"config\\-backup\\-8am\" failed: EmbeddedAttemptSessionTakeoverError: session file changed while embedded prompt lock was released: /home/node/.ope",
       "recallCount": 0,
-      "dailyCount": 1,
+      "dailyCount": 2,
       "groundedCount": 0,
-      "totalScore": 0.62,
+      "totalScore": 1.24,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-05-22T19:00:11.007Z",
-      "lastRecalledAt": "2026-05-22T19:00:11.007Z",
+      "lastRecalledAt": "2026-05-23T19:00:13.364Z",
       "queryHashes": [
         "f698e45e49cd"
       ],
       "recallDays": [
         "2026-05-23",
-        "2026-05-22"
+        "2026-05-22",
+        "2026-05-24"
       ],
       "conceptTags": [
         "backup",
@@ -10811,18 +10830,19 @@
       "source": "memory",
       "snippet": "Conversation Summary: 检查这里为何失败 assistant: [assistant turn failed before producing content] assistant: [assistant turn failed before producing content] assistant: [assistant turn failed before producing content]",
       "recallCount": 0,
-      "dailyCount": 1,
+      "dailyCount": 2,
       "groundedCount": 0,
-      "totalScore": 0.62,
+      "totalScore": 1.24,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-05-22T19:00:11.007Z",
-      "lastRecalledAt": "2026-05-22T19:00:11.007Z",
+      "lastRecalledAt": "2026-05-23T19:00:13.364Z",
       "queryHashes": [
         "f698e45e49cd"
       ],
       "recallDays": [
         "2026-05-23",
-        "2026-05-22"
+        "2026-05-22",
+        "2026-05-24"
       ],
       "conceptTags": [
         "2026-05-21-1923.md",
@@ -10843,18 +10863,19 @@
       "source": "memory",
       "snippet": "Conversation Summary: assistant: [assistant turn failed before producing content] user: Conversation info (untrusted metadata):",
       "recallCount": 0,
-      "dailyCount": 1,
+      "dailyCount": 2,
       "groundedCount": 0,
-      "totalScore": 0.62,
+      "totalScore": 1.24,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-05-22T19:00:11.007Z",
-      "lastRecalledAt": "2026-05-22T19:00:11.007Z",
+      "lastRecalledAt": "2026-05-23T19:00:13.364Z",
       "queryHashes": [
         "f698e45e49cd"
       ],
       "recallDays": [
         "2026-05-23",
-        "2026-05-22"
+        "2026-05-22",
+        "2026-05-24"
       ],
       "conceptTags": [
         "2026-05-21-1923.md",
@@ -10875,18 +10896,19 @@
       "source": "memory",
       "snippet": "Conversation Summary: \"chat_id\": \"user:ou_cb5c7afa7e77cafdeaeae1620a2a383a\", \"message_id\": \"om_x100b6fc1ec9af0a0ee8b2e813a36bad\", \"sender_id\": \"ou_cb5c7afa7e77cafdeaeae1620a2a383a\", \"sender\": \"ou_cb5c7afa7e77cafdeaeae1620a2a383a\",",
       "recallCount": 0,
-      "dailyCount": 1,
+      "dailyCount": 2,
       "groundedCount": 0,
-      "totalScore": 0.62,
+      "totalScore": 1.24,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-05-22T19:00:11.007Z",
-      "lastRecalledAt": "2026-05-22T19:00:11.007Z",
+      "lastRecalledAt": "2026-05-23T19:00:13.364Z",
       "queryHashes": [
         "f698e45e49cd"
       ],
       "recallDays": [
         "2026-05-23",
-        "2026-05-22"
+        "2026-05-22",
+        "2026-05-24"
       ],
       "conceptTags": [
         "2026-05-21-1923.md",
@@ -10906,18 +10928,19 @@
       "source": "memory",
       "snippet": "Conversation Summary: \"timestamp\": \"Thu 2026-05-21 19:16 UTC\"",
       "recallCount": 0,
-      "dailyCount": 1,
+      "dailyCount": 2,
       "groundedCount": 0,
-      "totalScore": 0.62,
+      "totalScore": 1.24,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-05-22T19:00:11.007Z",
-      "lastRecalledAt": "2026-05-22T19:00:11.007Z",
+      "lastRecalledAt": "2026-05-23T19:00:13.364Z",
       "queryHashes": [
         "f698e45e49cd"
       ],
       "recallDays": [
         "2026-05-23",
-        "2026-05-22"
+        "2026-05-22",
+        "2026-05-24"
       ],
       "conceptTags": [
         "2026-05-21-1923.md",
@@ -10936,18 +10959,19 @@
       "source": "memory",
       "snippet": "Conversation Summary: Sender (untrusted metadata):",
       "recallCount": 0,
-      "dailyCount": 1,
+      "dailyCount": 2,
       "groundedCount": 0,
-      "totalScore": 0.62,
+      "totalScore": 1.24,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-05-22T19:00:11.007Z",
-      "lastRecalledAt": "2026-05-22T19:00:11.007Z",
+      "lastRecalledAt": "2026-05-23T19:00:13.364Z",
       "queryHashes": [
         "f698e45e49cd"
       ],
       "recallDays": [
         "2026-05-23",
-        "2026-05-22"
+        "2026-05-22",
+        "2026-05-24"
       ],
       "conceptTags": [
         "2026-05-21-1923.md",
@@ -10966,18 +10990,19 @@
       "source": "memory",
       "snippet": "Conversation Summary: \"label\": \"ou_cb5c7afa7e77cafdeaeae1620a2a383a\", \"id\": \"ou_cb5c7afa7e77cafdeaeae1620a2a383a\", \"name\": \"ou_cb5c7afa7e77cafdeaeae1620a2a383a\"",
       "recallCount": 0,
-      "dailyCount": 1,
+      "dailyCount": 2,
       "groundedCount": 0,
-      "totalScore": 0.62,
+      "totalScore": 1.24,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-05-22T19:00:11.007Z",
-      "lastRecalledAt": "2026-05-22T19:00:11.007Z",
+      "lastRecalledAt": "2026-05-23T19:00:13.364Z",
       "queryHashes": [
         "f698e45e49cd"
       ],
       "recallDays": [
         "2026-05-23",
-        "2026-05-22"
+        "2026-05-22",
+        "2026-05-24"
       ],
       "conceptTags": [
         "2026-05-21-1923.md",
@@ -10995,18 +11020,19 @@
       "source": "memory",
       "snippet": "Conversation Summary: [message_id: om_x100b6fc1ec9af0a0ee8b2e813a36bad] ou_cb5c7afa7e77cafdeaeae1620a2a383a: 什么情况",
       "recallCount": 0,
-      "dailyCount": 1,
+      "dailyCount": 2,
       "groundedCount": 0,
-      "totalScore": 0.62,
+      "totalScore": 1.24,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-05-22T19:00:11.007Z",
-      "lastRecalledAt": "2026-05-22T19:00:11.007Z",
+      "lastRecalledAt": "2026-05-23T19:00:13.364Z",
       "queryHashes": [
         "f698e45e49cd"
       ],
       "recallDays": [
         "2026-05-23",
-        "2026-05-22"
+        "2026-05-22",
+        "2026-05-24"
       ],
       "conceptTags": [
         "2026-05-21-1923.md",

@@ -3,11 +3,12 @@
   "lastGood": {
     "minimax": "minimax:cn",
     "volcengine": "volcengine:default",
-    "zai": "zai:default"
+    "zai": "zai:default",
+    "minimax-portal": "minimax-portal:default"
   },
   "usageStats": {
     "minimax:cn": {
-      "lastUsed": 1775462567927,
+      "lastUsed": 1779531399640,
       "errorCount": 0
     },
     "openai:default": {
@@ -26,7 +27,11 @@
       "lastFailureAt": 1775985969417
     },
     "zai:default": {
-      "lastUsed": 1779403602289,
+      "lastUsed": 1779531859795,
+      "errorCount": 0
+    },
+    "minimax-portal:default": {
+      "lastUsed": 1779579910688,
       "errorCount": 0
     }
   }

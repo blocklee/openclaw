@@ -20,6 +20,13 @@
       "type": "api_key",
       "provider": "volcengine",
       "key": "ca89d2f0-5be7-4df4-a437-b14d6540e495"
+    },
+    "minimax-portal:default": {
+      "type": "oauth",
+      "provider": "minimax-portal",
+      "access": "sk-cp-qPOfqsm3I7ed7ty1i3pr9IFBpeOitA0-UeCnOAXV8nz0uOgBokP8JLEkeG-Cx8EhLRaFRGBN5jWfWRcjmitZD3vBjHiV7FMYr3er1tgpgw5RaIf5sZTOudQ",
+      "refresh": "dfrt-M2VMm76dus6EERVgF2zMH7PqrFDTFLUAZ5h2kikGc54",
+      "expires": 1811067500777
     }
   }
 }

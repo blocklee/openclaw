@@ -2,59 +2,58 @@
   "version": 1,
   "jobs": {
     "1c3a7bd5-d835-41d8-a14a-d2970f13d503": {
-      "updatedAtMs": 1779408039538,
+      "updatedAtMs": 1779494467761,
       "scheduleIdentity": "{\"version\":1,\"enabled\":true,\"schedule\":{\"kind\":\"cron\",\"expr\":\"0 0 * * *\",\"staggerMs\":0}}",
       "state": {
-        "nextRunAtMs": 1779494400000,
-        "lastRunAtMs": 1779408000003,
-        "lastRunStatus": "ok",
-        "lastStatus": "ok",
-        "lastDurationMs": 39535,
-        "lastDeliveryStatus": "delivered",
-        "consecutiveErrors": 0,
-        "lastDelivered": true,
-        "lastFailureNotificationDeliveryStatus": "not-requested",
-        "consecutiveSkipped": 0,
-        "runningAtMs": 1779494400002
-      }
-    },
-    "config-backup-8am": {
-      "updatedAtMs": 1779436827339,
-      "scheduleIdentity": "{\"version\":1,\"enabled\":true,\"schedule\":{\"kind\":\"cron\",\"expr\":\"0 8 * * *\",\"staggerMs\":0}}",
-      "state": {
-        "nextRunAtMs": 1779523200000,
-        "lastRunAtMs": 1779436800003,
+        "nextRunAtMs": 1779580800000,
+        "lastRunAtMs": 1779494400003,
         "lastRunStatus": "error",
         "lastStatus": "error",
-        "lastDurationMs": 27336,
+        "lastDurationMs": 67758,
         "lastDeliveryStatus": "unknown",
-        "consecutiveErrors": 2,
+        "consecutiveErrors": 1,
+        "lastFailureNotificationDeliveryStatus": "unknown",
+        "consecutiveSkipped": 0,
         "lastDiagnostics": {
-          "summary": "session file changed while embedded prompt lock was released: /home/node/.openclaw/agents/main/sessions/9197c0d2-5876-4059-b5bd-f2477d8b94c9.jsonl",
+          "summary": "session file changed while embedded prompt lock was released: /home/node/.openclaw/agents/main/sessions/6e3e2059-3bd4-45b7-b064-93c1f61b6988.jsonl",
           "entries": [
             {
-              "ts": 1779436827339,
+              "ts": 1779494467760,
               "source": "agent-run",
               "severity": "error",
-              "message": "session file changed while embedded prompt lock was released: /home/node/.openclaw/agents/main/sessions/9197c0d2-5876-4059-b5bd-f2477d8b94c9.jsonl"
+              "message": "session file changed while embedded prompt lock was released: /home/node/.openclaw/agents/main/sessions/6e3e2059-3bd4-45b7-b064-93c1f61b6988.jsonl"
             }
           ]
         },
-        "lastDiagnosticSummary": "session file changed while embedded prompt lock was released: /home/node/.openclaw/agents/main/sessions/9197c0d2-5876-4059-b5bd-f2477d8b94c9.jsonl",
-        "lastFailureNotificationDeliveryStatus": "unknown",
+        "lastDiagnosticSummary": "session file changed while embedded prompt lock was released: /home/node/.openclaw/agents/main/sessions/6e3e2059-3bd4-45b7-b064-93c1f61b6988.jsonl",
+        "runningAtMs": 1779580800002
+      }
+    },
+    "config-backup-8am": {
+      "updatedAtMs": 1779523224470,
+      "scheduleIdentity": "{\"version\":1,\"enabled\":true,\"schedule\":{\"kind\":\"cron\",\"expr\":\"0 8 * * *\",\"staggerMs\":0}}",
+      "state": {
+        "nextRunAtMs": 1779609600000,
+        "lastRunAtMs": 1779523200004,
+        "lastRunStatus": "ok",
+        "lastStatus": "ok",
+        "lastDurationMs": 24466,
+        "lastDeliveryStatus": "delivered",
+        "consecutiveErrors": 0,
+        "lastFailureNotificationDeliveryStatus": "not-requested",
         "consecutiveSkipped": 0,
-        "lastError": "EmbeddedAttemptSessionTakeoverError: session file changed while embedded prompt lock was released: /home/node/.openclaw/agents/main/sessions/9197c0d2-5876-4059-b5bd-f2477d8b94c9.jsonl"
+        "lastDelivered": true
       }
     },
     "8f62feb4-aed8-47fd-8093-29d8f97f4b71": {
-      "updatedAtMs": 1779476414224,
+      "updatedAtMs": 1779562816120,
       "scheduleIdentity": "{\"version\":1,\"enabled\":true,\"schedule\":{\"kind\":\"cron\",\"expr\":\"0 3 * * *\",\"tz\":\"Asia/Shanghai\"}}",
       "state": {
-        "nextRunAtMs": 1779562800000,
-        "lastRunAtMs": 1779476400005,
+        "nextRunAtMs": 1779649200000,
+        "lastRunAtMs": 1779562800004,
         "lastRunStatus": "ok",
         "lastStatus": "ok",
-        "lastDurationMs": 14219,
+        "lastDurationMs": 16116,
         "lastDeliveryStatus": "not-requested",
         "consecutiveErrors": 0,
         "lastFailureNotificationDeliveryStatus": "not-requested",
@@ -62,31 +61,19 @@
       }
     },
     "echo-platform-heartbeat": {
-      "updatedAtMs": 1779493618997,
+      "updatedAtMs": 1779579910808,
       "scheduleIdentity": "{\"version\":1,\"enabled\":true,\"schedule\":{\"kind\":\"cron\",\"expr\":\"*/15 * * * *\",\"tz\":\"UTC\"}}",
       "state": {
-        "nextRunAtMs": 1779494400000,
-        "lastRunAtMs": 1779493500003,
-        "lastRunStatus": "error",
-        "lastStatus": "error",
-        "lastDurationMs": 118994,
+        "nextRunAtMs": 1779580800000,
+        "lastRunAtMs": 1779579900003,
+        "lastRunStatus": "ok",
+        "lastStatus": "ok",
+        "lastDurationMs": 10805,
         "lastDeliveryStatus": "not-requested",
-        "consecutiveErrors": 1,
+        "consecutiveErrors": 0,
         "lastFailureNotificationDeliveryStatus": "not-requested",
         "consecutiveSkipped": 0,
-        "lastDiagnostics": {
-          "summary": "session file changed while embedded prompt lock was released: /home/node/.openclaw/agents/main/sessions/cda21feb-1138-495f-9fc1-63266c1ebf69.jsonl",
-          "entries": [
-            {
-              "ts": 1779493618997,
-              "source": "agent-run",
-              "severity": "error",
-              "message": "session file changed while embedded prompt lock was released: /home/node/.openclaw/agents/main/sessions/cda21feb-1138-495f-9fc1-63266c1ebf69.jsonl"
-            }
-          ]
-        },
-        "lastDiagnosticSummary": "session file changed while embedded prompt lock was released: /home/node/.openclaw/agents/main/sessions/cda21feb-1138-495f-9fc1-63266c1ebf69.jsonl",
-        "runningAtMs": 1779494400002
+        "runningAtMs": 1779580800002
       }
     }
   }
