@@ -1,7 +1,7 @@
 {
   "agent:wxlee:feishu:xiaoye:direct:ou_9e18438fb941decf11a0b88d78fe2b50": {
     "sessionId": "189ef780-42b6-4aa8-a632-8b7b62ace3df",
-    "updatedAt": 1779596629297,
+    "updatedAt": 1779596702706,
     "systemSent": true,
     "abortedLastRun": false,
     "chatType": "direct",
@@ -24,11 +24,11 @@
     },
     "sessionFile": "/home/node/.openclaw/agents/wxlee/sessions/189ef780-42b6-4aa8-a632-8b7b62ace3df.jsonl",
     "compactionCount": 0,
-    "status": "running",
+    "status": "done",
     "startedAt": 1779596629296,
     "systemPromptReport": {
       "source": "run",
-      "generatedAt": 1779596391155,
+      "generatedAt": 1779596629129,
       "sessionId": "189ef780-42b6-4aa8-a632-8b7b62ace3df",
       "sessionKey": "agent:wxlee:feishu:xiaoye:direct:ou_9e18438fb941decf11a0b88d78fe2b50",
       "provider": "nvidia",
@@ -404,7 +404,7 @@
         ]
       },
       "currentTurn": {
-        "promptChars": 726,
+        "promptChars": 617,
         "runtimeContextChars": 0
       }
     },
@@ -538,7 +538,9 @@
       ],
       "version": 0
     },
-    "contextTokens": 1000000
+    "contextTokens": 1000000,
+    "endedAt": 1779596702511,
+    "runtimeMs": 73215
   },
   "agent:wxlee:openclaw-weixin:a23ee0675df2-im-bot:direct:o9cq802uvmveggp0xkfm4o7acdrg@im.wechat": {
     "origin": {

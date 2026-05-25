@@ -8,6 +8,13 @@
       "lineCount": 10,
       "lastContentLine": 10
     },
+    "wxlee:sessions/wxlee/189ef780-42b6-4aa8-a632-8b7b62ace3df.jsonl": {
+      "mtimeMs": 1779596702502,
+      "size": 39966,
+      "contentHash": "4cc6efc237d64a3118cb5d6b6d4160b5edb31b50dbe4b339899708156c5a763c",
+      "lineCount": 6,
+      "lastContentLine": 6
+    },
     "wxlee:sessions/wxlee/276c91b2-7160-4975-989c-e97db75621c7.jsonl.reset.2026-05-19T09-34-36.269Z": {
       "mtimeMs": 1779119848347,
       "size": 7280,
@@ -71,19 +78,12 @@
       "lineCount": 16,
       "lastContentLine": 16
     },
-    "wxlee:sessions/wxlee/b7135e7d-495a-42ee-b4d1-658e6c33ffd3.jsonl": {
+    "wxlee:sessions/wxlee/b7135e7d-495a-42ee-b4d1-658e6c33ffd3.jsonl.reset.2026-05-24T04-19-41.777Z": {
       "mtimeMs": 1779521827163,
       "size": 358700,
       "contentHash": "6f05333c41e843800dc6af7680a81d64685426ea38c54feb23108d6f161263dc",
       "lineCount": 39,
-      "lastContentLine": 26
-    },
-    "wxlee:sessions/wxlee/c53204d9-dbc4-4634-8048-77f4d3c7ca91.jsonl.deleted.2026-05-14T04-57-41.081Z": {
-      "mtimeMs": 1777861475532,
-      "size": 7837,
-      "contentHash": "adb2341cdc51c4c339b9b4314e6a1496f2473b93f827b00a14be68dbec47e460",
-      "lineCount": 6,
-      "lastContentLine": 6
+      "lastContentLine": 39
     },
     "wxlee:sessions/wxlee/d5236bc4-a607-479f-8674-a84fd84d7b93.jsonl.reset.2026-05-20T16-10-06.635Z": {
       "mtimeMs": 1779183442601,
@@ -97,7 +97,7 @@
       "size": 447674,
       "contentHash": "cf3023455b7d9b81f250756a1b953598d7b06abecf1d1512088a8ad1ecf16578",
       "lineCount": 38,
-      "lastContentLine": 36
+      "lastContentLine": 38
     },
     "wxlee:sessions/wxlee/e6f79be0-8592-4772-b928-0a03228c2bbf.jsonl.reset.2026-05-22T07-46-05.819Z": {
       "mtimeMs": 1779404975561,
@@ -112,13 +112,6 @@
       "contentHash": "7d73f52261da44a8e0f602978b3337c8622b498e41d41a99a4af1ccafd2f2dc7",
       "lineCount": 2727,
       "lastContentLine": 2727
-    },
-    "wxlee:sessions/wxlee/f031a378-b870-4f56-92a9-8bfe0e16d6ee.jsonl.reset.2026-05-14T04-57-41.098Z": {
-      "mtimeMs": 1778678379057,
-      "size": 16190,
-      "contentHash": "41a5079015707d8986712c64abc48f0e87b81094fe20f07941d2566a453e043b",
-      "lineCount": 8,
-      "lastContentLine": 8
     },
     "wxlee:sessions/wxlee/f91bf92a-0ccd-483f-b17a-a61f51c3dbab.jsonl.reset.2026-05-16T15-16-50.699Z": {
       "mtimeMs": 1778944568744,
@@ -581,7 +574,9 @@
       "5feb33cf3435f8339a7cac508936e87cd84ff764",
       "6e22c6d48054f6e62d95e7b4568f3bc01cb2d391",
       "6a7c782b0d82e914fa5c25225a8b9dca675ef4f0",
-      "ca77a4cfcc52882677f71e03b6314646b27c1d7e"
+      "ca77a4cfcc52882677f71e03b6314646b27c1d7e",
+      "495f090592e7dd743e88e321a430376c8ddf6ff3",
+      "9b83fa0b8f792d8918fd37582b2468ba14ab531a"
     ],
     "wxlee:b7135e7d-495a-42ee-b4d1-658e6c33ffd3": [
       "458c2cd90584cc2651c683dde62b5e7da578d768",
@@ -609,7 +604,28 @@
       "be68869d5c2ab26cb5a181b3da85c9bde9d2b7b9",
       "ce1778714829b2b52cc736caf00c8bed7e79b766",
       "c59d082123a42f10878faa86cea8b1b80247727c",
-      "59988f00b64d28b574b3f473b5910b59982ca7ed"
+      "59988f00b64d28b574b3f473b5910b59982ca7ed",
+      "ff21270ac594dd88abea9641997f4eeeed843efe",
+      "8e6e675d1aec4dc3bee1f9e6d3d99901634e2e47",
+      "0a52494a60995569ef9d1e5ce382289defe3ff52",
+      "b35d6c40a664b9125192c1e9f45db7193cc75df9",
+      "1622bb861d274632a4c698ecccc76601bea686e9",
+      "8e4a4fc6b194c46e426ce2a050947381510678ff",
+      "beac9874c0caf6658cdd3e8970ac039434f5ea45",
+      "9e28cdfc3afbdcec7d82e1316e1d4989f4f16f4a",
+      "c7a2083a99e8e7da17b2ec8a86906d8c9ac07117",
+      "d433f95e76cd685298da53f8822da7892c2b2aa6",
+      "75208a749aa2d6e5e94516c3d1178674f83f7501",
+      "4b4e8b1ce13ce838935e4dd6ac3c28f93bba18f0",
+      "3823d79215ba3cbafe223684a2bc54de9cd9bb2e"
+    ],
+    "wxlee:189ef780-42b6-4aa8-a632-8b7b62ace3df": [
+      "15750924ce677bb43650f8340e059672ffddc72e",
+      "b4a9801888a0c92a63a821d80d0ece49fb122f8a",
+      "0d9af3747026e92329999a3bea2baa568f7eab7b",
+      "9210fa70645e6f8e000bf6077db64514a17ff46f",
+      "60cbe1cc91e0e58fc8812df4c054157040d6e984",
+      "bbb461f47aad9f4e599fecca79dfaa6f77845941"
     ]
   }
 }

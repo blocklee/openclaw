@@ -337,6 +337,13 @@
       "lineCount": 3,
       "lastContentLine": 3
     },
+    "lucus:sessions/lucus/7dccc677-9178-4918-834d-4284b43e48c7.jsonl": {
+      "mtimeMs": 1779598577724,
+      "size": 71095,
+      "contentHash": "91ef58abc571b491c05ab985b230c5bd3d63d32a4f6d84f55c52c55c9bcab0a0",
+      "lineCount": 16,
+      "lastContentLine": 16
+    },
     "lucus:sessions/lucus/80e7400f-8a29-49ae-8e39-ca7c23c5a10b.jsonl": {
       "mtimeMs": 1774777442569,
       "size": 2038,
@@ -448,6 +455,13 @@
       "contentHash": "fba9680fa2e840c7aef4fd1f2cab41a1e10444c32cbf5a3f643025b5fd14723f",
       "lineCount": 2,
       "lastContentLine": 2
+    },
+    "lucus:sessions/lucus/bf256fe7-be29-46e7-a6ee-d03db0bdb2b2.jsonl.reset.2026-05-24T04-21-30.816Z": {
+      "mtimeMs": 1779588807408,
+      "size": 32273,
+      "contentHash": "e49f3649c8590b732ebd4dd1223c674e851daf0b70efe9c2a1f7b1cf216607a2",
+      "lineCount": 3,
+      "lastContentLine": 3
     },
     "lucus:sessions/lucus/bfae2e3d-fe8a-433c-b9b7-0bba168ba8d6.jsonl": {
       "mtimeMs": 1774778003373,
@@ -603,7 +617,7 @@
       "lineCount": 2,
       "lastContentLine": 2
     },
-    "lucus:sessions/lucus/faeb4a83-7994-40cc-8051-16ca45e8ffcb.jsonl": {
+    "lucus:sessions/lucus/faeb4a83-7994-40cc-8051-16ca45e8ffcb.jsonl.reset.2026-05-24T02-10-38.106Z": {
       "mtimeMs": 1779438869498,
       "size": 28874,
       "contentHash": "92f4e33fc033ea70c416a12cc1ca0f028c93df2e0edb3d87ae6d176cfed55fd8",
@@ -962,6 +976,29 @@
       "3a3793d5a204da75cc2ef9161330e6e37ab254a7",
       "4f315c1d303fd9a92c96da42cae24d20ff296f28",
       "08f701e0a08bff98aa2d13b2e4c6f39e60342636"
+    ],
+    "lucus:7dccc677-9178-4918-834d-4284b43e48c7": [
+      "7206675b8c154eaf253c00992e93cae111b188f1",
+      "bd653a59013fdf8dbeaf4822b23870ab3449b4bd",
+      "f094e0fc1563fd89c9b3c7a067363559792e78c7",
+      "469b44e04811b6e46ddb432cb83641000664e6f9",
+      "52ad1a8670d2196fb3078a281305a7f02c5885e9",
+      "20dd00ed0c2447677cd9e99c3f65071bd4475912",
+      "557103d4d6f555a50ad9535e670592bba1966e2d",
+      "20580c6f2275e16e070bcca2fe4f1a642e12304d",
+      "6a2b0e8b7236bf5ecb0a7f0602f7b03b88eb03cd",
+      "0a03a686d01fc51b88fe1d0517344b33434a6df3",
+      "a08976f2c57bd047a620852380eb266ed76b40a1",
+      "4eb14ae2fb745b46508d2f1c2e2643f8cbc89a00",
+      "26e6fe67ad4f78dd138d647bc4a124948ecc5688",
+      "0cfc609f49b73c8eea3e94291fdba60e29b1c043",
+      "f073b133ae1555e1648ee1d5c7f58623084a7bf3",
+      "f2b0cd2dde1d15162b61391e228454d162328d4d"
+    ],
+    "lucus:bf256fe7-be29-46e7-a6ee-d03db0bdb2b2": [
+      "6961084fb72008d721757e030592061faa91c0ef",
+      "d889787ac4acdf7eafa5697ba3c741b308a340cb",
+      "58569cd4d1460891048af2d93f41673508329bd7"
     ]
   }
 }

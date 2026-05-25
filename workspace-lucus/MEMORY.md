@@ -29,3 +29,12 @@
 
 <!-- openclaw-memory-promotion:memory:memory/2026-04-27.md:166:168 -->
 - - Candidate: Possible Lasting Truths: Possible Lasting Truths: Assistant: ## 📊 Cron 任务运行状态检查报告 ### ✅ 数据库状态 - **数据库完整性**: ✅ 正常 - **上次修复时间**: 2026-04-10 16:22（约 15 分钟前） - **修复后运行**: ✅ 3/4 任务成功 ### 📋 任务执行情况 | 任务名称 | 状态 | 耗时 | 备注 | |---------|------|------|------| | config-backup-8am | ✅ succee - confidence: 0.62 - evidence: memory/2026-04-24.md:179-181 [score=0.861 recalls=0 avg=0.620 source=memory/2026-04-27.md:138-140]
+
+## Promoted From Short-Term Memory (2026-05-25)
+
+<!-- openclaw-memory-promotion:memory:memory/2026-05-21-1923.md:16:19 -->
+- "chat_id": "user:ou_cb5c7afa7e77cafdeaeae1620a2a383a", "message_id": "om_x100b6fc17b7e8c68eea81920de3d7cd", "reply_to_id": "om_x100b6fdff63a3ca8ee8d450536ae34a", "sender_id": "ou_cb5c7afa7e77cafdeaeae1620a2a383a", [score=0.815 recalls=0 avg=0.620 source=memory/2026-05-21-1923.md:16-19]
+<!-- openclaw-memory-promotion:memory:memory/2026-05-21-1923.md:38:38 -->
+- "body": "⚠️ Cron job \"config\\-backup\\-8am\" failed: EmbeddedAttemptSessionTakeoverError: session file changed while embedded prompt lock was released: /home/node/.openclaw/agents/main/sessions/e4936a00\\-5ae8\\-411e\\-b73b\\-5f2262f60553.jsonl" [score=0.815 recalls=0 avg=0.620 source=memory/2026-05-21-1923.md:38-38]
+<!-- openclaw-memory-promotion:memory:memory/2026-05-21-1923.md:53:56 -->
+- "chat_id": "user:ou_cb5c7afa7e77cafdeaeae1620a2a383a", "message_id": "om_x100b6fc129c15934ee7b264b81a3a66", "reply_to_id": "om_x100b6fdff63a3ca8ee8d450536ae34a", "sender_id": "ou_cb5c7afa7e77cafdeaeae1620a2a383a", [score=0.815 recalls=0 avg=0.620 source=memory/2026-05-21-1923.md:53-56]

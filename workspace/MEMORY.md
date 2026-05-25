@@ -84,3 +84,8 @@
 ### 已确认用户ID
 - 猫先森: ou_f02645f6c52eb90b1aa0a82d684e896e
 - 听风: ou待补充
+
+## Promoted From Short-Term Memory (2026-05-25)
+
+<!-- openclaw-memory-promotion:memory:memory/2026-05-20-1652.md:9:10 -->
+- assistant: [assistant turn failed before producing content] assistant: [score=0.851 recalls=0 avg=0.620 source=memory/2026-05-20-1652.md:9-10]

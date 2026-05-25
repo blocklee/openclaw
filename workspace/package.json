@@ -12,6 +12,7 @@
   "type": "commonjs",
   "dependencies": {
     "@marp-team/marp-cli": "^4.3.1",
+    "ethers": "^6.16.0",
     "markdown-to-docx": "^1.2.0"
   }
 }

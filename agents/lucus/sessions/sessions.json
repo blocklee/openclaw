@@ -1,7 +1,7 @@
 {
   "agent:lucus:feishu:lucus:direct:ou_cb5c7afa7e77cafdeaeae1620a2a383a": {
     "sessionId": "7dccc677-9178-4918-834d-4284b43e48c7",
-    "updatedAt": 1779596499736,
+    "updatedAt": 1779598577911,
     "systemSent": true,
     "abortedLastRun": false,
     "chatType": "direct",
@@ -24,12 +24,12 @@
     },
     "sessionFile": "/home/node/.openclaw/agents/lucus/sessions/7dccc677-9178-4918-834d-4284b43e48c7.jsonl",
     "compactionCount": 0,
-    "status": "running",
-    "startedAt": 1779596499735,
+    "status": "done",
+    "startedAt": 1779598409690,
     "systemPromptReport": {
       "source": "run",
-      "generatedAt": 1779588647627,
-      "sessionId": "bf256fe7-be29-46e7-a6ee-d03db0bdb2b2",
+      "generatedAt": 1779598409496,
+      "sessionId": "7dccc677-9178-4918-834d-4284b43e48c7",
       "sessionKey": "agent:lucus:feishu:lucus:direct:ou_cb5c7afa7e77cafdeaeae1620a2a383a",
       "provider": "nvidia",
       "model": "deepseek-ai/deepseek-v4-flash",
@@ -422,7 +422,7 @@
         ]
       },
       "currentTurn": {
-        "promptChars": 1248,
+        "promptChars": 611,
         "runtimeContextChars": 0
       }
     },
@@ -437,7 +437,7 @@
       }
     },
     "sessionStartedAt": 1779596490811,
-    "lastInteractionAt": 1779596490811,
+    "lastInteractionAt": 1779598408607,
     "usageFamilyKey": "agent:lucus:feishu:lucus:direct:ou_cb5c7afa7e77cafdeaeae1620a2a383a",
     "usageFamilySessionIds": [
       "665de1db-3931-4558-b5a1-40182f6047f9",
@@ -577,6 +577,9 @@
         }
       ],
       "version": 0
-    }
+    },
+    "contextTokens": 1000000,
+    "endedAt": 1779598577729,
+    "runtimeMs": 168039
   }
 }

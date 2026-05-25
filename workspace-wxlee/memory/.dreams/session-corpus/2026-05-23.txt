@@ -50,3 +50,18 @@
 [wxlee/sessions/wxlee/dd528b68-1f22-4d52-a933-180b1b49d7f7.jsonl.reset.2026-05-23T04-22-40.327Z#L145] Assistant: 无独立配置** | 一切继承默认，想修都无从下手 | --- ## 💊 建议修复 跟 lucus 一样的方案，给 main 一个独立且稳定的模型配置： ```json5 { id: "main", model: { primary: "google/gemini-2.5-flash", // 免费、稳定、不429 fallbacks: [ "nvidia/deepseek-ai/deepseek-v4-flash", "nvidia/z-ai/glm4.7
 [wxlee/sessions/wxlee/dd528b68-1f22-4d52-a933-180b1b49d7f7.jsonl.reset.2026-05-23T04-22-40.327Z#L146] User: [message_id: om_x100b6e3a95b7e530eead2b96966b16c] ou_9e18438fb941decf11a0b88d78fe2b50: 为何不fallback
 [wxlee/sessions/wxlee/dd528b68-1f22-4d52-a933-180b1b49d7f7.jsonl.reset.2026-05-23T04-22-40.327Z#L147] Assistant: 主公问得对——明明 fallback 链里有 5 个模型，为什么死死卡在 `minimaxai/m2.7` 上重试 4 次都不动？ 让我查一下 OpenClaw 的 fallback 和重试机制。
+[wxlee/sessions/wxlee/b7135e7d-495a-42ee-b4d1-658e6c33ffd3.jsonl.reset.2026-05-24T04-19-41.777Z#L139] Assistant: 现在创建飞书云文档。我来
+[wxlee/sessions/wxlee/b7135e7d-495a-42ee-b4d1-658e6c33ffd3.jsonl.reset.2026-05-24T04-19-41.777Z#L143] Assistant: 文档创建成功！但权限授予需要额外 scope。不过主流程没问题了。让我
+[wxlee/sessions/wxlee/b7135e7d-495a-42ee-b4d1-658e6c33ffd3.jsonl.reset.2026-05-24T04-19-41.777Z#L145] Assistant: [assistant turn failed before producing content]
+[wxlee/sessions/wxlee/b7135e7d-495a-42ee-b4d1-658e6c33ffd3.jsonl.reset.2026-05-24T04-19-41.777Z#L146] Assistant: [assistant turn failed before producing content]
+[wxlee/sessions/wxlee/b7135e7d-495a-42ee-b4d1-658e6c33ffd3.jsonl.reset.2026-05-24T04-19-41.777Z#L147] Assistant: [assistant turn failed before producing content]
+[wxlee/sessions/wxlee/b7135e7d-495a-42ee-b4d1-658e6c33ffd3.jsonl.reset.2026-05-24T04-19-41.777Z#L148] Assistant: [assistant turn failed before producing content]
+[wxlee/sessions/wxlee/b7135e7d-495a-42ee-b4d1-658e6c33ffd3.jsonl.reset.2026-05-24T04-19-41.777Z#L149] User: [message_id: om_x100b6e212ef5c8a8ee7505cfad88d2a] ou_9e18438fb941decf11a0b88d78fe2b50: 你测试一下创建飞书云文档
+[wxlee/sessions/wxlee/b7135e7d-495a-42ee-b4d1-658e6c33ffd3.jsonl.reset.2026-05-24T04-19-41.777Z#L152] Assistant: 好，我来直接用飞书文档工具创建
+[wxlee/sessions/wxlee/b7135e7d-495a-42ee-b4d1-658e6c33ffd3.jsonl.reset.2026-05-24T04-19-41.777Z#L154] Assistant: 好，让我直接用 `feishu_doc` 工具创建
+[wxlee/sessions/wxlee/b7135e7d-495a-42ee-b4d1-658e6c33ffd3.jsonl.reset.2026-05-24T04-19-41.777Z#L160] Assistant: 让我直接调用飞
+[wxlee/sessions/wxlee/b7135e7d-495a-42ee-b4d1-658e6c33ffd3.jsonl.reset.2026-05-24T04-19-41.777Z#L162] User: [message_id: om_x100b6e21cd3ff130ee8c79357bd2151] ou_9e18438fb941decf11a0b88d78fe2b50: hi
+[wxlee/sessions/wxlee/b7135e7d-495a-42ee-b4d1-658e6c33ffd3.jsonl.reset.2026-05-24T04-19-41.777Z#L163] Assistant: 主公，我来
+[wxlee/sessions/wxlee/b7135e7d-495a-42ee-b4d1-658e6c33ffd3.jsonl.reset.2026-05-24T04-19-41.777Z#L167] Assistant: 文档创建成功并写入了内容！不过权限授予需要 bot 申请 `drive:drive` 等 scope。 这是最终结果： **文档已创建：** https://bytedance.feishu.cn/docx/X4x1dZexVowhN4xuewqjoXy8ppg **写入的内容：** - 标题：doc-summarize-pro 技能测试报告 - 正文：测试时间、测试内容概述 - 二级标题：测试结果 - 6 条测试项目（summarize/keywords/
+[wxlee/sessions/wxlee/dd528b68-1f22-4d52-a933-180b1b49d7f7.jsonl.reset.2026-05-23T04-22-40.327Z#L172] Assistant: 好问题。让我仔细看看轨迹中 fallback 到底发生了什么。 从刚才抓到的关键数据看——**fallback 机制没有被触发**。 --- ## 问题分析 轨迹显示全部 4 次失败是在 **同一个模型** 上重试的： ``` provider=nvidia model=minimaxai/minimax-m2.7 → 429 (no body) provider=nvidia model=minimaxai/minimax-m2.7 → 429 (no b
+[wxlee/sessions/wxlee/dd528b68-1f22-4d52-a933-180b1b49d7f7.jsonl.reset.2026-05-23T04-22-40.327Z#L172] Assistant: `google/gemini-2.5-flash`）根本不会遇到这个 429 问题，也就不依赖 fallback 机制来兜底。要我直接改 main 的配置吗？跟上一条：

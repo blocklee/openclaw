@@ -53,6 +53,9 @@ Add whatever helps you do your job. This is your cheat sheet.
 - 海边的海: ou_bb827bd4e4e7b89346e356aade1e67c8
 - 李嫚: ou_117a5b813b11251c2c3f5cfae378e1f1
 
+## 每日wiki同步
+- 每日输出同步至 https://yio5us4oqe.feishu.cn/wiki/G96wwD6IXiDlTQkiNK8cnfEonjh
+
 ## @功能脚本
 - 路径：`~/.openclaw/workspace/scripts/send_feishu_mention.py`
 - 用法：`python3 send_feishu_mention.py <chat_id> <user_id> <message>`

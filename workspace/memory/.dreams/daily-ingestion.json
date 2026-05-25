@@ -1,60 +1,70 @@
 {
   "version": 1,
   "files": {
+    "memory/2026-05-24.md": {
+      "mtimeMs": 1779616535911,
+      "size": 12679,
+      "lastDreamingDayIngested": "2026-05-25"
+    },
+    "memory/2026-05-24-review.md": {
+      "mtimeMs": 1779609834005,
+      "size": 3109,
+      "lastDreamingDayIngested": "2026-05-25"
+    },
     "memory/2026-05-23.md": {
       "mtimeMs": 1779515446472,
       "size": 3518,
-      "lastDreamingDayIngested": "2026-05-24"
+      "lastDreamingDayIngested": "2026-05-25"
     },
     "memory/2026-05-23-0354.md": {
       "mtimeMs": 1779508477919,
       "size": 4537,
-      "lastDreamingDayIngested": "2026-05-24"
+      "lastDreamingDayIngested": "2026-05-25"
     },
     "memory/2026-05-23-0738.md": {
       "mtimeMs": 1779521918432,
       "size": 4094,
-      "lastDreamingDayIngested": "2026-05-24"
+      "lastDreamingDayIngested": "2026-05-25"
     },
     "memory/2026-05-23-0940.md": {
       "mtimeMs": 1779529258523,
       "size": 3816,
-      "lastDreamingDayIngested": "2026-05-24"
+      "lastDreamingDayIngested": "2026-05-25"
     },
     "memory/2026-05-23-1021-2.md": {
       "mtimeMs": 1779531689493,
       "size": 197,
-      "lastDreamingDayIngested": "2026-05-24"
+      "lastDreamingDayIngested": "2026-05-25"
     },
     "memory/2026-05-23-1021.md": {
       "mtimeMs": 1779531668481,
       "size": 3477,
-      "lastDreamingDayIngested": "2026-05-24"
+      "lastDreamingDayIngested": "2026-05-25"
     },
     "memory/2026-05-22.md": {
       "mtimeMs": 1779472608245,
       "size": 3425,
-      "lastDreamingDayIngested": "2026-05-24"
+      "lastDreamingDayIngested": "2026-05-25"
     },
     "memory/2026-05-20.md": {
       "mtimeMs": 1779291732824,
       "size": 3787,
-      "lastDreamingDayIngested": "2026-05-24"
+      "lastDreamingDayIngested": "2026-05-25"
     },
     "memory/2026-05-20-1652.md": {
       "mtimeMs": 1779295954300,
       "size": 2309,
-      "lastDreamingDayIngested": "2026-05-24"
+      "lastDreamingDayIngested": "2026-05-25"
     },
     "memory/2026-05-19.md": {
       "mtimeMs": 1779193019165,
       "size": 2397,
-      "lastDreamingDayIngested": "2026-05-24"
+      "lastDreamingDayIngested": "2026-05-25"
     },
     "memory/2026-05-19-doc-transfer.md": {
       "mtimeMs": 1779190250920,
       "size": 1122,
-      "lastDreamingDayIngested": "2026-05-24"
+      "lastDreamingDayIngested": "2026-05-25"
     }
   }
 }

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-05-23T19:00:13.364Z",
+  "updatedAt": "2026-05-24T19:00:18.901Z",
   "entries": {
     "memory:memory/.dreams/session-corpus/2026-04-11.txt:1:1": {
       "key": "memory:memory/.dreams/session-corpus/2026-04-11.txt:1:1",
@@ -10218,19 +10218,20 @@
       "source": "memory",
       "snippet": "Session: 2026-05-21 19:23:49 UTC: **Session Key**: agent:lucus:feishu:lucus:direct:ou_cb5c7afa7e77cafdeaeae1620a2a383a; **Session ID**: 4af9be2f-0106-4f73-b81d-699b0357495e; **Source**: feishu",
       "recallCount": 0,
-      "dailyCount": 2,
+      "dailyCount": 3,
       "groundedCount": 0,
-      "totalScore": 1.24,
+      "totalScore": 1.8599999999999999,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-05-22T19:00:11.007Z",
-      "lastRecalledAt": "2026-05-23T19:00:13.364Z",
+      "lastRecalledAt": "2026-05-24T19:00:18.901Z",
       "queryHashes": [
         "f698e45e49cd"
       ],
       "recallDays": [
         "2026-05-23",
         "2026-05-22",
-        "2026-05-24"
+        "2026-05-24",
+        "2026-05-25"
       ],
       "conceptTags": [
         "2026-05-21-1923.md",
@@ -10251,19 +10252,20 @@
       "source": "memory",
       "snippet": "Conversation Summary: assistant: [assistant turn failed before producing content] assistant: [assistant turn failed before producing content] assistant: [assistant turn failed before producing content] assistant: [assistant turn failed before producing content]",
       "recallCount": 0,
-      "dailyCount": 2,
+      "dailyCount": 3,
       "groundedCount": 0,
-      "totalScore": 1.24,
+      "totalScore": 1.8599999999999999,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-05-22T19:00:11.007Z",
-      "lastRecalledAt": "2026-05-23T19:00:13.364Z",
+      "lastRecalledAt": "2026-05-24T19:00:18.901Z",
       "queryHashes": [
         "f698e45e49cd"
       ],
       "recallDays": [
         "2026-05-23",
         "2026-05-22",
-        "2026-05-24"
+        "2026-05-24",
+        "2026-05-25"
       ],
       "conceptTags": [
         "2026-05-21-1923.md",
@@ -10283,19 +10285,20 @@
       "source": "memory",
       "snippet": "Conversation Summary: user: Conversation info (untrusted metadata):",
       "recallCount": 0,
-      "dailyCount": 2,
+      "dailyCount": 3,
       "groundedCount": 0,
-      "totalScore": 1.24,
+      "totalScore": 1.8599999999999999,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-05-22T19:00:11.007Z",
-      "lastRecalledAt": "2026-05-23T19:00:13.364Z",
+      "lastRecalledAt": "2026-05-24T19:00:18.901Z",
       "queryHashes": [
         "f698e45e49cd"
       ],
       "recallDays": [
         "2026-05-23",
         "2026-05-22",
-        "2026-05-24"
+        "2026-05-24",
+        "2026-05-25"
       ],
       "conceptTags": [
         "2026-05-21-1923.md",
@@ -10312,21 +10315,22 @@
       "startLine": 16,
       "endLine": 19,
       "source": "memory",
-      "snippet": "Conversation Summary: \"chat_id\": \"user:ou_cb5c7afa7e77cafdeaeae1620a2a383a\", \"message_id\": \"om_x100b6fc17b7e8c68eea81920de3d7cd\", \"reply_to_id\": \"om_x100b6fdff63a3ca8ee8d450536ae34a\", \"sender_id\": \"ou_cb5c7afa7e77cafdeaeae1620a2a383a\",",
+      "snippet": "\"chat_id\": \"user:ou_cb5c7afa7e77cafdeaeae1620a2a383a\", \"message_id\": \"om_x100b6fc17b7e8c68eea81920de3d7cd\", \"reply_to_id\": \"om_x100b6fdff63a3ca8ee8d450536ae34a\", \"sender_id\": \"ou_cb5c7afa7e77cafdeaeae1620a2a383a\",",
       "recallCount": 0,
-      "dailyCount": 2,
+      "dailyCount": 3,
       "groundedCount": 0,
-      "totalScore": 1.24,
+      "totalScore": 1.8599999999999999,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-05-22T19:00:11.007Z",
-      "lastRecalledAt": "2026-05-23T19:00:13.364Z",
+      "lastRecalledAt": "2026-05-24T19:00:18.901Z",
       "queryHashes": [
         "f698e45e49cd"
       ],
       "recallDays": [
         "2026-05-23",
         "2026-05-22",
-        "2026-05-24"
+        "2026-05-24",
+        "2026-05-25"
       ],
       "conceptTags": [
         "2026-05-21-1923.md",
@@ -10336,7 +10340,8 @@
         "sender-id",
         "conversation",
         "summary"
-      ]
+      ],
+      "promotedAt": "2026-05-24T19:00:18.901Z"
     },
     "memory:memory/2026-05-21-1923.md:20:22": {
       "key": "memory:memory/2026-05-21-1923.md:20:22",
@@ -10346,19 +10351,20 @@
       "source": "memory",
       "snippet": "Conversation Summary: \"sender\": \"ou_cb5c7afa7e77cafdeaeae1620a2a383a\", \"timestamp\": \"Thu 2026-05-21 18:47 UTC\", \"has_reply_context\": true",
       "recallCount": 0,
-      "dailyCount": 2,
+      "dailyCount": 3,
       "groundedCount": 0,
-      "totalScore": 1.24,
+      "totalScore": 1.8599999999999999,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-05-22T19:00:11.007Z",
-      "lastRecalledAt": "2026-05-23T19:00:13.364Z",
+      "lastRecalledAt": "2026-05-24T19:00:18.901Z",
       "queryHashes": [
         "f698e45e49cd"
       ],
       "recallDays": [
         "2026-05-23",
         "2026-05-22",
-        "2026-05-24"
+        "2026-05-24",
+        "2026-05-25"
       ],
       "conceptTags": [
         "2026-05-21-1923.md",
@@ -10379,19 +10385,20 @@
       "source": "memory",
       "snippet": "Conversation Summary: Sender (untrusted metadata):",
       "recallCount": 0,
-      "dailyCount": 2,
+      "dailyCount": 3,
       "groundedCount": 0,
-      "totalScore": 1.24,
+      "totalScore": 1.8599999999999999,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-05-22T19:00:11.007Z",
-      "lastRecalledAt": "2026-05-23T19:00:13.364Z",
+      "lastRecalledAt": "2026-05-24T19:00:18.901Z",
       "queryHashes": [
         "f698e45e49cd"
       ],
       "recallDays": [
         "2026-05-23",
         "2026-05-22",
-        "2026-05-24"
+        "2026-05-24",
+        "2026-05-25"
       ],
       "conceptTags": [
         "2026-05-21-1923.md",
@@ -10410,19 +10417,20 @@
       "source": "memory",
       "snippet": "Conversation Summary: \"label\": \"ou_cb5c7afa7e77cafdeaeae1620a2a383a\", \"id\": \"ou_cb5c7afa7e77cafdeaeae1620a2a383a\", \"name\": \"ou_cb5c7afa7e77cafdeaeae1620a2a383a\"",
       "recallCount": 0,
-      "dailyCount": 2,
+      "dailyCount": 3,
       "groundedCount": 0,
-      "totalScore": 1.24,
+      "totalScore": 1.8599999999999999,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-05-22T19:00:11.007Z",
-      "lastRecalledAt": "2026-05-23T19:00:13.364Z",
+      "lastRecalledAt": "2026-05-24T19:00:18.901Z",
       "queryHashes": [
         "f698e45e49cd"
       ],
       "recallDays": [
         "2026-05-23",
         "2026-05-22",
-        "2026-05-24"
+        "2026-05-24",
+        "2026-05-25"
       ],
       "conceptTags": [
         "2026-05-21-1923.md",
@@ -10440,19 +10448,20 @@
       "source": "memory",
       "snippet": "Conversation Summary: Reply target of current user message (untrusted, for context):",
       "recallCount": 0,
-      "dailyCount": 2,
+      "dailyCount": 3,
       "groundedCount": 0,
-      "totalScore": 1.24,
+      "totalScore": 1.8599999999999999,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-05-22T19:00:11.007Z",
-      "lastRecalledAt": "2026-05-23T19:00:13.364Z",
+      "lastRecalledAt": "2026-05-24T19:00:18.901Z",
       "queryHashes": [
         "f698e45e49cd"
       ],
       "recallDays": [
         "2026-05-23",
         "2026-05-22",
-        "2026-05-24"
+        "2026-05-24",
+        "2026-05-25"
       ],
       "conceptTags": [
         "2026-05-21-1923.md",
@@ -10471,21 +10480,22 @@
       "startLine": 38,
       "endLine": 38,
       "source": "memory",
-      "snippet": "Conversation Summary: \"body\": \"⚠️ Cron job \\\"config\\\\-backup\\\\-8am\\\" failed: EmbeddedAttemptSessionTakeoverError: session file changed while embedded prompt lock was released: /home/node/.openclaw/agents/main/sessions/e4936a00\\\\-5ae8\\\\-411e\\\\-b73b\\\\-5f2262f60553.jsonl\"",
+      "snippet": "\"body\": \"⚠️ Cron job \\\"config\\\\-backup\\\\-8am\\\" failed: EmbeddedAttemptSessionTakeoverError: session file changed while embedded prompt lock was released: /home/node/.openclaw/agents/main/sessions/e4936a00\\\\-5ae8\\\\-411e\\\\-b73b\\\\-5f2262f60553.jsonl\"",
       "recallCount": 0,
-      "dailyCount": 2,
+      "dailyCount": 3,
       "groundedCount": 0,
-      "totalScore": 1.24,
+      "totalScore": 1.8599999999999999,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-05-22T19:00:11.007Z",
-      "lastRecalledAt": "2026-05-23T19:00:13.364Z",
+      "lastRecalledAt": "2026-05-24T19:00:18.901Z",
       "queryHashes": [
         "f698e45e49cd"
       ],
       "recallDays": [
         "2026-05-23",
         "2026-05-22",
-        "2026-05-24"
+        "2026-05-24",
+        "2026-05-25"
       ],
       "conceptTags": [
         "backup",
@@ -10496,7 +10506,8 @@
         "summary",
         "body",
         "cron"
-      ]
+      ],
+      "promotedAt": "2026-05-24T19:00:18.901Z"
     },
     "memory:memory/2026-05-21-1923.md:42:43": {
       "key": "memory:memory/2026-05-21-1923.md:42:43",
@@ -10506,19 +10517,20 @@
       "source": "memory",
       "snippet": "Conversation Summary: [message_id: om_x100b6fc17b7e8c68eea81920de3d7cd] ou_cb5c7afa7e77cafdeaeae1620a2a383a: [Replying to: \"⚠️ Cron job \"config\\-backup\\-8am\" failed: EmbeddedAttemptSessionTakeoverError: session file changed while embedded prompt lock was released: /home/node/.ope",
       "recallCount": 0,
-      "dailyCount": 2,
+      "dailyCount": 3,
       "groundedCount": 0,
-      "totalScore": 1.24,
+      "totalScore": 1.8599999999999999,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-05-22T19:00:11.007Z",
-      "lastRecalledAt": "2026-05-23T19:00:13.364Z",
+      "lastRecalledAt": "2026-05-24T19:00:18.901Z",
       "queryHashes": [
         "f698e45e49cd"
       ],
       "recallDays": [
         "2026-05-23",
         "2026-05-22",
-        "2026-05-24"
+        "2026-05-24",
+        "2026-05-25"
       ],
       "conceptTags": [
         "backup",
@@ -10539,19 +10551,20 @@
       "source": "memory",
       "snippet": "Conversation Summary: 请自检这是什么原因 assistant: [assistant turn failed before producing content] assistant: [assistant turn failed before producing content] assistant: [assistant turn failed before producing content]",
       "recallCount": 0,
-      "dailyCount": 2,
+      "dailyCount": 3,
       "groundedCount": 0,
-      "totalScore": 1.24,
+      "totalScore": 1.8599999999999999,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-05-22T19:00:11.007Z",
-      "lastRecalledAt": "2026-05-23T19:00:13.364Z",
+      "lastRecalledAt": "2026-05-24T19:00:18.901Z",
       "queryHashes": [
         "f698e45e49cd"
       ],
       "recallDays": [
         "2026-05-23",
         "2026-05-22",
-        "2026-05-24"
+        "2026-05-24",
+        "2026-05-25"
       ],
       "conceptTags": [
         "2026-05-21-1923.md",
@@ -10572,19 +10585,20 @@
       "source": "memory",
       "snippet": "Conversation Summary: assistant: [assistant turn failed before producing content] user: Conversation info (untrusted metadata):",
       "recallCount": 0,
-      "dailyCount": 2,
+      "dailyCount": 3,
       "groundedCount": 0,
-      "totalScore": 1.24,
+      "totalScore": 1.8599999999999999,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-05-22T19:00:11.007Z",
-      "lastRecalledAt": "2026-05-23T19:00:13.364Z",
+      "lastRecalledAt": "2026-05-24T19:00:18.901Z",
       "queryHashes": [
         "f698e45e49cd"
       ],
       "recallDays": [
         "2026-05-23",
         "2026-05-22",
-        "2026-05-24"
+        "2026-05-24",
+        "2026-05-25"
       ],
       "conceptTags": [
         "2026-05-21-1923.md",
@@ -10603,21 +10617,22 @@
       "startLine": 53,
       "endLine": 56,
       "source": "memory",
-      "snippet": "Conversation Summary: \"chat_id\": \"user:ou_cb5c7afa7e77cafdeaeae1620a2a383a\", \"message_id\": \"om_x100b6fc129c15934ee7b264b81a3a66\", \"reply_to_id\": \"om_x100b6fdff63a3ca8ee8d450536ae34a\", \"sender_id\": \"ou_cb5c7afa7e77cafdeaeae1620a2a383a\",",
+      "snippet": "\"chat_id\": \"user:ou_cb5c7afa7e77cafdeaeae1620a2a383a\", \"message_id\": \"om_x100b6fc129c15934ee7b264b81a3a66\", \"reply_to_id\": \"om_x100b6fdff63a3ca8ee8d450536ae34a\", \"sender_id\": \"ou_cb5c7afa7e77cafdeaeae1620a2a383a\",",
       "recallCount": 0,
-      "dailyCount": 2,
+      "dailyCount": 3,
       "groundedCount": 0,
-      "totalScore": 1.24,
+      "totalScore": 1.8599999999999999,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-05-22T19:00:11.007Z",
-      "lastRecalledAt": "2026-05-23T19:00:13.364Z",
+      "lastRecalledAt": "2026-05-24T19:00:18.901Z",
       "queryHashes": [
         "f698e45e49cd"
       ],
       "recallDays": [
         "2026-05-23",
         "2026-05-22",
-        "2026-05-24"
+        "2026-05-24",
+        "2026-05-25"
       ],
       "conceptTags": [
         "2026-05-21-1923.md",
@@ -10627,7 +10642,8 @@
         "sender-id",
         "conversation",
         "summary"
-      ]
+      ],
+      "promotedAt": "2026-05-24T19:00:18.901Z"
     },
     "memory:memory/2026-05-21-1923.md:57:59": {
       "key": "memory:memory/2026-05-21-1923.md:57:59",
@@ -10637,19 +10653,20 @@
       "source": "memory",
       "snippet": "Conversation Summary: \"sender\": \"ou_cb5c7afa7e77cafdeaeae1620a2a383a\", \"timestamp\": \"Thu 2026-05-21 19:01 UTC\", \"has_reply_context\": true",
       "recallCount": 0,
-      "dailyCount": 2,
+      "dailyCount": 3,
       "groundedCount": 0,
-      "totalScore": 1.24,
+      "totalScore": 1.8599999999999999,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-05-22T19:00:11.007Z",
-      "lastRecalledAt": "2026-05-23T19:00:13.364Z",
+      "lastRecalledAt": "2026-05-24T19:00:18.901Z",
       "queryHashes": [
         "f698e45e49cd"
       ],
       "recallDays": [
         "2026-05-23",
         "2026-05-22",
-        "2026-05-24"
+        "2026-05-24",
+        "2026-05-25"
       ],
       "conceptTags": [
         "2026-05-21-1923.md",
@@ -10670,19 +10687,20 @@
       "source": "memory",
       "snippet": "Conversation Summary: Sender (untrusted metadata):",
       "recallCount": 0,
-      "dailyCount": 2,
+      "dailyCount": 3,
       "groundedCount": 0,
-      "totalScore": 1.24,
+      "totalScore": 1.8599999999999999,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-05-22T19:00:11.007Z",
-      "lastRecalledAt": "2026-05-23T19:00:13.364Z",
+      "lastRecalledAt": "2026-05-24T19:00:18.901Z",
       "queryHashes": [
         "f698e45e49cd"
       ],
       "recallDays": [
         "2026-05-23",
         "2026-05-22",
-        "2026-05-24"
+        "2026-05-24",
+        "2026-05-25"
       ],
       "conceptTags": [
         "2026-05-21-1923.md",
@@ -10701,19 +10719,20 @@
       "source": "memory",
       "snippet": "Conversation Summary: \"label\": \"ou_cb5c7afa7e77cafdeaeae1620a2a383a\", \"id\": \"ou_cb5c7afa7e77cafdeaeae1620a2a383a\", \"name\": \"ou_cb5c7afa7e77cafdeaeae1620a2a383a\"",
       "recallCount": 0,
-      "dailyCount": 2,
+      "dailyCount": 3,
       "groundedCount": 0,
-      "totalScore": 1.24,
+      "totalScore": 1.8599999999999999,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-05-22T19:00:11.007Z",
-      "lastRecalledAt": "2026-05-23T19:00:13.364Z",
+      "lastRecalledAt": "2026-05-24T19:00:18.901Z",
       "queryHashes": [
         "f698e45e49cd"
       ],
       "recallDays": [
         "2026-05-23",
         "2026-05-22",
-        "2026-05-24"
+        "2026-05-24",
+        "2026-05-25"
       ],
       "conceptTags": [
         "2026-05-21-1923.md",
@@ -10731,19 +10750,20 @@
       "source": "memory",
       "snippet": "Conversation Summary: Reply target of current user message (untrusted, for context):",
       "recallCount": 0,
-      "dailyCount": 2,
+      "dailyCount": 3,
       "groundedCount": 0,
-      "totalScore": 1.24,
+      "totalScore": 1.8599999999999999,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-05-22T19:00:11.007Z",
-      "lastRecalledAt": "2026-05-23T19:00:13.364Z",
+      "lastRecalledAt": "2026-05-24T19:00:18.901Z",
       "queryHashes": [
         "f698e45e49cd"
       ],
       "recallDays": [
         "2026-05-23",
         "2026-05-22",
-        "2026-05-24"
+        "2026-05-24",
+        "2026-05-25"
       ],
       "conceptTags": [
         "2026-05-21-1923.md",
@@ -10764,19 +10784,20 @@
       "source": "memory",
       "snippet": "Conversation Summary: \"body\": \"⚠️ Cron job \\\"config\\\\-backup\\\\-8am\\\" failed: EmbeddedAttemptSessionTakeoverError: session file changed while embedded prompt lock was released: /home/node/.openclaw/agents/main/sessions/e4936a00\\\\-5ae8\\\\-411e\\\\-b73b\\\\-5f2262f60553.jsonl\"",
       "recallCount": 0,
-      "dailyCount": 2,
+      "dailyCount": 3,
       "groundedCount": 0,
-      "totalScore": 1.24,
+      "totalScore": 1.8599999999999999,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-05-22T19:00:11.007Z",
-      "lastRecalledAt": "2026-05-23T19:00:13.364Z",
+      "lastRecalledAt": "2026-05-24T19:00:18.901Z",
       "queryHashes": [
         "f698e45e49cd"
       ],
       "recallDays": [
         "2026-05-23",
         "2026-05-22",
-        "2026-05-24"
+        "2026-05-24",
+        "2026-05-25"
       ],
       "conceptTags": [
         "backup",
@@ -10797,19 +10818,20 @@
       "source": "memory",
       "snippet": "Conversation Summary: [message_id: om_x100b6fc129c15934ee7b264b81a3a66] ou_cb5c7afa7e77cafdeaeae1620a2a383a: [Replying to: \"⚠️ Cron job \"config\\-backup\\-8am\" failed: EmbeddedAttemptSessionTakeoverError: session file changed while embedded prompt lock was released: /home/node/.ope",
       "recallCount": 0,
-      "dailyCount": 2,
+      "dailyCount": 3,
       "groundedCount": 0,
-      "totalScore": 1.24,
+      "totalScore": 1.8599999999999999,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-05-22T19:00:11.007Z",
-      "lastRecalledAt": "2026-05-23T19:00:13.364Z",
+      "lastRecalledAt": "2026-05-24T19:00:18.901Z",
       "queryHashes": [
         "f698e45e49cd"
       ],
       "recallDays": [
         "2026-05-23",
         "2026-05-22",
-        "2026-05-24"
+        "2026-05-24",
+        "2026-05-25"
       ],
       "conceptTags": [
         "backup",
@@ -10830,19 +10852,20 @@
       "source": "memory",
       "snippet": "Conversation Summary: 检查这里为何失败 assistant: [assistant turn failed before producing content] assistant: [assistant turn failed before producing content] assistant: [assistant turn failed before producing content]",
       "recallCount": 0,
-      "dailyCount": 2,
+      "dailyCount": 3,
       "groundedCount": 0,
-      "totalScore": 1.24,
+      "totalScore": 1.8599999999999999,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-05-22T19:00:11.007Z",
-      "lastRecalledAt": "2026-05-23T19:00:13.364Z",
+      "lastRecalledAt": "2026-05-24T19:00:18.901Z",
       "queryHashes": [
         "f698e45e49cd"
       ],
       "recallDays": [
         "2026-05-23",
         "2026-05-22",
-        "2026-05-24"
+        "2026-05-24",
+        "2026-05-25"
       ],
       "conceptTags": [
         "2026-05-21-1923.md",
@@ -10863,19 +10886,20 @@
       "source": "memory",
       "snippet": "Conversation Summary: assistant: [assistant turn failed before producing content] user: Conversation info (untrusted metadata):",
       "recallCount": 0,
-      "dailyCount": 2,
+      "dailyCount": 3,
       "groundedCount": 0,
-      "totalScore": 1.24,
+      "totalScore": 1.8599999999999999,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-05-22T19:00:11.007Z",
-      "lastRecalledAt": "2026-05-23T19:00:13.364Z",
+      "lastRecalledAt": "2026-05-24T19:00:18.901Z",
       "queryHashes": [
         "f698e45e49cd"
       ],
       "recallDays": [
         "2026-05-23",
         "2026-05-22",
-        "2026-05-24"
+        "2026-05-24",
+        "2026-05-25"
       ],
       "conceptTags": [
         "2026-05-21-1923.md",
@@ -10896,19 +10920,20 @@
       "source": "memory",
       "snippet": "Conversation Summary: \"chat_id\": \"user:ou_cb5c7afa7e77cafdeaeae1620a2a383a\", \"message_id\": \"om_x100b6fc1ec9af0a0ee8b2e813a36bad\", \"sender_id\": \"ou_cb5c7afa7e77cafdeaeae1620a2a383a\", \"sender\": \"ou_cb5c7afa7e77cafdeaeae1620a2a383a\",",
       "recallCount": 0,
-      "dailyCount": 2,
+      "dailyCount": 3,
       "groundedCount": 0,
-      "totalScore": 1.24,
+      "totalScore": 1.8599999999999999,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-05-22T19:00:11.007Z",
-      "lastRecalledAt": "2026-05-23T19:00:13.364Z",
+      "lastRecalledAt": "2026-05-24T19:00:18.901Z",
       "queryHashes": [
         "f698e45e49cd"
       ],
       "recallDays": [
         "2026-05-23",
         "2026-05-22",
-        "2026-05-24"
+        "2026-05-24",
+        "2026-05-25"
       ],
       "conceptTags": [
         "2026-05-21-1923.md",
@@ -10928,19 +10953,20 @@
       "source": "memory",
       "snippet": "Conversation Summary: \"timestamp\": \"Thu 2026-05-21 19:16 UTC\"",
       "recallCount": 0,
-      "dailyCount": 2,
+      "dailyCount": 3,
       "groundedCount": 0,
-      "totalScore": 1.24,
+      "totalScore": 1.8599999999999999,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-05-22T19:00:11.007Z",
-      "lastRecalledAt": "2026-05-23T19:00:13.364Z",
+      "lastRecalledAt": "2026-05-24T19:00:18.901Z",
       "queryHashes": [
         "f698e45e49cd"
       ],
       "recallDays": [
         "2026-05-23",
         "2026-05-22",
-        "2026-05-24"
+        "2026-05-24",
+        "2026-05-25"
       ],
       "conceptTags": [
         "2026-05-21-1923.md",
@@ -10959,19 +10985,20 @@
       "source": "memory",
       "snippet": "Conversation Summary: Sender (untrusted metadata):",
       "recallCount": 0,
-      "dailyCount": 2,
+      "dailyCount": 3,
       "groundedCount": 0,
-      "totalScore": 1.24,
+      "totalScore": 1.8599999999999999,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-05-22T19:00:11.007Z",
-      "lastRecalledAt": "2026-05-23T19:00:13.364Z",
+      "lastRecalledAt": "2026-05-24T19:00:18.901Z",
       "queryHashes": [
         "f698e45e49cd"
       ],
       "recallDays": [
         "2026-05-23",
         "2026-05-22",
-        "2026-05-24"
+        "2026-05-24",
+        "2026-05-25"
       ],
       "conceptTags": [
         "2026-05-21-1923.md",
@@ -10990,19 +11017,20 @@
       "source": "memory",
       "snippet": "Conversation Summary: \"label\": \"ou_cb5c7afa7e77cafdeaeae1620a2a383a\", \"id\": \"ou_cb5c7afa7e77cafdeaeae1620a2a383a\", \"name\": \"ou_cb5c7afa7e77cafdeaeae1620a2a383a\"",
       "recallCount": 0,
-      "dailyCount": 2,
+      "dailyCount": 3,
       "groundedCount": 0,
-      "totalScore": 1.24,
+      "totalScore": 1.8599999999999999,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-05-22T19:00:11.007Z",
-      "lastRecalledAt": "2026-05-23T19:00:13.364Z",
+      "lastRecalledAt": "2026-05-24T19:00:18.901Z",
       "queryHashes": [
         "f698e45e49cd"
       ],
       "recallDays": [
         "2026-05-23",
         "2026-05-22",
-        "2026-05-24"
+        "2026-05-24",
+        "2026-05-25"
       ],
       "conceptTags": [
         "2026-05-21-1923.md",
@@ -11020,19 +11048,20 @@
       "source": "memory",
       "snippet": "Conversation Summary: [message_id: om_x100b6fc1ec9af0a0ee8b2e813a36bad] ou_cb5c7afa7e77cafdeaeae1620a2a383a: 什么情况",
       "recallCount": 0,
-      "dailyCount": 2,
+      "dailyCount": 3,
       "groundedCount": 0,
-      "totalScore": 1.24,
+      "totalScore": 1.8599999999999999,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-05-22T19:00:11.007Z",
-      "lastRecalledAt": "2026-05-23T19:00:13.364Z",
+      "lastRecalledAt": "2026-05-24T19:00:18.901Z",
       "queryHashes": [
         "f698e45e49cd"
       ],
       "recallDays": [
         "2026-05-23",
         "2026-05-22",
-        "2026-05-24"
+        "2026-05-24",
+        "2026-05-25"
       ],
       "conceptTags": [
         "2026-05-21-1923.md",
@@ -11955,6 +11984,588 @@
         "分钟",
         "修改",
         "已经"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-24.txt:1:1": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-24.txt:1:1",
+      "path": "memory/.dreams/session-corpus/2026-05-24.txt",
+      "startLine": 1,
+      "endLine": 1,
+      "source": "memory",
+      "snippet": "User: [message_id: om_x100b6e1382b680a4ee7594eba8683e2] ou_cb5c7afa7e77cafdeaeae1620a2a383a: 现在如何装ssh，gh cli又该如何装",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-24T19:00:18.901Z",
+      "lastRecalledAt": "2026-05-24T19:00:18.901Z",
+      "queryHashes": [
+        "c27113cc41fb"
+      ],
+      "recallDays": [
+        "2026-05-25",
+        "2026-05-24"
+      ],
+      "conceptTags": [
+        "message-id",
+        "现在",
+        "如何",
+        "ssh",
+        "cli"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-24.txt:2:2": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-24.txt:2:2",
+      "path": "memory/.dreams/session-corpus/2026-05-24.txt",
+      "startLine": 2,
+      "endLine": 2,
+      "source": "memory",
+      "snippet": "Assistant: Debian 12，ssh 和 gh",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-24T19:00:18.901Z",
+      "lastRecalledAt": "2026-05-24T19:00:18.901Z",
+      "queryHashes": [
+        "c27113cc41fb"
+      ],
+      "recallDays": [
+        "2026-05-25",
+        "2026-05-24"
+      ],
+      "conceptTags": [
+        "debian",
+        "ssh"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-24.txt:3:3": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-24.txt:3:3",
+      "path": "memory/.dreams/session-corpus/2026-05-24.txt",
+      "startLine": 3,
+      "endLine": 3,
+      "source": "memory",
+      "snippet": "Assistant: ⚙️ **环境检查结果** 当前在 Debian 12 Docker 容器内，运行用户 `node`（非 root），无 sudo/doas： | 工具 | 状态 | |------|------| | SSH (openssh-client) | ❌ 未安装 | | gh CLI | ❌ 未安装 | | apt | ❌ 无 root 权限安装 | --- **方案：不依赖 root 的安装方式** **1️⃣ SSH 客户端** — 用 Node.js 内置的 `node:net` 模块即可，无需系统包 ```bash # 如果需",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-24T19:00:18.901Z",
+      "lastRecalledAt": "2026-05-24T19:00:18.901Z",
+      "queryHashes": [
+        "c27113cc41fb"
+      ],
+      "recallDays": [
+        "2026-05-25",
+        "2026-05-24"
+      ],
+      "conceptTags": [
+        "sudo/doas",
+        "openssh-client",
+        "node.js",
+        "环境",
+        "检查",
+        "结果",
+        "当前",
+        "debian"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-24.txt:4:4": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-24.txt:4:4",
+      "path": "memory/.dreams/session-corpus/2026-05-24.txt",
+      "startLine": 4,
+      "endLine": 4,
+      "source": "memory",
+      "snippet": "Assistant: 老大你具体是想在这个容器环境里做什么？如果是： - **远程 SSH 连到别的机器** → 直接在宿主机上跑 ssh 即可，容器不需要装 - **容器内需要 gh CLI 操作 GitHub** → 我帮你一键下载配置好 - **要加固/管理这台机器** → 需要先搞到 root 或走 OpenClaw gateway 说具体场景，我直接帮你搞定。",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-24T19:00:18.901Z",
+      "lastRecalledAt": "2026-05-24T19:00:18.901Z",
+      "queryHashes": [
+        "c27113cc41fb"
+      ],
+      "recallDays": [
+        "2026-05-25",
+        "2026-05-24"
+      ],
+      "conceptTags": [
+        "gateway",
+        "要加固/管理这台机器",
+        "老大",
+        "具体",
+        "想在",
+        "这个",
+        "容器",
+        "环境"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-24.txt:5:5": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-24.txt:5:5",
+      "path": "memory/.dreams/session-corpus/2026-05-24.txt",
+      "startLine": 5,
+      "endLine": 5,
+      "source": "memory",
+      "snippet": "User: [message_id: om_x100b6e13b8d1eca0ee7c94c4a99d251] ou_cb5c7afa7e77cafdeaeae1620a2a383a: 我要用我的 openclaw（容器）自动执行GitHub备份任务",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-24T19:00:18.901Z",
+      "lastRecalledAt": "2026-05-24T19:00:18.901Z",
+      "queryHashes": [
+        "c27113cc41fb"
+      ],
+      "recallDays": [
+        "2026-05-25",
+        "2026-05-24"
+      ],
+      "conceptTags": [
+        "备份",
+        "message-id",
+        "我要",
+        "我的",
+        "openclaw",
+        "容器",
+        "自动",
+        "执行"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-24.txt:6:6": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-24.txt:6:6",
+      "path": "memory/.dreams/session-corpus/2026-05-24.txt",
+      "startLine": 6,
+      "endLine": 6,
+      "source": "memory",
+      "snippet": "Assistant: 明白，老大要直接用这个容器环境来自动备份到 GitHub。那 SSH 和 gh 都要装。试试走 gateway",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-24T19:00:18.901Z",
+      "lastRecalledAt": "2026-05-24T19:00:18.901Z",
+      "queryHashes": [
+        "c27113cc41fb"
+      ],
+      "recallDays": [
+        "2026-05-25",
+        "2026-05-24"
+      ],
+      "conceptTags": [
+        "gateway",
+        "备份",
+        "明白",
+        "老大",
+        "直接",
+        "这个",
+        "容器",
+        "环境"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-24.txt:7:7": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-24.txt:7:7",
+      "path": "memory/.dreams/session-corpus/2026-05-24.txt",
+      "startLine": 7,
+      "endLine": 7,
+      "source": "memory",
+      "snippet": "Assistant: Git 已装，就差 SSH 和 gh。无 root，走静态",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-24T19:00:18.901Z",
+      "lastRecalledAt": "2026-05-24T19:00:18.901Z",
+      "queryHashes": [
+        "c27113cc41fb"
+      ],
+      "recallDays": [
+        "2026-05-25",
+        "2026-05-24"
+      ],
+      "conceptTags": [
+        "git",
+        "ssh",
+        "root",
+        "静态"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-24.txt:8:8": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-24.txt:8:8",
+      "path": "memory/.dreams/session-corpus/2026-05-24.txt",
+      "startLine": 8,
+      "endLine": 8,
+      "source": "memory",
+      "snippet": "Assistant: gh 装好了，SSH 静态下载",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-24T19:00:18.901Z",
+      "lastRecalledAt": "2026-05-24T19:00:18.901Z",
+      "queryHashes": [
+        "c27113cc41fb"
+      ],
+      "recallDays": [
+        "2026-05-25",
+        "2026-05-24"
+      ],
+      "conceptTags": [
+        "好了",
+        "ssh",
+        "静态",
+        "下载"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-24.txt:9:9": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-24.txt:9:9",
+      "path": "memory/.dreams/session-corpus/2026-05-24.txt",
+      "startLine": 9,
+      "endLine": 9,
+      "source": "memory",
+      "snippet": "Assistant: gh 已就绪。SSH 从 Debian 包提取",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-24T19:00:18.901Z",
+      "lastRecalledAt": "2026-05-24T19:00:18.901Z",
+      "queryHashes": [
+        "c27113cc41fb"
+      ],
+      "recallDays": [
+        "2026-05-25",
+        "2026-05-24"
+      ],
+      "conceptTags": [
+        "就绪",
+        "ssh",
+        "debian",
+        "提取"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-24.txt:10:10": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-24.txt:10:10",
+      "path": "memory/.dreams/session-corpus/2026-05-24.txt",
+      "startLine": 10,
+      "endLine": 10,
+      "source": "memory",
+      "snippet": "Assistant: curl 已带 `libssh2`，git 走 HTTPS 完全没问题。先确认下 `openssh-client` 的正确包名",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-24T19:00:18.901Z",
+      "lastRecalledAt": "2026-05-24T19:00:18.901Z",
+      "queryHashes": [
+        "c27113cc41fb"
+      ],
+      "recallDays": [
+        "2026-05-25",
+        "2026-05-24"
+      ],
+      "conceptTags": [
+        "openssh-client",
+        "curl",
+        "libssh2",
+        "git",
+        "https",
+        "完全",
+        "问题",
+        "确认"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-24.txt:11:11": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-24.txt:11:11",
+      "path": "memory/.dreams/session-corpus/2026-05-24.txt",
+      "startLine": 11,
+      "endLine": 11,
+      "source": "memory",
+      "snippet": "Assistant: 📦 **当前状态确认** | 工具 | 状态 | 备注 | |------|------|------| | **gh CLI** | ✅ 已装 `~/.local/bin/gh` | `v2.67.0` | | **Git** | ✅ 已装 `2.39.5` | 通过 libssh2 直接支持 SSH 协议 | | **SSH 命令** | ❌ 未装 | 但 **git 不需要外部 ssh 命令也能走 SSH 协议** | | **PATH** | 已配置 | 加到 `~/.bashrc` | --- **好消息**：Git 内",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-24T19:00:18.901Z",
+      "lastRecalledAt": "2026-05-24T19:00:18.901Z",
+      "queryHashes": [
+        "c27113cc41fb"
+      ],
+      "recallDays": [
+        "2026-05-25",
+        "2026-05-24"
+      ],
+      "conceptTags": [
+        "local/bin/gh",
+        "v2.67.0",
+        "2.39.5",
+        "当前",
+        "状态",
+        "确认",
+        "工具",
+        "备注"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-24.txt:12:12": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-24.txt:12:12",
+      "path": "memory/.dreams/session-corpus/2026-05-24.txt",
+      "startLine": 12,
+      "endLine": 12,
+      "source": "memory",
+      "snippet": "Assistant: git clone git@github.com:your/repo.git # 6. 写备份脚本 ``` **备份脚本模板**（我帮你写好）： ```bash #!/bin/bash REPOS=(\"owner/repo1\" \"owner/repo2\") BACKUP_DIR=\"$HOME/backups\" DATE=$(date +%Y%m%d) mkdir -p \"$BACKUP_DIR\" for repo in \"${REPOS[@]}\"; do name=$(echo \"$repo\" | tr '/' '_') git c",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-24T19:00:18.901Z",
+      "lastRecalledAt": "2026-05-24T19:00:18.901Z",
+      "queryHashes": [
+        "c27113cc41fb"
+      ],
+      "recallDays": [
+        "2026-05-25",
+        "2026-05-24"
+      ],
+      "conceptTags": [
+        "backup",
+        "backups",
+        "备份",
+        "github.com",
+        "your/repo.git",
+        "bin/bash",
+        "owner/repo1",
+        "owner/repo2"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-24.txt:13:13": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-24.txt:13:13",
+      "path": "memory/.dreams/session-corpus/2026-05-24.txt",
+      "startLine": 13,
+      "endLine": 13,
+      "source": "memory",
+      "snippet": "User: [message_id: om_x100b6e11af6880a0ee73bea6a1aad22] ou_cb5c7afa7e77cafdeaeae1620a2a383a: [Replying to: \"⚠️ Cron job \"daily\\-backup\" failed: EmbeddedAttemptSessionTakeoverError: session file changed while embedded prompt lock was released: /home/node/.openclaw/agents/main/sess",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-24T19:00:18.901Z",
+      "lastRecalledAt": "2026-05-24T19:00:18.901Z",
+      "queryHashes": [
+        "c27113cc41fb"
+      ],
+      "recallDays": [
+        "2026-05-25",
+        "2026-05-24"
+      ],
+      "conceptTags": [
+        "backup",
+        "message-id",
+        "home/node",
+        "openclaw/agents/main/sess",
+        "replying",
+        "cron",
+        "job",
+        "failed"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-24.txt:14:14": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-24.txt:14:14",
+      "path": "memory/.dreams/session-corpus/2026-05-24.txt",
+      "startLine": 14,
+      "endLine": 14,
+      "source": "memory",
+      "snippet": "Assistant: 老大，这个错误拆开看其实是两层： --- ### 1️⃣ 表面错误：`EmbeddedAttemptSessionTakeoverError` 这是 OpenClaw 内部的一个**竞态错误**。意思是： > cron 任务在运行过程中，临时释放了 session 文件的写入锁，等它想重新上锁时，发现文件被别人改了——于是认为 session 被\"接管\"了，直接中止。 看日志可以看到触发链： ``` 首次模型调用失败 (overloaded_error) → 重试 → 锁释放/重获 → 重获后发现文件被 git add 改了 → 报",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-24T19:00:18.901Z",
+      "lastRecalledAt": "2026-05-24T19:00:18.901Z",
+      "queryHashes": [
+        "c27113cc41fb"
+      ],
+      "recallDays": [
+        "2026-05-25",
+        "2026-05-24"
+      ],
+      "conceptTags": [
+        "overloaded-error",
+        "锁释放/重获",
+        "老大",
+        "这个",
+        "错误",
+        "拆开",
+        "其实是",
+        "表面"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-24.txt:15:15": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-24.txt:15:15",
+      "path": "memory/.dreams/session-corpus/2026-05-24.txt",
+      "startLine": 15,
+      "endLine": 15,
+      "source": "memory",
+      "snippet": "Assistant: `openssh-client`** — 需要帮 `main` agent 开 elevated 权限 2. **配 GitHub Token** — 加到 `.netrc` 或环境变量，切 HTTPS 推 3. **装 `gh` CLI + auth** — 一键搞定 SSH 免密",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-24T19:00:18.901Z",
+      "lastRecalledAt": "2026-05-24T19:00:18.901Z",
+      "queryHashes": [
+        "c27113cc41fb"
+      ],
+      "recallDays": [
+        "2026-05-25",
+        "2026-05-24"
+      ],
+      "conceptTags": [
+        "openssh-client",
+        "openssh",
+        "client",
+        "需要",
+        "elevated",
+        "权限",
+        "github",
+        "token"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-24.txt:16:16": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-24.txt:16:16",
+      "path": "memory/.dreams/session-corpus/2026-05-24.txt",
+      "startLine": 16,
+      "endLine": 16,
+      "source": "memory",
+      "snippet": "User: [message_id: om_x100b6e1c725b0ca0ee762183c790bb0] ou_cb5c7afa7e77cafdeaeae1620a2a383a: 不用了，我有GitHub token",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-24T19:00:18.901Z",
+      "lastRecalledAt": "2026-05-24T19:00:18.901Z",
+      "queryHashes": [
+        "c27113cc41fb"
+      ],
+      "recallDays": [
+        "2026-05-25",
+        "2026-05-24"
+      ],
+      "conceptTags": [
+        "message-id",
+        "不用",
+        "我有",
+        "github",
+        "token"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-24.txt:17:17": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-24.txt:17:17",
+      "path": "memory/.dreams/session-corpus/2026-05-24.txt",
+      "startLine": 17,
+      "endLine": 17,
+      "source": "memory",
+      "snippet": "Assistant: 脚本已写好。但更方便的是：你把 token 发给我，我直接帮你配置（确保安全不泄露）： ```bash # 一句话搞定 echo \"$GITHUB_TOKEN\" | gh auth login --with-token ``` 把 token 发过来，或你自己在飞书里贴过来，我帮你跑完。",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-24T19:00:18.901Z",
+      "lastRecalledAt": "2026-05-24T19:00:18.901Z",
+      "queryHashes": [
+        "c27113cc41fb"
+      ],
+      "recallDays": [
+        "2026-05-25",
+        "2026-05-24"
+      ],
+      "conceptTags": [
+        "github-token",
+        "with-token",
+        "脚本",
+        "方便",
+        "的是",
+        "token",
+        "直接",
+        "配置"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-24.txt:18:18": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-24.txt:18:18",
+      "path": "memory/.dreams/session-corpus/2026-05-24.txt",
+      "startLine": 18,
+      "endLine": 18,
+      "source": "memory",
+      "snippet": "User: [message_id: om_x100b6e1c732df0a0ee709e37f7ea82e] ou_cb5c7afa7e77cafdeaeae1620a2a383a: 需要你测试一下现在你能push了不",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-24T19:00:18.901Z",
+      "lastRecalledAt": "2026-05-24T19:00:18.901Z",
+      "queryHashes": [
+        "c27113cc41fb"
+      ],
+      "recallDays": [
+        "2026-05-25",
+        "2026-05-24"
+      ],
+      "conceptTags": [
+        "message-id",
+        "需要",
+        "测试",
+        "一下",
+        "现在",
+        "push"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-24.txt:19:19": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-24.txt:19:19",
+      "path": "memory/.dreams/session-corpus/2026-05-24.txt",
+      "startLine": 19,
+      "endLine": 19,
+      "source": "memory",
+      "snippet": "Assistant: 还没配置 token 呢，gh 显示未登录。 老大，你把 GitHub token 发过来（直接贴消息就行），我帮你配置好然后测试 push。",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-24T19:00:18.901Z",
+      "lastRecalledAt": "2026-05-24T19:00:18.901Z",
+      "queryHashes": [
+        "c27113cc41fb"
+      ],
+      "recallDays": [
+        "2026-05-25",
+        "2026-05-24"
+      ],
+      "conceptTags": [
+        "配置",
+        "token",
+        "显示",
+        "登录",
+        "老大",
+        "github",
+        "过来",
+        "直接"
       ]
     }
   }
