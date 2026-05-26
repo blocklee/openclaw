@@ -1,7 +1,7 @@
 {
   "meta": {
     "lastTouchedVersion": "2026.5.19",
-    "lastTouchedAt": "2026-05-23T10:19:20.549Z"
+    "lastTouchedAt": "2026-05-25T12:31:11.872Z"
   },
   "env": {
     "OPENROUTER_API_KEY": "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",
@@ -266,7 +266,7 @@
   "agents": {
     "defaults": {
       "model": {
-        "primary": "minimax/MiniMax-M2.7",
+        "primary": "minimax-portal/MiniMax-M2.7",
         "fallbacks": [
           "nvidia/deepseek-ai/deepseek-v4-pro",
           "nvidia/deepseek-ai/deepseek-v4-flash",
@@ -316,8 +316,19 @@
         "mode": "default",
         "reserveTokensFloor": 30000
       },
+      "timeoutSeconds": 1800,
       "blockStreamingDefault": "on",
       "blockStreamingBreak": "text_end",
+      "blockStreamingChunk": {
+        "minChars": 800,
+        "maxChars": 1200
+      },
+      "blockStreamingCoalesce": {
+        "idleMs": 1000
+      },
+      "humanDelay": {
+        "mode": "natural"
+      },
       "subagents": {
         "maxSpawnDepth": 2,
         "maxChildrenPerAgent": 4,
@@ -450,7 +461,19 @@
     }
   ],
   "messages": {
-    "ackReactionScope": "group-mentions"
+    "responsePrefix": "auto",
+    "ackReaction": "👀",
+    "removeAckAfterReply": false,
+    "ackReactionScope": "group-mentions",
+    "queue": {
+      "mode": "steer",
+      "debounceMs": 500,
+      "cap": 20,
+      "drop": "summarize"
+    },
+    "inbound": {
+      "debounceMs": 1500
+    }
   },
   "commands": {
     "native": "auto",
@@ -638,10 +661,10 @@
         "enabled": false
       },
       "model-usage": {
-        "enabled": false
+        "enabled": true
       },
       "nano-pdf": {
-        "enabled": false
+        "enabled": true
       },
       "obsidian": {
         "enabled": false
@@ -668,7 +691,7 @@
         "enabled": false
       },
       "session-logs": {
-        "enabled": false
+        "enabled": true
       },
       "sherpa-onnx-tts": {
         "enabled": false
@@ -707,7 +730,7 @@
         "enabled": false
       },
       "summarize": {
-        "enabled": false
+        "enabled": true
       },
       "doc-summarize-pro": {
         "enabled": true

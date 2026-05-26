@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-05-24T19:00:18.901Z",
+  "updatedAt": "2026-05-25T19:00:21.465Z",
   "entries": {
     "memory:memory/.dreams/session-corpus/2026-04-11.txt:1:1": {
       "key": "memory:memory/.dreams/session-corpus/2026-04-11.txt:1:1",
@@ -10218,12 +10218,12 @@
       "source": "memory",
       "snippet": "Session: 2026-05-21 19:23:49 UTC: **Session Key**: agent:lucus:feishu:lucus:direct:ou_cb5c7afa7e77cafdeaeae1620a2a383a; **Session ID**: 4af9be2f-0106-4f73-b81d-699b0357495e; **Source**: feishu",
       "recallCount": 0,
-      "dailyCount": 3,
+      "dailyCount": 4,
       "groundedCount": 0,
-      "totalScore": 1.8599999999999999,
+      "totalScore": 2.48,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-05-22T19:00:11.007Z",
-      "lastRecalledAt": "2026-05-24T19:00:18.901Z",
+      "lastRecalledAt": "2026-05-25T19:00:21.465Z",
       "queryHashes": [
         "f698e45e49cd"
       ],
@@ -10231,7 +10231,8 @@
         "2026-05-23",
         "2026-05-22",
         "2026-05-24",
-        "2026-05-25"
+        "2026-05-25",
+        "2026-05-26"
       ],
       "conceptTags": [
         "2026-05-21-1923.md",
@@ -10250,14 +10251,14 @@
       "startLine": 9,
       "endLine": 12,
       "source": "memory",
-      "snippet": "Conversation Summary: assistant: [assistant turn failed before producing content] assistant: [assistant turn failed before producing content] assistant: [assistant turn failed before producing content] assistant: [assistant turn failed before producing content]",
+      "snippet": "assistant: [assistant turn failed before producing content] assistant: [assistant turn failed before producing content] assistant: [assistant turn failed before producing content] assistant: [assistant turn failed before producing content]",
       "recallCount": 0,
-      "dailyCount": 3,
+      "dailyCount": 4,
       "groundedCount": 0,
-      "totalScore": 1.8599999999999999,
+      "totalScore": 2.48,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-05-22T19:00:11.007Z",
-      "lastRecalledAt": "2026-05-24T19:00:18.901Z",
+      "lastRecalledAt": "2026-05-25T19:00:21.465Z",
       "queryHashes": [
         "f698e45e49cd"
       ],
@@ -10265,7 +10266,8 @@
         "2026-05-23",
         "2026-05-22",
         "2026-05-24",
-        "2026-05-25"
+        "2026-05-25",
+        "2026-05-26"
       ],
       "conceptTags": [
         "2026-05-21-1923.md",
@@ -10275,7 +10277,8 @@
         "failed",
         "producing",
         "content"
-      ]
+      ],
+      "promotedAt": "2026-05-25T19:00:21.465Z"
     },
     "memory:memory/2026-05-21-1923.md:13:13": {
       "key": "memory:memory/2026-05-21-1923.md:13:13",
@@ -10283,14 +10286,14 @@
       "startLine": 13,
       "endLine": 13,
       "source": "memory",
-      "snippet": "Conversation Summary: user: Conversation info (untrusted metadata):",
+      "snippet": "user: Conversation info (untrusted metadata):",
       "recallCount": 0,
-      "dailyCount": 3,
+      "dailyCount": 4,
       "groundedCount": 0,
-      "totalScore": 1.8599999999999999,
+      "totalScore": 2.48,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-05-22T19:00:11.007Z",
-      "lastRecalledAt": "2026-05-24T19:00:18.901Z",
+      "lastRecalledAt": "2026-05-25T19:00:21.465Z",
       "queryHashes": [
         "f698e45e49cd"
       ],
@@ -10298,7 +10301,8 @@
         "2026-05-23",
         "2026-05-22",
         "2026-05-24",
-        "2026-05-25"
+        "2026-05-25",
+        "2026-05-26"
       ],
       "conceptTags": [
         "2026-05-21-1923.md",
@@ -10307,7 +10311,8 @@
         "info",
         "untrusted",
         "metadata"
-      ]
+      ],
+      "promotedAt": "2026-05-25T19:00:21.465Z"
     },
     "memory:memory/2026-05-21-1923.md:16:19": {
       "key": "memory:memory/2026-05-21-1923.md:16:19",
@@ -10315,14 +10320,14 @@
       "startLine": 16,
       "endLine": 19,
       "source": "memory",
-      "snippet": "\"chat_id\": \"user:ou_cb5c7afa7e77cafdeaeae1620a2a383a\", \"message_id\": \"om_x100b6fc17b7e8c68eea81920de3d7cd\", \"reply_to_id\": \"om_x100b6fdff63a3ca8ee8d450536ae34a\", \"sender_id\": \"ou_cb5c7afa7e77cafdeaeae1620a2a383a\",",
+      "snippet": "Conversation Summary: \"chat_id\": \"user:ou_cb5c7afa7e77cafdeaeae1620a2a383a\", \"message_id\": \"om_x100b6fc17b7e8c68eea81920de3d7cd\", \"reply_to_id\": \"om_x100b6fdff63a3ca8ee8d450536ae34a\", \"sender_id\": \"ou_cb5c7afa7e77cafdeaeae1620a2a383a\",",
       "recallCount": 0,
-      "dailyCount": 3,
+      "dailyCount": 4,
       "groundedCount": 0,
-      "totalScore": 1.8599999999999999,
+      "totalScore": 2.48,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-05-22T19:00:11.007Z",
-      "lastRecalledAt": "2026-05-24T19:00:18.901Z",
+      "lastRecalledAt": "2026-05-25T19:00:21.465Z",
       "queryHashes": [
         "f698e45e49cd"
       ],
@@ -10330,7 +10335,8 @@
         "2026-05-23",
         "2026-05-22",
         "2026-05-24",
-        "2026-05-25"
+        "2026-05-25",
+        "2026-05-26"
       ],
       "conceptTags": [
         "2026-05-21-1923.md",
@@ -10349,14 +10355,14 @@
       "startLine": 20,
       "endLine": 22,
       "source": "memory",
-      "snippet": "Conversation Summary: \"sender\": \"ou_cb5c7afa7e77cafdeaeae1620a2a383a\", \"timestamp\": \"Thu 2026-05-21 18:47 UTC\", \"has_reply_context\": true",
+      "snippet": "\"sender\": \"ou_cb5c7afa7e77cafdeaeae1620a2a383a\", \"timestamp\": \"Thu 2026-05-21 18:47 UTC\", \"has_reply_context\": true",
       "recallCount": 0,
-      "dailyCount": 3,
+      "dailyCount": 4,
       "groundedCount": 0,
-      "totalScore": 1.8599999999999999,
+      "totalScore": 2.48,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-05-22T19:00:11.007Z",
-      "lastRecalledAt": "2026-05-24T19:00:18.901Z",
+      "lastRecalledAt": "2026-05-25T19:00:21.465Z",
       "queryHashes": [
         "f698e45e49cd"
       ],
@@ -10364,7 +10370,8 @@
         "2026-05-23",
         "2026-05-22",
         "2026-05-24",
-        "2026-05-25"
+        "2026-05-25",
+        "2026-05-26"
       ],
       "conceptTags": [
         "2026-05-21-1923.md",
@@ -10375,7 +10382,8 @@
         "timestamp",
         "thu",
         "utc"
-      ]
+      ],
+      "promotedAt": "2026-05-25T19:00:21.465Z"
     },
     "memory:memory/2026-05-21-1923.md:26:26": {
       "key": "memory:memory/2026-05-21-1923.md:26:26",
@@ -10383,14 +10391,14 @@
       "startLine": 26,
       "endLine": 26,
       "source": "memory",
-      "snippet": "Conversation Summary: Sender (untrusted metadata):",
+      "snippet": "Sender (untrusted metadata):",
       "recallCount": 0,
-      "dailyCount": 3,
+      "dailyCount": 4,
       "groundedCount": 0,
-      "totalScore": 1.8599999999999999,
+      "totalScore": 2.48,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-05-22T19:00:11.007Z",
-      "lastRecalledAt": "2026-05-24T19:00:18.901Z",
+      "lastRecalledAt": "2026-05-25T19:00:21.465Z",
       "queryHashes": [
         "f698e45e49cd"
       ],
@@ -10398,7 +10406,8 @@
         "2026-05-23",
         "2026-05-22",
         "2026-05-24",
-        "2026-05-25"
+        "2026-05-25",
+        "2026-05-26"
       ],
       "conceptTags": [
         "2026-05-21-1923.md",
@@ -10407,7 +10416,8 @@
         "sender",
         "untrusted",
         "metadata"
-      ]
+      ],
+      "promotedAt": "2026-05-25T19:00:21.465Z"
     },
     "memory:memory/2026-05-21-1923.md:29:31": {
       "key": "memory:memory/2026-05-21-1923.md:29:31",
@@ -10417,12 +10427,12 @@
       "source": "memory",
       "snippet": "Conversation Summary: \"label\": \"ou_cb5c7afa7e77cafdeaeae1620a2a383a\", \"id\": \"ou_cb5c7afa7e77cafdeaeae1620a2a383a\", \"name\": \"ou_cb5c7afa7e77cafdeaeae1620a2a383a\"",
       "recallCount": 0,
-      "dailyCount": 3,
+      "dailyCount": 4,
       "groundedCount": 0,
-      "totalScore": 1.8599999999999999,
+      "totalScore": 2.48,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-05-22T19:00:11.007Z",
-      "lastRecalledAt": "2026-05-24T19:00:18.901Z",
+      "lastRecalledAt": "2026-05-25T19:00:21.465Z",
       "queryHashes": [
         "f698e45e49cd"
       ],
@@ -10430,7 +10440,8 @@
         "2026-05-23",
         "2026-05-22",
         "2026-05-24",
-        "2026-05-25"
+        "2026-05-25",
+        "2026-05-26"
       ],
       "conceptTags": [
         "2026-05-21-1923.md",
@@ -10446,14 +10457,14 @@
       "startLine": 35,
       "endLine": 35,
       "source": "memory",
-      "snippet": "Conversation Summary: Reply target of current user message (untrusted, for context):",
+      "snippet": "Reply target of current user message (untrusted, for context):",
       "recallCount": 0,
-      "dailyCount": 3,
+      "dailyCount": 4,
       "groundedCount": 0,
-      "totalScore": 1.8599999999999999,
+      "totalScore": 2.48,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-05-22T19:00:11.007Z",
-      "lastRecalledAt": "2026-05-24T19:00:18.901Z",
+      "lastRecalledAt": "2026-05-25T19:00:21.465Z",
       "queryHashes": [
         "f698e45e49cd"
       ],
@@ -10461,7 +10472,8 @@
         "2026-05-23",
         "2026-05-22",
         "2026-05-24",
-        "2026-05-25"
+        "2026-05-25",
+        "2026-05-26"
       ],
       "conceptTags": [
         "2026-05-21-1923.md",
@@ -10472,7 +10484,8 @@
         "current",
         "message",
         "untrusted"
-      ]
+      ],
+      "promotedAt": "2026-05-25T19:00:21.465Z"
     },
     "memory:memory/2026-05-21-1923.md:38:38": {
       "key": "memory:memory/2026-05-21-1923.md:38:38",
@@ -10480,14 +10493,14 @@
       "startLine": 38,
       "endLine": 38,
       "source": "memory",
-      "snippet": "\"body\": \"⚠️ Cron job \\\"config\\\\-backup\\\\-8am\\\" failed: EmbeddedAttemptSessionTakeoverError: session file changed while embedded prompt lock was released: /home/node/.openclaw/agents/main/sessions/e4936a00\\\\-5ae8\\\\-411e\\\\-b73b\\\\-5f2262f60553.jsonl\"",
+      "snippet": "Conversation Summary: \"body\": \"⚠️ Cron job \\\"config\\\\-backup\\\\-8am\\\" failed: EmbeddedAttemptSessionTakeoverError: session file changed while embedded prompt lock was released: /home/node/.openclaw/agents/main/sessions/e4936a00\\\\-5ae8\\\\-411e\\\\-b73b\\\\-5f2262f60553.jsonl\"",
       "recallCount": 0,
-      "dailyCount": 3,
+      "dailyCount": 4,
       "groundedCount": 0,
-      "totalScore": 1.8599999999999999,
+      "totalScore": 2.48,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-05-22T19:00:11.007Z",
-      "lastRecalledAt": "2026-05-24T19:00:18.901Z",
+      "lastRecalledAt": "2026-05-25T19:00:21.465Z",
       "queryHashes": [
         "f698e45e49cd"
       ],
@@ -10495,7 +10508,8 @@
         "2026-05-23",
         "2026-05-22",
         "2026-05-24",
-        "2026-05-25"
+        "2026-05-25",
+        "2026-05-26"
       ],
       "conceptTags": [
         "backup",
@@ -10513,16 +10527,16 @@
       "key": "memory:memory/2026-05-21-1923.md:42:43",
       "path": "memory/2026-05-21-1923.md",
       "startLine": 42,
-      "endLine": 43,
+      "endLine": 42,
       "source": "memory",
-      "snippet": "Conversation Summary: [message_id: om_x100b6fc17b7e8c68eea81920de3d7cd] ou_cb5c7afa7e77cafdeaeae1620a2a383a: [Replying to: \"⚠️ Cron job \"config\\-backup\\-8am\" failed: EmbeddedAttemptSessionTakeoverError: session file changed while embedded prompt lock was released: /home/node/.ope",
+      "snippet": "[message_id: om_x100b6fc17b7e8c68eea81920de3d7cd]",
       "recallCount": 0,
-      "dailyCount": 3,
+      "dailyCount": 4,
       "groundedCount": 0,
-      "totalScore": 1.8599999999999999,
+      "totalScore": 2.48,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-05-22T19:00:11.007Z",
-      "lastRecalledAt": "2026-05-24T19:00:18.901Z",
+      "lastRecalledAt": "2026-05-25T19:00:21.465Z",
       "queryHashes": [
         "f698e45e49cd"
       ],
@@ -10530,7 +10544,8 @@
         "2026-05-23",
         "2026-05-22",
         "2026-05-24",
-        "2026-05-25"
+        "2026-05-25",
+        "2026-05-26"
       ],
       "conceptTags": [
         "backup",
@@ -10541,7 +10556,8 @@
         "summary",
         "replying",
         "cron"
-      ]
+      ],
+      "promotedAt": "2026-05-25T19:00:21.465Z"
     },
     "memory:memory/2026-05-21-1923.md:45:48": {
       "key": "memory:memory/2026-05-21-1923.md:45:48",
@@ -10551,12 +10567,12 @@
       "source": "memory",
       "snippet": "Conversation Summary: 请自检这是什么原因 assistant: [assistant turn failed before producing content] assistant: [assistant turn failed before producing content] assistant: [assistant turn failed before producing content]",
       "recallCount": 0,
-      "dailyCount": 3,
+      "dailyCount": 4,
       "groundedCount": 0,
-      "totalScore": 1.8599999999999999,
+      "totalScore": 2.48,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-05-22T19:00:11.007Z",
-      "lastRecalledAt": "2026-05-24T19:00:18.901Z",
+      "lastRecalledAt": "2026-05-25T19:00:21.465Z",
       "queryHashes": [
         "f698e45e49cd"
       ],
@@ -10564,7 +10580,8 @@
         "2026-05-23",
         "2026-05-22",
         "2026-05-24",
-        "2026-05-25"
+        "2026-05-25",
+        "2026-05-26"
       ],
       "conceptTags": [
         "2026-05-21-1923.md",
@@ -10583,14 +10600,14 @@
       "startLine": 49,
       "endLine": 50,
       "source": "memory",
-      "snippet": "Conversation Summary: assistant: [assistant turn failed before producing content] user: Conversation info (untrusted metadata):",
+      "snippet": "assistant: [assistant turn failed before producing content] user: Conversation info (untrusted metadata):",
       "recallCount": 0,
-      "dailyCount": 3,
+      "dailyCount": 4,
       "groundedCount": 0,
-      "totalScore": 1.8599999999999999,
+      "totalScore": 2.48,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-05-22T19:00:11.007Z",
-      "lastRecalledAt": "2026-05-24T19:00:18.901Z",
+      "lastRecalledAt": "2026-05-25T19:00:21.465Z",
       "queryHashes": [
         "f698e45e49cd"
       ],
@@ -10598,7 +10615,8 @@
         "2026-05-23",
         "2026-05-22",
         "2026-05-24",
-        "2026-05-25"
+        "2026-05-25",
+        "2026-05-26"
       ],
       "conceptTags": [
         "2026-05-21-1923.md",
@@ -10609,7 +10627,8 @@
         "producing",
         "content",
         "info"
-      ]
+      ],
+      "promotedAt": "2026-05-25T19:00:21.465Z"
     },
     "memory:memory/2026-05-21-1923.md:53:56": {
       "key": "memory:memory/2026-05-21-1923.md:53:56",
@@ -10617,14 +10636,14 @@
       "startLine": 53,
       "endLine": 56,
       "source": "memory",
-      "snippet": "\"chat_id\": \"user:ou_cb5c7afa7e77cafdeaeae1620a2a383a\", \"message_id\": \"om_x100b6fc129c15934ee7b264b81a3a66\", \"reply_to_id\": \"om_x100b6fdff63a3ca8ee8d450536ae34a\", \"sender_id\": \"ou_cb5c7afa7e77cafdeaeae1620a2a383a\",",
+      "snippet": "Conversation Summary: \"chat_id\": \"user:ou_cb5c7afa7e77cafdeaeae1620a2a383a\", \"message_id\": \"om_x100b6fc129c15934ee7b264b81a3a66\", \"reply_to_id\": \"om_x100b6fdff63a3ca8ee8d450536ae34a\", \"sender_id\": \"ou_cb5c7afa7e77cafdeaeae1620a2a383a\",",
       "recallCount": 0,
-      "dailyCount": 3,
+      "dailyCount": 4,
       "groundedCount": 0,
-      "totalScore": 1.8599999999999999,
+      "totalScore": 2.48,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-05-22T19:00:11.007Z",
-      "lastRecalledAt": "2026-05-24T19:00:18.901Z",
+      "lastRecalledAt": "2026-05-25T19:00:21.465Z",
       "queryHashes": [
         "f698e45e49cd"
       ],
@@ -10632,7 +10651,8 @@
         "2026-05-23",
         "2026-05-22",
         "2026-05-24",
-        "2026-05-25"
+        "2026-05-25",
+        "2026-05-26"
       ],
       "conceptTags": [
         "2026-05-21-1923.md",
@@ -10651,14 +10671,14 @@
       "startLine": 57,
       "endLine": 59,
       "source": "memory",
-      "snippet": "Conversation Summary: \"sender\": \"ou_cb5c7afa7e77cafdeaeae1620a2a383a\", \"timestamp\": \"Thu 2026-05-21 19:01 UTC\", \"has_reply_context\": true",
+      "snippet": "\"sender\": \"ou_cb5c7afa7e77cafdeaeae1620a2a383a\", \"timestamp\": \"Thu 2026-05-21 19:01 UTC\", \"has_reply_context\": true",
       "recallCount": 0,
-      "dailyCount": 3,
+      "dailyCount": 4,
       "groundedCount": 0,
-      "totalScore": 1.8599999999999999,
+      "totalScore": 2.48,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-05-22T19:00:11.007Z",
-      "lastRecalledAt": "2026-05-24T19:00:18.901Z",
+      "lastRecalledAt": "2026-05-25T19:00:21.465Z",
       "queryHashes": [
         "f698e45e49cd"
       ],
@@ -10666,7 +10686,8 @@
         "2026-05-23",
         "2026-05-22",
         "2026-05-24",
-        "2026-05-25"
+        "2026-05-25",
+        "2026-05-26"
       ],
       "conceptTags": [
         "2026-05-21-1923.md",
@@ -10677,7 +10698,8 @@
         "timestamp",
         "thu",
         "utc"
-      ]
+      ],
+      "promotedAt": "2026-05-25T19:00:21.465Z"
     },
     "memory:memory/2026-05-21-1923.md:63:63": {
       "key": "memory:memory/2026-05-21-1923.md:63:63",
@@ -10687,12 +10709,12 @@
       "source": "memory",
       "snippet": "Conversation Summary: Sender (untrusted metadata):",
       "recallCount": 0,
-      "dailyCount": 3,
+      "dailyCount": 4,
       "groundedCount": 0,
-      "totalScore": 1.8599999999999999,
+      "totalScore": 2.48,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-05-22T19:00:11.007Z",
-      "lastRecalledAt": "2026-05-24T19:00:18.901Z",
+      "lastRecalledAt": "2026-05-25T19:00:21.465Z",
       "queryHashes": [
         "f698e45e49cd"
       ],
@@ -10700,7 +10722,8 @@
         "2026-05-23",
         "2026-05-22",
         "2026-05-24",
-        "2026-05-25"
+        "2026-05-25",
+        "2026-05-26"
       ],
       "conceptTags": [
         "2026-05-21-1923.md",
@@ -10719,12 +10742,12 @@
       "source": "memory",
       "snippet": "Conversation Summary: \"label\": \"ou_cb5c7afa7e77cafdeaeae1620a2a383a\", \"id\": \"ou_cb5c7afa7e77cafdeaeae1620a2a383a\", \"name\": \"ou_cb5c7afa7e77cafdeaeae1620a2a383a\"",
       "recallCount": 0,
-      "dailyCount": 3,
+      "dailyCount": 4,
       "groundedCount": 0,
-      "totalScore": 1.8599999999999999,
+      "totalScore": 2.48,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-05-22T19:00:11.007Z",
-      "lastRecalledAt": "2026-05-24T19:00:18.901Z",
+      "lastRecalledAt": "2026-05-25T19:00:21.465Z",
       "queryHashes": [
         "f698e45e49cd"
       ],
@@ -10732,7 +10755,8 @@
         "2026-05-23",
         "2026-05-22",
         "2026-05-24",
-        "2026-05-25"
+        "2026-05-25",
+        "2026-05-26"
       ],
       "conceptTags": [
         "2026-05-21-1923.md",
@@ -10750,12 +10774,12 @@
       "source": "memory",
       "snippet": "Conversation Summary: Reply target of current user message (untrusted, for context):",
       "recallCount": 0,
-      "dailyCount": 3,
+      "dailyCount": 4,
       "groundedCount": 0,
-      "totalScore": 1.8599999999999999,
+      "totalScore": 2.48,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-05-22T19:00:11.007Z",
-      "lastRecalledAt": "2026-05-24T19:00:18.901Z",
+      "lastRecalledAt": "2026-05-25T19:00:21.465Z",
       "queryHashes": [
         "f698e45e49cd"
       ],
@@ -10763,7 +10787,8 @@
         "2026-05-23",
         "2026-05-22",
         "2026-05-24",
-        "2026-05-25"
+        "2026-05-25",
+        "2026-05-26"
       ],
       "conceptTags": [
         "2026-05-21-1923.md",
@@ -10784,12 +10809,12 @@
       "source": "memory",
       "snippet": "Conversation Summary: \"body\": \"⚠️ Cron job \\\"config\\\\-backup\\\\-8am\\\" failed: EmbeddedAttemptSessionTakeoverError: session file changed while embedded prompt lock was released: /home/node/.openclaw/agents/main/sessions/e4936a00\\\\-5ae8\\\\-411e\\\\-b73b\\\\-5f2262f60553.jsonl\"",
       "recallCount": 0,
-      "dailyCount": 3,
+      "dailyCount": 4,
       "groundedCount": 0,
-      "totalScore": 1.8599999999999999,
+      "totalScore": 2.48,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-05-22T19:00:11.007Z",
-      "lastRecalledAt": "2026-05-24T19:00:18.901Z",
+      "lastRecalledAt": "2026-05-25T19:00:21.465Z",
       "queryHashes": [
         "f698e45e49cd"
       ],
@@ -10797,7 +10822,8 @@
         "2026-05-23",
         "2026-05-22",
         "2026-05-24",
-        "2026-05-25"
+        "2026-05-25",
+        "2026-05-26"
       ],
       "conceptTags": [
         "backup",
@@ -10818,12 +10844,12 @@
       "source": "memory",
       "snippet": "Conversation Summary: [message_id: om_x100b6fc129c15934ee7b264b81a3a66] ou_cb5c7afa7e77cafdeaeae1620a2a383a: [Replying to: \"⚠️ Cron job \"config\\-backup\\-8am\" failed: EmbeddedAttemptSessionTakeoverError: session file changed while embedded prompt lock was released: /home/node/.ope",
       "recallCount": 0,
-      "dailyCount": 3,
+      "dailyCount": 4,
       "groundedCount": 0,
-      "totalScore": 1.8599999999999999,
+      "totalScore": 2.48,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-05-22T19:00:11.007Z",
-      "lastRecalledAt": "2026-05-24T19:00:18.901Z",
+      "lastRecalledAt": "2026-05-25T19:00:21.465Z",
       "queryHashes": [
         "f698e45e49cd"
       ],
@@ -10831,7 +10857,8 @@
         "2026-05-23",
         "2026-05-22",
         "2026-05-24",
-        "2026-05-25"
+        "2026-05-25",
+        "2026-05-26"
       ],
       "conceptTags": [
         "backup",
@@ -10852,12 +10879,12 @@
       "source": "memory",
       "snippet": "Conversation Summary: 检查这里为何失败 assistant: [assistant turn failed before producing content] assistant: [assistant turn failed before producing content] assistant: [assistant turn failed before producing content]",
       "recallCount": 0,
-      "dailyCount": 3,
+      "dailyCount": 4,
       "groundedCount": 0,
-      "totalScore": 1.8599999999999999,
+      "totalScore": 2.48,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-05-22T19:00:11.007Z",
-      "lastRecalledAt": "2026-05-24T19:00:18.901Z",
+      "lastRecalledAt": "2026-05-25T19:00:21.465Z",
       "queryHashes": [
         "f698e45e49cd"
       ],
@@ -10865,7 +10892,8 @@
         "2026-05-23",
         "2026-05-22",
         "2026-05-24",
-        "2026-05-25"
+        "2026-05-25",
+        "2026-05-26"
       ],
       "conceptTags": [
         "2026-05-21-1923.md",
@@ -10886,12 +10914,12 @@
       "source": "memory",
       "snippet": "Conversation Summary: assistant: [assistant turn failed before producing content] user: Conversation info (untrusted metadata):",
       "recallCount": 0,
-      "dailyCount": 3,
+      "dailyCount": 4,
       "groundedCount": 0,
-      "totalScore": 1.8599999999999999,
+      "totalScore": 2.48,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-05-22T19:00:11.007Z",
-      "lastRecalledAt": "2026-05-24T19:00:18.901Z",
+      "lastRecalledAt": "2026-05-25T19:00:21.465Z",
       "queryHashes": [
         "f698e45e49cd"
       ],
@@ -10899,7 +10927,8 @@
         "2026-05-23",
         "2026-05-22",
         "2026-05-24",
-        "2026-05-25"
+        "2026-05-25",
+        "2026-05-26"
       ],
       "conceptTags": [
         "2026-05-21-1923.md",
@@ -10918,14 +10947,14 @@
       "startLine": 90,
       "endLine": 93,
       "source": "memory",
-      "snippet": "Conversation Summary: \"chat_id\": \"user:ou_cb5c7afa7e77cafdeaeae1620a2a383a\", \"message_id\": \"om_x100b6fc1ec9af0a0ee8b2e813a36bad\", \"sender_id\": \"ou_cb5c7afa7e77cafdeaeae1620a2a383a\", \"sender\": \"ou_cb5c7afa7e77cafdeaeae1620a2a383a\",",
+      "snippet": "\"chat_id\": \"user:ou_cb5c7afa7e77cafdeaeae1620a2a383a\", \"message_id\": \"om_x100b6fc1ec9af0a0ee8b2e813a36bad\", \"sender_id\": \"ou_cb5c7afa7e77cafdeaeae1620a2a383a\", \"sender\": \"ou_cb5c7afa7e77cafdeaeae1620a2a383a\",",
       "recallCount": 0,
-      "dailyCount": 3,
+      "dailyCount": 4,
       "groundedCount": 0,
-      "totalScore": 1.8599999999999999,
+      "totalScore": 2.48,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-05-22T19:00:11.007Z",
-      "lastRecalledAt": "2026-05-24T19:00:18.901Z",
+      "lastRecalledAt": "2026-05-25T19:00:21.465Z",
       "queryHashes": [
         "f698e45e49cd"
       ],
@@ -10933,7 +10962,8 @@
         "2026-05-23",
         "2026-05-22",
         "2026-05-24",
-        "2026-05-25"
+        "2026-05-25",
+        "2026-05-26"
       ],
       "conceptTags": [
         "2026-05-21-1923.md",
@@ -10943,7 +10973,8 @@
         "conversation",
         "summary",
         "sender"
-      ]
+      ],
+      "promotedAt": "2026-05-25T19:00:21.465Z"
     },
     "memory:memory/2026-05-21-1923.md:94:94": {
       "key": "memory:memory/2026-05-21-1923.md:94:94",
@@ -10953,12 +10984,12 @@
       "source": "memory",
       "snippet": "Conversation Summary: \"timestamp\": \"Thu 2026-05-21 19:16 UTC\"",
       "recallCount": 0,
-      "dailyCount": 3,
+      "dailyCount": 4,
       "groundedCount": 0,
-      "totalScore": 1.8599999999999999,
+      "totalScore": 2.48,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-05-22T19:00:11.007Z",
-      "lastRecalledAt": "2026-05-24T19:00:18.901Z",
+      "lastRecalledAt": "2026-05-25T19:00:21.465Z",
       "queryHashes": [
         "f698e45e49cd"
       ],
@@ -10966,7 +10997,8 @@
         "2026-05-23",
         "2026-05-22",
         "2026-05-24",
-        "2026-05-25"
+        "2026-05-25",
+        "2026-05-26"
       ],
       "conceptTags": [
         "2026-05-21-1923.md",
@@ -10985,12 +11017,12 @@
       "source": "memory",
       "snippet": "Conversation Summary: Sender (untrusted metadata):",
       "recallCount": 0,
-      "dailyCount": 3,
+      "dailyCount": 4,
       "groundedCount": 0,
-      "totalScore": 1.8599999999999999,
+      "totalScore": 2.48,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-05-22T19:00:11.007Z",
-      "lastRecalledAt": "2026-05-24T19:00:18.901Z",
+      "lastRecalledAt": "2026-05-25T19:00:21.465Z",
       "queryHashes": [
         "f698e45e49cd"
       ],
@@ -10998,7 +11030,8 @@
         "2026-05-23",
         "2026-05-22",
         "2026-05-24",
-        "2026-05-25"
+        "2026-05-25",
+        "2026-05-26"
       ],
       "conceptTags": [
         "2026-05-21-1923.md",
@@ -11017,12 +11050,12 @@
       "source": "memory",
       "snippet": "Conversation Summary: \"label\": \"ou_cb5c7afa7e77cafdeaeae1620a2a383a\", \"id\": \"ou_cb5c7afa7e77cafdeaeae1620a2a383a\", \"name\": \"ou_cb5c7afa7e77cafdeaeae1620a2a383a\"",
       "recallCount": 0,
-      "dailyCount": 3,
+      "dailyCount": 4,
       "groundedCount": 0,
-      "totalScore": 1.8599999999999999,
+      "totalScore": 2.48,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-05-22T19:00:11.007Z",
-      "lastRecalledAt": "2026-05-24T19:00:18.901Z",
+      "lastRecalledAt": "2026-05-25T19:00:21.465Z",
       "queryHashes": [
         "f698e45e49cd"
       ],
@@ -11030,7 +11063,8 @@
         "2026-05-23",
         "2026-05-22",
         "2026-05-24",
-        "2026-05-25"
+        "2026-05-25",
+        "2026-05-26"
       ],
       "conceptTags": [
         "2026-05-21-1923.md",
@@ -11048,12 +11082,12 @@
       "source": "memory",
       "snippet": "Conversation Summary: [message_id: om_x100b6fc1ec9af0a0ee8b2e813a36bad] ou_cb5c7afa7e77cafdeaeae1620a2a383a: 什么情况",
       "recallCount": 0,
-      "dailyCount": 3,
+      "dailyCount": 4,
       "groundedCount": 0,
-      "totalScore": 1.8599999999999999,
+      "totalScore": 2.48,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-05-22T19:00:11.007Z",
-      "lastRecalledAt": "2026-05-24T19:00:18.901Z",
+      "lastRecalledAt": "2026-05-25T19:00:21.465Z",
       "queryHashes": [
         "f698e45e49cd"
       ],
@@ -11061,7 +11095,8 @@
         "2026-05-23",
         "2026-05-22",
         "2026-05-24",
-        "2026-05-25"
+        "2026-05-25",
+        "2026-05-26"
       ],
       "conceptTags": [
         "2026-05-21-1923.md",

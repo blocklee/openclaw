@@ -38,3 +38,24 @@
 - "body": "⚠️ Cron job \"config\\-backup\\-8am\" failed: EmbeddedAttemptSessionTakeoverError: session file changed while embedded prompt lock was released: /home/node/.openclaw/agents/main/sessions/e4936a00\\-5ae8\\-411e\\-b73b\\-5f2262f60553.jsonl" [score=0.815 recalls=0 avg=0.620 source=memory/2026-05-21-1923.md:38-38]
 <!-- openclaw-memory-promotion:memory:memory/2026-05-21-1923.md:53:56 -->
 - "chat_id": "user:ou_cb5c7afa7e77cafdeaeae1620a2a383a", "message_id": "om_x100b6fc129c15934ee7b264b81a3a66", "reply_to_id": "om_x100b6fdff63a3ca8ee8d450536ae34a", "sender_id": "ou_cb5c7afa7e77cafdeaeae1620a2a383a", [score=0.815 recalls=0 avg=0.620 source=memory/2026-05-21-1923.md:53-56]
+
+## Promoted From Short-Term Memory (2026-05-26)
+
+<!-- openclaw-memory-promotion:memory:memory/2026-05-21-1923.md:20:22 -->
+- "sender": "ou_cb5c7afa7e77cafdeaeae1620a2a383a", "timestamp": "Thu 2026-05-21 18:47 UTC", "has_reply_context": true [score=0.869 recalls=0 avg=0.620 source=memory/2026-05-21-1923.md:20-22]
+<!-- openclaw-memory-promotion:memory:memory/2026-05-21-1923.md:90:93 -->
+- "chat_id": "user:ou_cb5c7afa7e77cafdeaeae1620a2a383a", "message_id": "om_x100b6fc1ec9af0a0ee8b2e813a36bad", "sender_id": "ou_cb5c7afa7e77cafdeaeae1620a2a383a", "sender": "ou_cb5c7afa7e77cafdeaeae1620a2a383a", [score=0.869 recalls=0 avg=0.620 source=memory/2026-05-21-1923.md:90-93]
+<!-- openclaw-memory-promotion:memory:memory/2026-05-21-1923.md:9:12 -->
+- assistant: [assistant turn failed before producing content] assistant: [assistant turn failed before producing content] assistant: [assistant turn failed before producing content] assistant: [assistant turn failed before producing content] [score=0.837 recalls=0 avg=0.620 source=memory/2026-05-21-1923.md:9-12]
+<!-- openclaw-memory-promotion:memory:memory/2026-05-21-1923.md:13:13 -->
+- user: Conversation info (untrusted metadata): [score=0.837 recalls=0 avg=0.620 source=memory/2026-05-21-1923.md:13-13]
+<!-- openclaw-memory-promotion:memory:memory/2026-05-21-1923.md:26:26 -->
+- Sender (untrusted metadata): [score=0.837 recalls=0 avg=0.620 source=memory/2026-05-21-1923.md:26-26]
+<!-- openclaw-memory-promotion:memory:memory/2026-05-21-1923.md:35:35 -->
+- Reply target of current user message (untrusted, for context): [score=0.837 recalls=0 avg=0.620 source=memory/2026-05-21-1923.md:35-35]
+<!-- openclaw-memory-promotion:memory:memory/2026-05-21-1923.md:42:43 -->
+- [message_id: om_x100b6fc17b7e8c68eea81920de3d7cd] [score=0.837 recalls=0 avg=0.620 source=memory/2026-05-21-1923.md:42-42]
+<!-- openclaw-memory-promotion:memory:memory/2026-05-21-1923.md:49:50 -->
+- assistant: [assistant turn failed before producing content] user: Conversation info (untrusted metadata): [score=0.837 recalls=0 avg=0.620 source=memory/2026-05-21-1923.md:49-50]
+<!-- openclaw-memory-promotion:memory:memory/2026-05-21-1923.md:57:59 -->
+- "sender": "ou_cb5c7afa7e77cafdeaeae1620a2a383a", "timestamp": "Thu 2026-05-21 19:01 UTC", "has_reply_context": true [score=0.837 recalls=0 avg=0.620 source=memory/2026-05-21-1923.md:57-59]

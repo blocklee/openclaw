@@ -291,7 +291,7 @@
       "startedAt": 1779622175217,
       "sessionStartedAt": 1779622169027,
       "accumulatedRuntimeMs": 0,
-      "cleanupHandled": false,
+      "cleanupHandled": true,
       "retainAttachmentsOnKeep": false,
       "endedAt": 1779622179696,
       "outcome": {
@@ -306,37 +306,18 @@
       "lastAnnounceDeliveryError": "completion agent did not produce a visible reply; direct-primary: completion agent did not produce a visible reply",
       "announceRetryCount": 3,
       "lastAnnounceRetryAt": 1779622192057,
-      "pendingFinalDelivery": true,
-      "pendingFinalDeliveryCreatedAt": 1779622188153,
-      "pendingFinalDeliveryLastAttemptAt": 1779622192058,
-      "pendingFinalDeliveryAttemptCount": 3,
-      "pendingFinalDeliveryLastError": "completion agent did not produce a visible reply; direct-primary: completion agent did not produce a visible reply",
-      "pendingFinalDeliveryPayload": {
+      "cleanupCompletedAt": 1779708594384,
+      "deliveryDiscardedAt": 1779708594384,
+      "deliveryDiscardReason": "expired",
+      "deliveryDiscardedPayloadSummary": {
         "requesterSessionKey": "agent:main:feishu:main:direct:ou_f786171f9e21bf5a09c3116b2e77aaff",
-        "requesterOrigin": {
-          "channel": "feishu",
-          "to": "user:ou_f786171f9e21bf5a09c3116b2e77aaff",
-          "accountId": "main"
-        },
-        "requesterDisplayKey": "agent:main:feishu:main:direct:ou_f786171f9e21bf5a09c3116b2e77aaff",
         "childSessionKey": "agent:main:subagent:6cadba4e-f052-4e2f-89b7-c66f7c8c3d7c",
         "childRunId": "de9c2969-bae0-4a0b-b904-56a6fbf74dd2",
-        "task": "Test NVIDIA model: minimaxai/minimax-m2.7 with a simple message 'Hello'",
-        "label": "nvidia_test_minimax",
-        "startedAt": 1779622175217,
         "endedAt": 1779622179696,
-        "outcome": {
-          "status": "ok",
-          "startedAt": 1779622175217,
-          "endedAt": 1779622179696,
-          "elapsedMs": 4479
-        },
-        "expectsCompletionMessage": true,
-        "spawnMode": "run",
-        "frozenResultText": "Hello"
+        "status": "ok",
+        "lastError": "completion agent did not produce a visible reply; direct-primary: completion agent did not produce a visible reply"
       },
-      "deliverySuspendedAt": 1779622192058,
-      "deliverySuspendedReason": "retry-limit"
+      "endedHookEmittedAt": 1779708594441
     },
     "5aead448-a2ad-4ef7-85b4-f5eb4bc29ca3": {
       "runId": "5aead448-a2ad-4ef7-85b4-f5eb4bc29ca3",
@@ -421,48 +402,6 @@
       "endedHookEmittedAt": 1779622359284,
       "cleanupCompletedAt": 1779622359289
     },
-    "2c9d198a-3cf8-45d8-a423-081585132fff": {
-      "runId": "2c9d198a-3cf8-45d8-a423-081585132fff",
-      "childSessionKey": "agent:main:subagent:541674a2-365b-4c54-80bf-60b0ecaf14e3",
-      "controllerSessionKey": "agent:main:feishu:main:direct:ou_f786171f9e21bf5a09c3116b2e77aaff",
-      "requesterSessionKey": "agent:main:feishu:main:direct:ou_f786171f9e21bf5a09c3116b2e77aaff",
-      "requesterOrigin": {
-        "channel": "feishu",
-        "to": "user:ou_f786171f9e21bf5a09c3116b2e77aaff",
-        "accountId": "main"
-      },
-      "requesterDisplayKey": "agent:main:feishu:main:direct:ou_f786171f9e21bf5a09c3116b2e77aaff",
-      "task": "Test NVIDIA model: deepseek-ai/deepseek-v4-flash with a simple message 'Hello'",
-      "cleanup": "keep",
-      "expectsCompletionMessage": true,
-      "spawnMode": "run",
-      "label": "nvidia_test_deepseek_flash",
-      "model": "nvidia/deepseek-ai/deepseek-v4-flash",
-      "agentDir": "/home/node/.openclaw/agents/main/agent",
-      "workspaceDir": "/home/node/.openclaw/workspace",
-      "runTimeoutSeconds": 30,
-      "createdAt": 1779622170099,
-      "startedAt": 1779622176449,
-      "sessionStartedAt": 1779622170099,
-      "accumulatedRuntimeMs": 0,
-      "cleanupHandled": true,
-      "retainAttachmentsOnKeep": false,
-      "endedAt": 1779622207654,
-      "outcome": {
-        "status": "timeout",
-        "startedAt": 1779622176449,
-        "endedAt": 1779622207654,
-        "elapsedMs": 31205
-      },
-      "endedReason": "subagent-complete",
-      "frozenResultText": "Testing model `nvidia/deepseek-ai/deepseek-v4-flash`...\n\nHello! 👋\n\nThe model is responding correctly. Here's the confirmation:\n\n- **Model**: nvidia/deepseek-ai/deepseek-v4-flash (DeepSeek V4 Flash)\n-",
-      "frozenResultCapturedAt": 1779622208876,
-      "lastAnnounceDeliveryError": "completion agent did not produce a visible reply; direct-primary: completion agent did not produce a visible reply",
-      "announceRetryCount": 3,
-      "lastAnnounceRetryAt": 1779622225815,
-      "cleanupCompletedAt": 1779622225815,
-      "endedHookEmittedAt": 1779622225867
-    },
     "f3ce50e0-d98b-499c-b64d-63855733ac50": {
       "runId": "f3ce50e0-d98b-499c-b64d-63855733ac50",
       "childSessionKey": "agent:main:subagent:eb32e2ca-f1c4-47fc-9b8a-5e7700db8434",
@@ -504,6 +443,47 @@
       "completionDeliveredAt": 1779622312979,
       "endedHookEmittedAt": 1779622313669,
       "cleanupCompletedAt": 1779622313678
+    },
+    "e6d7eab7-3273-44ef-8386-1be15a556b98": {
+      "runId": "e6d7eab7-3273-44ef-8386-1be15a556b98",
+      "childSessionKey": "agent:main:subagent:541674a2-365b-4c54-80bf-60b0ecaf14e3",
+      "controllerSessionKey": "agent:main:feishu:main:direct:ou_f786171f9e21bf5a09c3116b2e77aaff",
+      "requesterSessionKey": "agent:main:feishu:main:direct:ou_f786171f9e21bf5a09c3116b2e77aaff",
+      "requesterOrigin": {
+        "channel": "feishu",
+        "to": "user:ou_f786171f9e21bf5a09c3116b2e77aaff",
+        "accountId": "main"
+      },
+      "requesterDisplayKey": "agent:main:feishu:main:direct:ou_f786171f9e21bf5a09c3116b2e77aaff",
+      "task": "Test NVIDIA model: deepseek-ai/deepseek-v4-flash with a simple message 'Hello'",
+      "cleanup": "keep",
+      "expectsCompletionMessage": true,
+      "spawnMode": "run",
+      "label": "nvidia_test_deepseek_flash",
+      "model": "nvidia/deepseek-ai/deepseek-v4-flash",
+      "agentDir": "/home/node/.openclaw/agents/main/agent",
+      "workspaceDir": "/home/node/.openclaw/workspace",
+      "runTimeoutSeconds": 30,
+      "createdAt": 1779690065488,
+      "startedAt": 1779690069000,
+      "sessionStartedAt": 1779622170099,
+      "accumulatedRuntimeMs": 31205,
+      "cleanupHandled": true,
+      "retainAttachmentsOnKeep": false,
+      "endedAt": 1779690988591,
+      "outcome": {
+        "status": "ok",
+        "startedAt": 1779690069000,
+        "endedAt": 1779690988591,
+        "elapsedMs": 919591
+      },
+      "endedReason": "subagent-complete",
+      "frozenResultText": "NVIDIA model `deepseek-ai/deepseek-v4-flash` tested. Results:\n\n**DNS Issue:** Container can't resolve `api.openrouter.ai` (DNS ENOTFOUND), but `openrouter.ai` resolves fine. Had to use direct IP with `Host` header.\n\n**Model Resolution:**\n- ❌ `nvidia/deepseek-ai/deepseek-v4-flash` — **not a valid model ID** on OpenRouter (400 error)\n- ❌ `nvidia/deepseek-v4-flash` — also invalid\n- ✅ `deepseek/deepseek-v4-flash` — valid, works\n\n**Response (to \"Hello\"):**\n- Model: `deepseek/deepseek-v4-flash-20260423`\n- Provider: SiliconFlow\n- Completion: ✅ Friendly Chinese greeting (\"你好！😊...\")\n- 5 prompt → 193 completion tokens (including 144 reasoning tokens)\n- Cost: $0.000055\n- Finish reason: `stop`\n- Native reasoning content visible in response\n\n**TL;DR:** The model is alive and responding well. The OpenRouter slug is `deepseek/deepseek-v4-flash`, not the `nvidia/` prefix. DNS resolution is broken for `api.openrouter.ai` subdomain in this environment — worth noting.",
+      "frozenResultCapturedAt": 1779690989713,
+      "cleanupCompletedAt": 1779691002526,
+      "endedHookEmittedAt": 1779691002520,
+      "completionDeliveredAt": 1779691002257,
+      "completionAnnouncedAt": 1779691002257
     }
   }
 }

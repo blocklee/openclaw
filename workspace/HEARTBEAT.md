@@ -14,3 +14,8 @@
 - Founder决定跑在Qitmeer主网（团队是维护者，有MEER付gas）
 - ⚠️ 关键问题：Qitmeer是否支持Chainlink VRF？如不支持，陪审团抽选会卡死
 - 需要猫先森确认Qitmeer Chainlink VRF支持状态
+
+## 2026-05-25 更新
+- primary 模型已切换为 minimax-portal/MiniMax-M2.7 (OAuth认证)
+- 重启后出现 "model not allowed" 警告，但自动恢复，配置正常
+- minimax API key provider (旧) 保留作为备用，header格式问题暂不修
