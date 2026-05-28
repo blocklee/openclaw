@@ -1,7 +1,7 @@
 {
   "meta": {
     "lastTouchedVersion": "2026.5.19",
-    "lastTouchedAt": "2026-05-23T04:05:13.357Z"
+    "lastTouchedAt": "2026-05-23T04:07:49.701Z"
   },
   "env": {
     "OPENROUTER_API_KEY": "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",
@@ -256,13 +256,13 @@
   "agents": {
     "defaults": {
       "model": {
-        "primary": "nvidia/minimaxai/minimax-m2.7",
+        "primary": "minimax/MiniMax-M2.7",
         "fallbacks": [
           "nvidia/deepseek-ai/deepseek-v4-pro",
           "nvidia/deepseek-ai/deepseek-v4-flash",
-          "nvidia/z-ai/glm4.7",
-          "minimax/MiniMax-M2.7",
-          "zai/glm-4.7-flash"
+	  "nvidia/minimaxai/minimax-m2.7",
+	  "nvidia/z-ai/glm4.7",
+	  "zai/glm-4.7-flash"
         ]
       },
       "imageGenerationModel": {
@@ -359,7 +359,7 @@
     ]
   },
   "tools": {
-    "profile": "coding",
+    "profile": "full",
     "agentToAgent": {
       "enabled": true,
       "allow": [
@@ -667,9 +667,6 @@
       "spotify-player": {
         "enabled": false
       },
-      "summarize": {
-        "enabled": false
-      },
       "things-mac": {
         "enabled": false
       },
@@ -690,6 +687,12 @@
       },
       "xurl": {
         "enabled": false
+      },
+      "summarize": {
+        "enabled": false
+      },
+      "doc-summarize-pro": {
+        "enabled": true
       }
     }
   },

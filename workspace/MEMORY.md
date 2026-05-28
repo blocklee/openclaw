@@ -94,3 +94,8 @@
 
 <!-- openclaw-memory-promotion:memory:memory/2026-05-20-1652.md:23:23 -->
 - user: Conversation info (untrusted metadata): [score=0.871 recalls=0 avg=0.620 source=memory/2026-05-20-1652.md:23-23]
+
+## Promoted From Short-Term Memory (2026-05-27)
+
+<!-- openclaw-memory-promotion:memory:memory/2026-05-20.md:6:6 -->
+- A long, multi-round debate was conducted on the question: **Is the usage economy a subset of the ownership economy, or an independent paradigm?** [score=0.889 recalls=0 avg=0.620 source=memory/2026-05-20.md:6-6]

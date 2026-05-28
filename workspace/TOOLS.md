@@ -68,3 +68,40 @@ Add whatever helps you do your job. This is your cheat sheet.
 - 路径：`~/.openclaw/workspace/scripts/send_feishu_mention.py`
 - 用法：`python3 send_feishu_mention.py <user_id>` → 输出 `{"tag":"at","user_id":"ou_xxx"}`
 - ⚠️ APP_SECRET可能已失效（code 10014），如遇无效token需找听风(Lucifer)更新凭证
+## Qitmeer 钱包 (Talus Agent)
+- 地址: 0x58BDf47D821ADE5bD58327E8920Ac24f79a0dd8d
+- 私钥: 6e0939f3b7cb6391c2cca7a9c5564ced4b893c8660cecaecd2d6b180dd021416
+- 生成时间: 2026-05-26
+- 用途: ECHO工作相关gas费/补贴
+- 注意: 私钥已备份至此文件，需妥善保管
+
+## 飞书群聊@的正确用法（血的教训）
+
+### 核心规则
+群里发@通知，必须用 feishu_post.py 脚本，不能用纯文本或普通回复。
+
+### 脚本路径
+/home/node/.openclaw/workspace/scripts/feishu_post.py
+
+### 正确用法
+```bash
+python3 /home/node/.openclaw/workspace/scripts/feishu_post.py "群ID" "消息内容" "要@的open_id"
+```
+
+### 群ID
+oc_76f7651cb976ad84d66158beb2f29be2（Robot Space）
+
+### 已确认用户ID
+- 哪吒: ou_b86993389daaac2c0d8dc372341a20f7
+- 雨娃: ou_d4a9be4959d3e7a1f2ac09b914a4dfbe
+- 猫先森: ou_f02645f6c52eb90b1aa0a82d684e896e
+- Seaman_bot: ou_2aba819312b39afaae0f07d62994326b
+- X7: ou_f6d0319b6bc4916ea852b5a5a8a1ee3b
+- Amanda_AI助理: ou_160ce2589815462d4a44c0a98509c815
+- 王岚的智能助手: ou_1bf7191322d2c42b62df845913f183bc
+- Talus: ou_2801ea23f2cb858013a8191ad646d332
+
+### 常见错误
+❌ 普通回复里写 `<at user_id="ou_xxx">名字</at>` → 灰色，不触发通知
+❌ 用 message 工具的 text 类型发@ → 灰色
+✅ 必须用 feishu_post.py 脚本 → 蓝色，点亮

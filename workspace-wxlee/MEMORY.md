@@ -1,55 +1,6 @@
 # Long-Term Memory
 
 
-## Promoted From Short-Term Memory (2026-04-30)
-
-<!-- openclaw-memory-promotion:memory:memory/2026-04-24.md:101:103 -->
-- - Candidate: Possible Lasting Truths: Possible Lasting Truths: No strong candidate truths surfaced. [confidence=0.58 evidence=memory/2026-04-14.md:209-209]; Possible Lasting Truths: 事件: ⚠️ Something went wrong while processing your request. Please try again, or use /new to start a fresh sessi - confidence: 0.62 - evidence: memory/2026-04-21.md:134-136 [score=0.888 recalls=0 avg=0.620 source=memory/2026-04-24.md:88-90]
-<!-- openclaw-memory-promotion:memory:memory/2026-04-24.md:98:98 -->
-- - Candidate: Reflections: No strong patterns surfaced. [score=0.836 recalls=0 avg=0.620 source=memory/2026-04-24.md:3-3]
-<!-- openclaw-memory-promotion:memory:memory/2026-04-25.md:101:103 -->
-- - Candidate: Possible Lasting Truths: Possible Lasting Truths: No strong candidate truths surfaced. [confidence=0.58 evidence=memory/2026-04-14.md:209-209]; Possible Lasting Truths: 事件: ⚠️ Something went wrong while processing your request. Please try again, or use /new to start a fresh sessi - confidence: 0.62 - evidence: memory/2026-04-22.md:134-136 [score=0.816 recalls=0 avg=0.620 source=memory/2026-04-25.md:88-90]
-
-## Promoted From Short-Term Memory (2026-05-01)
-
-<!-- openclaw-memory-promotion:memory:memory/2026-04-25.md:98:98 -->
-- - Candidate: Reflections: No strong patterns surfaced. [score=0.836 recalls=0 avg=0.620 source=memory/2026-04-25.md:63-63]
-
-## Promoted From Short-Term Memory (2026-05-02)
-
-<!-- openclaw-memory-promotion:memory:memory/2026-04-27.md:101:103 -->
-- - Candidate: Possible Lasting Truths: Possible Lasting Truths: No strong candidate truths surfaced. [confidence=0.58 evidence=memory/2026-04-14.md:209-209]; Possible Lasting Truths: Possible Lasting Truths: No strong candidate truths surfaced. [confidence=0.58 evidence=memory/2026-04-14.md:20 - confidence: 0.62 - evidence: memory/2026-04-26.md:101-103 [score=0.878 recalls=0 avg=0.620 source=memory/2026-04-27.md:8-10]
-<!-- openclaw-memory-promotion:memory:memory/2026-04-26.md:98:98 -->
-- - Candidate: Reflections: No strong patterns surfaced. [score=0.836 recalls=0 avg=0.620 source=memory/2026-04-26.md:83-83]
-<!-- openclaw-memory-promotion:memory:memory/2026-04-27.md:98:98 -->
-- - Candidate: Reflections: No strong patterns surfaced. [score=0.807 recalls=0 avg=0.620 source=memory/2026-04-27.md:83-83]
-
-## Promoted From Short-Term Memory (2026-05-23)
-
-<!-- openclaw-memory-promotion:memory:memory/2026-05-18-payroll-ocr.md:9:11 -->
-- assistant: 主公稍等，我再试试 assistant: 好多了！这次识别效果提升不少。让我把数据整理出来 assistant: 好，综合两次 OCR 结果，我整理出一份表格。由于是手写体，部分姓名和号码可能有识别误差，请核对。 [score=0.815 recalls=0 avg=0.620 source=memory/2026-05-18-payroll-ocr.md:9-11]
-
-## Promoted From Short-Term Memory (2026-05-24)
-
-<!-- openclaw-memory-promotion:memory:memory/2026-05-16-1516.md:12:14 -->
-- "chat_id": "o9cq802UVmvEGGP0xkFm4O7AcdRg@im.wechat", "message_id": "openclaw-weixin:1778943752330-5b3081ea", "timestamp": "Sat 2026-05-16 15:02 UTC" [score=0.886 recalls=0 avg=0.620 source=memory/2026-05-16-1516.md:12-14]
-<!-- openclaw-memory-promotion:memory:memory/2026-05-16-1516.md:29:31 -->
-- "chat_id": "o9cq802UVmvEGGP0xkFm4O7AcdRg@im.wechat", "message_id": "openclaw-weixin:1778943901960-100768f1", "timestamp": "Sat 2026-05-16 15:05 UTC" [score=0.886 recalls=0 avg=0.620 source=memory/2026-05-16-1516.md:29-31]
-<!-- openclaw-memory-promotion:memory:memory/2026-05-18-payroll-ocr.md:14:14 -->
-- assistant: 主公，已整理完毕！以下是电子版工资表。但手写体 OCR 识别质量有限，**请务必逐行核对**，红色标记为高度不确定字段。 [score=0.841 recalls=0 avg=0.620 source=memory/2026-05-18-payroll-ocr.md:14-14]
-<!-- openclaw-memory-promotion:memory:memory/2026-05-18-payroll-ocr.md:20:23 -->
-- | # | 姓名 | 应发工资 | 卡号 | 开户行 | |---|------|---------|------|--------| | 1 | 胡条 ⚠️ | 10,000 | 6212***50822 | 工行鼓楼支行 | | 2 | 张小之 ⚠️ | 5,000 | 6215***50240 | 中国银行 | [score=0.837 recalls=0 avg=0.620 source=memory/2026-05-18-payroll-ocr.md:20-23]
-<!-- openclaw-memory-promotion:memory:memory/2026-05-18-payroll-ocr.md:24:27 -->
-- | 3 | 彭海冰 | 5,000 | 6228***06674 | 中国银行 | | 4 | 刘国波 | 10,000 | 6217***62458 | 建行乐都支行 | | 5 | 王开生 ⚠️ | 5,000 | 6217***96226 | 汉中市西孙路支行 | | 6 | 杨万文 ⚠️ | 10,000 | 6222***64891 | 中国银行油城支行 | [score=0.837 recalls=0 avg=0.620 source=memory/2026-05-18-payroll-ocr.md:24-27]
-<!-- openclaw-memory-promotion:memory:memory/2026-05-18-payroll-ocr.md:28:31 -->
-- | 7 | 李成洪 ⚠️ | 10,000 | 6235***34047 | 青海银行互助支行 | | 8 | 刘加俊 | 10,000 | 6235***34120 | | | 9 | 唐仕之 ⚠️ | 10,000 | 6235***96553 | | | 10 | 姜朝李 ⚠️ | 10,000 | 6235***703412 | | [score=0.837 recalls=0 avg=0.620 source=memory/2026-05-18-payroll-ocr.md:28-31]
-<!-- openclaw-memory-promotion:memory:memory/2026-05-18-payroll-ocr.md:32:35 -->
-- | 11 | 房泽 ⚠️ | 10,000 | 6235***34144 | | | 12 | 唐蓉 | 10,000 | 6235***340b2 | | | 13 | 刘顺 | 10,000 | 6235***34095 | | | 14 | 唐俊 | 5,000 ⚠️ | 6235***34070 | | [score=0.837 recalls=0 avg=0.620 source=memory/2026-05-18-payroll-ocr.md:32-35]
-<!-- openclaw-memory-promotion:memory:memory/2026-05-18-payroll-ocr.md:36:37 -->
-- | 15 | 祁朝军 ⚠️ | 15,000 | 6235***34054 | 青海银行互助支行 | | **合计** | | **135,000** | | | [score=0.837 recalls=0 avg=0.620 source=memory/2026-05-18-payroll-ocr.md:36-37]
-<!-- openclaw-memory-promotion:memory:memory/2026-05-18-payroll-ocr.md:39:39 -->
-- ⚠️ 标记说明： [score=0.837 recalls=0 avg=0.620 source=memory/2026-05-18-payroll-ocr.md:39-39]
-
 ## Promoted From Short-Term Memory (2026-05-25)
 
 <!-- openclaw-memory-promotion:memory:memory/2026-05-18-payroll-ocr.md:40:42 -->
@@ -89,3 +40,43 @@
 - | 15 | 祁朝军 ⚠️ | 15,000 | 6235***34054 | 青海银行互助支行 | | **合计** | | **135,000** | | | [score=0.834 recalls=0 avg=0.620 source=memory/2026-05-18-payroll-ocr.md:75-76]
 <!-- openclaw-memory-promotion:memory:memory/2026-05-18-payroll-ocr.md:85:86 -->
 - **建议下一步：** 如果您能快速把图中15个名字逐行发我，我可以立即修正成准确版本，省去逐字核对。 user: Conversation info (untrusted metadata): [score=0.834 recalls=0 avg=0.620 source=memory/2026-05-18-payroll-ocr.md:85-86]
+
+## Promoted From Short-Term Memory (2026-05-27)
+
+<!-- openclaw-memory-promotion:memory:memory/2026-05-16-1516.md:21:23 -->
+- 看时间，你那儿已是深夜（UTC+8 23:02）。深夜唤我，是有要事相商，还是只是打个招呼？ user: 小夜小夜 assistant: 主公，我在。 [score=0.854 recalls=0 avg=0.620 source=memory/2026-05-16-1516.md:21-23]
+<!-- openclaw-memory-promotion:memory:memory/2026-05-16-1516.md:52:54 -->
+- "chat_id": "o9cq802UVmvEGGP0xkFm4O7AcdRg@im.wechat", "message_id": "openclaw-weixin:1778943901960-100768f1", "timestamp": "Sat 2026-05-16 15:05 UTC" [score=0.852 recalls=0 avg=0.620 source=memory/2026-05-16-1516.md:52-54]
+<!-- openclaw-memory-promotion:memory:memory/2026-05-16-1516.md:38:39 -->
+- 让我进一步查清楚限制的来源和可调 user: Conversation info (untrusted metadata): [score=0.833 recalls=0 avg=0.620 source=memory/2026-05-16-1516.md:38-39]
+<!-- openclaw-memory-promotion:memory:memory/2026-05-18-payroll-ocr.md:89:91 -->
+- "chat_id": "o9cq802UVmvEGGP0xkFm4O7AcdRg@im.wechat", "message_id": "openclaw-weixin:1779110563582-9cebf2e9", "timestamp": "Mon 2026-05-18 13:05 UTC" [score=0.831 recalls=0 avg=0.620 source=memory/2026-05-18-payroll-ocr.md:89-91]
+<!-- openclaw-memory-promotion:memory:memory/2026-05-18-payroll-ocr.md:95:95 -->
+- 我识别了内容，你给我做成表格 [score=0.831 recalls=0 avg=0.620 source=memory/2026-05-18-payroll-ocr.md:95-95]
+<!-- openclaw-memory-promotion:memory:memory/2026-05-18-payroll-ocr.md:97:100 -->
+- 序 姓名 身份证号 卡号 开户行 应发工资 (元) 实发工资 联系电话 签字 1 胡军 510821199505165318 6212262309006758828 工行广鼓楼支行 10000元 张悦斌510824198603056531 6215683100026750240中国银行广元分行 5000元 彭海冰 510824198808046265 6228482869610061174 农行芳溪东溪支行 5000元 [score=0.831 recalls=0 avg=0.620 source=memory/2026-05-18-payroll-ocr.md:97-100]
+<!-- openclaw-memory-promotion:memory:memory/2026-05-18-payroll-ocr.md:101:104 -->
+- 4 刘国波 610726200305165415 6217004400026962458 建行乐都支行 10000元 5 王开生 612326198701145416 6217004130013396226 汉中市西环路支行 1000元 6 杨文 612326199410305010 222032902004604891 银石油城支行 5000元 7 李成洪 510821196903235015 62359926007034047 青海银行互助支行 10000元 [score=0.831 recalls=0 avg=0.620 source=memory/2026-05-18-payroll-ocr.md:101-104]
+<!-- openclaw-memory-promotion:memory:memory/2026-05-18-payroll-ocr.md:109:112 -->
+- 12 唐蓉 510821198502285029 62359926007034062 10000元 13 刘顺 510821197701055037 62359926007034096 10000元 14 唐俊 510821199809135011 62359926007034070 0000元 15 董朝军 510821108708275336 62359926007034054 青海银行正助支行 15000元 [score=0.831 recalls=0 avg=0.620 source=memory/2026-05-18-payroll-ocr.md:109-112]
+<!-- openclaw-memory-promotion:memory:memory/2026-05-18-payroll-ocr.md:114:114 -->
+- 合计：135000元 [score=0.831 recalls=0 avg=0.620 source=memory/2026-05-18-payroll-ocr.md:114-114]
+
+## Promoted From Short-Term Memory (2026-05-28)
+
+<!-- openclaw-memory-promotion:memory:memory/2026-05-18-payroll-ocr.md:116:116 -->
+- assistant: 收到！马上为您生成电子表格。 [score=0.824 recalls=0 avg=0.620 source=memory/2026-05-18-payroll-ocr.md:116-116]
+<!-- openclaw-memory-promotion:memory:memory/2026-05-18-payroll-ocr.md:121:121 -->
+- **核对结果：** [score=0.824 recalls=0 avg=0.620 source=memory/2026-05-18-payroll-ocr.md:121-121]
+<!-- openclaw-memory-promotion:memory:memory/2026-05-18-payroll-ocr.md:123:126 -->
+- | 序号 | 姓名 | 应发工资 | |:---:|:----:|:--------:| | 1 | 胡军 | 10,000 | | 2 | 张悦斌 | 5,000 | [score=0.824 recalls=0 avg=0.620 source=memory/2026-05-18-payroll-ocr.md:123-126]
+<!-- openclaw-memory-promotion:memory:memory/2026-05-18-payroll-ocr.md:127:130 -->
+- | 3 | 彭海冰 | 5,000 | | 4 | 刘国波 | 10,000 | | 5 | 王开生 | **1,000** | | 6 | 杨文 | **5,000** | [score=0.824 recalls=0 avg=0.620 source=memory/2026-05-18-payroll-ocr.md:127-130]
+<!-- openclaw-memory-promotion:memory:memory/2026-05-18-payroll-ocr.md:131:134 -->
+- | 7 | 李成洪 | 10,000 | | 8 | 刘加俊 | 10,000 | | 9 | 唐仕斌 | 10,000 | | 10 | 董朝喜 | 10,000 | [score=0.824 recalls=0 avg=0.620 source=memory/2026-05-18-payroll-ocr.md:131-134]
+<!-- openclaw-memory-promotion:memory:memory/2026-05-18-payroll-ocr.md:135:138 -->
+- | 11 | 唐泽 | 10,000 | | 12 | 唐蓉 | 10,000 | | 13 | 刘顺 | 10,000 | | 14 | 唐俊 | **0** | [score=0.824 recalls=0 avg=0.620 source=memory/2026-05-18-payroll-ocr.md:135-138]
+<!-- openclaw-memory-promotion:memory:memory/2026-05-18-payroll-ocr.md:139:140 -->
+- | 15 | 董朝军 | 15,000 | | | **合计** | **111,000** | [score=0.824 recalls=0 avg=0.620 source=memory/2026-05-18-payroll-ocr.md:139-140]
+<!-- openclaw-memory-promotion:memory:memory/2026-05-18-payroll-ocr.md:142:142 -->
+- 您写的合计是 **135,000**，但我逐行相加只得到 **111,000**，差了 **24,000 元**。 [score=0.824 recalls=0 avg=0.620 source=memory/2026-05-18-payroll-ocr.md:142-142]

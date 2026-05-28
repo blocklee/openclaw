@@ -5,7 +5,7 @@
   "compatRegistryVersion": "af8b17f09647983ae8ac5979bb70f87f862f1e9e343fe9eb85f4a11a135cfa17",
   "migrationVersion": 1,
   "policyHash": "8ea12aca9fffaa39c65643f53b79adf2fa03cd6fd91594ccf188aae1f9ef6046",
-  "generatedAtMs": 1779521441852,
+  "generatedAtMs": 1779900727293,
   "refreshReason": "migration",
   "installRecords": {
     "feishu": {

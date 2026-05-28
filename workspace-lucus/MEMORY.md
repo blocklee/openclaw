@@ -1,18 +1,6 @@
 # Long-Term Memory
 
 
-## Promoted From Short-Term Memory (2026-04-29)
-
-<!-- openclaw-memory-promotion:memory:memory/2026-04-22.md:206:208 -->
-- - Candidate: Possible Lasting Truths: Possible Lasting Truths: Assistant: ## 📊 Cron 任务运行状态检查报告 ### ✅ 数据库状态 - **数据库完整性**: ✅ 正常 - **上次修复时间**: 2026-04-10 16:22（约 15 分钟前） - **修复后运行**: ✅ 3/4 任务成功 ### 📋 任务执行情况 | 任务名称 | 状态 | 耗时 | 备注 | |---------|------|------|------| | config-backup-8am | ✅ succee - confidence: 0.62 - evidence: memory/2026-04-21.md:268-270 [score=0.845 recalls=0 avg=0.620 source=memory/2026-04-22.md:13-15]
-
-## Promoted From Short-Term Memory (2026-04-30)
-
-<!-- openclaw-memory-promotion:memory:memory/2026-04-23.md:168:170 -->
-- - Candidate: Possible Lasting Truths: Possible Lasting Truths: Assistant: ## 📊 Cron 任务运行状态检查报告 ### ✅ 数据库状态 - **数据库完整性**: ✅ 正常 - **上次修复时间**: 2026-04-10 16:22（约 15 分钟前） - **修复后运行**: ✅ 3/4 任务成功 ### 📋 任务执行情况 | 任务名称 | 状态 | 耗时 | 备注 | |---------|------|------|------| | config-backup-8am | ✅ succee - confidence: 0.62 - evidence: memory/2026-04-21.md:268-270 [score=0.867 recalls=0 avg=0.620 source=memory/2026-04-23.md:133-135]
-<!-- openclaw-memory-promotion:memory:memory/2026-04-24.md:179:181 -->
-- - Candidate: Possible Lasting Truths: Possible Lasting Truths: Assistant: ## 📊 Cron 任务运行状态检查报告 ### ✅ 数据库状态 - **数据库完整性**: ✅ 正常 - **上次修复时间**: 2026-04-10 16:22（约 15 分钟前） - **修复后运行**: ✅ 3/4 任务成功 ### 📋 任务执行情况 | 任务名称 | 状态 | 耗时 | 备注 | |---------|------|------|------| | config-backup-8am | ✅ succee - confidence: 0.62 - evidence: memory/2026-04-21.md:268-270 [score=0.856 recalls=0 avg=0.620 source=memory/2026-04-24.md:163-165]
-
 ## Promoted From Short-Term Memory (2026-05-01)
 
 <!-- openclaw-memory-promotion:memory:memory/2026-04-25.md:174:176 -->
@@ -59,3 +47,35 @@
 - assistant: [assistant turn failed before producing content] user: Conversation info (untrusted metadata): [score=0.837 recalls=0 avg=0.620 source=memory/2026-05-21-1923.md:49-50]
 <!-- openclaw-memory-promotion:memory:memory/2026-05-21-1923.md:57:59 -->
 - "sender": "ou_cb5c7afa7e77cafdeaeae1620a2a383a", "timestamp": "Thu 2026-05-21 19:01 UTC", "has_reply_context": true [score=0.837 recalls=0 avg=0.620 source=memory/2026-05-21-1923.md:57-59]
+
+## Promoted From Short-Term Memory (2026-05-27)
+
+<!-- openclaw-memory-promotion:memory:memory/2026-05-21-1923.md:94:94 -->
+- "timestamp": "Thu 2026-05-21 19:16 UTC" [score=0.900 recalls=0 avg=0.620 source=memory/2026-05-21-1923.md:94-94]
+<!-- openclaw-memory-promotion:memory:memory/2026-05-21-1923.md:107:108 -->
+- [message_id: om_x100b6fc1ec9af0a0ee8b2e813a36bad] ou_cb5c7afa7e77cafdeaeae1620a2a383a: 什么情况 [score=0.868 recalls=0 avg=0.620 source=memory/2026-05-21-1923.md:107-108]
+<!-- openclaw-memory-promotion:memory:memory/2026-05-21-1923.md:79:80 -->
+- [message_id: om_x100b6fc129c15934ee7b264b81a3a66] [score=0.866 recalls=0 avg=0.620 source=memory/2026-05-21-1923.md:79-79]
+<!-- openclaw-memory-promotion:memory:memory/2026-05-21-1923.md:75:75 -->
+- "body": "⚠️ Cron job \"config\\-backup\\-8am\" failed: EmbeddedAttemptSessionTakeoverError: session file changed while embedded prompt lock was released: /home/node/.openclaw/agents/main/sessions/e4936a00\\-5ae8\\-411e\\-b73b\\-5f2262f60553.jsonl" [score=0.863 recalls=0 avg=0.620 source=memory/2026-05-21-1923.md:75-75]
+<!-- openclaw-memory-promotion:memory:memory/2026-05-21-1923.md:29:31 -->
+- "label": "ou_cb5c7afa7e77cafdeaeae1620a2a383a", "id": "ou_cb5c7afa7e77cafdeaeae1620a2a383a", "name": "ou_cb5c7afa7e77cafdeaeae1620a2a383a" [score=0.858 recalls=0 avg=0.620 source=memory/2026-05-21-1923.md:29-31]
+<!-- openclaw-memory-promotion:memory:memory/2026-05-21-1923.md:45:48 -->
+- 请自检这是什么原因 assistant: [assistant turn failed before producing content] assistant: [assistant turn failed before producing content] assistant: [assistant turn failed before producing content] [score=0.834 recalls=0 avg=0.620 source=memory/2026-05-21-1923.md:45-48]
+<!-- openclaw-memory-promotion:memory:memory/2026-05-21-1923.md:63:63 -->
+- Sender (untrusted metadata): [score=0.834 recalls=0 avg=0.620 source=memory/2026-05-21-1923.md:63-63]
+<!-- openclaw-memory-promotion:memory:memory/2026-05-21-1923.md:72:72 -->
+- Reply target of current user message (untrusted, for context): [score=0.834 recalls=0 avg=0.620 source=memory/2026-05-21-1923.md:72-72]
+<!-- openclaw-memory-promotion:memory:memory/2026-05-21-1923.md:82:85 -->
+- 检查这里为何失败 assistant: [assistant turn failed before producing content] assistant: [assistant turn failed before producing content] assistant: [assistant turn failed before producing content] [score=0.812 recalls=0 avg=0.620 source=memory/2026-05-21-1923.md:82-85]
+
+## Promoted From Short-Term Memory (2026-05-28)
+
+<!-- openclaw-memory-promotion:memory:memory/2026-05-21-1923.md:86:87 -->
+- assistant: [assistant turn failed before producing content] user: Conversation info (untrusted metadata): [score=0.866 recalls=0 avg=0.620 source=memory/2026-05-21-1923.md:86-87]
+<!-- openclaw-memory-promotion:memory:memory/2026-05-21-1923.md:98:98 -->
+- Sender (untrusted metadata): [score=0.866 recalls=0 avg=0.620 source=memory/2026-05-21-1923.md:98-98]
+<!-- openclaw-memory-promotion:memory:memory/2026-05-21-1923.md:66:68 -->
+- "label": "ou_cb5c7afa7e77cafdeaeae1620a2a383a", "id": "ou_cb5c7afa7e77cafdeaeae1620a2a383a", "name": "ou_cb5c7afa7e77cafdeaeae1620a2a383a" [score=0.846 recalls=0 avg=0.620 source=memory/2026-05-21-1923.md:66-68]
+<!-- openclaw-memory-promotion:memory:memory/2026-05-21-1923.md:101:103 -->
+- "label": "ou_cb5c7afa7e77cafdeaeae1620a2a383a", "id": "ou_cb5c7afa7e77cafdeaeae1620a2a383a", "name": "ou_cb5c7afa7e77cafdeaeae1620a2a383a" [score=0.824 recalls=0 avg=0.620 source=memory/2026-05-21-1923.md:101-103]
