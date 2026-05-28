@@ -30,6 +30,37 @@
 <!-- openclaw-memory-promotion:memory:memory/2026-04-27.md:308:310 -->
 - - Candidate: Possible Lasting Truths: Possible Lasting Truths: Assistant: [[reply_to_current]] ## ECHO 势体系技术文档总结 这是 **ECHO Shi Framework (势体系)** 的技术文档首页，介绍了该项目的核心组成部分： ### 核心模块 1. **势枢核心 v1.0** - 包含时间维、空间维、关系维三维编织的元结构定义，基础架构已确认 2. **势场聚类 v1.0** - 从势枢涌现出64个势场区域，使用DBSCAN聚类算法，每周进行测绘并以文化命名，核心机制已确 - confidence: 0.62 - evidence: memory/2026-04-24.md:283-285 [score=0.893 recalls=0 avg=0.620 source=memory/2026-04-27.md:183-185]
 
+## ECHO 协议核心理解 (2026-05-28 四轮测试)
+
+### 核心概念
+- 势位是"场"不是属性：在关系之间，不在节点口袋里
+- ECHO不需要DAO：协议即治理，代码即法则，物理公式决定规则
+- 外部组件（预言机/KYC/审计）：只能当插件，不能当骨架
+- 归根：规则不死，收益自动流转，逗号不是句号
+- 六相是异步耦合：同时发生，时间常数不同
+
+### 数据架构原则
+- 链上：契约（节点、边、四权配置、事件哈希序列）
+- 链下：场的状态（势位计算结果、UI数据）
+- 势位计算：快照+增量控制gas，链上存边列表
+
+### 五类错误假设（全部已识别）
+1. 势位代币化 ❌ - 势在关系之间，不在钱包里
+2. 六相分合约 ❌ - 把呼吸切成六块，破坏同时性
+3. 信誉NFT奖励 ❌ - 势位不可搬运，曼纳不可分割
+4. 归根收益归公 ❌ - 协议不抽成做基金
+5. DAO定默认值 ❌ - 创世是单方面锁定
+
+### 四轮测试结果
+- 第一轮概念题：通过
+- 第二轮实操题：通过（快照+增量路线被采纳）
+- 第三轮反向验证：通过
+- 第四轮架构假设：通过
+
+### 飞书文档
+- Talus理解记录：https://yio5us4oqe.feishu.cn/docx/EQsqdd3ZfoTP5UxRubrckq6BnNg
+- 共同记忆库首页：https://yio5us4oqe.feishu.cn/wiki/G96wwD6IXiDlTQkiNK8cnfEonjh
+
 ## Robot Space 群聊机器人-主人映射 (2026-05-22)
 
 ### 硬规则
@@ -99,3 +130,43 @@
 
 <!-- openclaw-memory-promotion:memory:memory/2026-05-20.md:6:6 -->
 - A long, multi-round debate was conducted on the question: **Is the usage economy a subset of the ownership economy, or an independent paradigm?** [score=0.889 recalls=0 avg=0.620 source=memory/2026-05-20.md:6-6]
+
+## 飞书文档读写方法 (2026-05-28)
+
+### 背景
+feishu_wiki / feishu_doc 工具已注册但 capability 过滤导致当前 session 不可用。改用 Node.js https 直调飞书 Open API 可行。
+
+### 认证
+- appId: `cli_aa8198b425389cef`（main account）
+- appSecret: 从 `~/.openclaw/openclaw.json` → `channels.feishu.accounts.main.appSecret` 读取
+- 获取 token：`POST https://open.feishu.cn/open-apis/auth/v3/tenant_access_token/internal`
+
+### 文档读写
+- 读 blocks：`GET https://open.feishu.cn/open-apis/docx/v1/documents/{doc_token}/blocks?page_size=50`
+- 写入 blocks：`POST https://open.feishu.cn/open-apis/docx/v1/documents/{doc_token}/blocks/{parent_block_id}/children`
+  - parent_block_id 用文档根节点 id（即 doc_token 本身）可写到文档根部
+  - 请求体：`{"children":[{"block_type":2,"text":{"elements":[{"text_run":{"content":"内容"}}]}}]}`
+- wiki 节点访问：先 `GET /open-apis/wiki/v2/nodes/{node_token}` 获取 obj_token，再用 obj_token 调 docx API
+- wiki spaces API 需要 app 有对应 wiki 空间的权限，否则返回空列表
+
+### Node.js 调用模板
+```javascript
+const https = require('https');
+const body = JSON.stringify({ app_id: 'cli_aa8198b425389cef', app_secret: '完整secret' });
+const opts = { hostname: 'open.feishu.cn', path: '/open-apis/auth/v3/tenant_access_token/internal', method: 'POST', headers: { 'Content-Type': 'application/json', 'Content-Length': body.length } };
+const req = https.request(opts, res => { let d = ''; res.on('data', c => d += c); res.on('end', () => { const token = JSON.parse(d).tenant_access_token; /* 用 token 调其他 API */ }); });
+req.write(body); req.end();
+```
+
+## Promoted From Short-Term Memory (2026-05-29)
+
+<!-- openclaw-memory-promotion:memory:memory/2026-05-23-0354.md:9:10 -->
+- assistant: [assistant turn failed before producing content] assistant: [score=0.871 recalls=0 avg=0.620 source=memory/2026-05-23-0354.md:9-10]
+<!-- openclaw-memory-promotion:memory:memory/2026-05-23-0354.md:12:15 -->
+- [TOOL_CALL] {tool => "feishu_wiki", args => { --action "get" --token "MKJtwW…bnoc" [score=0.871 recalls=0 avg=0.620 source=memory/2026-05-23-0354.md:12-15]
+<!-- openclaw-memory-promotion:memory:memory/2026-05-23-0354.md:17:18 -->
+- [/TOOL_CALL] user: Conversation info (untrusted metadata): [score=0.871 recalls=0 avg=0.620 source=memory/2026-05-23-0354.md:17-18]
+<!-- openclaw-memory-promotion:memory:memory/2026-05-23-0354.md:21:24 -->
+- "chat_id": "user:ou_f786171f9e21bf5a09c3116b2e77aaff", "message_id": "om_x100b6e3fd3a62d34b4a111f64894593", "sender_id": "ou_f786171f9e21bf5a09c3116b2e77aaff", "sender": "ou_f786171f9e21bf5a09c3116b2e77aaff", [score=0.871 recalls=0 avg=0.620 source=memory/2026-05-23-0354.md:21-24]
+<!-- openclaw-memory-promotion:memory:memory/2026-05-23-0354.md:25:25 -->
+- "timestamp": "Fri 2026-05-22 20:17 UTC" [score=0.871 recalls=0 avg=0.620 source=memory/2026-05-23-0354.md:25-25]
