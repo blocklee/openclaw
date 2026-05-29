@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-05-27T19:00:30.370Z",
+  "updatedAt": "2026-05-28T19:00:32.408Z",
   "entries": {
     "memory:memory/2026-04-12.md:6:6": {
       "key": "memory:memory/2026-04-12.md:6:6",
@@ -11665,7 +11665,7 @@
       "startLine": 105,
       "endLine": 108,
       "source": "memory",
-      "snippet": "工资发放表（汇总）: 8 刘加俊 510821197107105011 62359926007034120 10000元 9 唐仕斌 510821199511025055 62359926006966553 10000元 10 董朝喜 570821200107105016 62359926007034112 10000元 11 唐泽 56821199308035012 62359936007034104 10000元",
+      "snippet": "8 刘加俊 510821197107105011 62359926007034120 10000元 9 唐仕斌 510821199511025055 62359926006966553 10000元 10 董朝喜 570821200107105016 62359926007034112 10000元 11 唐泽 56821199308035012 62359936007034104 10000元",
       "recallCount": 0,
       "dailyCount": 3,
       "groundedCount": 0,
@@ -11689,7 +11689,8 @@
         "ocr.md",
         "工资",
         "发放"
-      ]
+      ],
+      "promotedAt": "2026-05-28T19:00:32.408Z"
     },
     "memory:memory/2026-05-18-payroll-ocr.md:109:112": {
       "key": "memory:memory/2026-05-18-payroll-ocr.md:109:112",
@@ -11784,11 +11785,11 @@
         "2026-05-18-payroll-ocr.md",
         "payroll",
         "ocr.md",
-        "工资",
-        "发放",
         "收到",
         "马上",
-        "生成"
+        "生成",
+        "电子",
+        "表格"
       ],
       "promotedAt": "2026-05-27T19:00:30.370Z"
     },
@@ -11855,8 +11856,6 @@
         "2026-05-18-payroll-ocr.md",
         "payroll",
         "ocr.md",
-        "工资",
-        "发放",
         "核对",
         "结果"
       ],
@@ -11890,9 +11889,8 @@
         "2026-05-18-payroll-ocr.md",
         "payroll",
         "ocr.md",
-        "工资",
-        "发放",
         "姓名",
+        "工资",
         "10,000",
         "5,000"
       ],
@@ -11926,11 +11924,10 @@
         "2026-05-18-payroll-ocr.md",
         "payroll",
         "ocr.md",
-        "工资",
-        "发放",
         "5,000",
         "10,000",
-        "1,000"
+        "1,000",
+        "杨文"
       ],
       "promotedAt": "2026-05-27T19:00:30.370Z"
     },
@@ -11962,8 +11959,6 @@
         "2026-05-18-payroll-ocr.md",
         "payroll",
         "ocr.md",
-        "工资",
-        "发放",
         "10,000"
       ],
       "promotedAt": "2026-05-27T19:00:30.370Z"
@@ -11996,8 +11991,6 @@
         "2026-05-18-payroll-ocr.md",
         "payroll",
         "ocr.md",
-        "工资",
-        "发放",
         "10,000"
       ],
       "promotedAt": "2026-05-27T19:00:30.370Z"
@@ -12030,8 +12023,6 @@
         "2026-05-18-payroll-ocr.md",
         "payroll",
         "ocr.md",
-        "工资",
-        "发放",
         "15,000",
         "合计",
         "111,000"
@@ -12066,11 +12057,11 @@
         "2026-05-18-payroll-ocr.md",
         "payroll",
         "ocr.md",
-        "工资",
-        "发放",
         "写的",
         "合计",
-        "135,000"
+        "135,000",
+        "相加",
+        "得到"
       ],
       "promotedAt": "2026-05-27T19:00:30.370Z"
     },
@@ -12080,7 +12071,7 @@
       "startLine": 144,
       "endLine": 144,
       "source": "memory",
-      "snippet": "工资发放表（汇总）: **怀疑是这些数字看错了：**",
+      "snippet": "**怀疑是这些数字看错了：**",
       "recallCount": 0,
       "dailyCount": 3,
       "groundedCount": 0,
@@ -12107,7 +12098,8 @@
         "怀疑",
         "这些",
         "数字"
-      ]
+      ],
+      "promotedAt": "2026-05-28T19:00:32.408Z"
     },
     "memory:memory/2026-05-18-payroll-ocr.md:145:147": {
       "key": "memory:memory/2026-05-18-payroll-ocr.md:145:147",
@@ -14133,7 +14125,7 @@
       "startLine": 48,
       "endLine": 49,
       "source": "memory",
-      "snippet": "Conversation Summary: 我是想让你看看，飞书通道好像有点哑火了，被限流了似的 user: Conversation info (untrusted metadata):",
+      "snippet": "我是想让你看看，飞书通道好像有点哑火了，被限流了似的 user: Conversation info (untrusted metadata):",
       "recallCount": 0,
       "dailyCount": 4,
       "groundedCount": 0,
@@ -14160,7 +14152,8 @@
         "通道",
         "好像",
         "有点"
-      ]
+      ],
+      "promotedAt": "2026-05-28T19:00:32.408Z"
     },
     "memory:memory/2026-05-16-1516.md:52:54": {
       "key": "memory:memory/2026-05-16-1516.md:52:54",
@@ -18419,6 +18412,149 @@
         "主公",
         "有何",
         "吩咐"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-28.txt:15:15": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-28.txt:15:15",
+      "path": "memory/.dreams/session-corpus/2026-05-28.txt",
+      "startLine": 15,
+      "endLine": 15,
+      "source": "memory",
+      "snippet": "Assistant: 主公，我在。 午后唤军师，是有要事相商，还是有新战略需要推演？ [[reply_to_current]]",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-28T19:00:32.408Z",
+      "lastRecalledAt": "2026-05-28T19:00:32.408Z",
+      "queryHashes": [
+        "f9fcbbc6bd1e"
+      ],
+      "recallDays": [
+        "2026-05-29",
+        "2026-05-28"
+      ],
+      "conceptTags": [
+        "reply-to-current",
+        "主公",
+        "我在",
+        "午后",
+        "是有",
+        "还是",
+        "战略",
+        "需要"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-28.txt:16:16": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-28.txt:16:16",
+      "path": "memory/.dreams/session-corpus/2026-05-28.txt",
+      "startLine": 16,
+      "endLine": 16,
+      "source": "memory",
+      "snippet": "User: [message_id: om_x100b6e41a1f044a0eea6783f75d8e32] ou_9e18438fb941decf11a0b88d78fe2b50: 军师",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-28T19:00:32.408Z",
+      "lastRecalledAt": "2026-05-28T19:00:32.408Z",
+      "queryHashes": [
+        "f9fcbbc6bd1e"
+      ],
+      "recallDays": [
+        "2026-05-29",
+        "2026-05-28"
+      ],
+      "conceptTags": [
+        "message-id"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-28.txt:17:17": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-28.txt:17:17",
+      "path": "memory/.dreams/session-corpus/2026-05-28.txt",
+      "startLine": 17,
+      "endLine": 17,
+      "source": "memory",
+      "snippet": "Assistant: [[reply_to_current]] 在。军师待命，请主公发号施令。",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-28T19:00:32.408Z",
+      "lastRecalledAt": "2026-05-28T19:00:32.408Z",
+      "queryHashes": [
+        "f9fcbbc6bd1e"
+      ],
+      "recallDays": [
+        "2026-05-29",
+        "2026-05-28"
+      ],
+      "conceptTags": [
+        "reply-to-current",
+        "待命",
+        "主公"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-29.txt:1:1": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-29.txt:1:1",
+      "path": "memory/.dreams/session-corpus/2026-05-29.txt",
+      "startLine": 1,
+      "endLine": 1,
+      "source": "memory",
+      "snippet": "User: 星飞帆和菁护二段奶粉对比",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-28T19:00:32.408Z",
+      "lastRecalledAt": "2026-05-28T19:00:32.408Z",
+      "queryHashes": [
+        "0e934d1f0d1c"
+      ],
+      "recallDays": [
+        "2026-05-29",
+        "2026-05-28"
+      ],
+      "conceptTags": [
+        "二段",
+        "奶粉",
+        "对比"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-29.txt:2:2": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-29.txt:2:2",
+      "path": "memory/.dreams/session-corpus/2026-05-29.txt",
+      "startLine": 2,
+      "endLine": 2,
+      "source": "memory",
+      "snippet": "Assistant: 主公，这两块奶粉我了解有限，怕说错了误您判断。 给我一点时间，我去搜一下最新信息，稍后给您整理一份对比分析。 稍候。",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-28T19:00:32.408Z",
+      "lastRecalledAt": "2026-05-28T19:00:32.408Z",
+      "queryHashes": [
+        "0e934d1f0d1c"
+      ],
+      "recallDays": [
+        "2026-05-29",
+        "2026-05-28"
+      ],
+      "conceptTags": [
+        "主公",
+        "奶粉",
+        "了解",
+        "有限",
+        "判断",
+        "一点",
+        "时间",
+        "我去"
       ]
     }
   }

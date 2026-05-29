@@ -1,0 +1,4 @@
+[lucus/sessions/lucus/d0dd1392-685a-4216-8463-9eb1f41e6415.jsonl.reset.2026-05-28T11-47-37.277Z#L5] User: [message_id: om_x100b6e41bead6d30ee76d4fdf10ca24] ou_cb5c7afa7e77cafdeaeae1620a2a383a: 嗨
+[lucus/sessions/lucus/d0dd1392-685a-4216-8463-9eb1f41e6415.jsonl.reset.2026-05-28T11-47-37.277Z#L6] Assistant: 嗨，老板 👋
+[lucus/sessions/lucus/dd67cef5-d278-43b6-8bd4-ab4ee4af5242.jsonl#L5] User: [message_id: om_x100b6eb6fbe5e8a0ee80c6d3c82d899] ou_cb5c7afa7e77cafdeaeae1620a2a383a: hi
+[lucus/sessions/lucus/dd67cef5-d278-43b6-8bd4-ab4ee4af5242.jsonl#L8] Assistant: hey老大 ⚙️

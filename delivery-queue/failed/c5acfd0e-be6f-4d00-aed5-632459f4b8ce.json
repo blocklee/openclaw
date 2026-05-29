@@ -1,0 +1,41 @@
+{
+  "id": "c5acfd0e-be6f-4d00-aed5-632459f4b8ce",
+  "enqueuedAt": 1779955383536,
+  "channel": "feishu",
+  "to": "user:ou_cb5c7afa7e77cafdeaeae1620a2a383a",
+  "accountId": "lucus",
+  "payloads": [
+    {
+      "text": "⚠️ Cron job \"config-backup-8am\" failed: EmbeddedAttemptSessionTakeoverError: session file changed while embedded prompt lock was released: /home/node/.openclaw/agents/main/sessions/64a5545c-f7f8-4503-85ef-042c798e3b21.jsonl"
+    }
+  ],
+  "renderedBatchPlan": {
+    "payloadCount": 1,
+    "textCount": 1,
+    "mediaCount": 0,
+    "voiceCount": 0,
+    "presentationCount": 0,
+    "interactiveCount": 0,
+    "channelDataCount": 0,
+    "items": [
+      {
+        "index": 0,
+        "kinds": [
+          "text"
+        ],
+        "text": "⚠️ Cron job \"config-backup-8am\" failed: EmbeddedAttemptSessionTakeoverError: session file changed while embedded prompt lock was released: /home/node/.openclaw/agents/main/sessions/64a5545c-f7f8-4503-85ef-042c798e3b21.jsonl",
+        "mediaUrls": []
+      }
+    ]
+  },
+  "bestEffort": false,
+  "session": {
+    "key": "cron:config-backup-8am:failure",
+    "agentId": "main"
+  },
+  "retryCount": 1,
+  "platformSendStartedAt": 1779955383613,
+  "recoveryState": "send_attempt_started",
+  "lastAttemptAt": 1779955384149,
+  "lastError": "Feishu send failed: {\"message\":\"Request failed with status code 429\",\"code\":\"ERR_BAD_REQUEST\",\"method\":\"post\",\"url\":\"https://open.larksuite.com/open-apis/im/v1/messages\",\"http_status\":429,\"feishu_code\":99991403,\"feishu_msg\":\"This month's API call quota has been exceeded\",\"feishu_log_id\":\"202605281603034790E0D101870E48109A\"} | Request failed with status code 429 | Feishu send failed: {\"message\":\"Request failed with status code 429\",\"code\":\"ERR_BAD_REQUEST\",\"method\":\"post\",\"url\":\"https://open.larksuite.com/open-apis/im/v1/messages\",\"http_status\":429,\"feishu_code\":99991403,\"feishu_msg\":\"This month's API call quota has been exceeded\",\"feishu_log_id\":\"202605281603034790E0D101870E48109A\"} | Request failed with status code 429"
+}

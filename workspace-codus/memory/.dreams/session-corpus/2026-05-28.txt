@@ -1,0 +1,6 @@
+[codus/sessions/codus/6f106454-d9f1-45c0-815e-ced04d5ffe80.jsonl#L5] User: [message_id: om_x100b6e4fab1d9ca8ee794caa0aed324] 听风: 嗨
+[codus/sessions/codus/6f106454-d9f1-45c0-815e-ced04d5ffe80.jsonl#L8] Assistant: 开发者你好！👋 我是 Codus，全栈 + 智能合约工程师。前端、后端、合约开发都可以聊，有什么能帮你的？
+[codus/sessions/codus/7876a23b-5574-4d98-bf8b-1d70849b7b4d.jsonl.reset.2026-05-28T04-02-41.775Z#L5] User: [message_id: om_x100b6e41be2ba130ee83fc7864e32ea] 听风: 嗨
+[codus/sessions/codus/7876a23b-5574-4d98-bf8b-1d70849b7b4d.jsonl.reset.2026-05-28T04-02-41.775Z#L9] Assistant: 嗨，听风！👋 我是 Codus，专注全栈开发 + 智能合约。前端 React/Next.js、后端 Node.js/Python/Go、合约 Solidity/Foundry 都能聊。 有什么可以帮你的？写合约、搭 DApp、审代码，还是别的需求？
+[codus/sessions/codus/7876a23b-5574-4d98-bf8b-1d70849b7b4d.jsonl.reset.2026-05-28T04-02-41.775Z#L10] User: [message_id: om_x100b6e41b61dc8a0ee8a6b12cd40f90] 听风: 你现在用的什么模型呢
+[codus/sessions/codus/7876a23b-5574-4d98-bf8b-1d70849b7b4d.jsonl.reset.2026-05-28T04-02-41.775Z#L11] Assistant: 目前用的是 **NVIDIA DeepSeek V4 Pro**（`nvidia/deepseek-ai/deepseek-v4-pro`）。 有什么需要我帮你搞定的吗，开发者？🔗

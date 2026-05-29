@@ -1,12 +1,19 @@
 {
   "version": 3,
   "files": {
-    "codus:sessions/codus/3731d4ce-2b36-479a-81a3-34b88bd80cee.jsonl.reset.2026-05-18T12-51-17.228Z": {
-      "mtimeMs": 1777197816611,
-      "size": 178872,
-      "contentHash": "be3c321904440a944b5ac8fb698751e782589631374ae85efd9aa7fea7f5f70b",
-      "lineCount": 5,
-      "lastContentLine": 5
+    "codus:sessions/codus/6f106454-d9f1-45c0-815e-ced04d5ffe80.jsonl": {
+      "mtimeMs": 1779940980501,
+      "size": 4060,
+      "contentHash": "5c1e490a2c0a72199d24a346a8c83d881c6373159dc2a9a9a4876579184fa3b7",
+      "lineCount": 2,
+      "lastContentLine": 2
+    },
+    "codus:sessions/codus/7876a23b-5574-4d98-bf8b-1d70849b7b4d.jsonl.reset.2026-05-28T04-02-41.775Z": {
+      "mtimeMs": 1779916722631,
+      "size": 6538,
+      "contentHash": "778a1a4057f7f7964a0f1c02ebf8d3d25c9aec862d399fe34ef93c113edc2a26",
+      "lineCount": 4,
+      "lastContentLine": 4
     },
     "codus:sessions/codus/8b5b6fb7-a4af-4f15-bbe1-9d97a9f89810.jsonl.reset.2026-05-20T17-12-51.149Z": {
       "mtimeMs": 1779109141040,
@@ -14,20 +21,6 @@
       "contentHash": "5eeda1da6eebd869b50c8880d059e38d93c3922efa9359f1203b43c92bc326c1",
       "lineCount": 13,
       "lastContentLine": 13
-    },
-    "codus:sessions/codus/a43a2231-f818-447b-a1f3-e60382ea8819.jsonl.deleted.2026-05-18T12-51-17.197Z": {
-      "mtimeMs": 1776357293930,
-      "size": 36035,
-      "contentHash": "25c2fb0eed5af501d6aa5ba04b3abee684f18a5b6e95afbca2a063d5850631d1",
-      "lineCount": 2,
-      "lastContentLine": 2
-    },
-    "codus:sessions/codus/d4a365cc-ab82-4f56-9151-307856d59727.jsonl.deleted.2026-05-18T12-51-17.198Z": {
-      "mtimeMs": 1776612855877,
-      "size": 242889,
-      "contentHash": "8059b354761758c9622506310fdddf8b89cd2744dab4147488daad488c9772f6",
-      "lineCount": 11,
-      "lastContentLine": 11
     },
     "codus:sessions/codus/f2903044-0dbe-4362-9515-90dc2bffb4e6.jsonl.reset.2026-05-26T09-22-10.956Z": {
       "mtimeMs": 1779405088310,
@@ -341,6 +334,16 @@
       "e36318d35d2e5b7a139047a8ff8781e7e4120d1b",
       "4176d0e5da6f48d40a52ce71561b87df46f417ef",
       "333424c26ae216e49c8bb335ed90af43f4bfbe42"
+    ],
+    "codus:6f106454-d9f1-45c0-815e-ced04d5ffe80": [
+      "f525ac818c228e3d9fc7977dba803f169d478ab8",
+      "f00adbfbbcb3a122e502de23dff5a260d361cc3d"
+    ],
+    "codus:7876a23b-5574-4d98-bf8b-1d70849b7b4d": [
+      "ef6871744dbcd7bc5473e46b4649b7a26c436fbf",
+      "1a0fa5c3dd645ec088d604ca4cc65c81a0f90f80",
+      "11d2aa2c81da7bf42d0df991b3fda26818c9606e",
+      "9ad744eba41cd414788a2ad5ded4f6c79f1b07a0"
     ]
   }
 }

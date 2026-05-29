@@ -80,3 +80,12 @@
 - | 15 | 董朝军 | 15,000 | | | **合计** | **111,000** | [score=0.824 recalls=0 avg=0.620 source=memory/2026-05-18-payroll-ocr.md:139-140]
 <!-- openclaw-memory-promotion:memory:memory/2026-05-18-payroll-ocr.md:142:142 -->
 - 您写的合计是 **135,000**，但我逐行相加只得到 **111,000**，差了 **24,000 元**。 [score=0.824 recalls=0 avg=0.620 source=memory/2026-05-18-payroll-ocr.md:142-142]
+
+## Promoted From Short-Term Memory (2026-05-29)
+
+<!-- openclaw-memory-promotion:memory:memory/2026-05-18-payroll-ocr.md:144:144 -->
+- **怀疑是这些数字看错了：** [score=0.818 recalls=0 avg=0.620 source=memory/2026-05-18-payroll-ocr.md:144-144]
+<!-- openclaw-memory-promotion:memory:memory/2026-05-18-payroll-ocr.md:105:108 -->
+- 8 刘加俊 510821197107105011 62359926007034120 10000元 9 唐仕斌 510821199511025055 62359926006966553 10000元 10 董朝喜 570821200107105016 62359926007034112 10000元 11 唐泽 56821199308035012 62359936007034104 10000元 [score=0.808 recalls=0 avg=0.620 source=memory/2026-05-18-payroll-ocr.md:105-108]
+<!-- openclaw-memory-promotion:memory:memory/2026-05-16-1516.md:48:49 -->
+- 我是想让你看看，飞书通道好像有点哑火了，被限流了似的 user: Conversation info (untrusted metadata): [score=0.806 recalls=0 avg=0.620 source=memory/2026-05-16-1516.md:48-49]

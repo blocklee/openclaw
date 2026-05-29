@@ -1,0 +1,41 @@
+{
+  "id": "e11dcc16-af24-4482-92c0-01b9a651481e",
+  "enqueuedAt": 1779926774347,
+  "channel": "feishu",
+  "to": "user:ou_cb5c7afa7e77cafdeaeae1620a2a383a",
+  "accountId": "lucus",
+  "payloads": [
+    {
+      "text": "⚠️ Cron job \"daily-backup\" failed: EmbeddedAttemptSessionTakeoverError: session file changed while embedded prompt lock was released: /home/node/.openclaw/agents/main/sessions/566c1b66-752f-4060-ab0d-b985dc61cee4.jsonl"
+    }
+  ],
+  "renderedBatchPlan": {
+    "payloadCount": 1,
+    "textCount": 1,
+    "mediaCount": 0,
+    "voiceCount": 0,
+    "presentationCount": 0,
+    "interactiveCount": 0,
+    "channelDataCount": 0,
+    "items": [
+      {
+        "index": 0,
+        "kinds": [
+          "text"
+        ],
+        "text": "⚠️ Cron job \"daily-backup\" failed: EmbeddedAttemptSessionTakeoverError: session file changed while embedded prompt lock was released: /home/node/.openclaw/agents/main/sessions/566c1b66-752f-4060-ab0d-b985dc61cee4.jsonl",
+        "mediaUrls": []
+      }
+    ]
+  },
+  "bestEffort": false,
+  "session": {
+    "key": "cron:1c3a7bd5-d835-41d8-a14a-d2970f13d503:failure",
+    "agentId": "main"
+  },
+  "retryCount": 1,
+  "platformSendStartedAt": 1779926774396,
+  "recoveryState": "send_attempt_started",
+  "lastAttemptAt": 1779926774769,
+  "lastError": "Feishu send failed: {\"message\":\"Request failed with status code 429\",\"code\":\"ERR_BAD_REQUEST\",\"method\":\"post\",\"url\":\"https://open.larksuite.com/open-apis/im/v1/messages\",\"http_status\":429,\"feishu_code\":99991403,\"feishu_msg\":\"This month's API call quota has been exceeded\",\"feishu_log_id\":\"20260528080614EBE76DD8E82A26FCBD37\"} | Request failed with status code 429 | Feishu send failed: {\"message\":\"Request failed with status code 429\",\"code\":\"ERR_BAD_REQUEST\",\"method\":\"post\",\"url\":\"https://open.larksuite.com/open-apis/im/v1/messages\",\"http_status\":429,\"feishu_code\":99991403,\"feishu_msg\":\"This month's API call quota has been exceeded\",\"feishu_log_id\":\"20260528080614EBE76DD8E82A26FCBD37\"} | Request failed with status code 429"
+}

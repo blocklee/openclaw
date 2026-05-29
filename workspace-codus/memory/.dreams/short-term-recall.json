@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-05-22T19:00:13.994Z",
+  "updatedAt": "2026-05-28T19:00:33.288Z",
   "entries": {
     "memory:memory/.dreams/session-corpus/2026-04-11.txt:1:1": {
       "key": "memory:memory/.dreams/session-corpus/2026-04-11.txt:1:1",
@@ -9360,6 +9360,180 @@
         "唯一",
         "标识",
         "显示"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-28.txt:1:1": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-28.txt:1:1",
+      "path": "memory/.dreams/session-corpus/2026-05-28.txt",
+      "startLine": 1,
+      "endLine": 1,
+      "source": "memory",
+      "snippet": "User: [message_id: om_x100b6e4fab1d9ca8ee794caa0aed324] 听风: 嗨",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-28T19:00:33.067Z",
+      "lastRecalledAt": "2026-05-28T19:00:33.067Z",
+      "queryHashes": [
+        "f9fcbbc6bd1e"
+      ],
+      "recallDays": [
+        "2026-05-29",
+        "2026-05-28"
+      ],
+      "conceptTags": [
+        "message-id"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-28.txt:2:2": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-28.txt:2:2",
+      "path": "memory/.dreams/session-corpus/2026-05-28.txt",
+      "startLine": 2,
+      "endLine": 2,
+      "source": "memory",
+      "snippet": "Assistant: 开发者你好！👋 我是 Codus，全栈 + 智能合约工程师。前端、后端、合约开发都可以聊，有什么能帮你的？",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-28T19:00:33.067Z",
+      "lastRecalledAt": "2026-05-28T19:00:33.067Z",
+      "queryHashes": [
+        "f9fcbbc6bd1e"
+      ],
+      "recallDays": [
+        "2026-05-29",
+        "2026-05-28"
+      ],
+      "conceptTags": [
+        "开发",
+        "你好",
+        "我是",
+        "codus",
+        "智能",
+        "合约",
+        "工程",
+        "前端"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-28.txt:3:3": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-28.txt:3:3",
+      "path": "memory/.dreams/session-corpus/2026-05-28.txt",
+      "startLine": 3,
+      "endLine": 3,
+      "source": "memory",
+      "snippet": "User: [message_id: om_x100b6e41be2ba130ee83fc7864e32ea] 听风: 嗨",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-28T19:00:33.067Z",
+      "lastRecalledAt": "2026-05-28T19:00:33.067Z",
+      "queryHashes": [
+        "f9fcbbc6bd1e"
+      ],
+      "recallDays": [
+        "2026-05-29",
+        "2026-05-28"
+      ],
+      "conceptTags": [
+        "message-id"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-28.txt:4:4": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-28.txt:4:4",
+      "path": "memory/.dreams/session-corpus/2026-05-28.txt",
+      "startLine": 4,
+      "endLine": 4,
+      "source": "memory",
+      "snippet": "Assistant: 嗨，听风！👋 我是 Codus，专注全栈开发 + 智能合约。前端 React/Next.js、后端 Node.js/Python/Go、合约 Solidity/Foundry 都能聊。 有什么可以帮你的？写合约、搭 DApp、审代码，还是别的需求？",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-28T19:00:33.067Z",
+      "lastRecalledAt": "2026-05-28T19:00:33.067Z",
+      "queryHashes": [
+        "f9fcbbc6bd1e"
+      ],
+      "recallDays": [
+        "2026-05-29",
+        "2026-05-28"
+      ],
+      "conceptTags": [
+        "react/next.js",
+        "node.js/python/go",
+        "solidity/foundry",
+        "我是",
+        "codus",
+        "专注",
+        "开发",
+        "智能"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-28.txt:5:5": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-28.txt:5:5",
+      "path": "memory/.dreams/session-corpus/2026-05-28.txt",
+      "startLine": 5,
+      "endLine": 5,
+      "source": "memory",
+      "snippet": "User: [message_id: om_x100b6e41b61dc8a0ee8a6b12cd40f90] 听风: 你现在用的什么模型呢",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-28T19:00:33.067Z",
+      "lastRecalledAt": "2026-05-28T19:00:33.067Z",
+      "queryHashes": [
+        "f9fcbbc6bd1e"
+      ],
+      "recallDays": [
+        "2026-05-29",
+        "2026-05-28"
+      ],
+      "conceptTags": [
+        "message-id",
+        "现在",
+        "什么",
+        "模型"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-28.txt:6:6": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-28.txt:6:6",
+      "path": "memory/.dreams/session-corpus/2026-05-28.txt",
+      "startLine": 6,
+      "endLine": 6,
+      "source": "memory",
+      "snippet": "Assistant: 目前用的是 **NVIDIA DeepSeek V4 Pro**（`nvidia/deepseek-ai/deepseek-v4-pro`）。 有什么需要我帮你搞定的吗，开发者？🔗",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-28T19:00:33.067Z",
+      "lastRecalledAt": "2026-05-28T19:00:33.067Z",
+      "queryHashes": [
+        "f9fcbbc6bd1e"
+      ],
+      "recallDays": [
+        "2026-05-29",
+        "2026-05-28"
+      ],
+      "conceptTags": [
+        "目前",
+        "的是",
+        "nvidia",
+        "deepseek",
+        "pro",
+        "什么",
+        "需要",
+        "搞定"
       ]
     }
   }

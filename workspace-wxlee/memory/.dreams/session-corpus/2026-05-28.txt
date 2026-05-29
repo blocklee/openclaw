@@ -12,3 +12,6 @@
 [wxlee/sessions/wxlee/c0441341-3a10-4c9a-98b2-7adacd61deed.jsonl#L17] Assistant: [assistant turn failed before producing content]
 [wxlee/sessions/wxlee/c0441341-3a10-4c9a-98b2-7adacd61deed.jsonl#L19] User: [message_id: om_x100b6e46608e8ca0eea0649ecbdcd8d] ou_9e18438fb941decf11a0b88d78fe2b50: 活了没
 [wxlee/sessions/wxlee/c0441341-3a10-4c9a-98b2-7adacd61deed.jsonl#L20] Assistant: [[reply_to_current]] 在的。主公有何吩咐？
+[wxlee/sessions/wxlee/04af3f3e-d79c-4075-a1e2-01803d1d520e.jsonl#L6] Assistant: 主公，我在。 午后唤军师，是有要事相商，还是有新战略需要推演？ [[reply_to_current]]
+[wxlee/sessions/wxlee/c0441341-3a10-4c9a-98b2-7adacd61deed.jsonl#L21] User: [message_id: om_x100b6e41a1f044a0eea6783f75d8e32] ou_9e18438fb941decf11a0b88d78fe2b50: 军师
+[wxlee/sessions/wxlee/c0441341-3a10-4c9a-98b2-7adacd61deed.jsonl#L22] Assistant: [[reply_to_current]] 在。军师待命，请主公发号施令。

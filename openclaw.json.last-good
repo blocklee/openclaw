@@ -1,7 +1,7 @@
 {
   "meta": {
     "lastTouchedVersion": "2026.5.19",
-    "lastTouchedAt": "2026-05-27T16:53:40.674Z"
+    "lastTouchedAt": "2026-05-28T11:59:46.579Z"
   },
   "env": {
     "OPENROUTER_API_KEY": "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",
@@ -382,6 +382,19 @@
             "nvidia/minimaxai/minimax-m2.7"
           ]
         }
+      },
+      {
+        "id": "custor",
+        "name": "custor",
+        "workspace": "/home/node/.openclaw/workspace-custor",
+        "agentDir": "/home/node/.openclaw/agents/custor/agent",
+	"model": {
+	  "primary": "google/gemini-2.5-flash",
+	  "fallbacks": [
+	    "minimax-portal/MiniMax-M2.7",
+	    "zai/glm-4.7-flash"
+	  ]
+	}
       }
     ]
   },
@@ -455,6 +468,14 @@
       "match": {
         "channel": "feishu",
         "accountId": "xiaoye"
+      }
+    },
+    {
+      "type": "route",
+      "agentId": "custor",
+      "match": {
+      	"channel": "feishu",
+	"accountId": "custor"
       }
     }
   ],
@@ -542,6 +563,12 @@
           "name": "xiaoye",
           "domain": "lark"
         },
+	"custor": {
+	  "appId": "cli_aa985d88e5f85cc5",
+	  "appSecret": "P4G9TiSfCZVKCy3me44GfekdyDYjCCFg",
+	  "name": "Custor",
+	  "domain": "feishu"
+	},
         "default": {
           "dmPolicy": "pairing",
           "groupPolicy": "open"
