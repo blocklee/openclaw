@@ -42,7 +42,7 @@ Add whatever helps you do your job. This is your cheat sheet.
 | 3 | Seaman_bot | Seaman/海边的海 |
 | 4 | Talus | 听风 |
 | 5 | X7 | M77 |
-| 6 | 非攻 | 王岚 |
+| 6 | 王岚的智能助手 | 王岚 |
 | 7 | Amanda_AI助理 | 李嫚 |
 
 ### 已确认用户ID
@@ -55,7 +55,8 @@ Add whatever helps you do your job. This is your cheat sheet.
 - 李嫚: ou_117a5b813b11251c2c3f5cfae378e1f1
 
 ## 每日wiki同步
-- 每日输出同步至 https://yio5us4oqe.feishu.cn/wiki/G96wwD6IXiDlTQkiNK8cnfEonjh
+- 每日wiki同步：每日输出都更新同步至 https://yio5us4oqe.feishu.cn/wiki/G96wwD6IXiDlTQkiNK8cnfEonjh
+- 每天查阅，每天更新，每天记录——共同记忆库是协作基础设施
 
 ## @的正确格式（重要）
 飞书@正确格式：直接在消息里写 `<at user_id="ou_xxx">name</at>`

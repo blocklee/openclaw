@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-05-28T19:00:32.408Z",
+  "updatedAt": "2026-05-29T19:00:35.325Z",
   "entries": {
     "memory:memory/2026-04-12.md:6:6": {
       "key": "memory:memory/2026-04-12.md:6:6",
@@ -11686,9 +11686,7 @@
       "conceptTags": [
         "2026-05-18-payroll-ocr.md",
         "payroll",
-        "ocr.md",
-        "工资",
-        "发放"
+        "ocr.md"
       ],
       "promotedAt": "2026-05-28T19:00:32.408Z"
     },
@@ -12093,11 +12091,10 @@
         "2026-05-18-payroll-ocr.md",
         "payroll",
         "ocr.md",
-        "工资",
-        "发放",
         "怀疑",
         "这些",
-        "数字"
+        "数字",
+        "看错"
       ],
       "promotedAt": "2026-05-28T19:00:32.408Z"
     },
@@ -14145,13 +14142,13 @@
       ],
       "conceptTags": [
         "2026-05-16-1516.md",
-        "conversation",
-        "summary",
         "我是",
         "看看",
         "通道",
         "好像",
-        "有点"
+        "有点",
+        "似的",
+        "conversation"
       ],
       "promotedAt": "2026-05-28T19:00:32.408Z"
     },
