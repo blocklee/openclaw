@@ -1,0 +1,14 @@
+{
+  "network": "qngMainnet",
+  "deployer": "0xd300C861cD5B16b01270Dd53899Fd1d71a87223a",
+  "cardNFT": "0x534EAfC0F94FdA8F632F99BeDA2d11c6017963d3",
+  "battleGame": "0xE4a161e8892aeA51f026dD4f2C7c7A3a855b5aD3",
+  "echoContracts": {
+    "creatorConfig": "0x41BC79f909D8e6Cd132Bf46247f9b230FE7FBc3F",
+    "edgeDeclaration": "0xC54e1B665c61b2Dc9831dc5a1C4D22670bea3C4a",
+    "milestoneEscrow": "0x1C2f10Df5a07b4bfa8D189C5c65EE5748Ba2AEf2"
+  },
+  "cardNFTTx": "0x22f3421b4f26e71c4f766c27fddec7bce1742cf95c9a60e6425304e4653318ed",
+  "battleGameTx": "0x07274caeca376281e1046aaf1af3467b96e79b2eef06989cb4c7ad383bdaa722",
+  "timestamp": 1780080977086
+}

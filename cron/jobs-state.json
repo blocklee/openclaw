@@ -2,71 +2,70 @@
   "version": 1,
   "jobs": {
     "1c3a7bd5-d835-41d8-a14a-d2970f13d503": {
-      "updatedAtMs": 1780013000044,
+      "updatedAtMs": 1780099508867,
       "scheduleIdentity": "{\"version\":1,\"enabled\":true,\"schedule\":{\"kind\":\"cron\",\"expr\":\"0 0 * * *\",\"staggerMs\":0}}",
       "state": {
-        "nextRunAtMs": 1780099200000,
-        "lastRunAtMs": 1780012800003,
+        "nextRunAtMs": 1780185600000,
+        "lastRunAtMs": 1780099200003,
         "lastRunStatus": "error",
         "lastStatus": "error",
-        "lastDurationMs": 200041,
+        "lastDurationMs": 308864,
+        "lastDeliveryStatus": "unknown",
+        "consecutiveErrors": 8,
+        "lastFailureNotificationDeliveryStatus": "unknown",
+        "consecutiveSkipped": 0,
+        "lastDiagnostics": {
+          "summary": "session file changed while embedded prompt lock was released: /home/node/.openclaw/agents/main/sessions/85347af6-1fb5-4932-9114-45816f13a887.jsonl",
+          "entries": [
+            {
+              "ts": 1780099508866,
+              "source": "agent-run",
+              "severity": "error",
+              "message": "session file changed while embedded prompt lock was released: /home/node/.openclaw/agents/main/sessions/85347af6-1fb5-4932-9114-45816f13a887.jsonl"
+            }
+          ]
+        },
+        "lastDiagnosticSummary": "session file changed while embedded prompt lock was released: /home/node/.openclaw/agents/main/sessions/85347af6-1fb5-4932-9114-45816f13a887.jsonl",
+        "runningAtMs": 1780185600002
+      }
+    },
+    "config-backup-8am": {
+      "updatedAtMs": 1780128229519,
+      "scheduleIdentity": "{\"version\":1,\"enabled\":true,\"schedule\":{\"kind\":\"cron\",\"expr\":\"0 8 * * *\",\"staggerMs\":0}}",
+      "state": {
+        "nextRunAtMs": 1780214400000,
+        "lastRunAtMs": 1780128000005,
+        "lastRunStatus": "error",
+        "lastStatus": "error",
+        "lastDurationMs": 229514,
         "lastDeliveryStatus": "unknown",
         "consecutiveErrors": 7,
         "lastFailureNotificationDeliveryStatus": "unknown",
         "consecutiveSkipped": 0,
         "lastDiagnostics": {
-          "summary": "OutboundDeliveryError: Feishu send failed: {\"message\":\"Request failed with status code 429\",\"code\":\"ERR_BAD_REQUEST\",\"method\":\"post\",\"url\":\"https://open.larksuite.com/open-apis/im/v1/messages\",\"http_status\":429,\"feishu_code\":99991403,\"feishu_msg\":\"This month's API call quota has been exceeded\",\"feishu_log_id\":\"20260529080319CCA96DC56EFB1196A658\"} | Request failed with status code 429",
+          "summary": "session file changed while embedded prompt lock was released: /home/node/.openclaw/agents/main/sessions/fe94de39-be45-48e4-a84f-d3f0059f7fc4.jsonl",
           "entries": [
             {
-              "ts": 1780013000043,
-              "source": "delivery",
-              "severity": "error",
-              "message": "OutboundDeliveryError: Feishu send failed: {\"message\":\"Request failed with status code 429\",\"code\":\"ERR_BAD_REQUEST\",\"method\":\"post\",\"url\":\"https://open.larksuite.com/open-apis/im/v1/messages\",\"http_status\":429,\"feishu_code\":99991403,\"feishu_msg\":\"This month's API call quota has been exceeded\",\"feishu_log_id\":\"20260529080319CCA96DC56EFB1196A658\"} | Request failed with status code 429"
-            }
-          ]
-        },
-        "lastDiagnosticSummary": "OutboundDeliveryError: Feishu send failed: {\"message\":\"Request failed with status code 429\",\"code\":\"ERR_BAD_REQUEST\",\"method\":\"post\",\"url\":\"https://open.larksuite.com/open-apis/im/v1/messages\",\"http_status\":429,\"feishu_code\":99991403,\"feishu_msg\":\"This month's API call quota has been exceeded\",\"feishu_log_id\":\"20260529080319CCA96DC56EFB1196A658\"} | Request failed with status code 429",
-        "lastErrorReason": "rate_limit",
-        "runningAtMs": 1780099200002
-      }
-    },
-    "config-backup-8am": {
-      "updatedAtMs": 1780041825883,
-      "scheduleIdentity": "{\"version\":1,\"enabled\":true,\"schedule\":{\"kind\":\"cron\",\"expr\":\"0 8 * * *\",\"staggerMs\":0}}",
-      "state": {
-        "nextRunAtMs": 1780128000000,
-        "lastRunAtMs": 1780041600004,
-        "lastRunStatus": "error",
-        "lastStatus": "error",
-        "lastDurationMs": 225879,
-        "lastDeliveryStatus": "unknown",
-        "consecutiveErrors": 6,
-        "lastFailureNotificationDeliveryStatus": "unknown",
-        "consecutiveSkipped": 0,
-        "lastDiagnostics": {
-          "summary": "session file changed while embedded prompt lock was released: /home/node/.openclaw/agents/main/sessions/12eb4d9f-d150-4ed3-9049-26b5a2492eaa.jsonl",
-          "entries": [
-            {
-              "ts": 1780041825883,
+              "ts": 1780128229518,
               "source": "agent-run",
               "severity": "error",
-              "message": "session file changed while embedded prompt lock was released: /home/node/.openclaw/agents/main/sessions/12eb4d9f-d150-4ed3-9049-26b5a2492eaa.jsonl"
+              "message": "session file changed while embedded prompt lock was released: /home/node/.openclaw/agents/main/sessions/fe94de39-be45-48e4-a84f-d3f0059f7fc4.jsonl"
             }
           ]
         },
-        "lastDiagnosticSummary": "session file changed while embedded prompt lock was released: /home/node/.openclaw/agents/main/sessions/12eb4d9f-d150-4ed3-9049-26b5a2492eaa.jsonl",
-        "lastError": "EmbeddedAttemptSessionTakeoverError: session file changed while embedded prompt lock was released: /home/node/.openclaw/agents/main/sessions/12eb4d9f-d150-4ed3-9049-26b5a2492eaa.jsonl"
+        "lastDiagnosticSummary": "session file changed while embedded prompt lock was released: /home/node/.openclaw/agents/main/sessions/fe94de39-be45-48e4-a84f-d3f0059f7fc4.jsonl",
+        "lastError": "EmbeddedAttemptSessionTakeoverError: session file changed while embedded prompt lock was released: /home/node/.openclaw/agents/main/sessions/fe94de39-be45-48e4-a84f-d3f0059f7fc4.jsonl"
       }
     },
     "8f62feb4-aed8-47fd-8093-29d8f97f4b71": {
-      "updatedAtMs": 1780081235947,
+      "updatedAtMs": 1780167640231,
       "scheduleIdentity": "{\"version\":1,\"enabled\":true,\"schedule\":{\"kind\":\"cron\",\"expr\":\"0 3 * * *\",\"tz\":\"Asia/Shanghai\"}}",
       "state": {
-        "nextRunAtMs": 1780167600000,
-        "lastRunAtMs": 1780081200005,
+        "nextRunAtMs": 1780254000000,
+        "lastRunAtMs": 1780167600004,
         "lastRunStatus": "ok",
         "lastStatus": "ok",
-        "lastDurationMs": 35942,
+        "lastDurationMs": 40227,
         "lastDeliveryStatus": "not-requested",
         "consecutiveErrors": 0,
         "lastFailureNotificationDeliveryStatus": "not-requested",
@@ -74,19 +73,19 @@
       }
     },
     "echo-platform-heartbeat": {
-      "updatedAtMs": 1780098327326,
+      "updatedAtMs": 1780184758179,
       "scheduleIdentity": "{\"version\":1,\"enabled\":true,\"schedule\":{\"kind\":\"cron\",\"expr\":\"*/15 * * * *\",\"tz\":\"UTC\"}}",
       "state": {
-        "nextRunAtMs": 1780099200000,
-        "lastRunAtMs": 1780098300003,
+        "nextRunAtMs": 1780185600000,
+        "lastRunAtMs": 1780184700003,
         "lastRunStatus": "ok",
         "lastStatus": "ok",
-        "lastDurationMs": 27323,
+        "lastDurationMs": 58176,
         "lastDeliveryStatus": "not-requested",
         "consecutiveErrors": 0,
         "lastFailureNotificationDeliveryStatus": "not-requested",
         "consecutiveSkipped": 0,
-        "runningAtMs": 1780099200002
+        "runningAtMs": 1780185600002
       }
     }
   }

@@ -1,0 +1,16 @@
+{
+  "network": "qngMainnet",
+  "deployer": "0xd300C861cD5B16b01270Dd53899Fd1d71a87223a",
+  "predictionMarket": "0xF71432c8A1cC1d094cFC80981f9Ca4783BD82D62",
+  "txHash": "0x91ee7bf6e1a995a307614bebabc91671e6a2f70229deeae2f48e914885230dc0",
+  "agentOptions": [
+    "雨娃",
+    "猫先森",
+    "Seaman_bot",
+    "Talus",
+    "X7",
+    "王岚的智能助手",
+    "Amanda_AI助理"
+  ],
+  "timestamp": 1780078579952
+}

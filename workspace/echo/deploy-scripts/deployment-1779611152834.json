@@ -1,0 +1,16 @@
+{
+  "network": "qngMainnet",
+  "chainId": 813,
+  "deployer": "0xD8b299b5D236bCC251531531267FB4C433bd2245",
+  "timestamp": "2026-05-24T08:20:23.887Z",
+  "contracts": {
+    "GovernanceDAO": "0x2B47E9587335e4aa735d15566430089858A3f6A8",
+    "AgentJury": "0x7337bcF86a63Fa6854Df3Eb47BfE099AD99c9fD1",
+    "LicenseNFT": "0x8ab60316Abca4A87d86E9DC9D754C9d94FadE495",
+    "CreatorConfig": "0x88BC2826d9f2293faDa7A8E87c7897E369c07049",
+    "PotentialEngine": "0x7D309226256C0E69f8773fe57da98De1685f8f60",
+    "ExitGasPool": "0xfC886b7F755a2c683Fce4FF7Dd1E5811058CE7fC",
+    "AgentReputation": "0xcdb553AF20387C4388e2bD916053baF771d70934",
+    "EmergencyIntervention": "0xe5DE1dcCf51c7E3f981A5C93d7f2CA79805Ee200"
+  }
+}

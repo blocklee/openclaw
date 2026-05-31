@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>ECHO Jury Demo</title>
+  <script src="https://cdn.jsdelivr.net/npm/ethers@6.10.0/dist/ethers.umd.min.js"></script>
+  <style>
+    body { font-family: sans-serif; padding: 20px; max-width: 800px; margin: 0 auto; }
+    button { padding: 10px 20px; margin: 5px; cursor: pointer; }
+    .info { background: #f0f0f0; padding: 10px; margin: 10px 0; border-radius: 5px; }
+    .error { color: red; }
+    .success { color: green; }
+    input { padding: 8px; margin: 5px; width: 200px; }
+  </style>
+</head>
+<body>
+  <h1>ECHO Jury Demo</h1>
+  
+  <div id="wallet-section">
+    <button id="connect-btn">1. Connect MetaMask (Qitmeer)</button>
+    <div id="wallet-info" class="info" style="display:none">
+      <p>Address: <span id="address"></span></p>
+      <p>Chain: <span id="chain"></span></p>
+    </div>
+  </div>
+
+  <hr>
+
+  <div id="case-section" style="display:none">
+    <h2>Case 3 Status</h2>
+    <button id="load-case-btn">2. Load Case 3</button>
+    <div id="case-info" class="info" style="display:none">
+      <p>State: <span id="case-state"></span></p>
+      <p>Commit Deadline: <span id="commit-deadline"></span></p>
+      <p>Reveal Deadline: <span id="reveal-deadline"></span></p>
+      <p>Reveal Count: <span id="reveal-count"></span></p>
+      <p>Yes Votes: <span id="yes-votes"></span></p>
+      <p>No Votes: <span id="no-votes"></span></p>
+    </div>
+
+    <h2>Commit</h2>
+    <label>Vote: <select id="vote"><option value="true">Yes</option><option value="false">No</option></select></label>
+    <label>Salt: <input type="number" id="salt" value="3456789"></label>
+    <button id="commit-btn">3. Submit Commit (send 0.01 MEER)</button>
+    <div id="commit-result"></div>
+
+    <h2>Reveal</h2>
+    <button id="reveal-btn">4. Reveal Vote</button>
+    <div id="reveal-result"></div>
+  </div>
+
+  <div id="log" class="info"></div>
+
+<script>
+// ============ CONFIG ============
+const QITMEER_NETWORK = {
+  chainId: '0x32D',
+  chainName: 'Qitmeer Mainnet',
+  nativeCurrency: { name: 'MEER', symbol: 'MEER', decimals: 18 },
+  rpcUrls: ['https://qng.rpc.qitmeer.io'],
+  blockExplorerUrls: ['https://qng.meerscan.io']
+};
+
+const AGENT_JURY_ADDRESS = '0x8b8F8B8f354b4D09c659E6c287a7258A728fb72D';
+
+const AGENT_JURY_ABI = [
+  {"inputs":[{"internalType":"uint256","name":"_caseId","type":"uint256"}],"name":"getCase","outputs":[{"internalType":"bytes32","name":"evidenceHash","type":"bytes32"},{"internalType":"uint256","name":"commitDeadline","type":"uint256"},{"internalType":"uint256","name":"revealDeadline","type":"uint256"},{"internalType":"uint8","name":"state","type":"uint8"},{"internalType":"uint256","name":"revealCount","type":"uint256"},{"internalType":"uint256","name":"yesVotes","type":"uint256"},{"internalType":"uint256","name":"noVotes","type":"uint256"},{"internalType":"bool","name":"resolved","type":"bool"},{"internalType":"bool","name":"finalVerdict","type":"bool"}],"stateMutability":"view","type":"function"},
+  {"inputs":[{"internalType":"uint256","name":"_caseId","type":"uint256"},{"internalType":"bytes32","name":"_commitHash","type":"bytes32"},{"internalType":"uint256","name":"_salt","type":"uint256"}],"name":"juryCommit","outputs":[],"stateMutability":"payable","type":"function"},
+  {"inputs":[{"internalType":"uint256","name":"_caseId","type":"uint256"},{"internalType":"bool","name":"_vote","type":"bool"},{"internalType":"uint256","name":"_salt","type":"uint256"}],"name":"juryReveal","outputs":[],"stateMutability":"nonpayable","type":"function"}
+];
+
+// ============ UTILS ============
+function log(msg) {
+  document.getElementById('log').innerHTML += '<p>' + msg + '</p>';
+}
+
+function computeCommitHash(vote, salt, caseId, senderAddress) {
+  return ethers.solidityPackedKeccak256(
+    ['bool', 'uint256', 'uint256', 'address'],
+    [vote, salt, caseId, senderAddress]
+  );
+}
+
+// ============ WALLET ============
+let signer = null;
+let provider = null;
+let juryContract = null;
+
+document.getElementById('connect-btn').onclick = async function() {
+  try {
+    if (!window.ethereum) {
+      alert('Please install MetaMask!');
+      return;
+    }
+    
+    // Request accounts
+    await window.ethereum.request({ method: 'eth_requestAccounts' });
+    
+    // Add Qitmeer network
+    try {
+      await window.ethereum.request({
+        method: 'wallet_addEthereumChain',
+        params: [QITMEER_NETWORK]
+      });
+    } catch(e) {
+      log('Network add failed or already exists: ' + e.message);
+    }
+    
+    // Switch to Qitmeer
+    await window.ethereum.request({
+      method: 'wallet_switchEthereumChain',
+      params: [{ chainId: QITMEER_NETWORK.chainId }]
+    });
+    
+    provider = new ethers.BrowserProvider(window.ethereum);
+    signer = await provider.getSigner();
+    const address = await signer.getAddress();
+    const network = await provider.getNetwork();
+    
+    document.getElementById('address').textContent = address;
+    document.getElementById('chain').textContent = network.name + ' (' + network.chainId + ')';
+    document.getElementById('wallet-info').style.display = 'block';
+    document.getElementById('case-section').style.display = 'block';
+    
+    juryContract = new ethers.Contract(AGENT_JURY_ADDRESS, AGENT_JURY_ABI, signer);
+    
+    log('✅ Wallet connected: ' + address.substring(0,10) + '...');
+    
+  } catch(e) {
+    log('❌ Connect error: ' + e.message);
+    console.error(e);
+  }
+};
+
+// ============ LOAD CASE ============
+document.getElementById('load-case-btn').onclick = async function() {
+  try {
+    const result = await juryContract.getCase(3);
+    
+    const states = ['COMMIT_OPEN', 'REVEAL_OPEN', 'RESOLVED'];
+    document.getElementById('case-state').textContent = states[result[3]];
+    document.getElementById('commit-deadline').textContent = result[1].toString();
+    document.getElementById('reveal-deadline').textContent = result[2].toString();
+    document.getElementById('reveal-count').textContent = result[4].toString();
+    document.getElementById('yes-votes').textContent = result[5].toString();
+    document.getElementById('no-votes').textContent = result[6].toString();
+    
+    document.getElementById('case-info').style.display = 'block';
+    log('✅ Case 3 loaded');
+    
+  } catch(e) {
+    log('❌ Load case error: ' + e.message);
+    console.error(e);
+  }
+};
+
+// ============ COMMIT ============
+document.getElementById('commit-btn').onclick = async function() {
+  try {
+    const vote = document.getElementById('vote').value === 'true';
+    const salt = document.getElementById('salt').value;
+    const caseId = 3;
+    const address = await signer.getAddress();
+    
+    const commitHash = computeCommitHash(vote, Number(salt), caseId, address);
+    
+    log('Submitting commit... vote=' + vote + ' salt=' + salt);
+    
+    const tx = await juryContract.juryCommit(caseId, commitHash, salt, {
+      value: ethers.parseEther('0.01'),
+      gasLimit: 500000
+    });
+    
+    log('Transaction sent: ' + tx.hash.substring(0,20) + '...');
+    
+    const receipt = await tx.wait();
+    
+    if (receipt.status === 1) {
+      document.getElementById('commit-result').innerHTML = '<p class="success">✅ Commit submitted!</p>';
+      log('✅ Commit confirmed');
+    } else {
+      document.getElementById('commit-result').innerHTML = '<p class="error">❌ Commit failed</p>';
+    }
+    
+  } catch(e) {
+    document.getElementById('commit-result').innerHTML = '<p class="error">❌ Error: ' + e.message + '</p>';
+    log('❌ Commit error: ' + e.message);
+    console.error(e);
+  }
+};
+
+// ============ REVEAL ============
+document.getElementById('reveal-btn').onclick = async function() {
+  try {
+    const vote = document.getElementById('vote').value === 'true';
+    const salt = document.getElementById('salt').value;
+    const caseId = 3;
+    
+    log('Revealing... vote=' + vote + ' salt=' + salt);
+    
+    const tx = await juryContract.juryReveal(caseId, vote, salt, {
+      gasLimit: 500000
+    });
+    
+    log('Transaction sent: ' + tx.hash.substring(0,20) + '...');
+    
+    const receipt = await tx.wait();
+    
+    if (receipt.status === 1) {
+      document.getElementById('reveal-result').innerHTML = '<p class="success">✅ Reveal submitted!</p>';
+      log('✅ Reveal confirmed');
+    } else {
+      document.getElementById('reveal-result').innerHTML = '<p class="error">❌ Reveal failed</p>';
+    }
+    
+  } catch(e) {
+    document.getElementById('reveal-result').innerHTML = '<p class="error">❌ Error: ' + e.message + '</p>';
+    log('❌ Reveal error: ' + e.message);
+    console.error(e);
+  }
+};
+</script>
+</body>
+</html>

@@ -1,0 +1,18 @@
+{
+  "network": "qngMainnet",
+  "chainId": 813,
+  "deployer": "0xd300C861cD5B16b01270Dd53899Fd1d71a87223a",
+  "timestamp": "2026-05-29T22:26:00.000Z",
+  "contracts": {
+    "milestoneEscrow": {
+      "name": "MilestoneEscrow",
+      "address": "0x1C2f10Df5a07b4bfa8D189C5c65EE5748Ba2AEf2",
+      "constructorArgs": ["0xd300C861cD5B16b01270Dd53899Fd1d71a87223a"]
+    },
+    "deadlockInspectorP1": {
+      "name": "DeadlockInspectorP1",
+      "address": "0x4d233b2eB46f0Cd1b968Dc542dafC894B47d0b9F",
+      "constructorArgs": ["0xC54e1B665c61b2Dc9831dc5a1C4D22670bea3C4a"]
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "network": "qngMainnet",
+  "chainId": 813,
+  "deployer": "0xd300C861cD5B16b01270Dd53899Fd1d71a87223a",
+  "timestamp": "2026-05-29T11:10:00.000Z",
+  "contracts": {
+    "CreatorConfig": "0x41BC79f909D8e6Cd132Bf46247f9b230FE7FBc3F",
+    "EdgeDeclaration": "0xC54e1B665c61b2Dc9831dc5a1C4D22670bea3C4a",
+    "DeadlockInspector": "0xCA9DF1149F663892F9957d622BE5dE6Efa08115D",
+    "MilestoneEscrow": "0x4DE4cFD213a528D0b387564675AdAaC969AF0721"
+  },
+  "eventSignatures": {
+    "NodeCreated": "0x14099851ab7c7f4a85719da2165bc3b1ed0aea38276b15fe41a4c36e9b741918",
+    "EdgeDeclared": "0xcb59a69c50a816f2612c07c4a15ed7e4391269cf502635b16da465d2e2c56ceb",
+    "QuadrantSet": "0x71618eac2ec66e68b6fb2308b0e8ccd252f111fad9d66a553fa988088d44f079",
+    "AssemblyApproved": "0x9cfe0c568d950ca64bc8ccb9b17300219b4c404592d270eae2e2e4219a5cfde3",
+    "AssemblyRejected": "0x914d18498f86052257caf5ffd8f2b041258b785ac760482aa8ceab14750ca833",
+    "MilestoneLocked": "0x2184794e764abfa55caec1762b34144b88753545c820bb0507aee8ba18c90f38",
+    "MilestoneReleased": "0x0995a364c3ea69dad7910117cd82dfb73abddfe0eb3edbba486bc97f391d01c8",
+    "EmergencyRefund": "0x0"
+  },
+  "indexerUpdates": [
+    "EdgeDeclared: declarer is indexed (topic3), data = [depth, timestamp]",
+    "MilestoneEscrow: new event EmergencyRefund(bytes32 indexed, uint256, uint256)"
+  ]
+}

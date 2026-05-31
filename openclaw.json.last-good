@@ -268,16 +268,16 @@
       "model": {
         "primary": "minimax-portal/MiniMax-M2.7",
         "fallbacks": [
-          "nvidia/deepseek-ai/deepseek-v4-pro",
+          "minimax-portal/MiniMax-M2.7-highspeed",
+	  "nvidia/z-ai/glm4.7",
+	  "nvidia/deepseek-ai/deepseek-v4-pro",
           "nvidia/deepseek-ai/deepseek-v4-flash",
           "nvidia/minimaxai/minimax-m2.7",
-          "nvidia/z-ai/glm4.7",
-          "zai/glm-4.7-flash",
-          "minimax/MiniMax-M2.7-highspeed"
+          "nvidia/z-ai/glm4.7"
         ]
       },
       "imageGenerationModel": {
-        "primary": "nvidia/minimaxai/minimax-m2.7",
+        "primary": "minimax-portal/MiniMax-M2.7",
         "fallbacks": []
       },
       "models": {
@@ -303,8 +303,7 @@
         },
         "minimax-portal/MiniMax-M2.7-highspeed": {
           "alias": "minimax-m2.7-highspeed"
-        },
-        "minimax/MiniMax-M2.7-highspeed": {}
+        }
       },
       "workspace": "/home/node/.openclaw/workspace",
       "memorySearch": {
