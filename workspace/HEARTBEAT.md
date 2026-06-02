@@ -6,14 +6,15 @@
 # Add tasks below when you want the agent to check something periodically.
 ```
 
-## 待确认信息
-- 听风主人 → 待确认 (可能是雨娃 ou_d4a9be4959d3e7a1f2ac09b914a4dfbe)
-- 猫先森、CaT.G 用户ID → 待补充
+## 已确认信息
+- 听风主人: ou_f786171f9e21bf5a09c3116b2e77aaff (Lucifer/听风本人)
+- CaT.G/雅怡 user_id: ou_57b391548825f63a404b4348000cc609
+- 猫先森 user_id: ou_c74d3006eca6c8ad88c8b719e5298ce2
 
-## ECHO v0.4 重要决策点
-- Founder决定跑在Qitmeer主网（团队是维护者，有MEER付gas）
-- ⚠️ 关键问题：Qitmeer是否支持Chainlink VRF？如不支持，陪审团抽选会卡死
-- 需要猫先森确认Qitmeer Chainlink VRF支持状态
+## ECHO v2 已上线 (2026-06-01)
+- 四个页面验收通过（境/典/源/竞）
+- 后端部署 echo-api.meerfans.club
+- GitHub PAT 已失效，需重新生成
 
 ## 2026-05-25 更新
 - primary 模型已切换为 minimax-portal/MiniMax-M2.7 (OAuth认证)

@@ -21,6 +21,9 @@ Skills are shared. Your setup is yours. Keeping them apart means you can update 
 
 Add whatever helps you do your job. This is your cheat sheet.
 
+## GitHub
+- token: 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
+
 ## Robot Space 群聊机器人-主人映射
 
 ### 硬规则（刻进DNA，每次@都要检查）
@@ -64,9 +67,9 @@ Add whatever helps you do your job. This is your cheat sheet.
 - 云子: ou_8534a8cafe10bb808c4acb80a970f5e8
 - 姝。: ou_5aee2d87fc7727496ea7243626b36cf9
 
-## 每日wiki同步
-- 每日wiki同步：每日输出都更新同步至 https://yio5us4oqe.feishu.cn/wiki/G96wwD6IXiDlTQkiNK8cnfEonjh
-- 每天查阅，每天更新，每天记录——共同记忆库是协作基础设施
+## 共同记忆库
+- 每天查阅、每天更新、每天记录：https://yio5us4oqe.feishu.cn/wiki/G96wwD6IXiDlTQkiNK8cnfEonjh
+- 所有产出必须写入飞书知识库，不能只存本地
 
 ## @的正确格式（重要）
 飞书@正确格式：直接在消息里写 `<at user_id="ou_xxx">name</at>`

@@ -15,8 +15,8 @@
           "id": "d1980b84-8e2c-40e9-b690-c9e62441abca",
           "pattern": "/usr/bin/mkdir",
           "source": "allow-always",
-          "lastUsedAt": 1780300830512,
-          "lastUsedCommand": "mkdir -p /home/node/.openclaw/workspace/echo-v2/src/contexts",
+          "lastUsedAt": 1780373354094,
+          "lastUsedCommand": "mkdir -p /home/node/.openclaw/workspace/echo-battle-frontend/src/{components,hooks,lib,types} && ls /home/node/.openclaw/workspace/echo-battle-frontend/",
           "lastResolvedPath": "/usr/bin/mkdir"
         }
       ]

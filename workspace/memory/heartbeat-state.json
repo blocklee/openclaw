@@ -1,5 +1,5 @@
 {
-  "last_check": "2026-06-01T22:12:00Z",
-  "checks_today": 1,
-  "note": "深夜前检查，ECHO v2联调日完成，四个页面验收通过，听风部署成功"
+  "last_check": "2026-06-02T08:41:00Z",
+  "checks_today": 3,
+  "note": "UTC 08:41 = 北京 16:41。HEARTBEAT.md有遗留待确认项：Qitmeer Chainlink VRF支持状态（2026-05早期问题，ECHO v2已上线，可能是旧信息）"
 }
