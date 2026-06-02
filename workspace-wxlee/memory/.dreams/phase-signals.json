@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-05-30T19:00:39.407Z",
+  "updatedAt": "2026-06-01T19:00:35.250Z",
   "entries": {
     "memory:memory/2026-04-12.md:6:6": {
       "key": "memory:memory/2026-04-12.md:6:6",
@@ -1650,9 +1650,9 @@
     "memory:memory/2026-05-18-payroll-ocr.md:3:5": {
       "key": "memory:memory/2026-05-18-payroll-ocr.md:3:5",
       "lightHits": 9,
-      "remHits": 4,
+      "remHits": 6,
       "lastLightAt": "2026-05-28T19:00:32.408Z",
-      "lastRemAt": "2026-05-30T19:00:39.407Z"
+      "lastRemAt": "2026-06-01T19:00:35.250Z"
     },
     "memory:memory/2026-05-18-payroll-ocr.md:9:11": {
       "key": "memory:memory/2026-05-18-payroll-ocr.md:9:11",
@@ -2194,9 +2194,9 @@
     "memory:memory/2026-05-16-1516.md:3:5": {
       "key": "memory:memory/2026-05-16-1516.md:3:5",
       "lightHits": 5,
-      "remHits": 4,
+      "remHits": 5,
       "lastLightAt": "2026-05-26T19:00:29.148Z",
-      "lastRemAt": "2026-05-30T19:00:39.407Z"
+      "lastRemAt": "2026-05-31T19:00:41.248Z"
     },
     "memory:memory/2026-05-16-1516.md:9:9": {
       "key": "memory:memory/2026-05-16-1516.md:9:9",
@@ -2544,8 +2544,9 @@
     "memory:memory/2026-05-18-payroll-ocr.md:79:81": {
       "key": "memory:memory/2026-05-18-payroll-ocr.md:79:81",
       "lightHits": 1,
-      "remHits": 0,
-      "lastLightAt": "2026-05-25T19:00:23.298Z"
+      "remHits": 1,
+      "lastLightAt": "2026-05-25T19:00:23.298Z",
+      "lastRemAt": "2026-06-01T19:00:35.250Z"
     },
     "memory:memory/2026-05-16-1516.md:38:39": {
       "key": "memory:memory/2026-05-16-1516.md:38:39",
@@ -2701,33 +2702,39 @@
     },
     "memory:memory/.dreams/session-corpus/2026-05-28.txt:15:15": {
       "key": "memory:memory/.dreams/session-corpus/2026-05-28.txt:15:15",
-      "lightHits": 3,
+      "lightHits": 4,
       "remHits": 0,
-      "lastLightAt": "2026-05-30T19:00:39.407Z"
+      "lastLightAt": "2026-05-31T19:00:41.248Z"
     },
     "memory:memory/.dreams/session-corpus/2026-05-28.txt:16:16": {
       "key": "memory:memory/.dreams/session-corpus/2026-05-28.txt:16:16",
-      "lightHits": 3,
+      "lightHits": 4,
       "remHits": 0,
-      "lastLightAt": "2026-05-30T19:00:39.407Z"
+      "lastLightAt": "2026-05-31T19:00:41.248Z"
     },
     "memory:memory/.dreams/session-corpus/2026-05-29.txt:1:1": {
       "key": "memory:memory/.dreams/session-corpus/2026-05-29.txt:1:1",
-      "lightHits": 3,
+      "lightHits": 4,
       "remHits": 0,
-      "lastLightAt": "2026-05-30T19:00:39.407Z"
+      "lastLightAt": "2026-05-31T19:00:41.248Z"
     },
     "memory:memory/.dreams/session-corpus/2026-05-29.txt:2:2": {
       "key": "memory:memory/.dreams/session-corpus/2026-05-29.txt:2:2",
-      "lightHits": 3,
+      "lightHits": 4,
       "remHits": 0,
-      "lastLightAt": "2026-05-30T19:00:39.407Z"
+      "lastLightAt": "2026-05-31T19:00:41.248Z"
     },
     "memory:memory/2026-05-18-payroll-ocr.md:83:83": {
       "key": "memory:memory/2026-05-18-payroll-ocr.md:83:83",
       "lightHits": 0,
-      "remHits": 2,
-      "lastRemAt": "2026-05-30T19:00:39.407Z"
+      "remHits": 3,
+      "lastRemAt": "2026-05-31T19:00:41.248Z"
+    },
+    "memory:memory/2026-05-18-payroll-ocr.md:119:119": {
+      "key": "memory:memory/2026-05-18-payroll-ocr.md:119:119",
+      "lightHits": 0,
+      "remHits": 1,
+      "lastRemAt": "2026-06-01T19:00:35.250Z"
     }
   }
 }

@@ -195,6 +195,15 @@
         "api": "openai-completions",
         "models": [
           {
+            "id": "text-embedding-004",
+            "name": "Text Embedding 004",
+            "input": [
+              "text"
+            ],
+            "contextWindow": 30720,
+            "maxTokens": 30720
+          },
+          {
             "id": "gemini-2.5-flash-lite",
             "name": "Gemini 2.5 Flash-Lite",
             "api": "openai-completions",
@@ -269,15 +278,15 @@
         "primary": "minimax-portal/MiniMax-M2.7",
         "fallbacks": [
           "minimax-portal/MiniMax-M2.7-highspeed",
-	  "nvidia/z-ai/glm4.7",
-	  "nvidia/deepseek-ai/deepseek-v4-pro",
+          "nvidia/z-ai/glm4.7",
+          "nvidia/deepseek-ai/deepseek-v4-pro",
           "nvidia/deepseek-ai/deepseek-v4-flash",
           "nvidia/minimaxai/minimax-m2.7",
           "nvidia/z-ai/glm4.7"
         ]
       },
       "imageGenerationModel": {
-        "primary": "minimax-portal/MiniMax-M2.7",
+        "primary": "minimax-portal/image-01",
         "fallbacks": []
       },
       "models": {
@@ -387,13 +396,13 @@
         "name": "custor",
         "workspace": "/home/node/.openclaw/workspace-custor",
         "agentDir": "/home/node/.openclaw/agents/custor/agent",
-	"model": {
-	  "primary": "google/gemini-2.5-flash",
-	  "fallbacks": [
-	    "minimax-portal/MiniMax-M2.7",
-	    "zai/glm-4.7-flash"
-	  ]
-	}
+        "model": {
+          "primary": "google/gemini-2.5-flash",
+          "fallbacks": [
+            "minimax-portal/MiniMax-M2.7",
+            "zai/glm-4.7-flash"
+          ]
+        }
       }
     ]
   },
@@ -473,8 +482,8 @@
       "type": "route",
       "agentId": "custor",
       "match": {
-      	"channel": "feishu",
-	"accountId": "custor"
+        "channel": "feishu",
+        "accountId": "custor"
       }
     }
   ],
@@ -562,12 +571,12 @@
           "name": "xiaoye",
           "domain": "lark"
         },
-	"custor": {
-	  "appId": "cli_aa985d88e5f85cc5",
-	  "appSecret": "P4G9TiSfCZVKCy3me44GfekdyDYjCCFg",
-	  "name": "Custor",
-	  "domain": "feishu"
-	},
+        "custor": {
+          "appId": "cli_aa985d88e5f85cc5",
+          "appSecret": "P4G9TiSfCZVKCy3me44GfekdyDYjCCFg",
+          "name": "Custor",
+          "domain": "feishu"
+        },
         "default": {
           "dmPolicy": "pairing",
           "groupPolicy": "open"

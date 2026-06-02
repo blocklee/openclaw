@@ -1,25 +1,6 @@
 # Long-Term Memory
 
 
-## Promoted From Short-Term Memory (2026-05-25)
-
-<!-- openclaw-memory-promotion:memory:memory/2026-05-18-payroll-ocr.md:40:42 -->
-- 工资发放表 [score=0.868 recalls=0 avg=0.620 source=memory/2026-05-18-payroll-ocr.md:96-96]
-<!-- openclaw-memory-promotion:memory:memory/2026-05-18-payroll-ocr.md:44:44 -->
-- **CSV文件已保存**至工作区：`工资发放表_2026.csv` [score=0.868 recalls=0 avg=0.620 source=memory/2026-05-18-payroll-ocr.md:44-44]
-<!-- openclaw-memory-promotion:memory:memory/2026-05-18-payroll-ocr.md:46:49 -->
-- **建议下一步：** 如果您能快速把图中15个名字逐行发我，我可以立即修正成准确版本，省去逐字核对。 user: 你能识别前面的图片把 assistant: 主公稍等，我再试试 assistant: 好多了！这次识别效果提升不少。让我把数据整理出来 [score=0.868 recalls=0 avg=0.620 source=memory/2026-05-18-payroll-ocr.md:46-49]
-<!-- openclaw-memory-promotion:memory:memory/2026-05-16-1516.md:9:9 -->
-- user: Conversation info (untrusted metadata): [score=0.855 recalls=0 avg=0.620 source=memory/2026-05-16-1516.md:9-9]
-<!-- openclaw-memory-promotion:memory:memory/2026-05-16-1516.md:35:36 -->
-- 我是想让你看看，飞书通道好像有点哑火了，被限流了似的 assistant: 找到症结了。看日志一目了然——飞书通道的 ping/heartbeat 请求被 Lark API 限流了，持续返回 **HTTP 429 (Too Many Requests)**。 [score=0.855 recalls=0 avg=0.620 source=memory/2026-05-16-1516.md:35-36]
-<!-- openclaw-memory-promotion:memory:memory/2026-05-18-payroll-ocr.md:50:50 -->
-- assistant: 好，综合两次 OCR 结果，我整理出一份表格。由于是手写体，部分姓名和号码可能有识别误差，请核对。 [score=0.851 recalls=0 avg=0.620 source=memory/2026-05-18-payroll-ocr.md:50-50]
-<!-- openclaw-memory-promotion:memory:memory/2026-05-16-1516.md:42:44 -->
-- "chat_id": "o9cq802UVmvEGGP0xkFm4O7AcdRg@im.wechat", "message_id": "openclaw-weixin:1778943901960-100768f1", "timestamp": "Sat 2026-05-16 15:05 UTC" [score=0.834 recalls=0 avg=0.620 source=memory/2026-05-16-1516.md:42-44]
-<!-- openclaw-memory-promotion:memory:memory/2026-05-18-payroll-ocr.md:78:78 -->
-- ⚠️ 标记说明： [score=0.834 recalls=0 avg=0.620 source=memory/2026-05-18-payroll-ocr.md:78-78]
-
 ## Promoted From Short-Term Memory (2026-05-26)
 
 <!-- openclaw-memory-promotion:memory:memory/2026-05-16-1516.md:25:26 -->
@@ -89,3 +70,8 @@
 - 8 刘加俊 510821197107105011 62359926007034120 10000元 9 唐仕斌 510821199511025055 62359926006966553 10000元 10 董朝喜 570821200107105016 62359926007034112 10000元 11 唐泽 56821199308035012 62359936007034104 10000元 [score=0.808 recalls=0 avg=0.620 source=memory/2026-05-18-payroll-ocr.md:105-108]
 <!-- openclaw-memory-promotion:memory:memory/2026-05-16-1516.md:48:49 -->
 - 我是想让你看看，飞书通道好像有点哑火了，被限流了似的 user: Conversation info (untrusted metadata): [score=0.806 recalls=0 avg=0.620 source=memory/2026-05-16-1516.md:48-49]
+
+## Promoted From Short-Term Memory (2026-06-01)
+
+<!-- openclaw-memory-promotion:memory:memory/2026-05-18-payroll-ocr.md:83:83 -->
+- **CSV文件已保存**至工作区：`工资发放表_2026.csv` [score=0.804 recalls=0 avg=0.620 source=memory/2026-05-18-payroll-ocr.md:83-83]

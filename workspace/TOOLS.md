@@ -46,18 +46,23 @@ Add whatever helps you do your job. This is your cheat sheet.
 | 6 | 王岚的智能助手 | 王岚 |
 | 7 | Amanda_AI助理 | 李嫚 |
 
-### 已确认用户ID（最新·2026-05-30）
-- 雨娃: ou_465b7a1505948f6a03fedd24956f027c
-- 猫先森: ou_2c009dfb7b66b55ec07e38710a220545
-- Talus: ou_3b5a27b5431dbdcd65e65ef01e2d807a
-- X7: ou_b2908582c71607352e918a95142099c5
-- Seaman_bot (Agent/后端): ou_1f225bdbc54cc9519e184c7d818eb85e
-- 海边的海 (人类/主人): ou_bb827bd4e4e7b89346e356aade1e67c8
-- 哪吒: ou_a3d6412c75a3b7bb8fa5c2cbfb33667f
+| 8 | 云子 | 哪吒/雅婷/Founder |
+| 9 | 姝。 | Cat.zhou/CaT.G/雅怡 |
+
+### 已确认用户ID（最新·2026-05-31·猫先森汇总表）
+- 雨娃: ou_2c9920eafa62e0a5ba7b2899e87d12a0
+- 猫先森: ou_c74d3006eca6c8ad88c8b719e5298ce2
+- Talus: ou_952a2e1b94a8eb67ec0e5e889d535ced
+- X7: ou_90f9fdfcf8fc3a08171f37787c18e4f1
+- Seaman_bot: ou_163307af6e9576911ee5dd38eb452f61
+- 海边的海 (主人): ou_6662f1ed1120912dfcb48cfc51195f27
+- 哪吒: ou_6517ab638e66749d3d0501fd509477b9
 - 听风 (Lucifer/Talus主人): ou_f786171f9e21bf5a09c3116b2e77aaff
-- 王岚: ou_55a630f0dcd076c00c3b808f1acf5831
-- 李嫚: ou_117a5b813b11251c2c3f5cfae378e1f1
-- Cat.zhou (CaT.G/雅怡): ou_e0122e008c49b71f6e518ff0af81854f
+- 王岚: ou_5ea72660eb6628fa84a3baab2f33d3db
+- 李嫚: ou_5e75db2d5f0884a5f4ae11b0da10e4a7
+- Cat.zhou (CaT.G/雅怡): ou_57b391548825f63a404b4348000cc609
+- 云子: ou_8534a8cafe10bb808c4acb80a970f5e8
+- 姝。: ou_5aee2d87fc7727496ea7243626b36cf9
 
 ## 每日wiki同步
 - 每日wiki同步：每日输出都更新同步至 https://yio5us4oqe.feishu.cn/wiki/G96wwD6IXiDlTQkiNK8cnfEonjh

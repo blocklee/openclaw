@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-05-29T19:00:35.325Z",
+  "updatedAt": "2026-06-01T19:00:35.394Z",
   "entries": {
     "memory:memory/2026-04-12.md:6:6": {
       "key": "memory:memory/2026-04-12.md:6:6",
@@ -11451,7 +11451,7 @@
       "startLine": 83,
       "endLine": 83,
       "source": "memory",
-      "snippet": "工资发放表（汇总）: **CSV文件已保存**至工作区：`工资发放表_2026.csv`",
+      "snippet": "**CSV文件已保存**至工作区：`工资发放表_2026.csv`",
       "recallCount": 0,
       "dailyCount": 3,
       "groundedCount": 0,
@@ -11474,11 +11474,12 @@
         "工资发放表-2026.csv",
         "payroll",
         "ocr.md",
-        "工资",
-        "发放",
         "csv",
-        "文件"
-      ]
+        "文件",
+        "保存",
+        "工作"
+      ],
+      "promotedAt": "2026-05-31T19:00:41.248Z"
     },
     "memory:memory/2026-05-18-payroll-ocr.md:85:86": {
       "key": "memory:memory/2026-05-18-payroll-ocr.md:85:86",

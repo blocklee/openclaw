@@ -1,0 +1,822 @@
+{
+  "meta": {
+    "lastTouchedVersion": "2026.5.19",
+    "lastTouchedAt": "2026-05-28T11:59:46.579Z"
+  },
+  "env": {
+    "OPENROUTER_API_KEY": "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",
+    "DEEPSEEK_API_KEY": "sk-7efc0cb52584445399ba99eb17df91b8",
+    "GOOGLE_API_KEY": "AIzaSyBDw5RCCBvH-ugpqg5kt1ocqWsiv-PR41U",
+    "VOLCENGINE_PLAN_API_KEY": "ca89d2f0-5be7-4df4-a437-b14d6540e495",
+    "VOLCENGINE_PLAN_default_API_KEY": "ca89d2f0-5be7-4df4-a437-b14d6540e495",
+    "NVIDIA_API_KEY": "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"
+  },
+  "wizard": {
+    "lastRunAt": "2026-05-27T16:53:40.543Z",
+    "lastRunVersion": "2026.5.19",
+    "lastRunCommand": "doctor",
+    "lastRunMode": "local"
+  },
+  "auth": {
+    "profiles": {
+      "minimax:cn": {
+        "provider": "minimax",
+        "mode": "api_key"
+      },
+      "openai:default": {
+        "provider": "openai",
+        "mode": "api_key"
+      },
+      "openrouter:default": {
+        "provider": "openrouter",
+        "mode": "api_key"
+      },
+      "zai:default": {
+        "provider": "zai",
+        "mode": "api_key"
+      },
+      "google:default": {
+        "provider": "google",
+        "mode": "api_key"
+      },
+      "volcengine:default": {
+        "provider": "volcengine",
+        "mode": "api_key"
+      },
+      "minimax-portal:default": {
+        "provider": "minimax-portal",
+        "mode": "oauth"
+      }
+    }
+  },
+  "models": {
+    "mode": "merge",
+    "providers": {
+      "nvidia": {
+        "baseUrl": "https://integrate.api.nvidia.com/v1",
+        "api": "openai-completions",
+        "models": [
+          {
+            "id": "minimaxai/minimax-m2.7",
+            "name": "MiniMax M2.7",
+            "reasoning": true,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 200000,
+            "maxTokens": 8192
+          },
+          {
+            "id": "google/gemma-3n-e4b-it",
+            "name": "Google Gemma 3N E4B IT",
+            "reasoning": true,
+            "input": [
+              "text",
+              "image"
+            ],
+            "contextWindow": 32768,
+            "maxTokens": 32768
+          },
+          {
+            "id": "deepseek-ai/deepseek-v4-pro",
+            "name": "DeepSeek V4 Pro",
+            "reasoning": true,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 1000000,
+            "maxTokens": 32768
+          },
+          {
+            "id": "deepseek-ai/deepseek-v4-flash",
+            "name": "DeepSeek V4 Flash",
+            "reasoning": true,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 1000000,
+            "maxTokens": 32768
+          },
+          {
+            "id": "z-ai/glm4.7",
+            "name": "GLM-4.7",
+            "reasoning": true,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 200000,
+            "maxTokens": 128000
+          }
+        ]
+      },
+      "minimax": {
+        "baseUrl": "https://api.minimaxi.com/anthropic",
+        "api": "anthropic-messages",
+        "authHeader": true,
+        "models": [
+          {
+            "id": "MiniMax-M2.7",
+            "name": "MiniMax M2.7",
+            "api": "anthropic-messages",
+            "reasoning": true,
+            "input": [
+              "text"
+            ],
+            "cost": {
+              "input": 0.3,
+              "output": 1.2,
+              "cacheRead": 0.06,
+              "cacheWrite": 0.375
+            },
+            "contextWindow": 204800,
+            "maxTokens": 131072
+          }
+        ]
+      },
+      "zai": {
+        "baseUrl": "https://api.z.ai/api/paas/v4",
+        "api": "openai-completions",
+        "models": [
+          {
+            "id": "glm-5",
+            "name": "GLM-5",
+            "api": "openai-completions",
+            "reasoning": true,
+            "input": [
+              "text"
+            ],
+            "cost": {
+              "input": 1,
+              "output": 3.2,
+              "cacheRead": 0.2,
+              "cacheWrite": 0
+            },
+            "contextWindow": 202800,
+            "maxTokens": 131100
+          },
+          {
+            "id": "glm-4.5-flash",
+            "name": "GLM-4.5 Flash",
+            "api": "openai-completions",
+            "reasoning": true,
+            "input": [
+              "text"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 131072,
+            "maxTokens": 98304
+          },
+          {
+            "id": "glm-4.7-flash",
+            "name": "GLM-4.7 Flash",
+            "api": "openai-completions",
+            "reasoning": true,
+            "input": [
+              "text"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 131072,
+            "maxTokens": 131072
+          }
+        ]
+      },
+      "google": {
+        "baseUrl": "https://generativelanguage.googleapis.com/v1beta/openai",
+        "api": "openai-completions",
+        "models": [
+          {
+            "id": "gemini-2.5-flash-lite",
+            "name": "Gemini 2.5 Flash-Lite",
+            "api": "openai-completions",
+            "reasoning": false,
+            "input": [
+              "text",
+              "image"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 1000000,
+            "maxTokens": 65536
+          },
+          {
+            "id": "gemini-2.5-flash",
+            "name": "Gemini 2.5 Flash",
+            "api": "openai-completions",
+            "reasoning": false,
+            "input": [
+              "text",
+              "image"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 1000000,
+            "maxTokens": 65536
+          }
+        ]
+      },
+      "openrouter": {
+        "baseUrl": "https://openrouter.ai/api/v1",
+        "api": "openai-completions",
+        "models": [
+          {
+            "id": "google/gemma-3-27b-it:free",
+            "name": "Gemma 3 27B (Free)",
+            "api": "openai-completions",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 131072,
+            "maxTokens": 8192
+          }
+        ]
+      },
+      "minimax-portal": {
+        "baseUrl": "https://api.minimaxi.com/anthropic/v1",
+        "api": "anthropic-messages",
+        "authHeader": true,
+        "models": []
+      }
+    }
+  },
+  "agents": {
+    "defaults": {
+      "model": {
+        "primary": "minimax-portal/MiniMax-M2.7",
+        "fallbacks": [
+          "minimax-portal/MiniMax-M2.7-highspeed",
+	  "nvidia/z-ai/glm4.7",
+	  "nvidia/deepseek-ai/deepseek-v4-pro",
+          "nvidia/deepseek-ai/deepseek-v4-flash",
+          "nvidia/minimaxai/minimax-m2.7",
+          "nvidia/z-ai/glm4.7"
+        ]
+      },
+      "imageGenerationModel": {
+        "primary": "minimax-portal/image-01",
+        "fallbacks": []
+      },
+      "models": {
+        "minimax/MiniMax-M2.7": {
+          "alias": "Minimax"
+        },
+        "zai/glm-5": {
+          "alias": "GLM"
+        },
+        "google/gemini-2.5-flash": {
+          "alias": "Gemini"
+        },
+        "google/lyria-3-pro-preview:free": {},
+        "google/lyria-3-clip-preview:free": {},
+        "nvidia/nemotron-3-super-120b-a12b:free": {},
+        "nvidia/minimaxai/minimax-m2.7": {},
+        "nvidia/deepseek-ai/deepseek-v4-pro": {},
+        "nvidia/deepseek-ai/deepseek-v4-flash": {},
+        "nvidia/z-ai/glm4.7": {},
+        "zai/glm-4.7-flash": {},
+        "minimax-portal/MiniMax-M2.7": {
+          "alias": "minimax-m2.7"
+        },
+        "minimax-portal/MiniMax-M2.7-highspeed": {
+          "alias": "minimax-m2.7-highspeed"
+        }
+      },
+      "workspace": "/home/node/.openclaw/workspace",
+      "memorySearch": {
+        "enabled": true,
+        "provider": "gemini",
+        "model": "text-embedding-004"
+      },
+      "compaction": {
+        "mode": "default",
+        "reserveTokensFloor": 30000
+      },
+      "timeoutSeconds": 1800,
+      "blockStreamingDefault": "on",
+      "blockStreamingBreak": "text_end",
+      "blockStreamingChunk": {
+        "minChars": 800,
+        "maxChars": 1200
+      },
+      "blockStreamingCoalesce": {
+        "idleMs": 1000
+      },
+      "humanDelay": {
+        "mode": "natural"
+      },
+      "subagents": {
+        "maxSpawnDepth": 2,
+        "maxChildrenPerAgent": 4,
+        "maxConcurrent": 8,
+        "runTimeoutSeconds": 900
+      },
+      "sandbox": {
+        "mode": "off"
+      }
+    },
+    "list": [
+      {
+        "id": "main"
+      },
+      {
+        "id": "lucus",
+        "name": "lucus",
+        "workspace": "/home/node/.openclaw/workspace-lucus",
+        "agentDir": "/home/node/.openclaw/agents/lucus/agent",
+        "model": {
+          "primary": "minimax-portal/MiniMax-M2.7",
+          "fallbacks": [
+            "nvidia/minimaxai/minimax-m2.7",
+            "google/gemini-2.5-flash"
+          ]
+        }
+      },
+      {
+        "id": "wxlee",
+        "name": "wxlee",
+        "workspace": "/home/node/.openclaw/workspace-wxlee",
+        "agentDir": "/home/node/.openclaw/agents/wxlee/agent",
+        "model": {
+          "primary": "minimax-portal/MiniMax-M2.7",
+          "fallbacks": [
+            "nvidia/minimaxai/minimax-m2.7",
+            "google/gemini-2.5-flash"
+          ]
+        }
+      },
+      {
+        "id": "codus",
+        "name": "codus",
+        "workspace": "/home/node/.openclaw/workspace-codus",
+        "agentDir": "/home/node/.openclaw/agents/codus/agent",
+        "model": {
+          "primary": "nvidia/deepseek-ai/deepseek-v4-pro",
+          "fallbacks": [
+            "nvidia/minimaxai/minimax-m2.7",
+            "zai/glm-4.7-flash",
+            "nvidia/minimaxai/minimax-m2.7"
+          ]
+        }
+      },
+      {
+        "id": "custor",
+        "name": "custor",
+        "workspace": "/home/node/.openclaw/workspace-custor",
+        "agentDir": "/home/node/.openclaw/agents/custor/agent",
+	"model": {
+	  "primary": "google/gemini-2.5-flash",
+	  "fallbacks": [
+	    "minimax-portal/MiniMax-M2.7",
+	    "zai/glm-4.7-flash"
+	  ]
+	}
+      }
+    ]
+  },
+  "tools": {
+    "profile": "full",
+    "agentToAgent": {
+      "enabled": true,
+      "allow": [
+        "main",
+        "lucus",
+        "codus",
+        "wxlee"
+      ]
+    },
+    "sessions": {
+      "visibility": "all"
+    },
+    "web": {
+      "search": {
+        "enabled": true,
+        "provider": "duckduckgo"
+      }
+    },
+    "subagents": {
+      "tools": {
+        "allow": [
+          "read",
+          "write",
+          "exec",
+          "process"
+        ]
+      }
+    }
+  },
+  "bindings": [
+    {
+      "type": "route",
+      "agentId": "codus",
+      "match": {
+        "channel": "feishu",
+        "accountId": "codus"
+      }
+    },
+    {
+      "type": "route",
+      "agentId": "lucus",
+      "match": {
+        "channel": "feishu",
+        "accountId": "lucus"
+      }
+    },
+    {
+      "type": "route",
+      "agentId": "main",
+      "match": {
+        "channel": "feishu",
+        "accountId": "main"
+      }
+    },
+    {
+      "type": "route",
+      "agentId": "wxlee",
+      "match": {
+        "channel": "openclaw-weixin",
+        "accountId": "a23ee0675df2-im-bot"
+      }
+    },
+    {
+      "type": "route",
+      "agentId": "wxlee",
+      "match": {
+        "channel": "feishu",
+        "accountId": "xiaoye"
+      }
+    },
+    {
+      "type": "route",
+      "agentId": "custor",
+      "match": {
+      	"channel": "feishu",
+	"accountId": "custor"
+      }
+    }
+  ],
+  "messages": {
+    "responsePrefix": "auto",
+    "ackReaction": "👀",
+    "removeAckAfterReply": false,
+    "ackReactionScope": "group-mentions",
+    "queue": {
+      "mode": "steer",
+      "debounceMs": 500,
+      "cap": 20,
+      "drop": "summarize"
+    },
+    "inbound": {
+      "debounceMs": 1500
+    }
+  },
+  "commands": {
+    "native": "auto",
+    "nativeSkills": "auto",
+    "restart": true,
+    "ownerDisplay": "raw",
+    "ownerAllowFrom": [
+      "feishu:ou_f786171f9e21bf5a09c3116b2e77aaff",
+      "feishu:ou_cb5c7afa7e77cafdeaeae1620a2a383a"
+    ]
+  },
+  "session": {
+    "dmScope": "per-account-channel-peer",
+    "maintenance": {
+      "mode": "enforce",
+      "pruneAfter": "10d",
+      "maxEntries": 100
+    }
+  },
+  "hooks": {
+    "internal": {
+      "enabled": true,
+      "entries": {
+        "boot-md": {
+          "enabled": true
+        },
+        "bootstrap-extra-files": {
+          "enabled": true
+        },
+        "command-logger": {
+          "enabled": true
+        },
+        "session-memory": {
+          "enabled": true
+        }
+      }
+    }
+  },
+  "channels": {
+    "feishu": {
+      "enabled": true,
+      "requireMention": true,
+      "defaultAccount": "main",
+      "typingIndicator": true,
+      "resolveSenderNames": true,
+      "accounts": {
+        "main": {
+          "appId": "cli_aa8198b425389cef",
+          "appSecret": "k0S58IdXo8doVPNlcaQEydgNpcGdPNOT",
+          "name": "Talus",
+          "domain": "feishu"
+        },
+        "lucus": {
+          "appId": "cli_a93108fad2b81e15",
+          "appSecret": "YXsvQgicI06FJkWenoDpggitFT6TCgVq",
+          "name": "Lucus",
+          "domain": "lark"
+        },
+        "codus": {
+          "appId": "cli_a9417983f678de17",
+          "appSecret": "6FMGvf9k9eUGxQ9c32QRp3e8nTacmB6r",
+          "name": "Codus",
+          "domain": "lark"
+        },
+        "xiaoye": {
+          "appId": "cli_a965de5a7b78de17",
+          "appSecret": "kfNGYuW5vlPEL71PwYsK7f8UrMg31WHB",
+          "name": "xiaoye",
+          "domain": "lark"
+        },
+	"custor": {
+	  "appId": "cli_aa985d88e5f85cc5",
+	  "appSecret": "P4G9TiSfCZVKCy3me44GfekdyDYjCCFg",
+	  "name": "Custor",
+	  "domain": "feishu"
+	},
+        "default": {
+          "dmPolicy": "pairing",
+          "groupPolicy": "open"
+        }
+      },
+      "connectionMode": "websocket",
+      "reactionNotifications": "own",
+      "groupAllowFrom": [
+        "oc_76f7651cb976ad84d66158beb2f29be2"
+      ],
+      "tools": {
+        "doc": true
+      }
+    },
+    "openclaw-weixin": {
+      "channelConfigUpdatedAt": "2026-04-27T06:04:52.593Z",
+      "enabled": true
+    }
+  },
+  "gateway": {
+    "port": 18789,
+    "mode": "local",
+    "bind": "loopback",
+    "controlUi": {
+      "enabled": true,
+      "allowedOrigins": [
+        "http://localhost:18789",
+        "http://127.0.0.1:18789"
+      ],
+      "allowInsecureAuth": true
+    },
+    "auth": {
+      "mode": "token",
+      "token": "12ecb07625acf2468a5a6472abdad19f9cf6e409cd17b60996a3144a85e9209b"
+    },
+    "tailscale": {
+      "mode": "off",
+      "resetOnExit": false
+    },
+    "nodes": {
+      "denyCommands": [
+        "camera.snap",
+        "camera.clip",
+        "screen.record",
+        "contacts.add",
+        "calendar.add",
+        "reminders.add",
+        "sms.send"
+      ]
+    }
+  },
+  "skills": {
+    "install": {
+      "nodeManager": "npm"
+    },
+    "entries": {
+      "1password": {
+        "enabled": false
+      },
+      "apple-notes": {
+        "enabled": false
+      },
+      "apple-reminders": {
+        "enabled": false
+      },
+      "bear-notes": {
+        "enabled": false
+      },
+      "blogwatcher": {
+        "enabled": false
+      },
+      "blucli": {
+        "enabled": false
+      },
+      "camsnap": {
+        "enabled": false
+      },
+      "clawhub": {
+        "enabled": false
+      },
+      "coding-agent": {
+        "enabled": false
+      },
+      "discord": {
+        "enabled": false
+      },
+      "docker-essentials": {
+        "enabled": false
+      },
+      "eightctl": {
+        "enabled": false
+      },
+      "gemini": {
+        "enabled": false
+      },
+      "gh-issues": {
+        "enabled": false
+      },
+      "gifgrep": {
+        "enabled": false
+      },
+      "gog": {
+        "enabled": false
+      },
+      "goplaces": {
+        "enabled": false
+      },
+      "himalaya": {
+        "enabled": false
+      },
+      "imsg": {
+        "enabled": false
+      },
+      "mcporter": {
+        "enabled": false
+      },
+      "model-usage": {
+        "enabled": false
+      },
+      "nano-pdf": {
+        "enabled": false
+      },
+      "obsidian": {
+        "enabled": false
+      },
+      "openai-whisper": {
+        "enabled": false
+      },
+      "openai-whisper-api": {
+        "enabled": false
+      },
+      "openhue": {
+        "enabled": false
+      },
+      "oracle": {
+        "enabled": false
+      },
+      "ordercli": {
+        "enabled": false
+      },
+      "peekaboo": {
+        "enabled": false
+      },
+      "sag": {
+        "enabled": false
+      },
+      "session-logs": {
+        "enabled": false
+      },
+      "sherpa-onnx-tts": {
+        "enabled": false
+      },
+      "slack": {
+        "enabled": false
+      },
+      "songsee": {
+        "enabled": false
+      },
+      "sonoscli": {
+        "enabled": false
+      },
+      "spotify-player": {
+        "enabled": false
+      },
+      "things-mac": {
+        "enabled": false
+      },
+      "tmux": {
+        "enabled": false
+      },
+      "trello": {
+        "enabled": false
+      },
+      "video-frames": {
+        "enabled": false
+      },
+      "voice-call": {
+        "enabled": false
+      },
+      "wacli": {
+        "enabled": false
+      },
+      "xurl": {
+        "enabled": false
+      },
+      "summarize": {
+        "enabled": false
+      },
+      "doc-summarize-pro": {
+        "enabled": true
+      }
+    }
+  },
+  "plugins": {
+    "allow": [
+      "duckduckgo",
+      "feishu",
+      "google",
+      "memory-core",
+      "minimax",
+      "nvidia",
+      "openclaw-weixin",
+      "tavily",
+      "volcengine",
+      "zai"
+    ],
+    "entries": {
+      "duckduckgo": {
+        "enabled": true,
+        "config": {}
+      },
+      "memory-core": {
+        "config": {
+          "dreaming": {
+            "enabled": true,
+            "timezone": "Asia/Shanghai",
+            "frequency": "0 3 * * *"
+          }
+        },
+        "enabled": true
+      },
+      "feishu": {
+        "enabled": true,
+        "config": {}
+      },
+      "tavily": {
+        "enabled": true,
+        "config": {}
+      },
+      "minimax": {
+        "enabled": true
+      },
+      "volcengine": {
+        "enabled": true,
+        "config": {}
+      },
+      "zai": {
+        "enabled": true
+      },
+      "google": {
+        "enabled": true
+      },
+      "nvidia": {
+        "enabled": true
+      },
+      "openclaw-weixin": {
+        "enabled": true
+      }
+    },
+    "bundledDiscovery": "compat"
+  }
+}
