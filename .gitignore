@@ -4,6 +4,7 @@ dist/
 build/
 .next/
 out/
+workspace/outputs/
 
 # Backup directories
 .git-backup/

@@ -49,14 +49,14 @@
       }
     },
     "echo-platform-heartbeat": {
-      "updatedAtMs": 1780410807673,
+      "updatedAtMs": 1780412610930,
       "scheduleIdentity": "{\"version\":1,\"enabled\":true,\"schedule\":{\"kind\":\"cron\",\"expr\":\"*/15 * * * *\",\"tz\":\"UTC\"}}",
       "state": {
-        "nextRunAtMs": 1780411500000,
-        "lastRunAtMs": 1780410600004,
+        "nextRunAtMs": 1780413300000,
+        "lastRunAtMs": 1780412400003,
         "lastRunStatus": "ok",
         "lastStatus": "ok",
-        "lastDurationMs": 207669,
+        "lastDurationMs": 210927,
         "lastDeliveryStatus": "not-requested",
         "consecutiveErrors": 0,
         "lastFailureNotificationDeliveryStatus": "not-requested",
