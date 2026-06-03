@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-05-28T19:00:32.264Z",
+  "updatedAt": "2026-06-02T19:00:52.407Z",
   "entries": {
     "memory:memory/.dreams/session-corpus/2026-04-11.txt:1:1": {
       "key": "memory:memory/.dreams/session-corpus/2026-04-11.txt:1:1",
@@ -12973,6 +12973,245 @@
       "conceptTags": [
         "hey",
         "老大"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-06-02.txt:1:1": {
+      "key": "memory:memory/.dreams/session-corpus/2026-06-02.txt:1:1",
+      "path": "memory/.dreams/session-corpus/2026-06-02.txt",
+      "startLine": 1,
+      "endLine": 1,
+      "source": "memory",
+      "snippet": "User: [message_id: om_x100b6ed87baf30a0ee88425b92fba11] ou_cb5c7afa7e77cafdeaeae1620a2a383a: [Replying to: \"备份失败，原因同昨天：git push 需要 SSH client 或 HTTPS 凭证，但两者都不可用。本地 commit 已生成，远程同步待解决。 建议 boss 配置 GitHub credentials（SSH key 或 PAT \\+ credential store）后可自动恢复。\"] echo \"GITHUB_TOKEN=***",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-06-02T19:00:45.771Z",
+      "lastRecalledAt": "2026-06-02T19:00:45.771Z",
+      "queryHashes": [
+        "e10dbdebc851"
+      ],
+      "recallDays": [
+        "2026-06-03",
+        "2026-06-02"
+      ],
+      "conceptTags": [
+        "备份",
+        "message-id",
+        "github-token",
+        "replying",
+        "失败",
+        "原因",
+        "昨天",
+        "git"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-06-02.txt:2:2": {
+      "key": "memory:memory/.dreams/session-corpus/2026-06-02.txt:2:2",
+      "path": "memory/.dreams/session-corpus/2026-06-02.txt",
+      "startLine": 2,
+      "endLine": 2,
+      "source": "memory",
+      "snippet": "Assistant: 收到，正在使用该 token 进行 git 操作。",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-06-02T19:00:45.771Z",
+      "lastRecalledAt": "2026-06-02T19:00:45.771Z",
+      "queryHashes": [
+        "e10dbdebc851"
+      ],
+      "recallDays": [
+        "2026-06-03",
+        "2026-06-02"
+      ],
+      "conceptTags": [
+        "收到",
+        "正在",
+        "使用",
+        "token",
+        "进行",
+        "git",
+        "操作"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-06-02.txt:3:3": {
+      "key": "memory:memory/.dreams/session-corpus/2026-06-02.txt:3:3",
+      "path": "memory/.dreams/session-corpus/2026-06-02.txt",
+      "startLine": 3,
+      "endLine": 3,
+      "source": "memory",
+      "snippet": "Assistant: 找到问题了。备份脚本往 `openclaw/openclaw`（上游）推送，但你的 token 只有 `blocklee/openclaw`（你自己的 fork）的写权限。 先把 origin 改成 blocklee 的 fork：",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-06-02T19:00:45.771Z",
+      "lastRecalledAt": "2026-06-02T19:00:45.771Z",
+      "queryHashes": [
+        "e10dbdebc851"
+      ],
+      "recallDays": [
+        "2026-06-03",
+        "2026-06-02"
+      ],
+      "conceptTags": [
+        "备份",
+        "openclaw/openclaw",
+        "blocklee/openclaw",
+        "找到",
+        "问题",
+        "脚本",
+        "openclaw",
+        "上游"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-06-02.txt:4:4": {
+      "key": "memory:memory/.dreams/session-corpus/2026-06-02.txt:4:4",
+      "path": "memory/.dreams/session-corpus/2026-06-02.txt",
+      "startLine": 4,
+      "endLine": 4,
+      "source": "memory",
+      "snippet": "User: [message_id: om_x100b6eda8ab62d00ee7982d5866f7c7] ou_cb5c7afa7e77cafdeaeae1620a2a383a: hi",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-06-02T19:00:45.771Z",
+      "lastRecalledAt": "2026-06-02T19:00:45.771Z",
+      "queryHashes": [
+        "e10dbdebc851"
+      ],
+      "recallDays": [
+        "2026-06-03",
+        "2026-06-02"
+      ],
+      "conceptTags": [
+        "message-id"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-06-03.txt:1:1": {
+      "key": "memory:memory/.dreams/session-corpus/2026-06-03.txt:1:1",
+      "path": "memory/.dreams/session-corpus/2026-06-03.txt",
+      "startLine": 1,
+      "endLine": 1,
+      "source": "memory",
+      "snippet": "User: [message_id: om_x100b6edba775fd34ee87ca16ed5b981] ou_cb5c7afa7e77cafdeaeae1620a2a383a: 你活着么",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-06-02T19:00:45.771Z",
+      "lastRecalledAt": "2026-06-02T19:00:45.771Z",
+      "queryHashes": [
+        "87e9e611ff5e"
+      ],
+      "recallDays": [
+        "2026-06-03",
+        "2026-06-02"
+      ],
+      "conceptTags": [
+        "message-id",
+        "活着"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-06-03.txt:2:2": {
+      "key": "memory:memory/.dreams/session-corpus/2026-06-03.txt:2:2",
+      "path": "memory/.dreams/session-corpus/2026-06-03.txt",
+      "startLine": 2,
+      "endLine": 2,
+      "source": "memory",
+      "snippet": "Assistant: 活着，就是 git push 一直卡住。刚才网络测了没问题，curl 能连 GitHub，git pull 也超时。token 认证是通的（刚才 test clone 成功了），就是大仓库 push 不出去。 要不换个方式备份？比如只打包关键配置文件推上去，不用整个 .git 目录。",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-06-02T19:00:45.771Z",
+      "lastRecalledAt": "2026-06-02T19:00:45.771Z",
+      "queryHashes": [
+        "87e9e611ff5e"
+      ],
+      "recallDays": [
+        "2026-06-03",
+        "2026-06-02"
+      ],
+      "conceptTags": [
+        "备份",
+        "网络",
+        "活着",
+        "就是",
+        "git",
+        "push",
+        "一直",
+        "卡住"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-06-03.txt:3:3": {
+      "key": "memory:memory/.dreams/session-corpus/2026-06-03.txt:3:3",
+      "path": "memory/.dreams/session-corpus/2026-06-03.txt",
+      "startLine": 3,
+      "endLine": 3,
+      "source": "memory",
+      "snippet": "User: [message_id: om_x100b6edbbe3000a0eea0f435bdd8b74] ou_cb5c7afa7e77cafdeaeae1620a2a383a: 那你觉得哪些是关键配置呢",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-06-02T19:00:45.771Z",
+      "lastRecalledAt": "2026-06-02T19:00:45.771Z",
+      "queryHashes": [
+        "87e9e611ff5e"
+      ],
+      "recallDays": [
+        "2026-06-03",
+        "2026-06-02"
+      ],
+      "conceptTags": [
+        "message-id",
+        "觉得",
+        "哪些",
+        "关键",
+        "配置"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-06-03.txt:4:4": {
+      "key": "memory:memory/.dreams/session-corpus/2026-06-03.txt:4:4",
+      "path": "memory/.dreams/session-corpus/2026-06-03.txt",
+      "startLine": 4,
+      "endLine": 4,
+      "source": "memory",
+      "snippet": "Assistant: 建议备份这些： **核心配置** - `openclaw.json` — 主配置 - `alerts.json` / `exec-approvals.json` / `update-check.json` - `agents/*/agent/models.json` — 模型配置 **身份/人格** - `workspace/SOUL.md` `IDENTITY.md` `USER.md` `AGENTS.md` `MEMORY.md` `TOOLS.md` - `workspace/DREAMS.md` `HEARTBEAT.md",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-06-02T19:00:45.771Z",
+      "lastRecalledAt": "2026-06-02T19:00:45.771Z",
+      "queryHashes": [
+        "87e9e611ff5e"
+      ],
+      "recallDays": [
+        "2026-06-03",
+        "2026-06-02"
+      ],
+      "conceptTags": [
+        "备份",
+        "openclaw.json",
+        "alerts.json",
+        "exec-approvals.json",
+        "update-check.json",
+        "agent/models.json",
+        "身份/人格",
+        "workspace/soul.md"
       ]
     }
   }

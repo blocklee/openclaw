@@ -1,5 +1,5 @@
 {
-  "last_check": "2026-06-02T08:41:00Z",
-  "checks_today": 3,
-  "note": "UTC 08:41 = 北京 16:41。HEARTBEAT.md有遗留待确认项：Qitmeer Chainlink VRF支持状态（2026-05早期问题，ECHO v2已上线，可能是旧信息）"
+  "last_check": "2026-06-02T19:11:00Z",
+  "checks_today": 1,
+  "note": "晚间活跃时段，北京时间 03:11 (+1天)，HEARTBEAT.md已清理旧VRF问题，确认信息已更新"
 }

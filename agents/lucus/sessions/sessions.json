@@ -1,9 +1,9 @@
 {
   "agent:lucus:feishu:lucus:direct:ou_cb5c7afa7e77cafdeaeae1620a2a383a": {
     "sessionId": "26d7ed60-3f73-4811-946e-d73601facaeb",
-    "updatedAt": 1780411481587,
+    "updatedAt": 1780416300688,
     "sessionStartedAt": 1780400987596,
-    "lastInteractionAt": 1780411468547,
+    "lastInteractionAt": 1780416276281,
     "systemSent": true,
     "abortedLastRun": false,
     "usageFamilyKey": "agent:lucus:feishu:lucus:direct:ou_cb5c7afa7e77cafdeaeae1620a2a383a",
@@ -160,15 +160,13 @@
       "version": 0
     },
     "status": "done",
-    "startedAt": 1780411476070,
-    "endedAt": 1780411481532,
-    "runtimeMs": 5462,
+    "startedAt": 1780416284984,
     "modelProvider": "minimax-portal",
     "model": "MiniMax-M2.7",
     "contextTokens": 200000,
     "systemPromptReport": {
       "source": "run",
-      "generatedAt": 1780411475785,
+      "generatedAt": 1780416283250,
       "sessionId": "26d7ed60-3f73-4811-946e-d73601facaeb",
       "sessionKey": "agent:lucus:feishu:lucus:direct:ou_cb5c7afa7e77cafdeaeae1620a2a383a",
       "provider": "minimax-portal",
@@ -566,15 +564,17 @@
         ]
       },
       "currentTurn": {
-        "promptChars": 596,
+        "promptChars": 606,
         "runtimeContextChars": 0
       }
     },
-    "inputTokens": 52503,
-    "outputTokens": 17,
-    "cacheRead": 0,
+    "inputTokens": 5869,
+    "outputTokens": 476,
+    "cacheRead": 50214,
     "cacheWrite": 0,
-    "totalTokens": 52503,
-    "totalTokensFresh": true
+    "totalTokens": 53190,
+    "totalTokensFresh": true,
+    "endedAt": 1780416300608,
+    "runtimeMs": 15624
   }
 }

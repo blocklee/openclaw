@@ -756,6 +756,10 @@
       "api": "anthropic-messages",
       "authHeader": true,
       "models": []
+    },
+    "github-copilot": {
+      "baseUrl": "https://api.individual.githubcopilot.com",
+      "models": []
     }
   }
 }

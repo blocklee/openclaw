@@ -14,7 +14,8 @@
         "consecutiveErrors": 0,
         "lastFailureNotificationDeliveryStatus": "not-requested",
         "consecutiveSkipped": 0,
-        "lastDelivered": true
+        "lastDelivered": true,
+        "runningAtMs": 1780444800002
       }
     },
     "config-backup-8am": {
@@ -34,14 +35,14 @@
       }
     },
     "8f62feb4-aed8-47fd-8093-29d8f97f4b71": {
-      "updatedAtMs": 1780340436039,
+      "updatedAtMs": 1780426855915,
       "scheduleIdentity": "{\"version\":1,\"enabled\":true,\"schedule\":{\"kind\":\"cron\",\"expr\":\"0 3 * * *\",\"tz\":\"Asia/Shanghai\"}}",
       "state": {
-        "nextRunAtMs": 1780426800000,
-        "lastRunAtMs": 1780340400004,
+        "nextRunAtMs": 1780513200000,
+        "lastRunAtMs": 1780426800004,
         "lastRunStatus": "ok",
         "lastStatus": "ok",
-        "lastDurationMs": 36035,
+        "lastDurationMs": 55911,
         "lastDeliveryStatus": "not-requested",
         "consecutiveErrors": 0,
         "lastFailureNotificationDeliveryStatus": "not-requested",
@@ -49,18 +50,19 @@
       }
     },
     "echo-platform-heartbeat": {
-      "updatedAtMs": 1780412610930,
+      "updatedAtMs": 1780443995197,
       "scheduleIdentity": "{\"version\":1,\"enabled\":true,\"schedule\":{\"kind\":\"cron\",\"expr\":\"*/15 * * * *\",\"tz\":\"UTC\"}}",
       "state": {
-        "nextRunAtMs": 1780413300000,
-        "lastRunAtMs": 1780412400003,
+        "nextRunAtMs": 1780444800000,
+        "lastRunAtMs": 1780443900003,
         "lastRunStatus": "ok",
         "lastStatus": "ok",
-        "lastDurationMs": 210927,
+        "lastDurationMs": 95194,
         "lastDeliveryStatus": "not-requested",
         "consecutiveErrors": 0,
         "lastFailureNotificationDeliveryStatus": "not-requested",
-        "consecutiveSkipped": 0
+        "consecutiveSkipped": 0,
+        "runningAtMs": 1780444800002
       }
     }
   }
