@@ -22,7 +22,7 @@ Skills are shared. Your setup is yours. Keeping them apart means you can update 
 Add whatever helps you do your job. This is your cheat sheet.
 
 ## GitHub
-- token: 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
+- token: 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
 
 ## Robot Space 群聊机器人-主人映射
 

@@ -421,13 +421,6 @@
       "lineCount": 2,
       "lastContentLine": 2
     },
-    "lucus:sessions/lucus/bf256fe7-be29-46e7-a6ee-d03db0bdb2b2.jsonl.reset.2026-05-24T04-21-30.816Z": {
-      "mtimeMs": 1779588807408,
-      "size": 32273,
-      "contentHash": "e49f3649c8590b732ebd4dd1223c674e851daf0b70efe9c2a1f7b1cf216607a2",
-      "lineCount": 3,
-      "lastContentLine": 3
-    },
     "lucus:sessions/lucus/bfae2e3d-fe8a-433c-b9b7-0bba168ba8d6.jsonl": {
       "mtimeMs": 1774778003373,
       "size": 1951,
@@ -595,13 +588,6 @@
       "contentHash": "888a14eb846b607fb3b73b39191c53e0e648e2a06ac6a1924c12af7d403dee0f",
       "lineCount": 2,
       "lastContentLine": 2
-    },
-    "lucus:sessions/lucus/faeb4a83-7994-40cc-8051-16ca45e8ffcb.jsonl.reset.2026-05-24T02-10-38.106Z": {
-      "mtimeMs": 1779438869498,
-      "size": 28874,
-      "contentHash": "92f4e33fc033ea70c416a12cc1ca0f028c93df2e0edb3d87ae6d176cfed55fd8",
-      "lineCount": 3,
-      "lastContentLine": 3
     }
   },
   "seenMessages": {

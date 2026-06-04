@@ -1,7 +1,7 @@
 {
   "meta": {
     "lastTouchedVersion": "2026.5.19",
-    "lastTouchedAt": "2026-05-25T12:31:11.872Z"
+    "lastTouchedAt": "2026-05-27T16:53:40.674Z"
   },
   "env": {
     "OPENROUTER_API_KEY": "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",
@@ -12,9 +12,9 @@
     "NVIDIA_API_KEY": "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"
   },
   "wizard": {
-    "lastRunAt": "2026-05-23T10:19:19.448Z",
+    "lastRunAt": "2026-05-27T16:53:40.543Z",
     "lastRunVersion": "2026.5.19",
-    "lastRunCommand": "configure",
+    "lastRunCommand": "doctor",
     "lastRunMode": "local"
   },
   "auth": {
@@ -349,10 +349,10 @@
         "workspace": "/home/node/.openclaw/workspace-lucus",
         "agentDir": "/home/node/.openclaw/agents/lucus/agent",
         "model": {
-          "primary": "minimax-portal/MiniMax-M2.7-highspeed",
+          "primary": "minimax-portal/MiniMax-M2.7",
           "fallbacks": [
-            "minimax-portal/MiniMax-M2.7",
-            "nvidia/minimaxai/minimax-m2.7"
+            "nvidia/minimaxai/minimax-m2.7",
+            "google/gemini-2.5-flash"
           ]
         }
       },
@@ -362,10 +362,10 @@
         "workspace": "/home/node/.openclaw/workspace-wxlee",
         "agentDir": "/home/node/.openclaw/agents/wxlee/agent",
         "model": {
-          "primary": "minimax-portal/MiniMax-M2.7-highspeed",
+          "primary": "minimax-portal/MiniMax-M2.7",
           "fallbacks": [
-            "minimax-portal/MiniMax-M2.7",
-            "nvidia/minimaxai/minimax-m2.7"
+            "nvidia/minimaxai/minimax-m2.7",
+            "google/gemini-2.5-flash"
           ]
         }
       },
@@ -659,10 +659,10 @@
         "enabled": false
       },
       "model-usage": {
-        "enabled": true
+        "enabled": false
       },
       "nano-pdf": {
-        "enabled": true
+        "enabled": false
       },
       "obsidian": {
         "enabled": false
@@ -689,7 +689,7 @@
         "enabled": false
       },
       "session-logs": {
-        "enabled": true
+        "enabled": false
       },
       "sherpa-onnx-tts": {
         "enabled": false
@@ -728,7 +728,7 @@
         "enabled": false
       },
       "summarize": {
-        "enabled": true
+        "enabled": false
       },
       "doc-summarize-pro": {
         "enabled": true
