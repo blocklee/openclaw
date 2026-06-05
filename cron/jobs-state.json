@@ -26,34 +26,34 @@
           ]
         },
         "lastDiagnosticSummary": "session file changed while embedded prompt lock was released: /home/node/.openclaw/agents/main/sessions/7e100ba7-b272-4fbd-83c0-27cc4c4515d7.jsonl",
-        "runningAtMs": 1780531200003
+        "runningAtMs": 1780659535820
       }
     },
     "config-backup-8am": {
-      "updatedAtMs": 1780473790475,
+      "updatedAtMs": 1780659507556,
       "scheduleIdentity": "{\"version\":1,\"enabled\":true,\"schedule\":{\"kind\":\"cron\",\"expr\":\"0 8 * * *\",\"staggerMs\":0}}",
       "state": {
-        "nextRunAtMs": 1780560000000,
-        "lastRunAtMs": 1780473600009,
+        "nextRunAtMs": 1780732800000,
+        "lastRunAtMs": 1780659493779,
         "lastRunStatus": "ok",
         "lastStatus": "ok",
-        "lastDurationMs": 190466,
-        "lastDeliveryStatus": "delivered",
+        "lastDurationMs": 13777,
+        "lastDeliveryStatus": "not-delivered",
         "consecutiveErrors": 0,
         "lastFailureNotificationDeliveryStatus": "not-requested",
         "consecutiveSkipped": 0,
-        "lastDelivered": true
+        "lastDelivered": false
       }
     },
     "8f62feb4-aed8-47fd-8093-29d8f97f4b71": {
-      "updatedAtMs": 1780513233909,
+      "updatedAtMs": 1780659533522,
       "scheduleIdentity": "{\"version\":1,\"enabled\":true,\"schedule\":{\"kind\":\"cron\",\"expr\":\"0 3 * * *\",\"tz\":\"Asia/Shanghai\"}}",
       "state": {
-        "nextRunAtMs": 1780599600000,
-        "lastRunAtMs": 1780513200004,
+        "nextRunAtMs": 1780686000000,
+        "lastRunAtMs": 1780659507556,
         "lastRunStatus": "ok",
         "lastStatus": "ok",
-        "lastDurationMs": 33905,
+        "lastDurationMs": 25966,
         "lastDeliveryStatus": "not-requested",
         "consecutiveErrors": 0,
         "lastFailureNotificationDeliveryStatus": "not-requested",
@@ -91,7 +91,7 @@
           ]
         },
         "lastDiagnosticSummary": "⚠️ ✉️ Message failed",
-        "runningAtMs": 1780531200003
+        "runningAtMs": 1780659535820
       }
     }
   }

@@ -107,7 +107,7 @@
       "lastContentLine": 2
     },
     "lucus:sessions/lucus/26d7ed60-3f73-4811-946e-d73601facaeb.jsonl": {
-      "mtimeMs": 1780416300604,
+      "mtimeMs": 1780659445363,
       "size": 256681,
       "contentHash": "18bcbbb0611e05dbfeba67c2786f20a09c6428a62a2f573d3fea7a523032b0ff",
       "lineCount": 8,
@@ -301,13 +301,6 @@
       "contentHash": "be6b3d5ebe84f282828c8d39bcf6779cbc35bc13f1562250418be96f525656c7",
       "lineCount": 3,
       "lastContentLine": 3
-    },
-    "lucus:sessions/lucus/7dccc677-9178-4918-834d-4284b43e48c7.jsonl.reset.2026-05-26T09-12-11.871Z": {
-      "mtimeMs": 1779598577724,
-      "size": 71095,
-      "contentHash": "91ef58abc571b491c05ab985b230c5bd3d63d32a4f6d84f55c52c55c9bcab0a0",
-      "lineCount": 16,
-      "lastContentLine": 16
     },
     "lucus:sessions/lucus/80e7400f-8a29-49ae-8e39-ca7c23c5a10b.jsonl": {
       "mtimeMs": 1774777442569,

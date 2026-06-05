@@ -2,7 +2,7 @@
   "version": 3,
   "files": {
     "codus:sessions/codus/6f106454-d9f1-45c0-815e-ced04d5ffe80.jsonl": {
-      "mtimeMs": 1779940980501,
+      "mtimeMs": 1780659445331,
       "size": 4060,
       "contentHash": "5c1e490a2c0a72199d24a346a8c83d881c6373159dc2a9a9a4876579184fa3b7",
       "lineCount": 2,
@@ -14,13 +14,6 @@
       "contentHash": "778a1a4057f7f7964a0f1c02ebf8d3d25c9aec862d399fe34ef93c113edc2a26",
       "lineCount": 4,
       "lastContentLine": 4
-    },
-    "codus:sessions/codus/f2903044-0dbe-4362-9515-90dc2bffb4e6.jsonl.reset.2026-05-26T09-22-10.956Z": {
-      "mtimeMs": 1779405088310,
-      "size": 22045,
-      "contentHash": "95b905f35443b7feaec26404297ae9b49997152f306137f547a3cb4c334ffd42",
-      "lineCount": 8,
-      "lastContentLine": 8
     }
   },
   "seenMessages": {

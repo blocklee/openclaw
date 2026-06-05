@@ -1,0 +1,1 @@
+[main/sessions/main/f1c008fb-627f-416c-a316-27cb1f6335f2.jsonl#L8] Assistant: 备份完成：`~/.openclaw/openclaw.json.backup-20260605`
