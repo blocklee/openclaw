@@ -1,4 +1,39 @@
 {
   "version": 1,
+<<<<<<< HEAD
   "files": {}
+=======
+  "files": {
+    "memory/2026-06-04.md": {
+      "mtimeMs": 1780591069649,
+      "size": 60660,
+      "lastDreamingDayIngested": "2026-06-05"
+    },
+    "memory/2026-06-04-joint-report.md": {
+      "mtimeMs": 1780568944739,
+      "size": 3211,
+      "lastDreamingDayIngested": "2026-06-05"
+    },
+    "memory/2026-06-02.md": {
+      "mtimeMs": 1780387915927,
+      "size": 419,
+      "lastDreamingDayIngested": "2026-06-05"
+    },
+    "memory/2026-06-01.md": {
+      "mtimeMs": 1780351928647,
+      "size": 3258,
+      "lastDreamingDayIngested": "2026-06-05"
+    },
+    "memory/2026-05-30-1559.md": {
+      "mtimeMs": 1780156785504,
+      "size": 3845,
+      "lastDreamingDayIngested": "2026-06-05"
+    },
+    "memory/2026-05-29.md": {
+      "mtimeMs": 1780064918298,
+      "size": 2869,
+      "lastDreamingDayIngested": "2026-06-05"
+    }
+  }
+>>>>>>> feature/frontend-integration-v0.2
 }

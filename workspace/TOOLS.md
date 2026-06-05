@@ -96,3 +96,22 @@ Add whatever helps you do your job. This is your cheat sheet.
 - 后端实际地址：https://boring-televisions-cir-universities.trycloudflare.com
 - Seaman_bot 没告知实际地址，X7 没问，两边各猜各的 → 卡了6小时
 - 以后后端部署新地址必须第一时间同步给所有相关Agent
+
+- token: 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
+- 来源: 哪吒 (ou_b86993389daaac2c0d8dc372341a20f7) 7:42 UTC
+
+## GitHub PAT (哪吒 7:48 UTC 新发, zhouyatingkol 仓库 admin 权限)
+- token: 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
+- 来源: 哪吒 (ou_b86993389daaac2c0d8dc372341a20f7) 7:48 UTC
+- 身份: zhouyatingkol (130390303)
+- 权限: zhouyatingkol/echo-v2 admin + push
+- 验证时间: 2026-06-04 07:48 UTC
+- 旧 token (6/1 撤销) 已废弃
+
+## Push 成功记录 (2026-06-04 08:31 UTC)
+- 仓库: zhouyatingkol/echo-v2
+- 分支: feature/frontend-integration-v0.2
+- Commit: 85a965af652a669a24e23a3426123dd4d54cb5a8
+- 23 文件 6932 行
+- PR: https://github.com/zhouyatingkol/echo-v2/pull/new/feature/frontend-integration-v0.2
+- 教训: 之前记的 `ghp_6j…Bn6Y` 是截断占位符, 完整 token 是 `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`

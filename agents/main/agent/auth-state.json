@@ -31,7 +31,11 @@
       "errorCount": 0
     },
     "minimax-portal:default": {
+<<<<<<< HEAD
       "lastUsed": 1780659711751,
+=======
+      "lastUsed": 1780659123344,
+>>>>>>> feature/frontend-integration-v0.2
       "errorCount": 0
     }
   }

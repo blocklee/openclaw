@@ -1,7 +1,7 @@
 {
   "meta": {
     "lastTouchedVersion": "2026.5.19",
-    "lastTouchedAt": "2026-06-03T16:27:56.452Z"
+    "lastTouchedAt": "2026-06-04T03:39:29.556Z"
   },
   "env": {
     "OPENROUTER_API_KEY": "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",
@@ -251,10 +251,10 @@
   "agents": {
     "defaults": {
       "model": {
-        "primary": "minimax-portal/MiniMax-M2.7",
+        "primary": "minimax-portal/MiniMax-M3",
         "fallbacks": [
-          "minimax-portal/MiniMax-M3",
-	  "minimax-portal/MiniMax-M2.7-highspeed",
+          "minimax-portal/MiniMax-M2.7",
+          "minimax-portal/MiniMax-M2.7-highspeed",
           "nvidia/z-ai/glm4.7",
           "nvidia/deepseek-ai/deepseek-v4-pro",
           "nvidia/deepseek-ai/deepseek-v4-flash",
@@ -282,10 +282,10 @@
         "zai/glm-4.7-flash": {},
         "minimax-portal/MiniMax-M2.7": {
           "alias": "minimax-m2.7"
-	},
-	"minimax-portal/MiniMax-M3": {
-	  "alias": "minimax-m3"
-	},
+        },
+        "minimax-portal/MiniMax-M3": {
+          "alias": "minimax-m3"
+        },
         "minimax-portal/MiniMax-M2.7-highspeed": {
           "alias": "minimax-m2.7-highspeed"
         }
@@ -311,7 +311,7 @@
         "idleMs": 1000
       },
       "humanDelay": {
-        "mode": "natural"
+        "mode": "off"
       },
       "subagents": {
         "maxSpawnDepth": 2,
@@ -493,7 +493,9 @@
     "maintenance": {
       "mode": "enforce",
       "pruneAfter": "10d",
-      "maxEntries": 100
+      "maxEntries": 100,
+      "maxDiskBytes": 1073741824,
+      "highWaterBytes": 858993459
     }
   },
   "hooks": {

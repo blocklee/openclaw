@@ -1,7 +1,11 @@
 {
   "meta": {
     "lastTouchedVersion": "2026.5.19",
+<<<<<<< HEAD
     "lastTouchedAt": "2026-06-03T16:27:56.452Z"
+=======
+    "lastTouchedAt": "2026-06-04T03:39:29.556Z"
+>>>>>>> feature/frontend-integration-v0.2
   },
   "env": {
     "OPENROUTER_API_KEY": "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",
@@ -251,10 +255,17 @@
   "agents": {
     "defaults": {
       "model": {
+<<<<<<< HEAD
         "primary": "minimax-portal/MiniMax-M2.7",
         "fallbacks": [
           "minimax-portal/MiniMax-M3",
 	  "minimax-portal/MiniMax-M2.7-highspeed",
+=======
+        "primary": "minimax-portal/MiniMax-M3",
+        "fallbacks": [
+          "minimax-portal/MiniMax-M2.7",
+          "minimax-portal/MiniMax-M2.7-highspeed",
+>>>>>>> feature/frontend-integration-v0.2
           "nvidia/z-ai/glm4.7",
           "nvidia/deepseek-ai/deepseek-v4-pro",
           "nvidia/deepseek-ai/deepseek-v4-flash",
@@ -282,10 +293,17 @@
         "zai/glm-4.7-flash": {},
         "minimax-portal/MiniMax-M2.7": {
           "alias": "minimax-m2.7"
+<<<<<<< HEAD
 	},
 	"minimax-portal/MiniMax-M3": {
 	  "alias": "minimax-m3"
 	},
+=======
+        },
+        "minimax-portal/MiniMax-M3": {
+          "alias": "minimax-m3"
+        },
+>>>>>>> feature/frontend-integration-v0.2
         "minimax-portal/MiniMax-M2.7-highspeed": {
           "alias": "minimax-m2.7-highspeed"
         }
@@ -311,7 +329,11 @@
         "idleMs": 1000
       },
       "humanDelay": {
+<<<<<<< HEAD
         "mode": "natural"
+=======
+        "mode": "off"
+>>>>>>> feature/frontend-integration-v0.2
       },
       "subagents": {
         "maxSpawnDepth": 2,
@@ -493,7 +515,13 @@
     "maintenance": {
       "mode": "enforce",
       "pruneAfter": "10d",
+<<<<<<< HEAD
       "maxEntries": 100
+=======
+      "maxEntries": 100,
+      "maxDiskBytes": 1073741824,
+      "highWaterBytes": 858993459
+>>>>>>> feature/frontend-integration-v0.2
     }
   },
   "hooks": {
