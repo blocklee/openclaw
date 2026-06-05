@@ -2,31 +2,19 @@
   "version": 1,
   "jobs": {
     "1c3a7bd5-d835-41d8-a14a-d2970f13d503": {
-      "updatedAtMs": 1780445176802,
+      "updatedAtMs": 1780659600598,
       "scheduleIdentity": "{\"version\":1,\"enabled\":true,\"schedule\":{\"kind\":\"cron\",\"expr\":\"0 0 * * *\",\"staggerMs\":0}}",
       "state": {
-        "nextRunAtMs": 1780531200000,
-        "lastRunAtMs": 1780444800004,
-        "lastRunStatus": "error",
-        "lastStatus": "error",
-        "lastDurationMs": 376798,
-        "lastDeliveryStatus": "unknown",
-        "consecutiveErrors": 1,
-        "lastFailureNotificationDeliveryStatus": "unknown",
+        "nextRunAtMs": 1780704000000,
+        "lastRunAtMs": 1780659535874,
+        "lastRunStatus": "ok",
+        "lastStatus": "ok",
+        "lastDurationMs": 64724,
+        "lastDeliveryStatus": "not-delivered",
+        "consecutiveErrors": 0,
+        "lastFailureNotificationDeliveryStatus": "not-requested",
         "consecutiveSkipped": 0,
-        "lastDiagnostics": {
-          "summary": "session file changed while embedded prompt lock was released: /home/node/.openclaw/agents/main/sessions/7e100ba7-b272-4fbd-83c0-27cc4c4515d7.jsonl",
-          "entries": [
-            {
-              "ts": 1780445176802,
-              "source": "agent-run",
-              "severity": "error",
-              "message": "session file changed while embedded prompt lock was released: /home/node/.openclaw/agents/main/sessions/7e100ba7-b272-4fbd-83c0-27cc4c4515d7.jsonl"
-            }
-          ]
-        },
-        "lastDiagnosticSummary": "session file changed while embedded prompt lock was released: /home/node/.openclaw/agents/main/sessions/7e100ba7-b272-4fbd-83c0-27cc4c4515d7.jsonl",
-        "runningAtMs": 1780659535820
+        "lastDelivered": false
       }
     },
     "config-backup-8am": {
@@ -61,37 +49,18 @@
       }
     },
     "echo-platform-heartbeat": {
-      "updatedAtMs": 1780530341185,
+      "updatedAtMs": 1780659681191,
       "scheduleIdentity": "{\"version\":1,\"enabled\":true,\"schedule\":{\"kind\":\"cron\",\"expr\":\"*/15 * * * *\",\"tz\":\"UTC\"}}",
       "state": {
-        "nextRunAtMs": 1780531200000,
-        "lastRunAtMs": 1780530300004,
-        "lastRunStatus": "error",
-        "lastStatus": "error",
-        "lastDurationMs": 41181,
+        "nextRunAtMs": 1780659900000,
+        "lastRunAtMs": 1780659600598,
+        "lastRunStatus": "ok",
+        "lastStatus": "ok",
+        "lastDurationMs": 80593,
         "lastDeliveryStatus": "not-requested",
-        "consecutiveErrors": 1,
+        "consecutiveErrors": 0,
         "lastFailureNotificationDeliveryStatus": "not-requested",
-        "consecutiveSkipped": 0,
-        "lastDiagnostics": {
-          "summary": "⚠️ ✉️ Message failed",
-          "entries": [
-            {
-              "ts": 1780530341183,
-              "source": "tool",
-              "severity": "error",
-              "message": "⚠️ ✉️ Message failed"
-            },
-            {
-              "ts": 1780530341184,
-              "source": "agent-run",
-              "severity": "error",
-              "message": "⚠️ ✉️ Message failed"
-            }
-          ]
-        },
-        "lastDiagnosticSummary": "⚠️ ✉️ Message failed",
-        "runningAtMs": 1780659535820
+        "consecutiveSkipped": 0
       }
     }
   }
