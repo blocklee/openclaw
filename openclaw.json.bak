@@ -1,7 +1,7 @@
 {
   "meta": {
     "lastTouchedVersion": "2026.5.19",
-    "lastTouchedAt": "2026-05-28T11:59:46.579Z"
+    "lastTouchedAt": "2026-06-03T16:27:56.452Z"
   },
   "env": {
     "OPENROUTER_API_KEY": "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",
@@ -12,9 +12,9 @@
     "NVIDIA_API_KEY": "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"
   },
   "wizard": {
-    "lastRunAt": "2026-05-27T16:53:40.543Z",
+    "lastRunAt": "2026-06-03T16:27:55.530Z",
     "lastRunVersion": "2026.5.19",
-    "lastRunCommand": "doctor",
+    "lastRunCommand": "configure",
     "lastRunMode": "local"
   },
   "auth": {
@@ -251,14 +251,14 @@
   "agents": {
     "defaults": {
       "model": {
-        "primary": "minimax-portal/MiniMax-M2.7",
+        "primary": "minimax-portal/MiniMax-M3",
         "fallbacks": [
+          "minimax-portal/MiniMax-M2.7",
           "minimax-portal/MiniMax-M2.7-highspeed",
           "nvidia/z-ai/glm4.7",
           "nvidia/deepseek-ai/deepseek-v4-pro",
           "nvidia/deepseek-ai/deepseek-v4-flash",
-          "nvidia/minimaxai/minimax-m2.7",
-          "nvidia/z-ai/glm4.7"
+          "nvidia/minimaxai/minimax-m2.7"
         ]
       },
       "imageGenerationModel": {
@@ -266,9 +266,6 @@
         "fallbacks": []
       },
       "models": {
-        "minimax/MiniMax-M2.7": {
-          "alias": "Minimax"
-        },
         "zai/glm-5": {
           "alias": "GLM"
         },
@@ -285,6 +282,9 @@
         "zai/glm-4.7-flash": {},
         "minimax-portal/MiniMax-M2.7": {
           "alias": "minimax-m2.7"
+        },
+        "minimax-portal/MiniMax-M3": {
+          "alias": "minimax-m3"
         },
         "minimax-portal/MiniMax-M2.7-highspeed": {
           "alias": "minimax-m2.7-highspeed"
@@ -311,7 +311,7 @@
         "idleMs": 1000
       },
       "humanDelay": {
-        "mode": "natural"
+        "mode": "off"
       },
       "subagents": {
         "maxSpawnDepth": 2,

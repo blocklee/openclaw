@@ -1,7 +1,7 @@
 {
   "meta": {
     "lastTouchedVersion": "2026.5.19",
-    "lastTouchedAt": "2026-05-23T10:19:20.549Z"
+    "lastTouchedAt": "2026-05-25T12:31:11.872Z"
   },
   "env": {
     "OPENROUTER_API_KEY": "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",
@@ -266,7 +266,7 @@
   "agents": {
     "defaults": {
       "model": {
-        "primary": "minimax/MiniMax-M2.7",
+        "primary": "minimax-portal/MiniMax-M2.7",
         "fallbacks": [
           "nvidia/deepseek-ai/deepseek-v4-pro",
           "nvidia/deepseek-ai/deepseek-v4-flash",
@@ -319,9 +319,16 @@
       "timeoutSeconds": 1800,
       "blockStreamingDefault": "on",
       "blockStreamingBreak": "text_end",
-      "blockStreamingChunk": { "minChars": 800, "maxChars": 1200 },
-      "blockStreamingCoalesce": { "idleMs": 1000 },
-      "humanDelay": { "mode": "natural" },
+      "blockStreamingChunk": {
+        "minChars": 800,
+        "maxChars": 1200
+      },
+      "blockStreamingCoalesce": {
+        "idleMs": 1000
+      },
+      "humanDelay": {
+        "mode": "natural"
+      },
       "subagents": {
         "maxSpawnDepth": 2,
         "maxChildrenPerAgent": 4,
@@ -342,12 +349,10 @@
         "workspace": "/home/node/.openclaw/workspace-lucus",
         "agentDir": "/home/node/.openclaw/agents/lucus/agent",
         "model": {
-          "primary": "nvidia/deepseek-ai/deepseek-v4-flash",
+          "primary": "minimax-portal/MiniMax-M2.7-highspeed",
           "fallbacks": [
-            "nvidia/deepseek-ai/deepseek-v4-pro",
-            "google/gemini-2.5-flash",
-            "google/gemini-2.5-flash-lite",
-            "zai/glm-4.7-flash"
+            "minimax-portal/MiniMax-M2.7",
+            "nvidia/minimaxai/minimax-m2.7"
           ]
         }
       },
@@ -357,10 +362,10 @@
         "workspace": "/home/node/.openclaw/workspace-wxlee",
         "agentDir": "/home/node/.openclaw/agents/wxlee/agent",
         "model": {
-          "primary": "nvidia/deepseek-ai/deepseek-v4-flash",
+          "primary": "minimax-portal/MiniMax-M2.7-highspeed",
           "fallbacks": [
-            "zai/glm-4.7-flash",
-            "minimax/MiniMax-M2.7"
+            "minimax-portal/MiniMax-M2.7",
+            "nvidia/minimaxai/minimax-m2.7"
           ]
         }
       },

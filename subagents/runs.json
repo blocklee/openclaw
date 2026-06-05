@@ -1,46 +1,4 @@
 {
   "version": 2,
-  "runs": {
-    "e6d7eab7-3273-44ef-8386-1be15a556b98": {
-      "runId": "e6d7eab7-3273-44ef-8386-1be15a556b98",
-      "childSessionKey": "agent:main:subagent:541674a2-365b-4c54-80bf-60b0ecaf14e3",
-      "controllerSessionKey": "agent:main:feishu:main:direct:ou_f786171f9e21bf5a09c3116b2e77aaff",
-      "requesterSessionKey": "agent:main:feishu:main:direct:ou_f786171f9e21bf5a09c3116b2e77aaff",
-      "requesterOrigin": {
-        "channel": "feishu",
-        "to": "user:ou_f786171f9e21bf5a09c3116b2e77aaff",
-        "accountId": "main"
-      },
-      "requesterDisplayKey": "agent:main:feishu:main:direct:ou_f786171f9e21bf5a09c3116b2e77aaff",
-      "task": "Test NVIDIA model: deepseek-ai/deepseek-v4-flash with a simple message 'Hello'",
-      "cleanup": "keep",
-      "expectsCompletionMessage": true,
-      "spawnMode": "run",
-      "label": "nvidia_test_deepseek_flash",
-      "model": "nvidia/deepseek-ai/deepseek-v4-flash",
-      "agentDir": "/home/node/.openclaw/agents/main/agent",
-      "workspaceDir": "/home/node/.openclaw/workspace",
-      "runTimeoutSeconds": 30,
-      "createdAt": 1779690065488,
-      "startedAt": 1779690069000,
-      "sessionStartedAt": 1779622170099,
-      "accumulatedRuntimeMs": 31205,
-      "cleanupHandled": true,
-      "retainAttachmentsOnKeep": false,
-      "endedAt": 1779690988591,
-      "outcome": {
-        "status": "ok",
-        "startedAt": 1779690069000,
-        "endedAt": 1779690988591,
-        "elapsedMs": 919591
-      },
-      "endedReason": "subagent-complete",
-      "frozenResultText": "NVIDIA model `deepseek-ai/deepseek-v4-flash` tested. Results:\n\n**DNS Issue:** Container can't resolve `api.openrouter.ai` (DNS ENOTFOUND), but `openrouter.ai` resolves fine. Had to use direct IP with `Host` header.\n\n**Model Resolution:**\n- ❌ `nvidia/deepseek-ai/deepseek-v4-flash` — **not a valid model ID** on OpenRouter (400 error)\n- ❌ `nvidia/deepseek-v4-flash` — also invalid\n- ✅ `deepseek/deepseek-v4-flash` — valid, works\n\n**Response (to \"Hello\"):**\n- Model: `deepseek/deepseek-v4-flash-20260423`\n- Provider: SiliconFlow\n- Completion: ✅ Friendly Chinese greeting (\"你好！😊...\")\n- 5 prompt → 193 completion tokens (including 144 reasoning tokens)\n- Cost: $0.000055\n- Finish reason: `stop`\n- Native reasoning content visible in response\n\n**TL;DR:** The model is alive and responding well. The OpenRouter slug is `deepseek/deepseek-v4-flash`, not the `nvidia/` prefix. DNS resolution is broken for `api.openrouter.ai` subdomain in this environment — worth noting.",
-      "frozenResultCapturedAt": 1779690989713,
-      "cleanupCompletedAt": 1779691002526,
-      "endedHookEmittedAt": 1779691002520,
-      "completionDeliveredAt": 1779691002257,
-      "completionAnnouncedAt": 1779691002257
-    }
-  }
+  "runs": {}
 }

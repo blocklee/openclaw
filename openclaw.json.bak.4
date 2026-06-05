@@ -1,7 +1,7 @@
 {
   "meta": {
     "lastTouchedVersion": "2026.5.19",
-    "lastTouchedAt": "2026-05-23T04:07:49.701Z"
+    "lastTouchedAt": "2026-05-23T10:19:20.549Z"
   },
   "env": {
     "OPENROUTER_API_KEY": "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",
@@ -9,12 +9,12 @@
     "GOOGLE_API_KEY": "AIzaSyBDw5RCCBvH-ugpqg5kt1ocqWsiv-PR41U",
     "VOLCENGINE_PLAN_API_KEY": "ca89d2f0-5be7-4df4-a437-b14d6540e495",
     "VOLCENGINE_PLAN_default_API_KEY": "ca89d2f0-5be7-4df4-a437-b14d6540e495",
-    "NVIDIA_API_KEY": "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"
+    "NVIDIA_API_KEY": "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"
   },
   "wizard": {
-    "lastRunAt": "2026-05-20T16:07:49.153Z",
+    "lastRunAt": "2026-05-23T10:19:19.448Z",
     "lastRunVersion": "2026.5.19",
-    "lastRunCommand": "doctor",
+    "lastRunCommand": "configure",
     "lastRunMode": "local"
   },
   "auth": {
@@ -42,6 +42,10 @@
       "volcengine:default": {
         "provider": "volcengine",
         "mode": "api_key"
+      },
+      "minimax-portal:default": {
+        "provider": "minimax-portal",
+        "mode": "oauth"
       }
     }
   },
@@ -250,6 +254,12 @@
             "maxTokens": 8192
           }
         ]
+      },
+      "minimax-portal": {
+        "baseUrl": "https://api.minimaxi.com/anthropic/v1",
+        "api": "anthropic-messages",
+        "authHeader": true,
+        "models": []
       }
     }
   },
@@ -260,9 +270,10 @@
         "fallbacks": [
           "nvidia/deepseek-ai/deepseek-v4-pro",
           "nvidia/deepseek-ai/deepseek-v4-flash",
-	  "nvidia/minimaxai/minimax-m2.7",
-	  "nvidia/z-ai/glm4.7",
-	  "zai/glm-4.7-flash"
+          "nvidia/minimaxai/minimax-m2.7",
+          "nvidia/z-ai/glm4.7",
+          "zai/glm-4.7-flash",
+          "minimax/MiniMax-M2.7-highspeed"
         ]
       },
       "imageGenerationModel": {
@@ -286,7 +297,14 @@
         "nvidia/deepseek-ai/deepseek-v4-pro": {},
         "nvidia/deepseek-ai/deepseek-v4-flash": {},
         "nvidia/z-ai/glm4.7": {},
-        "zai/glm-4.7-flash": {}
+        "zai/glm-4.7-flash": {},
+        "minimax-portal/MiniMax-M2.7": {
+          "alias": "minimax-m2.7"
+        },
+        "minimax-portal/MiniMax-M2.7-highspeed": {
+          "alias": "minimax-m2.7-highspeed"
+        },
+        "minimax/MiniMax-M2.7-highspeed": {}
       },
       "workspace": "/home/node/.openclaw/workspace",
       "memorySearch": {
@@ -298,8 +316,12 @@
         "mode": "default",
         "reserveTokensFloor": 30000
       },
+      "timeoutSeconds": 1800,
       "blockStreamingDefault": "on",
-      "blockStreamingBreak": "message_end",
+      "blockStreamingBreak": "text_end",
+      "blockStreamingChunk": { "minChars": 800, "maxChars": 1200 },
+      "blockStreamingCoalesce": { "idleMs": 1000 },
+      "humanDelay": { "mode": "natural" },
       "subagents": {
         "maxSpawnDepth": 2,
         "maxChildrenPerAgent": 4,
@@ -432,7 +454,19 @@
     }
   ],
   "messages": {
-    "ackReactionScope": "group-mentions"
+    "responsePrefix": "auto",
+    "ackReaction": "👀",
+    "removeAckAfterReply": false,
+    "ackReactionScope": "group-mentions",
+    "queue": {
+      "mode": "steer",
+      "debounceMs": 500,
+      "cap": 20,
+      "drop": "summarize"
+    },
+    "inbound": {
+      "debounceMs": 1500
+    }
   },
   "commands": {
     "native": "auto",
@@ -620,10 +654,10 @@
         "enabled": false
       },
       "model-usage": {
-        "enabled": false
+        "enabled": true
       },
       "nano-pdf": {
-        "enabled": false
+        "enabled": true
       },
       "obsidian": {
         "enabled": false
@@ -650,7 +684,7 @@
         "enabled": false
       },
       "session-logs": {
-        "enabled": false
+        "enabled": true
       },
       "sherpa-onnx-tts": {
         "enabled": false
@@ -689,7 +723,7 @@
         "enabled": false
       },
       "summarize": {
-        "enabled": false
+        "enabled": true
       },
       "doc-summarize-pro": {
         "enabled": true

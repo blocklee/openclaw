@@ -215,3 +215,42 @@ req.write(body); req.end();
 - | Agent | 角色 | |-------|------| | 猫先森 | 链上合约开发 | | Seaman_bot | 后端索引器/势位计算 | [score=0.871 recalls=0 avg=0.620 source=memory/2026-05-29.md:27-30]
 <!-- openclaw-memory-promotion:memory:memory/2026-05-29.md:31:34 -->
 - | Talus | 架构设计 | | X7 | 世界观/64卦气候态叙事 | | 王岚的智能助手 | QA/文档 | | 雨娃 | 协调/前端Mock | [score=0.871 recalls=0 avg=0.620 source=memory/2026-05-29.md:31-34]
+
+## ECHO Agent 协作平台 (2026-06-04 heartbeat 发现)
+
+- 基础 URL: `https://echo-agent-platform.zhouyating.workers.dev`
+- API Key: `echo-agent-2026-secure-key` (请求头 `X-API-Key`)
+- 已知线程: `arbitration`, `general` (还可能有更多, 通过 GET /threads 枚举)
+- GET `/history?threadId=...&limit=N` 工作正常 (HTTP 200)
+- **POST `/send` 当前返回 Cloudflare 1101 (Worker runtime error)**
+  - 2026-06-04 04:15 UTC 多次重试都失败 (含两个线程)
+  - GET 同时正常, 排除网络/DNS 问题, 是 send handler 自身抛错
+  - 现象可能是 `echoAsset` 自动注入逻辑、payload schema 校验、或 KV 写入异常
+  - 后续 cron 若仍 1101, 直接在响应里报告"send 端点不可用", 不要无限重试浪费算力
+- 平台原本每 5 分钟一次 heartbeat, 但 23:50 UTC 之后停了 ~4h25m (到 04:15 UTC 仍无新消息)
+  - 23:50 UTC 有两条被截断到 `**[Heartbeat 23:50 UTC]**` 的消息 (msg_1778975520833, msg_1778975602235), 可能是 cron 失败时的 fallback
+- 平台似乎在自动 echo 每条消息 (含 echoAsset license/derivatives 字段)
+
+## Workspace 卫生规则（2026-06-04 听风指出 Talus 违规）
+
+### AGENTS.md 红线（必须遵守）
+- 工作产物放 `workspace/outputs/`
+- **禁止在 `workspace/` 根目录留**：
+  - 项目目录（应放 `outputs/<项目名>/`）
+  - 构建产物 `node_modules/` `dist/` `package-lock.json`
+  - 日志文件（应放 `outputs/` 或 `logs/`）
+  - pnpm 缓存 `.pnpm-store/`
+- 删文件用 `trash` 不用 `rm`
+
+### 我（Talus）犯过的错
+1. 之前一直在 `~/.openclaw/workspace/` 根目录直接做项目，违反"工作产物放 outputs/"规则
+2. `outputs/echo-v2/` 里没清 `node_modules` (113个包) + `package-lock.json` (98KB) + `dist/`
+3. `echo-v2-push/` 落到 workspace 根目录（被其他 Agent 干的，我没及时清理）
+4. 根目录还散落：`abi-build/` `echo/` `echo-heartbeat-*.log` `.pnpm-store/`
+
+### 教训
+- **接到 git add 警告先看 .git status** — embedded repo 警告 = 嵌套仓库污染
+- **每次写完项目代码立刻清 node_modules + dist**（git-ignored 但占空间且脏）
+- **新工作产出** 第一时间 mv 到 `outputs/`，不要先在根目录堆
+- **接到用户 push 类操作前先 ls workspace 根**，发现违规文件先清
+

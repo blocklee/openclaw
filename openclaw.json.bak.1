@@ -1,7 +1,7 @@
 {
   "meta": {
     "lastTouchedVersion": "2026.5.19",
-    "lastTouchedAt": "2026-05-27T16:53:40.674Z"
+    "lastTouchedAt": "2026-05-28T11:59:46.579Z"
   },
   "env": {
     "OPENROUTER_API_KEY": "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",
@@ -109,30 +109,6 @@
           }
         ]
       },
-      "minimax": {
-        "baseUrl": "https://api.minimaxi.com/anthropic",
-        "api": "anthropic-messages",
-        "authHeader": true,
-        "models": [
-          {
-            "id": "MiniMax-M2.7",
-            "name": "MiniMax M2.7",
-            "api": "anthropic-messages",
-            "reasoning": true,
-            "input": [
-              "text"
-            ],
-            "cost": {
-              "input": 0.3,
-              "output": 1.2,
-              "cacheRead": 0.06,
-              "cacheWrite": 0.375
-            },
-            "contextWindow": 204800,
-            "maxTokens": 131072
-          }
-        ]
-      },
       "zai": {
         "baseUrl": "https://api.z.ai/api/paas/v4",
         "api": "openai-completions",
@@ -194,6 +170,15 @@
         "baseUrl": "https://generativelanguage.googleapis.com/v1beta/openai",
         "api": "openai-completions",
         "models": [
+          {
+            "id": "text-embedding-004",
+            "name": "Text Embedding 004",
+            "input": [
+              "text"
+            ],
+            "contextWindow": 30720,
+            "maxTokens": 30720
+          },
           {
             "id": "gemini-2.5-flash-lite",
             "name": "Gemini 2.5 Flash-Lite",
@@ -268,16 +253,16 @@
       "model": {
         "primary": "minimax-portal/MiniMax-M2.7",
         "fallbacks": [
+          "minimax-portal/MiniMax-M2.7-highspeed",
+          "nvidia/z-ai/glm4.7",
           "nvidia/deepseek-ai/deepseek-v4-pro",
           "nvidia/deepseek-ai/deepseek-v4-flash",
           "nvidia/minimaxai/minimax-m2.7",
-          "nvidia/z-ai/glm4.7",
-          "zai/glm-4.7-flash",
-          "minimax/MiniMax-M2.7-highspeed"
+          "nvidia/z-ai/glm4.7"
         ]
       },
       "imageGenerationModel": {
-        "primary": "nvidia/minimaxai/minimax-m2.7",
+        "primary": "minimax-portal/image-01",
         "fallbacks": []
       },
       "models": {
@@ -303,8 +288,7 @@
         },
         "minimax-portal/MiniMax-M2.7-highspeed": {
           "alias": "minimax-m2.7-highspeed"
-        },
-        "minimax/MiniMax-M2.7-highspeed": {}
+        }
       },
       "workspace": "/home/node/.openclaw/workspace",
       "memorySearch": {
@@ -382,6 +366,19 @@
             "nvidia/minimaxai/minimax-m2.7"
           ]
         }
+      },
+      {
+        "id": "custor",
+        "name": "custor",
+        "workspace": "/home/node/.openclaw/workspace-custor",
+        "agentDir": "/home/node/.openclaw/agents/custor/agent",
+        "model": {
+          "primary": "google/gemini-2.5-flash",
+          "fallbacks": [
+            "minimax-portal/MiniMax-M2.7",
+            "zai/glm-4.7-flash"
+          ]
+        }
       }
     ]
   },
@@ -455,6 +452,14 @@
       "match": {
         "channel": "feishu",
         "accountId": "xiaoye"
+      }
+    },
+    {
+      "type": "route",
+      "agentId": "custor",
+      "match": {
+        "channel": "feishu",
+        "accountId": "custor"
       }
     }
   ],
@@ -541,6 +546,12 @@
           "appSecret": "kfNGYuW5vlPEL71PwYsK7f8UrMg31WHB",
           "name": "xiaoye",
           "domain": "lark"
+        },
+        "custor": {
+          "appId": "cli_aa985d88e5f85cc5",
+          "appSecret": "P4G9TiSfCZVKCy3me44GfekdyDYjCCFg",
+          "name": "Custor",
+          "domain": "feishu"
         },
         "default": {
           "dmPolicy": "pairing",

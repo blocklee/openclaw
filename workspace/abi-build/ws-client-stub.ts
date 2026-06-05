@@ -1,0 +1,1 @@
+type RawLog = any;

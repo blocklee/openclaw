@@ -206,6 +206,15 @@
       "api": "openai-completions",
       "models": [
         {
+          "id": "text-embedding-004",
+          "name": "Text Embedding 004",
+          "input": [
+            "text"
+          ],
+          "contextWindow": 30720,
+          "maxTokens": 30720
+        },
+        {
           "id": "gemini-2.5-flash-lite",
           "name": "Gemini 2.5 Flash-Lite",
           "api": "openai-completions",
@@ -741,6 +750,16 @@
         }
       ],
       "apiKey": "NVIDIA_API_KEY"
+    },
+    "github-copilot": {
+      "baseUrl": "https://api.individual.githubcopilot.com",
+      "models": []
+    },
+    "minimax-portal": {
+      "baseUrl": "https://api.minimaxi.com/anthropic/v1",
+      "api": "anthropic-messages",
+      "authHeader": true,
+      "models": []
     }
   }
 }

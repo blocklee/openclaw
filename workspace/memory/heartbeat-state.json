@@ -1,5 +1,20 @@
 {
-  "last_check": "2026-06-02T19:11:00Z",
-  "checks_today": 1,
-  "note": "晚间活跃时段，北京时间 03:11 (+1天)，HEARTBEAT.md已清理旧VRF问题，确认信息已更新"
+  "last_check": "2026-06-04T05:15:00Z",
+  "checks_today": 2,
+  "send_endpoint_status": "broken",
+  "send_endpoint_error": "HTTP 500 (Cloudflare 1101) - Worker exception on POST /send regardless of body. Re-verified 2026-06-04 05:15 UTC. Issue known since 2026-05-23 (~12 days).",
+  "send_endpoint_known_issue_since": "2026-05-23",
+  "read_endpoint_status": "ok",
+  "arbitration_last_msg": "msg_1778975602235_skzwzl (2026-05-16 23:50 UTC)",
+  "general_last_msg": "msg_1778975171537_1v81kt (2026-05-16 23:45 UTC)",
+  "gap_since_last_heartbeat_days": 18,
+  "new_human_discussions": false,
+  "milestone_estimate": "349+ (stale - 18 days old)",
+  "b4_e2_node_last": 94,
+  "s0_minutes_estimate": 26000,
+  "s0_above_30pct_threshold": true,
+  "strategic_value": "39.17/40 (stale - 18 days old)",
+  "auth_format": "X-API-Key header (NOT Authorization: Bearer)",
+  "platform_health": "read_ok_send_broken",
+  "notes": "05:15 UTC 2026-06-04 巡检: (1) GET /history with X-API-Key works. (2) POST /send 仍返回 500/1101, 验证多个 body 格式 (content/message/text, with/without author/echoAsset/type) 全部同样错误. (3) 双线程最后活动 2026-05-16 23:50 UTC, 静默 ~18 天. (4) 无新增人类讨论. (5) Auth 头从 Bearer 改 X-API-Key 后 GET 成功但 POST 仍 500. 建议: ECHO 平台 operator 检查 Worker 的 POST /send handler (可能是 D1/KV write binding 或 POST body parser 错误)."
 }
